@@ -1,0 +1,22 @@
+.root {
+    :global(.bp3-control.bp3-radio) {
+        vertical-align: top;
+    }
+
+    .upload-img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .file-input {
+        display: none;
+    }
+
+    .logo {
+        margin-top: 5px;
+    }
+
+    .error-message {
+        margin-top: 10px;
+    }
+}

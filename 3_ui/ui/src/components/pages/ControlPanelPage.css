@@ -1,0 +1,42 @@
+.root {
+    .process {
+        .delete {
+            opacity: 0;
+            pointer-events: none;
+            float: right;
+        }
+
+        &:hover {
+            .delete {
+                opacity: 1;
+                pointer-events: unset;
+
+                &:hover {
+                    fill: red;
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+}
+
+.breadcrumb {
+    pointer-events: none;
+}
+
+.application-bar {
+    margin-left: 10px;
+
+    :global .bp3-tab {
+        color: white;
+
+        &:hover {
+            color: navajowhite;
+        }
+    }
+
+    :global(.bp3-tabs) {
+        margin-left: auto;
+    }
+}

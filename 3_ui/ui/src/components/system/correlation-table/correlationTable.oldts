@@ -1,0 +1,358 @@
+import utility = require("utility");
+require('./parts/axisCorner.ts');
+require('./parts/axisCoordinateTable.ts');
+
+require("./correlationTable.styl");
+var Rainbow = require('rainbowvis.js');
+
+require("bootstrap/js/tooltip.js");
+
+import {correlationMock} from "./mock";
+
+export class CorrelationTableController {
+    // @ngInject
+    constructor(private $element : JQuery, private $scope: ng.IScope, private $timeout:ng.ITimeoutService, private $document:ng.IDocumentService, private $compile) {
+        this.coordinateGradient = new Rainbow();
+        this.coordinateGradient.setSpectrum('red', 'white', 'green');
+        this.coordinateGradient.setNumberRange(-1, 1);
+
+        $timeout(() => {
+            this.synchronizeWidthsAndHeights();
+        }, 0);
+    }
+
+    synchronizeWidthsAndHeights = () => {
+
+        var headerRow = this.$element.find('.header-row');
+
+        this.$element.find(`.row-headers .axis-level`).each((i, element) => {
+            var width = element.getBoundingClientRect().width;
+            var axis = headerRow.find(`[axis-level='${i}']`)
+            //axis.css('padding-left', width);
+            //
+            //var verticalRowAxisWidth = this.$element.find(`.row-headers .axis-level[axis-level='${this.data.axes.length - 1}']`)[0].getBoundingClientRect().width;
+            //this.$element.find('.axes-corner .inner-axis').css('width', verticalRowAxisWidth)
+            //
+            //var this.$element.find(`.row-headers .axis-level`)[axis-level='0']`)[0].getBoundingClientRect().width;
+        });
+    }
+
+    coordinateGradient;
+    selection = new Array(2);
+
+    /**
+     * Indicates if the indicated header should be marked as selected
+     * @param level         Axis level/depth
+     * @param index         Index of the column/row. -1 to avoid checking.
+     * @param isRow         True if the request is for a row header, false if it is for a column
+     * @returns {boolean}   True to mark as selected, false otherwise.
+     */
+    isHeaderSelected(level, index, isRow) {
+        var selection = isRow ? this.selection[0] : this.selection[1];
+
+        if (selection != null) {
+            return (index == selection[level]);
+        }
+        else
+            return false;
+    }
+
+    isQuardrantBorderingCell(row, col) {
+        var isBordering = false;
+
+        if (this.data.axes.length > 1) {
+            var lastAxisLength = this.data.coordinates[this.data.axes[this.data.axes.length - 1]].length;
+            var previousAxisLength = this.data.coordinates[this.data.axes[this.data.axes.length - 2]].length;
+            var quadrantSize = lastAxisLength / previousAxisLength;
+
+            isBordering = (row != -1 && ((row + 1) % quadrantSize == 0)) || (col != -1 && ((col + 1) % quadrantSize == 0));
+        }
+
+        return isBordering;
+    }
+
+
+    getNestedCoordinateFromLevel(level, index) {
+        var flatIndex = index;
+        var levels = [];
+
+        levels.push(flatIndex);
+
+        for (var l = level - 1; l >= 0; l--) {
+            var currentAxis = this.data.coordinates[this.data.axes[l]];
+            var childAxis = this.data.coordinates[this.data.axes[l + 1]];
+
+            flatIndex = Math.floor(flatIndex / (childAxis.length / currentAxis.length));
+            levels.unshift(flatIndex);
+        }
+
+        return levels;
+    }
+
+    getNestedCoordinate(row, col) {
+        var coordinates = [];
+        var flatIndex = row;
+
+        for (var i = 0; i < 2; i++) {
+            if (i == 0)
+                flatIndex = row;
+            else
+                flatIndex = col;
+
+            coordinates.push(this.getNestedCoordinateFromLevel(this.data.axes.length - 1, flatIndex));
+        }
+
+
+        /*
+         $.each(this.data.axes, (level, axis)=> {
+         $.each(this.data.coordinates[axis], (valueIndex, product)=> {
+         var times = this.data.coordinates["Time-step"];
+
+         if (coordinates[0] == null) {
+         if (row < times.length)
+         coordinates[0] = [level, row, row == times.length - 1];
+         else
+         row -= times.length;
+         }
+
+         if (coordinates[1] == null) {
+         if (col < times.length)
+         coordinates[1] = [valueIndex, col, col == times.length - 1];
+         else
+         col -= times.length;
+         }
+         })
+         });*/
+
+        return coordinates;
+    }
+
+    /**
+     * Cell hover callback
+     * @param row   The row of the cell
+     * @param col   The col of the cell
+     */
+    cellHoverIn(row, col) {
+        this.selection = this.getNestedCoordinate(row, col);
+    }
+
+    /**
+     * call hover out callback
+     * @param row   The row of the cell
+     * @param col   The col of the cell
+     */
+    cellHoverOut(row, col) {
+        this.selection = new Array(2);
+    }
+
+    chartType;
+    chartData;
+    renderLocation="Partial";
+
+    cellClick(value, $event)
+    {
+        var rootRect = this.$element.get(0).getBoundingClientRect();
+        var elementRect = $event.currentTarget.getBoundingClientRect();
+
+        //var rootBorderWidth = parseInt(this.$element.css("border-width"));
+        var x = (elementRect.left - rootRect.left);
+        var centerX = x + elementRect.width/2;
+        var y = (elementRect.top - rootRect.top);
+        var centerY = y + elementRect.height/2;
+
+        var width = 500;
+        var height = 500;
+
+        //con-chart(chart-type="scatter", chart-data="vm.chartData")
+
+        require('charting/chartDirective.ts');
+
+        if (value == 1) {
+            this.chartData = require('query-tool/ui/highcharts/mockData/pdf.mock.ts').getMockData(1);
+            this.chartType="pdf";
+        }
+        else {
+            this.chartData = require('query-tool/ui/highcharts/mockData/scatter.mock.json');
+            this.chartType="scatter";
+        }
+
+
+        var newScope = this.$scope.$new();
+        var chartLocationLeft = (centerX - width/2);
+        var chartLocationTop = (centerY - height/2);
+
+        //var elem:any = this.$compile('<con-chart chart-type="vm.chartType" chart-data="vm.chartData" tabindex="0" class="chart-container" style="position:absolute;"> </con-chart>')(this.$scope);
+        var elem:any = this.$compile('<con-chart chart-type="vm.chartType" chart-data="vm.chartData" chart-render-location="vm.renderLocation" tabindex="0" class="chart-container" style="position:absolute;' +
+            'left:' + (centerX - width/2) + 'px;' +
+            'top:' + (centerY - height/2) +'px;' +
+            'width:' + width +'px;' +
+            'height:'+ height + 'px;' + '"> </con-chart>')(newScope);
+
+        this.$element.append(elem);
+
+        elem = this.$element.get(0);
+        elem = elem.lastChild;
+
+        elem.style.height = height + 'px';
+        elem.style.width = width + 'px';
+
+        // Initial state
+        elem.style.transform = "scale(0.01)";
+
+        elem.addEventListener("mousewheel", ($event) => {
+            $event.preventDefault();
+        }, true);
+
+        // Make sure the initial state is applied.
+        window.getComputedStyle(elem).transform;
+
+        // Set final state.
+        elem.style.left = Math.max(chartLocationLeft, rootRect.left) + "px";
+        elem.style.top = Math.max(chartLocationTop, rootRect.top) + "px";
+        elem.style.transform = "scale(1)";
+
+        elem.focus();
+
+        // ESC key up
+        this.$document.keyup((e) => {
+            if (e.keyCode === 27) {
+                this.dismissChart(elem, newScope, chartLocationLeft, chartLocationTop);
+            }
+        });
+
+
+        elem.onblur = () => {
+           this.dismissChart(elem, newScope, chartLocationLeft, chartLocationTop);
+        }
+    }
+
+    dismissChart(elem, scope, centeredLocationLeft, centeredLocationRight)
+    {
+        elem.style.transform = "scale(0.01)";
+        elem.style.left = centeredLocationLeft + "px";
+        elem.style.top = centeredLocationRight + "px";
+
+        this.$timeout(()=>{
+            scope.$destroy();
+            elem.remove();
+        },1000)
+    }
+
+    /**
+     * header Hover in callback
+     * @param level         axis level/depth. aka the axis index in the axis array.
+     * @param index         index of this header in the parent header
+     * @param isRow         Indicates if the header is on the row or column
+     * @param $event        The $event object of this action
+     */
+    headerHoverIn(level, index, isRow, $event) {
+        var rootRect = this.$element.get(0).getBoundingClientRect();
+        var elementRect = $event.currentTarget.getBoundingClientRect();
+
+        // Find out the width of the border that may or may not have belong to the element
+        var elementBorderWidth;
+        var borderProperty = isRow ? "border-bottom-width" : "border-right-width";
+        if (index == -1)
+            elementBorderWidth = 2; //TODO: hardcoding for now, will be 5x one the quadrants are separated
+        else
+            elementBorderWidth = parseInt($($event.currentTarget.parentNode.children[0]).css(borderProperty));
+
+        // Calculate any offsets that are needed to adjust the x/y values to convert the border
+        var xOffset = 0;
+        var yOffset = 0;
+        if (isRow)
+            yOffset = -elementBorderWidth;
+        else
+            xOffset = -elementBorderWidth;
+
+
+        // Calculate positioning and bounds
+        // Note: Absolute position takes the parent border into account, e.g. if the parent border is 1px, and we attempt
+        // to position at 0,0 the element will actually be positioned at 1,1 so we will need to adjust for the border width.
+        var rootBorderWidth = parseInt(this.$element.css("border-width"));
+        var x = (elementRect.left - rootRect.left - rootBorderWidth) + xOffset;
+        var y = (elementRect.top - rootRect.top - rootBorderWidth) + yOffset;
+        var height = isRow ? elementRect.height + elementBorderWidth : rootRect.bottom - elementRect.top;
+        var width = isRow ? rootRect.right - elementRect.left : elementRect.width + elementBorderWidth;
+
+        this.selection[isRow ? 0 : 1] = this.getNestedCoordinateFromLevel(level, index);
+
+        // Some cells will own one of its borders, e.g. inner row headers draw the bottom borders.
+        // however edge cells won't draw any borders, so account for that here.
+        if ($($event.currentTarget).css(borderProperty) == "0px") {
+            if (isRow)
+                height += elementBorderWidth;
+            else
+                width += elementBorderWidth;
+        }
+
+        //this.cellHoverIn(row, col)
+        var removalBorderProperty = isRow ? "border-left: 0px;" : "border-top: 0px;";
+
+        this.$element.append('<div class="selection-box", style="position:absolute;' +
+            'left:' + x + 'px;' +
+            'top:' + y + 'px;' +
+            'width:' + width + 'px;' +
+            'height:' + height + 'px;' +
+            removalBorderProperty + '"> </div>')
+    }
+
+    /**
+     * header hover out callback. Resets any selections/hover actions that were performed.
+     */
+    headerHoverOut() {
+        $('.selection-box').remove();
+        this.selection = new Array(2);
+    }
+
+    valueBackgroundColor(value:number) {
+        let sqRoot = Math.sqrt(Math.abs(value));
+        if (value < 0) {
+            sqRoot *= -1;
+        }
+
+        var result = "#" + this.coordinateGradient.colourAt(sqRoot);
+        //console.log(value, " -> ", result);
+        return result;
+    }
+
+    calcCellValue(value:number) {
+        var newValue = Math.abs(value);
+        var valueString;
+
+        if (newValue == 1)
+            valueString = 1;
+        else
+            valueString = newValue.toFixed(2).replace(/^0+/, '');
+
+        return value < 0 ? "-" + valueString : valueString;
+    }
+
+    axisBackgroundColor(index:number):string {
+        //turn "rgb(0, 0, " + (127 + index * 10) + ")";
+        return (index % 2) == 0 ? "#376092" : "#4F81BD";
+    }
+
+    //var choice = prompt("Use which mock data? \n'1' for single level \n'2' for 2 levels \n'3' for 3 levels \n'4' for 4 levels \n'5' for 3 levels with big data", '1');
+    //var mockData;
+
+    data = correlationMock.getMockData(correlationMock.MockType.threeLevelBigData);
+}
+
+utility.registerDirective('conCorrelationTable', ($timeout:ng.ITimeoutService):ng.IDirective => {
+    return {
+        template: require("./correlationTable.jade"),
+        scope: {},
+        controller: CorrelationTableController,
+        bindToController: {
+        },
+        link: () =>
+        {
+            $timeout(()=> {
+                var button:any = $('[data-toggle="tooltip"]');
+                button.tooltip();
+            },0);
+        },
+        controllerAs: "vm",
+    }
+})

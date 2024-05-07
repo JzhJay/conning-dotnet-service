@@ -1,0 +1,11 @@
+.root {
+    background:white;
+}
+
+.empty-report-page {
+    text-align:center;
+    padding: 1em;
+    :global .list {
+        margin:auto !important;
+    }
+}

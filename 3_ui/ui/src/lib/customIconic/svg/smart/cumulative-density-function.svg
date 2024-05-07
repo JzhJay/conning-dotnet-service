@@ -1,0 +1,126 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+     width="128" height="128" 
+     viewBox="0 0 128 128" 
+     data-icon="histogram" 
+     class="iconic iconic-cumulative-density-function">
+     
+    <g><title>Cumulative Density Function</title></g>
+
+    <g class="iconic-cdf-chart-lg iconic-container iconic-lg"> 
+        <g class="iconic-cdf-smoothing iconic-cdf-smoothing-most">  
+            <path class="iconic-cdf-curve-fill iconic-cdf-curve-fill-1 iconic-property-accent" fill="#0000FF" d="M100.597,15c-9.4846,0-18.0795,5.5856-21.9315,14.2527l-19.331,43.4946 C55.4825,81.4144,46.8876,87,37.4031,87H20v13h98V15H100.597z"/>
+            <path class="iconic-cdf-curve-line iconic-cdf-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="square" d="M21,87h16.403 c9.4845,0,18.0794-5.5856,21.9315-14.2527l19.331-43.4946C82.5175,20.5856,91.1124,15,100.597,15H117"/>
+        </g>
+        <!--grid-->
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-major iconic-cdf-chart-tick-11 iconic-property-stroke" d="M1,5.25h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-major iconic-cdf-chart-tick-10 iconic-property-stroke" d="M1,25.25h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-major iconic-cdf-chart-tick-9 iconic-property-stroke" d="M1,45.25h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-major iconic-cdf-chart-tick-8 iconic-property-stroke" d="M1,65.25h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-major iconic-cdf-chart-tick-7 iconic-property-stroke" d="M1,85.25h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-minor iconic-cdf-chart-tick-6 iconic-property-stroke" d="M1-4.75h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-minor iconic-cdf-chart-tick-5 iconic-property-stroke" d="M1,15.256h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-minor iconic-cdf-chart-tick-4 iconic-property-stroke" d="M1,35.25h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-minor iconic-cdf-chart-tick-3 iconic-property-stroke" d="M1,55.25h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-minor iconic-cdf-chart-tick-2 iconic-property-stroke" d="M1,75.25h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-minor iconic-cdf-chart-tick-1 iconic-property-stroke" d="M1,95.25h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cdf-chart-axes iconic-property-stroke" d="M127,105.2236 H1v-110"/>
+        <!--/grid-->
+    </g>
+  
+    <g id="iconic-cdf-chart-md" data-width="32" data-height="32" class="iconic-cdf-chart-md iconic-container iconic-md" display="inline"  transform="scale(4)"> 
+        <g class="iconic-cdf-smoothing iconic-cdf-smoothing-default">            
+            <path class="iconic-cdf-curve-fill iconic-cdf-curve-fill-1 iconic-property-accent" fill="#0000FF" d="M24.8992,4.5c-2.3712,0-4.5198,1.3964-5.4828,3.5632l-4.8328,10.8737 C13.6206,21.1036,11.4719,22.5,9.1008,22.5H6V28h25V4.5H24.8992z"/>
+            <path class="iconic-cdf-curve-line iconic-cdf-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="square" d="M6.5,22.5h2.6008c2.3711,0,4.5199-1.3964,5.4829-3.5632 l4.8327-10.8737C20.3794,5.8964,22.5281,4.5,24.8992,4.5H30.5"/>
+        </g>
+        <!--grid-->
+        <g id="iconic-cdf-chart-grid-md">
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-major iconic-cdf-chart-tick-1 iconic-property-stroke" d="M1.5,1.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-minor iconic-cdf-chart-tick-2 iconic-property-stroke" d="M1.5,4.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-major iconic-cdf-chart-tick-3 iconic-property-stroke" d="M1.5,7.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-minor iconic-cdf-chart-tick-4 iconic-property-stroke" d="M1.5,10.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-major iconic-cdf-chart-tick-5 iconic-property-stroke" d="M1.5,13.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-minor iconic-cdf-chart-tick-6 iconic-property-stroke" d="M1.5,16.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-major iconic-cdf-chart-tick-7 iconic-property-stroke" d="M1.5,19.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-minor iconic-cdf-chart-tick-8 iconic-property-stroke" d="M1.5,22.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-major iconic-cdf-chart-tick-9 iconic-property-stroke" d="M1.5,25.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-minor iconic-cdf-chart-tick-10 iconic-property-stroke" d="M1.5,28.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cdf-chart-axes iconic-property-stroke" d="M30.5,31.5h-29v-30"/>
+        </g>
+        <!--/grid-->
+    </g>
+  
+    <g class="iconic-cdf-chart-sm iconic-container iconic-sm" data-width="16" data-height="16" display="none" transform="scale(8)">
+        <g class="iconic-cdf-smoothing iconic-cdf-smoothing-least" display="inline">
+            <path class="iconic-cdf-curve-fill iconic-cdf-curve-fill-1 iconic-property-accent" fill="#0000FF" d="M16,13H3V9.5h2.3593c1.3374,0,2.5863-0.6684,3.3282-1.7812l1.6251-2.4376 C11.0544,4.1684,12.3033,3.5,13.6407,3.5H16V13z"/>
+            <path class="iconic-cdf-curve-line iconic-cdf-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="square" d="M3.5,9.5h1.8593c1.3374,0,2.5863-0.6684,3.3282-1.7812l1.6251-2.4376 C11.0544,4.1684,12.3033,3.5,13.6407,3.5H15.5"/>
+        </g>
+        <!--grid-->
+        <path stroke="#000" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-5 iconic-property-stroke" fill="none" d="M0.5,0.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-4 iconic-property-stroke" fill="none" d="M0.5,3.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-3 iconic-property-stroke" fill="none" d="M0.5,6.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-2 iconic-property-stroke" fill="none" d="M0.5,9.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-cdf-chart-tick iconic-cdf-chart-tick-1 iconic-property-stroke" fill="none" d="M0.5,12.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-cdf-chart-axes iconic-property-stroke" fill="none" d="M15.5,15.5h-15v-15"/>
+        <!--/grid-->
+    </g>
+
+<!-- 
+    <script class="iconic-api" type="application/ecmascript">
+        //<![CDATA[
+        //TODO: Minify JS code
+        //TODO: Remove console.log() output
+        var iconicApis = window._Iconic ? window._Iconic.smartIconApis : {};
+        iconicApis["cumulative-density-function"] = iconicApis["cumulative-density-function"] || function(t) {
+        
+            window.logging = true;
+    
+            $c().log("Staring cumulative-density-function ...");
+    
+            var f1 = function(degreeOfSmoothing) {
+    
+                $c().log("degreeOfSmoothing is: " + degreeOfSmoothing);
+    
+                var smoothing = 0;
+                if (! isNaN(degreeOfSmoothing)) smoothing = parseInt(degreeOfSmoothing);
+    
+                t.setAttribute("data-degree-of-smoothing", smoothing);
+        
+                $c().log("Smoothing value is: " + smoothing);
+        
+                var attr = "default";
+                switch (smoothing) {
+        
+                    case -2:
+                        attr = "least";
+                        break;
+                    case -1:
+                        attr = "less";
+                        break;
+                    case 1:
+                        attr = "more";
+                        break;
+                    case 2:
+                        attr = "most";
+                        break;
+                    case 0:
+                    default:
+                        attr = "default";
+                        break;
+                }
+        
+                $c(t).off([".iconic-cdf-smoothing"]);
+                $c(t).on([".iconic-cdf-smoothing-" + attr]);
+            };
+            var f2 = function() {
+                var e = t.getAttribute("data-degree-of-smoothing");
+                e && f1(e)
+            };
+            return {
+                update: f2,
+                setDegreeOfSmoothing: f1
+            }
+        };
+        //]]>
+    </script>
+ -->
+</svg>

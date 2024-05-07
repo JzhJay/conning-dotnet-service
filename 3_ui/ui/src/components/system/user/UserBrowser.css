@@ -1,0 +1,11 @@
+.simulation-chooser {
+}
+
+.simulation-chooser-modal:global(.ui.modal) {
+    margin: 10em auto !important;
+    position: initial;
+    //max-width:1200px;
+    min-height: 20em;
+    text-align: center;
+}
+

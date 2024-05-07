@@ -1,0 +1,9 @@
+.root {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+
+    > * {
+        margin: 10px auto;
+    }
+}

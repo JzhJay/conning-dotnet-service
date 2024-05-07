@@ -1,0 +1,23 @@
+﻿{
+  "name": "Model",
+  "extension": "dfa",
+  "objectType": "Model",
+  "createdBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+  "modifiedBy": null,
+  "createdTime": "2018-06-19T18:37:32.328Z",
+  "modifiedTime": null
+},
+{
+"name": "Simulation",
+"extension": "dfs",
+"objectType": "Simulation",
+"createdBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+"createdTime": "2018-06-19T18:37:32.328Z",
+},
+{
+"name": "Batch Import File",
+"icon": "csv.svg",
+"extension": "csv",
+"createdBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+"createdTime": "2018-06-19T18:37:32.328Z",
+}

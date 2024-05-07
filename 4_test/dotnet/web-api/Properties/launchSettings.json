@@ -1,0 +1,31 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:55556/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/instances",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SSM_PARAMETERS_PATH": "/ControlPlane"
+      }
+    },
+    "web_api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/instances",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SSM_PARAMETERS_PATH": "/ControlPlane/NodeGroup/ng-99116a9a"
+      },
+      "applicationUrl": "http://localhost:5000/"
+    }
+  }
+}

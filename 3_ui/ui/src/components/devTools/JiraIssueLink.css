@@ -1,0 +1,71 @@
+.jira-issue {
+    display:        inline-flex;
+    align-items:    center;
+    vertical-align: middle;
+
+    &[jira-issue="done"] {
+        .status .text {
+            color: green;
+        }
+    }
+
+    .issueDetails {
+        display: flex;
+        > * {
+            padding: 0 2px;
+        }
+    }
+
+    > * {
+        margin-left: 10px;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    &:hover {
+        text-decoration: none !important;
+    }
+
+    .status {
+
+        .text {
+            text-transform: capitalize;
+        }
+    }
+
+    .summary {
+        font-size:       14px;
+        text-overflow:   ellipsis;
+        color:           black;
+    }
+
+    .key {
+        font-size:12px;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    [data-id="tooltip"] {
+        max-width:400px;
+        > div {
+            margin-top: 5px;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+
+        label {
+            width:       100px;
+            font-weight: bold;
+            display:     inline-block;
+            color:       white;
+            opacity:     1;
+
+        }
+
+        :global(.value) {
+            text-align: right;
+        }
+    }
+}

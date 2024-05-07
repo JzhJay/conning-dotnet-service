@@ -1,0 +1,347 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+     width="128" height="128" 
+     viewBox="0 0 128 128" 
+     data-icon="histogram" 
+     class="iconic iconic-histogram">
+     
+    <g><title>Histogram</title></g>
+
+    <g class="iconic-histogram-chart-lg iconic-container iconic-lg" data-width="128" data-height="128" display="none" transform="translate(0 8)"> 
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-least" display="none">
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-1 iconic-property-accent" fill="#001F7E" d="M40,102H16V74h24V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M39.5,101.5h-23v-27h23V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-2 iconic-property-accent" fill="#001F7E" d="M78,102H54V18h24V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-2 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M54.5,18.5h23v83h-23V18.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-3 iconic-property-accent" fill="#001F7E" d="M116,102H92V74h24V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-3 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M92.5,74.5h23v27h-23V74.5z"/>
+        </g>
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-less" display="none">
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-1 iconic-property-accent" fill="#001F7E" d="M31,102H13V78h18V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M30.5,101.5h-17v-23h17V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-2 iconic-property-accent" fill="#001F7E" d="M53,102H35V38h18V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-2 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M52.5,101.5h-17v-63h17V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-3 iconic-property-accent" fill="#001F7E" d="M75,102H57V5h18V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-3 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M74.5,101.5h-17v-96h17V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-4 iconic-property-accent" fill="#001F7E" d="M97,102H79V38h18V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-4 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M96.5,101.5h-17v-63h17V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-5 iconic-property-accent" fill="#001F7E" d="M119,102h-18V78h18V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-5 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M118.5,101.5h-17v-23h17V101.5z"/>
+        </g>
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-default" display="inline">
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-1 iconic-property-accent" fill="#001F7E" d="M24,102H12v-8h12V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M23.5,101.5h-11v-7h11V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-2 iconic-property-accent" fill="#001F7E" d="M40,102H28V78h12V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-2 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M39.5,101.5h-11v-23h11V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-3 iconic-property-accent" fill="#001F7E" d="M56,102H44V38h12V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-3 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M55.5,101.5h-11v-63h11V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-4 iconic-property-accent" fill="#001F7E" d="M72,102H60V5h12V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-4 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M71.5,101.5h-11v-96h11V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-5 iconic-property-accent" fill="#001F7E" d="M88,102H76V38h12V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-5 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M87.5,101.5h-11v-63h11V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-6 iconic-property-accent" fill="#001F7E" d="M104,102H92V78h12V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-6 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M103.5,101.5h-11v-23h11V101.5z"/>
+        
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-7 iconic-property-accent" fill="#001F7E" d="M120,102h-12v-8h12V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-7 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M119.5,101.5h-11v-7h11V101.5z"/>
+        </g>
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-more" display="none">
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-1 iconic-property-accent" fill="#001F7E" d="M13,94h8v8h-8V94z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M13.5,94.5h7v7h-7V94.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-2 iconic-property-accent" fill="#001F7E" d="M25,78h8v24h-8V78z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-2 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M25.5,78.5h7v23h-7V78.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-3 iconic-property-accent" fill="#001F7E" d="M37,60h8v42h-8V60z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-3 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M37.5,60.5h7v41h-7V60.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-4 iconic-property-accent" fill="#001F7E" d="M49,30h8v72h-8V30z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-4 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M49.5,30.5h7v71h-7V30.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-5 iconic-property-accent" fill="#001F7E" d="M61,6h8v96h-8V6z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-5 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M61.5,6.5h7v95h-7V6.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-6 iconic-property-accent" fill="#001F7E" d="M81,102h-8V30h8V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-6 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M80.5,101.5h-7v-71h7V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-7 iconic-property-accent" fill="#001F7E" d="M93,102h-8V60h8V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-7 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M92.5,101.5h-7v-41h7V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-8 iconic-property-accent" fill="#001F7E" d="M105,102h-8V78h8V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-8 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M104.5,101.5h-7v-23h7V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-9 iconic-property-accent" fill="#001F7E" d="M117,102h-8v-8h8V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-9 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M116.5,101.5h-7v-7h7V101.5z"/>
+        </g>
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-most" display="none">
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-1 iconic-property-accent" fill="#001F7E" d="M15,102H8v-4h7V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M14.5,101.5h-6v-3h6V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-2 iconic-property-accent" fill="#001F7E" d="M24,102h-7v-8h7V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-2 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M23.5,101.5h-6v-7h6V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-3 iconic-property-accent" fill="#001F7E" d="M33,102h-7V81h7V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-3 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M32.5,101.5h-6v-20h6V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-4 iconic-property-accent" fill="#001F7E" d="M42,102h-7V57h7V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-4 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M41.5,101.5h-6v-44h6V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-5 iconic-property-accent" fill="#001F7E" d="M51,102h-7V30h7V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-5 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M50.5,101.5h-6v-71h6V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-6 iconic-property-accent" fill="#001F7E" d="M60,102h-7V6h7V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-6 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M59.5,101.5h-6v-95h6V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-7 iconic-property-accent" fill="#001F7E" d="M69,102h-7V-6h7V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-7 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M68.5,101.5h-6V-6.5h6V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-8 iconic-property-accent" fill="#001F7E" d="M78,102h-7V6h7V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-8 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M77.5,101.5h-6v-95h6V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-9 iconic-property-accent" fill="#001F7E" d="M87,102h-7V30h7V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-9 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M86.5,101.5h-6v-71h6V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-10 iconic-property-accent" fill="#001F7E" d="M96,102h-7V57h7V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-10 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M95.5,101.5h-6v-44h6V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-11 iconic-property-accent" fill="#001F7E" d="M105,102h-7V81h7V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-11 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M104.5,101.5h-6v-20h6V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-12 iconic-property-accent" fill="#001F7E" d="M114,102h-7v-8h7V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-12 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M113.5,101.5h-6v-7h6V101.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-13 iconic-property-accent" fill="#001F7E" d="M123,102h-7v-4h7V102z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-13 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M122.5,101.5h-6v-3h6V101.5z"/>
+        </g>
+        <!--grid-->
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-major iconic-histogram-chart-tick-11 iconic-property-stroke" d="M1,5.2236h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-major iconic-histogram-chart-tick-10 iconic-property-stroke" d="M1,25.2236h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-major iconic-histogram-chart-tick-9 iconic-property-stroke" d="M1,45.2236h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-major iconic-histogram-chart-tick-8 iconic-property-stroke" d="M1,65.2236h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-major iconic-histogram-chart-tick-7 iconic-property-stroke" d="M1,85.2236h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-minor iconic-histogram-chart-tick-6 iconic-property-stroke" d="M1-4.7764h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-minor iconic-histogram-chart-tick-5 iconic-property-stroke" d="M1,15.2236h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-minor iconic-histogram-chart-tick-4 iconic-property-stroke" d="M1,35.2236h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-minor iconic-histogram-chart-tick-3 iconic-property-stroke" d="M1,55.2236h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-minor iconic-histogram-chart-tick-2 iconic-property-stroke" d="M1,75.2236h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-minor iconic-histogram-chart-tick-1 iconic-property-stroke" d="M1,95.2236h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-histogram-chart-axes iconic-property-stroke" d="M127,105.2236 H1v-110"/>
+        <!--/grid-->
+    </g>
+  
+    <g id="iconic-histogram-chart-md" data-width="32" data-height="32" class="iconic-histogram-chart-md iconic-container iconic-md" display="inline"  transform="scale(4)"> 
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-most" display="none">
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-1 iconic-property-accent" fill="#001F7E" d="M5,29v1H4v-1H5z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-2 iconic-property-accent" fill="#001F7E" d="M7,28v2H6v-2H7z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-3 iconic-property-accent" fill="#001F7E" d="M9,27v3H8v-3H9z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-4 iconic-property-accent" fill="#001F7E" d="M11,23v7h-1v-7H11z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-5 iconic-property-accent" fill="#001F7E" d="M13,17v13h-1V17H13z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-6 iconic-property-accent" fill="#001F7E" d="M15,11v19h-1V11H15z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-7 iconic-property-accent" fill="#001F7E" d="M17,9v21h-1V9H17z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-8 iconic-property-accent" fill="#001F7E" d="M19,11v19h-1V11H19z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-9 iconic-property-accent" fill="#001F7E" d="M21,17v13h-1V17H21z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-10 iconic-property-accent" fill="#001F7E" d="M23,23v7h-1v-7H23z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-11 iconic-property-accent" fill="#001F7E" d="M25,27v3h-1v-3H25z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-12 iconic-property-accent" fill="#001F7E" d="M27,28v2h-1v-2H27z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-13 iconic-property-accent" fill="#001F7E" d="M29,29v1h-1v-1H29z"/>
+        </g>
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-more" display="none">
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-1 iconic-property-accent" fill="#001F7E" d="M6,27v3H4v-3H6z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M5.5,27.5v2h-1v-2H5.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-2 iconic-property-accent" fill="#001F7E" d="M9,25v5H7v-5H9z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-2 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M8.5,25.5v4h-1v-4H8.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-3 iconic-property-accent" fill="#001F7E" d="M12,20v10h-2V20H12z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-3 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M11.5,20.5v9h-1v-9H11.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-4 iconic-property-accent" fill="#001F7E" d="M15,13v17h-2V13H15z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-4 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M14.5,13.5v16h-1v-16H14.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-5 iconic-property-accent" fill="#001F7E" d="M18,9v21h-2V9H18z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-5 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M17.5,9.5v20h-1v-20H17.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-6 iconic-property-accent" fill="#001F7E" d="M21,13v17h-2V13H21z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-6 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M20.5,13.5v16h-1v-16H20.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-7 iconic-property-accent" fill="#001F7E" d="M24,20v10h-2V20H24z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-7 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M23.5,20.5v9h-1v-9H23.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-8 iconic-property-accent" fill="#001F7E" d="M27,25v5h-2v-5H27z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-8 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M26.5,25.5v4h-1v-4H26.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-9 iconic-property-accent" fill="#001F7E" d="M30,27v3h-2v-3H30z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-9 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M29.5,27.5v2h-1v-2H29.5z"/>
+        </g>
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-default">            
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-1 iconic-property-accent" fill="#001F7E" d="M7,26v4H4v-4H7z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M6.5,26.5v3h-2v-3H6.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-2 iconic-property-accent" fill="#001F7E" d="M11,24v6H8v-6H11z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-2 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M10.5,24.5v5h-2v-5H10.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-3 iconic-property-accent" fill="#001F7E" d="M15,15v15h-3V15H15z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-3 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M14.5,15.5v14h-2v-14H14.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-4 iconic-property-accent" fill="#001F7E" d="M19,7v23h-3V7H19z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-4 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M18.5,7.5v22h-2v-22H18.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-5 iconic-property-accent" fill="#001F7E" d="M23,15v15h-3V15H23z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-5 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M22.5,15.5v14h-2v-14H22.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-6 iconic-property-accent" fill="#001F7E" d="M27,24v6h-3v-6H27z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-6 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M26.5,24.5v5h-2v-5H26.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-7 iconic-property-accent" fill="#001F7E" d="M31,26v4h-3v-4H31z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-7 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M30.5,26.5v3h-2v-3H30.5z"/>
+        </g>
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-less" display="none">
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-1 iconic-property-accent" fill="#001F7E" d="M5,30v-5h4v5H5z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M5.5,29.5v-4h3v4H5.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-2 iconic-property-accent" fill="#001F7E" d="M14,17v13h-4V17H14z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-2 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M13.5,17.5v12h-3v-12H13.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-3 iconic-property-accent" fill="#001F7E" d="M19,10v20h-4V10H19z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-3 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M18.5,10.5v19h-3v-19H18.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-4 iconic-property-accent" fill="#001F7E" d="M24,17v13h-4V17H24z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-4 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M23.5,17.5v12h-3v-12H23.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-5 iconic-property-accent" fill="#001F7E" d="M29,25v5h-4v-5H29z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-5 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M28.5,25.5v4h-3v-4H28.5z"/>
+        </g>
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-least" display="none">
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-1 iconic-property-accent" fill="#001F7E" d="M11,23v7H5v-7H11z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M10.5,23.5v6h-5v-6H10.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-2 iconic-property-accent" fill="#001F7E" d="M20,10v20h-6V10H20z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-2 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M19.5,10.5v19h-5v-19H19.5z"/>
+
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-3 iconic-property-accent" fill="#001F7E" d="M29,23v7h-6v-7H29z"/>
+            <path class="iconic-histogram-curve-line iconic-histogram-curve-line-3 iconic-property-stroke iconic-property-accent" fill="none" stroke="#FF0000" stroke-width="1" d="M28.5,23.5v6h-5v-6H28.5z"/>
+        </g>
+        
+        <!--grid-->
+        <g id="iconic-histogram-chart-grid-md">
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-major iconic-histogram-chart-tick-1 iconic-property-stroke" d="M1.5,1.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-minor iconic-histogram-chart-tick-2 iconic-property-stroke" d="M1.5,4.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-major iconic-histogram-chart-tick-3 iconic-property-stroke" d="M1.5,7.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-minor iconic-histogram-chart-tick-4 iconic-property-stroke" d="M1.5,10.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-major iconic-histogram-chart-tick-5 iconic-property-stroke" d="M1.5,13.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-minor iconic-histogram-chart-tick-6 iconic-property-stroke" d="M1.5,16.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-major iconic-histogram-chart-tick-7 iconic-property-stroke" d="M1.5,19.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-minor iconic-histogram-chart-tick-8 iconic-property-stroke" d="M1.5,22.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-major iconic-histogram-chart-tick-9 iconic-property-stroke" d="M1.5,25.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-minor iconic-histogram-chart-tick-10 iconic-property-stroke" d="M1.5,28.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-histogram-chart-axes iconic-property-stroke" d="M30.5,31.5h-29v-30"/>
+        </g>
+        <!--/grid-->
+    </g>
+  
+    <g class="iconic-histogram-chart-sm iconic-container iconic-sm" data-width="16" data-height="16" display="none" transform="scale(8)">
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-least" display="none">
+
+        </g>
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-less" display="none">
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-1 iconic-property-accent" fill="#001F7E" d="M7,14H4V9h3V14z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-2 iconic-property-accent" fill="#001F7E" d="M11,14H8V2h3V14z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-3 iconic-property-accent" fill="#001F7E" d="M15,14h-3V9h3V14z"/>
+        </g>
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-default" display="inline">
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-1 iconic-property-accent" fill="#001F7E" d="M4.75,14H3V9h1.75V14z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-2 iconic-property-accent" fill="#001F7E" d="M7.5625,14h-1.75V6h1.75V14z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-3 iconic-property-accent" fill="#001F7E" d="M10.375,14h-1.75V2h1.75V14z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-4 iconic-property-accent" fill="#001F7E" d="M13.1875,14h-1.75V6h1.75V14z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-5 iconic-property-accent" fill="#001F7E" d="M16,14h-1.75V9H16V14z"/>
+        </g>
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-more" display="none">
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-1 iconic-property-accent" fill="#001F7E" d="M4,14H3v-2h1V14z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-2 iconic-property-accent" fill="#001F7E" d="M16,14h-1v-2h1V14z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-3 iconic-property-accent" fill="#001F7E" d="M6,14H5V9h1V14z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-4 iconic-property-accent" fill="#001F7E" d="M8,14H7V4h1V14z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-5 iconic-property-accent" fill="#001F7E" d="M10,14H9V0h1V14z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-6 iconic-property-accent" fill="#001F7E" d="M12,14h-1V4h1V14z"/>
+            <path class="iconic-histogram-curve-fill iconic-histogram-curve-fill-7 iconic-property-accent" fill="#001F7E" d="M14,14h-1V9h1V14z"/>
+        </g>
+        <g class="iconic-histogram-smoothing iconic-histogram-smoothing-most" display="none">
+
+        </g>
+        <!--grid-->
+        <path stroke="#000" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-5 iconic-property-stroke" fill="none" d="M0.5,0.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-4 iconic-property-stroke" fill="none" d="M0.5,3.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-3 iconic-property-stroke" fill="none" d="M0.5,6.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-2 iconic-property-stroke" fill="none" d="M0.5,9.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-histogram-chart-tick iconic-histogram-chart-tick-1 iconic-property-stroke" fill="none" d="M0.5,12.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-histogram-chart-axes iconic-property-stroke" fill="none" d="M15.5,15.5h-15v-15"/>
+        <!--/grid-->
+    </g>
+
+    <script class="iconic-api" type="application/ecmascript">
+        //<![CDATA[
+        //TODO: Minify JS code
+        //TODO: Remove console.log() output
+        var iconicApis = window._Iconic ? window._Iconic.smartIconApis : {};
+        iconicApis["histogram"] = iconicApis["histogram"] || function(t) {
+        
+            window.logging = true;
+    
+            $c().log("Staring histogram ...");
+    
+            var f1 = function(degreeOfSmoothing) {
+    
+                $c().log("degreeOfSmoothing is: " + degreeOfSmoothing);
+    
+                var smoothing = 0;
+                if (! isNaN(degreeOfSmoothing)) smoothing = parseInt(degreeOfSmoothing);
+    
+                t.setAttribute("data-degree-of-smoothing", smoothing);
+        
+                $c().log("Smoothing value is: " + smoothing);
+        
+                var attr = "default";
+                switch (smoothing) {
+        
+                    case -2:
+                        attr = "least";
+                        break;
+                    case -1:
+                        attr = "less";
+                        break;
+                    case 1:
+                        attr = "more";
+                        break;
+                    case 2:
+                        attr = "most";
+                        break;
+                    case 0:
+                    default:
+                        attr = "default";
+                        break;
+                }
+        
+                $c(t).off([".iconic-histogram-smoothing"]);
+                $c(t).on([".iconic-histogram-smoothing-" + attr]);
+            };
+            var f2 = function() {
+                var e = t.getAttribute("data-degree-of-smoothing");
+                e && f1(e)
+            };
+            return {
+                update: f2,
+                setDegreeOfSmoothing: f1
+            }
+        };
+        //]]>
+    </script>
+</svg>

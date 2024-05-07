@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="investment-optimization-128" class="iconning iconning-investment-optimization-128" viewBox="0 0 128 128" id="investment-optimization128">
+    <g class="iconning-metadata">
+        <title>Investment Optimization</title>
+    </g>
+    <g class="iconning-container" data-width="128" data-height="128">
+        <!-- Frontier Line -->
+        <path class="iconning iconning-investment_optimization iconning-investment_optimization-128 iconning-line" d="M 11.22798075940184 116.77201924059815 A 105.54403848119632 105.54403848119632 0 0 1 116.77201924059817 11.22798075940183" stroke="rgb(  0,  0,  0)" stroke-width="4.0" stroke-linecap="round" style="fill:none"/>
+        <!-- Frontier Points -->
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-128 iconning-point" cx="11.227980759401845" cy="116.77201924059815" r="8.22798075940184" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-128 iconning-point" cx="14.824306660763384" cy="89.45521198463122" r="8.22798075940184" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-128 iconning-point" cx="25.3682006978798" cy="63.99999999999999" r="8.22798075940184" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-128 iconning-point" cx="42.14111391673032" cy="42.141113916730305" r="8.22798075940184" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-128 iconning-point" cx="64.0" cy="25.368200697879786" r="8.22798075940184" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-128 iconning-point" cx="89.45521198463123" cy="14.82430666076337" r="8.22798075940184" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-128 iconning-point" cx="116.77201924059817" cy="11.22798075940183" r="8.22798075940184" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

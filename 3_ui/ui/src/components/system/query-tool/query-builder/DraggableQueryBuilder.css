@@ -1,0 +1,25 @@
+.query-builder-component {
+	composes: query-builder-component from '../../../../styles/themes/conning-theme.css';
+
+	display:flex;
+    overflow:auto;
+	flex: 1 1 auto;
+
+    /*.ui.loader {*/
+        /*top:25%;*/
+    /*}*/
+
+	/*width: 100%;*/
+	/*overflow-x:scroll;*/
+
+	> * {
+		flex:1;
+		width:100%;
+	}
+}
+
+.is-running {
+    pointer-events: none;
+    filter:         blur(2px);
+}
+

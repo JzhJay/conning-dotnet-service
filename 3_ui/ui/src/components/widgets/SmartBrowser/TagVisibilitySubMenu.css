@@ -1,0 +1,15 @@
+.root {
+
+}
+
+.container {
+    ul {
+        display:               grid !important;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.toggle-tag-visibility {
+    margin-bottom: 0px;
+    margin-right: 0px;
+}

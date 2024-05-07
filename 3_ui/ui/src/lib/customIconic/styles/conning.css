@@ -1,0 +1,65 @@
+/* Iconic theme rules. Don't delete! */
+
+/*
+@mixin iconic-color($color) {
+  fill: $color;
+  stroke: $color;
+}*/
+
+/* Hide all icons that are waiting to be injected */
+img.iconic {
+  visibility:hidden;
+}
+
+/* Make sure filled and text elements only get fills */
+.iconic-property-fill, .iconic-property-text {
+  stroke: none !important;
+}
+
+/* Make sure stroked elements only get strokes */
+.iconic-property-stroke {
+  fill: none !important;
+}
+
+
+/* Theme-specific rules */
+/*
+.iconic * {
+  //@include iconic-color(black);
+}*/
+
+.iconic-cdf-curve-fill {
+	fill:rgb(195, 225, 182);
+}
+
+.iconic-cdf-curve-line {
+	stroke:rgb(17, 170, 75);
+}
+
+.iconic-histogram-curve-fill {
+	fill:rgb(17, 170, 75);
+}
+
+.iconic-cone-plot-fill-1,.iconic-cone-plot-fill-2 {
+	fill:rgb(0, 98, 37);
+}
+
+.iconic-cone-plot-fill-3,.iconic-cone-plot-fill-4 {
+	fill:rgb(138, 32, 3);
+}
+
+.iconic-cone-line {
+	stroke:rgb(255, 192, 0);
+}
+
+.iconic-cone-point-fill,.iconic-cone-point-stroke {
+	fill:rgb(255, 192, 0);
+}
+
+.iconic-add-view-plus, .iconic-add-view-fill{
+	fill:gray;
+}
+
+.iconic-add-view-edge{
+	stroke:black;
+}

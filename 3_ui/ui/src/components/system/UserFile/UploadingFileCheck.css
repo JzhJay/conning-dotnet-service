@@ -1,0 +1,91 @@
+.dialog {
+    width: auto;
+}
+
+.main {
+    padding: 10px 10px 0px 10px;
+    max-height: 87vh;
+    overflow: auto;
+}
+
+.callout {
+    margin-bottom: 5px;
+}
+
+.callout-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-file {
+    display: none !important;
+}
+
+.file-buttons {
+    margin-left: 50px;
+}
+
+.upload-type {
+    padding-left: 5px;
+}
+
+.upload-button {
+    margin-left: 5px;
+}
+
+.bottom {
+    padding: 10px 10px 0px 0px;
+    text-align: right;
+}
+
+.float-proces {
+    z-index: 50;
+}
+
+.upload-status {
+    min-width: 100%;
+    max-width: 50vw;
+    margin-top: 10px;
+
+    .upload-status-title-container {
+        margin-bottom: 5px;
+    }
+
+    .upload-status-progress-container {
+        padding: 10px 0px;
+    }
+
+    .upload-status-group {
+        display: flex;
+        align-items: center;
+
+        .upload-status-icon {
+            flex-grow: 0;
+            flex-shrink: 0;
+            padding-right: 0.5rem;
+
+            i {
+                line-height: 1;
+                font-size: 28px;
+                margin-right: 0;
+            }
+        }
+
+        .upload-status-title {
+            flex-grow: 1;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        & + .upload-status-group {
+            margin-top: 12px;
+        }
+    }
+
+    :global(.ui.segment) {
+        padding: 0px 8px !important;
+        margin-top: 0px;
+    }
+}

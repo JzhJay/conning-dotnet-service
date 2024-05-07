@@ -1,0 +1,86 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, NetEscapades.AspNetCore.SecurityHeaders.TagHelpers
+@model Conning.Kui.Web.GlobalSettings
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@Model.clientGlobals.product</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="@Model.clientGlobals.product"/>
+    <link rel="shortcut icon" href="@Url.Content("~/favicon.ico")" type="image/x-icon"/>
+
+    @* Todo - Which fonts do we really need / use? *@
+    <link rel="stylesheet prefetch" href="@Url.Content("~/ui/fonts/Lato/css/lato.css")" asp-append-version="true" />
+    <link rel="stylesheet prefetch" href="@Url.Content("~/ui/fonts/OpenSans/css/opensans.css")" asp-append-version="true" />
+    <link rel="stylesheet prefetch" href="@Url.Content("~/ui/fonts/font-awesome/css/fontawesome-all.min.css")" asp-append-version="true" />
+    <link rel="stylesheet prefetch" href="@Url.Content("~/ui/lib/semantic/semantic.min.css")" asp-append-version="true" />
+    <link rel="stylesheet prefetch" href="@Url.Content("~/ui/lib/blueprint/core/lib/css/blueprint.css")" asp-append-version="true" />
+    <link rel="stylesheet prefetch" href="@Url.Content("~/ui/lib/blueprint/table/lib/css/table.css")" asp-append-version="true" />
+    <link rel="stylesheet prefetch" href="@Url.Content("~/ui/lib/blueprint/select/lib/css/blueprint-select.css")" asp-append-version="true" />
+    <link rel="stylesheet prefetch" href="@Url.Content("~/ui/lib/blueprint/datetime/lib/css/blueprint-datetime.css")" asp-append-version="true" />
+    <link rel="stylesheet prefetch" href="@Url.Content("~/ui/lib/wijmo/wijmo.min.css")" asp-append-version="true" />
+    <link rel="stylesheet prefetch" href="@Url.Content("~/ui/lib/wijmo/themes/wijmo.theme.office.css")" asp-append-version="true" />
+    <link rel="stylesheet prefetch" href="@Url.Content("~/ui/lib/blueprint/icons/lib/css/blueprint-icons.css")" asp-append-version="true" />
+
+    @if (Model.debugBuild)
+    {
+        <link rel="stylesheet prefetch" href="@Url.Content("~/ui/vendors.css")" asp-append-version="true"/>
+        <link rel="stylesheet prefetch" href="@Url.Content("~/ui/conning-ui.css")" asp-append-version="true"/>
+    }
+    else
+    {
+        <link rel="stylesheet prefetch" href="@Url.Content("~/ui/vendors.min.css")" asp-append-version="true"/>
+        <link rel="stylesheet prefetch" href="@Url.Content("~/ui/conning-ui.min.css")" asp-append-version="true"/>
+    }
+
+</head>
+<body class="conning app ui">
+<div class="react-app loading"></div>
+<script type="text/javascript" asp-add-nonce>
+window.conning = {
+    globals: @Html.Raw(Json.Serialize(Model.clientGlobals))
+};
+</script>
+
+@* Our Libraries *@
+@if (Model.debugBuild)
+{
+    <script src="@Url.Content("~/ui/lib/keycloak-js/dist/keycloak.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/external.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/wijmo/wijmo.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/wijmo/wijmo.gauge.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/wijmo/wijmo.input.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/wijmo/wijmo.nav.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/wijmo/wijmo.grid.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/wijmo/interop/react/wijmo.react.min.js")" asp-append-version="true"></script>   
+    <script src="@Url.Content("~/ui/lib/tinymce/tinymce.js")" asp-append-version="true"></script>     
+    <script src="@Url.Content("~/ui/vendors.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/Iconic/js/iconic.min.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/iconicUpdate.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/conning-ui.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/runtime~conning-ui.js")" asp-append-version="true"></script>
+}
+else
+{
+    <script src="@Url.Content("~/ui/lib/keycloak-js/dist/keycloak.min.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/external.min.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/wijmo/wijmo.min.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/wijmo/wijmo.gauge.min.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/wijmo/wijmo.input.min.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/wijmo/wijmo.nav.min.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/wijmo/wijmo.grid.min.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/wijmo/interop/react/wijmo.react.min.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/tinymce/tinymce.min.js")" asp-append-version="true"></script>     
+    <script src="@Url.Content("~/ui/vendors.min.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/lib/Iconic/js/iconic.min.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/iconicUpdate.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/conning-ui.min.js")" asp-append-version="true"></script>
+    <script src="@Url.Content("~/ui/runtime~conning-ui.min.js")" asp-append-version="true"></script>
+}
+
+@* @Html.ReactInitJavaScript() *@
+</body>
+</html>

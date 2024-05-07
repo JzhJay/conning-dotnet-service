@@ -1,0 +1,91 @@
+.root {
+    >:global(.bp3-submenu):first-child {
+        display: none; /*Bug that opens first submenu. https://github.com/palantir/blueprint/issues/2863*/
+    }
+
+    > :global(.bp3-switch) {
+        margin: 0px 9px;
+        padding: 6px 0 6px 38px;
+
+        :global(.bp3-control-indicator) {
+            top: 6px;
+        }
+    }
+
+    .pages  {
+
+        ul>div {
+            overflow: auto;
+            max-height: 50vh;
+        }
+
+        :global(.bp3-transition-container) {
+
+        }
+    }
+}
+
+:global(.bp3-active).view {
+    background:var(--selected-background) !important;
+}
+
+:global .bp3-menu-item {
+    margin: 2px;
+}
+
+.sortable-menu-item {
+    display: flex;
+    align-items: center;
+    margin: 2px;
+
+    .sortable-menu-item-drag-icon {
+        cursor: row-resize;
+        margin: 4px;
+    }
+
+    .sortable-menu-item-title {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        padding: 5px 17px 5px 7px;
+        border-radius: 3px;
+        cursor: pointer;
+        white-space: nowrap;
+
+        &:hover {
+            background-color: rgba(167, 182, 194, 0.3);
+        }
+        svg {
+            margin-right: 8px;
+        }
+    }
+
+    .sortable-menu-item-right {
+        padding-left: 4px;
+        visibility: hidden;
+
+        :global(.bp3-icon) {
+            margin: 5px;
+            cursor: pointer;
+            color: #5c7080;
+        }
+
+        &:hover :global(.bp3-icon) {
+            color: #c23030;
+         }
+    }
+
+    &:hover .sortable-menu-item-right {
+        visibility: visible;
+    }
+}
+
+.sortable-menu:global(.is-dragging) {
+    .sortable-menu-item-title:hover {
+        background-color: transparent;
+    }
+
+    .sortable-menu-item-right {
+         visibility: hidden !important;
+    }
+}

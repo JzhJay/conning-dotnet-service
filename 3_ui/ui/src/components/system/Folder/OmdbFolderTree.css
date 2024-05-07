@@ -1,0 +1,28 @@
+.root {
+    overflow:hidden;
+    width:100%;
+    flex:1;
+
+    display:flex;
+    flex-direction: column;
+
+    :global {
+        .bp3-navbar {
+            flex: 0 0 auto;
+            .bp3-navbar-group {
+                margin:0;
+            }
+
+            .bp3-navbar-heading {
+                font-weight: bold;
+                margin-left:.5em;
+            }
+            border-bottom: var(--row-separator-border);
+        }
+
+        .bp3-tree {
+            flex:1;
+            overflow:auto;
+        }
+    }
+}

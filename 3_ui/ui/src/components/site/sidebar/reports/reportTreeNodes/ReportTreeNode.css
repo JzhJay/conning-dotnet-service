@@ -1,0 +1,42 @@
+.label {
+    > span {
+        color:          var(--theme-color-secondary) !important;
+        margin-right:   8px;
+        font-size:      16px;
+        text-align:     center;
+        vertical-align: middle;
+        line-height:    32px;
+    }
+}
+
+.tree-node-label {
+    display: flex;
+    flex-direction: row;
+
+    :global img.iconic.icon {
+        visibility: visible;
+        width:24px !important;
+        height:24px !important;
+    }
+
+    :global .bp3-editable-text {
+        .bp3-editable-content {
+            height:28px;
+            line-height:28px;
+        }
+    }
+}
+/*
+
+.query-view-tree-node {
+    height:  auto !important;
+
+    & > :global(.bp3-tree-node-content) {
+        height:      auto !important;
+        align-items: flex-start;
+
+        :global .bp3-tree-node-label {
+            margin-left:-9px;
+        }
+    }
+}*/

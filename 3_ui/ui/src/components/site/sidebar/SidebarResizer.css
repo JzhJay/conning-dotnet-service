@@ -1,0 +1,8 @@
+.root {
+    display: block;
+    height: calc(100%);
+    cursor: col-resize;
+    z-index: 200;
+    background: var(--theme-border-color);
+    width:3px;
+}

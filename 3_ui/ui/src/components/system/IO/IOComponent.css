@@ -1,0 +1,73 @@
+.navigation-overlay {
+    position: absolute;
+    z-index: 1001;
+    background-color: rgba(255, 255, 255, .4) !important;
+    top: 50%;
+    pointer-events: none;
+
+    a {
+        pointer-events: all;
+    }
+
+    svg {
+        height: 50px;
+        width: 50px;
+        color: black !important;
+    }
+}
+
+.navigation-overlay[data-direction=right] {
+     right: 0px;
+ }
+
+
+/*
+Workaround Chrome bug that triggers hover on siblings while dragging
+https://github.com/react-dnd/react-dnd/issues/476
+*/
+:global {
+    .sortable-ghost {
+        background-color: rgba(167, 182, 194, 0.3) !important;
+    }
+
+    .is-dragging {
+        :not(.sortable-ghost)  {
+            .bp3-menu-item {
+                background-color: white !important;
+            }
+        }
+
+        .bp3-menu-item-label button {
+            background-color: white !important;
+            opacity: 0 !important;
+        }
+    }
+}
+
+@keyframes flexGrow {
+    from {
+        flex: .00001;
+    }
+
+    to {
+        flex: 1;
+    }
+}
+
+@keyframes flexShrink {
+    from {
+        flex: 1;
+    }
+    to {
+        flex: .00001;
+    }
+}
+
+.no-data {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}

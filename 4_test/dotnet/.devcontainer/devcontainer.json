@@ -1,0 +1,18 @@
+{
+    "name": "Advise Dotnet",
+    "dockerFile": "Dockerfile",
+    "postAttachCommand": {
+      "host": "echo $(dig +short host.docker.internal) advise.test >> \/etc\/hosts",
+      "hint": "echo 'To start dotnet server: dotnet run --project web-api/web-api.csproj'",
+      "hint2": "echo 'To build production build: dotnet publish -c Release web-api -o dist'"
+    },
+    "runArgs": [],
+    "forwardPorts": [5000],
+    "mounts": [
+      "source=${env:HOME}${env:USERPROFILE}/.aws,target=/root/.aws,type=bind"
+    ],
+    "containerEnv": {
+      "EnvironmentName": "Development",
+      "AWS_REGION": "us-east-1"
+    }
+}

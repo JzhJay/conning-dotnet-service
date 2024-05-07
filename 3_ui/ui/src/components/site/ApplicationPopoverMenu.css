@@ -1,0 +1,59 @@
+.root {
+    white-space: nowrap;
+
+    :global .bp3-icon:first-child {
+        margin: 0;
+    }
+
+    :global .bp3-icon[data-icon="caret-down"] {
+        margin-right: 0px !important;
+    }
+
+    :global .bp3-button.bp3-disabled {
+        & :global(.bp3-button-text), svg {
+             color: var(--disabled-button-color) !important;
+
+             svg line {
+                 stroke: var(--disabled-button-color) !important;;
+             }
+        }
+    }
+}
+
+.popover {
+
+}
+
+:global {
+    :local(.popover-menu).ui.vertical.menu {
+        :global i.icon {
+            font-size:1.1em;
+        }
+
+        > :global(.item):not([role='listbox']):not(a) {
+            padding-bottom:0;
+        }
+
+        .menu .item {
+            font-size: .95em;
+            padding: .7em 1.33333em;
+        }
+    }
+}
+
+:global(.pusher) :local(.root) {
+    margin-right: 8px;
+    opacity: 1;
+    transition-property: opacity, max-width, margin-right;
+    transition-timing-function: var(--sidebar-transition-timing-function);
+    transition-duration: 2s;
+    overflow: hidden;
+    will-change: opacity, max-width, margin-right;
+}
+
+[data-sidebar="true"] :global(.pusher) :local(.root) {
+    /*opacity:0*/;
+    max-width: 0;
+    margin-right: 0px;
+    pointer-events: none;
+}

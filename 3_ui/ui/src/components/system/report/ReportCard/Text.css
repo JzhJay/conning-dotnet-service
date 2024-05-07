@@ -1,0 +1,25 @@
+.root {
+    overflow:visible;
+    :global {
+        .ui.form {
+            textarea:not([rows]) {
+                min-height: 0;
+                max-height: 3em;
+                height: auto;
+            }
+
+            .fields {
+                margin-left: 0; /* Semantic has a #&$# negative margin by default */
+                margin-right: 0;
+
+                .field:first-child, .field:last-child {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}
+
+.last-child {
+    margin-bottom: -28px;
+}

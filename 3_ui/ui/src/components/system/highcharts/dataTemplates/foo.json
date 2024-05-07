@@ -1,0 +1,193 @@
+{
+    "chart": {
+        "ignoreHiddenSeries": false,
+        "animation": true,
+        "inverted": null,
+        "zoomType": "xy",
+        "panning": "xy",
+        "panKey": "buttonPan",
+        "type": "scatter"
+    },
+    "title": "",
+    "credits": {
+        "text": "",
+        "enabled": false
+    },
+    "xAxis": [
+        {
+            "gridLineWidth": 0,
+            "minRange": -1,
+            "tickmarkPlacement": "on",
+            "title": {
+                "text": "Accumulated Downside Loss"
+            }
+        }
+    ],
+    "series": [
+        {
+            "name": "Accumulated Downside Loss vs Average Annual Result",
+            "data": [
+                {
+                    "x": 76383486.9082062,
+                    "y": 35026893.42943128,
+                    "name": 0
+                },
+                {
+                    "x": 79492664.21598098,
+                    "y": 34443069.23891517,
+                    "name": 1
+                },
+                {
+                    "x": 70644812.70005074,
+                    "y": 36902264.60247938,
+                    "name": 2
+                },
+                {
+                    "x": 68977330.73061867,
+                    "y": 37197269.127611086,
+                    "name": 3
+                },
+                {
+                    "x": 89033212.28382067,
+                    "y": 36598332.0848854,
+                    "name": 4
+                },
+                {
+                    "x": 91642398.49613698,
+                    "y": 36079666.651054345,
+                    "name": 5
+                },
+                {
+                    "x": 82234173.92407104,
+                    "y": 38549103.06210823,
+                    "name": 6
+                },
+                {
+                    "x": 79660065.25754422,
+                    "y": 39042138.29121767,
+                    "name": 7
+                },
+                {
+                    "x": 51553095.102983214,
+                    "y": 32757489.874509834,
+                    "name": 8
+                },
+                {
+                    "x": 54432792.89621914,
+                    "y": 32263252.05351006,
+                    "name": 9
+                },
+                {
+                    "x": 49221530.81833826,
+                    "y": 34002141.11935275,
+                    "name": 10
+                },
+                {
+                    "x": 49239988.042872265,
+                    "y": 33986150.478951424,
+                    "name": 11
+                },
+                {
+                    "x": 42086587.472227894,
+                    "y": 31737056.4732584,
+                    "name": 12
+                },
+                {
+                    "x": 44739880.6810463,
+                    "y": 31302395.58169941,
+                    "name": 13
+                },
+                {
+                    "x": 41375443.84624194,
+                    "y": 32593905.853062652,
+                    "name": 14
+                },
+                {
+                    "x": 41911148.437426925,
+                    "y": 32497024.59995948,
+                    "name": 15
+                },
+                {
+                    "x": 62872419.70133706,
+                    "y": 33915086.20947747,
+                    "name": 16
+                },
+                {
+                    "x": 65927330.11534617,
+                    "y": 33365059.040730823,
+                    "name": 17
+                },
+                {
+                    "x": 59415431.706293926,
+                    "y": 35380604.59077798,
+                    "name": 18
+                },
+                {
+                    "x": 58757588.28803956,
+                    "y": 35483258.33659729,
+                    "name": 19
+                }
+            ],
+            "color": "rgba(124,181,236, .5)",
+            "regression": true,
+            "regressionSettings": {
+                "type": "linear",
+                "color": "rgba(124,181,236, 1)",
+                "zIndex": 10
+            },
+            "marker": {
+                "radius": 5
+            },
+            "states": {
+                "hover": {
+                    "halo": {
+                        "size": 5,
+                        "attributes": {
+                            "stroke-width": 10,
+                            "fill": "rgb(124,181,236)",
+                            "stroke": "rgba(124,181,236, 0.25)"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "plotOptions": {
+        "series": {
+            "getExtremesFromAll": true,
+            "cursor": "pointer",
+            "turboThreshold": 1000000,
+            "allowPointSelect": true,
+            "stickyTracking": false,
+            "marker": {
+                "symbol": "circle"
+            },
+            "boostThreshold": 1
+        }
+    },
+    "yAxis": [
+        {
+            "title": {
+                "text": "Average Annual Result"
+            },
+            "minRange": -1
+        }
+    ],
+    "legend": {
+        "align": "right",
+        "verticalAlign": "middle",
+        "layout": "vertical",
+        "symbolRadius": 0,
+        "enabled": true
+    },
+    "tooltip": {
+        "distance": 10,
+        "animation": true,
+        "followPointer": false,
+        "hideDelay": 50,
+        "backgroundColor": "#ffffff"
+    },
+    "axisNames": [
+        "Metric"
+    ]
+}

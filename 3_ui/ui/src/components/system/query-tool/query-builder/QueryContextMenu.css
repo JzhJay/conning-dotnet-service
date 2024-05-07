@@ -1,0 +1,5 @@
+.root {
+    >:global(.bp3-submenu):first-child{
+        display: none
+    }
+}

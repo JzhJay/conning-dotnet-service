@@ -1,0 +1,76 @@
+.report-card:global(.ui.card) {
+    > :global(.content) {
+        overflow: visible; /* So the react-select can render - needs a portal */
+        border-radius: 0 !important;
+        padding: 0 !important;
+        flex: 0 0 auto;
+
+        > :global(.ui.card) {
+            border-radius: 0;
+        }
+    }
+
+    :global .ui.card {
+        flex: 1 0 auto;
+        margin: 0;
+        width: auto;
+
+        > .content:first-child {
+            flex-grow: 0;
+            padding: 0 !important;
+        }
+    }
+
+    :global .ui.form .field .Select {
+        --select-height: 36px !important;
+    }
+
+    :global .iconic-x .iconic-property-stroke {
+        stroke: #5c7080;
+    }
+}
+
+.card-layout-grid {
+    margin: -.5em;
+    display: grid;
+    grid-template-areas: "simulations queries" "pages pages" "pages_old pages_old" "security security";
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    grid-gap:.5em;
+}
+
+.sort-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(1000px, 1fr));
+    grid-gap: .5em;
+    padding: .25em;
+}
+
+:global(.content) > .sort-container {
+    margin:-.5em -1em;
+}
+
+.sortable-item {
+    background: white;
+    border: 1px solid var(--theme-border-color);
+    border-radius: 5px;
+    cursor: default;
+}
+
+.empty:global(.item) {
+    text-align: center;
+    color: rgba(0, 0, 0, .8);
+    font-style: italic;
+}
+
+&:global(.sortable-drag) :global {
+    .field label {
+        display: none;
+    }
+
+    .field:last-child {
+        display:none;
+    }
+}

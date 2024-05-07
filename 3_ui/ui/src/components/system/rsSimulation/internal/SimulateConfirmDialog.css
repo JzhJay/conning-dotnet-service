@@ -1,0 +1,12 @@
+.root {
+    :global{
+        .bp3-dialog-footer .bp3-intent-primary {
+            background-color: #0D8050;
+
+            .bp3-icon-play {
+                margin: 0 -3px;
+            }
+        }
+    }
+
+}

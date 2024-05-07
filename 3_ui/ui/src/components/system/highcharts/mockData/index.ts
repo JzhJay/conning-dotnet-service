@@ -1,0 +1,5 @@
+export {getMockHistogramData} from './histogram.mock'
+export {mockConeData, MockConeData} from './cone.mock'
+export {getMockCdfData} from './cdf.mock'
+export {mockBoxData, MockBoxData} from './box.mock'
+export {getMockPdfData} from './pdf.mock'

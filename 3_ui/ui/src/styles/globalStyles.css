@@ -1,0 +1,258 @@
+/*$responsive-margins: 0em;*/
+
+@import 'themes/default-theme.css';
+@import './animations.css';
+@import './semantic/semantic-ui.css';
+@import './hover.css';
+@import './pivotal-ui.css';
+
+/*noinspection Stylelint*/
+html, body {
+  width:    100%;
+  height:   100vh;
+  overflow: hidden;
+}
+
+body {
+  overflow:           hidden;
+  overflow-scrolling: touch;
+
+  &:global(.busy) {
+  * {
+    cursor: wait !important;
+  }
+  }
+}
+:global {
+  .react-app {
+    display: flex;
+    flex:    1;
+    height:  100vh;
+  }
+
+  a, .can-select {
+    transition: all 400ms ease;
+  }
+
+  /* this div is technically in index.jade */
+  .conning.app.ui {
+    display:                 flex;
+    flex-direction:          column;
+    flex:                    1;
+    overflow:                auto;
+    height:                  100vh;
+    font-smooth:             always;
+
+    &, input {
+      font-family: "Open Sans", "Segoe UI", "Helvetica Neue", "Icons16", sans-serif;
+      display: inline-block;
+    }
+
+    /* font-family:             'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif; */
+    -webkit-font-smoothing:  antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    input::placeholder {
+      color:#aaa;
+    }
+
+      /* Bootstrap overrides */
+    .tab-simple .nav-tabs > li.active > a, .tab-simple .nav-tabs > li.active > a:hover,
+    .ui.card > .extra a:not(.ui):not(.bp3-button) {
+      color: var(--theme-color-secondary);
+    }
+
+    /* font-family: 'Open Sans'; */
+
+    &.loading {
+      visibility: hidden;
+    }
+
+    .draggable {
+      cursor: move;
+    }
+
+    input[type="checkbox"] {
+      /*transform: scale(1.5);*/
+    }
+
+    .ui.segment {
+      padding: 2px;
+    }
+
+    #advise-auth-component,
+    .demo-page {
+      border-radius:  inherit;
+      flex:           1;
+      display:        flex;
+      flex-direction: column;
+      > .ui.container {
+        flex: 1;
+      }
+    }
+
+    #advise-auth-component {
+      overflow: inherit;
+      > * {
+        /*flex:1 0 auto;*/
+      }
+    }
+
+    .cap-max-height {
+      .main.container {
+        overflow: hidden;
+      }
+    }
+
+    .isvg {
+      display: flex;
+    }
+
+    .ui.dropdown .menu > .item .icon:not(.dropdown) {
+      display:   inline-block;
+      font-size: 1em !important;
+      float:     none;
+      margin:    0em 0.75em 0em 0em;
+    }
+
+    .ui.dropdown.button.active {
+      border-bottom-left-radius:  0;
+      border-bottom-right-radius: 0;
+    }
+
+    .flex-center {
+      display:     flex;
+      align-items: center;
+    }
+
+    /*.icon.table {
+    //    // This stupid thing isn't vertically centered
+    //    padding-top:4px;
+    //}
+     */
+
+    > .sidebar {
+      transition: 400ms all;
+      /*transition: 200ms opacity ease;*/
+      visibile:   visible;
+      opacity:    0;
+      width:      0;
+      overflow-x: visible !important;
+      overflow-y: visible !important;
+
+      &.visible {
+        opacity:  1;
+        width:    auto;
+        flex:     1;
+        position: relative;
+      }
+    }
+  }
+
+  body.dimmed.dimmable .conning.app.ui {
+    /* I don't get why I need to do this, but I do. */
+    .site-header.ui.menu {
+      input, .product {
+        opacity: .2;
+      }
+    }
+
+    svg {
+      path {
+        fill-opacity: .5;
+      }
+
+      text {
+        color: black;
+      }
+    }
+  }
+
+  .p {
+    margin-bottom:1em;
+  }
+
+  .route-transition-enter {
+    opacity: 0;
+    /*transform: translateX(500);*/
+  }
+
+  .route-transition-enter.route-transition-enter-active {
+    opacity:    1;
+    /* transform: translateX(0); */
+    transition: opacity 500ms ease;
+  }
+
+  .route-transition-leave {
+    opacity: 1;
+  }
+
+  .route-transition-leave.route-transition-leave-active {
+    opacity:    0.01;
+    transition: opacity 500ms ease;
+  }
+
+  .route-transition-appear {
+    opacity: 0;
+  }
+
+  .route-transition-appear.route-transition-appear-active {
+    opacity:    1;
+    transition: opacity 500ms ease;
+  }
+
+  .detail-view.page-detail-view {
+    flex:    1;
+    display: flex;
+  }
+
+  .ToolTipPortal > div {
+    transition-duration: 0s !important;
+  }
+
+  .react-highlighted-text {
+    background-color: #FFFF00;
+  }
+
+
+  .capitalize {
+    text-transform: capitalize;
+  }
+
+  code[lang="k"] {
+    white-space: pre;
+    background:  #2B2B2B;
+    color:       #A9B7C6;
+    display:     inline-block;
+    font-size:   14px;
+    font-family: Menlo;
+    padding:     .5em;
+    max-width:   100%;
+    max-height:  100%;
+    flex:        1 1 auto;
+    overflow:    auto;
+  }
+
+
+  .rotate {
+    -webkit-animation: rotation 2s infinite linear;
+  }
+
+  @-webkit-keyframes rotation {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(359deg);
+    }
+  }
+
+  .bp3-toast-message {
+    overflow: hidden;
+  }
+
+  .bp3-toast {
+    max-height: 100vh;
+    overflow: auto;
+  }
+}

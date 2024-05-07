@@ -1,0 +1,10 @@
+
+.layouts {
+    display:        flex;
+    flex-direction: row;
+
+    > * {
+        flex:      1;
+        max-width: 50%;
+    }
+}

@@ -1,0 +1,12 @@
+.root {
+    display:flex;
+    flex:1;
+    height:100%;
+    overflow:auto;
+    background:white;
+    padding:.5em 10px;
+
+    > :global(.bp3-tree) {
+        flex:1;
+    }
+}

@@ -1,0 +1,47 @@
+.tabs {
+    :global(.bp3-tab) {
+        color: white;
+        font-size: 16px;
+
+        &:hover {
+            color: white;
+            background-color: rgba(167, 182, 194, 0.3) !important;
+        }
+    }
+}
+
+.additional-buttons {
+    margin-left: 10px;
+}
+
+.query-reset-button {
+    margin-left: 5px;
+}
+
+/*.run :global(.RunButton__run-button .bp3-button) {*/
+    /*background: #0D8050;*/
+
+    /*&:hover {*/
+        /*background-color: #0A6640;*/
+    /*}*/
+/*}*/
+.nav-group {
+    height: 30px;
+    border-radius: 3px;
+    margin-right: 3px;
+    box-shadow: 0 0 1px inset white;
+
+    .nav-group-main-btn :global(.bp3-icon) {
+        margin: 0 -2px !important;
+
+        svg {
+            height: 24px;
+            width: 24px;
+        }
+    }
+
+    .nav-group-dropdown-btn {
+        padding: 2px 1px;
+        min-width: 16px;
+    }
+}

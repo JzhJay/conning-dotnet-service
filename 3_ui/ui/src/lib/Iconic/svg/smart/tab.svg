@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="iconic iconic-flip" width="128" height="128" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Tab-plus</title>
+  </g>
+  <g class="iconic-loop-lg iconic-container iconic-lg" data-width="128" data-height="80" display="none" transform="translate(0 24)">
+    <path d="M 0 60 h 14 c 10 0 20 -60 30 -60 h 40 c 10 0 20 60 30 60 h 14 v 20 h -64 v -30 h 3 v -15 h 15 v -6 h -15 v -15 h-6 v 15 h -15 v 6 h 15 v 15 h 3 v 30 h -64 z" class="iconic-folder iconic-property-fill"/>
+  </g>
+  <g class="iconic-loop-md iconic-container iconic-md" data-width="64" data-height="40" display="none" transform="scale(2) translate(0 12)">
+    <path d="M 0 30 h 7 c 5 0 10 -30 15 -30 h 20 c 5 0 10 30 15 30 h 7 v 10 h -32 v -10 h 2 v -10 h 10 v -4 h -10 v -10 h-4 v 10 h -10 v 4 h 10 v 10 h 2 v 10 h -32 z" class="iconic-folder iconic-property-fill"/>
+  </g>
+  <g class="iconic-loop-sm iconic-container iconic-sm" data-width="16" data-height="20" display="none" transform="scale(8) translate(0 3)">
+    <path d="M 0 6 h 1.75 c 1.25 0 2 -6 3.75 -6 h 5 c 2 0 2 6 3.75 6 h 1.75 v 4 h -8 v -1.5 h .75 v -2.5 h 2.5 v -1.5 h -2.5 v -2.5 h-1.5 v 2.5 h -2.5 v 1.5 h 2.5 v 2.5 h .75 v 1.5 h -8 z" class="iconic-folder iconic-property-fill"/>
+  </g>
+</svg>

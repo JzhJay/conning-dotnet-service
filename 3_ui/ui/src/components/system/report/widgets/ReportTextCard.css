@@ -1,0 +1,28 @@
+.root:global(.ui.card) {
+
+    &.is-tooltip {
+        height:350px;
+        width: 400px;
+    }
+
+    > :global(.header) {
+        border-bottom:0;
+    }
+
+    > :global(.content):not(:first-child) {
+        padding:0 !important;
+        border:none;
+        display:flex;
+
+        > * {
+            flex:1;
+            border:none;
+
+            :global {
+                .mce-panel, .mce-conatiner {
+                    border-width: 0 !important;
+                }
+            }
+        }
+    }
+}

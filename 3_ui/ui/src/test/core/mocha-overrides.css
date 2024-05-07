@@ -1,0 +1,166 @@
+:global body {
+    overflow: auto;
+}
+
+:global div#mocha {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    max-height:100%;
+    overflow:auto;
+
+    h1 {
+        margin:3px 0;
+    }
+
+    #mocha-stats {
+        flex: 0 0 auto;
+        display: flex;
+        position: relative;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 3px 7px;
+
+        #react-header {
+            margin:auto 0;
+            flex:1;
+
+            input {
+                &:not(:first-child) {
+                    margin-left:5px;
+                }
+            }
+        }
+
+        li {
+            padding-top:3px;
+            align-self:center;
+        }
+
+        /* Percentage bar */
+        canvas {
+            width:25px;
+            height:25px;
+        }
+    }
+
+    #mocha-report {
+        flex:1 1 auto;
+        display:flex;
+        flex-direction: column;
+        overflow:auto;
+        padding: 0 0 5px 0;
+
+        h1,h2,h3,h4,h5 {
+            line-height:18px;
+        }
+
+        h1 {
+            font-size:80%;
+            display:block;
+            vertical-align:middle;
+            flex-direction: row;
+        }
+
+        > * {
+            flex: 0 0 auto;
+        }
+
+        .suite {
+            padding:0 0 0 7px;
+            margin-left:5px;
+            >ul {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        > .suite {
+            /*&:before {*/
+            /*content: 'Suite:';*/
+            /*font-size:14px;*/
+            /*margin-right:5px;*/
+            /*font-weight:bold;*/
+            /*}*/
+
+            border:1px solid black;
+            margin:0;
+            padding:0px;
+            margin:5px 5px 0px 5px;
+
+            &:first-of-type {
+                margin-top:0;
+            }
+
+            > h1, .suite {
+                color: #182026;
+                text-align:      left;
+                font-size:       90%;
+                text-decoration: underline;
+                font-weight:     bold;
+                margin:          .5em 1em;
+            }
+        }
+
+        .suite > ul {
+            padding:0 0 4px 0;
+        }
+
+        :global .replay {
+            font-weight:normal;
+            display:inline-block;
+            position:relative;
+            top:auto;
+            right:auto;
+            color:black;
+            font-size:30px;
+            line-height:6px;
+            padding:7px;
+            opacity:1;
+            height:auto;
+            width:auto;
+            text-align: center;
+            background: #eee;
+            border-radius:10px;
+            text-decoration: none;
+            vertical-align: middle;
+        }
+    }
+
+    :global {
+        .jira-link {
+            flex:           0 0 auto;
+            display:        inline-flex;
+            align-items:    center;
+            flex-direction: row;
+            margin-left:    5px;
+        }
+
+        .test.pending {
+            color: black;
+            text-decoration: line-through;
+        }
+
+        .test.pass::before {
+            &:not(.pending) {
+                content: '✓';
+            }
+
+            font-size:    12px;
+            display:      block;
+            float:        left;
+            margin-right: 1px;
+            padding-top:  1px;
+            color:        #00d6b2;
+        }
+    }
+}
+
+:global .restrict-body {
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+}

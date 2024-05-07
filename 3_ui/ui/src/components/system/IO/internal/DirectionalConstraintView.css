@@ -1,0 +1,184 @@
+.root {
+    font-family: "Lucida Grande", LucidaGrande, "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    width: 100%;
+    /*padding: 20px;*/
+}
+
+.table-wrapper {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+
+table {
+    min-width: 100%;
+    margin: auto;
+}
+
+th {
+    vertical-align: bottom !important;
+    box-shadow: none !important;
+    font-size: 12px !important;
+    text-align: center !important;
+
+.point-name {
+    height: 28px;
+    line-height: 28px;
+    vertical-align: middle;
+
+.bg-circle {
+    display: block;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    background-color: #DDD;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -28px;
+}
+}
+
+&.hover-placeholder {
+     line-height: 20px;
+
+.bg-circle {
+    display: none;
+}
+}
+}
+
+tbody th {
+    width: 1%;
+    text-align: left !important;
+    white-space: nowrap;
+
+&:not(.asset-class) {
+     cursor: default;
+ }
+}
+
+tbody .row-spacer:first-child,
+tbody .row-spacer:last-child,
+.row-spacer+.row-spacer {
+    display: none;
+}
+
+tbody td {
+    box-shadow: none !important;
+    text-align: right;
+}
+
+tbody td,
+.hover-placeholder {
+    min-width: 60px;
+    /* Allows cells to grow to fill available space but not shrink below 60px (fits 7 characters), also sizes all column widths equally without regard for cell content*/
+    width: 10vw;
+    text-align: center;
+}
+
+.asset-class-name {
+    display: flex;
+}
+
+td,
+th {
+    border-width: 0px 1px;
+    border-style: solid;
+    border-color: #F4F4F4;
+    padding: 0px 5px;
+}
+
+&.hover-mode {
+
+td:not(.cell-highlight),
+th:not(.cell-highlight) {
+    opacity: .5;
+}
+
+td.cell-highlight,
+th.cell-highlight {
+    color: blue;
+}
+}
+
+.symbol {
+    display: flex;
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+}
+
+.toolbar {
+:global(.asset-group),
+:global(.rows) {
+    border: 1px solid rgba(34, 36, 38, .15);
+    padding-right: 7px;
+    border-radius: 3px;
+
+:global(.bp3-button-group.ui.labeled.input .ui.label) {
+    border: 0px !important;
+    background: none;
+}
+
+:global(.bp3-navbar-divider) {
+    margin: 0 5px;
+}
+
+:global(.bp3-checkbox) {
+&:not(:first-of-type) {
+     padding-left: 35px;
+ }
+white-space: nowrap;
+}
+}
+}
+
+.row-spacer {
+    height: 15px;
+}
+
+.title {
+    font-size: 18px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.no-data-desc {
+    padding-top: 20px;
+}
+
+.constraint-indicator-legend {
+    padding-bottom: 20px;
+.constraint-indicator {
+    margin: 0px 5px 0px 50px;
+}
+}
+
+.constraint-indicator {
+    display: inline-block;
+    min-width: 54px;
+    min-height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+}
+
+.lower-limit {
+    border: 1px solid #000000;
+    border-top: none;
+    background-color: #C7DDF9;
+}
+
+.non-binding {
+    /* background-color: #DDD ; */
+}
+
+.upper-limit {
+    border: 1px solid #000000;
+    border-bottom: none;
+    background-color: #80D5A8;
+}

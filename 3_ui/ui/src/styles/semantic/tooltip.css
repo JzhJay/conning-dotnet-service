@@ -1,0 +1,7 @@
+.conning.app.ui {
+    [data-tooltip]:before,[data-tooltip]:after {
+        background-color:black;
+        color: white;
+        transition: all 0.2s ease;
+    }
+}

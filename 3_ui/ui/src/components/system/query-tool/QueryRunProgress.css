@@ -1,0 +1,31 @@
+.root {
+    display:flex;
+    flex-direction:column;
+    background:white;
+    flex:1;
+
+    :global .ui.loader {
+        margin:2em 0;
+        flex: 0 0 auto;
+    }
+
+    > :global(.ui.steps) {
+        margin:0 10%;
+
+        :global {
+            .step {
+                .title {
+                    line-height: 32px;
+                }
+
+                > .content {
+                    flex: 1 0 auto;
+                }
+
+                > .icon {
+                    align-self: flex-start;
+                }
+            }
+        }
+    }
+}

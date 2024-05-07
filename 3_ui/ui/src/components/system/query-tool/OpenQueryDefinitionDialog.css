@@ -1,0 +1,55 @@
+
+.root {
+    min-width: 300px;
+
+    .bp3-label > span {
+        flex-basis: 150px;
+    }
+
+    .openInNewTab {
+        margin-left: 10px;
+        flex:        0 0 auto;
+        align-self:  center;
+    }
+
+    .queryName {
+        flex:    1 0 auto;
+        display: flex;
+
+        :global(.bp3-input-group), input {
+            flex: 1;
+        }
+    }
+
+
+    .dropzone {
+        flex:1;
+        display:flex;
+        border:2px dashed var(--theme-border-color);
+        padding:10px;
+        text-align:center;
+        flex-direction: column;
+
+        > span {
+            flex: 0 0 auto;
+        }
+    }
+
+    .checkbox {
+        padding: 0 5px 0 0;
+    }
+}
+
+.react-select {
+    .react-select__control {
+        border-radius: unset;
+        min-height: 30px;
+        height: 30px;
+    }
+    .react-select__indicator-separator {
+        display: none;
+    }
+    .react-select__indicator {
+        padding: 4px;
+    }
+}

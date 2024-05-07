@@ -1,0 +1,81 @@
+.root {
+    user-select: none;
+    background-color: rgba(200,200,200, .2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1001; /*input table Loader z-index is 1000*/
+    transition: top 0.05s;
+
+    &.hide {
+        display: none !important;
+    }
+
+    &.silent-lock {
+        cursor: wait;
+        background-color: rgba(255,255,255, .25);
+
+        > * {
+            display: none !important;
+        }
+    }
+
+    .watermark {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0.1;
+
+        :global(span.bp3-icon > svg) {
+            fill: #96290D;
+            height: 100px;
+            width: 100px;
+            margin: 8px;
+        }
+
+        > :global(span:not(.bp3-icon)) {
+            opacity: 0;
+            color: #96290D;
+            font-size: 20px;
+            font-weight: bold;
+            text-shadow: 0 0 3px #FFFFFF,0 0 3px #FFFFFF,0 0 3px #FFFFFF,0 0 1px #FFFFFF,0 0 1px #FFFFFF,0 0 1px #FFFFFF;
+            cursor: default;
+        }
+
+        :global(.bp3-icon-unlock) { display: none; }
+
+        &:hover {
+            opacity: 1;
+            > :global(span:not(.bp3-icon)) { opacity: 1 }
+        }
+    }
+
+    &.canUnlock .watermark {
+        cursor: pointer;
+
+        &:hover {
+            :global(.bp3-icon-lock) { display: none;}
+            :global(.bp3-icon-unlock) { display: block;}
+        }
+    }
+
+    &.small .watermark {
+        :global(span.bp3-icon > svg) {
+            height: 40px;
+            width: 40px;
+            margin: 3px;
+        }
+
+        > :global(span:not(.bp3-icon)) {
+            margin-top: -28px;
+        }
+    }
+
+}

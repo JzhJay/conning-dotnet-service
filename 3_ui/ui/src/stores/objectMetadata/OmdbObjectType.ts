@@ -1,0 +1,1 @@
+export type OmdbObjectType = 'Simulation' | 'Query' | 'Report' | string;

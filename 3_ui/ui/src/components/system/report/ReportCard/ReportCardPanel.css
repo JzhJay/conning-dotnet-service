@@ -1,0 +1,54 @@
+.root {
+    display: grid;
+    grid-template-areas: "header" "content";
+
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+
+    .header {
+        grid-area: header;
+        display: grid;
+        grid-template-areas: "icon title actions";
+        grid-template-columns: auto 1fr auto;
+
+        .title {
+            grid-area: title;
+            margin-top: .5em;
+            text-align: center;
+            flex:1;
+        }
+    }
+
+    .content {
+        grid-area: content;
+        border: 2px solid var(--theme-border-color);
+        padding: .5em;
+    }
+
+    &:global(.dragging) .content {
+        border-style: dashed;
+    }
+}
+
+.header {
+    display:flex !important;
+    padding:.5em;
+}
+
+.title {
+    color: black;
+    font-weight: bold;
+    margin: auto 0;
+    flex: 1;
+
+    font-size: 20px;
+}
+
+.actions {
+    margin-right:.5em;
+    grid-area: actions;
+
+    > * {
+        margin: auto 0;
+    }
+}

@@ -1,0 +1,89 @@
+.application-bar-items {
+    display: flex;
+    background-color: var(--site-tab-background);
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    flex: 1;
+    overflow: hidden;
+    user-select: none;
+    text-wrap: nowrap;
+
+    >:global(.bp3-popover-wrapper) {
+        display: flex;
+    }
+
+    /* Truncate button groups and descendants to allow text to be clipped. Useful for long simulation names in query tool application bar*/
+    >:global(.bp3-button-group) {
+        &, * {
+            overflow: hidden;
+            max-width: 100%;
+        }
+    }
+
+    :global(.bp3-button) {
+        font-size: 16px;
+        color: white !important;
+        white-space: nowrap;
+
+        &:not(:global(.bp3-disabled)) :global(.bp3-icon) svg{
+            color: white;
+        }
+
+        &:global(.bp3-disabled) {
+            color: rgba(255, 255, 255, .2) !important;
+        }
+
+        :global(.bp3-icon[data-icon="caret-down"]) {
+            height: 24px;
+            width: 24px;
+        }
+
+        :global(.bp3-button-text) {
+            margin-right: 0px;
+            text-overflow: ellipsis;
+        }
+
+        :global(svg.AppIcon__root) {
+            &.application-bar-icon {
+                width: 16px;
+                height: 16px;
+                path {
+                    fill: white !important;
+                    stroke: white !important;
+                }
+            }
+        }
+    }
+
+    .run {
+        background-color: var(--run-color);
+    }
+
+    svg {
+        rect {
+            fill: white;
+        }
+
+        line {
+            stroke: white;
+        }
+    }
+
+    .right-group {
+        margin-left: auto;
+    }
+
+    .error-message {
+        display: flex;
+
+        .error {
+            margin:        0 8px;
+            height:        24px;
+            width:         24px;
+            fill:          red;
+            background:    white;
+            border-radius: 12px;
+        }
+    }
+}

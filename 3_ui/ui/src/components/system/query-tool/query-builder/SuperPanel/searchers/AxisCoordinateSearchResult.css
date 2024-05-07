@@ -1,0 +1,90 @@
+:root {
+    --highlighted-search-result: #e3eaf3;
+    --highlighter-yellow: #ff0;
+    --selected-background-local: #e3eaf3;
+}
+.root {
+    background:white;
+    padding:4px 6px;
+    display:flex;
+    flex-direction:column;
+    border: 1px solid var(--super-panel-separator-color);
+    flex: 0 0 auto;
+    position:relative;
+
+    &:first-of-type {
+        margin-top:0;
+    }
+
+    &.selected {
+        background-color: var(--selected-background-local);
+    }
+
+    &.unavailable, &.implied {
+        .header span, .type-label {
+            font-style: italic;
+        }
+    }
+
+    &.unavailable {
+        .header span {
+            color: red;
+        }
+    }
+
+    &.implied {
+        .header span {
+            color: var(--theme-color-secondary);
+        }
+    }
+}
+
+
+.highlight {
+    pointer-events:   none; /* Otherwise we block access to the checkbox */
+    content:          '';
+    display:          block;
+    z-index:          10;
+    left:             0;
+    top:              0;
+    opacity:          .4;
+    background-color: var(--highlighted-search-result);
+    position:         absolute;
+    width:            100%;
+    height:           100%;
+}
+
+.header {
+    font-weight:bold;
+    font-size:10pt;
+    /*display:flex;*/
+
+    padding-right:55px; /* So we have space for the type-label */
+    .axis {
+        margin-right:5px;
+    }
+
+    .coordinate {
+        margin-left:5px;
+    }
+}
+
+.type-label {
+    position:absolute;
+    font-size:8pt;
+    top:-2px;
+    right:4px;
+    color:var(--theme-color-secondary);;
+}
+
+.description {
+    font-size:9pt;
+    white-space:pre-wrap;
+}
+
+.score {
+    position:absolute;
+    font-size:8pt;
+    bottom:-2px;
+    right:4px;
+}

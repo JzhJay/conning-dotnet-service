@@ -1,0 +1,116 @@
+:global {
+  .auth0-lock.auth0-lock.auth0-lock {
+
+    &.auth0-lock-opened{
+         background-image: url('../ui/images/cta-article-hero.jpg');
+         background-size: cover;
+         background-position: center;
+
+        .auth0-lock-overlay{
+            opacity: 0.1;
+        }
+    }
+
+    .auth0-lock-header {
+      height: auto;
+      padding:0;
+
+      .auth0-lock-header-bg {
+        background: white !important;
+        height: auto;
+
+        .auth0-lock-header-bg-solid, .auth0-lock-header-bg-blur {
+          background-color: transparent !important;
+        }
+      }
+
+      .auth0-lock-header-welcome {
+        display: flex;
+        padding:5px;
+        padding-bottom:0;
+        flex-direction: row;
+        border-bottom: 1px solid var(--theme-border-color);
+        padding-bottom: 5px;
+
+        .auth0-lock-header-logo {
+          display: flex;
+          width:45px;
+          height:45px;
+          z-index:50;
+          margin: 0;
+        }
+
+        .auth0-lock-name {
+          margin: auto;
+          padding-right: 45px;
+          padding-left:0;
+          overflow: visible;
+
+          &[title="ADVISE"] {
+            font-size:28px;
+          }
+        }
+      }
+
+      .auth0-lock-close-button {
+        right:5px;
+        top:10px;
+        padding:8px;
+        border:1px solid #efefef;
+        height:16px;
+        width:16px;
+      }
+
+      /*&:after {
+        background-color:var(--theme-color-secondary);
+        color:white;
+        content: 'ADVISE';
+        display:block;
+        margin: 0;
+        padding:8px;
+        text-align:center;
+        font-size:26px;
+      }*/
+    }
+
+    .auth0-lock-content {
+      padding:.5em;
+
+      .auth0-lock-social-button.auth0-lock-social-big-button .auth0-lock-social-button-text {
+        padding-left: 15px;
+        text-align:center;
+      }
+    }
+
+    .auth0-lock-center .auth0-lock-widget {
+        margin-top: 15px;
+    }
+
+    .auth0-lock-form .auth0-lock-last-login-pane {
+      p:first-child {
+        display:none;
+      }
+
+      .auth0-lock-alternative {
+        margin-top:10px;
+      }
+    }
+
+    .auth0-lock-alternative {
+      margin-top:10px !important;
+    }
+
+    .auth0-lock-submit {
+      border-radius:0;
+    }
+
+    #rememberMe {
+      padding:.5em;
+      margin:.5em 40px;
+
+      .bp3-control {
+        margin:0;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.root{
+    margin-top: 3px;
+    border: 1px solid;
+
+}
+
+.settings {
+    :global(.InputSpecificationComponent__focusable > div > div .InputSpecificationComponent__line-break) {
+        height: var(--padding);
+    }
+}

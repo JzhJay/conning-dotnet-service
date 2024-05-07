@@ -1,0 +1,117 @@
+:root {
+	--border: var(--theme-border-color);
+}
+
+.query-view {
+    background: #EAEAEA;
+    border-left: 1px solid var(--theme-border-color);
+    flex: 1 1 auto;
+    display:flex;
+    position:relative;
+    min-height:50px;
+    height:inherit;
+
+    flex-direction:column;
+
+    &:global(.query)  {
+        overflow: auto;
+    }
+
+    .query-view-toolbar {
+        display:flex;
+        flex: 0 0 auto;
+        padding:.5em 1em;
+        border-bottom:var(--border);
+
+        :global .menu .menu {
+            top: 1.9em;
+        }
+
+		:global .right.menu {
+            left:auto;
+            right:-15px;
+        }
+
+		:global .spacer {
+            flex: 1;
+        }
+
+		:global .left,
+		:global .right {
+            flex:0 auto;
+        }
+
+        .current-view {
+            flex:0 auto;
+
+            > :global(.text) {
+                transition: min-width .4s linear;
+                min-width:0;
+            }
+
+            &.active {
+
+                >.text {
+                    min-width:5em;
+                }
+            }
+
+            > :global(.icon) {
+                margin-right: 0.71428571em;
+
+                &.dropdown {
+                    margin-right:0;
+                }
+            }
+
+            /*Move the current view chooser to line up with the right side of our control*/
+            > :global(.menu) {
+                right:-14px;
+                left:auto;
+
+                .item {
+                    min-width:3em;
+                    padding-left:.5em !important;
+                    padding-right:2.15em !important;
+                }
+            }
+        }
+    }
+
+    &.draggable .query-view-toolbar .spacer {
+        cursor:move;
+    }
+
+    .view-component {
+        overflow: hidden;
+
+        flex-basis:0 !important;
+
+        &.highchartsComponent {
+            overflow: hidden !important;
+        }
+
+    }
+
+    .unsupported-view
+    {
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        margin:auto;
+        font-size: 1.5em;
+
+		:global .iconic-property-stroke{
+            stroke:rgb(79, 129, 189);
+        }
+
+        span{
+            margin-top:1em;
+        }
+    }
+}
+
+:global(.lm_content) .query-result-view {
+    border:0;
+    max-width:100%;
+}

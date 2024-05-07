@@ -1,0 +1,69 @@
+.popover-container {
+    min-width: 200px;
+    min-height: 200px;
+    max-height: 95vh;
+    overflow: auto;
+    padding: 0 15px;
+}
+
+.dialog-content {
+    padding: 20px 0;
+}
+
+.sub-content {
+    padding-top: 20px;
+}
+
+.input-row {
+    display: flex;
+    flex-direction: horizontal;
+    margin-bottom: 15px;
+}
+
+.input-label {
+    width: 85px;
+    align-self: center;
+}
+
+.input-element {
+    flex: 1;
+}
+
+.dialog-footer {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.add-rows-button {
+    margin-left: 10px;
+}
+
+.set-targets-by {
+    margin-left: 10px;
+}
+
+.tag-gap {
+    margin-left: 5px;
+}
+
+.recently-used-item {
+    &:global(.bp3-active) {
+        .tag-gap {
+            background-color: #ffffff !important;
+        }
+    }
+}
+
+.hidden-select{
+    :global(.bp3-popover-open) {
+        height: 0;
+    }
+
+    :global(.bp3-multi-select) {
+        width: 0;
+        min-width: 0;
+    }
+}
+
+.recently-used-items-popover {
+}

@@ -1,0 +1,26 @@
+.table-view {
+    flex: 1;
+    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    :global {
+        .wj-frozen.wj-cell:not(.wj-header):not(.wj-group):not(.wj-state-selected):not(.wj-state-multi-selected) {
+            background:white;
+        }
+    }
+}
+
+.sort-header {
+    display:flex;
+    cursor: pointer;
+
+    > span {
+        margin:auto 0 auto auto;
+    }
+}
+
+.can-sort {
+    
+}

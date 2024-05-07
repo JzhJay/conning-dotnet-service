@@ -1,0 +1,14 @@
+.page-not-found {
+    display:flex;
+    flex:1;
+    > * {
+        flex:1;
+        display:flex;
+        margin:0 auto;
+    }
+
+    .container {
+        margin:.5em auto auto auto;
+        text-align:center;
+    }
+}

@@ -1,0 +1,7 @@
+.favorites {
+	composes: tree-node-header from './SidebarTree.css';
+
+    > :global(.bp3-tree-node-content) > :global(.bp3-tree-node-icon) {
+		color: gold !important;
+	}
+}

@@ -1,0 +1,23 @@
+:global {
+    .step {
+        .title {
+            line-height: 32px;
+        }
+
+        > .content {
+            flex: 1 0 auto !important;
+        }
+
+        > .icon {
+            align-self: flex-start;
+        }
+    }
+}
+
+.description {
+    color: #016936;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}

@@ -1,0 +1,38 @@
+.root {
+    :global(.QueryViewComponent__query-view.pivot) {
+        max-width: 100%;
+    }
+
+    :global(.BookComponent__allow-scroll) {
+        :global(.QueryViewComponent__query-view.pivot) {
+            overflow: hidden;
+            flex-direction: unset;
+
+            :global(.pivotTable__pivot-table) {
+                max-height: unset;
+            }
+
+            :global(.pivotTable__horizontal-splitter) {
+                max-height: unset !important;
+                height: unset;
+
+                :global(.pane:not(.primary)) {
+                    flex-basis: auto;
+                }
+
+                div[wj-part="root"] {
+                    overflow-y: hidden !important; /*Overwrite inline style*/
+                }
+            }
+        }
+    }
+
+    .no-data {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+    }
+}

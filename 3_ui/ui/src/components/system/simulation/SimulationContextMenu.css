@@ -1,0 +1,3 @@
+.tag-value {
+    composes: field-value from '../../widgets/SmartBrowser/SmartCard.css';
+}

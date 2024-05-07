@@ -1,0 +1,10 @@
+.root {
+    :global .ui.container {
+
+    }
+}
+
+
+:global(#investment-optimization-page) {
+    overflow-x: hidden; /* Not desired at all, especially when animating */
+}

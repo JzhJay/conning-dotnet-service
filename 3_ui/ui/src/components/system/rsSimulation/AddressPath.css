@@ -1,0 +1,30 @@
+.custom-form-group {
+    display: flex;
+    background-color: var(--theme-color-primary);
+}
+
+.label {
+    padding: 0px 5px 0px 5px;
+    align-self: center;
+    color: #ffffff;
+}
+
+.form-group-input {
+    flex: 1;
+}
+
+.error-msg-root {
+    padding: 5px 5px 0px;
+    color: #f00;
+    font-style: italic;
+}
+
+.error-msg {
+    margin-right: 5px;
+}
+
+.suggest-react-virtualized-list {
+    li {
+        list-style: none;
+    }
+}

@@ -1,0 +1,197 @@
+:root {
+    --row-spacing: 3px;
+}
+
+.container {
+    .statistics-axis {
+        margin-bottom: var(--row-spacing);
+    }
+
+    &.lock-panel {
+         pointer-events: none;
+    }
+}
+
+.statistics-by-axis {
+    /* border-top: var(--theme-border-color) solid 1px; */
+    display:        flex;
+    flex-direction: column;
+    overflow-y:     auto;
+    height:         100%;
+    flex:           1;
+    margin:         0;
+    //padding:        4px 3px;
+}
+
+.configured-statistics-for-axis {
+    padding-left:   calc(1em + 12px);
+    padding-right:  2px;
+    display:        flex;
+    flex:           0 0 auto;
+    flex-direction: column;
+    //overflow-y: auto;
+
+    /* border-bottom: 1px solid var(--theme-border-color); */
+
+    &:last-child {
+        border-bottom: 0;
+    }
+}
+
+/* An axis followed by one-or-more dropdowns to choose specific statistics */
+.statistics-axis {
+    display:        flex;
+    flex-direction: column;
+    flex:           0 0 auto;
+    padding:        2px 0;
+    background-color:var(--axis-background-color);
+
+    &.empty {
+
+    }
+
+    &.placeholder, &:global(.sortable-fallback) {
+        background-color:var(--axis-background-color);
+        border:           var(--axis-border);
+
+        /*border-bottom: 0;*/
+    }
+
+    :global &.sortable-fallback .configured-statistics-for-axis {
+        display: none;
+    }
+
+    :global .field {
+        min-width:      150px;
+        display:        flex;
+        flex-direction: row;
+        flex:           1 0 auto;
+        margin-right:   .5em;
+
+        * {
+            flex: 1;
+        }
+        label {
+            flex:         0 auto;
+            padding-left: .25em;
+            margin-right: .25em;
+        }
+    }
+
+    .axis-row {
+        padding:        2px 2px;
+
+        display:        flex;
+        flex-direction: row;
+        white-space:    nowrap;
+        flex:           0 0 auto;
+    }
+}
+
+/* Hide the drag handle if we're not draggable */
+.axis-row:not(.draggable), .statistics-row:not(.draggable) {
+    .drag-handle, .axis-drag-handle {
+        cursor:     not-allowed;
+
+        visibility: hidden;
+
+        &:global(.icon.content):before {
+            content: " ";
+        }
+    }
+}
+
+.axis-row, .statistics-row {
+    align-items:center;
+
+    :global .Select {
+        flex: 1;
+
+        &:first-child {
+            margin-left: .5em;
+        }
+    }
+
+}
+
+.toolbar {
+    composes: queryPanelToolbar from '../styles/queryPanelToolbar.css';
+}
+
+.statistics-row {
+    display:        flex;
+    flex-direction: row;
+    flex:           0 0 auto;
+    margin:         0 0 var(--row-spacing) 0;
+    background-color: var(--coordinate-background-color);
+
+    &:first-of-type {
+        margin-top: 0px;
+    }
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+.has-value {
+
+}
+
+.drag-handle {
+    img {
+        vertical-align: middle;
+        text-align:     center;
+    }
+    cursor:    move;
+    font-size: 100%;
+}
+
+.statistics-drag-handle {
+    composes: drag-handle;
+}
+
+.axis-drag-handle {
+    composes: drag-handle;
+}
+
+.choose-new-statistic {
+
+}
+
+.toolbar {
+    composes: queryPanelToolbar from '../styles/queryPanelToolbar.css';
+}
+
+.delete {
+    color: white;
+    cursor:      pointer;
+    margin-left: .5em;
+}
+
+.statistics-row, .axis-row {
+    i, .drag-handle {
+        height:auto;
+        margin:0;
+        width:   24px;
+    }
+
+    :global .Select .Select-control .Select-value-label {
+        padding:0 .5em;
+    }
+}
+
+.react-select {
+    flex-grow: 1;
+
+    .react-select__control {
+        border-radius: unset;
+        min-height: 30px;
+        height: 30px;
+    }
+    .react-select__indicator-separator {
+        display: none;
+    }
+    .react-select__indicator {
+        padding: 4px;
+    }
+}

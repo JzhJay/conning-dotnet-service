@@ -1,0 +1,34 @@
+.content-menu {
+    .hidden-divider {
+        display: none;
+    }
+
+    > :global(.bp3-switch) {
+        margin: 10px;
+
+    }
+}
+
+:global(.bp3-navbar .bp3-navbar-group) .content {
+    flex-wrap: nowrap;
+
+    :global(.bp3-button-text) {
+        white-space: nowrap;
+    }
+}
+
+.sortable-list {
+    .sortable-item {
+        display: flex;
+
+        :global(.bp3-icon) {
+            margin: 5px;
+            cursor: row-resize;
+        }
+
+        :global(.bp3-switch) {
+            flex-grow: 1;
+            margin:    5px 5px 5px 0;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.root {
+    padding:.5em 2px;
+
+    .dashboard-panels {
+        display:flex;
+        flex-direction: row;
+
+        > * {
+            border: 1px solid var(--theme-border-color);
+
+            &:not(:last-child) {
+                border-right:0;
+            }
+        }
+    }
+}

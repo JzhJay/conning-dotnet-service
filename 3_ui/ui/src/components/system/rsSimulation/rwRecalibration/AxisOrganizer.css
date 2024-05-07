@@ -1,0 +1,77 @@
+.root {
+    padding: 10px 10px 0px 10px;
+}
+
+.dialog-body {
+    width: 880px;
+    max-height: 800px;
+    padding-bottom: 0;
+}
+
+.popover-container {
+    padding: 15px;
+    overflow: auto;
+}
+
+.separator {
+    margin: 15px 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+.popover-content-panel {
+    display: flex;
+    justify-content: center;
+}
+
+.axis-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.axis-title {
+    width: 200px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.axis-items {
+    flex: 1;
+}
+
+.axis-items-hover {    
+    background-color: #ADD8E6;
+}
+
+.axis-item {
+    width: 200px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    transition: all 0.5s;
+
+    &:hover {
+        :global .bp3-callout {
+            background-color: #E1E8ED;
+        }
+    }
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+
+.axis-item-dragging {
+    opacity: 0;
+    cursor: move;
+}
+
+.axis-item-hover-top {
+    padding-top: 20px;
+}
+
+.axis-item-hover-bottom {
+    padding-bottom: 20px;
+}

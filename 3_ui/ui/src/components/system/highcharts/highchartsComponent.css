@@ -1,0 +1,83 @@
+.highchartsComponent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;  /* Otherwise we get scrollbars for big dropdowns like font-size */
+
+    :global(.clearing.divider) {
+        margin: 0;
+    }
+
+    .chart {
+        :global {
+            overflow: hidden;
+            flex: 1;
+            display:flex;
+            background-color: white;
+
+            table.moments-box {
+                cursor: move;
+                color: black;
+                border: 1px solid black;
+                padding: .5em;
+                display: block;
+                background-color: white;
+                font-family: var(--mono-space-font-family);
+
+                &.hidden {
+                    visibility: hidden;
+                }
+
+                td:first-of-type {
+                    font-weight: bold;
+                    padding-right: 5px;
+                }
+            }
+
+            .ui.dimmer {
+                position:relative;
+                flex:1;
+                top:auto;
+                left:auto;
+                width:auto;
+                height:auto;
+                background-color:white;
+
+                .ui.loader {
+
+                }
+            }
+
+            .highcharts-container {
+                overflow: visible !important;
+            }
+        }
+    }
+
+  :global(.ui.dimmer) {
+      background-color:white;
+  }
+
+  :global(.LoadingEllipsis__root) {
+    bottom: 5px;
+    top: auto;
+    position: absolute;
+    right: 5px;
+  }
+}
+
+ /*Turn off overlays when in a card*/
+:global(.lm_dragProxy) .highchartsComponent {
+    :global(.highcharts-container) {
+        > div {
+            display:none;
+        }
+    }
+}
+
+@media print {
+  :global(.highcharts-root) {
+    max-width: calc(100% - 40px) !important;
+    max-height:100vh !important;
+  }
+}

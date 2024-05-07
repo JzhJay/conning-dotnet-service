@@ -1,0 +1,127 @@
+.root {
+    display:        flex;
+    flex:           1;
+    flex-direction: column;
+
+    > * {
+        flex: 1;
+    }
+
+}
+
+.tags {
+    display:        grid;
+    grid-auto-flow: row;
+    grid-gap:       .5em;
+    overflow:       auto;
+}
+
+.tag {
+    vertical-align: middle;
+    align-items:    center;
+    display:        flex;
+    border-radius:  4px;
+    padding:        2px .5em;
+
+    .tag-name {
+        font-weight: bold;
+        flex:        1;
+    }
+}
+
+div.top {
+    padding:  0 .5em;
+    overflow: hidden;
+
+    > * {
+        flex: 1;
+    }
+
+    > :global(.bp3-tabs) {
+        overflow:       hidden;
+        display:        flex;
+        flex-direction: column;
+
+        > :global(.bp3-tab-panel) {
+            margin:  0;
+            padding: .5em 0;
+            flex:    1 1 auto;
+            &[aria-hidden = "false" ] {
+                display: flex;
+                flex-direction:column;
+
+                > * > :global(.bp3-navbar):first-child {
+                    position:   absolute;
+                    top:        5px;
+                    right:      0;
+                    background: transparent;
+                    width:      auto;
+                    border:     0;
+                }
+            }
+        }
+    }
+
+    /*display: grid !important;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:.5em;*/
+}
+
+.catalog-fields {
+    composes: tags;
+
+    .tag {
+        padding: .5em;
+        cursor:  move;
+        border:  1px solid black;
+    }
+}
+
+.sortable-drag {
+    border: 1px dashed black;
+}
+
+.details-pane {
+    disply:         flex;
+    flex-direction: column;
+}
+
+.previewPanel {
+    flex:           1;
+    display:        flex;
+    flex-direction: column;
+    overflow:       hidden;
+    > :last-child {
+        flex: 1;
+    }
+
+    .title {
+        margin:      0 auto;
+        flex:        0 0 auto;
+        font-weight: bold;
+    }
+
+    .panelContents {
+        flex:           1;
+        display:        flex;
+        flex-direction: column;
+    }
+}
+
+.tags-panel {
+    overflow:       hidden;
+    display:        flex;
+    flex-direction: column;
+
+    :global .wj-flexgrid {
+        max-height: -webkit-fill-available;
+    }
+
+}
+
+.tag-properties {
+    display: flex;
+
+}
+

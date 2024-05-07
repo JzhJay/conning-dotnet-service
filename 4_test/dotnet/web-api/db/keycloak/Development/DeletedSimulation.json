@@ -1,0 +1,52 @@
+{
+  "_id" : ObjectId("5b7c4f5fe6c9f8b6af9b6811"),
+  "scenarios" : 50000,
+  "modules" : [
+    "User_value",
+    "Security",
+    "Taxlot"
+  ],
+  "jobIds" : [
+    "Fake_job_id_3"
+  ],
+  "createdBy" : "de28cad4-1789-407f-85eb-14f7920537f1",
+  "elements" : "Not Applicable",
+  "axes" : [
+    "Modules",
+    "Economies",
+    "User_value",
+    "Taxlot",
+    "Measure"
+  ],
+  "gridName" : "Fake_Grid_Name_2",
+  "periods" : {
+    "Quarter" : 6,
+    "Euler_Period" : 40
+  },
+  "size" : "Not Applicable",
+  "economies" : [
+    "US",
+    "DE",
+    "CA"
+  ],
+  "path" : "Fake_s3_path_3",
+  "modifiedTime" : "2018-07-05T15:56:59.585",
+  "name" : "Fake_Simulation_3",
+  "variables" : 5167,
+  "createdTime" : "2018-07-05T15:56:59.585",
+  "deletedTime" : ISODate("2018-04-21T09:31:00.000Z"),
+  "status" : "Complete",
+  "archived" : false,
+  "billingInformation" : {
+    "startTime" : 1524153120,
+    "compilationEndTime" : 1524153120,
+    "simulationWorkerEndTime" : 1524165420,
+    "elements" : NumberLong(19960000000),
+  },
+  "frequencies" : [
+    "Quarter",
+    "Euler_Period"
+  ],
+  "modifiedBy" : "de28cad4-1789-407f-85eb-14f7920537f1",
+  "version" : "Not Applicable"
+}

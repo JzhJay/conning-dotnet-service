@@ -1,0 +1,26 @@
+.root {
+    display:flex;
+    flex:1;
+
+    .contents {
+        flex:1;
+        display: flex;
+        height:100%;
+        flex-direction: column;
+    }
+
+    &[data-show-sidebar="false"]  {
+        .splitter {
+            > :global(.pane.primary), > :global(.handle-bar) {
+                display: none;
+            }
+        }
+    }
+}
+
+.sidebar-toggle {
+    svg:global(.bp3-icon) {
+        width:20px !important;;
+        height:20px !important;
+    }
+}

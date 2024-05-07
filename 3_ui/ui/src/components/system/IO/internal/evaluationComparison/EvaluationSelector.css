@@ -1,0 +1,13 @@
+.root {
+    display: flex;
+}
+
+.point-name {
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    min-height: 28px;
+    line-height: 28px;
+    border-radius: 50%;
+    transform: translateY(1px);
+}

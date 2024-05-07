@@ -1,0 +1,5 @@
+"rules": {
+  "color-no-invalid-hex": true,
+  "max-empty-lines": 5
+}
+"configBasedir": 'src/'

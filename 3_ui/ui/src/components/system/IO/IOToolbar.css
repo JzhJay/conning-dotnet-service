@@ -1,0 +1,7 @@
+
+.menu {
+    :global(.bp3-switch):last-child {
+        margin: auto;
+    }
+}
+

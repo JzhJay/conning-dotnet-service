@@ -1,0 +1,15 @@
+.resizer {
+  display: flex;
+  flex: 1;
+  overflow: hidden; 	    /* The overflow setting ensures that this component doesn't grow beyond its parent. Without it, the component grows to accomodate its children causing the grid not not be virtualized and the back-end to be flooded with data requests.*/
+
+  .flexGridWrapper {
+    .blur {
+      filter: blur(3px);
+    }
+
+    &:global(.wj-content) {
+      background: transparent;
+    }
+  }
+}

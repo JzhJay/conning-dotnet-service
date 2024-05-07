@@ -1,0 +1,8 @@
+((`advise;1); (`jsetb;  `name `.j.INPUT;  (`index;());  `value `"4"))
+/Verify the value was returned to k
+(; (`getValue; ((`advise;1);".k.NUMPCS";".tc.numpcs")))
+(; (`assert; ({.tc.numpcs~4})))
+
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`sxy;   300 345)))
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`sloc;   1 1)))
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`close;())))

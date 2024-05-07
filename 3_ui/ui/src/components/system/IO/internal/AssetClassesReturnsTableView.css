@@ -1,0 +1,68 @@
+.root {
+    font-family: "Lucida Grande", LucidaGrande, "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    width: 100%;
+
+    .table-wrapper {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    th {
+        vertical-align: bottom !important;
+        box-shadow: none !important;
+        font-size: 12px !important;
+        text-align: center !important;
+    }
+
+    tbody th {
+        width: 1%;
+        text-align: left !important;
+        white-space: nowrap;
+
+        &:not(.asset-class) {
+            cursor: default;
+        }
+    }
+
+    tbody td {
+        box-shadow: none !important;
+        text-align: right;
+        min-width: 75px;
+    }
+
+    td,
+    th {
+        border-width: 0px 1px;
+        border-style: solid;
+        border-color: #F4F4F4;
+        padding: 0px 5px;
+    }
+
+    .title {
+        font-size: 18px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .symbol {
+        display: flex;
+        height: 16px;
+        width: 16px;
+        margin-right: 5px;
+    }
+}
+
+:global(.annualizedAdjustedAvgPriceReturnPerClass),
+:global(.annualizedAdjustedStdPriceReturnPerClass),
+:global(.annualizedAdjustedAvgIncomeReturnPerClass),
+:global(.annualizedAdjustedStdIncomeReturnPerClass),
+:global(.annualizedAdjustedAvgTotalReturnPerClass),
+:global(.annualizedAdjustedStdTotalReturnPerClass) {
+    background: #F4F4F4;
+    border-color: #FFF !important;
+}

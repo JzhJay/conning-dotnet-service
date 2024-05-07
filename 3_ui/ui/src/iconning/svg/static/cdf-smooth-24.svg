@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" data-icon="cdf-smooth-24" class="iconning iconning-cdf-smooth-24" viewBox="0 0 24 24" id="cdf-smooth24">
+    <g class="iconning-metadata">
+        <title>Cumulative Density Function Chart with Smooth Plot</title>
+    </g>
+    <g class="iconning-container" data-width="24" data-height="24">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.5" y1="24.0" x2="0.5" y2="2.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.0" y1="23.5" x2="24.0" y2="23.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="17.5" x2="3.0" y2="17.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="11.5" x2="3.0" y2="11.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="5.5" x2="3.0" y2="5.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="20.5" x2="2.0" y2="20.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="14.5" x2="2.0" y2="14.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="8.5" x2="2.0" y2="8.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="2.5" x2="2.0" y2="2.5"/>
+        <!-- CDF Smooth Plot -->
+        <path class="iconning iconning-cdf iconning-cdf-24 iconning-fill iconning-accent-1" d="M 5 20 L 5.0 20.0 L 7.641534539711686 19.605263157894736 L 8.448508544854308 19.210526315789473 L 8.983290780090297 18.81578947368421 L 9.379730322075396 18.421052631578945 L 9.708525756892874 18.02631578947368 L 9.978115286300012 17.631578947368418 L 10.242977605043391 17.236842105263154 L 10.475979383216155 16.84210526315789 L 10.681709322320142 16.447368421052627 L 10.9024572113568 16.052631578947363 L 11.107097061667533 15.657894736842099 L 11.297298990151281 15.263157894736835 L 11.486353151041492 14.868421052631572 L 11.658345081471225 14.473684210526308 L 11.829693785900355 14.078947368421044 L 11.995373539020454 13.68421052631578 L 12.167003381876814 13.289473684210517 L 12.3350731952424 12.894736842105253 L 12.494782407645026 12.49999999999999 L 12.664617754960837 12.105263157894726 L 12.83160598243919 11.710526315789462 L 12.996742825492602 11.315789473684198 L 13.167155478633394 10.921052631578934 L 13.344490018492355 10.52631578947367 L 13.514927271818083 10.131578947368407 L 13.69353805864156 9.736842105263143 L 13.882449195893482 9.34210526315788 L 14.083693188732788 8.947368421052616 L 14.290220558603714 8.552631578947352 L 14.511785604671514 8.157894736842088 L 14.732220745207496 7.763157894736826 L 14.98404364503003 7.368421052631563 L 15.274155063722056 6.9736842105263 L 15.612375873736939 6.578947368421037 L 16.011762777261293 6.184210526315774 L 16.54556965795177 5.7894736842105115 L 17.35817940337538 5.394736842105249 L 20.0 4.999999999999986" stroke="rgb( 40, 70,200)" stroke-width="3.127443751081734" stroke-linecap="round" stroke-endcap="round" style="fill:none"/>
+    </g>
+</svg>

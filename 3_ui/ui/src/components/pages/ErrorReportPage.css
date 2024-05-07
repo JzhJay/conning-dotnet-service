@@ -1,0 +1,16 @@
+.root {
+    display:flex;
+    flex-direction: column;
+
+    :global(.ui.error.message) {
+        margin: auto;
+        max-width: 60%;
+        display: flex;
+        flex: 0 1 auto;
+        margin-top:.5em;
+    }
+}
+
+.error-message {
+
+}

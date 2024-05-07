@@ -1,0 +1,10 @@
+.root {
+    border:  1px dashed #ccc;
+    margin:  0;
+    flex: 0 0 auto;
+}
+
+.notification-table {
+    flex: 1;
+    width: 100%;
+}

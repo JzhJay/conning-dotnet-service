@@ -1,0 +1,26 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="axes2rows-16" class="iconning iconning-axes2rows-16" viewBox="0 0 16 16" id="axes2rows16">
+    <g class="iconning-metadata">
+        <title>Axes to Rows</title>
+    </g>
+    <g class="iconning-container" data-width="16" data-height="16">
+        <!-- Existing Row Axes -->
+        <rect class="iconning iconning-axes2rows iconning-axes2rows-16 iconning-accent-0" x="2.0" y="13.0" width="4.0" height="3.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M 5.0 0 L 0 0" begin="axes2rows16foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <!-- Existing Column Axes -->
+        <rect class="iconning iconning-axes2rows iconning-axes2rows-16 iconning-accent-0" x="7.0" y="13.0" width="4.0" height="3.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M 5.0 -4.0 Q 0 -4.0 0 0 0" begin="axes2rows16foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+    </g>
+    <!-- Curved Arrow -->
+    <g data-width="10.2" data-height="10.2">
+        <g data-width="10.2" data-height="10.2" transform="translate(12.0, 13.0)">
+            <path class="iconning iconning-axes2rows iconning-axes2rows-16 iconning-stroke iconning-arrow" d="M -6.8301244699046455 -3.1523651399559935 L -5.788241076190378 -2.6714958813186387 A 7.522499999999999 7.522499999999999 0 0 0 -8.2875 -0.0 A 9.052499999999998 9.052499999999998 0 0 1 -9.261185721904605 -4.274393410109822 L -8.219302328190336 -3.7935241514724667 A 9.052499999999998 9.052499999999998 0 0 1 -0.0 -9.052499999999998 L -0.0 -7.522499999999999 A 7.522499999999999 7.522499999999999 0 0 0 -6.8301244699046455 -3.1523651399559935" fill="rgb(  0,  0,  0)" style="stroke:none"/>
+        </g>
+        <animateTransform attributeName="transform" dur="0.5s" type="rotate" from="180.0 12.0 13.0" to="0.0 12.0 13.0" begin="axes2rows16foregroundrectangle.mouseover"/>
+        <!-- Foreground Rectangle (transparent, for mouseover event only) -->
+    </g>
+    <rect class="iconning iconning-axes2rows iconning-axes2rows-16 iconning-bg" x="0" y="0" width="16" height="16" fill="rgb(255,255,255)" id="axes2rows16foregroundrectangle" style="stroke:none; fill-opacity:0"/>
+</svg>

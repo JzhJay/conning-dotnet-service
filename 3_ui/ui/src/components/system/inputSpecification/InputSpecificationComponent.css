@@ -1,0 +1,551 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    flex: 1;
+    margin-bottom: 10px;
+    background-color: white;
+    max-width: 100%;
+    font-family: "Open Sans", OpenSans, "Segoe UI", "Helvetica Neue", sans-serif;
+
+    --emphasis-font-weight: bold;
+    --label-background: var(--theme-color-primary);
+    --label-color: white;
+    --editable-background: rgb(207, 255, 255);
+    --editable-label-color: black;
+    --not-editable-background: rgb(95, 202, 255);
+    --border-color: white;
+    --indent-margin: 50px;
+    --line-spacing: 22px;
+    --padding: 10px;
+
+    --check-border: black;
+    --check-checked-color: black;
+    --check-disabled-bg: rgba(206, 217, 224, 0.5);
+
+    --disabled-text-color: rgba(92, 112, 128, 0.6);
+
+    &.classic_rendering_mode {
+        --indent-margin: 0px !important;
+
+        .title {
+            margin-right: 0px;
+        }
+
+        .control .grid-layout-row-content {
+            grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
+            grid-column-gap: 12px;
+
+            .grid-layout-row-content {
+                /*Ignore nested rows and render as a block. Trying to nest rows will restrict the space available for rendering big tables*/
+                /*If nested grid is important we should update the grid logic to allow tables to grow across columns, e.g merged cells*/
+                /*We could also force grids with tables to block while still allowing grids without tables*/
+                display: block !important;
+            }
+
+            .grid-layout-cell .grid-layout-cell-content {
+                width: 100%;
+                height: 100%;
+
+                >div {
+                    height: 100%;
+                }
+            }
+
+            :global(.wj-flexgrid) {
+                max-width: 1px; /*This is just the initial size. The small max width will prevent the table from making the grid column any wider than ideal and the grid measurement code will adjust the size to fit the container*/
+            }
+        }
+
+        fieldset {
+            display: block !important;
+            height: 100%;
+            min-inline-size: fit-content;
+            border-width: 1px;
+        }
+
+        .input-wrapper {
+            div, span, input {
+                &:not(:global(.bp3-control-indicator), :global(.bp3-icon-caret-down)) {
+                    width: 100% !important;
+                }
+            }
+
+            input {
+                font-weight: revert !important;
+                border: revert !important;
+                text-align: right;
+            }
+        }
+
+        .dropdown {
+            border: 1px solid black;
+
+            span {
+                font-weight: revert !important;
+                padding-left: 2px;
+            }
+
+            :global(.bp3-icon) {
+                width: fit-content !important;
+            }
+        }
+    }
+
+    &>div:not(:global(.bp3-navbar)) {
+        padding: 0px 25px;
+        flex: 1;
+    }
+
+    .focus {
+        /*border: 2px solid rgba(0, 112, 192, .5);*/
+        box-shadow: 0 0 0 1px #137cbd, 0 0 0 3px rgba(19,124,189,.3), inset 0 1px 1px rgba(16,22,26,.2);
+    }
+
+    .focusable {
+        margin-top: 3px;
+    }
+
+    .view-title {
+        font-size: 18px;
+        /*padding-bottom: var(--padding);
+        padding-top: var(--padding);*/
+        padding-left: var(--padding);
+        color: var(--label-background);
+        font-weight: var(--emphasis-font-weight);
+        text-decoration: underline;
+    }
+
+    .inline:not(.prevent-inline).align-top {
+        align-items: flex-start;
+    }
+
+    .control-wrapper {
+        margin-left: var(--indent-margin);
+    }
+
+
+    .control {
+        display: flex;
+        flex-direction: row;
+
+        :global(.bp3-popover-target) {
+            cursor: pointer;
+            white-space: nowrap;
+            display: flex;
+
+            span {
+                font-weight: var(--emphasis-font-weight);
+            }
+
+            svg {
+                height: 20px;
+                width: 20px;
+                /*margin-left: -5px;*/
+            }
+        }
+
+        .inline-input {
+            font-weight: var(--emphasis-font-weight);
+            border: none;
+
+            &:not(:first-of-type) {
+                 margin-left: 5px;
+            }
+        }
+
+        .prevent-inline {
+            flex-direction: column;
+        }
+
+        .grid-layout {
+            .grid-layout-row {
+                .title {
+                    margin-top: unset;
+                }
+            }
+
+            .allInputTableChildren {}
+
+        }
+
+        .grid-layout-row-content {
+            display: grid !important;
+            grid-template-columns: repeat(auto-fit, 150px);
+            grid-column-gap: var(--indent-margin);
+            grid-row-gap: var(--line-spacing);
+
+            .grid-layout-cell .grid-layout-cell-content {
+                width: max-content;
+
+                &.tab-cell-in-grid-layout {
+                    width: 100%;
+                }
+
+                &.grid-row-in-grid-layout {
+                   width: unset;
+                }
+
+                > div > .indent {
+                    margin-left: 0 !important;
+                }
+            }
+
+            .is-input-table {
+                overflow-x: hidden;
+                .grid-layout-cell-content {
+                    width: 100%;
+                }
+            }
+
+            .is-input-table-slot {
+                :global(.InputTable__slot) {
+                    max-width: 100%; /*Allow scrolling table in grids when the window is too small to render the full table*/
+                }
+            }
+        }
+    }
+
+    .inline:not(.prevent-inline) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        &.align-top {
+             align-items: flex-start;
+        }
+
+        .interpolate {
+            span {
+                white-space: nowrap;
+            }
+        }
+    }
+
+    .tooltip-description {
+        .title{
+            cursor: default;
+        }
+
+    }
+
+    .title {
+        color: var(--label-background);
+        font-weight: var(--emphasis-font-weight);
+        margin-right: var(--padding);
+        white-space: nowrap;
+    }
+
+    .options {
+        /*margin-left: var(--indent-margin);*/
+
+        .choice-title {
+            font-weight: var(--emphasis-font-weight);
+        }
+
+        :global(.bp3-radio) {
+            display: flex;
+            margin: 0px;
+
+            &:not(:last-of-type) {
+                 margin-bottom: var(--padding);
+            }
+        }
+    }
+
+    .option-group {
+        display: flex;
+        flex-direction: column;
+
+        > :global(.bp3-button) {
+            margin-bottom: var(--padding);
+        }
+    }
+
+    .textarea {
+        font-weight: var(--emphasis-font-weight);
+        font-size: 16px;
+        padding: 0 4px;
+        border: none;
+        box-shadow: none;
+        resize: none;
+        word-break: break-all;
+
+        &:focus {
+             box-shadow: 0 0 0 0 rgba(19,124,189,0), 0 0 0 0 rgba(19,124,189,0), inset 0 0 0 1px rgba(16,22,26,.15), inset 0 1px 1px rgba(16,22,26,.2);
+        }
+    }
+
+    :global(.bp3-control-indicator) {
+        border: var(--check-border) solid 2px;
+        margin-top: 1px;
+    }
+
+    :global(.bp3-disabled .bp3-control-indicator) {
+        background-color: var(--check-disabled-bg);
+        border-color: var(--disabled-text-color)
+    }
+
+    :global(.bp3-control.bp3-radio input:checked ~ .bp3-control-indicator) {
+        background-color: var(--check-checked-color);
+        &::before {
+             background-image: unset;
+        }
+    }
+
+    :global(.bp3-control.bp3-checkbox input:checked ~ .bp3-control-indicator) {
+        background-color: white;
+        color: black;
+
+        svg {
+            margin-left: -2px;
+            margin-top: -2px;
+        }
+
+        &::before {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 5c-.28 0-.53.11-.71.29L7 9.59l-2.29-2.3a1.003 1.003 0 00-1.42 1.42l3 3c.18.18.43.29.71.29s.53-.11.71-.29l5-5A1.003 1.003 0 0012 5z' fill='black'/%3e%3c/svg%3e");
+            margin-left: -2px;
+            margin-top: -2px;
+         }
+     }
+
+    .data-sources-control {
+        margin-left: var(--indent-margin);
+    }
+
+    .checkbox {
+        display: flex;
+        flex-direction: row;
+
+        &.disable-applicable .title {
+            cursor: not-allowed;
+            color: var(--disabled-text-color);
+        }
+
+        .checkbox-label {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .title {
+                flex:0;
+                margin-top: unset;
+                margin-bottom: unset;
+                line-height: 24px;
+            }
+            .description {
+                margin-top: 2px;
+                flex: 1;
+            }
+        }
+    }
+
+    :global(.bp3-control.bp3-checkbox), :global(.bp3-control.bp3-radio) {
+        margin-bottom: 0px;
+    }
+
+    .list-item {
+        &:not(:last-of-type) {
+            margin-bottom: 10px;
+        }
+
+        :global(.bp3-radio) {
+            margin: 0px;
+        }
+    }
+
+    .indent {
+        margin-left: var(--indent-margin);
+    }
+
+    .inline {
+        .severe-error {
+             margin-right: var(--padding);
+        }
+    }
+
+    .highlight {
+        animation: highlight 2s;
+    }
+
+    .input {
+        display: inline-block;
+    }
+
+    .line-break {
+        height: var(--line-spacing);
+    }
+}
+
+.tooltip-description-popover {
+    max-width: 70vw;
+}
+
+.validator {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+    &.severe-error {
+        box-shadow:  0 0 0 1px #db3737, 0 0 0 3px rgba(219,55,55,.3), inset 0 1px 1px rgba(16,22,26,.2);
+        .validator-popover-wrapper :global(.bp3-popover-target){
+            border-top-color: #c23030;
+        }
+    }
+
+    &.warning {
+       box-shadow:  0 0 0 1px #D9822B, 0 0 0 3px rgba(217, 130, 43,.3), inset 0 1px 1px rgba(16,22,26,.2);
+        .validator-popover-wrapper :global(.bp3-popover-target){
+            border-top-color: #bf7326;
+        }
+    }
+
+     .validator-popover-wrapper {
+         order: -1;
+         margin-right: 3px;
+         align-self: stretch;
+
+        :global(.bp3-popover-target) {
+            width: 10px;
+            height: 100%;
+            border-color: transparent;
+            border-style: solid;
+            border-width: 10px 10px 0 0;
+        }
+    }
+}
+
+:global(.wj-cell) {
+    .validator {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        box-shadow: none;
+        height: 100%;
+        width: 100%;
+        border: 1px solid transparent;
+        pointer-events: none;
+
+        .validator-popover-wrapper{
+            pointer-events: visible;
+        }
+    }
+
+    .warning {
+        background-color: rgba(217, 130, 43, 0.15);
+    }
+
+    .severe-error {
+        background-color: rgba(219, 55, 55, 0.15);
+    }
+
+}
+
+@keyframes highlight {
+    0% {
+        background: none;
+    }
+    50% {
+        background: rgba(19, 124, 189, .5);
+    }
+    100% {
+        background: none;
+    }
+}
+
+.validator-popover :global(.bp3-popover-content) {
+    padding: 10px;
+}
+
+.object-chooser {
+    position: relative;
+
+    :global(.bp3-tag.bp3-minimal) {
+        background-color: white; /*rgb(233 233 233);*/
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+    }
+    :global(.ObjectChooser__tag-icon) {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.control-group {}
+
+.option-tabs-root {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    .option-tabs-header {
+        position: relative;
+        flex: 0;
+        overflow: visible;
+        overflow-y: auto;
+        padding-right: 15px;
+    }
+
+    .option-tabs-body {
+        flex: 1;
+        flex-shrink: 0;
+        overflow: visible;
+        overflow-x: auto;
+        padding-bottom: 25px;
+    }
+
+    .option-tabs-content {
+        display: none;
+
+        &.selected {
+            display: block;
+        }
+    }
+
+    &.vertical {
+         flex-direction: row;
+
+        .option-tabs-header {
+            overflow-x: visible;
+            border-right: 1px solid gray;
+            padding-right: 10px;
+        }
+
+        .option-tabs-body {
+            flex-shrink: 1;
+            padding-left: 10px;
+            margin-left: calc(-1 * var(--indent-margin));
+        }
+    }
+
+}
+
+.format-menu {
+    padding: 10px 25px;
+
+    .slider {
+        &:not(:last-child) {
+             margin-bottom: 10px;
+        }
+
+        label {
+            margin-bottom: 5px;
+            margin-left: -10px;
+        }
+    }
+}
+
+
+.list-item-input {
+    input[type=number]::-webkit-outer-spin-button,
+    input[type=number]::-webkit-inner-spin-button {
+        /* display: none; <- Crashes Chrome on hover */
+        -webkit-appearance: none;
+        margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    }
+
+    input[type=number] {
+        -moz-appearance:textfield; /* Firefox */
+    }
+}

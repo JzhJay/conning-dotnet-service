@@ -1,0 +1,55 @@
+.root {
+    display:        block;
+    flex-direction: column;
+    flex:           1;
+    overflow:auto;
+
+    .column-cell {
+        display:flex;
+        > span {
+            margin:auto;
+        }
+    }
+
+    .blueprint-table {
+        :global {
+            .bp3-table-selection-enabled .bp3-table-header:hover::before, .bp3-table-header.bp3-table-header-active::before {
+                display: none;
+            }
+
+            .bp3-table-cell {
+                .bp3-popover-wrapper, .bp3-popover-target {
+                    width: 100%;
+                    height:30px;
+                }
+
+            }
+
+            .center {
+                .bp3-table-no-wrap-text {
+                    margin:     auto auto;
+                    text-align: center;
+                }
+            }
+
+            .right {
+                .bp3-table-no-wrap-text {
+                    margin-left:  auto;
+                    text-align:   right;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+.events {
+}
+
+.timeline-label {
+    padding: 0 .5em;
+}
+
+.tooltip {
+    padding: .5em;
+}

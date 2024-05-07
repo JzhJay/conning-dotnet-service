@@ -1,0 +1,42 @@
+.tag-values-editor {
+    .dialog-foot {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+.tag-values {
+    display:flex;
+    flex-direction:column;
+
+}
+
+.tag-value {
+    z-index: 65537;
+}
+
+.swatch {
+    display:inline-flex;
+    padding:0px;
+    cursor: pointer;
+    border: 1px solid rgba(34,36,38,.15);
+    border-radius: 0.28571429rem;
+    margin: auto 0;
+         min-width:  28px;
+        min-height: 28px;
+}
+
+.preview {
+    margin:  auto auto auto 0;
+    padding: 4px;
+}
+
+.default-checkbox {
+    display: flex;
+    justify-content: flex-end;
+
+    :global(.bp3-checkbox), :global(.bp3-radio) {
+        margin: 9px 2px 0 0;
+    }
+}

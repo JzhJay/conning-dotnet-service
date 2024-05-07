@@ -1,0 +1,20 @@
+.root {
+    display: flex;
+    cursor: pointer;
+    pointer-events: unset !important;
+
+    .tooltip {
+        width: 18px;
+        height: 18px;
+    }
+
+    .icon {
+        opacity: 0;
+        padding: 4px;
+        color: var(--conning-light-blue);
+    }
+
+    &:hover .icon {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,53 @@
+.root {
+    margin-left: var(--indent-margin);
+    border: 1px solid rgba(0,0,0,0.8);
+    width: fit-content;
+
+    .ctrl-bar {
+        padding: 3px 3px 0px 10px;
+        display: flex;
+        flex-direction: row;
+        min-width: 200px;
+        height: 36px;
+        align-items: center;
+
+        :global(.bp3-popover) {
+            flex: 1;
+
+            :global(.bp3-menu) {
+                width: 100%
+            }
+        }
+    }
+
+    .values-container {
+        margin: 3px;
+        min-height: 60px;
+        max-height: 240px;
+    }
+
+    .values-list {
+        margin: 0;
+        overflow-x: auto;
+        overflow-y: visible;
+    }
+
+    .value-item {
+        height: 30px;
+        padding: 0 6px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        white-space: nowrap;
+
+        border-style: outset;
+        border-width: 1px;
+
+
+    }
+
+    :global(.bp3-checkbox) {
+        margin-top: -5px;
+    }
+}

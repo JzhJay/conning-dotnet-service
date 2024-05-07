@@ -1,0 +1,17 @@
+.root:global(.ui.card) {
+    min-width:340px;
+
+    .availableViewsToolbar {
+        :global(.SortableCardsPanel__field-value) {
+            margin-left: 0;
+            margin-top: -5px;
+            overflow:visible;
+        }
+
+        :global(.bp3-button-group) {
+            flex-wrap: wrap;
+            display: inline-flex;
+            height: auto;
+        }
+    }
+}

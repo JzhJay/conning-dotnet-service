@@ -1,0 +1,142 @@
+.simulation-slot {
+    /*
+    background-image: url('/ui/src/ui/images/advise/queryTool/database.svg');
+     */
+
+    > :global(.bp3-popover-content) {
+        width:100%;
+    }
+
+    :global .fields {
+        .field:nth-child(2) {
+            padding-left: 0 !important;
+        }
+
+        .field {
+            > span, > .bp3-button-group {
+                display: flex;
+                margin: auto 0;
+
+                /* For popover2 */
+                > span {
+                    display:flex;
+                }
+
+                .bp3-popover-target {
+                    flex:1;
+                    margin:auto 0;
+                }
+            }
+        }
+    }
+
+    .contents {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        padding: 5px;
+
+        .slot-name {
+            display: grid;
+            white-space: nowrap;
+            grid-template-columns: auto 1fr;
+            margin-bottom: 3px;
+        }
+
+        .slot-sim {
+            display: grid;
+            grid-template-columns: auto 1fr;
+
+            .sim-name {
+                white-space: pre-wrap;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
+
+.simulation-binding {
+
+}
+
+.simulation-label {
+    margin: auto;
+}
+
+.slot-card {
+     composes: sortable-item from './ReportCard.css';
+
+        display: grid;
+        grid-template-rows: auto 1fr;
+
+        grid-template-areas: "header" "contents";
+
+        > :global(.ui.list) {
+            margin-top: 0;
+            padding: 5px;
+        }
+
+        .header {
+            grid-area: header;
+            display: grid;
+            grid-template-areas: "icon title actions";
+            grid-template-columns: auto 1fr auto;
+            grid-gap: 0px;
+            border-bottom: 1px solid var(--theme-border-color);
+
+            > :global(.draggable) {
+                grid-part: icon;
+                height: 42px;
+                width: 42px;
+                min-width: 42px;
+                line-height: 42px;
+                color: white;
+                background-color: var(--theme-color-secondary);
+            }
+
+            .title {
+                padding: 5px 10px;
+                grid-area: title;
+                font-size: 120%;
+                display: flex;
+
+                :global {
+                    .bp3-editable-placeholder > .bp3-editable-content {
+                        font-style: italic;
+                    }
+
+                    a, .bp3-editable-text {
+                        text-decoration: none;
+                        flex: 1;
+
+                        padding: 5px;
+                        color: black !important;
+                    }
+                }
+            }
+        }
+}
+
+.actions {
+    composes: actions from './ReportCardPanel.css';
+}
+
+.add-a-sim {
+    composes: simulation-slot;
+    min-height:40px;
+}
+
+.react-select {
+    .react-select__control {
+        border-radius: unset;
+        min-height: 30px;
+        height: 30px;
+    }
+    .react-select__indicator-separator {
+        display: none;
+    }
+    .react-select__indicator {
+        padding: 4px;
+    }
+}
+

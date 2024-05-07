@@ -1,0 +1,5 @@
+.root {
+    div[wj-part='root'] {
+        overflow-x: hidden !important;
+    }
+}

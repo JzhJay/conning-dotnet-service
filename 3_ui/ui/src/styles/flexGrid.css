@@ -1,0 +1,229 @@
+@import './themes/default-theme.css';
+
+:root {
+  --min-column-width: 150px;
+}
+
+/* Don't add .conning.app.ui as the grid measures cells in isolation without those classes */
+:global {
+  .conning.ui.app .wj-flexgrid.wj-control.wj-content,
+  .conning.ui.app .ReactVirtualized__Table {
+    background: #f2f2f2;
+
+    /*overflow-x:scroll;
+    //overflow-y:hidden;
+    //width:100%;
+    //height:100%;
+     */
+
+    .ReactVirtualized__Grid {
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .ReactVirtualized__Table__row {
+      display: flex;
+      outline-style: none;
+
+      &:nth-child(even) .ReactVirtualized__Table__rowColumn {
+        background-color: #f2f2f2;
+      }
+    }
+
+    .ReactVirtualized__Table__headerRow {
+      background: #eaeaea;
+      color: #222;
+      font-weight: bold;
+      text-transform: none;
+      border-color: rgba(0, 0, 0, 0.2);
+      border-style: solid;
+      border-width: 0 0 1px 0;
+    }
+
+    .ReactVirtualized__Table__headerColumn {
+      border-right: 1px solid rgba(0, 0, 0, 0.2);
+      margin-right: 0px;
+      display: flex;
+      padding: 2px 0px 2px 4px;
+      vertical-align: middle;
+      line-height: 22px;
+      min-width: var(--min-column-width);
+
+      &.ReactVirtualized__Table__sortableHeaderColumn {
+        padding-right: 0;
+      }
+
+      &:focus {
+        outline: 0px;
+      }
+
+      &.center {
+        text-align: center;
+      }
+
+      .ReactVirtualized__Table__headerTruncatedText {
+        flex: 1;
+      }
+
+      .ReactVirtualized__Table__sortableHeaderIcon {
+        width: 24px;
+        height: 24px;
+        flex: 0 0 24px;
+        margin: auto auto;
+      }
+
+      &:first-of-type {
+        margin-left: 0px;
+      }
+    }
+
+    .ReactVirtualized__Table__rowColumn {
+      background: white;
+      margin-right: 0px;
+      border-right: 1px solid rgba(0, 0, 0, 0.2);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      height: 100%;
+      min-width: var(--min-column-width);
+
+      &:first-of-type {
+        margin-left: 0px;
+      }
+
+      > div {
+        max-width: 100%;
+        display: flex;
+        > span {
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+
+    .wj-cells .wj-cell.wj-state-multi-selected, .wj-cells .wj-cell.wj-state-selected {
+      background-color: initial;
+      color: initial;
+    }
+
+    &.wj-state-focused.hover-highlight .wj-cells .wj-cell:hover {
+      background-color: rgba(230, 230, 230, 0.9);
+    }
+
+    .wj-cells .wj-cell.wj-state-multi-selected, .wj-cells .wj-cell.wj-state-selected {
+      background: var(--selected-background);
+    }
+
+    /*.wj-cells .wj-cell.wj-state-multi-selected, .wj-cells .wj-cell.wj-state-selected {
+    //    color: inherit;
+    //    background: var(--selected-background);
+    //}
+     */
+
+    .wj-cell, .ReactVirtualized__Table__rowColumn {
+      /* Don't do this - it causes all sorts of issues with cell recylcing
+      //transition: color 200ms ease, background-color 200ms ease;
+       */
+      padding: 2px 8px;
+      vertical-align: middle;
+      line-height: 20px;
+      /*z-index:10;  // Otherwise the scrolled cells with icons would occlude the header menu -  Turned off to repair frozen column scrolling*/
+      &.can-select {
+        cursor: pointer;
+      }
+
+      &.wj-header {
+        &[class*="wj-sort-*"] {
+          cursor:pointer;
+        }
+      }
+      .ui.button {
+        font-size: .9em;
+        padding: 3px 4px;
+        border-top: 0;
+        border-bottom: 0;
+      }
+
+      a.ui.button {
+        padding-top: 6px;
+        padding-bottom: 6px;
+
+        /* TODO - this is because chrome gets :hover stuck when we click a link that opens in another window */
+        &:hover {
+          background-color: #CACBCD;
+        }
+      }
+
+      .bp3-button-group {
+        margin:auto -3px;
+
+        .bp3-button {
+          line-height:22px;
+          min-height:22px;
+          height:22px;
+        }
+      }
+
+      button.ui.button {
+        padding-top: 2px;
+        padding-bottom: 2px;
+      }
+
+      .buttons {
+        margin: 0;
+        font-size: 14px;
+
+        &:after {
+          content: none;
+        }
+
+        .ui.button {
+          &:first-child {
+            border-left: 0;
+          }
+
+          &:last-child {
+            border-right: 0;
+          }
+        }
+
+        /*&:not(.borderless) {
+        //    .button {
+        //        border: 1px solid grey;
+        //
+        //        &:not(:first-child) {
+        //            border-left-width: 0px;
+        //        }
+        //    }
+        //}
+         */
+      }
+
+      input[type=checkbox] {
+        padding: 0 .5em 0 0;
+        top: -1px;
+        position: relative;
+      }
+
+      &.has-buttons {
+        display: flex;
+
+        padding: 3px;
+
+        &.no-padding {
+          padding: 0;
+          * {
+            border-radius: 0;
+          }
+        }
+
+        .buttons {
+          margin: 0;
+          flex: 1;
+          font-size: 1em;
+        }
+
+        vertical-align: middle;
+      }
+    }
+  }
+}

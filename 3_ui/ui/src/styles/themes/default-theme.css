@@ -1,0 +1,81 @@
+@import './conning-theme.css';
+:root {
+    --menu-border-color: rgba(34, 36, 38, 0.14902);
+    --menu-box-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 3px 0px;
+
+    --content-background: var(--color_white2);
+
+    --conning-light-blue: #96b4d8;
+    --conning-dark-blue: #004990;
+    --dark-blue:rgb(0, 73, 144);
+
+    --header-background-color: white;
+    --header-height: 50px;
+    --header-padding: 5px;
+    --header-text-color: black;
+    --header-item-background-color: var(--dark-blue);
+    --header-border-color: var(--dark-blue);
+    --productLogoWidth: 8em;
+
+    --sidebar-item-border: 1px solid rgba(34, 36, 38, 0.1);
+
+    --default-transition: .4s ease all;
+    --panel-background-color:#efefef;
+
+    --theme-foreground-color-hover: red;
+    --theme-border-color: black;
+
+
+    --fill-background-color: #f2f2f2;
+
+    --super-panel-header-background: #eaeaea;
+    --super-panel-header-text-color: black;
+    --super-panel-border-width: 1px;
+    --super-panel-separator-width: .2em;
+    --super-panel-separator-color: black;
+
+    --accordion-header-foreground:black;
+    --accordion-searcher-height: 30px;
+    --accordion-value-height: 24px;
+
+    --accordion-header-background:#eaeaea;
+    --accordion-header-font-family: Helvetica;
+    --accordion-header-font-size: 15px;
+    --accordion-header-height: 32px;
+    --accordion-header-border: 1px solid var(--super-panel-header-background);
+    --accordion-arrow-color: black;
+    --accordion-separator-border: 1px solid black;
+    --accordion-inner-padding: .5em; /* Padding around the checkboxes, toolbar icons, etc */
+    --accordion-toolbar-height: 30px;
+    --accordion-toolbar-background: linear-gradient(rgb(222, 225, 221), rgb(210, 213, 211));
+    --accordion-toolbar-foreground: black;
+
+    --coordinate-background:white;
+    --selected-background:rgba(125, 188, 255, 0.6);
+    --selected-color:black;
+    --coordinate-foreground:black;
+    --coordinate-unavailable-foreground:grey;
+
+    --toolbar-item-font-size: 16px;
+
+    --theme-title-text-color: black;
+    --theme-application-grid-color: var(--conning-dark-blue);
+    --theme-application-grid-color-hover: var(--conning-light-blue);
+
+    --selectize-arrow-color: white;
+
+    --search-background: var(--super-panel-header-background);
+    --search-color:white;
+    --search-height: 26px;
+    --search-highlight-foreground:white;
+
+    --query-report-detail-pane-z-index: 100;
+
+
+    --checkbox-height: 13px;
+    --checkbox-width: 13px;
+
+
+    --user-attention-background-color: red;
+
+}

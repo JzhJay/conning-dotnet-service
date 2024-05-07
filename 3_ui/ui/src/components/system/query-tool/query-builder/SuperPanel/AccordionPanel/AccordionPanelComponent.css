@@ -1,0 +1,136 @@
+.accordion-panel {
+    composes:    content from '../SuperPanelComponent.css';
+    overflow:    visible;
+    border-left: 2px solid var(--super-panel-separator-color);
+
+    &:not(.deleting):first-of-type {
+        border-left: 0;
+    }
+
+    &.deleting {
+        opacity: 0;
+        &:first-of-type {
+            border:0;
+        }
+
+        max-width:0px !important;
+        min-width:0px !important;
+        overflow:hidden;
+    }
+
+    input[type=checkbox] {
+        align-self: center;
+        margin:     auto var(--row-padding) auto 0 !important;
+    }
+
+    &[prevent-toggle] {
+        .pane-header:hover {
+            color: var(--row-foreground);
+        }
+    }
+
+    input {
+        flex-shrink: 0;
+    }
+
+    .axis-chooser :global(.Select-placeholder) {
+        padding-left: .5em;
+    }
+
+    .accordions-container {
+        flex:    1;
+        padding:3px 3px 0 3px;
+        border-top:1px solid var(--theme-border-color);
+        display: flex;
+        overflow:hidden;
+    }
+
+    .accordions {
+        display:          flex;
+        flex-direction:   column;
+        flex:             1 1 auto;
+        background-color: var(--super-panel-background-color);
+        overflow-y:       scroll;
+        padding:          0;
+        opacity:1;
+        transition:       opacity .5s ease-out;
+
+        &.layout-horizontally {
+            flex-direction: row;
+             overflow-y: hidden;
+        }
+    }
+
+    .values-repeat {
+        padding:    0;
+
+        input[type="checkbox"]:focus {
+            outline: 0;
+        }
+    }
+
+    .search-results {
+        display:flex;
+        pointer-events: none;
+        flex:1;
+        opacity:0;
+        position:absolute;
+        flex-direction: column;
+        background-color: rgba(54,82,139, .4);
+        padding:          0;
+        transition: opacity .5s ease;
+        width:100%;
+        z-index:100;
+    }
+
+    &.is-searching {
+        .accordions, .show-implied-axes {
+            position:absolute !important;
+            width:100%;
+            /*display: none;
+            height:0;
+            opacity:0;*/
+        }
+
+        .show-implied-axes {
+            bottom:0;
+        }
+
+        .search-results {
+            pointer-events: auto;
+            position:relative;
+            opacity:1;
+            overflow-y:auto;
+            overflow-x:hidden;
+            /*overflow-x:visible;
+            width:auto;*/
+        }
+
+        .accordions-container {
+            background-color: var(--search-active-background-color);
+            padding:          2px 0 2px 0;
+            display:          flex;
+            flex:             1;
+            flex-basis:       360px;
+            position:         relative;
+        }
+    }
+}
+
+[data-part="scenarios"] {
+
+    .accordions {
+        overflow: hidden; /*Virtual list renders its own scrollbar*/
+    }
+}
+
+button:global(.ui.button).show-implied-axes {
+	flex:    0 0 auto;
+	margin:  3px;
+	padding: 5px;
+	cursor:  pointer;
+}
+
+.no-search-results {
+
+}

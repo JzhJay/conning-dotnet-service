@@ -1,0 +1,84 @@
+
+/Test the splitter control
+
+/Verify that the divweight takes precedence over the div value
+/Manually change the value of the splitter, (a divweight is already set in the testcase)
+(; (`setValue; ((`advise;1);".k.p.lrSplit..j.div";450)))
+(; (`setValue; ((`advise;1);".k.p.lrSplit.tbSplit..j.div";180)))
+/verify that the divs are still in the same value i.e. the above div changes were ignored and div correctly set back to the value calculated by the divweight
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit;  (`index;());  (`sdiv.assert;237)))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit.tbSplit;  (`index;());  (`sdiv.assert;313)))
+
+/Verify we can switch to using the div value using _n for divweight
+(; (`setValue; ((`advise;1);".k.p.lrSplit..j.divweight";)))
+(; (`setValue; ((`advise;1);".k.p.lrSplit..j.div";440)))
+(; (`setValue; ((`advise;1);".k.p.lrSplit.tbSplit..j.divweight";)))
+(; (`setValue; ((`advise;1);".k.p.lrSplit.tbSplit..j.div";330)))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit;  (`index;());  (`sdiv.assert;440)))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit.tbSplit;  (`index;());  (`sdiv.assert;330)))
+
+/Verify we can switch to using the div value using 0n for divweight
+(; (`setValue; ((`advise;1);".k.p.lrSplit..j.divweight";0n)))
+(; (`setValue; ((`advise;1);".k.p.lrSplit..j.div";200)))
+(; (`setValue; ((`advise;1);".k.p.lrSplit.tbSplit..j.divweight";0n)))
+(; (`setValue; ((`advise;1);".k.p.lrSplit.tbSplit..j.div";175)))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit;  (`index;());  (`sdiv.assert;(200;203))))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit.tbSplit;  (`index;());  (`sdiv.assert;175)))
+
+/Verify we can set the divweight back and it takes precedence over div value
+(; (`setValue; ((`advise;1);".k.p.lrSplit..j.divweight";.2)))
+(; (`setValue; ((`advise;1);".k.p.lrSplit.tbSplit..j.divweight";.3)))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit;  (`index;());  (`sdiv.assert;(121;123))))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit.tbSplit;  (`index;());  (`sdiv.assert;(116;118))))
+
+
+/Verify setting divweight to null, then div to null, the splitters get centered
+(; (`setValue; ((`advise;1);".k.p.lrSplit..j.divweight";)))
+(; (`setValue; ((`advise;1);".k.p.lrSplit.tbSplit..j.divweight";)))
+(; (`setValue; ((`advise;1);".k.p.lrSplit..j.div";)))
+(; (`setValue; ((`advise;1);".k.p.lrSplit.tbSplit..j.div";)))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit;  (`index;());  (`sdiv.assert;297)))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit.tbSplit;  (`index;());  (`sdiv.assert;196)))
+
+/Re-establish the divweights so we can test user interaction
+(; (`setValue; ((`advise;1);".k.p.lrSplit..j.divweight";.2)))
+(; (`setValue; ((`advise;1);".k.p.lrSplit.tbSplit..j.divweight";.3)))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit;  (`index;());  (`sdiv.assert;(121;123))))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit.tbSplit;  (`index;());  (`sdiv.assert;(116;118))))
+
+/User moves the splitter, divweights in .NET and k should now be 0n - The sdiv below is the maximum that we can move it to given minimum sizes and the window size
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit;  (`index;());  (`sdiv;123)))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit.tbSplit;  (`index;());  (`sdiv;360)))
+(; (`getValue; ((`advise;1);".k.p.lrSplit..j.divweight";".tc.SplitDivWeightValue")))
+(; (`assert; ({.tc.SplitDivWeightValue~0n})))
+(; (`getValue; ((`advise;1);".k.p.lrSplit.tbSplit..j.divweight";".tc.SplitLeftDivWeightValue")))
+(; (`assert; ({.tc.SplitLeftDivWeightValue~0n})))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit;  (`index;());  (`sdivweight.assert;)))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit.tbSplit;  (`index;());  (`sdivweight.assert;)))
+
+/Resize the window, divs can move a little, but not jump around
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`sxy;   1020 630)))
+
+
+/Set and verify the splitter size works
+(; (`setValue; ((`advise;1);".k.p.lrSplit..j.divsize";25)))
+(; (`setValue; ((`advise;1);".k.p.lrSplit.tbSplit..j.divsize";20)))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit;  (`index;());  (`sdivsize.assert;25)))
+((`advise;1); (`jsetb;  `name `.k.p.lrSplit.tbSplit;  (`index;());  (`sdivsize.assert;20)))
+
+/ Test code for get/set with dynamic K functions
+/ Divider value asserts to be used multiple times
+/(; (`function; ({.k.lrDivVal: x};118)))
+/(; (`function; ({.k.tbDivVal: x};168)))
+
+/Verify that the GUI has the correct split values
+/((`advise;1); (`jsetb;  `name `.k.p.lrSplit;  (`index;());  (`sdiv.assert;{valueOf[.k.lrDivVal]})))
+/((`advise;1); (`jsetb;  `name `.k.p.lrSplit.tbSplit;  (`index;());  (`sdiv.assert;168)))
+/Make sure the k code was updated with the correct splitter div value
+/(; (`getValue; ((`advise;1);".k.p.lrSplit..j.div";".tc.lrDivVal")))
+/(; (`assert; ({.tc.SplitDivValue={valueOf[.k.splitValue]}})))
+/(; (`getValue; ((`advise;1);".k.p.lrSplit.tbSplit..j.div";".tc.tbDivVal")))
+/(; (`assert; ({.tc.tbDivVal={valueOf[.k.tbDivVal]}})))
+
+
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`close;())))

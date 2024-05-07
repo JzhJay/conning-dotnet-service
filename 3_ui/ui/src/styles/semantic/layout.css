@@ -1,0 +1,13 @@
+:global {
+    .conning.ui.app {
+        .ui.text.container {
+            max-width:100% !important;
+        }
+
+        .ui.attached.segment {
+            margin:0;
+            width:calc(100%);
+            max-width:calc(100%);
+        }
+    }
+}

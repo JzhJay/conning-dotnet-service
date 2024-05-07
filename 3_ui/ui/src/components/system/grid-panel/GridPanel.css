@@ -1,0 +1,76 @@
+@import '../../../styles/themes/default-theme.css';
+
+/* Wraps a flex-grid with a title and optional label */
+:global(.conning.ui.app) .grid-panel {
+  display:        flex;
+  flex-direction: column;
+  max-width:      100%;
+  flex:           1;
+  overflow:       hidden;
+  transition:     none;
+
+  .wrapper {
+    display:        flex;
+    flex:           1;
+    flex-direction: column;
+    min-height: 100%;
+
+    :global {
+        .wj-flexgrid, .ReactVirtualized__Table {
+          &.wj-flexgrid {
+            flex:     1;
+            overflow: auto;
+            display:  flex;
+
+            > div {
+              height: auto !important;
+              flex:   1;
+            }
+
+            .wj-cell.wj-wrap {
+              white-space: pre-line;
+            }
+          }
+
+          .wj-state-selected {
+               /*background-color: #0085c7;*/
+          }
+
+          .ui.input {
+            width:   100%;
+            height:  100%;
+            padding: 0;
+
+            input {
+              padding:       2px 7px;
+              border-radius: 0;
+            }
+          }
+        }
+
+        .selectable.ReactVirtualized__Table {
+          cursor: default;
+
+          .ReactVirtualized__Table__row {
+            &, .ReactVirtualized__Table__rowColumn {
+              transition:background-color 200ms ease;
+            }
+
+            &:hover {
+              &, .ReactVirtualized__Table__rowColumn {
+                background-color: var(--selected-background);
+              }
+            }
+
+            .ReactVirtualized__Table__rowColumn {
+              cursor: pointer;
+            }
+          }
+        }
+    }
+  }
+}
+
+:global(.bp3-dialog-body) .grid-panel {
+  background-color: white;
+}

@@ -1,0 +1,13 @@
+.root {
+    :global .bp3-input-group .bp3-input-action > .bp3-spinner {
+        margin: 7px !important;
+    }
+
+    :global .bp3-form-helper-text {
+        margin-top: 5px !important;
+
+        .bp3-popover-wrapper, .bp3-popover-target {
+            display: inline !important;
+        }
+    }
+}

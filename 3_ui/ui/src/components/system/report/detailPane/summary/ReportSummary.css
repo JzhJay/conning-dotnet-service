@@ -1,0 +1,112 @@
+.report-summary {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+
+    > :global(.ui.card) {
+        flex:1;
+    }
+}
+
+.parts-tab {
+    &:global(.bp3-vertical) {
+        flex: 1;
+        display: flex;
+
+        > :global(.bp3-tab) {
+
+        }
+
+        > :global(.bp3-tab-panel) {
+            padding-left: 0;
+            flex: 1;
+        }
+    }
+
+    > :global(.bp3-tab-panel) {
+        margin-top: 0;
+        flex: 1;
+    }
+
+    &:not(:global(.bp3-vertical)) {
+        line-height: 30px;
+        font-size: 1.28571429em;
+        font-weight: bold;
+
+        :global {
+            .bp3-tab-list {
+                padding: .25em;
+                border-bottom: 1px solid rgba(34, 36, 38, 0.1);
+            }
+        }
+    }
+}
+
+.dynamic-card-content.dynamic-card-content:global(.content) {
+    overflow: visible;
+    padding: .5em;
+    flex: 1 1 auto;
+
+    > :global(.content) {
+        padding: .25em 0;
+    }
+
+    > :global(.content.extra) {
+        > :global(.bp3-popover-target) {
+            width: 100%
+        }
+
+        &:not(:first-of-type) {
+            :global {
+                .fields > .field > label {
+                    display: none;
+                }
+
+                .ui.form > .bp3-popover-target {
+                    &.bp3-popover-target, &.bp3-button-group {
+                        top: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    :global {
+        .ui.form {
+            .fields {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.no-items {
+    line-height: 1.5;
+}
+
+.row-icon {
+    margin: auto !important;
+}
+
+.highlight {
+    background-color: var(--report-item-highlighted-background);
+}
+
+
+:global .bp3-icon-drag-handle-vertical {
+    margin: auto;
+    cursor: move;
+}
+
+.tab-title {
+    font-weight: bold;
+    font-size: 1.28571429em;
+    line-height:30px;
+    flex:1;
+
+&[aria-selected="true"] {
+     font-color:black;
+ }
+}

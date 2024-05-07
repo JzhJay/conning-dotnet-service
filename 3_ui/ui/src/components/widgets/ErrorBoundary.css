@@ -1,0 +1,27 @@
+.root {
+
+}
+
+.error:global(.ui.error.message) {
+    margin:1em auto;
+    width: auto;
+
+    :global .icon {
+        align-self: start;
+    }
+
+    .message {
+
+    }
+
+    .stack {
+        white-space: pre;
+        margin-top:.5em;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: end;
+        padding-top: 10px;
+    }
+}

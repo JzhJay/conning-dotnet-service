@@ -1,0 +1,50 @@
+script(type="text/ng-template", id="axisCorner")
+    .axis-parent(ng-bind="vm.data.axes[data.level]")
+    div.column-layout.axis-container(ng-if="data.level + 1 < vm.data.axes.length - 1",
+    ng-style="{'background-color': vm.axisBackgroundColor(data.level)}",
+    ng-init="data={level:$parent.data.level + 1}", ng-include="'axisCorner'")
+    div.column-layout(ng-if="data.level + 1 == vm.data.axes.length - 1")
+        .axis-child.inner-axis(
+        ng-bind="vm.data.axes[data.level + 1]",
+        ng-style="{'background-color': vm.axisBackgroundColor(data.level + 1)}"
+        )
+
+script(type="text/ng-template", id="headers")
+    .axis-level.div(ng-repeat="axis in vm.data.axes track by $index", ng-init="level = $index")
+        .header-block(
+        ng-repeat="value in vm.data.coordinates[axis] track by $index",
+        ng-if="level < vm.data.axes.length - 1",
+        ng-style="{'background-color': vm.axisBackgroundColor(level)}",
+        ng-class="{'selected-header':vm.isHeaderSelected(level, $index, data.isRow)}",
+        ng-mouseover="vm.headerHoverIn(level, $index, data.isRow, $event)",
+        ng-mouseleave="vm.headerHoverOut()")
+            div(ng-class="{'rotate-container':data.isRow}")
+                span.axis-value(ng-bind="value")
+        .header-block.values-header-block(ng-if="level == vm.data.axes.length - 1")
+            .values
+                span(ng-repeat="value in vm.data.coordinates[axis] track by $index",
+                ng-style="{'background-color': vm.axisBackgroundColor(level)}",
+                ng-class="{'value-rotate-container':!data.isRow, 'selected-header':vm.isHeaderSelected(level, $index, data.isRow)," +
+                "'quadrant-border':vm.isQuardrantBorderingCell(-1, $index)}",
+                ng-mouseover="vm.headerHoverIn(level, $index, data.isRow, $event)",
+                ng-mouseleave="vm.headerHoverOut()")
+                    span.axis-value(ng-bind="value")
+
+.header-row
+    .axes-corner(ng-repeat="data in [{level:0}]", ng-include="'axisCorner'", ng-style="{'background-color': vm.axisBackgroundColor(0)}")
+    .column-headers(ng-repeat="data in [{isRow:false}]", ng-include="'headers'")
+
+.table-row
+    .row-headers(ng-repeat="data in [{isRow:true}]", ng-include="'headers'")
+    table.table-content
+        tr(ng-repeat="row in vm.data.values track by $index",
+        ng-class="{'row-quadrant-border':vm.isQuardrantBorderingCell($index, -1)}")
+            td(ng-repeat="val in row track by $index",
+            ng-class="{'col-quadrant-border':vm.isQuardrantBorderingCell(-1, $index)}",
+            ng-style="{'background-color': vm.valueBackgroundColor(val), 'color': val >= .8 || val <=-.8 ? 'white': 'black'}")
+                div.cell-value(data-toggle="tooltip", data-placement="right", title="{{val}}"
+                ng-mouseover="vm.cellHoverIn($parent.$index, $index)",
+                ng-click="vm.cellClick(val, $event)",
+                ng-mouseleave="vm.cellHoverOut()",
+                ng-bind="::vm.calcCellValue(val)",
+                ng-style="{'justify-content': (val == 1 || val == -1) ? 'center': 'flex-end'}")

@@ -1,0 +1,180 @@
+
+.page {
+    &:global(.ui.card):after {
+       display:none; /* Friggin semantic card after screws with grid layout */
+    }
+
+    composes: sortable-item from './ReportCard.css';
+
+    flex:1;
+    min-height: 130px;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto 1fr auto;
+
+    grid-template-areas: "header header" "contents contents" "footer page-number";
+
+   /* &.has-content {
+        min-width:800px;
+    }*/
+
+    > :global(.ui.list) {
+        margin-top: 0;
+        padding: 5px;
+    }
+
+    .header {
+        grid-area: header;
+        display: grid;
+        grid-template-areas: "icon title actions";
+        grid-template-columns: auto 1fr auto;
+        grid-gap: 0px;
+        border-bottom: 1px solid var(--theme-border-color);
+
+        > i:global(.icon), > :global(.bp3-popover-target) > i:global(.icon) {
+            grid-part: icon;
+            height: 42px;
+            width: 42px;
+            min-width: 42px;
+            line-height: 42px;
+            color: white;
+            background-color: var(--theme-color-secondary);
+        }
+
+        .title {
+            padding: 5px 10px;
+            grid-area: title;
+            font-size: 120%;
+            display: flex;
+
+            &:hover .editable-title .rename-title {
+                opacity: 1;
+                pointer-events: all;
+            }
+
+            .editable-title {
+                display:flex;
+                .rename-title {
+                    opacity:0;
+                    pointer-events: none;
+                    transition: opacity 400ms ease;
+                }
+            }
+
+            .title-drag-handle, :global(.bp3-editable-text) {
+                flex: 1;
+
+                padding: 5px;
+                color: black !important;
+            }
+
+            .bp3-editable-placeholder > .bp3-editable-content {
+                font-style: italic;
+            }
+        }
+    }
+}
+
+.title-drag-handle {
+    cursor: move;
+}
+
+.add-a-page {
+    composes: page;
+    cursor:pointer;
+
+    .title {
+        font-size:150%;
+    }
+}
+
+.actions {
+    composes: actions from './ReportCardPanel.css';
+}
+
+.query {
+    > :global(.bp3-popover-target) {
+        width: 100%;
+    }
+}
+
+.add-a-page, .add-a-sim {
+    border-style: dashed !important;
+    font-style: italic;
+    display: flex;
+    > * {
+        margin: auto;
+    }
+}
+
+.page-number {
+    grid-area: page-number;
+    cursor: move;
+    z-index:10;
+
+    border-radius: 5px;
+
+    :global .ui.label {
+        font-size: 16px;
+    }
+}
+
+.page-contents {
+    display: flex;
+    flex-direction: column;
+    flex:1 0 auto;
+    padding:10px 5px 0 5px;
+    grid-area:contents;
+
+    .page-content-item {
+        display: flex;
+        flex-direction:row;
+    }
+
+    :global .content {
+        &:last-child .form .fields {
+            margin-bottom:0;
+        }
+    }
+
+    > :not(:global(.content)) {
+        display:none;
+    }
+}
+
+.empty-page {
+    flex:1;
+    margin-bottom:-30px;
+
+    :global {
+        .ui.message {
+            box-shadow:none;
+            background: none;
+            padding:0;
+
+            .header {
+                font-size:19px;
+            }
+
+            .content {
+                display: flex;
+                padding:.5em 1em;
+            }
+
+            /*.content {
+                display: flex;
+
+                .list {
+                    text-align: center;
+                    margin:15px auto
+                }
+            }*/
+        }
+
+    }
+}
+
+.no-drag :global .draggable {
+    cursor:default !important;
+}

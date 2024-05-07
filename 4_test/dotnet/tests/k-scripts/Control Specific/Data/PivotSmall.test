@@ -1,0 +1,76 @@
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`sxy;   800 350)))
+
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   1 0);  (`kd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ss;   (,1;    ,0))))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   1 0);  (`ku;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   1 0);  (`k;)))
+
+
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ss;   (!0;!0))))
+
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   1 0);  (`kd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ss;   (,1;    ,0))))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   1 0);  (`ku;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   1 0);  (`k;)))
+
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   0 0);  (`kd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   0 0);  (`ku;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   0 0);  (`value;"1.0")))
+
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   0 1);  (`kd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ss;   (0 1 2 3;    ,1))))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   3 1);  (`ku;)))
+
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   3 1);  (`krd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   3 1);  (`kru;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   3 1);  (`kr;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot..j.popup;  (`index;   ,`Only);  (`value;())))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ss;   (!0;!0))))
+
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   2 2);  (`kd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ss;   (,2;    ,2))))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   2 2);  (`ku;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   2 2);  (`k;)))
+
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   2 2);  (`kd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   2 2);  (`ku;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   2 2);  (`value;"2.4999")))
+
+/Column label right click test
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ssc;   ,0 3)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ss;   (,0;    ,3))))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   0 3);  (`clkrd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   0 3);  (`clkru;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   0 3);  (`clkr;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot..j.popup;  (`index;   ,`Only);  (`value;())))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ssc;())))
+
+/Row label left click test
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   2 0);  (`rlkd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;);  (`ping;`)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ssr;   ,2 0)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   2 0);  (`rlku;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   2 0);  (`rlk;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ssr;   ,4 0)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ss;   (,4;    ,0))))
+
+/Row label right click test
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   4 0);  (`rlkrd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   4 0);  (`rlkru;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   4 0);  (`rlkr;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot..j.popup;  (`index;   ,`Only);  (`value;())))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ssr;())))
+
+/Column lable left click test
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   0 0);  (`clkd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;);  (`ping;`)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ssc;   ,0 0)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ssc;   ,0 0)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   0 0);  (`clku;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   0 2);  (`clkd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;);  (`ping;`)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ssc;   ,0 2)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   0 2);  (`clku;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   0 2);  (`clk;)))
+
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`close;())))

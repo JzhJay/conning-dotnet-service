@@ -1,0 +1,73 @@
+.loading-until {
+    --min-height: 80px;
+
+    display:               inherit;
+    flex:                  inherit;
+    position:              relative;
+    grid-template-columns: inherit;
+    grid-template-rows:    inherit;
+    flex-direction:        inherit;
+    grid-gap:              inherit;
+    max-height:            100%;
+    min-height:            var(--min-height);
+
+    /*:global(.ui.active.dimmer) {
+        background: rgba(127, 127, 127, 0.2);
+    }*/
+
+    &:not(.loaded) {
+        display:        flex;
+        flex-direction: column;
+    }
+
+    > .children {
+        max-width: 100%;
+        max-height: 100%;
+        min-height: var(--min-height); /* Should not be needed but Chrome 76.0.3809.100 takes 20+ seconds to layout if min-height is set on parent container and not specified on child*/
+    }
+
+    > .children {
+        > :global(.bp3-navbar) {
+            flex: 0 0 auto;
+            flex-direction: row;
+        }
+
+        > :global(.ui.message):only-child {
+            margin:    .5em auto;
+            max-width:calc(100% - 1em);
+            font-size: 110%;
+            width:     auto;
+            flex-direction:row;
+        }
+    }
+}
+
+.loaded {
+
+}
+
+.loader {
+    background: white;
+}
+
+.route-transition-container {
+    position: relative;
+    > * {
+        position: absolute;
+        width:    100%;
+        height:   100%;
+    }
+}
+
+.children, .route-transition-container {
+    &, > *:not(table) {
+        display:        flex;
+        flex:           1;
+        flex-direction: column;
+    }
+
+    > :only-child:global(.ui.message) {
+        margin: .5em auto auto auto;
+        flex:   0 0 auto;
+    }
+}

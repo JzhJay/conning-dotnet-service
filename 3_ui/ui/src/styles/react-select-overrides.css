@@ -1,0 +1,174 @@
+.iconic-property-accent {
+    fill:   var(--accentColor);
+    stroke: var(--accentColor);
+}
+
+.donut-size {
+    height: calc(30px - var(--toolbar-item-padding));
+
+input {
+    margin-bottom: auto !important;
+    margin-top: auto !important;
+}
+}:global .Select {
+    /* The .Select is actually larger than the interior select */
+    /* line-height: var(--select-height); */
+    /* height:      var(--select-height); */
+
+    &.is-searchable.is-open > .Select-control {
+        cursor: default !important;
+        box-shadow: none !important;
+
+        /*.Select-placeholder {*/
+        /*position:absolute;*/
+        /*}*/
+        /*.Select-input {*/
+        /*position:relative;*/
+        /*}*/
+    }
+
+    &.Select--multi {
+        .Select-value {
+            background: #efefef;
+            color: black;
+
+            .Select-value-icon {
+                padding: .5em;
+                align-self: center;
+            }
+        }
+
+        .Select-multi-value-wrapper {
+            padding:4px;
+        }
+    }
+
+    .Select-multi-value-wrapper {
+        display: flex;
+        height: auto;
+        min-height: var(--select-height);
+
+        .Select-value {
+            display:flex;
+            overflow: hidden;
+           margin: 0 4px 0 0;
+            display: flex;
+            -ms-flex: 0 1 auto;
+            flex-direction: row-reverse;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            flex: 0 1 auto;
+
+            .Select-value-icon {
+                border-right:none;
+            }
+        }
+    }
+
+    &:not(.Select--single) {
+        .Select-value-label {
+            border-right:1px solid rgba(0, 126, 255, 0.24);
+        }
+
+        .Select-value {
+            margin-right:4px;
+        }
+    }
+
+    .Select-control {
+        line-height: 1.5;
+        height: auto;
+
+        border-radius: 0;
+
+        :not(.Select-multi-value-wrapper) {
+            .Select-value {
+                padding-left: 6px;
+            }
+        }
+
+
+        .Select-placeholder {
+            /*position:relative;*/
+            line-height: var(--select-height);
+        }
+
+        .Select-input {
+            height: inherit !important;
+            line-height: inherit !important;
+
+            display:flex !important;
+            align-content:center;
+
+            padding-left: 3px !important; /* So the cursor ends up to the left of the placeholder text */
+            /*position:absolute;*/
+        }
+
+        .Select-input > input {
+            height: inherit !important;
+            padding: 0 !important;
+        }
+
+        .Select-clear {
+            line-height: inherit !important;
+        }
+
+        .Select-placeholder, .Select-value .Select-value-label, .Select-clear {
+            user-select: none !important;
+        }
+
+        .Select-value {
+            line-height: inherit;
+            padding: 0;
+        }
+
+        .Select-placeholder, .Select-noresults, .Select-input {
+            padding: 0px .5em;
+        }
+
+        .Select-option {
+            padding: 5px 10px !important;
+        }
+
+        .Select-value-label {
+            margin: auto 0;
+            flex:1;
+            align-self:center;
+            white-space: pre-line;
+            padding: 0 .5em;
+            align-self: center;
+
+            > span {
+                white-space: nowrap;
+            }
+
+            .i.icon {
+                margin-right: 3px !important;
+            }
+        }
+
+        .Select-arrow-zone .Select-arrow {
+            top:2px;
+        }
+    }
+
+    .Select-menu-outer {
+        z-index:50; /* Must be higher than regular select or else we will render under other selects when open */
+
+        .Select-option {
+            padding: 0 6px !important;
+            line-height: var(--select-height);
+
+            &, .text {
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+        }
+    }
+
+    &.is-disabled > .Select-control, .Select--multi.is-disabled .Select-value {
+        color: rgba(92, 112, 128, 0.5);
+        background: rgba(206, 217, 224, 0.5) !important;
+        font-style: italic;
+    }
+}

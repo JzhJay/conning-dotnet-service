@@ -1,0 +1,52 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react",
+    ["@babel/preset-typescript", {
+      "isTSX": true,
+      "allExtensions": true
+    }]
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+	["@babel/plugin-proposal-class-properties", { "loose": false }],
+	["transform-es2015-modules-commonjs"],
+    ["@babel/plugin-proposal-export-default-from"]
+  ],
+  "env": {
+    "hot": {
+      "plugins": [
+        [
+          "transform-es2015-modules-commonjs"
+        ],
+        [
+          "react-transform",
+          {
+            "transforms": [
+              {
+                "transform": "react-transform-catch-errors",
+                "imports": [
+                  "react",
+                  "redbox-react"
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "production": {
+      "plugins": [
+        [
+          "import",
+          {
+            "libraryName": "semantic-ui-react"
+          }
+        ],
+        "@babel/plugin-transform-react-constant-elements",
+        "@babel/plugin-transform-react-inline-elements"
+      ],
+      "comments": false
+    }
+  }
+}

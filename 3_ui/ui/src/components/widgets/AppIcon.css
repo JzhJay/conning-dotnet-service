@@ -1,0 +1,67 @@
+.icon-with-label {
+    border: 1px solid var(--theme-border-color);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+
+    label {
+        font-weight: bold;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    svg, i {
+        max-width: 64px;
+        max-height: 64px;
+        margin: auto;
+    }
+}
+
+
+.root {
+    display: flex;
+    align-self:center;
+
+    &:global(.bp3-icon) {
+        display: inline-block;
+        align-self:center;
+    }
+
+    :global(.iconic.icon) {
+        width: 32px;
+        height: 32px;
+    }
+
+    :global(.iconic-size-lg.icon) {
+        width: 64px;
+        height: 64px;
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
+}
+
+/*
+img.root:global(.iconic.icon) {
+    width:0 !important;
+}*/
+
+svg:global(.iconning)[disabled="disabled"] * {
+    fill: grey;
+}
+
+/* Counteract blueprint */
+svg:global(.iconic) {
+    max-width: unset;
+    max-height: unset;
+}
+
+:global(.bp3-menu-item-label) .root {
+    svg {
+        width:16px;
+        height:16px;
+    }
+}

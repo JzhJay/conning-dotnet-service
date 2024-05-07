@@ -1,0 +1,172 @@
+.preferences-page {
+    flex-direction: column;
+    overflow:hidden; /*Child panels need to scroll so the tabs stay onscreen */
+
+    :global .ui.header {
+        padding:   .5em;
+        font-size: 1em;
+    }
+
+    :global .segment {
+    //overflow-x:auto;
+
+        .ui.label {
+            min-width: 14em;
+        }
+
+        input:not([type="checkbox"]) {
+            min-width: 10em;
+        }
+
+        display:        flex;
+        flex-direction: column;
+
+        .ui.labeled {
+            margin-bottom: .2em;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+
+        .ui.button {
+            vertical-align: middle;
+        }
+    }
+
+    &:global(.ui.form) {
+        display:        flex;
+        flex-direction: column;
+        > * {
+            flex: 0 0 auto;
+        }
+    }
+
+    :global .ui.segments {
+        margin: 2px 0;
+    }
+
+    :global .animation-group-panel {
+    /* Deal with sliders padding-bottom: 25px; */
+    }
+
+    fieldset {
+        padding-top: 10px;
+    }
+
+    :global(.checkbox) {
+
+        label::before {
+            background: rgba(0, 0, 0, .3) !important;
+        }
+
+        label:hover::before {
+            background: rgba(0, 0, 0, .5) !important;
+        }
+
+    }
+}
+
+.content {
+    margin:         0;
+    display:        flex;
+    flex-direction: column;
+    max-height:     100%;
+    overflow:       auto;
+}
+
+.header {
+    display:        flex;
+    flex-direction: row;
+
+    .icon {
+        margin: auto 5px auto 0
+    }
+
+    .title {
+        font-size:   1.5rem;
+        font-weight: 700;
+    }
+
+    flex:           0 0 auto;
+}
+
+.tabs {
+    flex:       1;
+    margin-top: 5px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+
+
+    :global {
+        .bp3-tab {
+            font-weight:     700;
+            margin-bottom:   -1px;
+            border:          1px solid transparent;
+            padding:         10px 1em;
+            line-height:     1;
+            border-radius:   .25rem .25rem 0 0;
+            background-clip: padding-box;
+            text-overflow:   ellipsis;
+            overflow:        hidden;
+            white-space:     nowrap;
+            max-width:       100%;
+            margin-right:0;
+
+            &[aria-selected="true"] {
+                border:              1px solid #e8e8e8;
+                background:          #fff;
+                border-bottom-color: #fff;
+                color:               #2c2d30;
+                cursor:              default;
+            }
+
+            &[aria-selected="false"] {
+                color:           var(--theme-link-color);
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .bp3-tab-panel.bp3-tab-panel {
+            margin-top:     0px;
+            background:     #fff;
+            border-radius:  0 0 .25rem .25rem;
+            padding:        0;
+            border:         1px solid #e8e8e8;
+            display:        flex;
+            flex-direction: column;
+            flex:           1;
+            overflow:       auto;
+            padding:        10px;
+
+            > *:only-child {
+                overflow:       hidden;
+                flex:           0 0 auto;
+                display:        flex;
+                flex-direction: column;
+            }
+
+            :global .ui.form fieldset {
+                border-width: 0;
+
+                legend {
+                    font-weight: 700;
+                }
+            }
+
+            &:local(.billing-tab) {
+                /* So we can render an internal toolbar */
+                padding: 0;
+            }
+        }
+    }
+}
+
+.subtitle {
+    margin: 10px 0 0 0;
+}

@@ -1,0 +1,9 @@
+:global {
+    .react-resizable-handle {
+        z-index: 1000;
+    }
+
+    .react-grid-item {
+        overflow: hidden;
+    }
+}

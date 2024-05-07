@@ -1,0 +1,76 @@
+{
+  "licenseStart":     "2016-10-27T20:56:30Z",
+  "fixedCostPerYear": 75000,
+  "instanceTypes":    {
+    "c4": {
+      "desc":       "E5-2666 v3",
+      "gbVcpu":      1.875,
+      "hourlyRate": 0.125
+    },
+    "c5": {
+      "desc":       "3.0 GHz Platinum",
+      "gbVcpu":      2,
+      "hourlyRate": 0.115
+    },
+    "c5n": {
+      "desc":       "3.0 GHz Intel Xeon Platinum (AVX-512)",
+      "gbVcpu":      2.625,
+      "hourlyRate": 0.130
+    },
+    "m4": {
+      "desc":       "2.3 GHz e5-2686 v4 or 2.4 GHz E5-2676 v5",
+      "gbVcpu":      4,
+      "hourlyRate": 0.125
+    },
+    "m5": {
+      "desc":       "2.5 GHz Platinum 8175",
+      "gbVcpu":      3.75,
+      "hourlyRate": 0.112
+    },
+    "r4": {
+      "desc":       "E5-2686 v4",
+      "gbVcpu":      7.625,
+      "hourlyRate": 0.146
+    },
+    "r5": {
+      "desc":       "Platinum 8000",
+      "gbVcpu":      8,
+      "hourlyRate": 0.142
+    },
+    "x1": {
+      "desc":       "Xeon E7 8880 v3",
+      "gbVcpu":      15.25,
+      "hourlyRate": 0.195
+    },
+    "x1e": {
+      "desc":       "Xeon E7 8880 v3",
+      "gbVcpu":      30.5,
+      "hourlyRate": 0.271
+    }
+  },
+  "gbServedRate":     0.2,
+  "queryPerHour":     0.25,
+  "gbStoredRate":     0.01,
+  "discounts":        [
+    {
+      "min":      0,
+      "max":      50000,
+      "discount": 0
+    },
+    {
+      "min":      500000,
+      "max":      100000,
+      "discount": 0.05
+    },
+    {
+      "min":      1000000,
+      "max":      200000,
+      "discount": 0.1
+    },
+    {
+      "min":      200000,
+      "max":      null,
+      "discount": 0.15
+    }
+  ]
+}

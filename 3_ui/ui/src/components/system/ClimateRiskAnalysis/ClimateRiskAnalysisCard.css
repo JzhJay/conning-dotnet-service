@@ -1,0 +1,30 @@
+.info-icons {
+    display:flex;
+
+    > * {
+        flex:1;
+    }
+
+    :global .icon {
+        font-size: 150%;
+    }
+
+    p {
+        font-weight:bold;
+    }
+}
+
+.card-text-icon {
+    text-align:center;
+    margin-right:5px;
+
+    &:last-child {
+        margin-right:0;
+    }
+}
+
+.toolbar {
+    display: flex;
+}
+
+

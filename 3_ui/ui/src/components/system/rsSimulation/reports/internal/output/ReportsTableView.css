@@ -1,0 +1,56 @@
+.root {
+
+    :global(div[wj-part="tl"]) {
+        overflow: visible !important;
+
+        :global(.wj-row) {
+            .header-cell-axis {
+                z-index:            1;
+                overflow:           visible !important;
+                padding:            0 !important;
+                border-color: transparent;
+            }
+
+            &:last-child .header-cell-axis {
+                border-bottom-color: lightgrey;
+            }
+        }
+    }
+
+    .top-left-cell {
+        margin: 0 0 -1px -1px;
+        padding: 2px 8px;
+        position: relative;
+        right: -25px !important;
+        border-left: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+        background-color: var(--axis-background-color);
+        user-select: none;
+    }
+
+    :global(div[wj-part="ch"]) {
+        .header-cell-axis {
+
+            width: 25px !important;
+            overflow: hidden;
+            font-size: 0.01em;
+        }
+    }
+
+    .header-cell-axis {
+        color: white;
+        border-color: lightgrey;
+        background-color: var(--axis-background-color);
+    }
+
+    .header-cell-coordinate {
+        color: white;
+        border-color: lightgrey;
+        background-color: var(--coordinate-background-color);
+    }
+
+    .detail-cell-empty {
+        background-color: darkgrey !important;
+        border-color: transparent !important;
+    }
+}

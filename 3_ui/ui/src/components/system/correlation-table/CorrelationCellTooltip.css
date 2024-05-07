@@ -1,0 +1,39 @@
+.root {
+    display:flex;
+    flex-direction:column;
+    min-width:250px;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    width:100%;
+    font-size:16px;
+    margin-bottom:4px;
+}
+
+.axes {
+   flex-direction:column;
+}
+
+.axis-coord {
+    margin-bottom:2px;
+    width:100%;
+    display:flex;
+    font-size:15px;
+
+    .axis {
+        flex:1;
+        font-weight: bold;
+    }
+
+    .coord {
+        text-align:right;
+        padding-left:20px;
+    }
+}
+
+.value {
+    text-align:right;
+}

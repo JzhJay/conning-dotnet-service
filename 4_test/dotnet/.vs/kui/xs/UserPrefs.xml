@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{BBEBC48A-02EC-4FC8-86AE-61229C10F929}|Default">
+  <MonoDevelop.Ide.ItemProperties.web-api PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="node_modules/graphql-dotnet-server/src/Transports.Subscriptions.Abstractions/MessageHandlingContext.cs">
+    <Files>
+      <File FileName="web-api/graphQl/sample/GraphSubscriptions.cs" Line="41" Column="70" />
+      <File FileName="node_modules/graphql-dotnet-server/src/Transports.Subscriptions.Abstractions/MessageHandlingContext.cs" Line="7" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

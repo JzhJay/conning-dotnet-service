@@ -1,0 +1,36 @@
+.root {
+    min-height: 250px;
+    --indent-margin: 26px;
+
+    .sub-radio-group {
+        margin-left: var(--indent-margin);
+    }
+
+    :global {
+        .bp3-form-group .bp3-form-group {
+            margin-left: var(--indent-margin);
+        }
+
+        .NameInputField__root {
+            margin: 0 !important;
+        }
+
+        .bp3-input-group, .ObjectLink__root, .bp3-file-upload-input {
+            margin: 7px 0 0 0 !important;
+        }
+
+        .ObjectChooser__root {
+            margin: 7px 0 0 0;
+            display: flex;
+            .ObjectChooser__launcher {
+                flex: 1;
+                > .bp3-tag {
+                    margin: 5px 0;
+                }
+                .bp3-tag {
+                    padding: 2px 6px;
+                }
+            }
+        }
+    }
+}

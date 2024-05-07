@@ -1,0 +1,38 @@
+.conning-context-menu.wunderlist {
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    padding: 6px 0;
+    background: #fff;
+    font-weight: 500;
+    font-size:14px;
+    font-family: "Lato","Geneva CY","Lucida Grande","Arial Unicode MS","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+    .divider {
+        margin: 4px 0;
+        height: 0;
+        padding: 0;
+        border-bottom: 1px solid;
+        border-color: rgba(102, 137, 100, 0.2);
+    }
+
+    .ui.item {
+        padding:4px;
+        
+        
+        &:hover {
+            background: rgba(102, 137, 100, 0.1);
+        }
+        
+        .text {
+            padding-left:4px;
+            
+            &:first-child {
+                margin-left: 28px;
+            }
+        }
+    }
+
+	&.no-icons .ui.item .text:first-child {
+		margin-left:0;
+	}
+}

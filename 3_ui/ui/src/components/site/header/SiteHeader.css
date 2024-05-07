@@ -1,0 +1,226 @@
+.navbar.navbar:global(.bp3-navbar) {
+    overflow:  hidden;
+    max-width: 100%;
+    flex:      0 0 auto;
+    height:    auto;
+    background: var(--detail-panel-background);
+    border-bottom: 1px solid var(--theme-border-color);
+    padding: 5px .5em;
+    height: 44px;
+
+
+    :global {
+        svg.iconic.icon {
+            margin:auto;
+        }
+
+        .bp3-button.bp3-minimal {
+            box-shadow: none;
+
+            &:focus {
+                background: #f5f8fa;
+                background: linear-gradient(to bottom, #ffffff, rgba(255, 255, 255, 0)) left no-repeat, center no-repeat #f5f8fa;
+                color: #182026;
+            }
+
+            &.bp3-active {
+                background: rgba(115, 134, 148, 0.3);
+                color: #182026;
+            }
+        }
+
+        .bp3-popover-target {
+            flex-shrink: 0;
+        }
+
+        .bp3-align-right {
+            .bp3-navbar-divider {
+                margin:      0 4px;
+                border-left-color:transparent;
+                /*rgba(224, 231, 243, .7);*/
+            }
+
+            /*.bp3-button-group {
+                opacity:                    1;
+                transition-property:        opacity, width;
+                transition-timing-function: var(--sidebar-transition-timing-function);
+                transition-duration:        var(--sidebar-transition-duration);
+            }
+
+            > .bp3-button, > .bp3-popover-target:not(:last-child){
+                opacity:                    0;
+                width:0;
+                transition-property:        opacity, width;
+                transition-timing-function: var(--sidebar-transition-timing-function);
+                transition-duration:        var(--sidebar-transition-duration);
+                pointer-events:             none;
+            }
+
+            @media (max-width: 1520px) {
+                .bp3-button-group {
+                    opacity:        0;
+                    width:0;
+                    pointer-events: none;
+                }
+
+                > .bp3-button, > .bp3-popover-target:not(:last-child) {
+                    width:auto;
+                    opacity: 1;
+                    pointer-events:             inherit;
+                }
+            }*/
+        }
+
+        .bp3-navbar-divider {
+            margin:      0 8px;
+            border-left: 1px solid var(--theme-border-color);
+            /*rgba(224, 231, 243, .7);*/
+        }
+    }
+
+    /* Only if we want to hide this on sidebar show */
+    /*
+    .sidebar-navbar-divider {
+        border-left-width:          0px;
+        transition-duration:        var(--sidebar-transition-duration);
+        transition-timing-function: var(--sidebar-transition-timing-function);
+        transition-property:        border-left;
+        margin-left:       calc(var(--border-width) * -1);
+    }
+
+    .sidebar-toggle {
+        opacity:   0;
+    }
+    */
+}
+
+.title-navbar-heading {
+    position:   absolute;
+    width:100%;
+    margin: 0 auto;
+    display:block;
+    pointer-events:none;
+    text-align:center;
+    font-size:24px;
+    line-height:44px;
+    vertical-align: middle;
+    align-self: center;
+
+
+    /*left: calc(50% - 150px);*/
+    /*transform:  translateX(calc(50vw - 148px));
+    transition: transform ease 400ms;*/
+
+
+}
+
+/*
+[data-sidebar-is-showing="true"] .title-navbar-heading {
+    transform: translateX(calc(50vw - 150px));
+}
+*/
+
+.conning-menu {
+    padding: 0;
+    border:  0;
+}
+
+.connection-status {
+    &.connected::before {
+        color: var(--theme-color-secondary);
+    }
+}
+
+
+
+.tab-content-container {
+    flex:1;
+    display:flex;
+}
+
+[data-sidebar="true"] {
+    .logo-container {
+        /* width: var(--sidebar-width); */
+
+        .nav-buttons {
+            opacity:      1;
+            transform:    scaleX(1);
+            margin-right: 6px;
+        }
+    }
+
+    .nav-buttons {
+        opacity:   0;
+        width:     0px;
+        transform: scaleX(0);
+    }
+
+    .sidebar-toggle {
+        transition-duration:        var(--sidebar-transition-duration);
+        transition-timing-function: var(--sidebar-transition-timing-function);
+        transition-property:        opacity;
+        opacity:                    1;
+    }
+
+    .sidebar-navbar-divider {
+        border-left-width:          1px;
+    }
+}
+
+.logo-container {
+    display:                    inline-block;
+    text-align:center;
+    width:                      156px;
+    transition-duration:        var(--sidebar-transition-duration);
+    transition-timing-function: var(--sidebar-transition-timing-function);
+    transition-property:        width, border-right-width;
+
+    :global .conning-logo {
+        margin:auto;
+
+        > * {
+            display:flex;
+        }
+
+        svg {
+            overflow: visible;
+            height:35px;
+        }
+
+    }
+
+    .nav-buttons {
+        opacity:             0;
+        transform:           scaleX(0);
+        margin-right:        7px;
+        width:               auto;
+        transition-property: transform, opacity;
+
+        :global .bp3-button {
+            padding:     4px;
+            min-height:  0;
+            min-width:   0;
+            line-height: 1;
+
+            &:focus:not(:hover) {
+                background: none;
+            }
+        }
+    }
+}
+
+.nav-buttons {
+    align-self:                 center;
+    transition-duration:        var(--sidebar-transition-duration);
+    transition-timing-function: var(--sidebar-transition-timing-function);
+    transition-property:        width, opacity, transform;
+    width:                      71px;
+    transform:                  scaleX(1);
+
+    /* border-width:0 3px 0 1px;
+	padding: 0 5px;
+	border-style: solid;
+	border-color:var(--theme-border-color);
+*/
+}
+

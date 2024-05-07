@@ -1,0 +1,57 @@
+.menu:global(.ui.menu),.menu:global(.bp3-menu) {
+    width:auto;
+    overflow-y: auto;
+    display:flex;
+    flex-direction:column;
+
+    .menu-label {
+        margin-left:5px;
+        vertical-align:middle;
+    }
+
+    .menu-icon {
+        color:var(--theme-color-secondary) !important;
+        font-size:16px;
+    }
+
+    svg {
+        width:16px !important;
+        height:16px !important;
+    }
+}
+
+.available-query-view-menu-item {
+    height: 28px;
+
+
+    :global .bp3-icon::before {
+        font-size: 16px;
+        margin-left: -1px;
+    }
+
+    &:global(.bp3-menu-item.bp3-disabled) {
+        background: #f5f8fa  !important;
+        svg {
+            *:not([class*="-chart-axes"]) {
+                stroke: rgba(40, 40, 40, .3);
+                fill:   rgba(40, 40, 40, .3);
+            }
+        }
+
+        cursor:not-allowed;
+    }
+
+    :global .bp3-menu-item-label:first-child svg {
+        max-height: 20px !important;
+        max-width: 20px !important;
+    }
+}
+
+
+.available-query-view-dropdown-menu {
+    :global .bp3-button {
+        > :first-child {
+            margin-right: 8px;
+        }
+    }
+}

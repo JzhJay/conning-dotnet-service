@@ -1,0 +1,27 @@
+.root {
+    position:relative;
+    display: flex;
+
+	composes: queryPanelToolbar from '../../styles/queryPanelToolbar.css';
+
+    padding-right:0px;
+
+    :global .bp3-icon {
+        color:black;
+    }
+
+	.no-accordion-buttons {
+		visibility: hidden;
+		display: none;
+	}
+
+    > :first-child {
+      margin-left:3px;
+    }
+}
+
+.title {
+    flex: 1;
+    font-size:110%;
+    align-self:center;
+}

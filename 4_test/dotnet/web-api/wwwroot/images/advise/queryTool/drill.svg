@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="iconic iconic-regression-line" width="128" height="128" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Drill</title>
+  </g>
+  <g class="iconic-regression-line-lg iconic-container iconic-lg" data-width="128" data-height="128" display="inline">
+    <path class="iconic-property-fill" d="M 62 124 H 66 V 1.617624 H 62 z" />
+    <path stroke-width="1.5" stroke-linecap="square" class="iconic-regression-line-axes iconic-property-stroke" d="M 31.6 124 L 91 101.5 L 41.5 82.75 L 82.75 67.125 L 48.375 54.10417 L 77.02083 43.25347 L 53.14931 34.21123 L 73.04225 26.67602 L 56.4648 20.39669 L 70.27934 15.1639 L 58.76722 10.80325 L 68.36065 7.169378 L 60.36612 4.141148 L 67.02823 1.617624  L 60.97177 1.617624 L 67.63388 4.141148 L 59.63935 7.169378 L 69.23278 10.80325 L 57.72066 15.1639 L 71.5352 20.39669 L 54.95775 26.67602 L 74.85069 34.21123 L 50.97917 43.25347 L 79.625 54.10417 L 45.25 67.125 L 86.5 82.75 L 37 101.5 L 96.4 124" fill="none" />
+    <path stroke-width="3" stroke-linecap="square" class="iconic-regression-line-axes iconic-property-stroke" d="M 31.6 124 L 59 1.617624 L 69 1.617624 L 96.4 124" fill="none" />
+  </g>
+  <g class="iconic-regression-line-md iconic-container iconic-md" data-width="32" data-height="32" display="none" transform="scale(4)">
+    <path class="iconic-property-fill" d="M 15.3 31.5 H 16.7 V 1.4693 H 15.3 z" />
+    <path stroke-width=".5" stroke-linecap="square" class="iconic-regression-line-axes iconic-property-stroke" d="M 8.06 31.5 L 22.45 25.29167 L 10.791667 20.11806 L 20.17361 15.80671 L 12.68866 12.21393 L 18.59279 9.21994 L 14.00601 6.72495 L 17.49499 4.645791 L 14.92084 2.913159 L 16.73263 1.4693 L 15.26737 1.4693 L 17.07916 2.913159 L 14.50501 4.645791 L 17.99399 6.72495 L 13.40721 9.21994 L 19.31134 12.21393 L 11.82639 15.80671 L 21.20833 20.11806 L 9.55 25.29167 L 23.94 31.5" fill="none" />
+    <path stroke-width="1" stroke-linecap="square" class="iconic-regression-line-axes iconic-property-stroke" d="M 8.06 31.5 L 15 1.4693 L 17 1.4693 L 23.94 31.5" fill="none" />
+</g>
+  <g class="iconic-regression-line-sm iconic-container iconic-sm" data-width="16" data-height="16" display="none" transform="scale(8)">" fill="none" />
+    <path class="iconic-property-fill" d="M 7.6 15.7125 H 8.4 V 0.7477045 H 7.6 z" />
+    <path stroke-width=".4" stroke-linecap="square" class="iconic-regression-line-axes iconic-property-stroke" d="M 3.90625 15.7125 L 11.19375 11.9625 L 5.55625 8.8375 L 9.81875 6.233333 L 6.702083 4.063194 L 8.863889 2.254745 L 7.497801 0.7477045 L 8.502199 0.7477045 L 7.136111 2.254745 L 9.297917 4.063194 L 6.18125 6.233333 L 10.44375 8.8375 L 4.80625 11.9625 L 12.09375 15.7125" fill="none" />
+    <path stroke-width=".8" stroke-linecap="square" class="iconic-regression-line-axes iconic-property-stroke" d="M 3.90625 15.7125 L 7.497801 0.7477045 L 8.502199 0.7477045 L 12.09375 15.7125" fill="none" />
+  </g>
+</svg>

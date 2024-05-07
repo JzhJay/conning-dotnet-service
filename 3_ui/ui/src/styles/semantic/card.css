@@ -1,0 +1,29 @@
+:global {
+    .ui.cards > .card > .content a:not(.ui), .ui.card > .content a:not(.ui) {
+      transition: color 0.1s ease, background-color .1s ease;
+    }
+
+    .ui.card > .content > .header:not(.ui) {
+      line-height: 30px; /* So that bp3-buttons work in card toolbars */
+    }
+
+    .ui.card {
+      transition: background-color ease 200ms, box-shadow ease 200ms;
+    }
+
+    .ui.card.selected {
+      background-color: var(--selected-background);
+
+      &:hover {
+        background-color: var(--selected-background) !important;
+      }
+    }
+
+    .ui.cards a.card:hover, .ui.link.cards .card:hover, a.ui.card:hover, .ui.link.card:hover {
+      transform: none;
+    }
+
+    .ui.cards > .card > .extra a:not(.ui), .ui.card > .extra a:not(.ui) {
+      color: black;
+    }
+}

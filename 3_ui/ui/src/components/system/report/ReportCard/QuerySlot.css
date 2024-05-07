@@ -1,0 +1,96 @@
+.root {
+    min-width:300px;
+    color:black;
+
+    :global {
+        .ui.labeled.input > .label:not(.corner) {
+            padding: 0.5833em 0.833em;
+        }
+
+        .ui.label {
+            a {
+                text-decoration: none;
+            }
+
+            padding: 0.5833em 0.833em;
+        }
+    }
+
+    .status-field {
+        > span {
+            align-self:center;
+            margin: auto 0;
+            width:100%;
+            > * {
+                width:100%;
+            }
+        }
+    }
+
+    :global .ui.form .fields {
+        margin-left: 0; /* Semantic has a #&$# negative margin by default */
+        margin-right: 0;
+
+        .field:first-child, .field:last-child {
+            padding-right: 0;
+        }
+    }
+}
+
+.simulations {
+    &:global(.Select.Select--multi .Select-multi-value-wrapper) {
+        padding:0;
+    }
+
+    .simulations__control {
+        border-radius: unset;
+        min-height: 30px;
+        height: 30px;
+    }
+    .simulations__indicator-separator {
+        display: none;
+    }
+    .simulations__indicator {
+        padding: 4px;
+    }
+}
+
+.simulation-option-value {
+    &.error {
+        cursor:pointer;
+    }
+}
+
+.error {
+    color:#9F3A38 !important;
+    border-color: #E0B4B4 !important;
+}
+
+.query-status {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+
+    > * {
+        display:flex;
+    }
+
+    .name {
+        flex:1;
+        align-self: center;
+        /*padding-top: 10px;*/
+    }
+
+    .details {
+        margin:0;
+        display:flex;
+        flex-direction:column;
+        justify-self: flex-end;
+        list-style:none;
+
+        li {
+            margin:0;
+            text-align:right;
+        }
+    }
+}

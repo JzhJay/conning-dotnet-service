@@ -1,0 +1,16 @@
+.root {
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding-bottom: 100px;
+
+    :global(.bp3-icon) {
+        color: darkred;
+        margin-bottom: 20px;
+    }
+
+    :global(.bp3-button) {
+        margin-top: 10px;
+    }
+}
+

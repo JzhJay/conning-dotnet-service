@@ -1,0 +1,31 @@
+.menu-item {
+    :root {
+        --item-height: 60px;
+    }
+
+    flex:1;
+    flex-direction: column !important;
+
+    :global .bp3-button-group {
+        margin-left:5px;
+    }
+
+    .view-chooser {
+        width: 120px;
+
+        svg {
+            margin-right: 7px;
+        }
+
+        > * {
+            float: right !important;
+        }
+    }
+}
+
+.query-result {
+    composes: row from '../SidebarPanel.css';
+}
+
+.is-session {
+}

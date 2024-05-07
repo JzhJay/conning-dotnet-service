@@ -1,0 +1,20 @@
+{
+  _id: ObjectId("5b33b21cbe4b3c0d543ee2a2"),
+  name:        'labels',
+  label: 'Dev-Test - multiple: false',
+  objectTypes: [
+    'Simulation',
+    'Query'
+  ],
+  multiple:    false
+}
+{
+  _id: ObjectId("5b33b21cbe4b3c0d543ee2a3"),
+  name:        'labels-multiple',
+  label: 'Dev-Test - multiple: true',
+  objectTypes: [
+    'Simulation',
+    'Query'
+  ],
+  multiple:    true
+}

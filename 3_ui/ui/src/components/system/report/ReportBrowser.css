@@ -1,0 +1,25 @@
+/*  @import '../../../styles/themes/default-theme'; */
+
+.grid-panel.report-chooser {
+    height:100%;
+
+    .report-name-label {
+        padding:1px 7px;
+        border:1px solid transparent;
+        cursor:text;
+    }
+
+    .report-name {
+        padding:0 !important;
+
+        text-overflow: ellipsis;
+        > div {
+            width:100%;
+            height:100%;
+        }
+    }
+
+    .is-context-report {
+        background-color: var(--selected-background); /* $selected-background;*/
+    }
+}

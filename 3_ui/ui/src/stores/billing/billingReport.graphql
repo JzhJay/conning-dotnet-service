@@ -1,0 +1,73 @@
+query runBillingReport($startDate:DateTime!, $endDate:DateTime!, $userIds:[String!], $applications:[String!]) {
+    billing {
+        report(startDate:$startDate, endDate:$endDate, users: $userIds, applications: $applications) {
+            startDate,
+            endDate,
+            simulationSummary {
+                total {
+                    chargeType
+                    computationCharge
+                    dataElements
+                    dataServingCharge
+                    dataStorageCharge
+                    totalCharge
+                    ongoingDataStorageChargePerDay
+                    hasDataServingCharge
+                    hasDataStorageCharge
+                }
+                billingJobRows {
+                    additionalInformation {
+                        _id
+                        name
+                        gridName
+                        createdBy {
+                            _id
+                        }
+                    }
+                    total {
+                        chargeType
+                        computationCharge
+                        dataElements
+                        dataServingCharge
+                        dataServingChargePerHour
+                        dataStorageCharge
+                        dataStorageChargePerDay
+                        ongoingDataStorageChargePerDay
+                        duration
+                        finishDateTime
+                        startDateTime
+                        instanceType
+                        totalCharge
+                        user {fullName}
+                        maximumVCPUs
+                        totalCPUTime
+                        hasDataServingCharge
+                        hasDataStorageCharge
+                        flags
+                    }
+                    details {
+                        chargeType
+                        computationCharge
+                        dataElements
+                        dataServingCharge
+                        dataServingChargePerHour
+                        dataStorageCharge
+                        dataStorageChargePerDay
+                        ongoingDataStorageChargePerDay
+                        duration
+                        finishDateTime
+                        startDateTime
+                        instanceType
+                        totalCharge
+                        user {fullName}
+                        maximumVCPUs
+                        totalCPUTime
+                        hasDataServingCharge
+                        hasDataStorageCharge
+                        flags
+                    }
+                }
+            }
+        }
+    }
+}

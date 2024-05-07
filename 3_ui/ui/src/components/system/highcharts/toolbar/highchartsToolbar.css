@@ -1,0 +1,431 @@
+/*
+Todo:
+  The toolbar is not yet responsive - talk to david about how to handle issues with overflow
+*/
+:root {
+  --font-size-width: 50px;
+  --internalToolbarItemPadding: .25em;
+  --accentColor: rgb(79, 129, 189);
+  --hoverColor: rgb(185, 205, 229);
+  --border-radius: 2px;
+  --toolbar-item-padding: 2px;
+}
+
+:global(.bp3-navbar).highcharts-toolbar, .highcharts-popover-toolbar {
+    padding: 2px;
+    overflow: visible !important;
+    height: var(--toolbarItemSize);
+    --toolbar-height: var(--toolbarItemSize);
+    margin: 0;
+    background-color: #ffffff;
+    
+    &:global(.collapsed) {
+        padding-top:    0 !important;
+        padding-bottom: 0 !important;
+        min-height:     0px !important;
+        max-height:     0px;
+        border:         0 !important;
+        overflow:       hidden !important;
+    }
+
+    &:global(.pending-transition) {
+        padding-top:    0 !important;
+        padding-bottom: 0 !important;
+        min-height:     0px !important;
+        max-height:     2.85714286em !important;
+        overflow: hidden !important;
+    }
+
+
+    :global {
+
+        .toggle-bootstrap.bp3-disabled {
+            svg {
+              path {
+                stroke: rgba(40, 40, 40, .3);
+                fill:   rgba(40, 40, 40, .3);
+              }
+            }
+
+            cursor:not-allowed !important;
+        }
+
+        .bp3-button {
+
+        }
+
+
+      .additional-toolbar-items {
+        /*margin: auto;*/
+        flex: 0 0 auto !important;
+      }
+
+      .regression-line {
+        /*width: $toolbarItemSize;*/
+        /*font-size: $toolbarItemSize - .5em;*/
+        span {
+          transform:   rotate(45deg);
+          font-weight: bold;
+          margin:      auto;
+          font-size:   23px;
+          display:     block;
+        }
+      }
+
+      .set-font-size {
+        .dropdown-icon {
+          margin-left: .5em;
+        }
+
+        .dropdown-font-size {
+          width:              var(--font-size-width);
+          border-radius:      var(--border-radius) 0 0 var(--border-radius);
+          border-right-width: 0;
+
+          span.value {
+            padding-right: 5px;
+          }
+
+          > .item {
+            padding-left:  2px;
+            padding-right: 2px;
+            text-align:    center;
+          }
+        }
+
+        .dropdown-menu {
+          width: calc(var(--font-size-width) + 1);
+          li {
+            text-align: center;
+            a {
+              padding:        4px;
+              vertical-align: middle;
+              display:        inline;
+            }
+          }
+        }
+      }
+
+      .invert {
+        i.fa {
+          font-size: 1.5em;
+        }
+      }
+
+      .verticalAxisDirection {
+        button {
+          position: relative;
+          width:    var(--toolbarItemSize);
+
+          .iconic-property-stroke, .iconic-arrow-thick-head {
+            /*stroke-width: 5;*/
+          }
+
+          svg {
+            position: absolute;
+            margin:   0;
+            left:     2px;
+            top:      3px;
+            z-index:  0;
+
+            &:last-of-type {
+              left:    9px;
+              top:     10px;
+              z-index: 1;
+            }
+          }
+        }
+      }
+
+      .slider {
+        display:       flex;
+        border:        #ccc;
+        border-width:  1px;
+        border-style:  solid;
+        border-radius: var(--border-radius);
+        padding:       2px;
+
+        > input[type="range"] {
+          width:  70px;
+          margin: 5px 5px 0 5px;
+        }
+      }
+
+      .stats {
+        .button:first-child {
+          width: 4em;
+        }
+        .menu {
+          width: 5.1em;
+        }
+      }
+
+      /* When used in a dropdown menu */
+      .percentile-colors, .stats, .grid-lines, .moments {
+        .ui.buttons {
+          height: calc(var(--toolbarItemSize)  - .5em);
+        }
+
+        .menu {
+          .item.color-boxes {
+            border-radius: 0;
+            border:        0;
+            width:         4em;
+            padding:       var(--internalToolbarItemPadding) !important;
+            height:        var(--voolbarItemSize);
+                    /*margin-right:1.25em;*/
+
+            > div {
+
+            }
+          }
+        }
+      }
+
+      .adjust-marker-sizes {
+        .button {
+          display:         flex !important;
+          justify-content: center;
+        }
+
+        .increase-marker-size {
+          /*padding: 0;*/
+          width:   42px;
+          .fa-circle {
+            font-size: 12px;
+          }
+        }
+
+        .reduce-marker-size {
+          /*padding: 0;*/
+          width:   42px;
+          .fa-circle {
+            font-size: 8px;
+          }
+        }
+      }
+
+      .fa-sort-down {
+        font-size: 1.5em;
+        position: relative;
+        top:      -10px;
+      }
+
+      .fa-sort-up {
+        font-size: 1.5em;
+      }
+
+      .step-pattern i {
+        vertical-align: middle;
+        width:          1.5em;
+      }
+
+      .percentiles input {
+        min-width: 100px;
+        padding:5px;
+      }
+
+      .font-size {
+
+        .dropdown.icon {
+          margin-left: .5em;
+        }
+
+        .adjust-font-size {
+          width: 4em;
+          > .menu {
+            width:         3em;
+            border-radius: 0;
+            > .item {
+              text-align: center;
+              padding:    2px;
+            }
+          }
+        }
+
+        path, polygon {
+          stroke-width: .1;
+        }
+      }
+
+      .chartMenu {
+
+        .dropdown {
+          i {
+            order: 0;
+          }
+          > * {
+            order: 1;
+          }
+
+        }
+
+        .ui.menu > .divider {
+          height: auto;
+        }
+
+        .ui.item {
+          display: flex;
+
+          > svg {
+            margin: 0em 0.75em 0em 0em;
+          }
+        }
+
+        .iconic-property-stroke {
+          stroke-width: 1.5em;
+        }
+      }
+
+      .paths {
+
+        .clickable {
+          cursor: pointer;
+        }
+
+        > div {
+          position: relative;
+          display:  flex;
+        }
+
+        .ui.dimmer {
+          left:   auto !important;
+          width:  34px;
+          right:  0px !important;
+          height: auto;
+          margin: 4px;
+        }
+      }
+
+      .area-opacity {
+        svg:first-child {
+          .iconning-pdf, .iconning-bar, .iconning-fill {
+            fill-opacity: 0;
+            stroke: rgb(80, 131, 220) !important;
+          }
+        }
+      }
+
+      .marker-line-style {
+        button {
+            font-size:25px;
+        }
+      }
+
+      .zoom-buttons {
+        svg {
+          circle.iconic-property-stroke {
+            stroke-width: 1px;
+          }
+        }
+      }
+
+      .dataset {
+          display: flex;
+
+          /*
+          .bp3-button {
+              border-radius: 0px;
+          }
+
+          .ui.label {
+              margin-right: 0px;
+              border-radius: 0px;
+          }*/
+      }
+    }
+}
+
+.highcharts-popover-toolbar {
+    display: grid;
+    height: auto;
+    padding: 5px 10px 10px 10px;
+    grid-template-columns: 1fr auto;
+    background: transparent;
+    border-bottom: none !important;
+
+    .toolbar-left-panel {
+        flex-wrap: wrap;
+
+        > * {
+            margin-top: 5px;
+        }
+    }
+
+    .semantic-input {
+        input {
+            height: 100%;
+            margin-left: -1px;
+            border-radius: 0 3px 3px 0;
+        }
+
+        &.input-disabled {
+            input {
+                background-color: rgba(206,217,224,.5);
+                color: rgba(92,112,128);
+            }
+        }
+    }
+
+    .run-button {
+        margin-left: 5px;
+        background-color: #4D90CD;
+    }
+}
+
+.highcharts-popover-toolbar-select {
+    :global(.bp3-menu) {
+        max-width: initial;
+    }
+
+    :global(.bp3-fill) {
+        flex-grow: 0;
+    }
+}
+
+.highchart-popover-toolbar-container {
+    padding: 0px 3px;
+    background: #fff;
+    z-index: 2;
+    
+    .highcharts-toolbar {
+        width: 100%;
+    }
+
+    :global(.bp3-portal) {
+        position: static;
+    }
+
+    :global(.bp3-overlay) {
+        position: static;
+    }
+
+    :global(.bp3-transition-container) {
+        position: static !important;
+        transform: none !important;
+    }
+}
+
+:global {
+    .iconic-property-accent {
+        fill:   var(--accentColor);
+        stroke: var(--accentColor);
+    }
+
+    .donut-size {
+        height: calc(30px - var(--toolbar-item-padding));
+
+        input {
+            margin-bottom: auto !important;
+            margin-top: auto !important;
+        }
+    }
+}
+
+.chart-toolbar-overlay {
+    box-shadow: none;
+
+    /* .bp3-button, .bp3-button[class*="bp3-icon-"]:empty {
+       padding: 2px 6px;
+     }*/
+}

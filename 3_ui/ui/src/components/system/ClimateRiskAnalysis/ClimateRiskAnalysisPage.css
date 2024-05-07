@@ -1,0 +1,26 @@
+:global(#climate-risk-analysis-page) {
+    overflow-x: hidden; /* Not desired at all, especially when animating */
+}
+
+.view-caption {
+    display: flex;
+    flex-direction: rows;
+    padding: 10px 0;
+    font-family: "Open Sans", OpenSans, "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #015288;
+
+    .view-caption-index {
+    }
+
+    .view-caption-input {
+        flex: 1;
+        padding: 0px 5px;
+    }
+
+    :global(.bp3-editable-text-input) {
+        font-style: normal;
+        color: #000000;
+    }
+}

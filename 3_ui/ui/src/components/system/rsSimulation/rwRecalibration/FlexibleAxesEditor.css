@@ -1,0 +1,110 @@
+.dialog {
+    max-height: calc(100vh - 60px);
+
+    .root {
+        background-color: white;
+        padding: 10px;
+        margin: 0;
+        overflow: hidden;
+        max-height: 100%;
+
+        .tab-panel {
+            margin: 0;
+            padding: 0;
+            flex: 1;
+            overflow: unset;
+        }
+    }
+
+    .list {
+        overflow: hidden;
+        height: 100%;
+        user-select: none;
+        display: flex;
+
+        .coordinate-list {
+            flex: 1;
+            padding: 0;
+            margin: 5px 5px 0px 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .coordinate-filter {
+            flex: 0;
+            margin-bottom: 12px !important;
+        }
+
+        .sortable-coordinate-list {
+            flex: 1;
+            padding: 0 0 1px 0;
+            margin: 0;
+            overflow-y: auto;
+        }
+
+        .actions {
+            flex: 0;
+            margin: 5px 5px 5px 5px;
+        }
+    }
+
+
+
+    :global {
+        .bp3-dialog-body {
+            position: relative;
+            overflow: hidden;
+
+            > .bp3-control-group {
+                overflow: hidden;
+            }
+
+            .bp3-tabs {
+                max-height: 100%;
+                overflow: hidden;
+
+                > .bp3-tab-list {
+                    overflow-y: auto;
+                    overflow-x: hidden;
+                }
+            }
+        }
+    }
+}
+
+.item {
+    background-color: white;
+    list-style: none;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    margin-bottom: -1px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    z-index: 65537;
+
+    &.selected {
+        background-color: rgba(19, 124, 189, 0.2);
+    }
+
+    .item-drag-handle {
+        margin-left: -5px;
+        margin-right: 5px;
+        line-height: 30px;
+    }
+
+    :global(.bp3-checkbox) {
+        line-height: 30px;
+    }
+
+    :global(.SortableCardsPanel__editable-text) {
+        align-self: center;
+    }
+
+    .name-input-field {
+        margin: 0;
+        flex: 1;
+    }
+}
+
+

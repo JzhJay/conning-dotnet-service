@@ -1,0 +1,78 @@
+.root {
+
+    .hero {
+        text-align: center;
+        padding: 25px 20px 50px;
+        background-image: url("../../../ui/images/software-hero.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .card {
+        padding: 60px 50px;
+        background-color: rgba(1, 15, 48, 0.7);
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        min-height: 195px;
+        border-radius: 2px;
+
+        .title {
+            color: var(--theme-office-site-font-light);
+            font-size: 80px;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+
+        .download-btn {
+            background: var(--theme-office-site-blue-primary);
+            color: var(--theme-office-site-font-light);
+            text-align: center;
+            padding: 15px;
+
+            .btn-large-text {
+                font-size: 22px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    .version-block {
+        padding: 10px;
+
+        .version-block-inner {
+            max-width: 1000px;
+            width: 100%;
+            margin: 0px auto;
+            padding: 5px;
+            background-color: var(--theme-background-color);
+        }
+
+        .version-list {
+            margin: 5px;
+        }
+        table {
+
+            width: 100%;
+
+            th, td {
+                text-align: center;
+            }
+
+            .version-cell {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .version-toggle {
+        width: 100%;
+
+        .bp3-button-text {
+            color: var(--theme-color-secondary);
+        }
+    }
+
+}

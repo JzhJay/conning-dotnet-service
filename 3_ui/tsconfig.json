@@ -1,0 +1,73 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noImplicitAny": false,
+    "module": "es2015",
+    "target": "es5",
+    "sourceMap": true,
+    "jsx": "react",
+    "noEmit": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+	"useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+	"useDefineForClassFields": true,
+    "allowJs": false,
+    "allowUnreachableCode": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictFunctionTypes": false,
+    //"traceResolution": true,
+    "moduleResolution": "node",
+    "lib": [
+      "es6",
+      "es2015",
+      "dom"
+    ],
+    //"noUnusedParameters": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": [
+        "*",
+        "ui/src/*"
+      ]
+    },
+    "types": ["react", "react-dom", "prop-types", "node"],
+    "outDir": "dist/tsc/no-emit"
+  },
+//    "files": [
+//  //    "node_modules/typescript/lib/lib.es6.d.ts",
+//  //    "typings/tsd.d.ts",
+//  //    "typings/browser.d.ts",
+//  //    "typings/index.d.ts",
+//  //    "src/global.d.ts",
+//      //"src/client/client.tsx"
+//    ],
+  "include": [
+    "ui/src/global.d.ts",
+    "node_modules/typescript/lib/lib.es6.d.ts",
+    "ui/typings/tsd.d.ts",
+    "ui/typings/browser.d.ts",
+    "ui/typings/test.d.ts",
+    "ui/typings/index.d.ts",
+    "ui/src/**/*",
+    "ui/src/client/client.ts",
+    "ui/src/stores/**/*",
+    "ui/src/components/system/highcharts/highcharts-extensions.d.ts",
+    "ui/testing/**/*.tsx?",
+    "node_modules/@types/auth0-lock/index.d.ts",
+    "node_modules/@types/react-virtualized/index.d.ts",
+    "node_modules/@types/wicg-file-system-access/index.d.ts"
+  ],
+  "exclude": [
+    "ui/src/db",
+    "ui/src/electron/*",
+    "ui/src/lib",
+    "ui/src/components/pages/vtt/*",
+    "ui/src/components/system/highcharts/mockData/*",
+    "ui/src/stores/report/reportStore.ts",
+    "ui/src/stores/report/db.ts"
+    //    "src/components/system/highcharts/**/*" // Temp for testing
+  ]
+}

@@ -1,0 +1,35 @@
+:root {
+    --search-active-background-color: #36528b;
+}
+
+.query-searcher {
+    padding:  3px;
+
+    transition: background .5s linear;
+    background:white;
+
+    &.focused {
+        background-color: var(--search-active-background-color)
+    }
+
+    & > div {
+        border-radius: 5px;
+        padding:5px 3px;
+        display:flex;
+        line-height:1.5;
+        background-color:white;
+
+        i {
+            height:auto;
+        }
+
+        input {
+            border: none;
+            flex:   1;
+        }
+
+        :focus {
+            outline: none;
+        }
+    }
+}

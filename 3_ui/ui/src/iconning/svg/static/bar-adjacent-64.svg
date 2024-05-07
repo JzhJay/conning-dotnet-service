@@ -1,0 +1,26 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" data-icon="bar-adjacent-64" class="iconning iconning-bar-adjacent-64" viewBox="0 0 64 64" id="bar-adjacent64">
+    <g class="iconning-metadata">
+        <title>Adjacent Bar Chart</title>
+    </g>
+    <g class="iconning-container" data-width="64" data-height="64">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="3.0" y1="62.0" x2="3.0" y2="6.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="2.0" y1="61.0" x2="62.0" y2="61.0"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="4.0" y1="49.0" x2="8.0" y2="49.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="4.0" y1="37.0" x2="8.0" y2="37.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="4.0" y1="25.0" x2="8.0" y2="25.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="4.0" y1="13.0" x2="8.0" y2="13.0"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="4.0" y1="55.0" x2="6.0" y2="55.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="4.0" y1="43.0" x2="6.0" y2="43.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="4.0" y1="31.0" x2="6.0" y2="31.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="4.0" y1="19.0" x2="6.0" y2="19.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="4.0" y1="7.0" x2="6.0" y2="7.0"/>
+        <!-- Adjacent Columns -->
+        <polygon class="iconning iconning-bar iconning-bar-64 iconning-accent-0 iconning-bar-1" points="10.0 58.0 20.0 58.0 20.0 37.166666666666664 10.0 37.166666666666664" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-bar iconning-bar-64 iconning-accent-1 iconning-bar-2" points="22.0 58.0 32.0 58.0 32.0 28.833333333333332 22.0 28.833333333333332" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-bar iconning-bar-64 iconning-accent-0 iconning-bar-1" points="38.0 58.0 48.0 58.0 48.0 8.0 38.0 8.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-bar iconning-bar-64 iconning-accent-1 iconning-bar-2" points="50.0 58.0 60.0 58.0 60.0 24.666666666666664 50.0 24.666666666666664" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

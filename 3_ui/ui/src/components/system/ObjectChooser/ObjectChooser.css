@@ -1,0 +1,81 @@
+.root {
+
+    .launcher {
+        display: flex !important;
+        cursor: pointer;
+        flex-wrap: wrap;
+        padding-right: 0;
+
+        &:global(.bp3-input) {
+            height: auto;
+            min-height: 30px;
+        }
+
+        :global(.bp3-button) {
+            /*min-width: 100%;*/
+            margin-left: auto !important;
+            min-height: 100%;
+        }
+
+        :global(.bp3-tag) {
+            margin-right: 10px !important;
+            padding: 0px;
+        }
+
+        &.with-icon {
+            padding-right: 36px;
+            .tag-icon {
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+}
+
+.dialog {
+    background-color: white;
+    width: 75vw;
+    height: 75vh;
+
+    :global .bp3-dialog-header {
+        position: relative;
+
+        .bp3-breadcrumbs {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            left: 0px;
+            padding-left: 150px;
+            padding-right: 150px;
+            flex-wrap: nowrap;
+            overflow: hidden;
+        }
+
+        .bp3-dialog-close-button {
+            z-index: 10;
+        }
+    }
+
+    :global(.bp3-dialog-body) {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin: 10px 20px 0 20px;
+
+        .selection {
+            flex: 0;
+            margin-top: 10px;
+
+            .title {
+                font-weight: bold;
+                margin-right: 5px;
+            }
+
+            :global(.bp3-tag) {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+

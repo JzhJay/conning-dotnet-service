@@ -1,0 +1,8172 @@
+{
+  "++hGYI": [
+    {
+      "type": 0,
+      "value": "继续上载文件"
+    }
+  ],
+  "+1Q2L9": [
+    {
+      "type": 0,
+      "value": "验证输入"
+    }
+  ],
+  "+6Puwp": [
+    {
+      "type": 0,
+      "value": "公司数据存储库"
+    }
+  ],
+  "+8UIk+": [
+    {
+      "type": 1,
+      "value": "objName"
+    },
+    {
+      "type": 0,
+      "value": " “"
+    },
+    {
+      "type": 1,
+      "value": "itemName"
+    },
+    {
+      "type": 0,
+      "value": "” 已修改"
+    }
+  ],
+  "+CAS6W": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "+D412r": [
+    {
+      "type": 0,
+      "value": "收起..."
+    }
+  ],
+  "+RXPGl": [
+    {
+      "type": 1,
+      "value": "objName"
+    },
+    {
+      "type": 0,
+      "value": " “"
+    },
+    {
+      "type": 1,
+      "value": "itemName"
+    },
+    {
+      "type": 0,
+      "value": "” 已创建"
+    }
+  ],
+  "+UMElx": [
+    {
+      "type": 0,
+      "value": "次要"
+    }
+  ],
+  "+X0o7E": [
+    {
+      "type": 0,
+      "value": "发送时间"
+    }
+  ],
+  "+X5ZEo": [
+    {
+      "type": 0,
+      "value": "年"
+    }
+  ],
+  "+ZVlk1": [
+    {
+      "type": 0,
+      "value": "删除标签"
+    }
+  ],
+  "+cfhHH": [
+    {
+      "type": 0,
+      "value": "正在加载数据透视表..."
+    }
+  ],
+  "+ob+9Y": [
+    {
+      "type": 0,
+      "value": "KR"
+    }
+  ],
+  "+q43a9": [
+    {
+      "type": 0,
+      "value": "初始化..."
+    }
+  ],
+  "+reIKs": [
+    {
+      "type": 0,
+      "value": "过去一周"
+    }
+  ],
+  "+urdfb": [
+    {
+      "type": 0,
+      "value": "忽略"
+    }
+  ],
+  "+vGNz/": [
+    {
+      "type": 0,
+      "value": "结果"
+    }
+  ],
+  "/68lZQ": [
+    {
+      "type": 0,
+      "value": "万亿"
+    }
+  ],
+  "/8pGtG": [
+    {
+      "type": 0,
+      "value": "更多..."
+    }
+  ],
+  "/ASU/q": [
+    {
+      "type": 0,
+      "value": "默认"
+    }
+  ],
+  "/BWHZz": [
+    {
+      "type": 0,
+      "value": "显示系统标签？"
+    }
+  ],
+  "/CVnBX": [
+    {
+      "type": 0,
+      "value": "等待开始..."
+    }
+  ],
+  "/FYKKS": [
+    {
+      "type": 0,
+      "value": " 在"
+    },
+    {
+      "type": 1,
+      "value": "col"
+    },
+    {
+      "type": 0,
+      "value": "栏中"
+    }
+  ],
+  "/GMDgP": [
+    {
+      "type": 0,
+      "value": "下载"
+    },
+    {
+      "type": 1,
+      "value": "fileType"
+    }
+  ],
+  "/HUBb1": [
+    {
+      "type": 0,
+      "value": "准备好查询的预计时间："
+    },
+    {
+      "type": 1,
+      "value": "br"
+    }
+  ],
+  "/O1cy0": [
+    {
+      "type": 0,
+      "value": "您对 "
+    },
+    {
+      "type": 1,
+      "value": "variablesSelected"
+    },
+    {
+      "type": 0,
+      "value": " 变量的查询正在运行..."
+    }
+  ],
+  "/O3AMS": [
+    {
+      "type": 0,
+      "value": "正在加载查询视图..."
+    }
+  ],
+  "/Q0aGr": [
+    {
+      "type": 0,
+      "value": "创建模拟"
+    }
+  ],
+  "/U61ze": [
+    {
+      "type": 0,
+      "value": "线条："
+    }
+  ],
+  "/X0QBn": [
+    {
+      "type": 0,
+      "value": "实例类型"
+    }
+  ],
+  "/ZilHe": [
+    {
+      "type": 0,
+      "value": "支持的物件类型"
+    }
+  ],
+  "/e7g17": [
+    {
+      "type": 0,
+      "value": "上传本地文件"
+    }
+  ],
+  "/koqK1": [
+    {
+      "type": 0,
+      "value": "百"
+    }
+  ],
+  "/oAfYf": [
+    {
+      "type": 0,
+      "value": "您必须命名查询并选择模拟"
+    }
+  ],
+  "/spA2o": [
+    {
+      "type": 0,
+      "value": "经典"
+    }
+  ],
+  "/xHYXL": [
+    {
+      "type": 0,
+      "value": "TH"
+    }
+  ],
+  "0+G2pS": [
+    {
+      "type": 1,
+      "value": "simulation"
+    },
+    {
+      "type": 0,
+      "value": "未完成"
+    }
+  ],
+  "0+Yx1z": [
+    {
+      "type": 0,
+      "value": "行间距："
+    }
+  ],
+  "04yBTe": [
+    {
+      "type": 0,
+      "value": "仪表板"
+    }
+  ],
+  "07HY4Q": [
+    {
+      "type": 0,
+      "value": "DE"
+    }
+  ],
+  "08EXRw": [
+    {
+      "type": 0,
+      "value": "正在创建"
+    }
+  ],
+  "0DCu34": [
+    {
+      "type": 0,
+      "value": "导入文件"
+    }
+  ],
+  "0FadWK": [
+    {
+      "type": 0,
+      "value": "数据域"
+    }
+  ],
+  "0JoTI6": [
+    {
+      "type": 0,
+      "value": "第一个情景编号"
+    }
+  ],
+  "0L2oOr": [
+    {
+      "type": 0,
+      "value": "保存中..."
+    }
+  ],
+  "0O6q87": [
+    {
+      "type": 0,
+      "value": "已貼上："
+    },
+    {
+      "type": 1,
+      "value": "ac"
+    }
+  ],
+  "0PjJSb": [
+    {
+      "type": 0,
+      "value": "减少标记大小"
+    }
+  ],
+  "0QFZk+": [
+    {
+      "type": 0,
+      "value": "第"
+    },
+    {
+      "type": 1,
+      "value": "r"
+    },
+    {
+      "type": 0,
+      "value": "行，第"
+    },
+    {
+      "type": 1,
+      "value": "c"
+    },
+    {
+      "type": 0,
+      "value": "列"
+    }
+  ],
+  "0ROcHf": [
+    {
+      "type": 0,
+      "value": "日期"
+    }
+  ],
+  "0SfInl": [
+    {
+      "type": 0,
+      "value": "提交人"
+    }
+  ],
+  "0V7Yiw": [
+    {
+      "type": 0,
+      "value": "运行引导程序"
+    }
+  ],
+  "0ZG59M": [
+    {
+      "type": 0,
+      "value": "所有级别"
+    }
+  ],
+  "0ccepM": [
+    {
+      "type": 0,
+      "value": "区域"
+    }
+  ],
+  "0f+tGn": [
+    {
+      "type": 0,
+      "value": "加载目录中..."
+    }
+  ],
+  "0i6XcI": [
+    {
+      "type": 0,
+      "value": "DFS路径"
+    }
+  ],
+  "0nVDCC": [
+    {
+      "type": 0,
+      "value": "已就緒"
+    }
+  ],
+  "1+DpX7": [
+    {
+      "type": 0,
+      "value": "模拟监控"
+    }
+  ],
+  "13FS2Y": [
+    {
+      "type": 0,
+      "value": "书本"
+    }
+  ],
+  "16s3oe": [
+    {
+      "type": 0,
+      "value": "显示日志消息的时间戳"
+    }
+  ],
+  "173U8Q": [
+    {
+      "type": 0,
+      "value": "计算费用"
+    }
+  ],
+  "18w7R0": [
+    {
+      "type": 0,
+      "value": "行"
+    }
+  ],
+  "19B95l": [
+    {
+      "type": 1,
+      "value": "minute"
+    },
+    {
+      "type": 0,
+      "value": "分 "
+    }
+  ],
+  "1BWDNT": [
+    {
+      "type": 0,
+      "value": "融资"
+    }
+  ],
+  "1ENpA2": [
+    {
+      "type": 0,
+      "value": "文件类型"
+    }
+  ],
+  "1Fm/FE": [
+    {
+      "type": 0,
+      "value": "地址："
+    }
+  ],
+  "1N5QsY": [
+    {
+      "type": 0,
+      "value": "未选择"
+    },
+    {
+      "type": 1,
+      "value": "objectName"
+    }
+  ],
+  "1QAWxL": [
+    {
+      "type": 0,
+      "value": "指标"
+    }
+  ],
+  "1XEa67": [
+    {
+      "type": 0,
+      "value": "2. 变量"
+    }
+  ],
+  "1fVwqx": [
+    {
+      "type": 0,
+      "value": "关联的"
+    },
+    {
+      "type": 1,
+      "value": "objectType"
+    }
+  ],
+  "1j9L1d": [
+    {
+      "type": 0,
+      "value": "GB"
+    }
+  ],
+  "1uoB15": [
+    {
+      "type": 0,
+      "value": "交换行和列"
+    }
+  ],
+  "1vN7U5": [
+    {
+      "type": 0,
+      "value": "日志级别："
+    },
+    {
+      "type": 1,
+      "value": "filterText"
+    }
+  ],
+  "1xT+XS": [
+    {
+      "type": 0,
+      "value": "所有人"
+    }
+  ],
+  "1xlrW8": [
+    {
+      "type": 0,
+      "value": "缩放方式"
+    }
+  ],
+  "26I7Wp": [
+    {
+      "type": 0,
+      "value": "通过电邮获得支持"
+    }
+  ],
+  "274WiR": [
+    {
+      "type": 0,
+      "value": "历史点"
+    }
+  ],
+  "28AQ+5": [
+    {
+      "type": 0,
+      "value": "输出读取"
+    }
+  ],
+  "2H+mMJ": [
+    {
+      "type": 0,
+      "value": "CL"
+    }
+  ],
+  "2N9aIF": [
+    {
+      "type": 0,
+      "value": "点值"
+    }
+  ],
+  "2Qy9px": [
+    {
+      "type": 0,
+      "value": "没有结果。"
+    }
+  ],
+  "2Z4sj8": [
+    {
+      "type": 0,
+      "value": "参数"
+    }
+  ],
+  "2b+IJ1": [
+    {
+      "type": 0,
+      "value": "打开"
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    }
+  ],
+  "2cHdHw": [
+    {
+      "type": 0,
+      "value": "创建"
+    }
+  ],
+  "2rDnzz": [
+    {
+      "type": 0,
+      "value": "请继续下载结果或执行查询。"
+    }
+  ],
+  "30AhJA": [
+    {
+      "type": 0,
+      "value": "导入数据"
+    }
+  ],
+  "35B+Zt": [
+    {
+      "type": 0,
+      "value": "加载结果..."
+    }
+  ],
+  "390G9/": [
+    {
+      "type": 0,
+      "value": "始终在单独的表上"
+    }
+  ],
+  "3BkIF5": [
+    {
+      "type": 0,
+      "value": "批量导入文件不包含错误或警告"
+    }
+  ],
+  "3ONvj6": [
+    {
+      "type": 0,
+      "value": "正在删除您的查询..."
+    }
+  ],
+  "3Vss0x": [
+    {
+      "type": 0,
+      "value": "面包屑"
+    }
+  ],
+  "3Wm0Mn": [
+    {
+      "type": 0,
+      "value": "正在重置您的查询..."
+    }
+  ],
+  "3dUGU8": [
+    {
+      "type": 0,
+      "value": "按字母升序对坐标进行排序"
+    }
+  ],
+  "3mOpZT": [
+    {
+      "type": 0,
+      "value": "按消息严重性"
+    }
+  ],
+  "3rx63S": [
+    {
+      "type": 0,
+      "value": "输出值可用"
+    }
+  ],
+  "3wh+Bs": [
+    {
+      "type": 0,
+      "value": "今年"
+    }
+  ],
+  "3xyqfp": [
+    {
+      "type": 0,
+      "value": "附加"
+    }
+  ],
+  "427XQQ": [
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": " 安装包"
+    }
+  ],
+  "44q3YM": [
+    {
+      "type": 0,
+      "value": "追加文件失败"
+    }
+  ],
+  "483Ofp": [
+    {
+      "type": 0,
+      "value": "模块"
+    }
+  ],
+  "49Mnj2": [
+    {
+      "type": 0,
+      "value": "启动模拟时"
+    }
+  ],
+  "4AXcYr": [
+    {
+      "type": 0,
+      "value": "PNG"
+    }
+  ],
+  "4BF9SX": [
+    {
+      "type": 0,
+      "value": "昨天"
+    }
+  ],
+  "4EPfZQ": [
+    {
+      "type": 0,
+      "value": "切换平均值"
+    }
+  ],
+  "4Miffo": [
+    {
+      "type": 0,
+      "value": "翻转"
+    }
+  ],
+  "4PJpNx": [
+    {
+      "type": 0,
+      "value": "您确定要解锁输入吗？"
+    }
+  ],
+  "4PfuxZ": [
+    {
+      "type": 0,
+      "value": "百分比:"
+    }
+  ],
+  "4Pq0n1": [
+    {
+      "type": 0,
+      "value": "调整后"
+    }
+  ],
+  "4RJAp+": [
+    {
+      "type": 0,
+      "value": "使用订阅机制来获得 "
+    },
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": " 的"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "更新通知"
+        }
+      ],
+      "type": 8,
+      "value": "PushNotificationTooltip"
+    }
+  ],
+  "4UQmO8": [
+    {
+      "type": 0,
+      "value": "许可证："
+    }
+  ],
+  "4ayJ4U": [
+    {
+      "type": 0,
+      "value": "未检测到任何文件"
+    }
+  ],
+  "4blqkY": [
+    {
+      "type": 0,
+      "value": "关于"
+    }
+  ],
+  "4bylpZ": [
+    {
+      "type": 0,
+      "value": "中间结果"
+    }
+  ],
+  "4csc8I": [
+    {
+      "type": 0,
+      "value": "删除分段"
+    }
+  ],
+  "4hus6T": [
+    {
+      "type": 0,
+      "value": "已上载1个文件 ("
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": "/"
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "4mJ8vA": [
+    {
+      "type": 0,
+      "value": "在之后插入"
+    },
+    {
+      "type": 1,
+      "value": "num"
+    },
+    {
+      "type": 1,
+      "value": "rowOrColumnLabel"
+    }
+  ],
+  "4ra63h": [
+    {
+      "type": 0,
+      "value": "开始时间"
+    }
+  ],
+  "4syfmK": [
+    {
+      "type": 0,
+      "value": "规范文件 (.JSON)"
+    }
+  ],
+  "4vSfMI": [
+    {
+      "type": 0,
+      "value": "HK"
+    }
+  ],
+  "510OjE": [
+    {
+      "type": 0,
+      "value": "等待"
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "准备好..."
+    }
+  ],
+  "58D2mA": [
+    {
+      "type": 0,
+      "value": "系列"
+    }
+  ],
+  "5BTQD5": [
+    {
+      "type": 0,
+      "value": "鞅测试"
+    }
+  ],
+  "5COhnu": [
+    {
+      "type": 0,
+      "value": "清除"
+    }
+  ],
+  "5HAuyk": [
+    {
+      "type": 0,
+      "value": "下载"
+    }
+  ],
+  "5IkArU": [
+    {
+      "type": 0,
+      "value": "删除"
+    },
+    {
+      "type": 1,
+      "value": "num"
+    },
+    {
+      "type": 1,
+      "value": "rowOrColumnLabel"
+    }
+  ],
+  "5OWNwE": [
+    {
+      "type": 0,
+      "value": "警告"
+    }
+  ],
+  "5P3XXZ": [
+    {
+      "type": 0,
+      "value": "正在重启"
+    }
+  ],
+  "5U87DB": [
+    {
+      "type": 0,
+      "value": "信息顺序"
+    }
+  ],
+  "5UlLXe": [
+    {
+      "type": 0,
+      "value": "运行模拟"
+    }
+  ],
+  "5VHWAp": [
+    {
+      "type": 0,
+      "value": "在新浏览器窗口中编辑"
+    },
+    {
+      "type": 1,
+      "value": "l"
+    },
+    {
+      "type": 0,
+      "value": "个对象"
+    }
+  ],
+  "5W8dYl": [
+    {
+      "type": 0,
+      "value": "时间"
+    }
+  ],
+  "5e5Jku": [
+    {
+      "type": 0,
+      "value": "变化动画"
+    }
+  ],
+  "5eghvL": [
+    {
+      "type": 0,
+      "value": "开始场景生成"
+    }
+  ],
+  "5gr7MB": [
+    {
+      "type": 0,
+      "value": "通过保存更新的模拟参数来接受校准更改"
+    }
+  ],
+  "5hccdH": [
+    {
+      "type": 0,
+      "value": "数据服务每小时收费"
+    }
+  ],
+  "5hvHbR": [
+    {
+      "type": 0,
+      "value": "状况"
+    }
+  ],
+  "5jbJxj": [
+    {
+      "type": 0,
+      "value": "每半年 (2)"
+    }
+  ],
+  "5n7tmQ": [
+    {
+      "type": 0,
+      "value": "基础案例"
+    }
+  ],
+  "5yocpL": [
+    {
+      "type": 0,
+      "value": "图表数据获取失败"
+    }
+  ],
+  "6+qFmx": [
+    {
+      "type": 0,
+      "value": "区域不透明度:"
+    }
+  ],
+  "6+sY/3": [
+    {
+      "type": 1,
+      "value": "message"
+    },
+    {
+      "type": 0,
+      "value": ". 正在尝试重试计数: "
+    },
+    {
+      "type": 1,
+      "value": "retryCount"
+    }
+  ],
+  "6FEcQb": [
+    {
+      "type": 0,
+      "value": "分段："
+    },
+    {
+      "type": 1,
+      "value": "sectionName"
+    }
+  ],
+  "6KwW6r": [
+    {
+      "type": 0,
+      "value": "错误"
+    }
+  ],
+  "6N1B8H": [
+    {
+      "type": 0,
+      "value": "许可证缺失"
+    }
+  ],
+  "6Qz4AV": [
+    {
+      "type": 0,
+      "value": "在末尾插入"
+    },
+    {
+      "type": 1,
+      "value": "num"
+    },
+    {
+      "type": 1,
+      "value": "rowOrColumnLabel"
+    }
+  ],
+  "6SufEK": [
+    {
+      "type": 0,
+      "value": "波动性"
+    }
+  ],
+  "6WFrFO": [
+    {
+      "type": 0,
+      "value": "标题"
+    }
+  ],
+  "6bcoap": [
+    {
+      "type": 0,
+      "value": "保存为"
+    },
+    {
+      "type": 1,
+      "value": "userFile"
+    },
+    {
+      "type": 0,
+      "value": "到服务器"
+    }
+  ],
+  "6jAbHA": [
+    {
+      "type": 0,
+      "value": "验证详情"
+    }
+  ],
+  "6l53/y": [
+    {
+      "type": 0,
+      "value": "日期"
+    }
+  ],
+  "6pwt5M": [
+    {
+      "type": 0,
+      "value": "运行"
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    }
+  ],
+  "6rDmL4": [
+    {
+      "type": 1,
+      "value": "second"
+    },
+    {
+      "type": 0,
+      "value": "秒 "
+    }
+  ],
+  "6uhwD5": [
+    {
+      "type": 0,
+      "value": "活跃的"
+    },
+    {
+      "type": 1,
+      "value": "objectType"
+    },
+    {
+      "type": 0,
+      "value": "会话"
+    }
+  ],
+  "6wndHo": [
+    {
+      "type": 0,
+      "value": "（已由管理員锁定）"
+    }
+  ],
+  "6x9yaK": [
+    {
+      "type": 0,
+      "value": "（"
+    },
+    {
+      "type": 1,
+      "value": "enabledCount"
+    },
+    {
+      "type": 0,
+      "value": "之"
+    },
+    {
+      "type": 1,
+      "value": "total"
+    },
+    {
+      "type": 0,
+      "value": "）"
+    }
+  ],
+  "6yZob9": [
+    {
+      "type": 0,
+      "value": "搜索..."
+    }
+  ],
+  "7+7nhO": [
+    {
+      "type": 0,
+      "value": "上载"
+    }
+  ],
+  "7+A6Rd": [
+    {
+      "type": 0,
+      "value": "融资"
+    }
+  ],
+  "70PPCg": [
+    {
+      "type": 0,
+      "value": "数据标签"
+    }
+  ],
+  "70fBbf": [
+    {
+      "type": 0,
+      "value": "模拟结果现已可供使用"
+    }
+  ],
+  "78soQB": [
+    {
+      "type": 0,
+      "value": "卡片布局配置"
+    }
+  ],
+  "7AJ2QT": [
+    {
+      "type": 0,
+      "value": "批量导入文件"
+    }
+  ],
+  "7ESXBG": [
+    {
+      "type": 0,
+      "value": "派送給"
+    }
+  ],
+  "7GV0/M": [
+    {
+      "type": 0,
+      "value": "树层次结构"
+    }
+  ],
+  "7MClT7": [
+    {
+      "type": 0,
+      "value": "每周 (52)"
+    }
+  ],
+  "7MO2It": [
+    {
+      "type": 0,
+      "value": "区域不透明度"
+    }
+  ],
+  "7P2I4s": [
+    {
+      "type": 0,
+      "value": "模拟完成"
+    }
+  ],
+  "7P3fXa": [
+    {
+      "type": 0,
+      "value": "数据库读取的输出"
+    }
+  ],
+  "7S9LJ3": [
+    {
+      "type": 0,
+      "value": "选择文件..."
+    }
+  ],
+  "7SwCo5": [
+    {
+      "type": 0,
+      "value": "删除选定的轴坐标"
+    }
+  ],
+  "7WY5fO": [
+    {
+      "type": 0,
+      "value": "将"
+    },
+    {
+      "type": 1,
+      "value": "typeName"
+    },
+    {
+      "type": 1,
+      "value": "idField"
+    },
+    {
+      "type": 0,
+      "value": "复制到剪贴板"
+    }
+  ],
+  "7Yml5y": [
+    {
+      "type": 0,
+      "value": "路径无效。"
+    }
+  ],
+  "7Zco0H": [
+    {
+      "type": 0,
+      "value": "枢轴选择"
+    }
+  ],
+  "7akOcW": [
+    {
+      "type": 0,
+      "value": "持仓"
+    }
+  ],
+  "7fmX5V": [
+    {
+      "type": 0,
+      "value": "灵活轴"
+    }
+  ],
+  "7fq4if": [
+    {
+      "type": 0,
+      "value": "计算完成"
+    }
+  ],
+  "7tiZod": [
+    {
+      "type": 0,
+      "value": "应用程序:"
+    }
+  ],
+  "7y3u6L": [
+    {
+      "type": 0,
+      "value": "模拟失败"
+    }
+  ],
+  "85tMAU": [
+    {
+      "type": 0,
+      "value": "运行 "
+    },
+    {
+      "type": 1,
+      "value": "queryTitle"
+    },
+    {
+      "type": 0,
+      "value": " 查询"
+    }
+  ],
+  "86dZxH": [
+    {
+      "type": 0,
+      "value": "点识别"
+    }
+  ],
+  "88RKEm": [
+    {
+      "type": 0,
+      "value": "此操作无法撤消。"
+    }
+  ],
+  "8ACKek": [
+    {
+      "type": 1,
+      "value": "impliedAxes"
+    },
+    {
+      "type": 0,
+      "value": "个隐含轴当前处于隐藏状态"
+    }
+  ],
+  "8ENSsT": [
+    {
+      "type": 0,
+      "value": "物件名称"
+    }
+  ],
+  "8IGjOq": [
+    {
+      "type": 0,
+      "value": "经济变量"
+    }
+  ],
+  "8TkCV0": [
+    {
+      "type": 0,
+      "value": "添加标签到目录..."
+    }
+  ],
+  "8dNwL7": [
+    {
+      "type": 0,
+      "value": "启动中"
+    }
+  ],
+  "8iOEHh": [
+    {
+      "type": 0,
+      "value": "轴坐标"
+    }
+  ],
+  "8lmtGm": [
+    {
+      "type": 0,
+      "value": "双重认证（2FA）"
+    }
+  ],
+  "8oTJDR": [
+    {
+      "type": 0,
+      "value": "平滑度"
+    }
+  ],
+  "8qc3Yp": [
+    {
+      "type": 0,
+      "value": "经济体"
+    }
+  ],
+  "8sF++e": [
+    {
+      "type": 0,
+      "value": "模拟时发生致命错误。"
+    }
+  ],
+  "8v3AEB": [
+    {
+      "type": 0,
+      "value": "远期收益率"
+    }
+  ],
+  "8wmQMy": [
+    {
+      "type": 0,
+      "value": "栏"
+    }
+  ],
+  "8zttU0": [
+    {
+      "type": 0,
+      "value": "轴"
+    }
+  ],
+  "95+nlf": [
+    {
+      "type": 0,
+      "value": "显示回归线"
+    }
+  ],
+  "97v4Wf": [
+    {
+      "type": 0,
+      "value": "状况"
+    }
+  ],
+  "98dfLN": [
+    {
+      "type": 0,
+      "value": "账务报告 | ADVISE"
+    }
+  ],
+  "99RTTQ": [
+    {
+      "type": 0,
+      "value": "公司数据模拟"
+    }
+  ],
+  "9EnaaT": [
+    {
+      "type": 0,
+      "value": "已初始化."
+    }
+  ],
+  "9FXmEn": [
+    {
+      "type": 0,
+      "value": "修改时间"
+    }
+  ],
+  "9GkT7y": [
+    {
+      "type": 0,
+      "value": "正在保存"
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "..."
+    }
+  ],
+  "9J9k2P": [
+    {
+      "type": 0,
+      "value": "用户"
+    }
+  ],
+  "9Lo6be": [
+    {
+      "type": 0,
+      "value": "正在加载"
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "..."
+    }
+  ],
+  "9Q4GH5": [
+    {
+      "type": 0,
+      "value": "在末尾插入 "
+    },
+    {
+      "type": 1,
+      "value": "ac"
+    }
+  ],
+  "9RSJ6n": [
+    {
+      "type": 0,
+      "value": "模拟日志消息"
+    }
+  ],
+  "9WHq0V": [
+    {
+      "type": 0,
+      "value": "使用订阅机制来获得 "
+    },
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": " 的"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "更新通知"
+        }
+      ],
+      "type": 8,
+      "value": "PushNotificationTooltip"
+    }
+  ],
+  "9WM/fm": [
+    {
+      "type": 0,
+      "value": "使用单轴"
+    }
+  ],
+  "9XJhfW": [
+    {
+      "type": 0,
+      "value": "经典"
+    }
+  ],
+  "9XMaqd": [
+    {
+      "type": 0,
+      "value": "AU"
+    }
+  ],
+  "9cXHuR": [
+    {
+      "type": 0,
+      "value": "环境风险分析"
+    }
+  ],
+  "9dwGR2": [
+    {
+      "type": 0,
+      "value": "可用报告"
+    }
+  ],
+  "9iVrNV": [
+    {
+      "type": 0,
+      "value": "选择定义文件..."
+    }
+  ],
+  "9ig7f+": [
+    {
+      "type": 0,
+      "value": "产物"
+    }
+  ],
+  "9m8f06": [
+    {
+      "type": 0,
+      "value": "显示在分类目录"
+    }
+  ],
+  "9nYp5z": [
+    {
+      "type": 0,
+      "value": "添加 "
+    },
+    {
+      "type": 1,
+      "value": "numberOfAddRows"
+    },
+    {
+      "type": 0,
+      "value": " 行"
+    }
+  ],
+  "9sWmlN": [
+    {
+      "type": 0,
+      "value": "正在初始化..."
+    }
+  ],
+  "A+urvO": [
+    {
+      "type": 0,
+      "value": "您的"
+    },
+    {
+      "type": 1,
+      "value": "objectTypeName"
+    },
+    {
+      "type": 0,
+      "value": "正在加载..."
+    }
+  ],
+  "A/d0M/": [
+    {
+      "type": 0,
+      "value": "vCPU的最大数量"
+    }
+  ],
+  "A1E7K3": [
+    {
+      "type": 0,
+      "value": "缩小"
+    }
+  ],
+  "A46yVu": [
+    {
+      "type": 0,
+      "value": "留言内容"
+    }
+  ],
+  "A6sWIj": [
+    {
+      "type": 0,
+      "value": "从服务器导入"
+    },
+    {
+      "type": 1,
+      "value": "uf"
+    }
+  ],
+  "AEv0I3": [
+    {
+      "type": 0,
+      "value": "导入失败； 没有导入任何块"
+    }
+  ],
+  "ASvPIq": [
+    {
+      "type": 0,
+      "value": "关联的对象"
+    }
+  ],
+  "AWNrfD": [
+    {
+      "type": 0,
+      "value": "正在更新布局..."
+    }
+  ],
+  "AY+Q2i": [
+    {
+      "type": 0,
+      "value": "MD5哈希值"
+    }
+  ],
+  "Ad/4l0": [
+    {
+      "type": 0,
+      "value": "在项目后插入轴坐标"
+    }
+  ],
+  "AgDvR9": [
+    {
+      "type": 0,
+      "value": "输入限制的最大值为："
+    },
+    {
+      "type": 1,
+      "value": "maximum"
+    }
+  ],
+  "AhJBv3": [
+    {
+      "type": 0,
+      "value": "清除选择"
+    }
+  ],
+  "Ajoidd": [
+    {
+      "type": 0,
+      "value": "在之后插入"
+    }
+  ],
+  "AspZUu": [
+    {
+      "type": 0,
+      "value": "资产类别"
+    }
+  ],
+  "Atpkzj": [
+    {
+      "type": 0,
+      "value": "双击展开"
+    }
+  ],
+  "Ax2+po": [
+    {
+      "type": 0,
+      "value": "全部隐藏"
+    }
+  ],
+  "AydJLG": [
+    {
+      "type": 0,
+      "value": "更多..."
+    }
+  ],
+  "B6SFth": [
+    {
+      "type": 0,
+      "value": "水平展开"
+    }
+  ],
+  "B9YbKw": [
+    {
+      "type": 0,
+      "value": "下载文件"
+    }
+  ],
+  "BB7bXB": [
+    {
+      "type": 0,
+      "value": "物件展示模板"
+    }
+  ],
+  "BBLrGv": [
+    {
+      "type": 0,
+      "value": "行"
+    }
+  ],
+  "BEhTXm": [
+    {
+      "type": 0,
+      "value": "全部转至列"
+    }
+  ],
+  "BGfGzz": [
+    {
+      "type": 0,
+      "value": "配置你的"
+    }
+  ],
+  "BGjhWE": [
+    {
+      "type": 0,
+      "value": "位置"
+    }
+  ],
+  "BWgQP+": [
+    {
+      "type": 0,
+      "value": "添加 "
+    },
+    {
+      "type": 1,
+      "value": "numberOfAddRows"
+    },
+    {
+      "type": 0,
+      "value": " 行"
+    }
+  ],
+  "BWpji1": [
+    {
+      "type": 0,
+      "value": "位置：“"
+    },
+    {
+      "type": 1,
+      "value": "locationPath"
+    },
+    {
+      "type": 0,
+      "value": "” 已复制"
+    }
+  ],
+  "BaTV7l": [
+    {
+      "type": 0,
+      "value": "运行报告"
+    }
+  ],
+  "BcMufO": [
+    {
+      "type": 0,
+      "value": "显示/隐藏预览面板"
+    }
+  ],
+  "BcmPYP": [
+    {
+      "type": 0,
+      "value": "每季 (4)"
+    }
+  ],
+  "BjhisJ": [
+    {
+      "type": 0,
+      "value": "修改或查看查询需要设置模拟"
+    }
+  ],
+  "BkVbHG": [
+    {
+      "type": 0,
+      "value": "在之前插入"
+    },
+    {
+      "type": 1,
+      "value": "num"
+    },
+    {
+      "type": 1,
+      "value": "rowOrColumnLabel"
+    }
+  ],
+  "BuomEC": [
+    {
+      "type": 0,
+      "value": "新文件"
+    }
+  ],
+  "BwoKtu": [
+    {
+      "type": 0,
+      "value": "金额"
+    }
+  ],
+  "C/Eyzn": [
+    {
+      "type": 0,
+      "value": "HighCharts组件需要传递图表数据或可以查询数据的查询结果。"
+    }
+  ],
+  "C06fZf": [
+    {
+      "type": 0,
+      "value": "物件类型："
+    }
+  ],
+  "C2cfMO": [
+    {
+      "type": 0,
+      "value": "场景"
+    }
+  ],
+  "C3OqHR": [
+    {
+      "type": 0,
+      "value": "您对｛variablesSelected｝变量的查询正在运行。。。..."
+    }
+  ],
+  "CAqGU4": [
+    {
+      "type": 0,
+      "value": "登录"
+    }
+  ],
+  "CB+Z4m": [
+    {
+      "type": 0,
+      "value": "场景"
+    }
+  ],
+  "CB42+5": [
+    {
+      "type": 0,
+      "value": "百分比 %"
+    }
+  ],
+  "CBxh+a": [
+    {
+      "type": 0,
+      "value": "交换行和列"
+    }
+  ],
+  "CFu9Zj": [
+    {
+      "type": 0,
+      "value": "输入已保存"
+    }
+  ],
+  "CGNBYL": [
+    {
+      "type": 0,
+      "value": "处理的场景数量"
+    }
+  ],
+  "CM8E5G": [
+    {
+      "type": 0,
+      "value": "模拟已被取消。"
+    }
+  ],
+  "CN8TbA": [
+    {
+      "type": 0,
+      "value": "XLSX"
+    }
+  ],
+  "CRimAA": [
+    {
+      "type": 0,
+      "value": "表格视图"
+    }
+  ],
+  "CRzBKF": [
+    {
+      "type": 0,
+      "value": "用户自定义值"
+    }
+  ],
+  "CZNFVw": [
+    {
+      "type": 0,
+      "value": "当前的"
+    }
+  ],
+  "Ci96IR": [
+    {
+      "type": 0,
+      "value": "活跃会话"
+    }
+  ],
+  "CiWLls": [
+    {
+      "type": 0,
+      "value": "前滚完成。"
+    }
+  ],
+  "Cl+rcm": [
+    {
+      "type": 0,
+      "value": "添加变量语句"
+    }
+  ],
+  "Cpg9BX": [
+    {
+      "type": 0,
+      "value": "可以显示的标签"
+    }
+  ],
+  "CuBlm1": [
+    {
+      "type": 0,
+      "value": "分布信息"
+    }
+  ],
+  "Cxwzve": [
+    {
+      "type": 0,
+      "value": "已完成"
+    }
+  ],
+  "D2JDn4": [
+    {
+      "type": 0,
+      "value": "行坐标选择"
+    }
+  ],
+  "D2PGWJ": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "D4nJlW": [
+    {
+      "type": 0,
+      "value": "从 "
+    },
+    {
+      "type": 1,
+      "value": "coordinateID"
+    },
+    {
+      "type": 0,
+      "value": " - "
+    },
+    {
+      "type": 1,
+      "value": "part"
+    },
+    {
+      "type": 0,
+      "value": " 轴 {axisGroupNameLabel}，找不到轴值"
+    }
+  ],
+  "DGaNuf": [
+    {
+      "type": 0,
+      "value": "拖拽文件上载"
+    }
+  ],
+  "DL9DpG": [
+    {
+      "type": 0,
+      "value": "已计算的"
+    }
+  ],
+  "DLapE2": [
+    {
+      "type": 0,
+      "value": "使用灵敏度时启用统计信息"
+    }
+  ],
+  "DMPAkB": [
+    {
+      "type": 0,
+      "value": "自定义级别"
+    }
+  ],
+  "DNMxQH": [
+    {
+      "type": 0,
+      "value": "依物件名排序"
+    }
+  ],
+  "DNcgkD": [
+    {
+      "type": 0,
+      "value": "NO"
+    }
+  ],
+  "DQEFYh": [
+    {
+      "type": 0,
+      "value": "浏览"
+    }
+  ],
+  "DRgb4m": [
+    {
+      "type": 0,
+      "value": "此视图不支持引导"
+    }
+  ],
+  "DS9zer": [
+    {
+      "type": 1,
+      "value": "unit"
+    },
+    {
+      "type": 0,
+      "value": " 数据元素"
+    }
+  ],
+  "DUPEDJ": [
+    {
+      "type": 0,
+      "value": "刷新"
+    }
+  ],
+  "DVm3SQ": [
+    {
+      "type": 0,
+      "value": "正在获取数据..."
+    }
+  ],
+  "DW37vu": [
+    {
+      "type": 0,
+      "value": "自定义标签"
+    }
+  ],
+  "DXcACD": [
+    {
+      "type": 0,
+      "value": "编辑"
+    }
+  ],
+  "DXyQrQ": [
+    {
+      "type": 0,
+      "value": "无"
+    }
+  ],
+  "DZZFj7": [
+    {
+      "type": 0,
+      "value": "范围"
+    }
+  ],
+  "DbIvZ2": [
+    {
+      "type": 0,
+      "value": "名称"
+    }
+  ],
+  "DcF1gc": [
+    {
+      "type": 0,
+      "value": "详细显示模式"
+    }
+  ],
+  "DnJsgJ": [
+    {
+      "type": 0,
+      "value": "变量"
+    }
+  ],
+  "DptQLT": [
+    {
+      "type": 0,
+      "value": "输出"
+    }
+  ],
+  "Dq459Y": [
+    {
+      "type": 0,
+      "value": "平移平均值:"
+    }
+  ],
+  "Dtf4tF": [
+    {
+      "type": 0,
+      "value": "实体"
+    }
+  ],
+  "DyYK73": [
+    {
+      "type": 0,
+      "value": "好"
+    }
+  ],
+  "DyizlF": [
+    {
+      "type": 0,
+      "value": "显示图表"
+    }
+  ],
+  "Dzx3U5": [
+    {
+      "type": 0,
+      "value": "导出"
+    },
+    {
+      "type": 1,
+      "value": "fileType"
+    }
+  ],
+  "E0SuWZ": [
+    {
+      "type": 0,
+      "value": "正在创建查询..."
+    }
+  ],
+  "E2b2lh": [
+    {
+      "type": 0,
+      "value": "启动模拟时"
+    }
+  ],
+  "E4wez8": [
+    {
+      "type": 0,
+      "value": "变量列表"
+    }
+  ],
+  "E7sz0b": [
+    {
+      "type": 0,
+      "value": "删除固定的工具提示"
+    }
+  ],
+  "EOxzUO": [
+    {
+      "type": 0,
+      "value": "已取消"
+    }
+  ],
+  "EQx2C3": [
+    {
+      "type": 0,
+      "value": "设置坐标轴格式"
+    }
+  ],
+  "ERVFF9": [
+    {
+      "type": 0,
+      "value": "追加柔性轴"
+    }
+  ],
+  "EXnOLS": [
+    {
+      "type": 0,
+      "value": "总费用"
+    }
+  ],
+  "EbQPix": [
+    {
+      "type": 0,
+      "value": "分层视图"
+    }
+  ],
+  "EcdDFW": [
+    {
+      "type": 0,
+      "value": "生成模拟结果中..."
+    }
+  ],
+  "EeCbl1": [
+    {
+      "type": 0,
+      "value": "增加字体大小"
+    }
+  ],
+  "EfYeQ0": [
+    {
+      "type": 0,
+      "value": "解锁输入项目"
+    }
+  ],
+  "EfmjRB": [
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "／"
+    },
+    {
+      "type": 1,
+      "value": "total"
+    }
+  ],
+  "EgegKB": [
+    {
+      "type": 0,
+      "value": "计算引擎："
+    },
+    {
+      "type": 1,
+      "value": "br"
+    }
+  ],
+  "Eh+i89": [
+    {
+      "type": 0,
+      "value": "本分段"
+    }
+  ],
+  "EhCDoj": [
+    {
+      "type": 0,
+      "value": "没有建议的路径。"
+    }
+  ],
+  "EhrLS6": [
+    {
+      "type": 0,
+      "value": "补充模型"
+    }
+  ],
+  "Ejki/Q": [
+    {
+      "type": 0,
+      "value": "正在切换到 {switchingTo}..."
+    }
+  ],
+  "ElcEbT": [
+    {
+      "type": 0,
+      "value": "百万"
+    }
+  ],
+  "Etc0pP": [
+    {
+      "type": 0,
+      "value": "用户文件"
+    }
+  ],
+  "EyA41N": [
+    {
+      "type": 0,
+      "value": "正在加载"
+    },
+    {
+      "type": 1,
+      "value": "chart"
+    },
+    {
+      "type": 0,
+      "value": "图..."
+    }
+  ],
+  "F14VCh": [
+    {
+      "type": 0,
+      "value": "控制面板"
+    }
+  ],
+  "F6PB83": [
+    {
+      "type": 0,
+      "value": "变量列表（带＆符）"
+    }
+  ],
+  "F8hFuk": [
+    {
+      "type": 0,
+      "value": "导出柔性轴"
+    }
+  ],
+  "FGexY0": [
+    {
+      "type": 0,
+      "value": "“"
+    },
+    {
+      "type": 1,
+      "value": "text"
+    },
+    {
+      "type": 0,
+      "value": "”已复制到剪贴板。"
+    }
+  ],
+  "FIGbA/": [
+    {
+      "type": 0,
+      "value": "类型"
+    }
+  ],
+  "FNwIC4": [
+    {
+      "type": 0,
+      "value": "选择了多个列进行粘贴，但是粘贴的数据不包含用于将数据分隔成列的“制表符”字符。"
+    }
+  ],
+  "FR0g5z": [
+    {
+      "type": 0,
+      "value": "无"
+    }
+  ],
+  "FT4eQg": [
+    {
+      "type": 0,
+      "value": "水平"
+    }
+  ],
+  "FUmh+j": [
+    {
+      "type": 0,
+      "value": "债券违约率"
+    }
+  ],
+  "Fb0h4R": [
+    {
+      "type": 0,
+      "value": "主要"
+    }
+  ],
+  "FiJ+Ql": [
+    {
+      "type": 0,
+      "value": "变量（"
+    },
+    {
+      "type": 1,
+      "value": "variables"
+    },
+    {
+      "type": 0,
+      "value": "）"
+    }
+  ],
+  "FiZI40": [
+    {
+      "type": 0,
+      "value": "正在删除查询..."
+    }
+  ],
+  "Fj/r5o": [
+    {
+      "type": 0,
+      "value": "行"
+    }
+  ],
+  "FpPufP": [
+    {
+      "type": 0,
+      "value": "拖拽文件上载"
+    }
+  ],
+  "Ft/MMU": [
+    {
+      "type": 0,
+      "value": "仅显示"
+    },
+    {
+      "type": 1,
+      "value": "logLevel"
+    }
+  ],
+  "FtnlQi": [
+    {
+      "type": 0,
+      "value": "時："
+    }
+  ],
+  "FxVnRS": [
+    {
+      "type": 0,
+      "value": "必须选择文件"
+    }
+  ],
+  "G5HUe5": [
+    {
+      "type": 0,
+      "value": "创建者"
+    }
+  ],
+  "G7aFV4": [
+    {
+      "type": 0,
+      "value": "平移标准差:"
+    }
+  ],
+  "G8xYEe": [
+    {
+      "type": 0,
+      "value": "单击以设置背景颜色"
+    }
+  ],
+  "GAE4Em": [
+    {
+      "type": 0,
+      "value": "范围"
+    }
+  ],
+  "GAghOj": [
+    {
+      "type": 0,
+      "value": "查询工具变量佈局"
+    }
+  ],
+  "GBvsp8": [
+    {
+      "type": 0,
+      "value": "等待中"
+    }
+  ],
+  "GIdPGg": [
+    {
+      "type": 0,
+      "value": "动作"
+    }
+  ],
+  "GKm90G": [
+    {
+      "type": 0,
+      "value": "高效前沿线"
+    }
+  ],
+  "GLwqt/": [
+    {
+      "type": 0,
+      "value": "浏览"
+    }
+  ],
+  "GMDMT0": [
+    {
+      "type": 0,
+      "value": "模板"
+    }
+  ],
+  "GQBU8l": [
+    {
+      "type": 0,
+      "value": "选定 "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " 个文件"
+    }
+  ],
+  "GXIwCc": [
+    {
+      "type": 0,
+      "value": "BR"
+    }
+  ],
+  "GXMYcT": [
+    {
+      "type": 0,
+      "value": "已计算"
+    }
+  ],
+  "GXvdqk": [
+    {
+      "type": 0,
+      "value": "需要默认标签值"
+    }
+  ],
+  "Gbn8fl": [
+    {
+      "type": 0,
+      "value": "季度"
+    }
+  ],
+  "GdlYSj": [
+    {
+      "type": 0,
+      "value": "重置缩放级别"
+    }
+  ],
+  "GiDf69": [
+    {
+      "type": 0,
+      "value": "启用"
+    }
+  ],
+  "GmehsZ": [
+    {
+      "type": 0,
+      "value": "在同一浏览器窗口中复制"
+    }
+  ],
+  "GnzpoW": [
+    {
+      "type": 0,
+      "value": "输入读取"
+    }
+  ],
+  "God8oA": [
+    {
+      "type": 0,
+      "value": "您的查询正在被删除..."
+    }
+  ],
+  "GvxAcu": [
+    {
+      "type": 0,
+      "value": "文件"
+    }
+  ],
+  "H+iqnk": [
+    {
+      "type": 0,
+      "value": "重命名"
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    }
+  ],
+  "H+z7X7": [
+    {
+      "type": 0,
+      "value": "每日 (360)"
+    }
+  ],
+  "H0aLm3": [
+    {
+      "type": 0,
+      "value": "批量导入成功，但有警告； 所有块均已导入"
+    }
+  ],
+  "H0x8fz": [
+    {
+      "type": 0,
+      "value": "识别"
+    }
+  ],
+  "H2mnYX": [
+    {
+      "type": 0,
+      "value": "切换过滤器侧边栏"
+    }
+  ],
+  "HAvMd7": [
+    {
+      "type": 0,
+      "value": "所有测试都通过了！"
+    }
+  ],
+  "HFpH7I": [
+    {
+      "type": 0,
+      "value": "此视图不支持灵敏度"
+    }
+  ],
+  "HGLORe": [
+    {
+      "type": 0,
+      "value": "覆盖匹配的现有行"
+    }
+  ],
+  "HM0Bsk": [
+    {
+      "type": 0,
+      "value": "布局"
+    }
+  ],
+  "HOg2Ji": [
+    {
+      "type": 0,
+      "value": "删除栏：“"
+    },
+    {
+      "type": 1,
+      "value": "displayText"
+    },
+    {
+      "type": 0,
+      "value": "”"
+    }
+  ],
+  "HRj0Qt": [
+    {
+      "type": 0,
+      "value": "高效前沿点"
+    }
+  ],
+  "HT7xkQ": [
+    {
+      "type": 0,
+      "value": "不允许删除所有轴坐标"
+    }
+  ],
+  "HTxzHU": [
+    {
+      "type": 0,
+      "value": "保存"
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    }
+  ],
+  "HX2wcg": [
+    {
+      "type": 0,
+      "value": "列表"
+    }
+  ],
+  "HYv/c3": [
+    {
+      "type": 0,
+      "value": "报表"
+    }
+  ],
+  "HZwbLt": [
+    {
+      "type": 0,
+      "value": "选择全部"
+    }
+  ],
+  "HgDO16": [
+    {
+      "type": 0,
+      "value": "下载"
+    }
+  ],
+  "HiT2gC": [
+    {
+      "type": 0,
+      "value": "请查看结果。"
+    }
+  ],
+  "Hp7afe": [
+    {
+      "type": 0,
+      "value": "向下跳"
+    }
+  ],
+  "HsjpUt": [
+    {
+      "type": 0,
+      "value": "创建"
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    }
+  ],
+  "HudRX2": [
+    {
+      "type": 0,
+      "value": "新增"
+    }
+  ],
+  "HwzkeV": [
+    {
+      "type": 0,
+      "value": "全部"
+    }
+  ],
+  "HxBrXP": [
+    {
+      "type": 0,
+      "value": "栏"
+    }
+  ],
+  "IAMjKR": [
+    {
+      "type": 0,
+      "value": "打开"
+    }
+  ],
+  "IC2IJv": [
+    {
+      "type": 0,
+      "value": "加载经济情景生成器会话失败"
+    }
+  ],
+  "ID47UM": [
+    {
+      "type": 0,
+      "value": "包含"
+    }
+  ],
+  "IDfcYo": [
+    {
+      "type": 0,
+      "value": "加载 "
+    },
+    {
+      "type": 1,
+      "value": "objName"
+    },
+    {
+      "type": 0,
+      "value": " 会话失败"
+    }
+  ],
+  "IKhL0G": [
+    {
+      "type": 0,
+      "value": "应用最新模板作为前滚的目标"
+    }
+  ],
+  "IM3WdG": [
+    {
+      "type": 0,
+      "value": "每月 (12)"
+    }
+  ],
+  "INMwBM": [
+    {
+      "type": 0,
+      "value": "翻转垂直轴"
+    }
+  ],
+  "IPcxHA": [
+    {
+      "type": 0,
+      "value": "账户"
+    }
+  ],
+  "ISuJjY": [
+    {
+      "type": 0,
+      "value": "通知类型"
+    }
+  ],
+  "ISxe64": [
+    {
+      "type": 0,
+      "value": "如果选中，则前滚日期或之前的最新模板的模板信息将包含在前滚过程中。"
+    }
+  ],
+  "IWgKMx": [
+    {
+      "type": 0,
+      "value": "正在创建"
+    },
+    {
+      "type": 1,
+      "value": "objName"
+    },
+    {
+      "type": 0,
+      "value": "..."
+    }
+  ],
+  "IXkbrp": [
+    {
+      "type": 0,
+      "value": "没有错误或警告"
+    }
+  ],
+  "Idddsa": [
+    {
+      "type": 0,
+      "value": "未完成"
+    }
+  ],
+  "IjUo4s": [
+    {
+      "type": 0,
+      "value": "特殊复制"
+    }
+  ],
+  "IkAZkq": [
+    {
+      "type": 0,
+      "value": "移除槽位"
+    }
+  ],
+  "IsvpAv": [
+    {
+      "type": 0,
+      "value": "隐藏回归线"
+    }
+  ],
+  "IuBGUP": [
+    {
+      "type": 0,
+      "value": "注释"
+    }
+  ],
+  "Iuk/YM": [
+    {
+      "type": 0,
+      "value": "必须指定有效的查询结果才能切换到 {viewName}"
+    }
+  ],
+  "IzSQTT": [
+    {
+      "type": 0,
+      "value": "正在上载。。。"
+    }
+  ],
+  "J3JboO": [
+    {
+      "type": 0,
+      "value": "CN"
+    }
+  ],
+  "J6BRa8": [
+    {
+      "type": 0,
+      "value": "没有可用结果"
+    }
+  ],
+  "J86XnD": [
+    {
+      "type": 0,
+      "value": "标签管理"
+    }
+  ],
+  "JAD3sf": [
+    {
+      "type": 0,
+      "value": "参数依据"
+    }
+  ],
+  "JHmQAO": [
+    {
+      "type": 0,
+      "value": "中等"
+    }
+  ],
+  "JIyRDJ": [
+    {
+      "type": 0,
+      "value": "模拟时输入被锁定"
+    }
+  ],
+  "JKQDIQ": [
+    {
+      "type": 0,
+      "value": "间隔宽度"
+    }
+  ],
+  "JR4/iL": [
+    {
+      "type": 0,
+      "value": "未选择任何"
+    },
+    {
+      "type": 1,
+      "value": "rowOrColumnLabel"
+    }
+  ],
+  "JVELQm": [
+    {
+      "type": 0,
+      "value": "概率密度函数"
+    }
+  ],
+  "JaCcw3": [
+    {
+      "type": 0,
+      "value": "频率"
+    }
+  ],
+  "JbcKkK": [
+    {
+      "type": 0,
+      "value": "显示布局"
+    }
+  ],
+  "JdeZiC": [
+    {
+      "type": 0,
+      "value": "计费类型"
+    }
+  ],
+  "Jdjtcd": [
+    {
+      "type": 0,
+      "value": "CPU总时间"
+    }
+  ],
+  "JfZRob": [
+    {
+      "type": 0,
+      "value": "解锁"
+    }
+  ],
+  "JfvqfA": [
+    {
+      "type": 0,
+      "value": "活动工作区"
+    }
+  ],
+  "Jg+z9r": [
+    {
+      "type": 0,
+      "value": "参考标准差:"
+    }
+  ],
+  "JhV3wy": [
+    {
+      "type": 0,
+      "value": "全部折叠"
+    }
+  ],
+  "JlR/IV": [
+    {
+      "type": 0,
+      "value": "创建新模拟..."
+    }
+  ],
+  "Joi3O9": [
+    {
+      "type": 0,
+      "value": "年"
+    }
+  ],
+  "JrI1EG": [
+    {
+      "type": 0,
+      "value": "块"
+    }
+  ],
+  "JzoGyK": [
+    {
+      "type": 0,
+      "value": "对应于模板时，此选项才可用。"
+    }
+  ],
+  "K0zzr1": [
+    {
+      "type": 0,
+      "value": "正在上载文件... ("
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": "/"
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "K9YA75": [
+    {
+      "type": 0,
+      "value": "个券"
+    }
+  ],
+  "KCnfFf": [
+    {
+      "type": 0,
+      "value": "数值"
+    }
+  ],
+  "KItlk9": [
+    {
+      "type": 0,
+      "value": "缩进："
+    }
+  ],
+  "KIwU49": [
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": " 软件产品使用或合并第三方软件和其他版权材料，并受下面列出的确认和条款的约束"
+    }
+  ],
+  "KTMCg3": [
+    {
+      "type": 0,
+      "value": "输入已保存"
+    }
+  ],
+  "KVvTYw": [
+    {
+      "type": 0,
+      "value": "按字母降序对坐标进行排序"
+    }
+  ],
+  "KXo1W7": [
+    {
+      "type": 0,
+      "value": "默认情况下单独的表"
+    }
+  ],
+  "KZDAdw": [
+    {
+      "type": 0,
+      "value": "自定义..."
+    }
+  ],
+  "KaoJUf": [
+    {
+      "type": 0,
+      "value": "账务"
+    }
+  ],
+  "KbBgre": [
+    {
+      "type": 0,
+      "value": "等待上载"
+    }
+  ],
+  "Kf1CKy": [
+    {
+      "type": 0,
+      "value": "持续时间 (DDD:HH:MM)"
+    }
+  ],
+  "KgQMkq": [
+    {
+      "type": 0,
+      "value": "概率密度"
+    }
+  ],
+  "Kgytsx": [
+    {
+      "type": 0,
+      "value": "数据顺序..."
+    }
+  ],
+  "Kl5zZx": [
+    {
+      "type": 0,
+      "value": "IL"
+    }
+  ],
+  "Km/YyG": [
+    {
+      "type": 0,
+      "value": "栏"
+    }
+  ],
+  "KokIDt": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "Ktv1VI": [
+    {
+      "type": 0,
+      "value": "减小线条大小"
+    }
+  ],
+  "L1lvWj": [
+    {
+      "type": 0,
+      "value": "输出已加载"
+    }
+  ],
+  "L8lcJu": [
+    {
+      "type": 0,
+      "value": "增加标记大小"
+    }
+  ],
+  "LH7/1X": [
+    {
+      "type": 0,
+      "value": "添加标签..."
+    }
+  ],
+  "LO7g4+": [
+    {
+      "type": 0,
+      "value": "可用轴"
+    }
+  ],
+  "LOB4AC": [
+    {
+      "type": 0,
+      "value": "验证侧边栏"
+    }
+  ],
+  "LOteEd": [
+    {
+      "type": 0,
+      "value": "旧版本"
+    }
+  ],
+  "LQWF/M": [
+    {
+      "type": 0,
+      "value": "起始期"
+    }
+  ],
+  "LRQnR3": [
+    {
+      "type": 0,
+      "value": "点"
+    }
+  ],
+  "LSX1Fc": [
+    {
+      "type": 0,
+      "value": "组识别"
+    }
+  ],
+  "LSsBtw": [
+    {
+      "type": 0,
+      "value": "取得 "
+    },
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": " 支持"
+    }
+  ],
+  "LSvWFX": [
+    {
+      "type": 0,
+      "value": "文件加载成功"
+    }
+  ],
+  "LUe+8k": [
+    {
+      "type": 0,
+      "value": "收藏该项目"
+    }
+  ],
+  "LdqBOk": [
+    {
+      "type": 0,
+      "value": "停用"
+    }
+  ],
+  "LfN346": [
+    {
+      "type": 0,
+      "value": "显示时间戳"
+    }
+  ],
+  "Lfsyiw": [
+    {
+      "type": 0,
+      "value": "移除"
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    }
+  ],
+  "LiUWrt": [
+    {
+      "type": 0,
+      "value": "工作管理"
+    }
+  ],
+  "Ljw0cm": [
+    {
+      "type": 0,
+      "value": "批量导出"
+    }
+  ],
+  "LptEGk": [
+    {
+      "type": 0,
+      "value": "TW"
+    }
+  ],
+  "LqVTLz": [
+    {
+      "type": 0,
+      "value": "多个"
+    }
+  ],
+  "LsoMI4": [
+    {
+      "type": 0,
+      "value": "导入"
+    },
+    {
+      "type": 1,
+      "value": "fileType"
+    }
+  ],
+  "LtCfsL": [
+    {
+      "type": 0,
+      "value": "总文件大小: "
+    },
+    {
+      "type": 1,
+      "value": "size"
+    }
+  ],
+  "Lx90GL": [
+    {
+      "type": 0,
+      "value": "每年 (1)"
+    }
+  ],
+  "LxorwO": [
+    {
+      "type": 0,
+      "value": "显示单位"
+    }
+  ],
+  "LyNOoM": [
+    {
+      "type": 0,
+      "value": "在项目之前插入轴坐标"
+    }
+  ],
+  "LzgKEl": [
+    {
+      "type": 1,
+      "value": "second"
+    },
+    {
+      "type": 0,
+      "value": "秒 "
+    }
+  ],
+  "M+Q4dq": [
+    {
+      "type": 0,
+      "value": "平滑:"
+    }
+  ],
+  "M3+OIH": [
+    {
+      "type": 0,
+      "value": "带有"
+    }
+  ],
+  "M5j+MA": [
+    {
+      "type": 0,
+      "value": "结果"
+    }
+  ],
+  "M7TfcY": [
+    {
+      "type": 0,
+      "value": "该项目已收藏"
+    }
+  ],
+  "MAaBxM": [
+    {
+      "type": 0,
+      "value": "运行模拟以生成输出文件。"
+    }
+  ],
+  "MB1y91": [
+    {
+      "type": 0,
+      "value": "支持编辑"
+    }
+  ],
+  "MGBNs2": [
+    {
+      "type": 0,
+      "value": "数据库"
+    }
+  ],
+  "MGfE3m": [
+    {
+      "type": 0,
+      "value": "批量导入"
+    }
+  ],
+  "MI5bhw": [
+    {
+      "type": 0,
+      "value": "批量导入结果"
+    }
+  ],
+  "MXPCO5": [
+    {
+      "type": 0,
+      "value": "读取计算输入"
+    }
+  ],
+  "McLU8e": [
+    {
+      "type": 0,
+      "value": "(无可用数据)"
+    }
+  ],
+  "Me+TA6": [
+    {
+      "type": 0,
+      "value": "步骤条"
+    }
+  ],
+  "Mjpdw+": [
+    {
+      "type": 0,
+      "value": "信息"
+    }
+  ],
+  "MsHzDu": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "MtalYx": [
+    {
+      "type": 0,
+      "value": "文件大小"
+    }
+  ],
+  "N6wnCd": [
+    {
+      "type": 0,
+      "value": "除去"
+    }
+  ],
+  "N8Elq4": [
+    {
+      "type": 0,
+      "value": "单轴选项"
+    }
+  ],
+  "NGKdIR": [
+    {
+      "type": 0,
+      "value": "解锁后修改已完成的"
+    },
+    {
+      "type": 1,
+      "value": "objectTypeName"
+    },
+    {
+      "type": 0,
+      "value": "将会删除输出结果。"
+    }
+  ],
+  "NJmpcI": [
+    {
+      "type": 0,
+      "value": "正在生成"
+    },
+    {
+      "type": 1,
+      "value": "userFile"
+    },
+    {
+      "type": 0,
+      "value": "..."
+    }
+  ],
+  "NMqdnW": [
+    {
+      "type": 0,
+      "value": "恢复默认设置"
+    }
+  ],
+  "NYB075": [
+    {
+      "type": 0,
+      "value": "种子:"
+    }
+  ],
+  "Na3YSf": [
+    {
+      "type": 0,
+      "value": "存储的查询"
+    }
+  ],
+  "NaMml0": [
+    {
+      "type": 0,
+      "value": "放大"
+    }
+  ],
+  "NanmrP": [
+    {
+      "type": 0,
+      "value": "全部"
+    }
+  ],
+  "Nb5jUo": [
+    {
+      "type": 0,
+      "value": "获取模板..."
+    }
+  ],
+  "Nb7abH": [
+    {
+      "type": 0,
+      "value": "关联的对象"
+    }
+  ],
+  "Ndg8zI": [
+    {
+      "type": 0,
+      "value": "案例模板"
+    }
+  ],
+  "NiuXBL": [
+    {
+      "type": 0,
+      "value": "运行（生成结果）"
+    }
+  ],
+  "NkXrim": [
+    {
+      "type": 0,
+      "value": "空分段名称"
+    }
+  ],
+  "NpOp37": [
+    {
+      "type": 0,
+      "value": "文件加载失败"
+    }
+  ],
+  "NwNftX": [
+    {
+      "type": 0,
+      "value": "详细视图"
+    }
+  ],
+  "O2AI9y": [
+    {
+      "type": 0,
+      "value": "浏览模拟..."
+    }
+  ],
+  "O3wnmK": [
+    {
+      "type": 0,
+      "value": "全部到列"
+    }
+  ],
+  "O5EgOE": [
+    {
+      "type": 0,
+      "value": "单击此处"
+    }
+  ],
+  "O5bVAG": [
+    {
+      "type": 0,
+      "value": "行系列"
+    }
+  ],
+  "O8frR6": [
+    {
+      "type": 0,
+      "value": "删除标签"
+    }
+  ],
+  "O9nrEO": [
+    {
+      "type": 0,
+      "value": "显示统计信息"
+    }
+  ],
+  "OALFU3": [
+    {
+      "type": 0,
+      "value": "栅格"
+    }
+  ],
+  "OEUEKu": [
+    {
+      "type": 0,
+      "value": "派送給"
+    }
+  ],
+  "OKNT5i": [
+    {
+      "type": 0,
+      "value": "运行"
+    },
+    {
+      "type": 1,
+      "value": "query"
+    }
+  ],
+  "OOclv6": [
+    {
+      "type": 0,
+      "value": "标签“"
+    },
+    {
+      "type": 1,
+      "value": "tagName"
+    },
+    {
+      "type": 0,
+      "value": "”支持的物件类型"
+    }
+  ],
+  "OPGOTx": [
+    {
+      "type": 0,
+      "value": "本月"
+    }
+  ],
+  "OTdNc6": [
+    {
+      "type": 0,
+      "value": "按严重性且按行"
+    }
+  ],
+  "OVjEdA": [
+    {
+      "type": 0,
+      "value": "客户支持"
+    }
+  ],
+  "OaSSX6": [
+    {
+      "type": 0,
+      "value": "查看结果"
+    }
+  ],
+  "Obtmww": [
+    {
+      "type": 0,
+      "value": "投资组合"
+    }
+  ],
+  "OdtmRQ": [
+    {
+      "type": 0,
+      "value": "运行模拟以生成结果。"
+    }
+  ],
+  "Oj5FHu": [
+    {
+      "type": 0,
+      "value": "正在启动..."
+    }
+  ],
+  "OjNqYV": [
+    {
+      "type": 0,
+      "value": "单位"
+    }
+  ],
+  "OkdtVV": [
+    {
+      "type": 0,
+      "value": "在新浏览器窗口中打开“"
+    },
+    {
+      "type": 1,
+      "value": "simName"
+    },
+    {
+      "type": 0,
+      "value": "”"
+    }
+  ],
+  "OlvDz5": [
+    {
+      "type": 0,
+      "value": "下载"
+    }
+  ],
+  "OorvP/": [
+    {
+      "type": 0,
+      "value": "编辑标签值"
+    }
+  ],
+  "P2ZyHc": [
+    {
+      "type": 0,
+      "value": "Reports"
+    }
+  ],
+  "P6RN7x": [
+    {
+      "type": 0,
+      "value": "循环资产分组"
+    }
+  ],
+  "P9zlS8": [
+    {
+      "type": 0,
+      "value": "操作"
+    }
+  ],
+  "PBGhE4": [
+    {
+      "type": 0,
+      "value": "输出频率"
+    }
+  ],
+  "PHQ6Zl": [
+    {
+      "type": 0,
+      "value": "字段类型"
+    }
+  ],
+  "PHkJkm": [
+    {
+      "type": 0,
+      "value": "期间"
+    }
+  ],
+  "PK0IMZ": [
+    {
+      "type": 0,
+      "value": "周期性"
+    }
+  ],
+  "PXDi3x": [
+    {
+      "type": 0,
+      "value": "上载即将完成 ..."
+    }
+  ],
+  "PYaf/v": [
+    {
+      "type": 0,
+      "value": "追加模块选项"
+    }
+  ],
+  "PZFp4p": [
+    {
+      "type": 0,
+      "value": "无法加载您的查询。"
+    }
+  ],
+  "Pan8Qb": [
+    {
+      "type": 0,
+      "value": "当网格被关闭"
+    }
+  ],
+  "PfG/Mw": [
+    {
+      "type": 0,
+      "value": "您的登录身份"
+    }
+  ],
+  "Ph1fCx": [
+    {
+      "type": 0,
+      "value": "垂直折叠"
+    }
+  ],
+  "PiD2Uo": [
+    {
+      "type": 0,
+      "value": "行动选项"
+    }
+  ],
+  "PiQrmP": [
+    {
+      "type": 0,
+      "value": "正在加载默认设置..."
+    }
+  ],
+  "PmeVIp": [
+    {
+      "type": 0,
+      "value": "下面存在错误"
+    }
+  ],
+  "PmkZf6": [
+    {
+      "type": 0,
+      "value": "新增"
+    }
+  ],
+  "PmtxEf": [
+    {
+      "type": 0,
+      "value": "优化距离搜索点"
+    }
+  ],
+  "Pp82Us": [
+    {
+      "type": 0,
+      "value": "添加标签"
+    }
+  ],
+  "Pp8OVz": [
+    {
+      "type": 0,
+      "value": "过去一个月"
+    }
+  ],
+  "Prqb1E": [
+    {
+      "type": 0,
+      "value": "您确定要删除 ID 为 "
+    },
+    {
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "type": 0,
+      "value": " 的 "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " 吗？"
+    }
+  ],
+  "PsSrkQ": [
+    {
+      "type": 0,
+      "value": "帐单"
+    }
+  ],
+  "PvQxej": [
+    {
+      "type": 0,
+      "value": "上传文件必须是JSON文件"
+    }
+  ],
+  "PwwbdY": [
+    {
+      "type": 0,
+      "value": "系统事件"
+    }
+  ],
+  "PxPf5I": [
+    {
+      "type": 0,
+      "value": "用户文件"
+    }
+  ],
+  "Q+sfVO": [
+    {
+      "type": 0,
+      "value": "复制"
+    }
+  ],
+  "Q/5JzM": [
+    {
+      "type": 0,
+      "value": "查询服务器"
+    }
+  ],
+  "Q0FBzB": [
+    {
+      "type": 0,
+      "value": "模拟"
+    }
+  ],
+  "Q3UzI6": [
+    {
+      "type": 0,
+      "value": "在文件“"
+    },
+    {
+      "type": 1,
+      "value": "file"
+    },
+    {
+      "type": 0,
+      "value": "”中"
+    }
+  ],
+  "Q3gANw": [
+    {
+      "type": 0,
+      "value": "排列:"
+    }
+  ],
+  "Q6ZcDW": [
+    {
+      "type": 0,
+      "value": "请"
+    }
+  ],
+  "QAVhjU": [
+    {
+      "type": 0,
+      "value": "CZ"
+    }
+  ],
+  "QNhfc3": [
+    {
+      "type": 0,
+      "value": "会计"
+    }
+  ],
+  "QOZ1Lr": [
+    {
+      "type": 0,
+      "value": "模拟"
+    }
+  ],
+  "QSSABH": [
+    {
+      "type": 0,
+      "value": "个人资料"
+    }
+  ],
+  "QTcJjE": [
+    {
+      "type": 0,
+      "value": "情景"
+    }
+  ],
+  "QTfiw5": [
+    {
+      "type": 1,
+      "value": "itemCount"
+    },
+    {
+      "type": 0,
+      "value": "个项目"
+    }
+  ],
+  "QV/iy0": [
+    {
+      "type": 0,
+      "value": "数据元素（十亿）"
+    }
+  ],
+  "QcmBho": [
+    {
+      "type": 0,
+      "value": "清除控制台日志"
+    }
+  ],
+  "QiQ9ll": [
+    {
+      "type": 0,
+      "value": "巨灾"
+    }
+  ],
+  "QsAPNb": [
+    {
+      "type": 0,
+      "value": "机器"
+    }
+  ],
+  "QvJxSN": [
+    {
+      "type": 0,
+      "value": "圆锥"
+    }
+  ],
+  "R7Oxxt": [
+    {
+      "type": 0,
+      "value": "每日 (365)"
+    }
+  ],
+  "R7YbGd": [
+    {
+      "type": 0,
+      "value": "化合物"
+    }
+  ],
+  "R9IJdD": [
+    {
+      "type": 0,
+      "value": "附加到最近的文件"
+    }
+  ],
+  "RBKlKu": [
+    {
+      "type": 0,
+      "value": "SVG"
+    }
+  ],
+  "RDtvcQ": [
+    {
+      "type": 0,
+      "value": "文件"
+    }
+  ],
+  "RFxHCV": [
+    {
+      "type": 0,
+      "value": "模拟总结状态"
+    }
+  ],
+  "RIKlDi": [
+    {
+      "type": 0,
+      "value": "折叠"
+    }
+  ],
+  "RIgGiL": [
+    {
+      "type": 0,
+      "value": "数据存储费用"
+    }
+  ],
+  "RLlMuW": [
+    {
+      "type": 0,
+      "value": "系列识别"
+    }
+  ],
+  "RLnb6Y": [
+    {
+      "type": 0,
+      "value": "正在上载一个文件... ("
+    },
+    {
+      "type": 1,
+      "value": "uploadedFilesCount"
+    },
+    {
+      "type": 0,
+      "value": "/"
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "ROdRNf": [
+    {
+      "type": 0,
+      "value": "错误"
+    }
+  ],
+  "RRWl8S": [
+    {
+      "type": 0,
+      "value": "每天的持续存储费用"
+    }
+  ],
+  "RVJfQP": [
+    {
+      "type": 1,
+      "value": "objectName"
+    },
+    {
+      "type": 0,
+      "value": " 选择器"
+    }
+  ],
+  "RWKI1p": [
+    {
+      "type": 0,
+      "value": "运行灵敏度"
+    }
+  ],
+  "RaZHSE": [
+    {
+      "type": 0,
+      "value": "系列"
+    }
+  ],
+  "RipBQl": [
+    {
+      "type": 0,
+      "value": "我的"
+    }
+  ],
+  "RqOvCw": [
+    {
+      "type": 0,
+      "value": "计算"
+    }
+  ],
+  "Rr9xiH": [
+    {
+      "type": 0,
+      "value": "包含在结果中"
+    }
+  ],
+  "S/e6Pm": [
+    {
+      "type": 0,
+      "value": "视图"
+    }
+  ],
+  "S3V8OV": [
+    {
+      "type": 0,
+      "value": "用户文件浏览器"
+    }
+  ],
+  "S49Nw0": [
+    {
+      "type": 0,
+      "value": "正在加载数据透视信息..."
+    }
+  ],
+  "SQ0A0d": [
+    {
+      "type": 0,
+      "value": "关闭类似"
+    }
+  ],
+  "SRFIgB": [
+    {
+      "type": 0,
+      "value": "组合添加行"
+    }
+  ],
+  "SUB+XA": [
+    {
+      "type": 0,
+      "value": "保存日期"
+    }
+  ],
+  "SUXpHa": [
+    {
+      "type": 0,
+      "value": "&nbsp;&nbsp;上载完成"
+    }
+  ],
+  "SV/Ys5": [
+    {
+      "type": 0,
+      "value": "经济"
+    }
+  ],
+  "SVA9z7": [
+    {
+      "type": 0,
+      "value": "选择统计信息"
+    }
+  ],
+  "SXy9Mq": [
+    {
+      "type": 0,
+      "value": "更新"
+    }
+  ],
+  "Sacl/H": [
+    {
+      "type": 0,
+      "value": "上一页"
+    }
+  ],
+  "ScC5v3": [
+    {
+      "type": 0,
+      "value": "正在加载输出视图..."
+    }
+  ],
+  "Scgg/X": [
+    {
+      "type": 0,
+      "value": "校准输入"
+    }
+  ],
+  "SikeBD": [
+    {
+      "type": 0,
+      "value": "警告"
+    }
+  ],
+  "SisAep": [
+    {
+      "type": 0,
+      "value": "参数化测量"
+    }
+  ],
+  "SkaR6A": [
+    {
+      "type": 1,
+      "value": "i"
+    },
+    {
+      "type": 0,
+      "value": " 个轴坐标"
+    }
+  ],
+  "SkoVw/": [
+    {
+      "type": 0,
+      "value": "在新浏览器窗口中编辑"
+    },
+    {
+      "type": 1,
+      "value": "typeName"
+    }
+  ],
+  "SnoQ2F": [
+    {
+      "type": 0,
+      "value": "变量选择"
+    }
+  ],
+  "Sw13ji": [
+    {
+      "type": 0,
+      "value": "前滚"
+    }
+  ],
+  "T/FZvI": [
+    {
+      "type": 0,
+      "value": "结果"
+    }
+  ],
+  "T/GfHh": [
+    {
+      "type": 0,
+      "value": "投资优化工具"
+    }
+  ],
+  "T64fxl": [
+    {
+      "type": 0,
+      "value": "全部转至行"
+    }
+  ],
+  "T9zPww": [
+    {
+      "type": 0,
+      "value": "遞送方式"
+    }
+  ],
+  "TAMOCy": [
+    {
+      "type": 0,
+      "value": "修改标签“"
+    },
+    {
+      "type": 1,
+      "value": "tagName"
+    },
+    {
+      "type": 0,
+      "value": "”的子值"
+    }
+  ],
+  "TEjmwO": [
+    {
+      "type": 0,
+      "value": "每季"
+    }
+  ],
+  "TGOLgn": [
+    {
+      "type": 0,
+      "value": "PDF"
+    }
+  ],
+  "TLaUft": [
+    {
+      "type": 0,
+      "value": "除错"
+    }
+  ],
+  "TNLgMW": [
+    {
+      "type": 0,
+      "value": "停止的原因"
+    }
+  ],
+  "TORl/M": [
+    {
+      "type": 0,
+      "value": "清除过滤器"
+    }
+  ],
+  "TQQLwE": [
+    {
+      "type": 0,
+      "value": "欧拉周期"
+    }
+  ],
+  "TVD5wY": [
+    {
+      "type": 0,
+      "value": "选定标签不支持多种对象类型。将使用第一种类型代替。"
+    }
+  ],
+  "TZ6zvP": [
+    {
+      "type": 0,
+      "value": "最后的"
+    }
+  ],
+  "TbUXxE": [
+    {
+      "type": 0,
+      "value": "上一次的"
+    }
+  ],
+  "TcO0Qg": [
+    {
+      "type": 0,
+      "value": "单轴名称"
+    }
+  ],
+  "Tjj4jm": [
+    {
+      "type": 0,
+      "value": "范围"
+    }
+  ],
+  "TnsiZf": [
+    {
+      "type": 0,
+      "value": "复制"
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    }
+  ],
+  "TrHC6n": [
+    {
+      "type": 0,
+      "value": "未知的查询视图 "
+    },
+    {
+      "type": 1,
+      "value": "viewName"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "TuebEO": [
+    {
+      "type": 0,
+      "value": "“"
+    },
+    {
+      "type": 1,
+      "value": "tagName"
+    },
+    {
+      "type": 0,
+      "value": "”被 "
+    },
+    {
+      "type": 1,
+      "value": "total"
+    },
+    {
+      "type": 0,
+      "value": " 个对象引用。 删除将删除所有引用。"
+    }
+  ],
+  "TzcAsk": [
+    {
+      "type": 0,
+      "value": "新增"
+    }
+  ],
+  "U1L+qn": [
+    {
+      "type": 0,
+      "value": "批量导入成功，无警告； 所有块均已导入"
+    }
+  ],
+  "U3AgVy": [
+    {
+      "type": 0,
+      "value": "列轴"
+    }
+  ],
+  "U3RwqB": [
+    {
+      "type": 0,
+      "value": "最后使用"
+    }
+  ],
+  "U4kZJO": [
+    {
+      "type": 0,
+      "value": "初始化模拟会话"
+    }
+  ],
+  "U9WY4R": [
+    {
+      "type": 0,
+      "value": "当网格被启动"
+    }
+  ],
+  "UEgFTS": [
+    {
+      "type": 0,
+      "value": "正在准备模型参数数据..."
+    }
+  ],
+  "UKWFbM": [
+    {
+      "type": 0,
+      "value": "初始化 "
+    },
+    {
+      "type": 1,
+      "value": "simulationName"
+    },
+    {
+      "type": 0,
+      "value": " 模拟会话"
+    }
+  ],
+  "UM37ll": [
+    {
+      "type": 1,
+      "value": "objectType"
+    },
+    {
+      "type": 0,
+      "value": " 输入已被锁定。请解锁以进行编辑。"
+    }
+  ],
+  "UMPOC2": [
+    {
+      "type": 0,
+      "value": "打开类似"
+    }
+  ],
+  "UXRCmA": [
+    {
+      "type": 0,
+      "value": "版本"
+    }
+  ],
+  "UYLQ6H": [
+    {
+      "type": 0,
+      "value": "每页项目："
+    }
+  ],
+  "UYxHeP": [
+    {
+      "type": 0,
+      "value": "此操作无法撤消。"
+    }
+  ],
+  "UaA+6d": [
+    {
+      "type": 0,
+      "value": "历史记录"
+    }
+  ],
+  "UeXAqH": [
+    {
+      "type": 0,
+      "value": "开始自定义重新校准..."
+    }
+  ],
+  "Uh1+FS": [
+    {
+      "type": 0,
+      "value": "编辑"
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    }
+  ],
+  "Ujb3Iy": [
+    {
+      "type": 0,
+      "value": "冷冻栏"
+    }
+  ],
+  "UkY7C1": [
+    {
+      "type": 0,
+      "value": "正在启动"
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "..."
+    }
+  ],
+  "UmMwg1": [
+    {
+      "type": 0,
+      "value": "取消中"
+    }
+  ],
+  "Ut3pnx": [
+    {
+      "type": 0,
+      "value": "模拟输入已被锁定。 请解锁编辑。"
+    }
+  ],
+  "Uvdi9K": [
+    {
+      "type": 0,
+      "value": "元数据"
+    }
+  ],
+  "V5ZDwY": [
+    {
+      "type": 0,
+      "value": "订阅事件通知"
+    }
+  ],
+  "V6oRGw": [
+    {
+      "type": 0,
+      "value": "累积密度"
+    }
+  ],
+  "VAqY4f": [
+    {
+      "type": 0,
+      "value": "翻转水平轴"
+    }
+  ],
+  "VFBcw9": [
+    {
+      "type": 0,
+      "value": "选定 "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " 个文件"
+    }
+  ],
+  "VKki3X": [
+    {
+      "type": 0,
+      "value": "名称"
+    }
+  ],
+  "VNuaqG": [
+    {
+      "type": 0,
+      "value": "重置"
+    }
+  ],
+  "VPBMWk": [
+    {
+      "type": 0,
+      "value": "加载失败并出现错误："
+    },
+    {
+      "type": 1,
+      "value": "lastErrorMessage"
+    }
+  ],
+  "VU4R9/": [
+    {
+      "type": 0,
+      "value": "将用户标签应用于"
+    }
+  ],
+  "VXF2Np": [
+    {
+      "type": 0,
+      "value": "已完成的报告"
+    }
+  ],
+  "Va/Gut": [
+    {
+      "type": 0,
+      "value": "批量导入文件包含 "
+    },
+    {
+      "type": 1,
+      "value": "cError"
+    },
+    {
+      "type": 0,
+      "value": "个错误和 "
+    },
+    {
+      "type": 1,
+      "value": "cWarning"
+    },
+    {
+      "type": 0,
+      "value": "个警告"
+    }
+  ],
+  "VhX4a9": [
+    {
+      "type": 0,
+      "value": "在项目后插入 1 个轴坐标"
+    }
+  ],
+  "ViXCC/": [
+    {
+      "type": 0,
+      "value": "电邮:"
+    }
+  ],
+  "Vkz+8R": [
+    {
+      "type": 0,
+      "value": "插入 1 个轴坐标"
+    }
+  ],
+  "VrVk5O": [
+    {
+      "type": 0,
+      "value": "我的相关"
+    }
+  ],
+  "VtfHdS": [
+    {
+      "type": 0,
+      "value": "打印"
+    }
+  ],
+  "VtySkA": [
+    {
+      "type": 0,
+      "value": "保险"
+    }
+  ],
+  "Vv17WJ": [
+    {
+      "type": 0,
+      "value": "最好"
+    }
+  ],
+  "Vxh/qu": [
+    {
+      "type": 0,
+      "value": "正在加载模块信息..."
+    }
+  ],
+  "Vz/JcE": [
+    {
+      "type": 0,
+      "value": "忽略所有"
+    }
+  ],
+  "W+9gst": [
+    {
+      "type": 0,
+      "value": "数据库分区："
+    },
+    {
+      "type": 1,
+      "value": "br"
+    }
+  ],
+  "W4ljAx": [
+    {
+      "type": 0,
+      "value": "资产配置"
+    }
+  ],
+  "W8xH2C": [
+    {
+      "type": 0,
+      "value": "创建模拟而不上载"
+    }
+  ],
+  "WDA0H3": [
+    {
+      "type": 0,
+      "value": "大小"
+    }
+  ],
+  "WDeTQA": [
+    {
+      "type": 0,
+      "value": "好"
+    }
+  ],
+  "WE50Xm": [
+    {
+      "type": 0,
+      "value": "价格"
+    }
+  ],
+  "WFAqE6": [
+    {
+      "type": 0,
+      "value": "输出已保存"
+    }
+  ],
+  "WFQ315": [
+    {
+      "type": 0,
+      "value": "投资优化工具"
+    }
+  ],
+  "WFgmV6": [
+    {
+      "type": 0,
+      "value": "账户"
+    }
+  ],
+  "WIGF2Z": [
+    {
+      "type": 0,
+      "value": "不能重复"
+    }
+  ],
+  "WJrnfC": [
+    {
+      "type": 0,
+      "value": "轴组织设置"
+    }
+  ],
+  "WJw8Mq": [
+    {
+      "type": 1,
+      "value": "impliedAxes"
+    },
+    {
+      "type": 0,
+      "value": "个隐含轴当前处于隐藏状态"
+    }
+  ],
+  "WK+6sL": [
+    {
+      "type": 0,
+      "value": "删除"
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    }
+  ],
+  "WKNPoe": [
+    {
+      "type": 0,
+      "value": "删除\""
+    },
+    {
+      "type": 1,
+      "value": "tagName"
+    },
+    {
+      "type": 0,
+      "value": "\""
+    }
+  ],
+  "WLbIgm": [
+    {
+      "type": 0,
+      "value": "年化回报"
+    }
+  ],
+  "WPCgBE": [
+    {
+      "type": 0,
+      "value": "所选的前滚日期不能晚于当前模型日期。"
+    }
+  ],
+  "WPU0Mu": [
+    {
+      "type": 0,
+      "value": "将标签移动到分段..."
+    }
+  ],
+  "WRtn3K": [
+    {
+      "type": 0,
+      "value": "期間"
+    }
+  ],
+  "WSYz9Y": [
+    {
+      "type": 0,
+      "value": "结果已生成"
+    }
+  ],
+  "WX44aY": [
+    {
+      "type": 0,
+      "value": "计算输出已保存"
+    }
+  ],
+  "WZiO7t": [
+    {
+      "type": 0,
+      "value": "探索"
+    }
+  ],
+  "WZyxqz": [
+    {
+      "type": 0,
+      "value": "模拟事件"
+    }
+  ],
+  "Wi05xd": [
+    {
+      "type": 0,
+      "value": "选择模拟数据源"
+    }
+  ],
+  "WjDrs+": [
+    {
+      "type": 0,
+      "value": "后续场景平均时间："
+    },
+    {
+      "type": 1,
+      "value": "br"
+    }
+  ],
+  "WmFuCD": [
+    {
+      "type": 0,
+      "value": "笔记"
+    }
+  ],
+  "WnzyUx": [
+    {
+      "type": 0,
+      "value": "账户配置"
+    }
+  ],
+  "Wo+SNS": [
+    {
+      "type": 0,
+      "value": "行"
+    }
+  ],
+  "WoJgHL": [
+    {
+      "type": 0,
+      "value": "时间统计的市场价值"
+    }
+  ],
+  "WqpUc5": [
+    {
+      "type": 0,
+      "value": "正在启动..."
+    }
+  ],
+  "WrSrgK": [
+    {
+      "type": 0,
+      "value": "当帐单达到指定的款额"
+    }
+  ],
+  "WriezT": [
+    {
+      "type": 0,
+      "value": "证券"
+    }
+  ],
+  "WyDZa6": [
+    {
+      "type": 0,
+      "value": "正在加载模板..."
+    }
+  ],
+  "X+AWUn": [
+    {
+      "type": 0,
+      "value": "导出位置"
+    }
+  ],
+  "X//bcp": [
+    {
+      "type": 0,
+      "value": "输入限制的最小值为："
+    },
+    {
+      "type": 1,
+      "value": "minimum"
+    }
+  ],
+  "X/rGU1": [
+    {
+      "type": 0,
+      "value": "经典显示模式"
+    }
+  ],
+  "XPKY4x": [
+    {
+      "type": 0,
+      "value": "在模拟之前必须解决验证错误"
+    }
+  ],
+  "XS5hsP": [
+    {
+      "type": 0,
+      "value": "您确定要删除 "
+    },
+    {
+      "type": 1,
+      "value": "objectTypeName"
+    },
+    {
+      "type": 0,
+      "value": " “"
+    },
+    {
+      "type": 1,
+      "value": "objectName"
+    },
+    {
+      "type": 0,
+      "value": "” 吗？"
+    }
+  ],
+  "XTzGFf": [
+    {
+      "type": 0,
+      "value": "在第"
+    },
+    {
+      "type": 1,
+      "value": "row"
+    },
+    {
+      "type": 0,
+      "value": "行"
+    }
+  ],
+  "XU7lJs": [
+    {
+      "type": 0,
+      "value": "CA"
+    }
+  ],
+  "XUi4p7": [
+    {
+      "type": 0,
+      "value": "排列"
+    }
+  ],
+  "XYcAqa": [
+    {
+      "type": 0,
+      "value": "百分比详细信息"
+    }
+  ],
+  "XiwW/1": [
+    {
+      "type": 0,
+      "value": "SG"
+    }
+  ],
+  "XjC/p6": [
+    {
+      "type": 0,
+      "value": "时"
+    }
+  ],
+  "XkjQCd": [
+    {
+      "type": 0,
+      "value": "报酬"
+    }
+  ],
+  "XsCch4": [
+    {
+      "type": 0,
+      "value": "取消模拟时无法重新运行"
+    }
+  ],
+  "Xvf3s/": [
+    {
+      "type": 0,
+      "value": "返回"
+    }
+  ],
+  "Y+E8fJ": [
+    {
+      "type": 0,
+      "value": "1. 概述"
+    }
+  ],
+  "Y0OOBa": [
+    {
+      "type": 0,
+      "value": "删除"
+    }
+  ],
+  "Y11Y8K": [
+    {
+      "type": 0,
+      "value": "3. 消息"
+    }
+  ],
+  "Y2kkmw": [
+    {
+      "type": 0,
+      "value": "通知设置"
+    }
+  ],
+  "Y4xr/A": [
+    {
+      "type": 0,
+      "value": "设置坐标轴格式..."
+    }
+  ],
+  "YAhk9N": [
+    {
+      "type": 0,
+      "value": "重置安排"
+    }
+  ],
+  "YBrJz6": [
+    {
+      "type": 0,
+      "value": "正在开始模拟过程"
+    }
+  ],
+  "YKfOQh": [
+    {
+      "type": 0,
+      "value": "尝试加载"
+    },
+    {
+      "type": 1,
+      "value": "objectTypeName"
+    },
+    {
+      "type": 0,
+      "value": "数据时发生错误。"
+    }
+  ],
+  "YL1SrF": [
+    {
+      "type": 0,
+      "value": "取消选择"
+    }
+  ],
+  "YRJvNB": [
+    {
+      "type": 0,
+      "value": "数据透视表包含超过100万行或列，这可能会导致它需要很长时间才能呈现，甚至导致浏览器崩溃。但是，您仍然可以使用工具栏导出数据、重新排列表或下载表数据。"
+    }
+  ],
+  "YbJBnz": [
+    {
+      "type": 0,
+      "value": "正在完成"
+    }
+  ],
+  "YnJk/d": [
+    {
+      "type": 0,
+      "value": "选择模板"
+    }
+  ],
+  "YnPeyH": [
+    {
+      "type": 0,
+      "value": "水平展开"
+    }
+  ],
+  "YpTa7S": [
+    {
+      "type": 0,
+      "value": "只有"
+    }
+  ],
+  "Yt1r82": [
+    {
+      "type": 0,
+      "value": "切换引导程序"
+    }
+  ],
+  "YzlTmU": [
+    {
+      "type": 0,
+      "value": "时间聚合器"
+    }
+  ],
+  "Z1lNM8": [
+    {
+      "type": 0,
+      "value": "附加到最近导出的"
+    },
+    {
+      "type": 1,
+      "value": "userFile"
+    }
+  ],
+  "Z27QKp": [
+    {
+      "type": 0,
+      "value": "正在等待"
+    }
+  ],
+  "Z5M6vh": [
+    {
+      "type": 0,
+      "value": "已生成"
+    },
+    {
+      "type": 1,
+      "value": "userFile"
+    },
+    {
+      "type": 0,
+      "value": "。"
+    }
+  ],
+  "Z6/jnv": [
+    {
+      "type": 0,
+      "value": "正在读取文件..."
+    }
+  ],
+  "Z9cZgf": [
+    {
+      "type": 0,
+      "value": "用户上传的文件"
+    }
+  ],
+  "ZBeyjB": [
+    {
+      "type": 0,
+      "value": "概率密度"
+    }
+  ],
+  "ZErAd0": [
+    {
+      "type": 0,
+      "value": "Expand"
+    }
+  ],
+  "ZJXgTH": [
+    {
+      "type": 0,
+      "value": "变量（语句 "
+    },
+    {
+      "type": 1,
+      "value": "clause"
+    },
+    {
+      "type": 0,
+      "value": "）"
+    }
+  ],
+  "ZKajVC": [
+    {
+      "type": 0,
+      "value": "您的搜索未返回任何结果。"
+    }
+  ],
+  "ZKwUYV": [
+    {
+      "type": 0,
+      "value": "内存利用率"
+    }
+  ],
+  "ZOd558": [
+    {
+      "type": 0,
+      "value": "正在读取数据..."
+    }
+  ],
+  "ZUU045": [
+    {
+      "type": 0,
+      "value": "打开最近的项目..."
+    }
+  ],
+  "Zd2ZyT": [
+    {
+      "type": 0,
+      "value": "圆环大小："
+    }
+  ],
+  "ZhMG2z": [
+    {
+      "type": 0,
+      "value": "如果您的浏览器设置阻止显示“另存为”对话框，则文件将自动下载到浏览器指定的下载文件夹中。"
+    }
+  ],
+  "Zl8n/u": [
+    {
+      "type": 0,
+      "value": "依名子排序我的物件"
+    }
+  ],
+  "a+UgPg": [
+    {
+      "type": 0,
+      "value": "紧凑显示模式"
+    }
+  ],
+  "a3VeVk": [
+    {
+      "type": 0,
+      "value": "更新物件类型失败"
+    }
+  ],
+  "aBBEp5": [
+    {
+      "type": 1,
+      "value": "query"
+    },
+    {
+      "type": 0,
+      "value": "正在运行..."
+    }
+  ],
+  "aKedaO": [
+    {
+      "type": 0,
+      "value": "复制位置"
+    }
+  ],
+  "aL2TSl": [
+    {
+      "type": 0,
+      "value": "默认同表"
+    }
+  ],
+  "aSHimF": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "aTv/XB": [
+    {
+      "type": 0,
+      "value": "平移模式"
+    }
+  ],
+  "acpNGP": [
+    {
+      "type": 0,
+      "value": "批量导入文件"
+    }
+  ],
+  "admu16": [
+    {
+      "type": 0,
+      "value": "导出所有模块的数据"
+    }
+  ],
+  "aq5i7N": [
+    {
+      "type": 0,
+      "value": "您当前的数据透视选择对此视图无效: {viewName}."
+    }
+  ],
+  "at4iBj": [
+    {
+      "type": 0,
+      "value": "用户:"
+    }
+  ],
+  "axRKiR": [
+    {
+      "type": 0,
+      "value": "管理员"
+    }
+  ],
+  "ay+fj7": [
+    {
+      "type": 0,
+      "value": "正在导出初始化..."
+    }
+  ],
+  "b08nyI": [
+    {
+      "type": 1,
+      "value": "typeName"
+    },
+    {
+      "type": 1,
+      "value": "idField"
+    },
+    {
+      "type": 0,
+      "value": "“"
+    },
+    {
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "type": 0,
+      "value": "”已复制到剪贴板。"
+    }
+  ],
+  "b2cjbd": [
+    {
+      "type": 0,
+      "value": "(文件夹上载)"
+    }
+  ],
+  "b4RSjg": [
+    {
+      "type": 0,
+      "value": "全部到行"
+    }
+  ],
+  "bA5PKk": [
+    {
+      "type": 0,
+      "value": "紧凑"
+    }
+  ],
+  "bAi47a": [
+    {
+      "type": 0,
+      "value": "千"
+    }
+  ],
+  "bDS4Ey": [
+    {
+      "type": 0,
+      "value": "已上载所有文件 ("
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": "/"
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "bIySrE": [
+    {
+      "type": 0,
+      "value": "启动模拟时"
+    }
+  ],
+  "bL0rQ0": [
+    {
+      "type": 0,
+      "value": "数据服务费"
+    }
+  ],
+  "bP2B0V": [
+    {
+      "type": 0,
+      "value": "许可证到期日："
+    }
+  ],
+  "bQfO5P": [
+    {
+      "type": 0,
+      "value": "卡片视图"
+    }
+  ],
+  "bU0lz8": [
+    {
+      "type": 0,
+      "value": "当有1000多个点时，线路标记模式被禁用"
+    }
+  ],
+  "beM3Qt": [
+    {
+      "type": 0,
+      "value": "正在修改"
+    },
+    {
+      "type": 1,
+      "value": "objName"
+    },
+    {
+      "type": 0,
+      "value": "..."
+    }
+  ],
+  "bhSDTp": [
+    {
+      "type": 0,
+      "value": "浏览"
+    }
+  ],
+  "bkc5QX": [
+    {
+      "type": 0,
+      "value": "正在加载轴信息..."
+    }
+  ],
+  "bn8aoP": [
+    {
+      "type": 0,
+      "value": "选择内容"
+    }
+  ],
+  "bq3puk": [
+    {
+      "type": 0,
+      "value": "复制"
+    }
+  ],
+  "brVLiq": [
+    {
+      "type": 0,
+      "value": "添加到队列"
+    }
+  ],
+  "btlnZI": [
+    {
+      "type": 0,
+      "value": "删除轴“"
+    },
+    {
+      "type": 1,
+      "value": "axis"
+    },
+    {
+      "type": 0,
+      "value": "”？"
+    }
+  ],
+  "c+OinD": [
+    {
+      "type": 0,
+      "value": "开始..."
+    }
+  ],
+  "c5mM5r": [
+    {
+      "type": 0,
+      "value": "模拟结果已成功生成，现在可以从其他应用程序引用和查询。"
+    }
+  ],
+  "c6hDAR": [
+    {
+      "type": 0,
+      "value": "您确定要取消选择“"
+    },
+    {
+      "type": 1,
+      "value": "itemName"
+    },
+    {
+      "type": 0,
+      "value": "”吗？"
+    }
+  ],
+  "cF4XM+": [
+    {
+      "type": 0,
+      "value": "公式"
+    }
+  ],
+  "cGSFbi": [
+    {
+      "type": 0,
+      "value": "当前显示"
+    },
+    {
+      "type": 1,
+      "value": "impliedAxes"
+    },
+    {
+      "type": 0,
+      "value": "个隐含轴"
+    }
+  ],
+  "cJ19rU": [
+    {
+      "type": 0,
+      "value": "全部折叠"
+    }
+  ],
+  "cMlBre": [
+    {
+      "type": 0,
+      "value": "该值自上次运行以来已更改"
+    }
+  ],
+  "cVrUvr": [
+    {
+      "type": 0,
+      "value": "范围"
+    }
+  ],
+  "cZchCc": [
+    {
+      "type": 0,
+      "value": "百分比"
+    }
+  ],
+  "ccvFj8": [
+    {
+      "type": 0,
+      "value": "粗糙"
+    }
+  ],
+  "cjqb1Z": [
+    {
+      "type": 0,
+      "value": "校准"
+    }
+  ],
+  "cpUlZo": [
+    {
+      "type": 1,
+      "value": "appendFilename"
+    },
+    {
+      "type": 0,
+      "value": " 已成功附加！"
+    }
+  ],
+  "cv7Z6S": [
+    {
+      "type": 0,
+      "value": "仅当前滚"
+    }
+  ],
+  "czz2lK": [
+    {
+      "type": 0,
+      "value": "关于 "
+    },
+    {
+      "type": 1,
+      "value": "productName"
+    }
+  ],
+  "d/LtjD": [
+    {
+      "type": 0,
+      "value": "统计"
+    }
+  ],
+  "d27HJh": [
+    {
+      "type": 0,
+      "value": "没有"
+    }
+  ],
+  "d8iylT": [
+    {
+      "type": 0,
+      "value": "灵活轴编辑器"
+    }
+  ],
+  "dDg7OJ": [
+    {
+      "type": 0,
+      "value": "资产回报模拟"
+    }
+  ],
+  "dFw60s": [
+    {
+      "type": 0,
+      "value": "加载图表数据..."
+    }
+  ],
+  "dJjE9P": [
+    {
+      "type": 0,
+      "value": "查询工具"
+    }
+  ],
+  "dP64l9": [
+    {
+      "type": 0,
+      "value": "删除分段："
+    },
+    {
+      "type": 1,
+      "value": "sectionName"
+    }
+  ],
+  "dS5fJW": [
+    {
+      "type": 0,
+      "value": "失败"
+    }
+  ],
+  "dZ3UBf": [
+    {
+      "type": 0,
+      "value": "被请求"
+    }
+  ],
+  "ddRONf": [
+    {
+      "type": 0,
+      "value": "位置"
+    }
+  ],
+  "dhUwnB": [
+    {
+      "type": 0,
+      "value": "已附加:"
+    },
+    {
+      "type": 1,
+      "value": "ac"
+    }
+  ],
+  "di69do": [
+    {
+      "type": 0,
+      "value": "按 A-Z 排序"
+    }
+  ],
+  "dkdBKN": [
+    {
+      "type": 0,
+      "value": "导入"
+    }
+  ],
+  "dkoVdj": [
+    {
+      "type": 0,
+      "value": "月"
+    }
+  ],
+  "dmbwsE": [
+    {
+      "type": 0,
+      "value": "查询规范文件"
+    }
+  ],
+  "dsmfvV": [
+    {
+      "type": 0,
+      "value": "地址路径"
+    }
+  ],
+  "dvfmm/": [
+    {
+      "type": 0,
+      "value": "隐藏它们"
+    }
+  ],
+  "dyEj8A": [
+    {
+      "type": 0,
+      "value": "帐单事件"
+    }
+  ],
+  "e/I+MV": [
+    {
+      "type": 0,
+      "value": "始终相同的表"
+    }
+  ],
+  "e/hkGJ": [
+    {
+      "type": 0,
+      "value": "使用模板中的数据覆盖现有的重新校准参数？"
+    }
+  ],
+  "e/zbyX": [
+    {
+      "type": 0,
+      "value": "展开全部"
+    }
+  ],
+  "e1oTRC": [
+    {
+      "type": 0,
+      "value": "参数化"
+    }
+  ],
+  "e2rdBc": [
+    {
+      "type": 0,
+      "value": "重置"
+    }
+  ],
+  "eCNEcU": [
+    {
+      "type": 0,
+      "value": "桌面应用软件"
+    }
+  ],
+  "eCQhtb": [
+    {
+      "type": 0,
+      "value": "编辑"
+    },
+    {
+      "type": 1,
+      "value": "query"
+    }
+  ],
+  "eFg4fD": [
+    {
+      "type": 0,
+      "value": "按消息"
+    }
+  ],
+  "eIJghB": [
+    {
+      "type": 0,
+      "value": "输出加载到数据库中"
+    }
+  ],
+  "eOmBfP": [
+    {
+      "type": 0,
+      "value": "导出数据"
+    }
+  ],
+  "eZkqfT": [
+    {
+      "type": 0,
+      "value": "反转"
+    }
+  ],
+  "efHqUp": [
+    {
+      "type": 0,
+      "value": "继续粘贴吗？"
+    }
+  ],
+  "ehVTXX": [
+    {
+      "type": 0,
+      "value": "最近的"
+    }
+  ],
+  "ekDxpO": [
+    {
+      "type": 0,
+      "value": "优化方向搜索点"
+    }
+  ],
+  "emBtFS": [
+    {
+      "type": 0,
+      "value": "GMT日期"
+    }
+  ],
+  "enKc8I": [
+    {
+      "type": 0,
+      "value": "开始时间（UTC）"
+    }
+  ],
+  "eq/tjt": [
+    {
+      "type": 0,
+      "value": "优化迭代线"
+    }
+  ],
+  "ezTv8f": [
+    {
+      "type": 0,
+      "value": "复制"
+    }
+  ],
+  "f+HIKc": [
+    {
+      "type": 0,
+      "value": "视图"
+    }
+  ],
+  "f0IISQ": [
+    {
+      "type": 0,
+      "value": "启用多重身份验证（MFA）"
+    }
+  ],
+  "f2/Yqa": [
+    {
+      "type": 0,
+      "value": "下一页"
+    }
+  ],
+  "f4VeP3": [
+    {
+      "type": 0,
+      "value": "名称"
+    }
+  ],
+  "f99wKB": [
+    {
+      "type": 0,
+      "value": "消息"
+    }
+  ],
+  "fC966V": [
+    {
+      "type": 0,
+      "value": "在之前插入"
+    }
+  ],
+  "fEpA0/": [
+    {
+      "type": 0,
+      "value": "迭代次数"
+    }
+  ],
+  "fHNTsU": [
+    {
+      "type": 0,
+      "value": "文件必须是"
+    },
+    {
+      "type": 1,
+      "value": "type"
+    }
+  ],
+  "fKtOev": [
+    {
+      "type": 0,
+      "value": "1 个轴坐标"
+    }
+  ],
+  "fO+c9G": [
+    {
+      "type": 0,
+      "value": "二者都有"
+    }
+  ],
+  "fQ+nYl": [
+    {
+      "type": 0,
+      "value": "箱线图"
+    }
+  ],
+  "fSjHG3": [
+    {
+      "type": 0,
+      "value": "定义文件历史记录"
+    }
+  ],
+  "fU4n5y": [
+    {
+      "type": 0,
+      "value": "隐藏（活跃）"
+    }
+  ],
+  "fVg2DY": [
+    {
+      "type": 0,
+      "value": "配置"
+    }
+  ],
+  "fW3CFG": [
+    {
+      "type": 0,
+      "value": "下载已启动。"
+    }
+  ],
+  "fa6HgF": [
+    {
+      "type": 0,
+      "value": "隐藏"
+    }
+  ],
+  "ffGOiZ": [
+    {
+      "type": 0,
+      "value": "JPEG"
+    }
+  ],
+  "fjt8Ea": [
+    {
+      "type": 0,
+      "value": "正在初始化 "
+    },
+    {
+      "type": 1,
+      "value": "objName"
+    },
+    {
+      "type": 0,
+      "value": " 会话"
+    }
+  ],
+  "flQ8zs": [
+    {
+      "type": 0,
+      "value": "投资"
+    }
+  ],
+  "fouH5d": [
+    {
+      "type": 0,
+      "value": "图像"
+    }
+  ],
+  "fpZowG": [
+    {
+      "type": 0,
+      "value": "您的查询正在复制..."
+    }
+  ],
+  "fwnxDQ": [
+    {
+      "type": 0,
+      "value": "定义错误"
+    }
+  ],
+  "fxeg7V": [
+    {
+      "type": 0,
+      "value": "输入"
+    }
+  ],
+  "g+RTYU": [
+    {
+      "type": 0,
+      "value": "显示"
+    }
+  ],
+  "g3D/B8": [
+    {
+      "type": 1,
+      "value": "mLength"
+    },
+    {
+      "type": 0,
+      "value": " 失败的测试"
+    }
+  ],
+  "g3y9j6": [
+    {
+      "type": 0,
+      "value": "决定"
+    }
+  ],
+  "gERHNn": [
+    {
+      "type": 0,
+      "value": "CH"
+    }
+  ],
+  "gGg0Gj": [
+    {
+      "type": 0,
+      "value": "合计（期内）"
+    }
+  ],
+  "gNtbSh": [
+    {
+      "type": 0,
+      "value": "优化迭代点"
+    }
+  ],
+  "gdI6Z8": [
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": "版本"
+    }
+  ],
+  "gdTLE+": [
+    {
+      "type": 0,
+      "value": "数据库"
+    }
+  ],
+  "gdnpsb": [
+    {
+      "type": 0,
+      "value": "标记模式"
+    }
+  ],
+  "goASoI": [
+    {
+      "type": 0,
+      "value": "树视图"
+    }
+  ],
+  "gq1DfK": [
+    {
+      "type": 0,
+      "value": "相关性"
+    }
+  ],
+  "gqGY8m": [
+    {
+      "type": 0,
+      "value": "输入频率"
+    }
+  ],
+  "gx0zL7": [
+    {
+      "type": 0,
+      "value": "启动模拟时"
+    }
+  ],
+  "h1uUic": [
+    {
+      "type": 0,
+      "value": "忽略警告并显示表内容"
+    }
+  ],
+  "h2JLOS": [
+    {
+      "type": 0,
+      "value": "您的查询正在加载..."
+    }
+  ],
+  "hB6bnK": [
+    {
+      "type": 0,
+      "value": "报告库是一组分析报告，用于对模拟的原始输出执行计算并以表格和图形形式显示结果。 这些报告旨在实现从基础到高级的分析，并在调整计算细节方面提供极大的灵活性，以满足用户的特定需求。"
+    }
+  ],
+  "hBcy71": [
+    {
+      "type": 0,
+      "value": "最粗糙"
+    }
+  ],
+  "hJPnsY": [
+    {
+      "type": 0,
+      "value": "资产类别："
+    }
+  ],
+  "hMD5q0": [
+    {
+      "type": 0,
+      "value": "支持排序"
+    }
+  ],
+  "hNahZw": [
+    {
+      "type": 0,
+      "value": "保存时间"
+    }
+  ],
+  "hSlS9I": [
+    {
+      "type": 1,
+      "value": "hour"
+    },
+    {
+      "type": 0,
+      "value": "时 "
+    }
+  ],
+  "hTeGZ3": [
+    {
+      "type": 0,
+      "value": "关闭窗口"
+    }
+  ],
+  "hVNHbT": [
+    {
+      "type": 0,
+      "value": "列"
+    }
+  ],
+  "hYF5de": [
+    {
+      "type": 0,
+      "value": "循环网格线"
+    }
+  ],
+  "haaLjF": [
+    {
+      "type": 0,
+      "value": "按字母升序对选定坐标进行排序"
+    }
+  ],
+  "hgOG3+": [
+    {
+      "type": 0,
+      "value": "百分比范围"
+    }
+  ],
+  "hiSUFd": [
+    {
+      "type": 0,
+      "value": "模拟"
+    }
+  ],
+  "ho8Mwn": [
+    {
+      "type": 0,
+      "value": "订阅事件类型"
+    }
+  ],
+  "huCVql": [
+    {
+      "type": 0,
+      "value": "自动"
+    }
+  ],
+  "i+XZpI": [
+    {
+      "type": 0,
+      "value": "完成"
+    }
+  ],
+  "i34Oqt": [
+    {
+      "type": 0,
+      "value": "资产类别价格回报"
+    }
+  ],
+  "i3lDnM": [
+    {
+      "type": 0,
+      "value": "视图"
+    }
+  ],
+  "i4EZMC": [
+    {
+      "type": 0,
+      "value": "正在等待结果准备就绪。。。"
+    }
+  ],
+  "i4JXFn": [
+    {
+      "type": 0,
+      "value": "按 A-Z 排序"
+    }
+  ],
+  "i4Y7Yr": [
+    {
+      "type": 0,
+      "value": "PL"
+    }
+  ],
+  "i8+n79": [
+    {
+      "type": 0,
+      "value": "模拟"
+    }
+  ],
+  "iINS8i": [
+    {
+      "type": 0,
+      "value": "重置"
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    }
+  ],
+  "iLaZhW": [
+    {
+      "type": 0,
+      "value": "默认级别"
+    }
+  ],
+  "iMQWQp": [
+    {
+      "type": 0,
+      "value": "链接"
+    }
+  ],
+  "iOC3/n": [
+    {
+      "type": 0,
+      "value": "删除选定的轴坐标"
+    }
+  ],
+  "iOH7PW": [
+    {
+      "type": 0,
+      "value": "错误"
+    }
+  ],
+  "iaSliF": [
+    {
+      "type": 0,
+      "value": "Report"
+    }
+  ],
+  "iakvzh": [
+    {
+      "type": 0,
+      "value": "变量"
+    }
+  ],
+  "idb7ip": [
+    {
+      "type": 0,
+      "value": "非计算"
+    }
+  ],
+  "ijaXWD": [
+    {
+      "type": 0,
+      "value": "市场"
+    }
+  ],
+  "ik0/4F": [
+    {
+      "type": 0,
+      "value": "文件"
+    }
+  ],
+  "ikzl6N": [
+    {
+      "type": 0,
+      "value": "显示日志消息"
+    }
+  ],
+  "imTxj3": [
+    {
+      "type": 0,
+      "value": "分布百分比"
+    }
+  ],
+  "ir1X1w": [
+    {
+      "type": 0,
+      "value": "标签子值"
+    }
+  ],
+  "ivfs/D": [
+    {
+      "type": 0,
+      "value": "组件"
+    }
+  ],
+  "ixBR4O": [
+    {
+      "type": 0,
+      "value": "以前的参数"
+    }
+  ],
+  "iz8/YI": [
+    {
+      "type": 0,
+      "value": "通知"
+    }
+  ],
+  "izI4ug": [
+    {
+      "type": 0,
+      "value": "上个月"
+    }
+  ],
+  "j0BjBV": [
+    {
+      "type": 0,
+      "value": "环境风险分析"
+    }
+  ],
+  "j1fyl9": [
+    {
+      "type": 0,
+      "value": "查询工具"
+    }
+  ],
+  "j2DK6m": [
+    {
+      "type": 0,
+      "value": "过去一年"
+    }
+  ],
+  "j4O20w": [
+    {
+      "type": 0,
+      "value": "垂直折叠"
+    }
+  ],
+  "j4R5Ui": [
+    {
+      "type": 0,
+      "value": "电邮"
+    }
+  ],
+  "j6A8F4": [
+    {
+      "type": 0,
+      "value": "选项设置"
+    }
+  ],
+  "j9RA2K": [
+    {
+      "type": 0,
+      "value": "网格任务"
+    }
+  ],
+  "jJ+zoM": [
+    {
+      "type": 0,
+      "value": "自定义批量导出"
+    }
+  ],
+  "jPBs4V": [
+    {
+      "type": 0,
+      "value": "GMT时间"
+    }
+  ],
+  "jPQuah": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "jTO4DZ": [
+    {
+      "type": 0,
+      "value": "等待"
+    }
+  ],
+  "jc5ej+": [
+    {
+      "type": 0,
+      "value": "资产类别收益回报"
+    }
+  ],
+  "jk/bOa": [
+    {
+      "type": 0,
+      "value": "详细"
+    }
+  ],
+  "juluWk": [
+    {
+      "type": 0,
+      "value": "导航模式"
+    }
+  ],
+  "jxTAfX": [
+    {
+      "type": 0,
+      "value": "现金"
+    }
+  ],
+  "jyqOsw": [
+    {
+      "type": 0,
+      "value": "设置坐标轴格式"
+    }
+  ],
+  "k1OEC7": [
+    {
+      "type": 0,
+      "value": "元素"
+    }
+  ],
+  "k2qsoE": [
+    {
+      "type": 0,
+      "value": "专家检索方式"
+    }
+  ],
+  "k6w0gD": [
+    {
+      "type": 0,
+      "value": "定义文件 (.DFA)"
+    }
+  ],
+  "kChfJB": [
+    {
+      "type": 0,
+      "value": "启动模拟时"
+    }
+  ],
+  "kGlISf": [
+    {
+      "type": 0,
+      "value": "上载文件或文件夹"
+    }
+  ],
+  "kJLpXV": [
+    {
+      "type": 0,
+      "value": "当前显示"
+    },
+    {
+      "type": 1,
+      "value": "impliedAxes"
+    },
+    {
+      "type": 0,
+      "value": "个隐含轴"
+    }
+  ],
+  "kM7rHs": [
+    {
+      "type": 0,
+      "value": "书页"
+    }
+  ],
+  "kO/62h": [
+    {
+      "type": 0,
+      "value": "方框"
+    }
+  ],
+  "kOdiRp": [
+    {
+      "type": 0,
+      "value": "行坐标选择"
+    }
+  ],
+  "kUMWWm": [
+    {
+      "type": 0,
+      "value": "启动模拟时"
+    }
+  ],
+  "kW3htX": [
+    {
+      "type": 0,
+      "value": "边界"
+    }
+  ],
+  "kbx42i": [
+    {
+      "type": 0,
+      "value": "Year"
+    }
+  ],
+  "kenBd2": [
+    {
+      "type": 0,
+      "value": "收益"
+    }
+  ],
+  "kf5pLv": [
+    {
+      "type": 0,
+      "value": "前滚至"
+    }
+  ],
+  "knxsO9": [
+    {
+      "type": 0,
+      "value": "约剩馀 "
+    },
+    {
+      "type": 1,
+      "value": "hour"
+    },
+    {
+      "type": 1,
+      "value": "minute"
+    },
+    {
+      "type": 1,
+      "value": "second"
+    },
+    {
+      "type": 0,
+      "value": "..."
+    }
+  ],
+  "ksFqoA": [
+    {
+      "type": 0,
+      "value": "客户："
+    }
+  ],
+  "kwreP1": [
+    {
+      "type": 0,
+      "value": "参考平均值:"
+    }
+  ],
+  "l+IzqY": [
+    {
+      "type": 0,
+      "value": "附加到现有的"
+    },
+    {
+      "type": 1,
+      "value": "userFile"
+    }
+  ],
+  "l3fjWp": [
+    {
+      "type": 0,
+      "value": "接受校准"
+    }
+  ],
+  "l67epJ": [
+    {
+      "type": 0,
+      "value": "创建时间"
+    }
+  ],
+  "l7oDrf": [
+    {
+      "type": 0,
+      "value": "截断警告：仅显示 "
+    },
+    {
+      "type": 1,
+      "value": "total"
+    },
+    {
+      "type": 0,
+      "value": " 条消息中的前 "
+    },
+    {
+      "type": 1,
+      "value": "i"
+    },
+    {
+      "type": 0,
+      "value": " 条"
+    }
+  ],
+  "lJuh7h": [
+    {
+      "type": 0,
+      "value": "返回主页。"
+    }
+  ],
+  "lLahS5": [
+    {
+      "type": 0,
+      "value": "拆分表"
+    }
+  ],
+  "lNOKSd": [
+    {
+      "type": 0,
+      "value": "联络我们"
+    }
+  ],
+  "lRUFTU": [
+    {
+      "type": 0,
+      "value": "Lambda值"
+    }
+  ],
+  "lRy5dz": [
+    {
+      "type": 0,
+      "value": "背景色"
+    }
+  ],
+  "lWhkzp": [
+    {
+      "type": 0,
+      "value": "最小值"
+    }
+  ],
+  "lZ8bvs": [
+    {
+      "type": 0,
+      "value": "Real World"
+    }
+  ],
+  "ldJxSO": [
+    {
+      "type": 0,
+      "value": "正在启动查询..."
+    }
+  ],
+  "lgtouZ": [
+    {
+      "type": 0,
+      "value": "删除选定的"
+    },
+    {
+      "type": 1,
+      "value": "rowOrColumnLabel"
+    }
+  ],
+  "lsF3VP": [
+    {
+      "type": 0,
+      "value": "语言"
+    }
+  ],
+  "lwxvxN": [
+    {
+      "type": 0,
+      "value": "此操作无法撤消。"
+    }
+  ],
+  "lytiDj": [
+    {
+      "type": 0,
+      "value": "计算开始"
+    }
+  ],
+  "m/TqtX": [
+    {
+      "type": 0,
+      "value": "我最近的"
+    }
+  ],
+  "m1wsIk": [
+    {
+      "type": 0,
+      "value": "计算"
+    }
+  ],
+  "m5Mn+k": [
+    {
+      "type": 0,
+      "value": "删除标签"
+    }
+  ],
+  "m5VAtL": [
+    {
+      "type": 0,
+      "value": "重置"
+    }
+  ],
+  "m8sY6B": [
+    {
+      "type": 0,
+      "value": "筛选器："
+    }
+  ],
+  "mA6zBY": [
+    {
+      "type": 0,
+      "value": "今天"
+    }
+  ],
+  "mBKB3i": [
+    {
+      "type": 0,
+      "value": "秒"
+    }
+  ],
+  "mC8mut": [
+    {
+      "type": 0,
+      "value": "MX"
+    }
+  ],
+  "mCuHgG": [
+    {
+      "type": 0,
+      "value": "税"
+    }
+  ],
+  "mEeeNE": [
+    {
+      "type": 0,
+      "value": "（行 "
+    },
+    {
+      "type": 1,
+      "value": "displayIndex"
+    },
+    {
+      "type": 0,
+      "value": "）"
+    }
+  ],
+  "mNd65N": [
+    {
+      "type": 0,
+      "value": "新"
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    },
+    {
+      "type": 0,
+      "value": "会话"
+    }
+  ],
+  "mRfr4S": [
+    {
+      "type": 0,
+      "value": "挂起的上载： "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    }
+  ],
+  "mUtDYW": [
+    {
+      "type": 0,
+      "value": "填充："
+    }
+  ],
+  "mVy8Ly": [
+    {
+      "type": 0,
+      "value": "从剪贴板附加项目"
+    }
+  ],
+  "mXjU8O": [
+    {
+      "type": 0,
+      "value": "十亿"
+    }
+  ],
+  "mcsMdc": [
+    {
+      "type": 0,
+      "value": "应用场景"
+    }
+  ],
+  "mfsMdI": [
+    {
+      "type": 0,
+      "value": "数据库已保存"
+    }
+  ],
+  "mgaiRD": [
+    {
+      "type": 0,
+      "value": "MY"
+    }
+  ],
+  "mi3JQ2": [
+    {
+      "type": 0,
+      "value": "文件名"
+    }
+  ],
+  "miLvbR": [
+    {
+      "type": 0,
+      "value": "百分比"
+    }
+  ],
+  "mjl5pJ": [
+    {
+      "type": 0,
+      "value": "更改查询的模拟"
+    }
+  ],
+  "n6pXWx": [
+    {
+      "type": 0,
+      "value": "时间 = 0（如果不同）"
+    }
+  ],
+  "nAGTv0": [
+    {
+      "type": 0,
+      "value": "情景摘要"
+    }
+  ],
+  "nCQKP1": [
+    {
+      "type": 0,
+      "value": "金融市场"
+    }
+  ],
+  "nJiD6g": [
+    {
+      "type": 0,
+      "value": "导出模块选择"
+    }
+  ],
+  "nPo+VJ": [
+    {
+      "type": 0,
+      "value": "每半月 (24)"
+    }
+  ],
+  "naxbf9": [
+    {
+      "type": 0,
+      "value": "运行"
+    }
+  ],
+  "niDepP": [
+    {
+      "type": 0,
+      "value": "删除统计信息“"
+    },
+    {
+      "type": 1,
+      "value": "statistic"
+    },
+    {
+      "type": 0,
+      "value": "”？"
+    }
+  ],
+  "njgUDG": [
+    {
+      "type": 0,
+      "value": "显示在卡片视图"
+    }
+  ],
+  "nmQd0J": [
+    {
+      "type": 0,
+      "value": "CSV 文件"
+    }
+  ],
+  "noEuYV": [
+    {
+      "type": 0,
+      "value": "增加統計..."
+    }
+  ],
+  "noq9g1": [
+    {
+      "type": 0,
+      "value": "變數面板佈局"
+    }
+  ],
+  "ns4pdR": [
+    {
+      "type": 0,
+      "value": "下载桌面应用软件安装包"
+    }
+  ],
+  "nuaaLr": [
+    {
+      "type": 0,
+      "value": "粘贴内容："
+    }
+  ],
+  "nzGFNr": [
+    {
+      "type": 0,
+      "value": "模块选择"
+    }
+  ],
+  "o1K/Sr": [
+    {
+      "type": 0,
+      "value": "刪除语句"
+    }
+  ],
+  "oN+oPW": [
+    {
+      "type": 0,
+      "value": "时间 > 0"
+    }
+  ],
+  "oNX7VO": [
+    {
+      "type": 0,
+      "value": "启动模拟时"
+    }
+  ],
+  "oZ+icv": [
+    {
+      "type": 0,
+      "value": "修改查询"
+    }
+  ],
+  "ocWZ8U": [
+    {
+      "type": 0,
+      "value": "退出登录"
+    }
+  ],
+  "ogo6A/": [
+    {
+      "type": 0,
+      "value": "管理员"
+    }
+  ],
+  "ohSL80": [
+    {
+      "type": 0,
+      "value": "查询工具"
+    }
+  ],
+  "oiQUkk": [
+    {
+      "type": 0,
+      "value": "客户支持"
+    }
+  ],
+  "ok7Eiw": [
+    {
+      "type": 1,
+      "value": "size"
+    },
+    {
+      "type": 0,
+      "value": "兆字节"
+    }
+  ],
+  "okUJjV": [
+    {
+      "type": 0,
+      "value": "输入元数据"
+    }
+  ],
+  "osl+ny": [
+    {
+      "type": 0,
+      "value": "(文件上载)"
+    }
+  ],
+  "oyunNi": [
+    {
+      "type": 0,
+      "value": "删除值"
+    }
+  ],
+  "ozmtLO": [
+    {
+      "type": 0,
+      "value": "支持搜索"
+    }
+  ],
+  "ozpyRk": [
+    {
+      "type": 0,
+      "value": "必填项目"
+    }
+  ],
+  "p0mA7f": [
+    {
+      "type": 0,
+      "value": "显示它们"
+    }
+  ],
+  "p4uXdh": [
+    {
+      "type": 0,
+      "value": "替代"
+    }
+  ],
+  "pDoVjX": [
+    {
+      "type": 0,
+      "value": "减小字体大小"
+    }
+  ],
+  "pGuRkr": [
+    {
+      "type": 0,
+      "value": "新建本地文件"
+    }
+  ],
+  "pNJBVK": [
+    {
+      "type": 0,
+      "value": "切换灵敏度"
+    }
+  ],
+  "pP5Z69": [
+    {
+      "type": 0,
+      "value": "DK"
+    }
+  ],
+  "pXVCXW": [
+    {
+      "type": 0,
+      "value": "设置可见"
+    }
+  ],
+  "pax+nw": [
+    {
+      "type": 0,
+      "value": "已选择："
+    }
+  ],
+  "pbdH4c": [
+    {
+      "type": 0,
+      "value": "已取消模拟"
+    }
+  ],
+  "pdJjXO": [
+    {
+      "type": 0,
+      "value": "重置缩放"
+    }
+  ],
+  "pdpFyH": [
+    {
+      "type": 0,
+      "value": "X"
+    }
+  ],
+  "pnHioS": [
+    {
+      "type": 0,
+      "value": "预览"
+    }
+  ],
+  "psHDEx": [
+    {
+      "type": 0,
+      "value": "支持"
+    }
+  ],
+  "pzg9dt": [
+    {
+      "type": 0,
+      "value": "软件法律声明"
+    }
+  ],
+  "q/2roj": [
+    {
+      "type": 0,
+      "value": "准备初始化查询..."
+    }
+  ],
+  "q/kcIC": [
+    {
+      "type": 0,
+      "value": "粘贴"
+    }
+  ],
+  "q08vFi": [
+    {
+      "type": 0,
+      "value": "正在初始化资源..."
+    }
+  ],
+  "q7AFlf": [
+    {
+      "type": 0,
+      "value": "数据值"
+    }
+  ],
+  "qBny4b": [
+    {
+      "type": 0,
+      "value": "累计回报"
+    }
+  ],
+  "qDVJBV": [
+    {
+      "type": 0,
+      "value": "行"
+    }
+  ],
+  "qH/qn3": [
+    {
+      "type": 0,
+      "value": "配置"
+    }
+  ],
+  "qLwXDs": [
+    {
+      "type": 0,
+      "value": "隐藏（非活跃）"
+    }
+  ],
+  "qOj+9a": [
+    {
+      "type": 0,
+      "value": "无网格"
+    }
+  ],
+  "qRSqgE": [
+    {
+      "type": 0,
+      "value": "版本"
+    }
+  ],
+  "qV0hw3": [
+    {
+      "type": 0,
+      "value": "无可用结果"
+    }
+  ],
+  "qZFzt7": [
+    {
+      "type": 1,
+      "value": "minute"
+    },
+    {
+      "type": 0,
+      "value": "分 "
+    }
+  ],
+  "qdHPpq": [
+    {
+      "type": 0,
+      "value": "模块"
+    }
+  ],
+  "qe61Jt": [
+    {
+      "type": 0,
+      "value": "设置"
+    }
+  ],
+  "qeulKk": [
+    {
+      "type": 0,
+      "value": "第一个场景平均时间："
+    },
+    {
+      "type": 1,
+      "value": "br"
+    }
+  ],
+  "qjegtW": [
+    {
+      "type": 0,
+      "value": "账务报告"
+    }
+  ],
+  "qjkFrB": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "“"
+        },
+        {
+          "children": [
+            {
+              "type": 1,
+              "value": "tagName"
+            }
+          ],
+          "type": 8,
+          "value": "b"
+        },
+        {
+          "type": 0,
+          "value": "”已存在于类型“"
+        },
+        {
+          "children": [
+            {
+              "type": 1,
+              "value": "objectType"
+            }
+          ],
+          "type": 8,
+          "value": "b"
+        },
+        {
+          "type": 0,
+          "value": "”中"
+        }
+      ],
+      "type": 8,
+      "value": "div"
+    }
+  ],
+  "qp8e10": [
+    {
+      "type": 0,
+      "value": "没有"
+    }
+  ],
+  "qvBABT": [
+    {
+      "type": 0,
+      "value": "运行"
+    }
+  ],
+  "r+gEq1": [
+    {
+      "type": 0,
+      "value": "场景生成"
+    }
+  ],
+  "rAkwJv": [
+    {
+      "type": 0,
+      "value": "CSV"
+    }
+  ],
+  "rBkNP8": [
+    {
+      "type": 0,
+      "value": "超时暂停（分）"
+    }
+  ],
+  "rBkb4h": [
+    {
+      "type": 0,
+      "value": "线路标记模式"
+    }
+  ],
+  "rE4LtA": [
+    {
+      "type": 0,
+      "value": "正在估计上载时间..."
+    }
+  ],
+  "rEay6q": [
+    {
+      "type": 0,
+      "value": "查询规格文件"
+    }
+  ],
+  "rJX6Xw": [
+    {
+      "type": 0,
+      "value": "每双月 (6)"
+    }
+  ],
+  "rU43We": [
+    {
+      "type": 0,
+      "value": "添加标签..."
+    }
+  ],
+  "rWwffF": [
+    {
+      "type": 0,
+      "value": "目标"
+    }
+  ],
+  "rWxN7G": [
+    {
+      "type": 0,
+      "value": "过去3个月"
+    }
+  ],
+  "rYXiV8": [
+    {
+      "type": 0,
+      "value": "删除标签："
+    },
+    {
+      "type": 1,
+      "value": "tagName"
+    }
+  ],
+  "raiSCB": [
+    {
+      "type": 0,
+      "value": "开始年份"
+    }
+  ],
+  "rboiHa": [
+    {
+      "type": 0,
+      "value": "您确定要替换当前选择吗？"
+    }
+  ],
+  "rcGYaY": [
+    {
+      "type": 0,
+      "value": "高级设置"
+    }
+  ],
+  "rcM3jM": [
+    {
+      "type": 0,
+      "value": "重新排列中..."
+    }
+  ],
+  "rdrEFz": [
+    {
+      "type": 0,
+      "value": "至最新"
+    }
+  ],
+  "rgecKw": [
+    {
+      "type": 0,
+      "value": "用户档案"
+    }
+  ],
+  "rj2nG3": [
+    {
+      "type": 0,
+      "value": "删除工具提示"
+    }
+  ],
+  "rkeeVt": [
+    {
+      "type": 0,
+      "value": "规范文件"
+    }
+  ],
+  "rkpcdh": [
+    {
+      "type": 0,
+      "value": "分"
+    }
+  ],
+  "rlxCak": [
+    {
+      "type": 0,
+      "value": "设置"
+    }
+  ],
+  "rpnf9O": [
+    {
+      "type": 0,
+      "value": "场景处理器"
+    }
+  ],
+  "rq2lT9": [
+    {
+      "type": 0,
+      "value": "修改者"
+    }
+  ],
+  "rxzzSE": [
+    {
+      "type": 0,
+      "value": "加载中..."
+    }
+  ],
+  "rybDJC": [
+    {
+      "type": 0,
+      "value": "关联的对象"
+    }
+  ],
+  "s+QfcB": [
+    {
+      "type": 0,
+      "value": "来源类型"
+    }
+  ],
+  "s0RKoS": [
+    {
+      "type": 0,
+      "value": "每月"
+    }
+  ],
+  "s1GS+v": [
+    {
+      "type": 0,
+      "value": "批量导入校准输入"
+    }
+  ],
+  "s2w86T": [
+    {
+      "type": 0,
+      "value": "报告范围："
+    }
+  ],
+  "s33L0W": [
+    {
+      "type": 0,
+      "value": "模拟正在被活动查询工具使用，无法删除"
+    }
+  ],
+  "s8qYs6": [
+    {
+      "type": 0,
+      "value": "调整前回报"
+    }
+  ],
+  "sI+IeQ": [
+    {
+      "type": 1,
+      "value": "objectType"
+    },
+    {
+      "type": 0,
+      "value": "浏览器"
+    }
+  ],
+  "sNC2E5": [
+    {
+      "type": 0,
+      "value": "保存数据库的预计时间："
+    },
+    {
+      "type": 1,
+      "value": "br"
+    }
+  ],
+  "sPYDbT": [
+    {
+      "type": 0,
+      "value": "导航模式"
+    }
+  ],
+  "sSTQhV": [
+    {
+      "type": 0,
+      "value": "仅"
+    }
+  ],
+  "sap+2L": [
+    {
+      "type": 0,
+      "value": "向上跳"
+    }
+  ],
+  "scxFyQ": [
+    {
+      "type": 0,
+      "value": "列系列"
+    }
+  ],
+  "si/kIw": [
+    {
+      "type": 0,
+      "value": "计算器"
+    }
+  ],
+  "sicrRV": [
+    {
+      "type": 0,
+      "value": "正在追加到文件..."
+    }
+  ],
+  "smom27": [
+    {
+      "type": 0,
+      "value": "增加統計..."
+    }
+  ],
+  "sp+4Vx": [
+    {
+      "type": 0,
+      "value": "数据频率"
+    }
+  ],
+  "sy7GHZ": [
+    {
+      "type": 0,
+      "value": "平均值"
+    }
+  ],
+  "sys5b8": [
+    {
+      "type": 0,
+      "value": "任务类型"
+    }
+  ],
+  "t7OfiR": [
+    {
+      "type": 0,
+      "value": "锁定输入项"
+    }
+  ],
+  "t7oNkh": [
+    {
+      "type": 0,
+      "value": "迭代时间"
+    }
+  ],
+  "tRKAHr": [
+    {
+      "type": 0,
+      "value": "按 A-Z 排序"
+    }
+  ],
+  "tSeCOS": [
+    {
+      "type": 0,
+      "value": "导出所有模型选择的数据"
+    }
+  ],
+  "tYmnyy": [
+    {
+      "type": 0,
+      "value": "定义存在错误，请在生成模拟结果之前修复"
+    }
+  ],
+  "tmyT2t": [
+    {
+      "type": 0,
+      "value": "自上次运行以来没有改变"
+    }
+  ],
+  "tplSro": [
+    {
+      "type": 0,
+      "value": "总和"
+    }
+  ],
+  "tr81FA": [
+    {
+      "type": 0,
+      "value": "锁定"
+    }
+  ],
+  "tx6QD9": [
+    {
+      "type": 0,
+      "value": "将注释添加到 "
+    },
+    {
+      "type": 1,
+      "value": "path"
+    },
+    {
+      "type": 0,
+      "value": "..."
+    }
+  ],
+  "u3uouh": [
+    {
+      "type": 0,
+      "value": "中性风险"
+    }
+  ],
+  "u6FMJ9": [
+    {
+      "type": 0,
+      "value": "调整后回报"
+    }
+  ],
+  "u6QENf": [
+    {
+      "type": 1,
+      "value": "minutes"
+    },
+    {
+      "type": 0,
+      "value": "分钟内没有进度更新。网络状态可能无法成功上载。请重试"
+    }
+  ],
+  "u9C5md": [
+    {
+      "type": 0,
+      "value": "目标日期"
+    }
+  ],
+  "uAFHU7": [
+    {
+      "type": 0,
+      "value": "最大值"
+    }
+  ],
+  "uJPOJv": [
+    {
+      "type": 0,
+      "value": "JP"
+    }
+  ],
+  "uN7aNg": [
+    {
+      "type": 0,
+      "value": "您的查询未返回可查看的数据。"
+    }
+  ],
+  "uOgAVj": [
+    {
+      "type": 0,
+      "value": "重新校准"
+    }
+  ],
+  "uQ/4Tk": [
+    {
+      "type": 0,
+      "value": "重采样次数:"
+    }
+  ],
+  "uYB6V8": [
+    {
+      "type": 0,
+      "value": "添加时间戳"
+    }
+  ],
+  "uYEeNB": [
+    {
+      "type": 0,
+      "value": "重命名"
+    }
+  ],
+  "uagSmG": [
+    {
+      "type": 0,
+      "value": "初始化会话"
+    }
+  ],
+  "uduJ/r": [
+    {
+      "type": 0,
+      "value": "正在运行"
+    }
+  ],
+  "uhFfp4": [
+    {
+      "type": 0,
+      "value": "返回查询规范"
+    }
+  ],
+  "uhygAl": [
+    {
+      "type": 0,
+      "value": "添加新分段"
+    }
+  ],
+  "uiSdhC": [
+    {
+      "type": 0,
+      "value": "添加新标签值"
+    }
+  ],
+  "ulqYS2": [
+    {
+      "type": 0,
+      "value": "运行查询规范"
+    }
+  ],
+  "uqT2PR": [
+    {
+      "type": 0,
+      "value": "输出已保存"
+    }
+  ],
+  "uyPhME": [
+    {
+      "type": 0,
+      "value": "SE"
+    }
+  ],
+  "v+dmLk": [
+    {
+      "type": 0,
+      "value": "随机点"
+    }
+  ],
+  "v2+BYF": [
+    {
+      "type": 0,
+      "value": "PDF"
+    }
+  ],
+  "v3hCua": [
+    {
+      "type": 1,
+      "value": "simulation"
+    },
+    {
+      "type": 0,
+      "value": "使用中"
+    }
+  ],
+  "v4b01p": [
+    {
+      "type": 0,
+      "value": "批量导出"
+    }
+  ],
+  "v6KbLv": [
+    {
+      "type": 0,
+      "value": "在项目之前插入 1 个轴坐标"
+    }
+  ],
+  "vFEpE4": [
+    {
+      "type": 0,
+      "value": "隐藏"
+    }
+  ],
+  "vLaZgQ": [
+    {
+      "type": 0,
+      "value": "状况"
+    }
+  ],
+  "vXdLkt": [
+    {
+      "type": 0,
+      "value": "批量导入文件包含 "
+    },
+    {
+      "type": 1,
+      "value": "cError"
+    },
+    {
+      "type": 0,
+      "value": "个错误和 "
+    },
+    {
+      "type": 1,
+      "value": "cWarning"
+    },
+    {
+      "type": 0,
+      "value": "个警告"
+    }
+  ],
+  "vay96S": [
+    {
+      "type": 0,
+      "value": "垂直"
+    }
+  ],
+  "ve7wpr": [
+    {
+      "type": 0,
+      "value": "加载相关矩阵中..."
+    }
+  ],
+  "vf7z1s": [
+    {
+      "type": 0,
+      "value": "US"
+    }
+  ],
+  "vfr9oF": [
+    {
+      "type": 0,
+      "value": "选择项目"
+    }
+  ],
+  "vgDBu7": [
+    {
+      "type": 0,
+      "value": "浏览"
+    }
+  ],
+  "vgg7tN": [
+    {
+      "type": 0,
+      "value": "插入"
+    }
+  ],
+  "vhLO2E": [
+    {
+      "type": 0,
+      "value": "在图表上显示单位标签"
+    }
+  ],
+  "vptmDV": [
+    {
+      "type": 0,
+      "value": "短信"
+    }
+  ],
+  "vw565s": [
+    {
+      "type": 0,
+      "value": "合并表格"
+    }
+  ],
+  "w66hnl": [
+    {
+      "type": 0,
+      "value": "创建模拟中..."
+    }
+  ],
+  "w6DI5w": [
+    {
+      "type": 0,
+      "value": "散布图"
+    }
+  ],
+  "wB+QGO": [
+    {
+      "type": 0,
+      "value": "正在加载查询结果..."
+    }
+  ],
+  "wEOyxZ": [
+    {
+      "type": 0,
+      "value": "批量导入参数"
+    }
+  ],
+  "wGMikk": [
+    {
+      "type": 0,
+      "value": "系统标签"
+    }
+  ],
+  "wM1Tva": [
+    {
+      "type": 0,
+      "value": "情景"
+    }
+  ],
+  "wNxRmb": [
+    {
+      "type": 0,
+      "value": "添加栏..."
+    }
+  ],
+  "wO7YUQ": [
+    {
+      "type": 0,
+      "value": "按字母顺序降序对选定坐标进行排序"
+    }
+  ],
+  "wRmIVC": [
+    {
+      "type": 0,
+      "value": "除外"
+    }
+  ],
+  "wSVtPj": [
+    {
+      "type": 0,
+      "value": "通过选定的"
+    },
+    {
+      "type": 1,
+      "value": "following"
+    },
+    {
+      "type": 0,
+      "value": "创建"
+    },
+    {
+      "type": 1,
+      "value": "query"
+    }
+  ],
+  "wUDDmN": [
+    {
+      "type": 0,
+      "value": "每三月 (3)"
+    }
+  ],
+  "wXe6p3": [
+    {
+      "type": 0,
+      "value": "规格文件"
+    }
+  ],
+  "wYRy3R": [
+    {
+      "type": 0,
+      "value": "全部展开"
+    }
+  ],
+  "wZxfkO": [
+    {
+      "type": 0,
+      "value": "在新浏览器窗口中复制"
+    }
+  ],
+  "wcPWcm": [
+    {
+      "type": 0,
+      "value": "重置查询规范"
+    }
+  ],
+  "wcy62B": [
+    {
+      "type": 0,
+      "value": "物件展示模板管理"
+    }
+  ],
+  "wlSjBi": [
+    {
+      "type": 0,
+      "value": "查看活动中查询"
+    }
+  ],
+  "wlTJBV": [
+    {
+      "type": 0,
+      "value": "测试"
+    }
+  ],
+  "wlzzUh": [
+    {
+      "type": 0,
+      "value": "运行时输入锁定。"
+    }
+  ],
+  "wmsMd3": [
+    {
+      "type": 0,
+      "value": "笔记"
+    }
+  ],
+  "woiTFO": [
+    {
+      "type": 0,
+      "value": "不包含"
+    }
+  ],
+  "ww91nc": [
+    {
+      "type": 0,
+      "value": "设置目标以匹配以下含义："
+    }
+  ],
+  "x2PDld": [
+    {
+      "type": 0,
+      "value": "完成时间（UTC）"
+    }
+  ],
+  "x3Za2s": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "xMnB20": [
+    {
+      "type": 0,
+      "value": "累积密度函数"
+    }
+  ],
+  "xPGg/Z": [
+    {
+      "type": 0,
+      "value": "名称"
+    }
+  ],
+  "xPVy94": [
+    {
+      "type": 0,
+      "value": "* 指定的资源在报告时仍处于活动状态。"
+    }
+  ],
+  "xR4qs+": [
+    {
+      "type": 0,
+      "value": "导入查询规范"
+    }
+  ],
+  "xRW3L9": [
+    {
+      "type": 0,
+      "value": "过去6个月"
+    }
+  ],
+  "xSrI40": [
+    {
+      "type": 0,
+      "value": "配置文件"
+    }
+  ],
+  "xVL+dt": [
+    {
+      "type": 0,
+      "value": "分类目录"
+    }
+  ],
+  "xW8Fjg": [
+    {
+      "type": 0,
+      "value": "较少信息"
+    }
+  ],
+  "xWvmPZ": [
+    {
+      "type": 0,
+      "value": "打开 \""
+    },
+    {
+      "type": 1,
+      "value": "simName"
+    },
+    {
+      "type": 0,
+      "value": "\""
+    }
+  ],
+  "xbFWPy": [
+    {
+      "type": 0,
+      "value": "列轴"
+    }
+  ],
+  "xeprFY": [
+    {
+      "type": 0,
+      "value": "第 "
+    },
+    {
+      "type": 1,
+      "value": "start"
+    },
+    {
+      "type": 0,
+      "value": " 到 "
+    },
+    {
+      "type": 1,
+      "value": "end"
+    },
+    {
+      "type": 0,
+      "value": " 项（共 "
+    },
+    {
+      "type": 1,
+      "value": "total"
+    },
+    {
+      "type": 0,
+      "value": " 项）"
+    }
+  ],
+  "xkgWb9": [
+    {
+      "type": 0,
+      "value": "状态"
+    }
+  ],
+  "xmeSUs": [
+    {
+      "type": 0,
+      "value": "图表"
+    }
+  ],
+  "xpUIq1": [
+    {
+      "type": 0,
+      "value": "AR"
+    }
+  ],
+  "xz4f1z": [
+    {
+      "type": 0,
+      "value": "进入"
+    }
+  ],
+  "y6xyP/": [
+    {
+      "type": 0,
+      "value": "系列识别 / 值"
+    }
+  ],
+  "yAcw86": [
+    {
+      "type": 0,
+      "value": "点值"
+    }
+  ],
+  "yC+byp": [
+    {
+      "type": 0,
+      "value": "网格名称"
+    }
+  ],
+  "yDf4C+": [
+    {
+      "type": 0,
+      "value": "您确定要取消 "
+    },
+    {
+      "type": 1,
+      "value": "jobType"
+    },
+    {
+      "type": 0,
+      "value": " 作业吗？"
+    }
+  ],
+  "yGG5+H": [
+    {
+      "type": 0,
+      "value": "云监视"
+    }
+  ],
+  "yNw7Vb": [
+    {
+      "type": 0,
+      "value": "结果分布"
+    }
+  ],
+  "yOm8Y3": [
+    {
+      "type": 0,
+      "value": "下载最新版本"
+    }
+  ],
+  "yT8zl0": [
+    {
+      "type": 0,
+      "value": "切换“"
+    },
+    {
+      "type": 1,
+      "value": "label"
+    },
+    {
+      "type": 0,
+      "value": "”("
+    },
+    {
+      "type": 1,
+      "value": "drawStatus"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "yTMK9t": [
+    {
+      "type": 0,
+      "value": "输入已保存"
+    }
+  ],
+  "yYzdF1": [
+    {
+      "type": 0,
+      "value": "显示日志"
+    }
+  ],
+  "yZLgeX": [
+    {
+      "type": 0,
+      "value": "重采样大小:"
+    }
+  ],
+  "ya3AC6": [
+    {
+      "type": 0,
+      "value": "每天的数据存储费用"
+    }
+  ],
+  "ykyfuQ": [
+    {
+      "type": 0,
+      "value": "版本"
+    }
+  ],
+  "ynYLUx": [
+    {
+      "type": 0,
+      "value": "按行"
+    }
+  ],
+  "yvP9x6": [
+    {
+      "type": 0,
+      "value": "编译器"
+    }
+  ],
+  "yw3HBS": [
+    {
+      "type": 0,
+      "value": "您的上传载意外中断或停止"
+    }
+  ],
+  "z/abIq": [
+    {
+      "type": 0,
+      "value": "用户"
+    }
+  ],
+  "z2zUU3": [
+    {
+      "type": 0,
+      "value": "轴坐标"
+    }
+  ],
+  "zBxCFU": [
+    {
+      "type": 0,
+      "value": "增加线条大小"
+    }
+  ],
+  "zDWZyc": [
+    {
+      "type": 0,
+      "value": "正在阅读页面"
+    }
+  ],
+  "zGIvZI": [
+    {
+      "type": 0,
+      "value": "百分比"
+    }
+  ],
+  "zHVUQJ": [
+    {
+      "type": 0,
+      "value": "导出非活动柔性轴元素的数据"
+    }
+  ],
+  "zSg3ge": [
+    {
+      "type": 0,
+      "value": "已复制："
+    },
+    {
+      "type": 1,
+      "value": "ac"
+    }
+  ],
+  "zYnEBN": [
+    {
+      "type": 0,
+      "value": "您确定要取消上载吗？"
+    }
+  ],
+  "zaCAk+": [
+    {
+      "type": 0,
+      "value": "停靠栏侧"
+    }
+  ],
+  "zgS4s6": [
+    {
+      "type": 0,
+      "value": "按数据源类型创建新的模拟："
+    }
+  ],
+  "ziNh6v": [
+    {
+      "type": 0,
+      "value": "用户"
+    }
+  ],
+  "zmkOVG": [
+    {
+      "type": 0,
+      "value": "数据透视表"
+    }
+  ],
+  "zqpAcP": [
+    {
+      "type": 0,
+      "value": "继续"
+    }
+  ],
+  "zuCLVa": [
+    {
+      "type": 0,
+      "value": "文件夹"
+    }
+  ],
+  "zubpab": [
+    {
+      "type": 1,
+      "value": "hour"
+    },
+    {
+      "type": 0,
+      "value": "時 "
+    }
+  ],
+  "zxbf2N": [
+    {
+      "type": 0,
+      "value": "沒有可用的 "
+    },
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": " 安装包"
+    }
+  ],
+  "zxdvJH": [
+    {
+      "type": 0,
+      "value": "过去2年"
+    }
+  ]
+}

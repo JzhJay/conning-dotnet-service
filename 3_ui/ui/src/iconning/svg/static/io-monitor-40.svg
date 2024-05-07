@@ -1,0 +1,18 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" data-icon="io-monitor-40" class="iconning iconning-io-monitor-40" viewBox="0 0 40 40" id="io-monitor40">
+    <g class="iconning-metadata">
+        <title>IO Monitor</title>
+    </g>
+    <g class="iconning-container" data-width="40" data-height="40">
+        <!-- Lambda Character -->
+        <path class="iconning iconning-io-monitor iconning-io-monitor-40 iconning-stroke iconning-lambda-character" d="M 16.0 1.6 L 19.200000000000003 9.600000000000001 L 11.200000000000001 30.400000000000002 L 14.4 30.400000000000002 L 20.8 14.4 L 27.200000000000003 30.400000000000002 L 30.400000000000002 30.400000000000002 L 19.200000000000003 1.6 L 16.0 1.6" fill="rgb(  0,  0,  0)" style="stroke:none"/>
+        <!-- Lambda Columns -->
+        <path class="iconning iconning-io-monitor iconning-io-monitor-40 iconning-fill iconning-lambda-column" d="M 1.6 38.400000000000006 L 1.6 35.2 L 4.800000000000001 35.2 L 4.800000000000001 38.400000000000006" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-40 iconning-fill iconning-lambda-column" d="M 6.4 38.400000000000006 L 6.4 30.400000000000006 L 9.600000000000001 30.400000000000006 L 9.600000000000001 38.400000000000006" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-40 iconning-fill iconning-lambda-column" d="M 11.200000000000001 38.400000000000006 L 11.200000000000001 35.2 L 14.400000000000002 35.2 L 14.400000000000002 38.400000000000006" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-40 iconning-fill iconning-lambda-column" d="M 16.0 38.400000000000006 L 16.0 35.2 L 19.2 35.2 L 19.2 38.400000000000006" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-40 iconning-fill iconning-lambda-column" d="M 20.8 38.400000000000006 L 20.8 27.200000000000003 L 24.0 27.200000000000003 L 24.0 38.400000000000006" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-40 iconning-fill iconning-lambda-column" d="M 25.6 38.400000000000006 L 25.6 36.800000000000004 L 28.8 36.800000000000004 L 28.8 38.400000000000006" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-40 iconning-fill iconning-lambda-column" d="M 30.400000000000002 38.400000000000006 L 30.400000000000002 35.2 L 33.6 35.2 L 33.6 38.400000000000006" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-40 iconning-fill iconning-lambda-column" d="M 35.2 38.400000000000006 L 35.2 17.600000000000005 L 38.400000000000006 17.600000000000005 L 38.400000000000006 38.400000000000006" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

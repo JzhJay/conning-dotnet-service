@@ -1,0 +1,22 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="beeswarm-mix-16" class="iconning iconning-beeswarm-mix-16" viewBox="0 0 16 16" id="beeswarm-mix16">
+    <g class="iconning-metadata">
+        <title>Beeswarm Mix</title>
+    </g>
+    <g class="iconning-container" data-width="16" data-height="16">
+        <!-- Beeswarm Mix -->
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.5" y1="16.0" x2="0.5" y2="0.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.0" y1="15.5" x2="16.0" y2="15.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="9.5" x2="3.0" y2="9.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="3.5" x2="3.0" y2="3.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="12.5" x2="2.0" y2="12.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="6.5" x2="2.0" y2="6.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="0.5" x2="2.0" y2="0.5"/>
+        <!-- Beeswarm Circles -->
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-16 iconning-accent-1 iconning-point iconning-point-1" cx="6.75" cy="11.25" r="2.6125" fill="rgb( 40, 70,200)" opacity="0.7" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-16 iconning-accent-2 iconning-point iconning-point-2" cx="9.5" cy="6.486860279185588" r="2.6125" fill="rgb( 40, 70,200)" opacity="0.7" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-16 iconning-accent-3 iconning-point iconning-point-3" cx="12.25" cy="11.25" r="2.6125" fill="rgb( 40, 70,200)" opacity="0.7" style="stroke:none"/>
+    </g>
+</svg>

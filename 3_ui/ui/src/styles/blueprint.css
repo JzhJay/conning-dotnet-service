@@ -1,0 +1,611 @@
+:global {
+    .bp3-portal {
+        .bp3-dialog.bp3-dialog {
+
+            /*--select-height:  30px;*/
+
+            /*
+            max-width: 90%;
+            margin: 0;
+            padding: 0;
+
+            position: absolute !important;
+            top: 80px;
+            */
+
+            margin-bottom: auto;
+        }
+    }
+
+    .bp3-dialog {
+        .bp3-hotkey-column {
+            padding: 10px;
+
+            .bp3-hotkey-group {
+                margin-bottom: 10px;
+            }
+        }
+        .bp3-dialog-body {
+            margin:  10px 10px 0 20px;
+            z-index: 10; /* Otherwise react-selects will be beneath footer buttons */
+
+        //min-height: 20vh; display: flex;
+
+            > * {
+                flex:      1;
+                max-width: 100%;
+            }
+        }
+
+        .bp3-dialog-close-button:focus {
+            outline: none;
+        }
+
+        background-color: #ebf1f5;
+
+        .bp3-dialog-footer {
+            margin:   0 10px;
+            overflow: hidden;
+
+            .bp3-button {
+                min-width: 90px;
+                margin-left:5px;
+            }
+        }
+
+        .bp3-control-group .Select.is-focused > .Select-control {
+            border-radius: 3px;
+            box-shadow:    0 0 0 1px #137cbd, 0 0 0 3px rgba(19, 124, 189, 0.3), inset 0 1px 1px rgba(16, 22, 26, 0.2);
+        }
+
+        .bp3-vertical .bp3-control-group {
+            margin-top:    var(--form-interrow-margin);
+            margin-bottom: var(--form-interrow-margin);
+        }
+
+        .bp3-input-group {
+            margin: 0 !important;
+        }
+
+        .bp3-control:not(.bp3-checkbox bp3-large) {
+            margin-bottom: 0;
+            min-height:    0;
+        }
+
+        .bp3-label {
+            margin:                var(--form-interrow-margin) 0;
+
+            display:               grid;
+            grid-template-columns: minmax(150px, max-content) 1fr;
+            align-self:            stretch;
+
+            flex:                  0 auto;
+
+            > span {
+                align-self:   center;
+                margin-right: 10px;
+            }
+
+            > .bp3-input-group, > input {
+                flex:   1;
+                margin: auto 0 !important;
+
+                input {
+                    text-overflow: ellipsis;
+                }
+            }
+
+            * {
+                margin: 0 !important;
+            }
+
+            &.error {
+                color:      red;
+                font-style: italic;
+            }
+        }
+    }
+
+    .bp3-popover {
+        .bp3-popover-content {
+            background-color: rgba(253, 253, 253, .95);
+            color:            rgb(24, 32, 38);;
+
+            .bp3-menu.bp3-fluid {
+                min-width: 0;
+            }
+
+            a {
+                color:           rgb(24, 32, 38);
+                text-decoration: none;
+            }
+        }
+
+        /* .bp3-popover-arrow {
+             display: none;
+         }*/
+
+        .bp3-popover-arrow-border, .bp3-popover-arrow-fill {
+            fill: white;
+        }
+    }
+
+    .bp3-navbar {
+        box-shadow: none;
+        background: white;
+        height:     auto;
+        overflow: hidden;
+        border: 0 solid var(--theme-border-color);
+        flex-shrink:                0;
+        transition-duration:        300ms;
+        transition-timing-function: ease;
+        transition-property:        max-height, padding, border;
+        padding: 3px 1em;
+
+        &.wrap {
+            padding:                    3px 5px;
+            border-bottom-width:        1px;
+            width:                      100%;
+            /* https://stackoverflow.com/questions/30887071/margin-top-only-when-the-flex-item-is-wrapped */
+            margin-top:                 -3px;
+        }
+
+        &.hidden {
+            max-height:     0;
+            padding-top:    0;
+            padding-bottom: 0;
+            border:         0;
+        }
+
+        &.toolbar {
+            overflow: visible !important;
+            padding: 2px;
+            margin: 0;
+        }
+
+        .bp3-navbar-group > * {
+            /* WEB-1888 */
+            flex: 0 1 auto;
+            flex-wrap:wrap;
+
+            &.bp3-control:not(:first-child) {
+                margin-left: 1em;
+            }
+        }
+
+        .bp3-navbar-heading {
+            margin-right: 1em;
+            line-height:30px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        .bp3-navbar-divider {
+            border: 0;
+        }
+
+        /*border-width: 0 0 1px 0;*/
+
+        .bp3-navbar-heading {
+            &:not(:first-child) {
+                margin-left: .5em;
+            }
+        }
+
+        .bp3-navbar-group {
+            height:     auto;
+            margin: 3px 0;
+
+            &.bp3-align-left:not(:first-child) {
+                margin-left: 6px;
+            }
+
+            .bp3-navbar-divider {
+                margin: 0 3px;
+            }
+            .bp3-navbar-heading {
+                font-size: 14px;
+            }
+
+            .bp3-button {
+                padding-top:    0px;
+                padding-bottom: 0px;
+display:flex;
+                align-items: center;
+                
+                svg {
+                    width:  16px;
+                    height: 16px;
+                }
+
+                svg + .bp3-button-text {
+                    margin-left: 5px;
+                }
+            }
+
+            .ui.icon.input input {
+                padding: 5px 6px;
+            }
+        }
+    }
+
+    .bp3-navbar-group .bp3-control {
+        margin:     auto 0;
+        min-height: initial;
+
+        &.bp3-label {
+            &:not(:first-child) {
+                margin-left: 8px;
+            }
+            &:not(:last-child) {
+                margin-right: 8px;
+            }
+
+            font-weight: 500;
+        }
+
+        &.bp3-label {
+            padding-left: 0;
+            cursor:       default;
+        }
+    }
+
+    .bp3-button {
+        padding:    2px 8px;
+        transition: background 400ms ease;
+
+        > svg {
+            pointer-events: none; /* Disable svg tooltips in icons */
+        }
+
+        .bp3-icon-standard:only-child {
+            margin-right: 0;
+        }
+
+        .bp3-icon-standard:only-child {
+            margin: auto;
+        }
+
+        .bp3-icon.bp3-align-right {
+            margin-left: 0;
+        }
+    }
+
+    .bp3-button-group.bp3-vertical .bp3-button {
+        width: 100%;
+    }
+
+    .bp3-toast-container {
+        padding: 0px;
+
+        &.bp3-toast-container-bottom {
+            bottom: 0px;
+        }
+
+        > span {
+            padding: 0 5px 30px
+        }
+
+        .bp3-toast {
+            .bp3-toast-message {
+                white-space: pre-wrap;
+            }
+
+            &.no-x {
+                > .bp3-button-group {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /*.bp3-button-group, .bp3-button, .bp3-popover {
+        svg {
+            width: 24px;
+            height: 24px;
+            max-width: 24px;
+            max-height: 24px;
+            vertical-align: middle;
+            margin: auto 0;
+        }
+    }*/
+
+    .bp3-button-group {
+        > .bp3-button:only-child, > .bp3-popover-wrapper:only-child .bp3-button {
+            border-radius:3px;
+        }
+
+        a.bp3-button {
+            display: flex; /* Otherwise <Link /> icons don't vertically center... */
+
+            &.bp3-button[class*="bp3-icon-"]:empty::before {
+                margin: auto;
+            }
+
+            &.bp3-button[class*="bp3-icon-"]:not(:empty)::before {
+                margin: auto 7px auto 0;
+            }
+        }
+
+        .bp3-button {
+            vertical-align: top;
+        }
+
+        .bp3-popover-wrapper {
+            height:30px;
+        }
+    }
+
+    .bp3-menu {
+        /* If a divider renders before a header it looks very ugly.  Really we want to turn off the divider here and not the header but there's no way to match forward */
+        /*.bp3-menu-divider + .bp3-menu-header {
+            display: none;
+        }*/
+
+        .bp3-submenu .bp3-popover {
+        //left:0px;  /* blueprint has 5px here and it causes the submenu to close when trying to mouse to it */
+        }
+    }
+
+    .bp3-menu-item {
+        padding:     4px 7px;
+        display:     flex;
+        align-items: center;
+
+        .bp3-menu-item-label:first-child {
+            margin-left:  2px;
+            margin-right: 7px;
+
+            svg {
+                max-height:  19px !important;
+                max-width:   19px !important;
+                height:      20px;
+                margin-left: -3px;
+            }
+        }
+
+        &.bp3-active {
+            background:  inherit;
+            font-weight: bold;
+        }
+
+        &.slider {
+            > .bp3-fill {
+                overflow:visible;
+            }
+        }
+    }
+
+    .bp3-small-button::before {
+        font-size: 14px !important;
+    }
+
+    .bp3-card {
+        background-color: #efefef;
+    }
+
+    .bp3-editable-text::before {
+        top:    -1px;
+        bottom: -1px;
+    }
+
+    .bp3-editable-text:not(.bp3-disabled):hover::before {
+        box-shadow: 0 0 0 0 rgba(19, 124, 189, 0), 0 0 0 0 rgba(19, 124, 189, 0), inset 0 0 0 1px rgba(16, 22, 26, 0.35);
+    }
+
+    .bp3-editable-text.bp3-editable-editing::before {
+        box-shadow:       0 0 0 1px #137cbd, 0 0 0 3px rgba(19, 124, 189, 0.4), inset 0 1px 1px rgba(16, 22, 26, 0.3);
+        background-color: #ffffff;
+    }
+
+    .bp3-editable-placeholder > .bp3-editable-content {
+        color: rgba(92, 112, 128, 0.8);
+    }
+
+    .bp3-portal .bp3-submenu .bp3-menu {
+        display:        flex;
+        flex-direction: column;
+    }
+
+    .bp3-overlay-content {
+        z-index: 65536; /* To beat out mce's toolbar */
+    }
+
+    .bp3-menu {
+        min-width: 0;
+    }
+
+    .bp3-popover-enter > .bp3-popover, .bp3-popover-appear > .bp3-popover, .bp3-popover-leave-active > .bp3-popover {
+        transform: scale(1);
+    }
+
+    .bp3-tether-element-attached-right.bp3-tether-target-attached-left > .bp3-tooltip {
+        margin-right: 0;
+        margin-left:  0;
+    }
+
+    .bp3-spinner.bp3-small:not(.bp3-svg-spinner) .bp3-spinner-svg-container {
+        animation-duration: 800ms;
+    }
+
+    .bp3-menu-item.bp3-disabled {
+        font-style: italic;
+    }
+
+    .no-padding.bp3-tooltip .bp3-popover-content {
+        padding: 0;
+    }
+
+    .bp3-control-group {
+        &:not(.bp3-vertical) {
+            align-items: center;
+
+            > .bp3-icon:first-child {
+                margin-right: 5px;
+            }
+        }
+
+        &.bp3-vertical {
+            > :last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        .bp3-checbox {
+            overflow:visible;
+        }
+    }
+
+    /*  .bp3-tether-element.bp3-tether-target-attached-bottom .bp3-popover {
+		  margin-top: 0px !important;
+		  left: 0px;
+
+		  .bp3-popover-arrow {
+			  top: 0 !important;
+		  }
+	  }*/
+
+    /* Fixes for popover2 / tooltip2 */
+    .bp3-menu > span > .bp3-popover-target, .bp3-submenu > span > .bp3-popover-target {
+        width: 100%;
+    }
+
+    .bp3-button-group.bp3-minimal .bp3-popover-target:last-child .bp3-button,
+    .bp3-button-group.bp3-minimal .bp3-button:last-child {
+        margin-right: 0;
+    }
+    .bp3-button-group.bp3-minimal .bp3-popover-target:last-child .bp3-button::after,
+    .bp3-button-group.bp3-minimal .bp3-button:last-child::after {
+        display: none;
+    }
+
+    .bp3-tree {
+        .bp3-tree-node-label {
+            user-select: none;
+        }
+
+        .bp3-tree-node-selected > .bp3-tree-node-content > .bp3-tree-node-label > a {
+            color: white;
+        }
+
+        .bp3-tree-node-caret {
+            display: flex;
+            > svg {
+                margin: auto;
+            }
+        }
+    }
+
+    .bp3-table-truncated-text {
+        /* To fix vertical alignment in firefox */
+        line-height:    30px;
+        vertical-align: middle;
+    }
+
+    .bp3-button:not([class*="bp3-intent-"]):active, .bp3-button:not([class*="bp3-intent-"]).bp3-active {
+        background-color: rgba(216, 225, 232, .6);
+    }
+
+    .bp3-html-table {
+        td.bp3-align-right {
+            text-align: right;
+        }
+
+        td.bp3-align-center {
+            text-align: center;
+        }
+    }
+
+    .bp3-table-container {
+        .bp3-table-header {
+            &.center {
+                .bp3-table-column-name {
+                    text-align: center;
+                }
+            }
+
+            &.right {
+                .bp3-table-column-name {
+                    text-align: right;
+                }
+            }
+        }
+
+        .bp3-table-cell {
+            .bp3-control {
+                margin-bottom: 0;
+            }
+
+            &.dropdown {
+                padding:0;
+
+                > .bp3-table-no-wrap-text {
+                    width:100%;
+
+                    .bp3-popover-wrapper {
+                        width:100%;
+                        height:30px;
+
+                        .bp3-popover-target {
+                            height:30px;
+                            line-height:normal;
+                        }
+
+                        .bp3-button {
+                            width:100%;
+                            height:30px;
+                            padding: 0 2px;
+                            justify-content: flex-end;
+                            border-radius:0;
+
+                            .bp3-button-text {
+                                margin-right:5px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.center {
+                .bp3-table-truncated-text {
+                    text-align:     center;
+                    vertical-align: center;
+                }
+            }
+
+            &.right {
+                .bp3-table-truncated-text {
+                    text-align:     right;
+                }
+            }
+
+            .bp3-button {
+                line-height:    30px;
+                vertical-align: middle;
+            }
+        }
+
+        .bp3-table-column-name-text {
+            [class*="wj-glyph-"] {
+                margin-left: .5em;
+            }
+        }
+    }
+
+    .bp3-checkbox {
+        &.bp3-large {
+            svg.bp3-icon {
+                width:  20px;
+                height: 20px;
+            }
+        }
+    }
+
+    .bp3-numeric-input.bp3-control-group:not(.bp3-large) {
+        .bp3-button-group {
+            min-height:30px;
+        }
+    }
+}

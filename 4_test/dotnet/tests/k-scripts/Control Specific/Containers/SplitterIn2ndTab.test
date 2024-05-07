@@ -1,0 +1,11 @@
+,`sa_lc_advise
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`sloc;   200 50)))
+
+/Switch to Tab2
+((`advise;1); (`jsetb;  `name `.k.p.tab;  (`index;());  (`stab;`.k.p.tab.Tab2)))
+
+/The splitter location should be where the testcase set it
+((`advise;1); (`jsetb;  `name `.k.p.tab.Tab2.split;  (`index;());  (`sdiv.assert; 400)))
+
+/Close the testcase
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`close;())))

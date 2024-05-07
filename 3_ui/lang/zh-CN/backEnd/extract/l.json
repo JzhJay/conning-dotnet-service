@@ -1,0 +1,1137 @@
+{
+  "M2ezlc": {
+    "defaultMessage": "模拟管理器正在读取场景索引 {scenario_index} 的csv文件部分",
+    "untranslatedMessage": "SimulationManager is reading csv file parts for scenario index {scenario_index}",
+    "description": "[SimulationManager] Debug message of reading csv file parts for scenario index"
+  },
+  "RgR7ie": {
+    "defaultMessage": "在 {computation_time} 秒内完成计算场景索引 {scenario_index}",
+    "untranslatedMessage": "Finished computing scenario index {scenario_index} in {computation_time} seconds",
+    "description": "[SimulationComputer] Debug message for finishing computing scenario index in seconds"
+  },
+  "Y3cdQh": {
+    "defaultMessage": "已完成csv文件的写入： {csv_file_name}.csv",
+    "untranslatedMessage": "Finished writing csv file: {csv_file_name}.csv",
+    "description": "[SimulationManager] Info message for finishing writing csv file"
+  },
+  "YZdYI7": {
+    "defaultMessage": "计算场景和时间无关的数据",
+    "untranslatedMessage": "Calculating scenario and time independent data",
+    "description": "[Simulation] Progress update message - Calculating scenario and time independent data"
+  },
+  "n9jTco": {
+    "defaultMessage": "此设置决定模拟开始时的数据是否与其余输出一起存储",
+    "untranslatedMessage": "This setting determines whether data for the start of the simulation is stored with the rest of output",
+    "description": "[Simulation User Interface] Description for toggling Save Simulation Start Date Data"
+  },
+  "UQ2kfw": {
+    "defaultMessage": "生成折扣结构步骤",
+    "untranslatedMessage": "Generating steps for Discount Structures",
+    "description": "[Simulation] Progress update message - Generating steps for Discount Structures"
+  },
+  "LosLIN": {
+    "defaultMessage": "迭代次数",
+    "untranslatedMessage": "Number of Iterations",
+    "description": "[RecalibrationTool settings] numeric input title for Number of Iterations"
+  },
+  "4tms/j": {
+    "defaultMessage": "行对应于场景",
+    "description": "[Query] Requirment for query result's chart - The rows correspond to Scenarios",
+    "untranslatedMessage": "The rows correspond to Scenarios"
+  },
+  "+Yxs+Q": {
+    "defaultMessage": "在 {time} 秒内读取完索引为 {scenario_index} 的场景的输出",
+    "untranslatedMessage": "Finished reading the output for scenario with index {scenario_index} in {time} seconds",
+    "description": "[SimulationStorer] Debug message for finishing reading the output for scenario"
+  },
+  "HMOboz": {
+    "defaultMessage": "模拟运行总时间：{hours}:{minutes}:{seconds}",
+    "untranslatedMessage": "Total simulation run time: {hours}:{minutes}:{seconds}",
+    "description": "[SimulationManager] Info message for total simulation run time"
+  },
+  "x4Xdwl": {
+    "defaultMessage": "模拟已准备好进行查询",
+    "untranslatedMessage": "Simulation is ready for query",
+    "description": "[SimulationManager] Info message while Simulation is ready for query"
+  },
+  "13yyy5": {
+    "defaultMessage": "息差零息率",
+    "untranslatedMessage": "Spread Zero Coupon Rates",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "mat/19": {
+    "defaultMessage": "要模拟的场景",
+    "untranslatedMessage": "Scenarios to Simulate",
+    "description": "[Simulation User Interface] Title for adjusting Scenarios to Simulate"
+  },
+  "cFGxI0": {
+    "defaultMessage": "每年",
+    "untranslatedMessage": "Annual",
+    "description": "[Simulation User Interface] value for the frequency/time step of a simulation"
+  },
+  "nasBYA": {
+    "defaultMessage": "写入部分csv失败！： \"{error_msg}\"",
+    "untranslatedMessage": "Failure in write_csv_parts!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write csv parts"
+  },
+  "nWeaO1": {
+    "defaultMessage": "正在加载模板",
+    "untranslatedMessage": "Loading template",
+    "description": "[recalibration] initialize_recalibration_tool - load template file into a reclibration"
+  },
+  "Y6A3E2": {
+    "defaultMessage": "锥形图",
+    "description": "[Query] Query result's chart name - Cone Chart",
+    "untranslatedMessage": "Cone Chart"
+  },
+  "Pq7k7k": {
+    "defaultMessage": "要投影的年份",
+    "untranslatedMessage": "Years to Project",
+    "description": "[Simulation User Interface] The Years to Project of the simulation"
+  },
+  "7u/azm": {
+    "defaultMessage": "数据库分区 {worker_index} 在尝试分配场景时返回错误 “{error_msg}”",
+    "untranslatedMessage": "Database partition {worker_index} returned error \"{error_msg}\" while attempting to assign scenarios",
+    "description": "[SimulationManager] Warning or error message while database partition returned error while attempting to assign scenarios"
+  },
+  "TbXyUf": {
+    "defaultMessage": "生成会计步骤",
+    "untranslatedMessage": "Generating steps for Accounting",
+    "description": "[Simulation] Progress update message - Generating steps for Accounting"
+  },
+  "DOugMu": {
+    "defaultMessage": "释放一些临时存储",
+    "untranslatedMessage": "Releasing some temporary storage",
+    "description": "[SimulationManager] Info message for releasing some temporary storage"
+  },
+  "kznIU7": {
+    "defaultMessage": "数据库分区 {worker_index} 已启动",
+    "untranslatedMessage": "Database partition {worker_index} has started",
+    "description": "[SimulationManager] Info message while database partition has started"
+  },
+  "h8wbI6": {
+    "defaultMessage": "列数是2的倍数，并且每一列对的每一行都不包含数据值或包含两个数据值",
+    "description": "[Query] Requirment for query result's chart - Number of columns is a multiple of two and each row of each column pair either contains no data values or two data values",
+    "untranslatedMessage": "Number of columns is a multiple of two and each row of each column pair either contains no data values or two data values"
+  },
+  "mxuEmV": {
+    "defaultMessage": "数据库分区 {worker_index} 在尝试初始化时返回错误 “{error_msg}”",
+    "untranslatedMessage": "Database partition {worker_index} returned error \"{error_msg}\" while attempting to initialize it",
+    "description": "[SimulationManager] Error message while database partition returned error while attempting to initialize it"
+  },
+  "zepRaR": {
+    "defaultMessage": "支持的最大场景为10000。所有超过这个数字的场景都将从运行的场景集中挑选出来。",
+    "untranslatedMessage": "The maximum scenario supported is 10000. All scenarios above that number will be culled from the set of scenarios run.",
+    "description": "[Simulation User Interface] Warning message if number of scenarios is above maximum value"
+  },
+  "ySRl0L": {
+    "defaultMessage": "写入“compiled.scenario_specific_data_function”返回错误 \"{error_msg}\"",
+    "untranslatedMessage": "Writing \"compiled.scenario_specific_data_function\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write compiled.scenario_specific_data_function returned error"
+  },
+  "bh+6Vc": {
+    "defaultMessage": "中止模拟",
+    "untranslatedMessage": "Aborting simulation",
+    "description": "[SimulationManager] Info message for Aborting simulation"
+  },
+  "O5QY4n": {
+    "defaultMessage": "模拟服务器",
+    "description": "[Simulation] Simulation Run Progress Label - Simulation Servers",
+    "untranslatedMessage": "Simulation Servers"
+  },
+  "HQ2JmE": {
+    "defaultMessage": "模拟已开始",
+    "untranslatedMessage": "Simulation Started",
+    "description": "[common] SSE message while simulation started"
+  },
+  "rI8rMj": {
+    "defaultMessage": "数据库分区 {storage_block_number} 已完成数据存储",
+    "untranslatedMessage": "Database partition {storage_block_number} has finished storing data",
+    "description": "[SimulationManager] Info message while database partition has finished storing data"
+  },
+  "2Icgm8": {
+    "defaultMessage": "零息票利率",
+    "untranslatedMessage": "Zero Coupon Rates",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "+B63Ko": {
+    "defaultMessage": "箱线图",
+    "description": "[Query] Query result's chart name - Box Plot",
+    "untranslatedMessage": "Box Plot"
+  },
+  "NzXc3w": {
+    "defaultMessage": "delete_object!(InputToDelete)失败！： “{error_msg}”",
+    "untranslatedMessage": "Failure in delete_object!(InputToDelete): \"{error_msg}\"",
+    "description": "[SimulationManager] Warning message for Failure in delete_object!(InputToDelete)"
+  },
+  "HWS0wT": {
+    "defaultMessage": "写入状态失败！： \"{error_msg}\"",
+    "untranslatedMessage": "Failure in write_status!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write status"
+  },
+  "fqgXy1": {
+    "defaultMessage": "模拟工作者已初始化",
+    "description": "[Simulation] Simulation Run Progress - Simulation Workers Initialized",
+    "untranslatedMessage": "Simulation Workers Initialized"
+  },
+  "h6/rLl": {
+    "defaultMessage": "启动模拟服务器",
+    "description": "[Query] Query Run Progress - Starting Simulation Servers",
+    "untranslatedMessage": "Starting Simulation Servers"
+  },
+  "7Di1Rr": {
+    "defaultMessage": "V6.5 Speed-Up",
+    "untranslatedMessage": "V6.5 Speed-Up",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "aC4GK0": {
+    "defaultMessage": "工作者索引 {worker_index} 已将PID从 {PID} 更改为 {new_PID}",
+    "untranslatedMessage": "Worker index {worker_index} changed PID from {PID} to {new_PID}",
+    "description": "[SimulationManager] Debug message while Worker index changed PID to new PID"
+  },
+  "Py8feu": {
+    "defaultMessage": "允许将模型定位为所需的真实世界行为",
+    "untranslatedMessage": "Allow targeting of models to desired real world behavior",
+    "description": "[FIRM User Interface] Description for toggling Enable Custom Calibration checkbox"
+  },
+  "tQCWm7": {
+    "defaultMessage": "创建输出映射",
+    "untranslatedMessage": "Creating Output Mappings",
+    "description": "[GEMSRealWorldCollector] Progress message for Creating Output Mappings"
+  },
+  "liQeoZ": {
+    "defaultMessage": "编制步骤",
+    "untranslatedMessage": "Constructing steps",
+    "description": "[Simulation] Progress update message - Constructing steps"
+  },
+  "3/tuVv": {
+    "defaultMessage": "对计算引擎 {computer_index} 的远程调用在尝试分配场景索引 {scenario_index}、场景编号 {scenanio_number} 时返回错误“{error_msg}”",
+    "untranslatedMessage": "Remote call to computational engine {computer_index} returned error \"{error_msg}\" while attempting to assign scenario index {scenario_index}, scenario number {scenario_number}",
+    "description": "Warning or error message for remote call to computational engine while attempting to assign scenario index and scenario number"
+  },
+  "1umysd": {
+    "defaultMessage": "启动模拟程序",
+    "untranslatedMessage": "Starting Simulation Process",
+    "description": "[common] SSE message for starting simulation process"
+  },
+  "SGSCiG": {
+    "defaultMessage": "每月",
+    "untranslatedMessage": "Monthly",
+    "description": "[Simulation User Interface] value for the frequency/time step of a simulation"
+  },
+  "eKMwVx": {
+    "defaultMessage": "已完成编写场景索引 {scenario_index} 的输入",
+    "untranslatedMessage": "Finished writing input for scenario index {scenario_index}",
+    "description": "[SimulationManager] Debug message for finishing writing input for scenario index"
+  },
+  "60xCkQ": {
+    "defaultMessage": "计算与场景无关的数据",
+    "untranslatedMessage": "Calculating scenario independent data",
+    "description": "[Simulation] Progress update message - Calculating scenario independent data"
+  },
+  "SYBuEH": {
+    "defaultMessage": "加载用例信息",
+    "untranslatedMessage": "Loading use case information",
+    "description": "[GEMSRealWorldServer] Progress message for Loading use case information"
+  },
+  "BQizZZ": {
+    "defaultMessage": "生成收益步骤",
+    "untranslatedMessage": "Generating steps for Returns",
+    "description": "[Simulation] Progress update message - Generating steps for Returns"
+  },
+  "oKfJx9": {
+    "defaultMessage": "不多于边界",
+    "untranslatedMessage": "Up to Horizon",
+    "description": "[RecalibrationTool settings] numeric input title for the real term structure and inflation future dynamics"
+  },
+  "vDFeN6": {
+    "defaultMessage": "写入状态（检查点）",
+    "untranslatedMessage": "Writing status (checkpoint)",
+    "description": "[SimulationManager] Debug message for writing status (checkpoint)"
+  },
+  "fuB8go": {
+    "defaultMessage": "正在初始化模型参数编辑器",
+    "untranslatedMessage": "Initializing model parameter editor",
+    "description": "[GEMSRealWorldServer] Progress message for initializing model parameter editor"
+  },
+  "M5nWT5": {
+    "defaultMessage": "连接到服务器会话",
+    "untranslatedMessage": "Connecting to Server Session",
+    "description": "[common] SSE message for connecting server session"
+  },
+  "nE/n2R": {
+    "defaultMessage": "已完成写入所有 {length_csv_files} csv文件",
+    "untranslatedMessage": "Finished writing all {length_csv_files} csv files",
+    "description": "[SimulationManager] Info message for finishing writing all csv files"
+  },
+  "2qvnhZ": {
+    "defaultMessage": "模拟管理器已完成读取场景索引 {scenario_index} 的csv文件部分",
+    "untranslatedMessage": "SimulationManager has finished reading csv file parts for scenario index {scenario_index}",
+    "description": "[SimulationManager] Debug message while SimulationManager has finished reading csv file parts for scenario index"
+  },
+  "XJMnWf": {
+    "defaultMessage": "计算引擎 {computer_index} 在尝试初始化时返回错误 “{error_msg}”",
+    "untranslatedMessage": "Computation engine {computer_index} returned error \"{error_msg}\" while attempting to initialize it",
+    "description": "[SimulationManager] Warning or error message while computation engine returned error while attempting to initialize it"
+  },
+  "lmP5DE": {
+    "defaultMessage": "无法中止模拟，模拟已完成",
+    "untranslatedMessage": "Aborting simulation not possible, simulation already complete",
+    "description": "[SimulationManager] Warning message for aborting simulation not possible, simulation already complete"
+  },
+  "GPnn6F": {
+    "defaultMessage": "模拟管理器正在上载csv文件 {csv_index} 零件号 {part_index}，其中包含 {part_object_size} 压缩字节，而不是最后一个零件",
+    "untranslatedMessage": "SimulationManager is uploading csv file {csv_index} part number {part_index} containing {part_object_size} compressed bytes which isn't the last part",
+    "description": "[SimulationManager] Debug message while SimulationManager is uploading csv file part"
+  },
+  "I4GcX6": {
+    "defaultMessage": "delete_object!(OutputToDelete)失败！： “{error_msg}”",
+    "untranslatedMessage": "Failure in delete_object!(OutputToDelete): \"{error_msg}\"",
+    "description": "[SimulationManager] Warning message for Failure in delete_object!(OutputToDelete)"
+  },
+  "jiSLsV": {
+    "defaultMessage": "生成要发送给管理器的数据",
+    "untranslatedMessage": "Generating Data to Send to Manager",
+    "description": "[GEMSRealWorldServer] Sub progress message for Generating Data to Send to Manager"
+  },
+  "pUV+Br": {
+    "defaultMessage": "删除物件失败！：Failure in delete_objects!: \"{error_msg}\"",
+    "untranslatedMessage": "Failure in delete_objects!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to delete objects"
+  },
+  "Zk59ze": {
+    "defaultMessage": "写入“compiled.sd”返回错误 \"{error_msg}\"",
+    "untranslatedMessage": "Writing \"compiled.sd\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write compiled.sd returned error"
+  },
+  "anUW6m": {
+    "defaultMessage": "此设置决定了要投影的年份。",
+    "untranslatedMessage": "This setting determines the years to project.",
+    "description": "[Simulation User Interface] Description for Years to Project node"
+  },
+  "KZahKR": {
+    "defaultMessage": "无法取消模拟，模拟已完成",
+    "untranslatedMessage": "Canceling simulation not possible, simulation already complete",
+    "description": "[SimulationManager] Warning message for canceling simulation not possible, simulation already complete"
+  },
+  "S/N8vA": {
+    "defaultMessage": "平滑贴合选项",
+    "untranslatedMessage": "Smoothed Fit Options",
+    "description": "[RecalibrationTool settings] input group title for the nominal term structure initial condition"
+  },
+  "NfFAOV": {
+    "defaultMessage": "通行次数",
+    "untranslatedMessage": "Number of Passes",
+    "description": "[RecalibrationTool settings] numeric input title for optimizer settings"
+  },
+  "8IK4Wx": {
+    "defaultMessage": "写入状态返回错误 “{error_msg}”",
+    "untranslatedMessage": "Writing status returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for writing status and showing returned error"
+  },
+  "mW7YpG": {
+    "defaultMessage": "尚未实现",
+    "untranslatedMessage": "Not yet implemented",
+    "description": "[RecalibrationTool settings] switcher title for a empty settings"
+  },
+  "w0U8tB": {
+    "defaultMessage": "生成步骤",
+    "untranslatedMessage": "Generating steps",
+    "description": "[Simulation] Progress update message - Generating steps"
+  },
+  "I32zp+": {
+    "defaultMessage": "模拟失败",
+    "untranslatedMessage": "Simulation failed",
+    "description": "[SimulationManager] Info message while Simulation failed"
+  },
+  "ORKjV+": {
+    "defaultMessage": "X-Y折线图",
+    "description": "[Query] Query result's chart name - X-Y Line Chart",
+    "untranslatedMessage": "X-Y Line Chart"
+  },
+  "FtN8Oq": {
+    "defaultMessage": "计算完成",
+    "untranslatedMessage": "Computation complete",
+    "description": "[SimulationManager] Info message while Computation complete"
+  },
+  "JGJEUt": {
+    "defaultMessage": "send_status失败！： “{error_msg}”",
+    "untranslatedMessage": "Failure in send_status: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failure in send_status"
+  },
+  "5dxpc5": {
+    "defaultMessage": "写入“compiled.dotD”返回错误 \"{error_msg}\"",
+    "untranslatedMessage": "Writing \"compiled.dotD\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write compiled.dotD returned error"
+  },
+  "2/pv6Z": {
+    "defaultMessage": "否",
+    "untranslatedMessage": "No",
+    "description": "[Simulation User Interface] Yes or No option text - No"
+  },
+  "iOVSCC": {
+    "defaultMessage": "精确配合",
+    "untranslatedMessage": "Exact Fit",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "OHUVZK": {
+    "defaultMessage": "累计密度函数",
+    "description": "[Query] Query result's chart name - Cumulative Density Function",
+    "untranslatedMessage": "Cumulative Density Function"
+  },
+  "SFaCkt": {
+    "defaultMessage": "模拟管理器正在完成csv文件 {part_csv_index} 的多部分上载，该文件在 {length_file_part_ids} 部分中上载",
+    "untranslatedMessage": "SimulationManager is completing the multipart upload for csv file {part_csv_index} which was uploaded in {length_file_part_ids} parts",
+    "description": "[SimulationManager] Debug message while SimulationManager is completing the multipart upload for csv file"
+  },
+  "0ez7j2": {
+    "defaultMessage": "条形图",
+    "description": "[Query] Query result's chart name - Bar Chart",
+    "untranslatedMessage": "Bar Chart"
+  },
+  "xEVnHb": {
+    "defaultMessage": "模拟已取消",
+    "untranslatedMessage": "Simulation canceled",
+    "description": "[SimulationManager] Info message while Simulation canceled"
+  },
+  "UEyBVk": {
+    "defaultMessage": "read_scenario失败！读取索引为 {scenario_index} 的场景的输出时：“{error_msg}”",
+    "untranslatedMessage": "Failure in read_scenario! while reading the output for scenario with index {scenario_index}: \"{error_msg}\"",
+    "description": "[SimulationStorer] Error message for failure in read_scenario! while reading the output for scenario"
+  },
+  "maBLoK": {
+    "defaultMessage": "丢弃从m.scenarios_to_compute获取的computer_index {computer_index} 和PID {PID} 的条目，因为当前PID现在为 {current_PID}",
+    "untranslatedMessage": "Discarding entry taken from m.scenarios_to_compute for computer_index {computer_index} and PID {PID} as current PID is now {current_PID}",
+    "description": "[SimulationManager] Debug  message for discarding entry taken from scenarios to compute for computer index and PID as current PID is now"
+  },
+  "+oYIkv": {
+    "defaultMessage": "最大偏移振荡（bp）",
+    "untranslatedMessage": "Maximal Shift Oscillation (bp)",
+    "description": "[RecalibrationTool settings] numeric input title for the nominal term structure initial condition"
+  },
+  "iJ7waI": {
+    "defaultMessage": "优化器",
+    "untranslatedMessage": "Optimizer",
+    "description": "[RecalibrationTool settings] selection box title for optimizer settings"
+  },
+  "h6dNfL": {
+    "defaultMessage": "临时存储已释放",
+    "untranslatedMessage": "Temporary storage released",
+    "description": "[SimulationManager] Info message while temporary storage released"
+  },
+  "fwIUUZ": {
+    "defaultMessage": "已完成将索引为 {scenario_index} 的场景加载到分区中",
+    "untranslatedMessage": "Finished loading scenario with index {scenario_index} into partition",
+    "description": "[SimulationStorer] Debug message for Finished loading scenario into partition"
+  },
+  "3/T2/2": {
+    "defaultMessage": "获取公司债券模型。。。",
+    "untranslatedMessage": "Get Corporate Bond Models...",
+    "description": "[recalibration] initialize_recalibration_tool - getting Corporate Bond Models information"
+  },
+  "MC0PnO": {
+    "defaultMessage": "方案索引 {scenario_index} 已分配给计算引擎 {computer_index}，将重新安排",
+    "untranslatedMessage": "Scenario index {scenario_index} was assigned to computation engine {computer_index} and will be rescheduled",
+    "description": "[SimulationManager] Info message while scenario index was assigned to computation engine and will be rescheduled"
+  },
+  "hTzpUU": {
+    "defaultMessage": "要模拟的场景列表。连字符表示范围，逗号表示单独的场景集。例如，1-5,7,10-15生成场景1、2、3、4、5、7、10、11、12、13、14、15。每个场景编号都绑定到一个特定的（不可变的）随机种子。",
+    "untranslatedMessage": "The list of scenarios to simulate. Hyphens indicate ranges, and commas indicate separate sets of scenarios. For example, 1-5,7,10-15 produces scenarios 1, 2, 3, 4, 5, 7, 10, 11, 12, 13, 14, 15. Each scenario number is tied to a specific (immutable) random seed.",
+    "description": "[Simulation User Interface] Description for adjusting Scenarios to Simulate"
+  },
+  "b0s3KC": {
+    "defaultMessage": "是否启用从解释步骤执行模拟",
+    "untranslatedMessage": "Enable to execute Simulation from Interpreted Steps or not",
+    "description": "[Simulation User Interface] Title for toggling Enable to execute Simulation from Interpreted Steps"
+  },
+  "njIMIf": {
+    "defaultMessage": "未保存任何内容，也未保存为任何模拟的CSV文件",
+    "untranslatedMessage": "Nothing being saved, neither as a Simulation of any CSV files",
+    "description": "[SimulationManager] Error message for nothing being saved, neither as a Simulation of any CSV files"
+  },
+  "FhrUkS": {
+    "defaultMessage": "正在为场景索引 {scenario_index} 写入输入",
+    "untranslatedMessage": "Writing input for scenario index {scenario_index}",
+    "description": "[SimulationManager] Debug message for writing input for scenario index"
+  },
+  "aSjenp": {
+    "defaultMessage": "生成用户值生步骤",
+    "untranslatedMessage": "Generating steps for User Values",
+    "description": "[Simulation] Progress update message - Generating steps for User Values"
+  },
+  "l4Cg4j": {
+    "defaultMessage": "工作人员消息失败！： \"{error_msg}\"",
+    "untranslatedMessage": "Failure in worker_messages!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message in worker messages"
+  },
+  "ZQLb18": {
+    "defaultMessage": "敏感性分析",
+    "description": "[Query] Query result's chart name - Sensitivity Analysis",
+    "untranslatedMessage": "Sensitivity Analysis"
+  },
+  "otBGCb": {
+    "defaultMessage": "折线图",
+    "description": "[Query] Query result's chart name - Line Chart",
+    "untranslatedMessage": "Line Chart"
+  },
+  "tEskrw": {
+    "defaultMessage": "写入输入失败！： \"{error_msg}\"",
+    "untranslatedMessage": "Failure in write_inputs!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for fail to write inputs"
+  },
+  "vsicPN": {
+    "defaultMessage": "正在加载使用案例输出...",
+    "untranslatedMessage": "Loading use case output...",
+    "description": "[GEMSRealWorldServer] Progress message for loading use case output..."
+  },
+  "vBeA8I": {
+    "defaultMessage": "不多于边界",
+    "untranslatedMessage": "Up to Horizon",
+    "description": "[RecalibrationTool settings] numeric input title for the nominal term structure future dynamics"
+  },
+  "xuHluo": {
+    "defaultMessage": "模拟管理器正在聚合场景索引 {csv_number_scenarios_processed} 的csv文件数据",
+    "untranslatedMessage": "SimulationManager is aggregating csv file data for scenario index {csv_number_scenarios_processed}",
+    "description": "[SimulationManager] Debug message of aggregating csv file data for scenario index"
+  },
+  "bsPU7D": {
+    "defaultMessage": "写入“compiled_functions”返回错误 \"{error_msg}\"",
+    "untranslatedMessage": "Writing \"compiled.composed_functions\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write compiled.composed_functions returned error"
+  },
+  "C3LtiV": {
+    "defaultMessage": "worker_messages失败！：“{error_msg}”",
+    "untranslatedMessage": "Failure in worker_messages!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failure in worker_messages"
+  },
+  "zSFr82": {
+    "defaultMessage": "delete_object!(SingletonToDelete)失败！： “{error_msg}”",
+    "untranslatedMessage": "Failure in delete_object!(SingletonToDelete): \"{error_msg}\"",
+    "description": "[SimulationManager] Warning message for Failure in delete_object!(SingletonToDelete)"
+  },
+  "anoCoK": {
+    "defaultMessage": "列数是三的倍数，每列三元组的每一行都不能包含任何数据值或三个数据值",
+    "description": "[Query] Requirment for query result's chart - Number of columns is a multiple of three and each row of each column trio must contains no data values or three data values",
+    "untranslatedMessage": "Number of columns is a multiple of three and each row of each column trio must contains no data values or three data values"
+  },
+  "05Dvtj": {
+    "defaultMessage": "释放剩余的临时存储",
+    "untranslatedMessage": "Releasing remaining temporary storage",
+    "description": "[SimulationManager] Info message for releasing remaining temporary storage"
+  },
+  "HVN1Zp": {
+    "defaultMessage": "生成个别证券的步骤",
+    "untranslatedMessage": "Generating steps for Individual Securities",
+    "description": "[Simulation] Progress update message - Generating steps for Individual Securities"
+  },
+  "G6YNRg": {
+    "defaultMessage": "完成预编译过程",
+    "untranslatedMessage": "Precompile Processes Complete",
+    "description": "[GEMSRealWorldCollector] Progress message for Precompile Processes Complete"
+  },
+  "+auEk7": {
+    "defaultMessage": "生成随机数步骤",
+    "untranslatedMessage": "Generating steps for Random number generation",
+    "description": "[Simulation] Progress update message - Generating steps for Random number generation"
+  },
+  "6A0SzH": {
+    "defaultMessage": "概率密度函数",
+    "description": "[Query] Query result's chart name - Probability Density Function",
+    "untranslatedMessage": "Probability Density Function"
+  },
+  "8s6Ybw": {
+    "defaultMessage": "此设置使模拟在Windows网格“默认”上执行。这只适用康利的开发人员，不适用于生产",
+    "untranslatedMessage": "This setting causes the simulation to be executed on the Windows Grid \"default\". This is for developers only on the conning tenant, not for production",
+    "description": "[Simulation User Interface] Description for toggling Execute Simulation on the Windows default grid"
+  },
+  "8O5Mgr": {
+    "defaultMessage": "上次历史日期或模拟开始日期。",
+    "untranslatedMessage": "Last historical date, or simulation start date.",
+    "description": "[FIRM User Interface] Description fo Calibration Point Input"
+  },
+  "/7uttY": {
+    "defaultMessage": "启用自定义校准",
+    "untranslatedMessage": "Enable Custom Calibration",
+    "description": "[FIRM User Interface] Title for toggling Enable Custom Calibration checkbox"
+  },
+  "hSfkES": {
+    "defaultMessage": "生成金融市场步骤",
+    "untranslatedMessage": "Generating steps for Financial Markets",
+    "description": "[Simulation] Progress update message - Generating steps for Financial Markets"
+  },
+  "d9Rnr/": {
+    "defaultMessage": "计算历史数据",
+    "untranslatedMessage": "Calculating historic data",
+    "description": "[Simulation] Progress update message - Calculating historic data"
+  },
+  "UQ/sp1": {
+    "defaultMessage": "柱状图",
+    "description": "[Query] Query result's chart name - Histogram",
+    "untranslatedMessage": "Histogram"
+  },
+  "qhIhO9": {
+    "defaultMessage": "为 {economy} {model} 添加了固定期限 ({executed_tenor_length}/{tenor_length})",
+    "untranslatedMessage": "added fixed tenors for {economy} {model} ({executed_tenor_length}/{tenor_length})",
+    "description": "[recalibration] initialize_recalibration_tool - add tensors to reclibration"
+  },
+  "F9yYKf": {
+    "defaultMessage": "公开基础模型参数",
+    "untranslatedMessage": "Expose underlying model parameters",
+    "description": "[FIRM User Interface] Description for toggling Enable Direct Parameter Viewing and Editing checkbox"
+  },
+  "Mv+hvO": {
+    "defaultMessage": "模拟管理器正在上载csv文件 {csv_index} 零件号 {part_index}，其中包含 {part_object_size} 压缩字节，这是最后一个零件",
+    "untranslatedMessage": "SimulationManager is uploading csv file {csv_index} part number {part_index} containing {part_object_size} compressed bytes which is the last part",
+    "description": "[SimulationManager] Debug message while SimulationManager is uploading last csv file part"
+  },
+  "+V1PU2": {
+    "defaultMessage": "提取已完成",
+    "description": "[Simulation] Simulation Run Progress Log - Fetching done",
+    "untranslatedMessage": "Fetching done"
+  },
+  "T+aEcR": {
+    "defaultMessage": "创建下载文件而不选择任何文件格式，将不会创建CSV文件",
+    "untranslatedMessage": "Create Files For Download selected without any File Format(s) selected, no CSV files will be created",
+    "description": "[SimulationManager] Warning message for creating Files For Download selected without any File Format(s) selected"
+  },
+  "aym/jB": {
+    "defaultMessage": "校准",
+    "untranslatedMessage": "Calibration",
+    "description": "[FIRM User Interface] Calibration Title"
+  },
+  "6ThVoi": {
+    "defaultMessage": "正在准备输出目的地",
+    "untranslatedMessage": "Preparing output destination",
+    "description": "[Simulation] Progress update message - Preparing output destination"
+  },
+  "UqOEHU": {
+    "defaultMessage": "目标正向曲线",
+    "untranslatedMessage": "Target Forward Curve",
+    "description": "[RecalibrationTool settings] switcher title for the real term structure and inflation future dynamics"
+  },
+  "L4Nac2": {
+    "defaultMessage": "正在获取数据",
+    "description": "[Simulation] Simulation Run Progress Label - Fetching Data",
+    "untranslatedMessage": "Fetching Data"
+  },
+  "ZTbsOX": {
+    "defaultMessage": "准备功能",
+    "untranslatedMessage": "Preparing functions",
+    "description": "[Simulation] Progress update message - Preparing functions"
+  },
+  "1OZEZj": {
+    "defaultMessage": "计算引擎 {computer_index} 出现故障，已请求更换",
+    "untranslatedMessage": "Computation engine {computer_index} has failed and a replacement has been requested",
+    "description": "[SimulationManager] Warning message while computation engine has failed and a replacement has been requested"
+  },
+  "ngNPXH": {
+    "defaultMessage": "V6.6 A",
+    "untranslatedMessage": "V6.6 A",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "smfrHt": {
+    "defaultMessage": "数据值形成密集矩阵（没有空单元格）",
+    "description": "[Query] Requirment for query result's chart - The data values form a dense matrix (no empty cells)",
+    "untranslatedMessage": "The data values form a dense matrix (no empty cells)"
+  },
+  "do6vvG": {
+    "defaultMessage": "启动 {number_of_workers} 数据库分区以存储模拟输出",
+    "untranslatedMessage": "Starting {number_of_workers} database partitions to store simulation output",
+    "description": "[SimulationManager] Info message for starting database partitions to store simulation output"
+  },
+  "z1VAzZ": {
+    "defaultMessage": "来自数据库分区的消息通道已关闭",
+    "untranslatedMessage": "Channel for messages from database partitions has closed",
+    "description": "[SimulationManager] Info message while Channel for messages from database partitions has closed"
+  },
+  "IpKENs": {
+    "defaultMessage": "设置频率",
+    "untranslatedMessage": "Setting frequencies",
+    "description": "[Simulation] Progress update message - Setting frequencies"
+  },
+  "HbAs0T": {
+    "defaultMessage": "获取经济...",
+    "untranslatedMessage": "Get Economies...",
+    "description": "[recalibration] initialize_recalibration_tool - getting economies information"
+  },
+  "+fSc49": {
+    "defaultMessage": "息差票面利率",
+    "untranslatedMessage": "Spread Par Coupon Rates",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "/gosCq": {
+    "defaultMessage": "准确的股息收益率公式",
+    "untranslatedMessage": "Accurate Dividend Yield Formula",
+    "description": "[RecalibrationTool settings] switcher title for the equity future dynamics"
+  },
+  "rUORO/": {
+    "defaultMessage": "相关矩阵",
+    "description": "[Query] Query result's chart name - Correlation Matrix",
+    "untranslatedMessage": "Correlation Matrix"
+  },
+  "W5KjjB": {
+    "defaultMessage": "平滑贴合",
+    "untranslatedMessage": "Smoothed Fit",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "gSim2S": {
+    "defaultMessage": "压缩初始数据",
+    "untranslatedMessage": "Compressing initial data",
+    "description": "[Simulation] Progress update message - Compressing initial data"
+  },
+  "eSXTEy": {
+    "defaultMessage": "写入“compiled.storageblock_data”返回错误 \"{error_msg}\"",
+    "untranslatedMessage": "Writing \"compiled.storageblock_data\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write compiled.storageblock_data returned error"
+  },
+  "fJyey6": {
+    "defaultMessage": "计划计算失败！： \"{error_msg}\"",
+    "untranslatedMessage": "Failure in schedule_compute!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for fail to schedule compute"
+  },
+  "4dIECk": {
+    "defaultMessage": "编译完成",
+    "untranslatedMessage": "Compilation complete",
+    "description": "[Simulation] Progress update message - Compilation complete"
+  },
+  "ZLAHuy": {
+    "defaultMessage": "加载模型数据",
+    "untranslatedMessage": "Loading model data",
+    "description": "[GEMSRealWorldServer] Progress message for loading model data"
+  },
+  "luA/uD": {
+    "defaultMessage": "从节点生成的用户界面",
+    "untranslatedMessage": "Generated UserInterface from nodes",
+    "description": "[recalibration] initialize_recalibration_tool - Generated UserInterface information into reclibration"
+  },
+  "nd/N0v": {
+    "defaultMessage": "有两列或多列",
+    "description": "[Query] Requirment for query result's chart - two or more columns",
+    "untranslatedMessage": "There are two or more columns"
+  },
+  "OkKZNA": {
+    "defaultMessage": "计算初始数据",
+    "untranslatedMessage": "Calculating initial data",
+    "description": "[Simulation] Progress update message - Calculating initial data"
+  },
+  "MC6nBD": {
+    "defaultMessage": "曲线反演的惩罚",
+    "untranslatedMessage": "Penalty on Curve Inversion",
+    "description": "[RecalibrationTool settings] switcher title for the nominal term structure future dynamics"
+  },
+  "XXBwpm": {
+    "defaultMessage": "散布图",
+    "description": "[Query] Query result's chart name - Scatter Chart",
+    "untranslatedMessage": "Scatter Chart"
+  },
+  "VyEsLF": {
+    "defaultMessage": "是",
+    "untranslatedMessage": "Yes",
+    "description": "[Simulation User Interface] Yes or No option text - Yes"
+  },
+  "LM7Q25": {
+    "defaultMessage": "设置模拟失败！： \"{error_msg}\"",
+    "untranslatedMessage": "Failure in setup_simulation!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to setup simulation"
+  },
+  "julgHL": {
+    "defaultMessage": "连接到管理器",
+    "untranslatedMessage": "Connecting to Manager",
+    "description": "[common] SSE message for connecting to Simulation Manager"
+  },
+  "qZZWD9": {
+    "defaultMessage": "模拟完成",
+    "untranslatedMessage": "Simulation complete",
+    "description": "[SimulationManager] Info message while Simulation complete"
+  },
+  "N2a1ex": {
+    "defaultMessage": "报告状态消息失败！： \"{error_msg}\"",
+    "untranslatedMessage": "Failure in report_status_messages!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to report status messages"
+  },
+  "wioVsV": {
+    "defaultMessage": "场景列表必须是由连字符表示的单个场景或连续场景集的列表，用逗号分隔，如1-3,5,7-10,15",
+    "untranslatedMessage": "The scenario list must be a list of single scenarios or sets of contiguous scenarios indicated by hyphens, separated by commas, such as 1-3,5,7-10,15",
+    "description": "[Simulation User Interface] Error message if the scenario list is invalid"
+  },
+  "BWHUej": {
+    "defaultMessage": "行上正好有一个轴",
+    "description": "[Query] Requirment for query result's chart - exactly one axis on the rows",
+    "untranslatedMessage": "There is exactly one axis on the rows"
+  },
+  "PMn/Zt": {
+    "defaultMessage": "息票",
+    "untranslatedMessage": "Coupon",
+    "description": "[RecalibrationTool settings] selection box title for Coupon node"
+  },
+  "/w/EL5": {
+    "defaultMessage": "所有数据都是实数",
+    "description": "[Query] Requirment for query result's chart - All data are real numbers",
+    "untranslatedMessage": "All data are real numbers"
+  },
+  "y7GPIT": {
+    "defaultMessage": "检查计算机失败！： \"{error_msg}\"",
+    "untranslatedMessage": "Failure in check_computers!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for fail to check check_computers"
+  },
+  "VuWnYs": {
+    "defaultMessage": "时间步长",
+    "untranslatedMessage": "Time Step",
+    "description": "[Simulation User Interface] The time step (frequency) of the simulation"
+  },
+  "50z/IF": {
+    "defaultMessage": "数据库分区 {worker_index} 在尝试检索其分配的场景时返回错误 “{error_msg}”",
+    "untranslatedMessage": "Database partition {worker_index} returned error \"{error_msg}\" while attempting to retrieve its assigned scenarios",
+    "description": "[SimulationManager] Error or warning message for Database partition while attempting to retrieve its assigned scenarios"
+  },
+  "WIB2Gr": {
+    "defaultMessage": "编译模拟",
+    "untranslatedMessage": "Compiling the simulation",
+    "description": "[Simulation] Progress update message - Compiling the simulation"
+  },
+  "iUXl3l": {
+    "defaultMessage": "写入“compiled.queryinput”返回错误 \"{error_msg}\"",
+    "untranslatedMessage": "Writing \"compiled.queryinput\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write compiled.queryinput returned error"
+  },
+  "UrQYhY": {
+    "defaultMessage": "来自计算引擎的消息通道已关闭",
+    "untranslatedMessage": "Channel for messages from computation engines has closed",
+    "description": "[SimulationManager] Info message while channel for messages from computation engines has closed"
+  },
+  "oadvZg": {
+    "defaultMessage": "已完成写入状态（检查点）",
+    "untranslatedMessage": "Finished writing status (checkpoint)",
+    "description": "[SimulationManager] Debug message for finishing writing status (checkpoint)"
+  },
+  "B1taG/": {
+    "defaultMessage": "息票",
+    "untranslatedMessage": "Coupon",
+    "description": "[RecalibrationTool settings] selection box title for auxiliary term structure initial condition and generate corporate initial condition node"
+  },
+  "wikf2V": {
+    "defaultMessage": "列上只有一个轴",
+    "description": "[Query] Requirment for query result's chart - exactly one axis on the columns",
+    "untranslatedMessage": "There is exactly one axis on the columns"
+  },
+  "ML5qYY": {
+    "defaultMessage": "读取状态失败！： \"{error_msg}\"",
+    "untranslatedMessage": "Failure in read_status!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to read status"
+  },
+  "zouTnC": {
+    "defaultMessage": "目标正向曲线",
+    "untranslatedMessage": "Target Forward Curve",
+    "description": "[RecalibrationTool settings] switcher title for the nominal term structure future dynamics"
+  },
+  "+mDVv0": {
+    "defaultMessage": "read_csv_parts失败！： “{error_msg}”",
+    "untranslatedMessage": "Failure in read_csv_parts!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failure in read_csv_parts"
+  },
+  "hBgwDW": {
+    "defaultMessage": "支持的最大场景为10000。请求的方案必须至少包括一个达到或低于该最大值的方案。",
+    "untranslatedMessage": "The maximum scenario supported is 10000. The scenarios requested must include at least one scenario at or below that maximum.",
+    "description": "[Simulation User Interface] Error message if number of scenarios is invalid"
+  },
+  "tl5slm": {
+    "defaultMessage": "保存模拟开始日期数据",
+    "untranslatedMessage": "Save Simulation Start Date Data",
+    "description": "[Simulation User Interface] Title for toggling Save Simulation Start Date Data"
+  },
+  "CP8SdG": {
+    "defaultMessage": "数据库分区 {worker_index} 在尝试分配场景时返回错误 “{error_msg}”",
+    "untranslatedMessage": "Database partition {worker_index} returned error \"{error_msg}\" while attempting to assign scenarios",
+    "description": "[SimulationManager] Error message while database partition returned error while attempting to assign scenarios"
+  },
+  "6d0F2c": {
+    "defaultMessage": "取消模拟",
+    "untranslatedMessage": "Canceling simulation",
+    "description": "[SimulationManager] Info message for Canceling simulation"
+  },
+  "4T9MNw": {
+    "defaultMessage": "最多只能有 {columns} 列",
+    "description": "[Query] Requirment for query result's chart - There are no more than n columns",
+    "untranslatedMessage": "There are no more than {columns} columns"
+  },
+  "1iXB57": {
+    "defaultMessage": "最多只能有 {rows} 行",
+    "description": "[Query] Requirment for query result's chart - There are no more than n rows",
+    "untranslatedMessage": "There are no more than {rows} rows"
+  },
+  "RIVqFy": {
+    "defaultMessage": "写入csv档案失败！： \"{error_msg}\"",
+    "untranslatedMessage": "Failure in write_csv_files!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write csv files"
+  },
+  "IgOvAq": {
+    "defaultMessage": "处理步骤",
+    "untranslatedMessage": "Processing steps",
+    "description": "[Simulation] Progress update message - Processing steps"
+  },
+  "LV799z": {
+    "defaultMessage": "重新校准工具已初始化",
+    "untranslatedMessage": "Recalibration Tool initialized",
+    "description": "[recalibration] initialize_recalibration_tool - Recalibration Tool initialized"
+  },
+  "NgdQGF": {
+    "defaultMessage": "数据库分区 {storage_block_number} 已完成加载其 {number_scenarios} 方案",
+    "untranslatedMessage": "Database partition {storage_block_number} has finished loading its {number_scenarios} scenarios",
+    "description": "[SimulationManager] Info message while Database partition has finished loading its scenarios"
+  },
+  "NkGxmV": {
+    "defaultMessage": "生成投资步骤",
+    "untranslatedMessage": "Generating steps for Investments",
+    "description": "[Simulation] Progress update message - Generating steps for Investments"
+  },
+  "VvXTvU": {
+    "defaultMessage": "在 {time} 秒内完成读取输入的场景索引 {scenario_index}",
+    "untranslatedMessage": "Finished reading scenario index {scenario_index} input in {time} seconds",
+    "description": "[SimulationComputer] Debug message for finishing reading scenario input in time"
+  },
+  "9BFllI": {
+    "defaultMessage": "数据库分区 {worker_index} 失败，已请求替换",
+    "untranslatedMessage": "Database partition {worker_index} has failed and a replacement has been requested",
+    "description": "[SimulationManager] Warning message while Database partition has failed and a replacement has been requested"
+  },
+  "MjCSil": {
+    "defaultMessage": "自定义重新校准已初始化...",
+    "untranslatedMessage": "Custom Recalibration initialized...",
+    "description": "[recalibration] initialize_recalibration_tool - reclibraton tool started"
+  },
+  "/sZPDA": {
+    "defaultMessage": "准备模拟",
+    "untranslatedMessage": "Preparing simulation",
+    "description": "[Simulation] Progress update message - Preparing simulation"
+  },
+  "dfN2Sr": {
+    "defaultMessage": "生成经济变量步骤",
+    "untranslatedMessage": "Generating steps for Economic Variables",
+    "description": "[Simulation] Progress update message - Generating steps for Economic Variables"
+  },
+  "JVrTGI": {
+    "defaultMessage": "蜂群图",
+    "description": "[Query] Query result's chart name - Beeswarm Chart",
+    "untranslatedMessage": "Beeswarm Chart"
+  },
+  "ku9IHI": {
+    "defaultMessage": "票面利率",
+    "untranslatedMessage": "Par Coupon Rates",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "nQkvbN": {
+    "defaultMessage": "所有 {number_scenarios} 场景都已完成加载到 {num_workers} 数据库分区中",
+    "untranslatedMessage": "All {number_scenarios} scenarios have finished loading into {num_workers} database partitions",
+    "description": "[SimulationManager] Info message while all scenarios have finished loading into database partitions"
+  },
+  "MogkT3": {
+    "defaultMessage": "正在初始化收集器",
+    "untranslatedMessage": "Initializing Collector",
+    "description": "[GEMSRealWorldCollector] Progress message for initializing collector"
+  },
+  "69Pyqq": {
+    "defaultMessage": "每季",
+    "untranslatedMessage": "Quarterly",
+    "description": "[Simulation User Interface] value for the frequency/time step of a simulation"
+  },
+  "Bo3cnS": {
+    "defaultMessage": "获取辅助价差期限结构...",
+    "untranslatedMessage": "Get Auxiliary Spread Term Structure...",
+    "description": "[recalibration] initialize_recalibration_tool - getting Auxiliary Spread Term Structure information"
+  },
+  "YUX0oE": {
+    "defaultMessage": "参数",
+    "untranslatedMessage": "Parameters",
+    "description": "[FIRM] Tree Node Function Name - Parameters "
+  },
+  "M1ynvr": {
+    "defaultMessage": "V6.6 B",
+    "untranslatedMessage": "V6.6 B",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "kigYVC": {
+    "defaultMessage": "计算引擎 {computer_index} 已启动",
+    "untranslatedMessage": "Computation engine {computer_index} has started",
+    "description": "[SimulationManager] Debug message while computation engine has started"
+  },
+  "mm0E9J": {
+    "defaultMessage": "写入“可写RFAs”返回错误 \"{error_msg}\"",
+    "untranslatedMessage": "Writing \"writeable RFAs\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write writeable RFAs returned error"
+  },
+  "C0QXjp": {
+    "defaultMessage": "添加 {number_of_computers_to_add} 计算引擎，总计 {total}",
+    "untranslatedMessage": "Adding {number_of_computers_to_add} computation engines for a total of {total}",
+    "description": "[SimulationManager] Info message of adding computation engines"
+  },
+  "74saPh": {
+    "defaultMessage": "启用直接参数查看和编辑",
+    "untranslatedMessage": "Enable Direct Parameter Viewing and Editing",
+    "description": "[FIRM User Interface] Title for toggling Enable Direct Parameter Viewing and Editing checkbox"
+  },
+  "Z6ayew": {
+    "defaultMessage": "此设置使模拟像解释语言一样逐步执行，而不是作为编译块执行。选择此选项将导致大型模拟更快地开始模拟，但每个后续场景的执行速度都会稍慢。",
+    "untranslatedMessage": "This setting causes the simulation to be executed step-by-step, like an interpreted language, instead of as a compiled block. Selecting this option will cause the simulation to start much sooner for large simulations, but each subsequent scenario will execute somewhat more slowly.",
+    "description": "[Simulation User Interface] Description for toggling Enable to execute Simulation from Interpreted Steps"
+  },
+  "X+UZf0": {
+    "defaultMessage": "有两行或多行",
+    "description": "[Query] Requirment for query result's chart - two or more rows",
+    "untranslatedMessage": "There are two or more rows"
+  },
+  "QudPYm": {
+    "defaultMessage": "适合",
+    "untranslatedMessage": "Fit",
+    "description": "[RecalibrationTool settings] selection box title for the nominal term structure initial condition"
+  },
+  "Cf3JY9": {
+    "defaultMessage": "已成功启动数据库分区 {worker_index} 以存储模拟输出的 {number_scenarios_in_worker} 场景",
+    "untranslatedMessage": "Successfully started database partition {worker_index} to store {number_scenarios_in_worker} scenarios of simulation output",
+    "description": "[SimulationManager] Info message while successfully started database partition to store scenarios of simulation output"
+  },
+  "bTy6Ap": {
+    "defaultMessage": "无法中止模拟，模拟已中止",
+    "untranslatedMessage": "Aborting simulation not possible, simulation already aborting",
+    "description": "[SimulationManager] Warning message for aborting simulation not possible, simulation already aborting"
+  },
+  "Uw9jfQ": {
+    "defaultMessage": "数据库分区 {worker_index}：{worker_text_message}",
+    "untranslatedMessage": "Database partition {worker_index}: {worker_text_message}",
+    "description": "[SimulationManager] Info message from database partition worker"
+  },
+  "l0vSQ9": {
+    "defaultMessage": "根据规则生成的节点",
+    "untranslatedMessage": "Generated Nodes from rules",
+    "description": "[recalibration] initialize_recalibration_tool - Generated Nodes information into reclibration"
+  },
+  "joC7Lu": {
+    "defaultMessage": "无法取消模拟，模拟已取消",
+    "untranslatedMessage": "Canceling simulation not possible, simulation already canceled",
+    "description": "[SimulationManager] Warning message for Canceling simulation not possible, simulation already canceled"
+  },
+  "C/UhbR": {
+    "defaultMessage": "计算机信息失败！： \"{error_msg}\"",
+    "untranslatedMessage": "Failure in computer_messages!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for fail to computer messages"
+  },
+  "sXNMK4": {
+    "defaultMessage": "启动模拟工作者",
+    "description": "[Simulation] Simulation Run Progress - Starting Simulation Workers",
+    "untranslatedMessage": "Starting Simulation Workers"
+  },
+  "h1wc16": {
+    "defaultMessage": "模拟的输出频率",
+    "untranslatedMessage": "Output frequency of the simulation",
+    "description": "[Simulation User Interface] description for the time step node"
+  },
+  "uuu6zq": {
+    "defaultMessage": "生成补充模型步骤",
+    "untranslatedMessage": "Generating steps for Supplemental Models",
+    "description": "[Simulation] Progress update message - Generating steps for Supplemental Models"
+  },
+  "ndIHOE": {
+    "defaultMessage": "正在中止模拟",
+    "untranslatedMessage": "Aborting simulation already in process",
+    "description": "[SimulationManager] Warning message for aborting simulation already in process"
+  },
+  "k9g6KZ": {
+    "defaultMessage": "正在初始化自定义重新校准。。。",
+    "untranslatedMessage": "Initializing Custom Recalibration...",
+    "description": "[recalibration] initialize_recalibration_tool - reclibraton tool preparing"
+  },
+  "ipuVrq": {
+    "defaultMessage": "无法取消模拟，模拟已取消",
+    "untranslatedMessage": "Canceling simulation not possible, simulation already canceled",
+    "description": "[SimulationManager] Warning message for canceling simulation not possible, simulation already canceled"
+  },
+  "QHqoBE": {
+    "defaultMessage": "计算引擎 {computer_index}: {computer_text_message}",
+    "untranslatedMessage": "Computation engine {computer_index}: {computer_text_message}",
+    "description": "[SimulationManager] Computer message with computer index and text message"
+  },
+  "1F7WoO": {
+    "defaultMessage": "computer_messages失败！：“{error_msg}”",
+    "untranslatedMessage": "Failure in computer_messages!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for computer messages"
+  },
+  "QoQ/eN": {
+    "defaultMessage": "写入场景索引 {scenario_index} 的输入返回错误 “{error_msg}”",
+    "untranslatedMessage": "Writing input for scenario index {scenario_index} returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write input for scenario index"
+  },
+  "frVEyf": {
+    "defaultMessage": "自举分析",
+    "description": "[Query] Query result's chart name - Bootstrap Analysis",
+    "untranslatedMessage": "Bootstrap Analysis"
+  },
+  "jZJfdx": {
+    "defaultMessage": "计算引擎 {computer_index} 已将PID从 {PID} 更改为 {new_PID}",
+    "untranslatedMessage": "Computation engine {computer_index} changed PID from {PID} to {new_PID}",
+    "description": "[SimulationManager] Debug message while Computation engine changed PID to new PID"
+  },
+  "FMqjjD": {
+    "defaultMessage": "尝试读取场景索引 {cenario_index} 的输入时收到错误 “{error_msg}”",
+    "untranslatedMessage": "Received error \"{error_msg}\" trying to read input for scenario index {scenario_index}",
+    "description": "[SimulationComputer] Error message for trying to read input for scenario"
+  },
+  "QwVLaB": {
+    "defaultMessage": "在 {time} 秒内完成编写场景索引 {scenario_index} 输出",
+    "untranslatedMessage": "Finished writing scenario index {scenario_index} output in {time} seconds",
+    "description": "[SimulationComputer] Debug message for finishing writing scenario index output in seconds"
+  },
+  "GsoQSo": {
+    "defaultMessage": "收到错误 “{error_msg}”，试图在模拟索引{scenario_index}、场景编号{scenanio_number}处写入场景的输出",
+    "untranslatedMessage": "Received error \"{error_msg}\" trying to write output for scenario at simulation index {scenario_index}, scenario number {scenario_number}",
+    "description": "[SimulationComputer] Error message for trying to write output for scenario at simulation index and scenario number"
+  },
+  "//2wns": {
+    "defaultMessage": "校准点",
+    "untranslatedMessage": "Calibration Point",
+    "description": "[FIRM User Interface] Calibration Point Input Title"
+  },
+  "NtuM8y": {
+    "defaultMessage": "模型初始化完成",
+    "untranslatedMessage": "Model initialization complete",
+    "description": "[GEMSRealWorldServer] Progress message for Model initialization complete"
+  },
+  "VW//kz": {
+    "defaultMessage": "在Windows“默认”网格上执行模拟",
+    "untranslatedMessage": "Execute Simulation on the Windows \"default\" grid",
+    "description": "[Simulation User Interface] Title for toggling Execute Simulation on the Windows default grid"
+  },
+  "2AgbQ+": {
+    "defaultMessage": "数据透视表",
+    "description": "[Query] Query result's chart name - Pivot Table",
+    "untranslatedMessage": "Pivot Table"
+  },
+  "4dHXfm": {
+    "defaultMessage": "正在等待启动数据库分区",
+    "untranslatedMessage": "Waiting to start database partitions",
+    "description": "[SimulationManager] Info message for waiting to start database partitions"
+  },
+  "a0RdcS": {
+    "defaultMessage": "编译模拟",
+    "untranslatedMessage": "Compiling Simulation",
+    "description": "[GEMSRealWorldCollector] Progress message for compiling imulation"
+  },
+  "VdmGMB": {
+    "defaultMessage": "计划存储失败！： “{error_msg}”",
+    "untranslatedMessage": "Failure in schedule_store!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for fail to schedulte store"
+  },
+  "loMvy0": {
+    "defaultMessage": "最大绝对误差 (bp)",
+    "untranslatedMessage": "Maximum Absolute Error (bp)",
+    "description": "[RecalibrationTool settings] numeric input title for the nominal term structure initial condition"
+  },
+  "pHgZrP": {
+    "defaultMessage": "所有 {num_workers} 数据库分区都已完成数据存储",
+    "untranslatedMessage": "All {num_workers} database partitions have finished storing data",
+    "description": "[SimulationManager] Info message while all database partitions have finished storing data"
+  },
+  "1WaNlx": {
+    "defaultMessage": "尝试计算索引为 {scenario_index}、场景编号为 {scenario_number} 的场景时收到错误 “{error_msg}”",
+    "untranslatedMessage": "Received error \"{error_msg}\" trying to compute scenario with index {scenario_index}, scenario number {scenario_number}",
+    "description": "[SimulationComputer] Error message for trying to compute scenario with index and number"
+  }
+}

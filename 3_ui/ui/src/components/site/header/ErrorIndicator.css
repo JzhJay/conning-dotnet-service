@@ -1,0 +1,35 @@
+.container {
+	display:flex;
+}
+
+.error-indicator {
+	visibility:hidden;
+	cursor:pointer;
+	margin:auto 0;
+	flex: 0 0 auto;
+
+	:global(.icon) {
+		color:green;
+	};
+
+	&:not(.connected) {
+		visibility: visible;
+
+		:global(.icon) {
+			color:red;
+		};
+	}
+
+    :global .__react_component_tooltip {
+        text-align:center;
+    }
+}
+
+.julia {
+	composes: error-indicator;
+}
+
+.rethink {
+	composes: error-indicator;
+}
+

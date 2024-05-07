@@ -1,0 +1,22 @@
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`sxy;   400 500)))
+
+((`advise;1); (`jsetb;  `name `.k.p.tab;  (`index;());  (`stab;`.k.p.tab.Tab2)))
+((`advise;1); (`jsetb;  `name `.k.p.tab;  (`index;());  (`stab.assert;`.k.p.tab.Tab2)))
+
+((`advise;1); (`jsetb;  `name `.k.p.tab;  (`index;());  (`stab;`.k.p.tab.Tab3)))
+((`advise;1); (`jsetb;  `name `.k.p.tab;  (`index;());  (`stab.assert;`.k.p.tab.Tab3)))
+
+((`advise;1); (`jsetb;  `name `.k.p.tab;  (`index;());  (`stab;`.k.p.tab.Tab1)))
+((`advise;1); (`jsetb;  `name `.k.p.tab;  (`index;());  (`stab.assert;`.k.p.tab.Tab1)))
+
+((`advise;1); (`jsetb;  `name `.k.p.tab.Tab1;  (`index;());  (`stab;`.k.p.tab.Tab1.Data21)))
+((`advise;1); (`jsetb;  `name `.k.p.tab.Tab1;  (`index;());  (`stab.assert;`.k.p.tab.Tab1.Data21)))
+
+((`advise;1); (`jsetb;  `name `.k.p.tab.Tab1;  (`index;());  (`stab;`.k.p.tab.Tab1.Data31)))
+((`advise;1); (`jsetb;  `name `.k.p.tab.Tab1;  (`index;());  (`stab.assert;`.k.p.tab.Tab1.Data31)))
+
+((`advise;1); (`jsetb;  `name `.k.p.tab.Tab1;  (`index;());  (`stab;`.k.p.tab.Tab1.Data11)))
+((`advise;1); (`jsetb;  `name `.k.p.tab.Tab1;  (`index;());  (`stab.assert;`.k.p.tab.Tab1.Data11)))
+
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`close;())))
+

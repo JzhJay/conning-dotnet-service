@@ -1,0 +1,77 @@
+:root {
+    --spaceBetweenItems: .25em !important;
+    --toolbarItemSize: 2.5em;
+}
+
+
+:global(.bp3-navbar).root {
+    font-size: 14px;
+    padding: 2px;
+    overflow: visible !important;
+    height: var(--toolbarItemSize);
+    --toolbar-height: var(--toolbarItemSize);
+    margin: 0;
+    background-color: #ffffff;
+    flex: 0;
+
+    > globla(.left.menu) {
+        margin-right: var(--spaceBetweenItems);
+        flex-shrink:  0;
+        padding-left: .5em;
+    }
+
+    :global {
+
+        .bp3-navbar-group {
+            margin: 0px;
+
+            .bp3-navbar-divider {
+                margin: 0 1px;
+            }
+
+            label.bp3-label {
+                font-size: 15px;
+            }
+
+            &.bp3-align-left {
+                .bp3-navbar-divider:last-child {
+                    display: none;
+                }
+
+            }
+        }
+
+        .ui.label {
+            padding: 8px !important;
+            align-self: center;
+            border:  1px solid rgba(34, 36, 38, 0.15) !important;
+        }
+
+        .ui.button:not(.item) {
+
+            &:not(.active):not(:hover) {
+                 background-color: white;
+                 border-color:     #ccc;
+            }
+            border: 1px solid #ccc !important;
+        }
+
+        svg {
+            margin: auto;
+        }
+
+        input {
+            text-overflow: ellipsis;
+            padding-top:0;
+            padding-bottom:0;
+        }
+
+        .bp3-button[class*="bp3-icon-"]::before {
+            font-size:      19px;
+            vertical-align: middle;
+        }
+
+
+    }
+
+}

@@ -1,0 +1,108 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "react/react.d.ts": {
+      "commit": "e0abafb1a6ff652f7ff967120e312d5c1916eaef"
+    },
+    "react/react-dom.d.ts": {
+      "commit": "e0abafb1a6ff652f7ff967120e312d5c1916eaef"
+    },
+    "react-router/react-router.d.ts": {
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
+    },
+    "react-router/history.d.ts": {
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
+    },
+    "chai/chai.d.ts": {
+      "commit": "ba257a9b91bc0de1bdd9091b6723194c905a902a"
+    },
+    "assertion-error/assertion-error.d.ts": {
+      "commit": "ba257a9b91bc0de1bdd9091b6723194c905a902a"
+    },
+    "promises-a-plus/promises-a-plus.d.ts": {
+      "commit": "ba257a9b91bc0de1bdd9091b6723194c905a902a"
+    },
+    "chai-as-promised/chai-as-promised.d.ts": {
+      "commit": "ba257a9b91bc0de1bdd9091b6723194c905a902a"
+    },
+    "mocha/mocha.d.ts": {
+      "commit": "ba257a9b91bc0de1bdd9091b6723194c905a902a"
+    },
+    "redux/redux.d.ts": {
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
+    },
+    "react-redux/react-redux.d.ts": {
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
+    },
+    "redux-devtools/redux-devtools.d.ts": {
+      "commit": "70bf7e2bfeb0d5b1b651ef3219bcc65c8eec117e"
+    },
+    "redux-devtools-dock-monitor/redux-devtools-dock-monitor.d.ts": {
+      "commit": "70bf7e2bfeb0d5b1b651ef3219bcc65c8eec117e"
+    },
+    "redux-devtools-log-monitor/redux-devtools-log-monitor.d.ts": {
+      "commit": "70bf7e2bfeb0d5b1b651ef3219bcc65c8eec117e"
+    },
+    "react/react-global.d.ts": {
+      "commit": "70bf7e2bfeb0d5b1b651ef3219bcc65c8eec117e"
+    },
+    "react-select/react-select.d.ts": {
+      "commit": "e0abafb1a6ff652f7ff967120e312d5c1916eaef"
+    },
+    "es6-promise/es6-promise.d.ts": {
+      "commit": "70bf7e2bfeb0d5b1b651ef3219bcc65c8eec117e"
+    },
+    "assert/assert.d.ts": {
+      "commit": "70bf7e2bfeb0d5b1b651ef3219bcc65c8eec117e"
+    },
+    "boom/boom.d.ts": {
+      "commit": "93bae1bb4c887c1375a4c1f0c3bb849ff06b8ac6"
+    },
+    "node/node.d.ts": {
+      "commit": "8886ae591751e8a8237fa855617745768f0b1bdf"
+    },
+    "hapi/hapi.d.ts": {
+      "commit": "93bae1bb4c887c1375a4c1f0c3bb849ff06b8ac6"
+    },
+    "yargs/yargs.d.ts": {
+      "commit": "93bae1bb4c887c1375a4c1f0c3bb849ff06b8ac6"
+    },
+    "classnames/classnames.d.ts": {
+      "commit": "fab683ca77d0286b9d51aba6375deaceb41b22f5"
+    },
+    "debug/debug.d.ts": {
+      "commit": "55c750ace821f85e6643bbdb249dbd0b15a3df78"
+    },
+    "superagent/superagent.d.ts": {
+      "commit": "4ba57e605bd71bf7248de65aac0b4f50e3eb1c9e"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "e0abafb1a6ff652f7ff967120e312d5c1916eaef"
+    },
+    "jqueryui/jqueryui.d.ts": {
+      "commit": "0cd5f0a1482dc3149f5446b1d885ef6ac7c57720"
+    },
+    "greensock/greensock.d.ts": {
+      "commit": "310c247694d7f31bd2e3198f71c55221f7c3a3c7"
+    },
+    "react-dnd/react-dnd.d.ts": {
+      "commit": "310c247694d7f31bd2e3198f71c55221f7c3a3c7"
+    },
+    "toastr/toastr.d.ts": {
+      "commit": "08ed4e9f1869e37e29514d862e0158b40e550232"
+    },
+    "fbemitter/fbemitter.d.ts": {
+      "commit": "6052959591c9bc6f8463c58220965c7030ba934d"
+    },
+    "react-motion/react-motion.d.ts": {
+      "commit": "e0abafb1a6ff652f7ff967120e312d5c1916eaef"
+    },
+    "velocity-animate/velocity-animate.d.ts": {
+      "commit": "e0abafb1a6ff652f7ff967120e312d5c1916eaef"
+    }
+  }
+}

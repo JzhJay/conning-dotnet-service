@@ -1,0 +1,3 @@
+.root {
+    &.noFooter :global(.bp3-dialog-footer) { display: none; }
+}

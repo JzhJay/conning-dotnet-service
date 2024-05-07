@@ -1,0 +1,46 @@
+{
+  "_id" : ObjectId("5c453058dffe8d0b71f4d0b1"),
+  "name" : "Big Return",
+  "status" : "Complete",
+  "createdBy" : "auth0|5b4b84b1a177ac1965fdaa6a",
+  "modifiedTime" : ISODate("2018-07-05T15:56:59.585"),
+  "createdTime" : ISODate("2018-07-05T15:56:59.585"),
+  "modifiedBy" : "auth0|5b4b84b1a177ac1965fdaa6a",
+  "version" : "0.1"
+}
+{
+  "_id": ObjectId("5f9135c81a567cde050f93a0"),
+  "name": "Test IO",
+  "status": "Complete",
+  "createdBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "modifiedTime": ISODate("2018-07-05T15:56:59.585"),
+  "createdTime": ISODate("2018-07-05T15:56:59.585"),
+  "modifiedBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "version": "0.1"
+}
+{
+  "_id": ObjectId("5cb0e04c02f56349174c78fe"),
+  "name": "Mock Billing IO",
+  "gridName" : "Fake_Grid_Name_1",
+  "status": "Complete",
+  "createdBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "modifiedTime": ISODate("2018-06-15T15:56:59.585"),
+  "createdTime": ISODate("2018-06-15T15:56:59.585"),
+  "modifiedBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "version": "0.1",
+  "billingInformation" : {
+    "optimizationStartTime" : ISODate("2018-06-15T15:56:59.585"),
+    "optimizationEndTime" : ISODate("2018-06-16T15:56:59.585"),
+    "elements" : NumberLong(12710000000),
+  }
+}
+{
+  "_id" : ObjectId("5fb4d187647f581e86f0b5d5"),
+  "name" : "Test IO for Chart",
+  "status" : "Complete",
+  "createdBy" : "auth0|5b4b84b1a177ac1965fdaa6a",
+  "modifiedBy" : "auth0|5b4b84b1a177ac1965fdaa6a",
+  "createdTime" : ISODate("2020-11-18T07:47:19.031Z"),
+  "modifiedTime" : ISODate("2020-11-18T07:47:58.650Z"),
+  "version": "0.1"
+}

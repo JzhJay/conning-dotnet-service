@@ -1,0 +1,44 @@
+.root {
+    //max-width:300px;
+    display:flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    width:100%;
+    font-size:14pt;
+    margin-bottom:5px;
+    font-weight:bold;
+    flex:0;
+    text-decoration: underline;
+
+    &:only-child {
+        text-decoration: none;
+        margin-bottom:0;
+        font-size:12pt;
+        font-weight:normal;
+    }
+}
+
+.requirements {
+    flex:1;
+    .requirement {
+
+        .description {
+            margin-left:10px;
+            word-wrap: break-word;
+            max-width:400px;
+            display:inline-flex;
+        }
+
+        &.met {
+            color:green;
+        }
+
+        &:not(.met) {
+            //text-decoration: line-through;
+            color:red;
+        }
+    }
+}

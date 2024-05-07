@@ -1,0 +1,51 @@
+.root {
+    margin: 2px 2px 0 2px;
+    border: 1px solid var(--theme-color-secondary);
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+
+    .tree-side-bar {
+        padding: 10px;
+        overflow-y: auto;
+
+        &.tree-leaf-no-overflow :global(.bp3-tree-node-label) {
+            overflow: visible !important;
+            text-overflow: unset !important;
+        }
+
+        .title {
+            color: var(--theme-color-primary);
+            font-weight: var(--emphasis-font-weight);
+            font-size: 16px;
+            line-height: 30px;
+            white-space: nowrap;
+            &.can-click {
+                cursor: pointer;
+                &:hover {
+                     background-color: rgba(191, 204, 214, 0.4);
+                }
+            }
+        }
+    }
+
+    :global(.splitter) {
+        overflow: hidden;
+    }
+}
+
+:global(.BookComponent__allow-scroll) .root {
+
+    :global(.InputSpecificationComponent__root > div:not(.bp3-navbar)) {
+        overflow: visible !important;
+        height:   unset !important;
+    }
+
+    /*:global(.InputTable__root ) {*/
+    /*    max-height: calc(100vh - 300px) !important;*/
+    /*    div[wj-part="root"] {*/
+    /*        max-height: calc(100vh - 302px) !important;*/
+    /*    }*/
+    /*}*/
+
+}

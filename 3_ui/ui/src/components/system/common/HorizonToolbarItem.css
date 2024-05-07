@@ -1,0 +1,33 @@
+.root {
+
+    :global(.label) {
+        border-top-left-radius: 3px !important;
+        border-bottom-left-radius: 3px !important;
+    }
+
+    .slider {
+        display: flex;
+
+        border: 1px solid rgba(34,36,38,.15);
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left-color: transparent;
+        border-right-color: transparent;
+
+        > input[type="range"] {
+            width: 80px !important;
+            margin: 0px 5px 0 5px;
+            padding: 0px;
+        }
+    }
+
+    :global(.bp3-button) {
+        padding: 0 8px;
+        width: 50px;
+    }
+}
+
+.horizon-menu {
+    max-height: 300px;
+    overflow: scroll;
+}

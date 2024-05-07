@@ -1,0 +1,158 @@
+/* Column of:
+ Toolbar
+ Panels
+ */
+
+:root {
+    .loading-overlay {
+        --diameter: 10px;
+    }
+}
+
+.root {
+	flex:           1;
+	max-height:     100%;
+	height:         100%;
+	display:        flex;
+	flex-direction: column;
+    position:relative;
+
+    :global .bp3-toast-container {
+        bottom:5px;
+        position:relative;
+    }
+
+    .loading-overlay {
+        right:5px;
+        bottom:5px;
+        position:absolute;
+    }
+
+    :global .bp3-checkbox {
+        height:16px;
+        min-height:0;
+        margin: auto 0;
+        padding-left: 0px;
+
+        .bp3-control-indicator {
+            margin: 0 3px;
+        }
+    }
+}
+
+.toolbar {
+}
+
+.query-panels {
+	white-space:    nowrap;
+	flex:           1;
+	display:        flex;
+	flex-direction: row;
+    background:     var(--theme-background-color);
+	flex-basis:     auto;
+    max-height:100%;
+	/*border-width:   2px 0 0 0;*/
+	/*border-style:   solid;*/
+	/*border-color:   var(--theme-border-color);*/
+	padding:        0;
+	margin:         0;
+	width:          calc(100%);
+	max-width:      calc(100%);
+
+    /* Handled external to our control */
+    overflow-x:     auto;
+    /*overflow-y:     hidden;*/
+
+    .busy {
+		* {
+			cursor: wait !important;
+		}
+	}
+
+	label {
+		font-weight: normal;
+	}
+
+	> * {
+		flex:    1 0 200px;
+        display: flex;
+
+        &[data-part="variables"] {
+            //flex:auto;
+        }
+	}
+
+	.super-panel-component:last-child {
+		border-right: 0;
+	}
+
+	.super-panel-component:not(.arrangement) {
+		flex: 1 0 auto;
+
+		.accordion-panel {
+			flex: 1 0 auto;
+		}
+	}
+}
+
+.simulationChooserModal {
+}
+
+.super-panel-column {
+    display:flex;
+    flex-direction:column;
+    border-right: 1px solid var(--theme-border-color);
+
+    > * {
+        border-top: 1px solid var(--theme-border-color);
+        border-right:0;
+        height:50%;
+
+        &:first-of-type {
+            border-top:0;
+        }
+    }
+}
+
+.toolbar {
+    z-index:100;
+    position:fixed;
+    right:3px;
+    top:28px;
+
+    /*
+    border-width: 1px 0 0 1px;
+    border-style: solid;
+    border-color: var(--super-panel-separator-color);
+    */
+}
+
+#standalone-query-page .toolbar {
+    position:fixed;
+    right:0;
+    top:30px;
+}
+
+
+.runQueryProgressControl {
+    display:flex;
+    flex-direction:column;
+
+    :global(.text) {
+        margin: .5em 0;
+        text-align: center;
+        font-weight:bold;
+        font-size: 16px;
+
+        &:last-child {
+            margin-bottom:0;
+        }
+    }
+
+}
+
+.last-modified {
+    position:absolute;
+    right:5px;
+    bottom:5px;
+}

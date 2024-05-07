@@ -1,0 +1,60 @@
+.displayer {
+    margin: 0;
+}
+
+.edit-btn-outer {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    .edit-btn-outer, .edit-btn {
+        transition: opacity 200ms ease;
+    }
+}
+
+/* for smartCard */
+:global(.SmartCard__tag.tag-comments .SmartCard__tag-value-container) {
+    position: relative;
+    min-height: 30px;
+
+    .displayer {
+        white-space: pre-wrap;
+        max-height: 200px;
+        overflow: auto;
+    }
+
+    .edit-btn-outer {
+        opacity: 0;
+        right: 12px;
+    }
+
+    &:hover .edit-btn-outer {
+        opacity: 1;
+    }
+}
+
+/* for smartTable */
+:global(.bp3-table-cell.cell-comments) {
+    padding-right: 0 !important;
+    position: relative;
+
+    > * {
+        margin-top: unset;
+        margin-bottom: unset;
+    }
+
+    span{
+        white-space: pre !important;
+    }
+
+    .edit-btn-outer {
+        opacity: 0;
+        top: var(--padding);
+        right: var(--padding);
+    }
+
+    &:hover .edit-btn-outer {
+        opacity: 1;
+    }
+
+}

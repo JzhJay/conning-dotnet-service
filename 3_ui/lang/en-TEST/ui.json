@@ -1,0 +1,4706 @@
+{
+  "++hGYI": {
+    "defaultMessage": ">>> Resume File Upload <<<",
+    "description": "[user file] Resume file upload progress"
+  },
+  "+1Q2L9": {
+    "defaultMessage": ">>> Validate <<<",
+    "description": "[ManualValidationProgressDialog] dialog title"
+  },
+  "+6Puwp": {
+    "defaultMessage": ">>> Company Data Repository <<<",
+    "description": "Link to a repository (user uploaded file) that provides company data values for an optimization"
+  },
+  "+8UIk+": {
+    "defaultMessage": ">>> {objName} \"{itemName}\" Modified <<<",
+    "description": "[Common] the message let user know the change of object saved "
+  },
+  "+CAS6W": {
+    "defaultMessage": ">>> ID <<<",
+    "description": "[Common] unique among all identifiers used for those objects and for a specific purpose"
+  },
+  "+D412r": {
+    "defaultMessage": ">>> less... <<<",
+    "description": "Less Information"
+  },
+  "+RXPGl": {
+    "defaultMessage": ">>> {objName} \"{itemName}\" Created <<<",
+    "description": "[Common] the message let user know the object created"
+  },
+  "+UMElx": {
+    "defaultMessage": ">>> Minor <<<",
+    "description": "[highcharts] Label Title for adjusting unit's minor in Format Axis"
+  },
+  "+X0o7E": {
+    "defaultMessage": ">>> Sent Time <<<",
+    "description": "The time the notification was sent"
+  },
+  "+X5ZEo": {
+    "defaultMessage": ">>> Year <<<",
+    "description": "Indicates the frequency of a simulation."
+  },
+  "+ZVlk1": {
+    "defaultMessage": ">>> Remove Tag <<<",
+    "description": "[CatalogSidebarTags] remove a user tag that to be used to tag/identify system objects"
+  },
+  "+cfhHH": {
+    "defaultMessage": ">>> Loading Pivot Table... <<<",
+    "description": "[Query] Display text for loading Pivot Table"
+  },
+  "+ob+9Y": {
+    "defaultMessage": ">>> KR <<<",
+    "description": "a country/economy identification"
+  },
+  "+q43a9": {
+    "defaultMessage": ">>> Initialization... <<<",
+    "description": "[user file] Initialization"
+  },
+  "+reIKs": {
+    "defaultMessage": ">>> Past week <<<",
+    "description": "[Billing] Date Picker's shortcut - Past week"
+  },
+  "+urdfb": {
+    "defaultMessage": ">>> Ignore <<<",
+    "description": "[user file] Ignore one interrupted file"
+  },
+  "+vGNz/": {
+    "defaultMessage": ">>> Result <<<",
+    "description": "[Query] the query book's one of page name"
+  },
+  "/68lZQ": {
+    "defaultMessage": ">>> Trillions <<<",
+    "description": "[highcharts] Display unit label in Format Axis - Trillions"
+  },
+  "/8pGtG": {
+    "defaultMessage": ">>> More... <<<",
+    "description": "[Common] the message let user know there had more options/information"
+  },
+  "/ASU/q": {
+    "defaultMessage": ">>> Default <<<",
+    "description": "[RSSimulation] Menu item text for switching log filter to default"
+  },
+  "/BWHZz": {
+    "defaultMessage": ">>> Show Reserved Tags? <<<",
+    "description": "[OmdbTagsEditor] Indicates is Reserved Tags display on the tag mange table"
+  },
+  "/CVnBX": {
+    "defaultMessage": ">>> Waiting Progressing Start... <<<",
+    "description": "[ProgressDialog] the default message when the message not come in yet"
+  },
+  "/FYKKS": {
+    "defaultMessage": ">>> in column {col} <<<",
+    "description": "[RepoTool] column information in the failure message"
+  },
+  "/GMDgP": {
+    "defaultMessage": ">>> Download {fileType} <<<",
+    "description": "[Common] using for common download function with file type"
+  },
+  "/HUBb1": {
+    "defaultMessage": ">>> Estimated Time to {br} Ready for Query <<<",
+    "description": "[RSSimulation] Message for Estimated Time to Ready for Query"
+  },
+  "/O1cy0": {
+    "defaultMessage": ">>> Your query for {variablesSelected} variables is running... <<<",
+    "description": "[Query] loading message for running query (single variable)"
+  },
+  "/O3AMS": {
+    "defaultMessage": ">>> Loading query view ... <<<",
+    "description": "[Query] Message for loading query view"
+  },
+  "/Q0aGr": {
+    "defaultMessage": ">>> Create Simulation <<<",
+    "description": "[NewSimulationDialog] title on the dialog if its on GEMS only mode"
+  },
+  "/U61ze": {
+    "defaultMessage": ">>> Line: <<<",
+    "description": "[highcharts] Label of adjusting line's opacity"
+  },
+  "/X0QBn": {
+    "defaultMessage": ">>> Instance Type <<<",
+    "description": "[Billing] Billing Report table's header - Instance Type"
+  },
+  "/ZilHe": {
+    "defaultMessage": ">>> Object Type(s) <<<",
+    "description": "[OmdbTagsEditor] table column - show which object type(s) related to the tag"
+  },
+  "/e7g17": {
+    "defaultMessage": ">>> Upload local file <<<",
+    "description": "[BatchImportDialog] file source - upload a file form user machine"
+  },
+  "/koqK1": {
+    "defaultMessage": ">>> Hundreds <<<",
+    "description": "[highcharts] Display unit label in Format Axis - Hundreds"
+  },
+  "/oAfYf": {
+    "defaultMessage": ">>> You must name the query and select a simulation <<<",
+    "description": "[QueryPropertiesDialog] ok button tooltip - the required field must be filled"
+  },
+  "/spA2o": {
+    "defaultMessage": ">>> Classic <<<",
+    "description": "[Common] simulation source type for the data came from a windows application"
+  },
+  "/xHYXL": {
+    "defaultMessage": ">>> TH <<<",
+    "description": "a country/economy identification"
+  },
+  "0+G2pS": {
+    "defaultMessage": ">>> {simulation} Not Complete <<<",
+    "description": "[SimulationCard] tooltip that indicates that the simulation object has not been run and is incomplete"
+  },
+  "0+Yx1z": {
+    "defaultMessage": ">>> Line Spacing: <<<",
+    "description": "[InputSpecificationComponent] a layout format option"
+  },
+  "04yBTe": {
+    "defaultMessage": ">>> Dashboard <<<",
+    "description": "Dashboard Title"
+  },
+  "07HY4Q": {
+    "defaultMessage": ">>> DE <<<",
+    "description": "a country/economy identification"
+  },
+  "08EXRw": {
+    "defaultMessage": ">>> Creating <<<",
+    "description": "Signals that a process is being created"
+  },
+  "0DCu34": {
+    "defaultMessage": ">>> Import file <<<",
+    "description": "[BatchImportDialog] a dialog group title - choose the file source"
+  },
+  "0FadWK": {
+    "defaultMessage": ">>> Field <<<",
+    "description": "[ObjectCatalogSearcher] type of a search result item"
+  },
+  "0JoTI6": {
+    "defaultMessage": ">>> First Scenario Number <<<",
+    "description": "[RepositoryGeneralView] text input label"
+  },
+  "0L2oOr": {
+    "defaultMessage": ">>> Saving... <<<",
+    "description": "[Common] the message let user know the data is executing storage to backend"
+  },
+  "0O6q87": {
+    "defaultMessage": ">>> {ac} Pasted. <<<",
+    "description": "[FlexibleAxesEditor] message after pasted"
+  },
+  "0PjJSb": {
+    "defaultMessage": ">>> Reduce Marker Size <<<",
+    "description": "[hightcharts] Tooltip for reduce marker size function"
+  },
+  "0QFZk+": {
+    "defaultMessage": ">>> Row {r}, Col {c} <<<",
+    "description": "[BatchImportResultsDialog] message position hits"
+  },
+  "0ROcHf": {
+    "defaultMessage": ">>> Date <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "0SfInl": {
+    "defaultMessage": ">>> Submitted By <<<",
+    "description": "[GridJobs] table column - Indicates who request this job"
+  },
+  "0V7Yiw": {
+    "defaultMessage": ">>> Run Bootstrap <<<",
+    "description": "[Query] Button text for changing Query Result by settings of bootstrap"
+  },
+  "0ZG59M": {
+    "defaultMessage": ">>> All levels <<<",
+    "description": "[RSSimulation] Log filter option text - All levels"
+  },
+  "0ccepM": {
+    "defaultMessage": ">>> Region <<<",
+    "description": "[SettingsTabPanel] section title - Indicates a region setting block"
+  },
+  "0f+tGn": {
+    "defaultMessage": ">>> Loading catalog... <<<",
+    "description": "[SortableCardsPanel] notification message - waiting page ready"
+  },
+  "0i6XcI": {
+    "defaultMessage": ">>> DFS Path <<<",
+    "description": "label for the path to the DFS file"
+  },
+  "0nVDCC": {
+    "defaultMessage": ">>> Workers Ready <<<",
+    "description": "[WorkerManager] table column - Indicates the numbers of the application workers is ready to work"
+  },
+  "1+DpX7": {
+    "defaultMessage": ">>> Simulation Monitor <<<",
+    "description": "[RSSimulation] Main title of Simulation Running Progress"
+  },
+  "13FS2Y": {
+    "defaultMessage": ">>> Book <<<",
+    "description": "[Common] the object book structure - book, the most top level"
+  },
+  "16s3oe": {
+    "defaultMessage": ">>> Show log messages' timestamp <<<",
+    "description": "[RSSimulation] Tooltip for switch that toggle timestamp of logs"
+  },
+  "173U8Q": {
+    "defaultMessage": ">>> Compute Charge <<<",
+    "description": "[Billing] Billing Report table's header - Compute Charge"
+  },
+  "18w7R0": {
+    "defaultMessage": ">>> Row <<<",
+    "description": "[BatchImportResultsDialog] import result navigation item title"
+  },
+  "19B95l": {
+    "defaultMessage": ">>> {minute} mins <<<",
+    "description": "[user file] More than One Minute"
+  },
+  "1BWDNT": {
+    "defaultMessage": ">>> Financing <<<",
+    "description": "a module/component identification"
+  },
+  "1ENpA2": {
+    "defaultMessage": ">>> File Type <<<",
+    "description": "[RepositoryGeneralView] text input label"
+  },
+  "1Fm/FE": {
+    "defaultMessage": ">>> Address: <<<",
+    "description": "[AddressPath] input title"
+  },
+  "1N5QsY": {
+    "defaultMessage": ">>> No {objectName} Selected <<<",
+    "description": "[ObjectChooser] the placeholder on the selected item list"
+  },
+  "1QAWxL": {
+    "defaultMessage": ">>> Metrics <<<",
+    "description": "[hightcharts] Tooltip title in chart - Metrics"
+  },
+  "1XEa67": {
+    "defaultMessage": ">>> 2. Variables <<<",
+    "description": "[RepositoryContextMenu] book page title"
+  },
+  "1fVwqx": {
+    "defaultMessage": ">>> Associated {objectType} <<<",
+    "description": "[RelatedObjectBrowser] Title for the associated/related objects of a particular object type"
+  },
+  "1j9L1d": {
+    "defaultMessage": ">>> GB <<<",
+    "description": "a country/economy identification"
+  },
+  "1uoB15": {
+    "defaultMessage": ">>> Swap Rows and Columns <<<",
+    "description": "[Query] Tooltip for Swap Rows and Columns function"
+  },
+  "1vN7U5": {
+    "defaultMessage": ">>> Log level: {filterText} <<<",
+    "description": "[RSSimulation] Tooltip for current log level"
+  },
+  "1xT+XS": {
+    "defaultMessage": ">>> Everyone <<<",
+    "description": "[SortableCardsPanel] navbar filter - cancel the filter related with me"
+  },
+  "1xlrW8": {
+    "defaultMessage": ">>> Zoom Mode <<<",
+    "description": "[Highcharts] Toolbar function - Enable or disable Zoom Mode"
+  },
+  "26I7Wp": {
+    "defaultMessage": ">>> Email <<<",
+    "description": "[support dialog] send mail button text"
+  },
+  "274WiR": {
+    "defaultMessage": ">>> Historical Points <<<",
+    "description": "[highcharts] Switch text for toggling Historical Points"
+  },
+  "28AQ+5": {
+    "defaultMessage": ">>> Output read <<<",
+    "description": "[RSSimulation] Computation status legend name - Output read"
+  },
+  "2H+mMJ": {
+    "defaultMessage": ">>> CL <<<",
+    "description": "a country/economy identification"
+  },
+  "2N9aIF": {
+    "defaultMessage": ">>> Point Values <<<",
+    "description": "[hightcharts] Tooltip title in chart - Point Values"
+  },
+  "2Qy9px": {
+    "defaultMessage": ">>> No results. <<<",
+    "description": "[InputSpecificationComponent] dropdown element without any sub-items"
+  },
+  "2Z4sj8": {
+    "defaultMessage": ">>> Parameters <<<",
+    "description": "[RSSimulationContextMenu] Menu text for batch export parameters"
+  },
+  "2b+IJ1": {
+    "defaultMessage": ">>> Open {followingText} <<<",
+    "description": "[Common] for the object control - opens an object for viewing or editing"
+  },
+  "2cHdHw": {
+    "defaultMessage": ">>> New <<<",
+    "description": "[Common] for the object control - New a object "
+  },
+  "2rDnzz": {
+    "defaultMessage": ">>> Please proceed to download the results or perform a query. <<<",
+    "description": "[RSSimulation] message box title for the gems object simulated"
+  },
+  "30AhJA": {
+    "defaultMessage": ">>> Import Data <<<",
+    "description": "[BatchImportResultsDialog] title for input detail table"
+  },
+  "35B+Zt": {
+    "defaultMessage": ">>> Loading Results... <<<",
+    "description": "[BatchImportResultsDialog] loading message"
+  },
+  "390G9/": {
+    "defaultMessage": ">>> Always Separate Tables <<<",
+    "description": "[AxisOrganizer] axis organization group title"
+  },
+  "3BkIF5": {
+    "defaultMessage": ">>> Batch import file contains no errors or warnings <<<",
+    "description": "[BatchImportResultsDialog] default message description when data imported"
+  },
+  "3ONvj6": {
+    "defaultMessage": ">>> Your query is being deleted... <<<",
+    "description": "[Query] Message for deleting a query"
+  },
+  "3Vss0x": {
+    "defaultMessage": ">>> Breadcrumb <<<",
+    "description": "[RSSimulationContextMenu] a mode about how the simulation navigated page"
+  },
+  "3Wm0Mn": {
+    "defaultMessage": ">>> Your query is being reset... <<<",
+    "description": "[Query] Message for restting query"
+  },
+  "3dUGU8": {
+    "defaultMessage": ">>> Sort Coordinates Alphabetically Ascending <<<",
+    "description": "[FlexibleAxesEditor] sorting selected items"
+  },
+  "3mOpZT": {
+    "defaultMessage": ">>> by Severity by Message <<<",
+    "description": "[BatchImportResultsDialog] one of sort type for detail messages"
+  },
+  "3rx63S": {
+    "defaultMessage": ">>> Has Result <<<",
+    "description": "Indicates that the query object has been run and results are available"
+  },
+  "3wh+Bs": {
+    "defaultMessage": ">>> This year <<<",
+    "description": "[Billing] Date Picker's shortcut - This year"
+  },
+  "3xyqfp": {
+    "defaultMessage": ">>> Append <<<",
+    "description": "[BatchExportCustomizeDialog] append save data to selected user file"
+  },
+  "427XQQ": {
+    "defaultMessage": ">>> {productName} Installer <<<",
+    "description": "[InstallerDownloadPage] Indicates page banner of this page"
+  },
+  "44q3YM": {
+    "defaultMessage": ">>> Appending file fails! <<<",
+    "description": "[BatchExportProgressDialog] append export file fils"
+  },
+  "483Ofp": {
+    "defaultMessage": ">>> Modules <<<",
+    "description": "Label for the modules/components that were included/used in the simulation"
+  },
+  "49Mnj2": {
+    "defaultMessage": ">>> When a simulation has finished writing to disk. <<<",
+    "description": "describes the notification event"
+  },
+  "4AXcYr": {
+    "defaultMessage": ">>> PNG <<<",
+    "description": "[Common] a PNG image file"
+  },
+  "4BF9SX": {
+    "defaultMessage": ">>> Yesterday <<<",
+    "description": "[Billing] Date Picker's shortcut - Yesterday"
+  },
+  "4EPfZQ": {
+    "defaultMessage": ">>> Toggle Mean Values <<<",
+    "description": "[highcharts] Toolbar function - Show mean values or not"
+  },
+  "4Miffo": {
+    "defaultMessage": ">>> Flip <<<",
+    "description": "[Query] Button text for Swap Rows and Columns function"
+  },
+  "4PJpNx": {
+    "defaultMessage": ">>> Are you sure you want to unlock the inputs? <<<",
+    "description": "[unlockInputsConfirm] conform dialog title: to disable the page lock which is used to avoid the result lost"
+  },
+  "4PfuxZ": {
+    "defaultMessage": ">>> Percentiles: <<<",
+    "description": "[hightcharts] Form label for setting multiple percentiles"
+  },
+  "4Pq0n1": {
+    "defaultMessage": ">>> Adjusted <<<",
+    "description": "[highcharts] Tooltip title in Through Time Statistics chart - Adjusted"
+  },
+  "4RJAp+": {
+    "defaultMessage": ">>> Tell us how you'd like to receive <PushNotificationTooltip>push notifications</PushNotificationTooltip> from {productName}. <<<",
+    "description": "Describes the purpose of the page"
+  },
+  "4UQmO8": {
+    "defaultMessage": ">>> Licensed to <<<",
+    "description": "[about dialog] Indicates the text before who own the current working license"
+  },
+  "4ayJ4U": {
+    "defaultMessage": ">>> No file(s) detected <<<",
+    "description": "[user file] No file(s) detected"
+  },
+  "4blqkY": {
+    "defaultMessage": ">>> About <<<",
+    "description": "[about dialog] dialog title"
+  },
+  "4bylpZ": {
+    "defaultMessage": ">>> Intermediate Results <<<",
+    "description": "[Common] simulation source type for intermediate/in-between/not final by scenario values that are aggregated to produce AO outputs"
+  },
+  "4csc8I": {
+    "defaultMessage": ">>> Remove Section <<<",
+    "description": "[OmdbCardBuilder] remove a section group button"
+  },
+  "4hus6T": {
+    "defaultMessage": ">>> 1 File Uploaded. ({totalFilesCount}/{totalFilesCount}) <<<",
+    "description": "[user file] One file is uploaded"
+  },
+  "4mJ8vA": {
+    "defaultMessage": ">>> Insert {num}{rowOrColumnLabel} After <<<",
+    "description": "[InputTable] insert record(s) after the selected record"
+  },
+  "4ra63h": {
+    "defaultMessage": ">>> Started <<<",
+    "description": "[GridJobs] table column - Indicates the time that this job start."
+  },
+  "4syfmK": {
+    "defaultMessage": ">>> Specification (.JSON) <<<",
+    "description": "[NewSimulationDialog] input field name - Specification File"
+  },
+  "4vSfMI": {
+    "defaultMessage": ">>> HK <<<",
+    "description": "a country/economy identification"
+  },
+  "510OjE": {
+    "defaultMessage": ">>> Waiting {name} Ready... <<<",
+    "description": "[Common] the message let user know the system is on progress"
+  },
+  "58D2mA": {
+    "defaultMessage": ">>> Series <<<",
+    "description": "[hightcharts] Tooltip value in chart - Series"
+  },
+  "5BTQD5": {
+    "defaultMessage": ">>> Martingale Tests <<<",
+    "description": "a module/component identification"
+  },
+  "5COhnu": {
+    "defaultMessage": ">>> Clear <<<",
+    "description": "[Common] The name of a shortcut lets the user select the specific item/items quickly"
+  },
+  "5HAuyk": {
+    "defaultMessage": ">>> Download <<<",
+    "description": "[Common] using for common download function"
+  },
+  "5IkArU": {
+    "defaultMessage": ">>> Delete {selectionLength} {rowOrColumnLabel} <<<",
+    "description": "[InputTable] the selected records tooltip of the delete button"
+  },
+  "5OWNwE": {
+    "defaultMessage": ">>> Warning <<<",
+    "description": "[RepositoryMessagesView] the type of the failure message"
+  },
+  "5P3XXZ": {
+    "defaultMessage": ">>> Restarting <<<",
+    "description": "Signals that a process is being restarted"
+  },
+  "5U87DB": {
+    "defaultMessage": ">>> Message Order <<<",
+    "description": "[BatchImportResultsDialog] import result navigation item title"
+  },
+  "5UlLXe": {
+    "defaultMessage": ">>> Run Simulation <<<",
+    "description": "[SimulateConfirmDialog] dialog title"
+  },
+  "5VHWAp": {
+    "defaultMessage": ">>> Edit {l} Objects in New Tabs <<<",
+    "description": "[SmartBrowserContextMenu] open multiple objects to different browser window."
+  },
+  "5W8dYl": {
+    "defaultMessage": ">>> Time <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "5e5Jku": {
+    "defaultMessage": ">>> Animate Changes <<<",
+    "description": "[StandaloneQueryPage][renderExtraSettingsMenuItems] a trigger which control is there had animate when query has change"
+  },
+  "5eghvL": {
+    "defaultMessage": ">>> Start Scenario Generation <<<",
+    "description": "[SimulateConfirmDialog] dialog run button text - start simulate"
+  },
+  "5gr7MB": {
+    "defaultMessage": ">>> Accept the calibration changes by saving the updated simulation parameters <<<",
+    "description": "[RSSimulationApplicationBarItems] tooltip for button that saves the calibration changes"
+  },
+  "5hccdH": {
+    "defaultMessage": ">>> Data Serving Charge per Hour <<<",
+    "description": "[Billing] Billing Report table's header - Data Serving Charge per Hour"
+  },
+  "5hvHbR": {
+    "defaultMessage": ">>> Status <<<",
+    "description": "Notification sent status: Sent or Failed"
+  },
+  "5jbJxj": {
+    "defaultMessage": ">>> Semiannually (2) <<<",
+    "description": "[RepositoryGeneralView] simulation Frequency names"
+  },
+  "5n7tmQ": {
+    "defaultMessage": ">>> Base Case <<<",
+    "description": "[highcharts] Tooltip title in Through Time Statistics chart - Base Case"
+  },
+  "5yocpL": {
+    "defaultMessage": ">>> Chart data fetch failed <<<",
+    "description": "[hightcharts] Error message for failing to fetch chart data"
+  },
+  "6+qFmx": {
+    "defaultMessage": ">>> Area Opacity: <<<",
+    "description": "[highcharts] Input label for adjusting chart's area opacitiy"
+  },
+  "6+sY/3": {
+    "defaultMessage": ">>> {message}. Attempting retry: {retryCount} <<<",
+    "description": "[user file] Show error message and attempting retry count"
+  },
+  "6FEcQb": {
+    "defaultMessage": ">>> Section {sectionName} <<<",
+    "description": "[OmdbCardBuilder] Indicates move current tag to select section"
+  },
+  "6KwW6r": {
+    "defaultMessage": ">>> Errors <<<",
+    "description": "[Common] The filter name to filter log messages - Errors"
+  },
+  "6N1B8H": {
+    "defaultMessage": ">>> Unknown License <<<",
+    "description": "[about dialog] Indicates if license information not loaded"
+  },
+  "6Qz4AV": {
+    "defaultMessage": ">>> Insert {num}{rowOrColumnLabel} At End <<<",
+    "description": "[InputTable] insert record(s) on the end of the table"
+  },
+  "6SufEK": {
+    "defaultMessage": ">>> Volatility <<<",
+    "description": "[ModelChart] chart label for the volatility of an investment"
+  },
+  "6WFrFO": {
+    "defaultMessage": ">>> Title <<<",
+    "description": "Table header for the title/subject of the notification that was sent"
+  },
+  "6bcoap": {
+    "defaultMessage": ">>> Save {userFile} to server <<<",
+    "description": "[BatchExportCustomizeDialog] create a new file and save it on server"
+  },
+  "6jAbHA": {
+    "defaultMessage": ">>> Validation Detail <<<",
+    "description": "[ValidationSidebar] sidebar title"
+  },
+  "6l53/y": {
+    "defaultMessage": ">>> Date <<<",
+    "description": "[Common] the day of the month or year as specified by a number"
+  },
+  "6pwt5M": {
+    "defaultMessage": ">>> Run {followingText} <<<",
+    "description": "[Common] for the object control - execute for generate the result"
+  },
+  "6rDmL4": {
+    "defaultMessage": ">>> {second} second <<<",
+    "description": "[user file] One Second"
+  },
+  "6uhwD5": {
+    "defaultMessage": ">>> Active {objectType} Sessions <<<",
+    "description": "[RelatedObjectBrowser] Title for the active sessions/processes"
+  },
+  "6wndHo": {
+    "defaultMessage": ">>> (Locked by Administrator) <<<",
+    "description": "[SettingsTabPanel] section description - (Locked by Administrator)"
+  },
+  "6x9yaK": {
+    "defaultMessage": ">>> ({enabledCount} of {total}) <<<",
+    "description": "number of items that are enabled from the total count of items availabe"
+  },
+  "6yZob9": {
+    "defaultMessage": ">>> Search... <<<",
+    "description": "[Common] a filter input's placeholder"
+  },
+  "7+7nhO": {
+    "defaultMessage": ">>> Upload <<<",
+    "description": "[user file] upload"
+  },
+  "7+A6Rd": {
+    "defaultMessage": ">>> Market Returns <<<",
+    "description": "a module/component identification"
+  },
+  "70PPCg": {
+    "defaultMessage": ">>> Data Labels <<<",
+    "description": "[highcharts] Label for toggling showing data label"
+  },
+  "70fBbf": {
+    "defaultMessage": ">>> Simulation results is now ready to use <<<",
+    "description": "[RepositoryApplicationBarItems] simulation already run"
+  },
+  "78soQB": {
+    "defaultMessage": ">>> Card Settings <<<",
+    "description": "[SmartCard] the smart card layout configuration data"
+  },
+  "7AJ2QT": {
+    "defaultMessage": ">>> Batch Import File <<<",
+    "description": "[Common] export a object specification file (JSON)"
+  },
+  "7ESXBG": {
+    "defaultMessage": ">>> Deliver To <<<",
+    "description": "Table header for setting notification delivery method"
+  },
+  "7GV0/M": {
+    "defaultMessage": ">>> Tree Hierarchy <<<",
+    "description": "[AxisOrganizer] axis organization group title"
+  },
+  "7MClT7": {
+    "defaultMessage": ">>> Weekly (52) <<<",
+    "description": "[RepositoryGeneralView] simulation Frequency names"
+  },
+  "7MO2It": {
+    "defaultMessage": ">>> Area Opacity <<<",
+    "description": "[highcharts] Element title for adjusting chart's area opacitiy"
+  },
+  "7P2I4s": {
+    "defaultMessage": ">>> Simulation Complete <<<",
+    "description": "[RSSimulation] message box title for the gems based object simulated"
+  },
+  "7P3fXa": {
+    "defaultMessage": ">>> Output read by database <<<",
+    "description": "[RSSimulation] Message for Simulation Running Status Summary - Output read by database"
+  },
+  "7S9LJ3": {
+    "defaultMessage": ">>> Choose a file... <<<",
+    "description": "[common] message which display when a file select box does not selected any"
+  },
+  "7SwCo5": {
+    "defaultMessage": ">>> Delete Selected Axis Coordinate(s) <<<",
+    "description": "[FlexibleAxesEditor] delete coordinate(s) button tooltip"
+  },
+  "7WY5fO": {
+    "defaultMessage": ">>> Copy {typeName} Object {idField} to Clipboard <<<",
+    "description": "[SmartBrowserContextMenu] copy select object id to the clipboard"
+  },
+  "7Yml5y": {
+    "defaultMessage": ">>> The path is not valid. <<<",
+    "description": "[AddressPath] the input path is unavailable"
+  },
+  "7Zco0H": {
+    "defaultMessage": ">>> Pivot Selection <<<",
+    "description": "[Query] Pivot table context menu function -Pivot Selection"
+  },
+  "7akOcW": {
+    "defaultMessage": ">>> Holdings <<<",
+    "description": "a module/component identification"
+  },
+  "7fmX5V": {
+    "defaultMessage": ">>> Flexible Axes <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "7fq4if": {
+    "defaultMessage": ">>> Computation completed <<<",
+    "description": "[RSSimulation] Message for Simulation Running Status Summary - Computation completed"
+  },
+  "7tiZod": {
+    "defaultMessage": ">>> Applications: <<<",
+    "description": "[Billing] Billing Query form's input label - Applications"
+  },
+  "7y3u6L": {
+    "defaultMessage": ">>> Simulation Failed <<<",
+    "description": "[RSSimulation] message box title for the gems based object run simulation but failed"
+  },
+  "85tMAU": {
+    "defaultMessage": ">>> Running {queryTitle} Queries <<<",
+    "description": "[RSSimulation] Progress message while running a query after simulation is completed"
+  },
+  "86dZxH": {
+    "defaultMessage": ">>> Point Identification <<<",
+    "description": "[hightcharts] Tooltip title in chart - Point Identification"
+  },
+  "88RKEm": {
+    "defaultMessage": ">>> This action cannot be undone. <<<",
+    "description": "[SimulationContextMenu] a confirm dialog message - when the selected items change"
+  },
+  "8ACKek": {
+    "defaultMessage": ">>> {impliedAxes} implied axes are currently hidden <<<",
+    "description": "[AccordionPanelComponent] a hit message about how many unavailable items hidden"
+  },
+  "8ENSsT": {
+    "defaultMessage": ">>> Object Name <<<",
+    "description": "[WorkerManager] table column - Indicates the object name which related by the application"
+  },
+  "8IGjOq": {
+    "defaultMessage": ">>> Economic Variables <<<",
+    "description": "a module/component identification"
+  },
+  "8TkCV0": {
+    "defaultMessage": ">>> Add a catalog field... <<<",
+    "description": "[CatalogSidebarTags] a note message - add a tag as catalog on object browser sidebar"
+  },
+  "8dNwL7": {
+    "defaultMessage": ">>> Starting <<<",
+    "description": "[RecalibrationTool] progress box title when loading recalibration"
+  },
+  "8iOEHh": {
+    "defaultMessage": ">>> Axis Coordinates <<<",
+    "description": "[RepositoryVariablesView] grid column label"
+  },
+  "8lmtGm": {
+    "defaultMessage": ">>> Two-Factor Authentication <<<",
+    "description": "[SettingsTabPanel] section title - Indicates Two-Factor Authentication setting block"
+  },
+  "8oTJDR": {
+    "defaultMessage": ">>> Degree of Smoothing <<<",
+    "description": "[highcharts] Tooltip for smooth degree setting in other chart types"
+  },
+  "8qc3Yp": {
+    "defaultMessage": ">>> Economies <<<",
+    "description": "a module/component identification"
+  },
+  "8sF++e": {
+    "defaultMessage": ">>> A fatal error has occurred while simulating. <<<",
+    "description": "[RSSimulation] message box description for the gems based object run simulation but failed"
+  },
+  "8v3AEB": {
+    "defaultMessage": ">>> Forward yields <<<",
+    "description": "[CombinatorialAddRows] a sub option for the targets option"
+  },
+  "8wmQMy": {
+    "defaultMessage": ">>> Columns <<<",
+    "description": "[InputTable] the primary axis label for the table (multiple)"
+  },
+  "8zttU0": {
+    "defaultMessage": ">>> Axes <<<",
+    "description": "Label for the axes that can be selected in the simulation"
+  },
+  "95+nlf": {
+    "defaultMessage": ">>> Show Regression Line <<<",
+    "description": "[highcharts] Tooltip for Show regression line in chart"
+  },
+  "97v4Wf": {
+    "defaultMessage": ">>> Status <<<",
+    "description": "[QueryCard] label representing the current state/status of a simulation, e.g. running or canceled"
+  },
+  "98dfLN": {
+    "defaultMessage": ">>> Billing Report | ADVISE <<<",
+    "description": "[Billing] Billing Report print result title text - Billing Report | ADVISE"
+  },
+  "99RTTQ": {
+    "defaultMessage": ">>> Company Data Simulation <<<",
+    "description": "Link to a simulation that provides company data values for an optimization"
+  },
+  "9EnaaT": {
+    "defaultMessage": ">>> Initialized. <<<",
+    "description": "[user file] One file upload process is initialized."
+  },
+  "9FXmEn": {
+    "defaultMessage": ">>> Modified Time <<<",
+    "description": "Label that identifies the time that an object was last modified"
+  },
+  "9GkT7y": {
+    "defaultMessage": ">>> Saving {name}... <<<",
+    "description": "[Common] the message let user know the system is on progress"
+  },
+  "9J9k2P": {
+    "defaultMessage": ">>> User <<<",
+    "description": "Notification scope. This option signifies that the user should only receive notifications about their action"
+  },
+  "9Lo6be": {
+    "defaultMessage": ">>> Loading {name}... <<<",
+    "description": "[Common] the message let user know the system is on progress"
+  },
+  "9Q4GH5": {
+    "defaultMessage": ">>> Insert {ac} At End <<<",
+    "description": "[FlexibleAxesEditor] insert axis coordinate to the axis"
+  },
+  "9RSJ6n": {
+    "defaultMessage": ">>> Simulation Log Messages <<<",
+    "description": "[RSSimulation] Diaog title of Simulation Running Messages"
+  },
+  "9WHq0V": {
+    "defaultMessage": ">>> On-demand messages from our system<br></br>(Simulation events, billing alerts, etc) <<<",
+    "description": "Describes the purpose of the page"
+  },
+  "9WM/fm": {
+    "defaultMessage": ">>> Use Single Axis <<<",
+    "description": "[RepositoryGeneralView] checkbox label"
+  },
+  "9XJhfW": {
+    "defaultMessage": ">>> Classic <<<",
+    "description": "[InputSpecificationComponent] the layout mode setting button"
+  },
+  "9XMaqd": {
+    "defaultMessage": ">>> AU <<<",
+    "description": "a country/economy identification"
+  },
+  "9cXHuR": {
+    "defaultMessage": ">>> Climate Risk Analyses <<<",
+    "description": "objectName - ClimateRiskAnalysis (multi)"
+  },
+  "9dwGR2": {
+    "defaultMessage": ">>> Available Reports <<<",
+    "description": "[ReportsSummaryPage] section title - all report list"
+  },
+  "9iVrNV": {
+    "defaultMessage": ">>> Choose Definition File... <<<",
+    "description": "[RSSimulationApplication][DefinitionFileInput] placeholder for the file input"
+  },
+  "9ig7f+": {
+    "defaultMessage": ">>> Product <<<",
+    "description": "[RepositoryVariablesView] selection value for the time aggregator"
+  },
+  "9m8f06": {
+    "defaultMessage": ">>> Catalog <<<",
+    "description": "[OmdbTagsEditor] table column - set this tag can show on the object browser sidebar"
+  },
+  "9nYp5z": {
+    "defaultMessage": ">>> Add {numberOfAddRows} Row <<<",
+    "description": "[CombinatorialAddRows] dialog confirm button text"
+  },
+  "9sWmlN": {
+    "defaultMessage": ">>> Initializing... <<<",
+    "description": "[user file] One file upload process is initializing."
+  },
+  "A+urvO": {
+    "defaultMessage": ">>> Your {objectTypeName} is loading... <<<",
+    "description": "[SiteStore] application message when item is loading"
+  },
+  "A/d0M/": {
+    "defaultMessage": ">>> Maximum Number of vCPUs <<<",
+    "description": "[Billing] Billing Report table's header - Maximum Number of vCPUs"
+  },
+  "A1E7K3": {
+    "defaultMessage": ">>> Zoom Out <<<",
+    "description": "[Highcharts] Toolbar function - Zoom out chart"
+  },
+  "A46yVu": {
+    "defaultMessage": ">>> Message Details <<<",
+    "description": "[BatchImportResultsDialog] title for input detail message"
+  },
+  "A6sWIj": {
+    "defaultMessage": ">>> Import {uf} from server <<<",
+    "description": "[BatchImportDialog] file source - choose from uploaded files"
+  },
+  "AEv0I3": {
+    "defaultMessage": ">>> Batch Import failed; no blocks imported <<<",
+    "description": "[BatchImportResultsDialog] default message title when no data imported"
+  },
+  "ASvPIq": {
+    "defaultMessage": ">>> Linked Objects <<<",
+    "description": "[RelatedObjectPage] a group title which contains the related omdb objects"
+  },
+  "AWNrfD": {
+    "defaultMessage": ">>> Updating Layout... <<<",
+    "description": "[GoldenLayoutComponent] the message let user know UI is updating layout"
+  },
+  "AY+Q2i": {
+    "defaultMessage": ">>> MD5 Hash <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "Ad/4l0": {
+    "defaultMessage": ">>> Insert Axis Coordinate(s) After <<<",
+    "description": "[FlexibleAxesEditor] insert multiple coordinates to the axis"
+  },
+  "AgDvR9": {
+    "defaultMessage": ">>> Input limited to the maximum value of {maximum} <<<",
+    "description": "[InputTableGridHandler] input limits hints"
+  },
+  "AhJBv3": {
+    "defaultMessage": ">>> Clear Selection <<<",
+    "description": "[Common] The name of a shortcut lets the user select the specific item/items quickly"
+  },
+  "Ajoidd": {
+    "defaultMessage": ">>> Insert After <<<",
+    "description": "[InputTable] insert a new column after"
+  },
+  "AspZUu": {
+    "defaultMessage": ">>> Asset Class <<<",
+    "description": "[hightcharts] Tooltip value in chart - Asset Class"
+  },
+  "Atpkzj": {
+    "defaultMessage": ">>> Double click to Expand <<<",
+    "description": "[SuperPanelComponent] a mouse shortcut which can show the drawer content"
+  },
+  "Ax2+po": {
+    "defaultMessage": ">>> Hide all <<<",
+    "description": "[RSSimulation] Log filter option text - Hide all"
+  },
+  "AydJLG": {
+    "defaultMessage": ">>> more... <<<",
+    "description": "More Information"
+  },
+  "B6SFth": {
+    "defaultMessage": ">>> Expanded (Horizontal) <<<",
+    "description": "[QueryContextMenu] Variables Layout sub-item title - Query Tool Variables Layout - Horizontal"
+  },
+  "B9YbKw": {
+    "defaultMessage": ">>> Download File <<<",
+    "description": "[UserFileCard] tooltip for button that downloads a file to the user's computer"
+  },
+  "BB7bXB": {
+    "defaultMessage": ">>> Object Schemas <<<",
+    "description": "[OmdbAdminPage] the page title display on the browser tab and system application menu"
+  },
+  "BBLrGv": {
+    "defaultMessage": ">>> Columns <<<",
+    "description": "[Query] Button text for All to Columns function"
+  },
+  "BEhTXm": {
+    "defaultMessage": ">>> All to columns <<<",
+    "description": "[ArrangementPanel] the query's arrangement inputs panel action shortcut"
+  },
+  "BGfGzz": {
+    "defaultMessage": ">>> Configure properties related to your <<<",
+    "description": "[SettingsTabPanel] Indicates the page sub title, and show account name - message part"
+  },
+  "BGjhWE": {
+    "defaultMessage": ">>> Locations <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "BWgQP+": {
+    "defaultMessage": ">>> Add {numberOfAddRows} Rows <<<",
+    "description": "[CombinatorialAddRows] dialog confirm button text"
+  },
+  "BWpji1": {
+    "defaultMessage": ">>> Location: \"{locationPath}\" copied <<<",
+    "description": "[InputSpecificationComponent] hit message when a position string copied"
+  },
+  "BaTV7l": {
+    "defaultMessage": ">>> Run Report <<<",
+    "description": "[Billing] Billing Query form's button text - Run Report"
+  },
+  "BcMufO": {
+    "defaultMessage": ">>> Toggle Preview Panel <<<",
+    "description": "[OmdbAdminPage] tooltip - show/hide the preview panel on the bottom of page"
+  },
+  "BcmPYP": {
+    "defaultMessage": ">>> Quarterly (4) <<<",
+    "description": "[RepositoryGeneralView] simulation Frequency names"
+  },
+  "BjhisJ": {
+    "defaultMessage": ">>> Simulation required to modify or view query settings <<<",
+    "description": "[StandaloneQueryPage] warning message - query can not loaded because the Simulation required to modify or view query settings"
+  },
+  "BkVbHG": {
+    "defaultMessage": ">>> Insert {num}{rowOrColumnLabel} Before <<<",
+    "description": "[InputTable] insert record(s) before the selected record"
+  },
+  "BuomEC": {
+    "defaultMessage": ">>> New File <<<",
+    "description": "[BatchExportCustomizeDialog] create a new export file to save data"
+  },
+  "BwoKtu": {
+    "defaultMessage": ">>> Amount <<<",
+    "description": "Label for the amount of USD the bill should have increased by before sending a notification"
+  },
+  "C/Eyzn": {
+    "defaultMessage": ">>> HighchartsComponent requires either chartData passed as prop or a query result from which it can query data. <<<",
+    "description": "[hightcharts] Error message for missing to pass chart data"
+  },
+  "C06fZf": {
+    "defaultMessage": ">>> Object Type: <<<",
+    "description": "[OmdbAdminPage] header tag - Indicates the object type we mange currently"
+  },
+  "C2cfMO": {
+    "defaultMessage": ">>> Scenarios <<<",
+    "description": "[RSSimulation] Axis title for chart Scenarios Detail"
+  },
+  "C3OqHR": {
+    "defaultMessage": ">>> Your query for {variablesSelected} variable is running... <<<",
+    "description": "[Query] loading message for running query (multiple variables)"
+  },
+  "CAqGU4": {
+    "defaultMessage": ">>> Login <<<",
+    "description": "[SettingsTabPanel] section title - Indicates login block if can not load the user information"
+  },
+  "CB+Z4m": {
+    "defaultMessage": ">>> Scenario <<<",
+    "description": "[RSSimulation] Scenario unit name"
+  },
+  "CB42+5": {
+    "defaultMessage": ">>> Percentile % <<<",
+    "description": "[highcharts] PDF percentile secondary x-axis title - Percentile %"
+  },
+  "CBxh+a": {
+    "defaultMessage": ">>> Swap rows and columns <<<",
+    "description": "[ArrangementPanel] the query's arrangement inputs panel action shortcut"
+  },
+  "CFu9Zj": {
+    "defaultMessage": ">>> Inputs saved <<<",
+    "description": "[RSSimulation] Message for Simulation Running Status Summary - Inputs saved"
+  },
+  "CGNBYL": {
+    "defaultMessage": ">>> Number Scenarios Processed <<<",
+    "description": "[RSSimulation] Axis title for chart Number Scenarios Processed"
+  },
+  "CM8E5G": {
+    "defaultMessage": ">>> The simulation has been canceled. <<<",
+    "description": "[RSSimulation] message box description for the gems based object simulate cancelled before complete"
+  },
+  "CN8TbA": {
+    "defaultMessage": ">>> XLSX <<<",
+    "description": "[Common] a XLSX file"
+  },
+  "CRimAA": {
+    "defaultMessage": ">>> Table <<<",
+    "description": "[Common] Indicates the table view on the object browser"
+  },
+  "CRzBKF": {
+    "defaultMessage": ">>> User Values <<<",
+    "description": "a module/component identification"
+  },
+  "CZNFVw": {
+    "defaultMessage": ">>> Current <<<",
+    "description": "[hightcharts] Tooltip value in chart - Current"
+  },
+  "Ci96IR": {
+    "defaultMessage": ">>> Active Sessions <<<",
+    "description": "[RelatedObjectBrowser] Title to indicate that the objects browser is showing active sessions/processes"
+  },
+  "CiWLls": {
+    "defaultMessage": ">>> Roll Forward Finished. <<<",
+    "description": "[RollForwardDialog] message when roll forward executed"
+  },
+  "Cl+rcm": {
+    "defaultMessage": ">>> Add Variable Clause <<<",
+    "description": "[SuperPanelComponent] a add new clause button text"
+  },
+  "Cpg9BX": {
+    "defaultMessage": ">>> Display Tags <<<",
+    "description": "[TagVisibilitySubMenu] choose which tags will show on a card"
+  },
+  "CuBlm1": {
+    "defaultMessage": ">>> Distribution Information <<<",
+    "description": "[hightcharts] Tooltip title in chart - Distribution Information"
+  },
+  "Cxwzve": {
+    "defaultMessage": ">>> Complete <<<",
+    "description": "Signals that a process has completed and the requested results are available"
+  },
+  "D2JDn4": {
+    "defaultMessage": ">>> Row Coordinate Selection <<<",
+    "description": "[Query] Pivot table context menu function - Row Coordinate Selection"
+  },
+  "D2PGWJ": {
+    "defaultMessage": ">>> Cancel <<<",
+    "description": "[user file] Cancel upload"
+  },
+  "D4nJlW": {
+    "defaultMessage": ">>> Unable to find a axis value - {coordinateID} - for {part} axis '{axisGroupNameLabel}' <<<",
+    "description": "[Query] Display error message for axis value is not found"
+  },
+  "DGaNuf": {
+    "defaultMessage": ">>> Drop file to upload <<<",
+    "description": "[user file] Drop file to upload"
+  },
+  "DL9DpG": {
+    "defaultMessage": ">>> Computed <<<",
+    "description": "[RSSimulation] Scenarios process category in simulation progress - Computed"
+  },
+  "DLapE2": {
+    "defaultMessage": ">>> Statistics is on when using sensitivity <<<",
+    "description": "[Query] Tooltip for show statistics button when sensitivity is enabled"
+  },
+  "DMPAkB": {
+    "defaultMessage": ">>> Custom levels <<<",
+    "description": "[RSSimulation] Log filter option text - Custom levels"
+  },
+  "DNMxQH": {
+    "defaultMessage": ">>> Objects Sorted by Name <<<",
+    "description": "Objects Sorted by Name"
+  },
+  "DNcgkD": {
+    "defaultMessage": ">>> NO <<<",
+    "description": "a country/economy identification"
+  },
+  "DQEFYh": {
+    "defaultMessage": ">>> Browse <<<",
+    "description": "[ApplicationMenu] Indicates menu sub-group title - Browse objects"
+  },
+  "DRgb4m": {
+    "defaultMessage": ">>> Bootstrap is not supported for this view <<<",
+    "description": "[Query] Message for query result view which doesn't support Bootstrap"
+  },
+  "DS9zer": {
+    "defaultMessage": ">>> {unit} Data Elements <<<",
+    "description": "[RSSimulation] Axis title in Data Elements Chart in Simulation Running Progress"
+  },
+  "DUPEDJ": {
+    "defaultMessage": ">>> Refresh <<<",
+    "description": "[ControlPanelPage] button text - ask renew the application/grid status from the back-end"
+  },
+  "DVm3SQ": {
+    "defaultMessage": ">>> Fetching data... <<<",
+    "description": "[SortableCardsPanel] notification message - waiting data came from backend"
+  },
+  "DW37vu": {
+    "defaultMessage": ">>> New Tag <<<",
+    "description": "[OmdbTagsEditor] default new tag name, which used to tag/identify system objects"
+  },
+  "DXcACD": {
+    "defaultMessage": ">>> Edit <<<",
+    "description": "[Common] for the object control - modify values of a object"
+  },
+  "DXyQrQ": {
+    "defaultMessage": ">>> None <<<",
+    "description": "[highcharts] Toolbar function - Hide grid lines in chart"
+  },
+  "DZZFj7": {
+    "defaultMessage": ">>> Horizon <<<",
+    "description": "[hightcharts] Tooltip value in chart - Horizon"
+  },
+  "DbIvZ2": {
+    "defaultMessage": ">>> Name <<<",
+    "description": "[Common] a word by which a thing is known"
+  },
+  "DcF1gc": {
+    "defaultMessage": ">>> Detailed Display Mode <<<",
+    "description": "[InputSpecificationComponent] a description for the layout mode setting button"
+  },
+  "DnJsgJ": {
+    "defaultMessage": ">>> Variables <<<",
+    "description": "[RepositoryVariablesView] grid column label"
+  },
+  "DptQLT": {
+    "defaultMessage": ">>> Export <<<",
+    "description": "[Common] for the object control - generate a related data file for download"
+  },
+  "Dq459Y": {
+    "defaultMessage": ">>> Shifted Mean: <<<",
+    "description": "[Query] Sensitivity settings - Shifted Mean"
+  },
+  "Dtf4tF": {
+    "defaultMessage": ">>> Entities <<<",
+    "description": "a module/component identification"
+  },
+  "DyYK73": {
+    "defaultMessage": ">>> OK <<<",
+    "description": "[Common] using for the button display. confirm an action or dismiss a message box"
+  },
+  "DyizlF": {
+    "defaultMessage": ">>> Display Chart <<<",
+    "description": "[ModelTable] display chart switcher"
+  },
+  "Dzx3U5": {
+    "defaultMessage": ">>> Export {fileType} <<<",
+    "description": "[Common] for the object control - generate a related data file for download with file type"
+  },
+  "E0SuWZ": {
+    "defaultMessage": ">>> Creating query... <<<",
+    "description": "[Query] Display message for Query is creating"
+  },
+  "E2b2lh": {
+    "defaultMessage": ">>> When a simulation begins. <<<",
+    "description": "describes the notification event"
+  },
+  "E4wez8": {
+    "defaultMessage": ">>> Variables List <<<",
+    "description": "[QueryContextMenu] export sub-item title - a currently variables list file"
+  },
+  "E7sz0b": {
+    "defaultMessage": ">>> Remove Pinned Tooltips <<<",
+    "description": "[highcharts] Tooltip for function Remove Pinned Tooltips"
+  },
+  "EOxzUO": {
+    "defaultMessage": ">>> Canceled <<<",
+    "description": "Signals that the requested operation was canceled"
+  },
+  "EQx2C3": {
+    "defaultMessage": ">>> Format Axis <<<",
+    "description": "[highcharts] Tooltip for button Format Axis"
+  },
+  "ERVFF9": {
+    "defaultMessage": ">>> Append flexible axes <<<",
+    "description": "[BatchExportCustomizeDialog] using append to export flexible axes information"
+  },
+  "EXnOLS": {
+    "defaultMessage": ">>> Total Charge <<<",
+    "description": "[Billing] Billing Report table's header - Total Charge"
+  },
+  "EbQPix": {
+    "defaultMessage": ">>> Hierarchical View <<<",
+    "description": "[SortableCardsPanel] button to toggle hierarchical view which nests folders into an hierarchical folder structure"
+  },
+  "EcdDFW": {
+    "defaultMessage": ">>> Generating simulation results <<<",
+    "description": "[RepositoryMessagesView] message displayed when simulation is running"
+  },
+  "EeCbl1": {
+    "defaultMessage": ">>> Increase Font Size <<<",
+    "description": "[highcharts] Toolbar function - Increase font size on chart"
+  },
+  "EfYeQ0": {
+    "defaultMessage": ">>> Unlock Inputs <<<",
+    "description": "[ApplicationShortCuts] a page lock to avoid the result lost because user change the inputs"
+  },
+  "EfmjRB": {
+    "defaultMessage": ">>> {count} of {total} <<<",
+    "description": "[AccordionPanelToolbarTitle] a panel tool title - display how many item selected"
+  },
+  "EgegKB": {
+    "defaultMessage": ">>> Computation{br}Engines <<<",
+    "description": "[RSSimulation] Description for Computation Engines in simulation running progress"
+  },
+  "Eh+i89": {
+    "defaultMessage": ">>> this <<<",
+    "description": "[OmdbCardBuilder] display 'this' if user not set the section name"
+  },
+  "EhCDoj": {
+    "defaultMessage": ">>> No suggested paths. <<<",
+    "description": "[AddressPath] hit message if no suggestion found"
+  },
+  "EhrLS6": {
+    "defaultMessage": ">>> Supplemental Models <<<",
+    "description": "a module/component identification"
+  },
+  "Ejki/Q": {
+    "defaultMessage": ">>> Switching to '{switchingTo}'... <<<",
+    "description": "[Query] Message for switching to query result"
+  },
+  "ElcEbT": {
+    "defaultMessage": ">>> Millions <<<",
+    "description": "[highcharts] Display unit label in Format Axis - Millions"
+  },
+  "Etc0pP": {
+    "defaultMessage": ">>> User Files <<<",
+    "description": "objectName - UserFile (multi)"
+  },
+  "EyA41N": {
+    "defaultMessage": ">>> Loading {chart} Chart... <<<",
+    "description": "[hightcharts] Loading message while loading chart"
+  },
+  "F14VCh": {
+    "defaultMessage": ">>> Control Panel <<<",
+    "description": "[ControlPanelPage] the page title display on the browser tab, system application menu and the page's top-left button"
+  },
+  "F6PB83": {
+    "defaultMessage": ">>> Variables List (with ampersands) <<<",
+    "description": "[QueryContextMenu] export sub-item title - a currently variables list file (with ampersands)"
+  },
+  "F8hFuk": {
+    "defaultMessage": ">>> Export flexible axes <<<",
+    "description": "[BatchExportCustomizeDialog] export flexible axes information"
+  },
+  "FGexY0": {
+    "defaultMessage": ">>> \"{text}\" copied to clipboard. <<<",
+    "description": "[CopyableText] message after copied a object id to the clipboard"
+  },
+  "FIGbA/": {
+    "defaultMessage": ">>> Type <<<",
+    "description": "Describes the type of file that was uploaded"
+  },
+  "FNwIC4": {
+    "defaultMessage": ">>> Multiple columns were selected for pasting, however the pasted data contains no \"TAB\" characters to separate the data into columns. <<<",
+    "description": "[TableCopier] a confirm message detail"
+  },
+  "FR0g5z": {
+    "defaultMessage": ">>> None <<<",
+    "description": "[Common] The name of a shortcut lets the user select the specific item/items quickly"
+  },
+  "FT4eQg": {
+    "defaultMessage": ">>> Horizontal <<<",
+    "description": "[highcharts] Toolbar function - show only horizontal grid lines in chart"
+  },
+  "FUmh+j": {
+    "defaultMessage": ">>> Bond Default Rate <<<",
+    "description": "[RepositoryVariablesView] selection value for the field type"
+  },
+  "Fb0h4R": {
+    "defaultMessage": ">>> Major <<<",
+    "description": "[highcharts] Label Title for adjusting unit's major in Format Axis"
+  },
+  "FiJ+Ql": {
+    "defaultMessage": ">>> Variables ({variables}) <<<",
+    "description": "[VariablesPanel] the query input panel title"
+  },
+  "FiZI40": {
+    "defaultMessage": ">>> Deleting query... <<<",
+    "description": "[Query] Display message for Query is Deleting"
+  },
+  "Fj/r5o": {
+    "defaultMessage": ">>> Row(s) <<<",
+    "description": "[InputTable] the primary axis label for the table"
+  },
+  "FpPufP": {
+    "defaultMessage": ">>> Drop to upload <<<",
+    "description": "[user file] Drop to upload"
+  },
+  "Ft/MMU": {
+    "defaultMessage": ">>> {logLevel} only <<<",
+    "description": "[RSSimulation] Log filter option text - Custom Log Level Only"
+  },
+  "FtnlQi": {
+    "defaultMessage": ">>> Hours: <<<",
+    "description": "Label for the number of hours a resource has to be on before sending a notification"
+  },
+  "FxVnRS": {
+    "defaultMessage": ">>> File must be selected <<<",
+    "description": "[common] user must selected a file from machine to continue"
+  },
+  "G5HUe5": {
+    "defaultMessage": ">>> Created By <<<",
+    "description": "Label that identifies the name of the person that created an object"
+  },
+  "G7aFV4": {
+    "defaultMessage": ">>> Shifted Standard Deviation: <<<",
+    "description": "[Query] Sensitivity settings - Shifted Standard Deviation"
+  },
+  "G8xYEe": {
+    "defaultMessage": ">>> Click To Set Background Color <<<",
+    "description": "[EditTagValuesDialog] tooltip - Indicates the background color of the user tag's sub-option"
+  },
+  "GAE4Em": {
+    "defaultMessage": ">>> Horizon <<<",
+    "description": "[highcharts] Tooltip title in Through Time Statistics chart - Horizon"
+  },
+  "GAghOj": {
+    "defaultMessage": ">>> Query Tool Variables Layout <<<",
+    "description": "[SettingsTabPanel] section title - Indicates a Query Tool Variables Layout setting block"
+  },
+  "GBvsp8": {
+    "defaultMessage": ">>> Waiting <<<",
+    "description": "[RSSimulation] Computation status legend name - Waiting"
+  },
+  "GIdPGg": {
+    "defaultMessage": ">>> Action <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "GKm90G": {
+    "defaultMessage": ">>> Efficient Frontier Line <<<",
+    "description": "[highcharts] Switch text for toggling Efficient Frontier Line"
+  },
+  "GLwqt/": {
+    "defaultMessage": ">>> Browser <<<",
+    "description": "Browse Objects"
+  },
+  "GMDMT0": {
+    "defaultMessage": ">>> Template <<<",
+    "description": "[NewSimulationDialog] a option for the parameter dropdown"
+  },
+  "GQBU8l": {
+    "defaultMessage": ">>> Selected {count} File <<<",
+    "description": "[user file] Show select one file in user file upload form"
+  },
+  "GXIwCc": {
+    "defaultMessage": ">>> BR <<<",
+    "description": "a country/economy identification"
+  },
+  "GXMYcT": {
+    "defaultMessage": ">>> Computed <<<",
+    "description": "[RSSimulation] Computation status legend name - Computed"
+  },
+  "GXvdqk": {
+    "defaultMessage": ">>> Default tag value needed. <<<",
+    "description": "[EditTagValuesDialog] Indicates the error message if user tag is required but no sub-option set as a default value"
+  },
+  "Gbn8fl": {
+    "defaultMessage": ">>> Quarter <<<",
+    "description": "Indicates the frequency of a simulation."
+  },
+  "GdlYSj": {
+    "defaultMessage": ">>> Reset Zoom Level <<<",
+    "description": "[Highcharts] Toolbar function - Reset zoom level of chart"
+  },
+  "GiDf69": {
+    "defaultMessage": ">>> Enable <<<",
+    "description": "Table header for enabling notification"
+  },
+  "GmehsZ": {
+    "defaultMessage": ">>> Duplicate in same tab <<<",
+    "description": "[ApplicationShortCuts] duplicate the object and open it on this browser tab"
+  },
+  "GnzpoW": {
+    "defaultMessage": ">>> Inputs read <<<",
+    "description": "[RSSimulation] Computation status legend name - Inputs read"
+  },
+  "God8oA": {
+    "defaultMessage": ">>> You query is being deleted... <<<",
+    "description": "[Query] Display message for Query is being deleted"
+  },
+  "GvxAcu": {
+    "defaultMessage": ">>> File <<<",
+    "description": "[Common] a item of user's data"
+  },
+  "H+iqnk": {
+    "defaultMessage": ">>> Rename {followingText} <<<",
+    "description": "[Common] for the object control - rename the object"
+  },
+  "H+z7X7": {
+    "defaultMessage": ">>> Daily (360) <<<",
+    "description": "[RepositoryGeneralView] simulation Frequency names"
+  },
+  "H0aLm3": {
+    "defaultMessage": ">>> Batch Import succeeded with warnings; all blocks imported <<<",
+    "description": "[BatchImportResultsDialog] default message title when data imported but had warnings"
+  },
+  "H0x8fz": {
+    "defaultMessage": ">>> Identification <<<",
+    "description": "[hightcharts] Tooltip title in chart - Identification"
+  },
+  "H2mnYX": {
+    "defaultMessage": ">>> Toggle Filter Sidebar <<<",
+    "description": "[SortableCardsPanel] toggle button text - show/hide the sidebar"
+  },
+  "HAvMd7": {
+    "defaultMessage": ">>> All Tests Passed! <<<",
+    "description": "[ReportsSummaryView] all tests passed"
+  },
+  "HFpH7I": {
+    "defaultMessage": ">>> Sensitivity is not supported for this view <<<",
+    "description": "[Query] Message for query result view which doesn't support sensitivity"
+  },
+  "HGLORe": {
+    "defaultMessage": ">>> Overwrite matching existing row(s) <<<",
+    "description": "[CombinatorialAddRows] Overwrite matching existing rows on the target table"
+  },
+  "HM0Bsk": {
+    "defaultMessage": ">>> Formatting <<<",
+    "description": "[InputSpecificationComponent] a dropdown button and it includes some option for customize layout"
+  },
+  "HOg2Ji": {
+    "defaultMessage": ">>> Remove Column \"{displayText}\" <<<",
+    "description": "[OmdbTableBuilder] remove the tag from the object browser table"
+  },
+  "HRj0Qt": {
+    "defaultMessage": ">>> Efficient Frontier Points <<<",
+    "description": "[highcharts] Switch text for toggling Efficient Frontier Points"
+  },
+  "HT7xkQ": {
+    "defaultMessage": ">>> Deleting all axis values is not allowed <<<",
+    "description": "[FlexibleAxesEditor] delete coordinate(s) button tooltip"
+  },
+  "HTxzHU": {
+    "defaultMessage": ">>> Save {followingText} <<<",
+    "description": "[Common] for the object control - save an object configuration"
+  },
+  "HX2wcg": {
+    "defaultMessage": ">>> Table <<<",
+    "description": "[OmdbTagsEditor] table column - set this tag can show on the object browser table view"
+  },
+  "HYv/c3": {
+    "defaultMessage": ">>> Report... <<<",
+    "description": "View Billing Report"
+  },
+  "HZwbLt": {
+    "defaultMessage": ">>> Select All <<<",
+    "description": "[Common] The name of a shortcut lets the user select the specific item/items quickly"
+  },
+  "HgDO16": {
+    "defaultMessage": ">>> Download <<<",
+    "description": "[InstallerDownloadPage] download application button text"
+  },
+  "HiT2gC": {
+    "defaultMessage": ">>> Please proceed to results. <<<",
+    "description": "[RSSimulation] message box description for the firm object simulated"
+  },
+  "Hp7afe": {
+    "defaultMessage": ">>> Jump Down <<<",
+    "description": "[NavigationTree] move axis coordinate at tree node contextmenu"
+  },
+  "HsjpUt": {
+    "defaultMessage": ">>> New {followingText} <<<",
+    "description": "[Common] for the object control - new a object"
+  },
+  "HudRX2": {
+    "defaultMessage": ">>> Add New <<<",
+    "description": "[InputTable] add a new column"
+  },
+  "HwzkeV": {
+    "defaultMessage": ">>> All <<<",
+    "description": "[Common] The name of a shortcut lets the user select the specific item/items quickly"
+  },
+  "HxBrXP": {
+    "defaultMessage": ">>> Column <<<",
+    "description": "[InputTable] the primary axis label for the table (single)"
+  },
+  "IAMjKR": {
+    "defaultMessage": ">>> Open <<<",
+    "description": "Open a object"
+  },
+  "IC2IJv": {
+    "defaultMessage": ">>> Loading Economic Scenario Generator Session Failed <<<",
+    "description": "[RSSimulationApplication] Application Failed Message - load object failed."
+  },
+  "ID47UM": {
+    "defaultMessage": ">>> With <<<",
+    "description": "[Common] The name of a shortcut lets the user select the specific item/items quickly"
+  },
+  "IDfcYo": {
+    "defaultMessage": ">>> Loading {objName} Session Failed <<<",
+    "description": "[common] Application Failed Message - load object failed."
+  },
+  "IKhL0G": {
+    "defaultMessage": ">>> Apply latest template as part of roll-forward process <<<",
+    "description": "[RollForwardDialog] action about apply latest template to the simulation"
+  },
+  "IM3WdG": {
+    "defaultMessage": ">>> Monthly (12) <<<",
+    "description": "[RepositoryGeneralView] simulation Frequency names"
+  },
+  "INMwBM": {
+    "defaultMessage": ">>> Flip Vertical Axis <<<",
+    "description": "[highcharts] Toolbar function - Flip Vertical axis in chart"
+  },
+  "IPcxHA": {
+    "defaultMessage": ">>> account <<<",
+    "description": "[SettingsTabPanel] Indicates the page sub title, and show account name - account link text part"
+  },
+  "ISuJjY": {
+    "defaultMessage": ">>> Notification Type <<<",
+    "description": "Table header for the type of notification"
+  },
+  "ISxe64": {
+    "defaultMessage": ">>> If checked, the template information for the latest template on or before the roll-forward date will be included in the roll-forward process. <<<",
+    "description": "[RollForwardDialog] message to describe what is apply latest template"
+  },
+  "IWgKMx": {
+    "defaultMessage": ">>> Creating {objName}... <<<",
+    "description": "[Common] the message let user know the object is creating"
+  },
+  "IXkbrp": {
+    "defaultMessage": ">>> No errors or warnings <<<",
+    "description": "[ValidationSidebar] no any message this time"
+  },
+  "Idddsa": {
+    "defaultMessage": ">>> Not Complete <<<",
+    "description": "[Common] Signals that a process has not completed"
+  },
+  "IjUo4s": {
+    "defaultMessage": ">>> Copy Special <<<",
+    "description": "[Query] Pivot table context menu function - Copy Special"
+  },
+  "IkAZkq": {
+    "defaultMessage": ">>> Remove Slot <<<",
+    "description": "[SimulationContextMenu] remove the selected slots"
+  },
+  "IsvpAv": {
+    "defaultMessage": ">>> Hide Regression Line <<<",
+    "description": "[highcharts] Tooltip for hide regression line in chart"
+  },
+  "IuBGUP": {
+    "defaultMessage": ">>> Notes <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "Iuk/YM": {
+    "defaultMessage": ">>> A valid query-result must be specified to switch to '{viewName} <<<",
+    "description": "[Query] Message for switching to query result view but no valid query result is available"
+  },
+  "IzSQTT": {
+    "defaultMessage": ">>> An upload is in progress ... <<<",
+    "description": "[user file] An upload is in progress ..."
+  },
+  "J3JboO": {
+    "defaultMessage": ">>> CN <<<",
+    "description": "a country/economy identification"
+  },
+  "J6BRa8": {
+    "defaultMessage": ">>> No Results Available <<<",
+    "description": "[RepositoryMessagesView] message displayed when simulation not run yet"
+  },
+  "J86XnD": {
+    "defaultMessage": ">>> Manage Tags <<<",
+    "description": "[OmdbAdminPage] tab text - Indicates page which list the system tag and user tag and mange it"
+  },
+  "JAD3sf": {
+    "defaultMessage": ">>> Parameters Basis <<<",
+    "description": "[NewSimulationDialog] input field name - Parameters Basis"
+  },
+  "JHmQAO": {
+    "defaultMessage": ">>> Medium <<<",
+    "description": "[highcharts] Smooth level text - medium for chart rendering"
+  },
+  "JIyRDJ": {
+    "defaultMessage": ">>> Inputs locked while simulating. <<<",
+    "description": "[RSSimulationApplication][RSSimulationLockCover] inputs on the page are locked message"
+  },
+  "JKQDIQ": {
+    "defaultMessage": ">>> Bin Width <<<",
+    "description": "[highcharts] Tooltip for smooth degree setting in histogram chart"
+  },
+  "JR4/iL": {
+    "defaultMessage": ">>> No Selected {rowOrColumnLabel} <<<",
+    "description": "[InputTable] delete failed message."
+  },
+  "JVELQm": {
+    "defaultMessage": ">>> Probability Density Function <<<",
+    "description": "[hightcharts] Probability Density Function Chart"
+  },
+  "JaCcw3": {
+    "defaultMessage": ">>> Frequencies <<<",
+    "description": "Label for the frequencies (monthly, yearly, etc) were simulated"
+  },
+  "JbcKkK": {
+    "defaultMessage": ">>> Layout <<<",
+    "description": "[OmdbAdminPage] tab text - Indicates page which mange card and table layout on the object browser"
+  },
+  "JdeZiC": {
+    "defaultMessage": ">>> Charge Type <<<",
+    "description": "[Billing] Billing Report table's header - Charge Type"
+  },
+  "Jdjtcd": {
+    "defaultMessage": ">>> Total CPU Time <<<",
+    "description": "[Billing] Billing Report table's header - Total CPU Time"
+  },
+  "JfZRob": {
+    "defaultMessage": ">>> Unlock <<<",
+    "description": "[Common] the object page ctrl - to disable the page lock which is used to avoid the result lost"
+  },
+  "JfvqfA": {
+    "defaultMessage": ">>> Active Workspace <<<",
+    "description": "[ActiveItems] a panel title"
+  },
+  "Jg+z9r": {
+    "defaultMessage": ">>> Reference Standard Deviation: <<<",
+    "description": "[Query] Sensitivity settings - Reference Standard Deviation"
+  },
+  "JhV3wy": {
+    "defaultMessage": ">>> Collapse All <<<",
+    "description": "[Common] The name of a shortcut lets the user select the specific item/items quickly"
+  },
+  "JlR/IV": {
+    "defaultMessage": ">>> Creating New Simulation... <<<",
+    "description": "[user file] Creating New Simulation"
+  },
+  "Joi3O9": {
+    "defaultMessage": ">>> Annual <<<",
+    "description": "[common] a option for the periodicity"
+  },
+  "JrI1EG": {
+    "defaultMessage": ">>> Blocks <<<",
+    "description": "[BatchImportResultsDialog] one of navigate way for detail result"
+  },
+  "JzoGyK": {
+    "defaultMessage": ">>> corresponds to a template. <<<",
+    "description": "[RollForwardDialog] message to describe why apply latest template not working (after)"
+  },
+  "K0zzr1": {
+    "defaultMessage": ">>> Uploading Files... ({totalFilesCount}/{totalFilesCount}) <<<",
+    "description": "[user file] More than one file are uploading"
+  },
+  "K9YA75": {
+    "defaultMessage": ">>> Individual Securities <<<",
+    "description": "a module/component identification"
+  },
+  "KCnfFf": {
+    "defaultMessage": ">>> Value <<<",
+    "description": "[EditTagValuesDialog] column - Indicates the value of the user tag's sub-option"
+  },
+  "KItlk9": {
+    "defaultMessage": ">>> Indentation: <<<",
+    "description": "[InputSpecificationComponent] a layout format option"
+  },
+  "KIwU49": {
+    "defaultMessage": ">>> {productName} software products use or incorporate third party software and other copyright material that are subject to the acknowledgements and terms set out below. <<<",
+    "description": "[SoftwareNoticesPage] description of this notice page. let user know they can find the materials below"
+  },
+  "KTMCg3": {
+    "defaultMessage": ">>> Inputs saved <<<",
+    "description": "[RSSimulation] Manager status detail name - Inputs saved"
+  },
+  "KVvTYw": {
+    "defaultMessage": ">>> Sort Coordinates Alphabetically Descending <<<",
+    "description": "[FlexibleAxesEditor] sorting selected items"
+  },
+  "KXo1W7": {
+    "defaultMessage": ">>> Separate Tables by Default <<<",
+    "description": "[AxisOrganizer] axis organization group title"
+  },
+  "KZDAdw": {
+    "defaultMessage": ">>> Special... <<<",
+    "description": "[NavigationTree] export customize FIRM parameters data"
+  },
+  "KaoJUf": {
+    "defaultMessage": ">>> Billing <<<",
+    "description": "[ApplicationMenu] MenuDivider - Browse Billing Report"
+  },
+  "KbBgre": {
+    "defaultMessage": ">>> Waiting for Upload. <<<",
+    "description": "[user file] Waiting for Upload."
+  },
+  "Kf1CKy": {
+    "defaultMessage": ">>> Duration (DDD:HH:MM) <<<",
+    "description": "[Billing] Billing Report table's header - Duration (DDD:HH:MM)"
+  },
+  "KgQMkq": {
+    "defaultMessage": ">>> Probability Density <<<",
+    "description": "[hightcharts] Tooltip value in chart - Probability Density"
+  },
+  "Kgytsx": {
+    "defaultMessage": ">>> Data Order... <<<",
+    "description": "[InputTable] the tooltip text for the reorder records by column button"
+  },
+  "Kl5zZx": {
+    "defaultMessage": ">>> IL <<<",
+    "description": "a country/economy identification"
+  },
+  "Km/YyG": {
+    "defaultMessage": ">>> Column(s) <<<",
+    "description": "[InputTable] the primary axis label for the table"
+  },
+  "KokIDt": {
+    "defaultMessage": ">>> Cancel <<<",
+    "description": "[Common] for the object control - cancel generate the result"
+  },
+  "Ktv1VI": {
+    "defaultMessage": ">>> Reduce Line Size <<<",
+    "description": "[highcharts] Tooltip of reducing line size in Line size Toolbar"
+  },
+  "L1lvWj": {
+    "defaultMessage": ">>> Output loaded <<<",
+    "description": "[RSSimulation] Computation status legend name - Output loaded"
+  },
+  "L8lcJu": {
+    "defaultMessage": ">>> Increase Marker Size <<<",
+    "description": "[hightcharts] Tooltip for increase marker size function"
+  },
+  "LH7/1X": {
+    "defaultMessage": ">>> Add Tag... <<<",
+    "description": "[OmdbCardBuilder] a note message - add a tag to the card section group"
+  },
+  "LO7g4+": {
+    "defaultMessage": ">>> Available Axes <<<",
+    "description": "[AxisOrganizer] axis organization group title"
+  },
+  "LOB4AC": {
+    "defaultMessage": ">>> Validation Sidebar <<<",
+    "description": "[Common] a sidebar which show the validation messages"
+  },
+  "LOteEd": {
+    "defaultMessage": ">>> Older Versions <<<",
+    "description": "[InstallerDownloadPage] drawer trigger, will show the older version application download links"
+  },
+  "LQWF/M": {
+    "defaultMessage": ">>> Starting Period <<<",
+    "description": "[RepositoryGeneralView] text input label"
+  },
+  "LRQnR3": {
+    "defaultMessage": ">>> Point <<<",
+    "description": "[hightcharts] Tooltip value in chart - Point"
+  },
+  "LSX1Fc": {
+    "defaultMessage": ">>> Group Identification <<<",
+    "description": "[highcharts] Tooltip title in bar chart - Group Identification"
+  },
+  "LSsBtw": {
+    "defaultMessage": ">>> Contact {productName} Support <<<",
+    "description": "[ApplicationMenu] Indicates menu item which show the ways to get the supports"
+  },
+  "LSvWFX": {
+    "defaultMessage": ">>> File loaded successfully <<<",
+    "description": "[RepositoryGeneralView] file status when system load in"
+  },
+  "LUe+8k": {
+    "defaultMessage": ">>> Favorite this item <<<",
+    "description": "[FavoriteIndicator] Tooltip for a button that marks this object as a favorite (rank higher than other items)"
+  },
+  "LdqBOk": {
+    "defaultMessage": ">>> Deactivate <<<",
+    "description": "[NavigationTree] Deactivate axis coordinate at tree node contextmenu"
+  },
+  "LfN346": {
+    "defaultMessage": ">>> Show Timestamp <<<",
+    "description": "[RSSimulation] Button text for switch that toggle timestamp of logs"
+  },
+  "Lfsyiw": {
+    "defaultMessage": ">>> Remove {followingText} <<<",
+    "description": "[Common] for the object control - remove the object"
+  },
+  "LiUWrt": {
+    "defaultMessage": ">>> Worker Manager Apps <<<",
+    "description": "[ControlPanelPage] tab text - a page shows working applications on the back-end"
+  },
+  "Ljw0cm": {
+    "defaultMessage": ">>> Batch Export <<<",
+    "description": "[BatchExportProgressDialog] dialog title"
+  },
+  "LptEGk": {
+    "defaultMessage": ">>> TW <<<",
+    "description": "a country/economy identification"
+  },
+  "LqVTLz": {
+    "defaultMessage": ">>> Multiple <<<",
+    "description": "[OmdbTagsEditor] table column - set this user tag can choose multi-value or not"
+  },
+  "LsoMI4": {
+    "defaultMessage": ">>> Import {fileType} <<<",
+    "description": "[Common] for the object control - load a related data file with file type"
+  },
+  "LtCfsL": {
+    "defaultMessage": ">>> Total Size: {size} <<<",
+    "description": "[user file] Total Upload Files Size."
+  },
+  "Lx90GL": {
+    "defaultMessage": ">>> Annually (1) <<<",
+    "description": "[RepositoryGeneralView] simulation Frequency names"
+  },
+  "LxorwO": {
+    "defaultMessage": ">>> Display Unit <<<",
+    "description": "[highcharts] Label Title for adjusting diplay unit in Format Axis"
+  },
+  "LyNOoM": {
+    "defaultMessage": ">>> Insert Axis Coordinate(s) Before <<<",
+    "description": "[FlexibleAxesEditor] insert multiple coordinates to the axis"
+  },
+  "LzgKEl": {
+    "defaultMessage": ">>> {second} seconds <<<",
+    "description": "[user file] More than One Second"
+  },
+  "M+Q4dq": {
+    "defaultMessage": ">>> Smoothing: <<<",
+    "description": "[highcharts] Input label for smooth degree setting"
+  },
+  "M3+OIH": {
+    "defaultMessage": ">>> With <<<",
+    "description": "[Query] Pivot table context menu function - With"
+  },
+  "M5j+MA": {
+    "defaultMessage": ">>> Result <<<",
+    "description": "[Common] a consequence, effect, or outcome of something."
+  },
+  "M7TfcY": {
+    "defaultMessage": ">>> This is a Favorite <<<",
+    "description": "[FavoriteIndicator] Tooltip that indicates that the object is a favorite (ranked higher than other items)"
+  },
+  "MAaBxM": {
+    "defaultMessage": ">>> Run simulation to generate output files. <<<",
+    "description": "[RSSimulationEmptyOutput] the message box description for output page ask run simulation first"
+  },
+  "MB1y91": {
+    "defaultMessage": ">>> Mutates <<<",
+    "description": "[OmdbTagsEditor] table column - set this user tag can modify"
+  },
+  "MGBNs2": {
+    "defaultMessage": ">>> Database <<<",
+    "description": "[RSSimulation] Database status in simulation running progress"
+  },
+  "MGfE3m": {
+    "defaultMessage": ">>> Batch Import <<<",
+    "description": "[Common] to import specifications file"
+  },
+  "MI5bhw": {
+    "defaultMessage": ">>> Batch Import Result <<<",
+    "description": "[BatchImportResultsDialog] dialog title"
+  },
+  "MXPCO5": {
+    "defaultMessage": ">>> Computation inputs read <<<",
+    "description": "[RSSimulation] Message for Simulation Running Status Summary - Computation inputs read"
+  },
+  "McLU8e": {
+    "defaultMessage": ">>> (No data available) <<<",
+    "description": "[UseCaseViewer] Text for no avilable data in output page"
+  },
+  "Me+TA6": {
+    "defaultMessage": ">>> Step by Step <<<",
+    "description": "[RSSimulationContextMenu] a mode about how the simulation navigated page"
+  },
+  "Mjpdw+": {
+    "defaultMessage": ">>> Info <<<",
+    "description": "[Common] The filter name to filter log messages - Info"
+  },
+  "MsHzDu": {
+    "defaultMessage": ">>> Value <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "MtalYx": {
+    "defaultMessage": ">>> File Size <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "N6wnCd": {
+    "defaultMessage": ">>> Except <<<",
+    "description": "[Common] The name of a shortcut lets the user select the specific item/items quickly"
+  },
+  "N8Elq4": {
+    "defaultMessage": ">>> Single Axis Options <<<",
+    "description": "[RepositoryGeneralView] input group title"
+  },
+  "NGKdIR": {
+    "defaultMessage": ">>> Modifying a completed {objectTypeName} after unlocking will delete the output results. <<<",
+    "description": "[unlockInputsConfirm] conform dialog message: to disable the page lock which is used to avoid the result lost"
+  },
+  "NJmpcI": {
+    "defaultMessage": ">>> Generating {userFile}... <<<",
+    "description": "[BatchExportProgressDialog] message while system writing export file"
+  },
+  "NMqdnW": {
+    "defaultMessage": ">>> Restore default setting <<<",
+    "description": "[recalibration][ModelTree] menu tree contextmenu for operate axis organization"
+  },
+  "NYB075": {
+    "defaultMessage": ">>> Seed: <<<",
+    "description": "[Query] Bootstrap settings - Seed"
+  },
+  "Na3YSf": {
+    "defaultMessage": ">>> Stored Queries <<<",
+    "description": "[StoredQueries] a panel title"
+  },
+  "NaMml0": {
+    "defaultMessage": ">>> Zoom In <<<",
+    "description": "[Highcharts] Toolbar function - Zoom in chart"
+  },
+  "NanmrP": {
+    "defaultMessage": ">>> All <<<",
+    "description": "[Query] Pivot table context menu function - All"
+  },
+  "Nb5jUo": {
+    "defaultMessage": ">>> Get Template... <<<",
+    "description": "[GetTemplateDialog] dialog title when the file is uploading and importing"
+  },
+  "Nb7abH": {
+    "defaultMessage": ">>> Linked Objects <<<",
+    "description": "[RelatedObjectBrowser] Title to indicate that the objects browser is showing linked/related objects"
+  },
+  "Ndg8zI": {
+    "defaultMessage": ">>> Use Case <<<",
+    "description": "Label for a value that describes a particular UI work flow or use case that the simulation inputs and outputs should highlight"
+  },
+  "NiuXBL": {
+    "defaultMessage": ">>> Run (Generate Results) <<<",
+    "description": "[RepositoryContextMenu] execute simulation for result - with description"
+  },
+  "NkXrim": {
+    "defaultMessage": ">>> Empty Section Name <<<",
+    "description": "[OmdbCardBuilder] Indicates default message if user not set the section group name"
+  },
+  "NpOp37": {
+    "defaultMessage": ">>> File failed to load <<<",
+    "description": "[RepositoryGeneralView] file status when system load in"
+  },
+  "NwNftX": {
+    "defaultMessage": ">>> Detail View <<<",
+    "description": "[InputTable] the detail view mode switcher"
+  },
+  "O2AI9y": {
+    "defaultMessage": ">>> Browse Simulations... <<<",
+    "description": "[SimulationContextMenu] action for change to the object browser"
+  },
+  "O3wnmK": {
+    "defaultMessage": ">>> All to Rows <<<",
+    "description": "[Query] Tooltip for All to Rows function"
+  },
+  "O5EgOE": {
+    "defaultMessage": ">>> click here <<<",
+    "description": "[InstallerDownloadPage] Indicates return homepage messages - link text"
+  },
+  "O5bVAG": {
+    "defaultMessage": ">>> Row Series <<<",
+    "description": "[query] Correlation Maxtrix Tooltip Content - Row Series"
+  },
+  "O8frR6": {
+    "defaultMessage": ">>> Remove Tag <<<",
+    "description": "[OmdbCardBuilder] button text - remove the tag from the card section group"
+  },
+  "O9nrEO": {
+    "defaultMessage": ">>> Show Statistics <<<",
+    "description": "[Query] Tooltip for show statistics button"
+  },
+  "OALFU3": {
+    "defaultMessage": ">>> Grid <<<",
+    "description": "[Billing] Billing Report table's header - Grid"
+  },
+  "OEUEKu": {
+    "defaultMessage": ">>> Delivered To <<<",
+    "description": "Email address or phone number where the notification was sent"
+  },
+  "OKNT5i": {
+    "defaultMessage": ">>> Run {query} <<<",
+    "description": "[QueryCard] tooltip for a button to run/start a query"
+  },
+  "OOclv6": {
+    "defaultMessage": ">>> Object Type(s) for Tag '{tagName}' <<<",
+    "description": "[OmdbTagsEditor] Indicates context menu's top, show current tag name"
+  },
+  "OPGOTx": {
+    "defaultMessage": ">>> This month <<<",
+    "description": "[Billing] Date Picker's shortcut - This month"
+  },
+  "OTdNc6": {
+    "defaultMessage": ">>> by Severity by Row <<<",
+    "description": "[BatchImportResultsDialog] one of sort type for detail messages"
+  },
+  "OVjEdA": {
+    "defaultMessage": ">>> Support <<<",
+    "description": "[ApplicationMenu] Indicates menu sub-group title - Support"
+  },
+  "OaSSX6": {
+    "defaultMessage": ">>> View Result <<<",
+    "description": "[QueryCard] tooltip for button to view the query object results"
+  },
+  "Obtmww": {
+    "defaultMessage": ">>> Portfolios <<<",
+    "description": "a module/component identification"
+  },
+  "OdtmRQ": {
+    "defaultMessage": ">>> Run simulation to generate results. <<<",
+    "description": "[RepositoryMessagesView] result status description when simulation not run yet"
+  },
+  "Oj5FHu": {
+    "defaultMessage": ">>> Starting... <<<",
+    "description": "[Common] the message let user know the system is starting the progress"
+  },
+  "OjNqYV": {
+    "defaultMessage": ">>> Units <<<",
+    "description": "[highcharts] Title for adjusting units in Format Axis"
+  },
+  "OkdtVV": {
+    "defaultMessage": ">>> Open \"{simName}\" in New Tab <<<",
+    "description": "[SimulationContextMenu]  open selected simulation in a new browser tab"
+  },
+  "OlvDz5": {
+    "defaultMessage": ">>> Download <<<",
+    "description": "[ApplicationMenu] Indicates menu sub-group title - Download"
+  },
+  "OorvP/": {
+    "defaultMessage": ">>> Edit Tag Values <<<",
+    "description": "[OmdbTagsEditor] open a dialog which can mange the user tag's sub-options' detail"
+  },
+  "P2ZyHc": {
+    "defaultMessage": ">>> Reports <<<",
+    "description": "sub-object name - Reports (multi)"
+  },
+  "P6RN7x": {
+    "defaultMessage": ">>> Cycle Asset Grouping <<<",
+    "description": "[highcharts] Tooltip for Cycle Asset Grouping"
+  },
+  "P9zlS8": {
+    "defaultMessage": ">>> Actions <<<",
+    "description": "table header that says indicates that the column represents actions (rename, delete, etc) against an object"
+  },
+  "PBGhE4": {
+    "defaultMessage": ">>> Output Frequency <<<",
+    "description": "[RepositoryGeneralView] text input label"
+  },
+  "PHQ6Zl": {
+    "defaultMessage": ">>> Field Type <<<",
+    "description": "[RepositoryVariablesView] grid column label"
+  },
+  "PHkJkm": {
+    "defaultMessage": ">>> Duration <<<",
+    "description": "[hightcharts] Tooltip value in chart - Duration"
+  },
+  "PK0IMZ": {
+    "defaultMessage": ">>> Periodicity <<<",
+    "description": "[ParameterTemplateOptions] a field name for the FRIM's creating inputs"
+  },
+  "PXDi3x": {
+    "defaultMessage": ">>> Upload is almost finished ... <<<",
+    "description": "[user file] Upload is almost finished."
+  },
+  "PYaf/v": {
+    "defaultMessage": ">>> Append module selections <<<",
+    "description": "[BatchExportCustomizeDialog] using append to export module selections information"
+  },
+  "PZFp4p": {
+    "defaultMessage": ">>> Your query could not be loaded. <<<",
+    "description": "[Query] Message for failing to load query result"
+  },
+  "Pan8Qb": {
+    "defaultMessage": ">>> When a grid is powered off. <<<",
+    "description": "describes the notification event"
+  },
+  "PfG/Mw": {
+    "defaultMessage": ">>> You are logged in as <<<",
+    "description": "[SettingsTabPanel] section description - Indicates login block if can not load the user information"
+  },
+  "Ph1fCx": {
+    "defaultMessage": ">>> Collapsed (Vertical) <<<",
+    "description": "[QueryContextMenu] Variables Layout sub-item title - Query Tool Variables Layout - Vertical"
+  },
+  "PiD2Uo": {
+    "defaultMessage": ">>> Action <<<",
+    "description": "[Common] using for the object browser column name, the column contains some action buttons."
+  },
+  "PiQrmP": {
+    "defaultMessage": ">>> Loading Default Settings... <<<",
+    "description": "[RSSimulation] Loading message for loading batch import default settings"
+  },
+  "PmeVIp": {
+    "defaultMessage": ">>> Errors exist below <<<",
+    "description": "[RepositoryApplicationBarItems] simulation had error during generate the result"
+  },
+  "PmkZf6": {
+    "defaultMessage": ">>> New <<<",
+    "description": "Create a new object"
+  },
+  "PmtxEf": {
+    "defaultMessage": ">>> Optimization Distance Search Points <<<",
+    "description": "[highcharts] Switch text for toggling Optimization Distance Search Points"
+  },
+  "Pp82Us": {
+    "defaultMessage": ">>> Add Tag <<<",
+    "description": "[OmdbTagsEditor] add a new user tag that to be used to tag/identify system objects"
+  },
+  "Pp8OVz": {
+    "defaultMessage": ">>> Past month <<<",
+    "description": "[Billing] Date Picker's shortcut - Past month"
+  },
+  "Prqb1E": {
+    "defaultMessage": ">>> Are you sure you want to delete the {name} with ID: {id}? <<<",
+    "description": "[WorkerManager] confirm message before delete an application"
+  },
+  "PsSrkQ": {
+    "defaultMessage": ">>> Billing <<<",
+    "description": "Billing Card Title"
+  },
+  "PvQxej": {
+    "defaultMessage": ">>> File must be JSON <<<",
+    "description": "[NewSimulationDialog] error message - the file user selected must be a .JSON file"
+  },
+  "PwwbdY": {
+    "defaultMessage": ">>> System Events <<<",
+    "description": "Grouping for all events that originates from the system/infrastructure"
+  },
+  "PxPf5I": {
+    "defaultMessage": ">>> User File <<<",
+    "description": "objectName - UserFile (single)"
+  },
+  "Q+sfVO": {
+    "defaultMessage": ">>> Copy <<<",
+    "description": "[Query] Pivot table context menu function - Copy"
+  },
+  "Q/5JzM": {
+    "defaultMessage": ">>> Query Server <<<",
+    "description": "[Query] Query run step title - Query Server"
+  },
+  "Q0FBzB": {
+    "defaultMessage": ">>> Simulation <<<",
+    "description": "objectName - Simulation (single)"
+  },
+  "Q3UzI6": {
+    "defaultMessage": ">>> in file {file} <<<",
+    "description": "[RepoTool] file information in the failure message"
+  },
+  "Q3gANw": {
+    "defaultMessage": ">>> Arrangement: <<<",
+    "description": "[Query] Label text for correlation table's operations toolbar"
+  },
+  "Q6ZcDW": {
+    "defaultMessage": ">>> Please <<<",
+    "description": "[InstallerDownloadPage] Indicates return homepage messages - before the link"
+  },
+  "QAVhjU": {
+    "defaultMessage": ">>> CZ <<<",
+    "description": "a country/economy identification"
+  },
+  "QNhfc3": {
+    "defaultMessage": ">>> Accounting <<<",
+    "description": "a module/component identification"
+  },
+  "QOZ1Lr": {
+    "defaultMessage": ">>> Simulate <<<",
+    "description": "[RSSimulationContextMenu] execute progress for get result"
+  },
+  "QSSABH": {
+    "defaultMessage": ">>> Profile <<<",
+    "description": "page title"
+  },
+  "QTcJjE": {
+    "defaultMessage": ">>> Scenarios <<<",
+    "description": "[ScenariosPanel] the query input panel title"
+  },
+  "QTfiw5": {
+    "defaultMessage": ">>> {itemCount, plural, =0 {no Items} one {1 Item} other {{itemCount} Items}} <<<",
+    "description": "[FolderCard] the number of objects/items in a folder"
+  },
+  "QV/iy0": {
+    "defaultMessage": ">>> Data Elements (Billions) <<<",
+    "description": "[Billing] Billing Report table's header - Data Elements (Billions)"
+  },
+  "QcmBho": {
+    "defaultMessage": ">>> Clear console <<<",
+    "description": "[RSSimulation] Tooltip for clearing log messages"
+  },
+  "QiQ9ll": {
+    "defaultMessage": ">>> Catastrophe <<<",
+    "description": "a module/component identification"
+  },
+  "QsAPNb": {
+    "defaultMessage": ">>> Machine <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "QvJxSN": {
+    "defaultMessage": ">>> Cone <<<",
+    "description": "[hightcharts] Cone Chart"
+  },
+  "R7Oxxt": {
+    "defaultMessage": ">>> Daily (365) <<<",
+    "description": "[RepositoryGeneralView] simulation Frequency names"
+  },
+  "R7YbGd": {
+    "defaultMessage": ">>> Compound <<<",
+    "description": "[RepositoryVariablesView] selection value for the time aggregator"
+  },
+  "R9IJdD": {
+    "defaultMessage": ">>> Append to Recent File <<<",
+    "description": "[NavigationTree] export FIRM parameters to a existing file and download"
+  },
+  "RBKlKu": {
+    "defaultMessage": ">>> SVG <<<",
+    "description": "[Common] a SVG image file"
+  },
+  "RDtvcQ": {
+    "defaultMessage": ">>> File <<<",
+    "description": "[user file] File"
+  },
+  "RFxHCV": {
+    "defaultMessage": ">>> Simulation Summary Status <<<",
+    "description": "[RSSimulation] Title for Simulation Summary Status in simulation running progress"
+  },
+  "RIKlDi": {
+    "defaultMessage": ">>> Collapse <<<",
+    "description": "[Common] The name of a shortcut lets the user select the specific item/items quickly"
+  },
+  "RIgGiL": {
+    "defaultMessage": ">>> Data Storage Charge <<<",
+    "description": "[Billing] Billing Report table's header - Data Storage Charge"
+  },
+  "RLlMuW": {
+    "defaultMessage": ">>> Series Identification <<<",
+    "description": "[hightcharts] Tooltip title in chart - Series Identification"
+  },
+  "RLnb6Y": {
+    "defaultMessage": ">>> Uploading File... ({uploadedFilesCount}/{totalFilesCount}) <<<",
+    "description": "[user file] One file is uploading"
+  },
+  "ROdRNf": {
+    "defaultMessage": ">>> Error <<<",
+    "description": "[RepositoryMessagesView] the type of the failure message"
+  },
+  "RRWl8S": {
+    "defaultMessage": ">>> Ongoing Storage Charge per Day <<<",
+    "description": "[Billing] Billing Report table's header - Ongoing Storage Charge per Day"
+  },
+  "RVJfQP": {
+    "defaultMessage": ">>> {objectName} Chooser <<<",
+    "description": "[ObjectChooser] default dialog title"
+  },
+  "RWKI1p": {
+    "defaultMessage": ">>> Run Sensitivity <<<",
+    "description": "[Query] Button text for changing Query Result by settings of sensivitiy"
+  },
+  "RaZHSE": {
+    "defaultMessage": ">>> Series <<<",
+    "description": "[ModelChart] chart advance setting path name for the y axis"
+  },
+  "RipBQl": {
+    "defaultMessage": ">>> Me <<<",
+    "description": "[SortableCardsPanel] navbar filter - the objects related with me"
+  },
+  "RqOvCw": {
+    "defaultMessage": ">>> Computation <<<",
+    "description": "[RSSimulation] Title for Computation in Simulation Running Progress"
+  },
+  "Rr9xiH": {
+    "defaultMessage": ">>> Include in Results <<<",
+    "description": "[RepositoryVariablesView] grid column label"
+  },
+  "S/e6Pm": {
+    "defaultMessage": ">>> View <<<",
+    "description": "[NoteEditor] switch mode to view"
+  },
+  "S3V8OV": {
+    "defaultMessage": ">>> User File Browser <<<",
+    "description": "[user file] User File Browser"
+  },
+  "S49Nw0": {
+    "defaultMessage": ">>> Loading pivot information... <<<",
+    "description": "[Query] Message for loading pivot table information"
+  },
+  "SQ0A0d": {
+    "defaultMessage": ">>> Close Similar <<<",
+    "description": "[NavigationTree] collapse all coordinates with same axis at tree node contextmenu"
+  },
+  "SRFIgB": {
+    "defaultMessage": ">>> Combinatorial Add Rows <<<",
+    "description": "[CombinatorialAddRows] dialog title"
+  },
+  "SUB+XA": {
+    "defaultMessage": ">>> Save Date <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "SUXpHa": {
+    "defaultMessage": ">>> &nbsp;&nbsp;Upload Completed. <<<",
+    "description": "[user file] Upload Completed."
+  },
+  "SV/Ys5": {
+    "defaultMessage": ">>> Economies <<<",
+    "description": "Label for the economies (US, UK, CN, etc) that were simulated"
+  },
+  "SVA9z7": {
+    "defaultMessage": ">>> Select Statistics <<<",
+    "description": "[Query] Function name for Select Statistics"
+  },
+  "SXy9Mq": {
+    "defaultMessage": ">>> Updates <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "Sacl/H": {
+    "defaultMessage": ">>> Previous <<<",
+    "description": "[Common] the object page ctrl - happening or existing before something or someone else"
+  },
+  "ScC5v3": {
+    "defaultMessage": ">>> Loading Output Views... <<<",
+    "description": "[ReportsOutputPage] waiting for loading views data"
+  },
+  "Scgg/X": {
+    "defaultMessage": ">>> Calibration Inputs <<<",
+    "description": "[RSSimulationContextMenu] Menu text for batch export calibration inputs"
+  },
+  "SikeBD": {
+    "defaultMessage": ">>> Warnings <<<",
+    "description": "[Common] The filter name to filter log messages - Warnings"
+  },
+  "SisAep": {
+    "defaultMessage": ">>> Parameterization Measure <<<",
+    "description": "Parameterization Measure for the simulation firm"
+  },
+  "SkaR6A": {
+    "defaultMessage": ">>> {i} Axis Coordinates <<<",
+    "description": "[FlexibleAxesEditor] Axis Coordinate text"
+  },
+  "SkoVw/": {
+    "defaultMessage": ">>> Edit {typeName} in New Tab <<<",
+    "description": "[SmartBrowserContextMenu] edit a select object on the browser"
+  },
+  "SnoQ2F": {
+    "defaultMessage": ">>> Variables <<<",
+    "description": "Label for the number of variables in the simulation"
+  },
+  "Sw13ji": {
+    "defaultMessage": ">>> Roll Forward <<<",
+    "description": "[RollForwardDialog] dialog title"
+  },
+  "T/FZvI": {
+    "defaultMessage": ">>> Result <<<",
+    "description": "The query result metadata"
+  },
+  "T/GfHh": {
+    "defaultMessage": ">>> Allocation Optimization <<<",
+    "description": "objectName - IO (single)"
+  },
+  "T64fxl": {
+    "defaultMessage": ">>> All to Rows <<<",
+    "description": "[ArrangementPanel] the query's arrangement inputs panel action shortcut"
+  },
+  "T9zPww": {
+    "defaultMessage": ">>> Delivery Methods <<<",
+    "description": "Options for delivering notification messages, e.g. sms or email"
+  },
+  "TAMOCy": {
+    "defaultMessage": ">>> Values for Tag \"{tagName}\" <<<",
+    "description": "[EditTagValuesDialog] Indicates the dialog title"
+  },
+  "TEjmwO": {
+    "defaultMessage": ">>> Quarterly <<<",
+    "description": "[common] a option for the periodicity"
+  },
+  "TGOLgn": {
+    "defaultMessage": ">>> PDF <<<",
+    "description": "[Common] a PDF file"
+  },
+  "TLaUft": {
+    "defaultMessage": ">>> Debug <<<",
+    "description": "[Common] The filter name to filter log messages - Debug"
+  },
+  "TNLgMW": {
+    "defaultMessage": ">>> Reason for Stopping <<<",
+    "description": "[highcharts] Value set label in Status - Reason for Stopping"
+  },
+  "TORl/M": {
+    "defaultMessage": ">>> Clear Filter <<<",
+    "description": "[ObjectCatalogSidebar] label for option that removes search result filters"
+  },
+  "TQQLwE": {
+    "defaultMessage": ">>> Euler Period <<<",
+    "description": "Indicates the frequency of a simulation."
+  },
+  "TVD5wY": {
+    "defaultMessage": ">>> Selected Tag does not support multiple object types. using the first type instead. <<<",
+    "description": "[OmdbAdminPage] warning message - multiple types selected, but we are not support this operate now"
+  },
+  "TZ6zvP": {
+    "defaultMessage": ">>> Last <<<",
+    "description": "[RepositoryVariablesView] selection value for the time aggregator"
+  },
+  "TbUXxE": {
+    "defaultMessage": ">>> Previous <<<",
+    "description": "[hightcharts] Tooltip value in chart - Previous"
+  },
+  "TcO0Qg": {
+    "defaultMessage": ">>> Single Axis Name <<<",
+    "description": "[RepositoryGeneralView] text input title"
+  },
+  "Tjj4jm": {
+    "defaultMessage": ">>> Horizon <<<",
+    "description": "[hightcharts] Tooltip title in chart - Horizon"
+  },
+  "TnsiZf": {
+    "defaultMessage": ">>> Duplicate {followingText} <<<",
+    "description": "[Common] for the object control - duplicate the object"
+  },
+  "TrHC6n": {
+    "defaultMessage": ">>> Unknown query view {viewName}. <<<",
+    "description": "[Query] Message for invalid pivot selection in query result view"
+  },
+  "TuebEO": {
+    "defaultMessage": ">>> \"{tagName}\" is referenced by {total} objects. Deleting will remove all references. <<<",
+    "description": "[OmdbTagsEditor] Indicates warning message before deleting a user tag, but it still related some object"
+  },
+  "TzcAsk": {
+    "defaultMessage": ">>> New <<<",
+    "description": "[ApplicationMenu] Indicates menu sub-group title - create new object"
+  },
+  "U1L+qn": {
+    "defaultMessage": ">>> Batch Import succeeded without warnings; all blocks imported <<<",
+    "description": "[BatchImportResultsDialog] default message title when data imported"
+  },
+  "U3AgVy": {
+    "defaultMessage": ">>> Column Axes <<<",
+    "description": "[ArrangementPanel] a arrangement group title"
+  },
+  "U3RwqB": {
+    "defaultMessage": ">>> Last Check In <<<",
+    "description": "[WorkerManager] table column - Indicates the time that this process last checked in to report that it was alive"
+  },
+  "U4kZJO": {
+    "defaultMessage": ">>> Initializing Simulation Session <<<",
+    "description": "[UseCaseViewer] Loading message for Initializing Simulation Session"
+  },
+  "U9WY4R": {
+    "defaultMessage": ">>> When a grid is powered on. <<<",
+    "description": "describes the notification event"
+  },
+  "UEgFTS": {
+    "defaultMessage": ">>> Preparing model parameter data... <<<",
+    "description": "[RSSimulation] Progress message for preparing model parameter data"
+  },
+  "UKWFbM": {
+    "defaultMessage": ">>> Initializing {simulationName} Simulation Session <<<",
+    "description": "[RSSimulationApplication] "
+  },
+  "UM37ll": {
+    "defaultMessage": ">>> The {objectType} inputs have been locked. Please unlock to edit. <<<",
+    "description": "[UseCaseViewer] Tooltip for input locked while running"
+  },
+  "UMPOC2": {
+    "defaultMessage": ">>> Open Similar <<<",
+    "description": "[NavigationTree] expose all coordinates with same axis at tree node contextmenu"
+  },
+  "UXRCmA": {
+    "defaultMessage": ">>> Version <<<",
+    "description": "[GridJobs] table column - Indicates the version of the job"
+  },
+  "UYLQ6H": {
+    "defaultMessage": ">>> Items Per Page: <<<",
+    "description": "[SortableCardsPanel] paginate controls' title"
+  },
+  "UYxHeP": {
+    "defaultMessage": ">>> This action cannot be undone. <<<",
+    "description": "[ObjectChooser] a confirm dialog message - when the selected items change"
+  },
+  "UaA+6d": {
+    "defaultMessage": ">>> History <<<",
+    "description": "Title for a table that shows a log of all notifications sent by the application"
+  },
+  "UeXAqH": {
+    "defaultMessage": ">>> Starting Custom Recalibration... <<<",
+    "description": "[Recalibration] the default message for loading recalibration"
+  },
+  "Uh1+FS": {
+    "defaultMessage": ">>> Edit {followingText} <<<",
+    "description": "[Common] for the object control - modify values of a object"
+  },
+  "Ujb3Iy": {
+    "defaultMessage": ">>> frozen columns <<<",
+    "description": "[OmdbTableBuilder] Indicates how many frozen columns on the beginning of the object browser table"
+  },
+  "UkY7C1": {
+    "defaultMessage": ">>> Starting {name}... <<<",
+    "description": "[Common] the message let user know the system is starting the progress"
+  },
+  "UmMwg1": {
+    "defaultMessage": ">>> Canceling <<<",
+    "description": "Signals that the requested operation is in the process of being canceled"
+  },
+  "Ut3pnx": {
+    "defaultMessage": ">>> The simulation inputs have been locked. Please unlock to edit. <<<",
+    "description": "[RSSimulationApplication][RSSimulationLockCover] operate tooltip for unlock inputs"
+  },
+  "Uvdi9K": {
+    "defaultMessage": ">>> Metadata <<<",
+    "description": "[RelatedObjectPage] a group title which show base the omdb object information"
+  },
+  "V5ZDwY": {
+    "defaultMessage": ">>> Event Subscriptions <<<",
+    "description": "Title for notification events that the user is able to subscribe to"
+  },
+  "V6oRGw": {
+    "defaultMessage": ">>> Cumulative Density <<<",
+    "description": "[highcharts] Tooltip title in CDF chart - Cumulative Density"
+  },
+  "VAqY4f": {
+    "defaultMessage": ">>> Flip Horizontal Axis <<<",
+    "description": "[highcharts] Toolbar function - Flip horizontal axis in chart"
+  },
+  "VFBcw9": {
+    "defaultMessage": ">>> Selected {count} Files <<<",
+    "description": "[user file] Show selected files' count in user file upload form"
+  },
+  "VKki3X": {
+    "defaultMessage": ">>> Name <<<",
+    "description": "[user file] User file upload form's name input field label text"
+  },
+  "VNuaqG": {
+    "defaultMessage": ">>> Reset <<<",
+    "description": "[OmdbUiLayoutTab] Reset the layout setting changes since switch to the page or view"
+  },
+  "VPBMWk": {
+    "defaultMessage": ">>> Loading failed with error: {lastErrorMessage} <<<",
+    "description": "[RSSimulation] Last error message for loading simulation"
+  },
+  "VU4R9/": {
+    "defaultMessage": ">>> Apply User Tag <<<",
+    "description": "[SmartBrowserContextMenu] add/remove user tag values to a object"
+  },
+  "VXF2Np": {
+    "defaultMessage": ">>> Completed Reports <<<",
+    "description": "[ReportsSummaryPage] section title - reports which are already had result."
+  },
+  "Va/Gut": {
+    "defaultMessage": ">>> Batch import file contains {cError} errors and {cWarning} warnings <<<",
+    "description": "[BatchImportResultsDialog] default message description when data imported"
+  },
+  "VhX4a9": {
+    "defaultMessage": ">>> Insert 1 Axis Coordinate After <<<",
+    "description": "[FlexibleAxesEditor] insert a coordinate to the axis"
+  },
+  "ViXCC/": {
+    "defaultMessage": ">>> Email: <<<",
+    "description": "[support dialog] Indicates the text before the supports mail address"
+  },
+  "Vkz+8R": {
+    "defaultMessage": ">>> Insert an Axis Coordinate <<<",
+    "description": "[FlexibleAxesEditor] insert a coordinate to the axis button tooltip"
+  },
+  "VrVk5O": {
+    "defaultMessage": ">>> My Related <<<",
+    "description": "[RelatedObjectPage] button text which show the objects related with login user"
+  },
+  "VtfHdS": {
+    "defaultMessage": ">>> Print <<<",
+    "description": "[Common] using for common print function"
+  },
+  "VtySkA": {
+    "defaultMessage": ">>> Insurance <<<",
+    "description": "a module/component identification"
+  },
+  "Vv17WJ": {
+    "defaultMessage": ">>> Finest <<<",
+    "description": "[highcharts] Smooth level text - finest for chart rendering"
+  },
+  "Vxh/qu": {
+    "defaultMessage": ">>> Loading Module Information... <<<",
+    "description": "[ModuleSelectionDialog] message when loading"
+  },
+  "Vz/JcE": {
+    "defaultMessage": ">>> Ignore All <<<",
+    "description": "[user file] Ignore all interrupted files"
+  },
+  "W+9gst": {
+    "defaultMessage": ">>> Database{br}Partitions <<<",
+    "description": "[RSSimulation] Description for Database partitions in simulation running progress"
+  },
+  "W4ljAx": {
+    "defaultMessage": ">>> Asset Allocation <<<",
+    "description": "[hightcharts] Tooltip title in chart - Asset Allocation"
+  },
+  "W8xH2C": {
+    "defaultMessage": ">>> Create Simulation Without Upload <<<",
+    "description": "[user file] Create Simulation Without Upload"
+  },
+  "WDA0H3": {
+    "defaultMessage": ">>> Size <<<",
+    "description": "Label for the size in bytes of the simulation"
+  },
+  "WDeTQA": {
+    "defaultMessage": ">>> Fine <<<",
+    "description": "[highcharts] Smooth level text - fine for chart rendering"
+  },
+  "WE50Xm": {
+    "defaultMessage": ">>> Price <<<",
+    "description": "[ModelChart] chart label for the price of an investment"
+  },
+  "WFAqE6": {
+    "defaultMessage": ">>> Output saved <<<",
+    "description": "[RSSimulation] Manager status detail name - Output saved"
+  },
+  "WFQ315": {
+    "defaultMessage": ">>> Allocation Optimizations <<<",
+    "description": "objectName - IO (multi)"
+  },
+  "WFgmV6": {
+    "defaultMessage": ">>> Account <<<",
+    "description": "Notification scope. This option signifies that the user should receive all notifications related to their organization's account"
+  },
+  "WIGF2Z": {
+    "defaultMessage": ">>> Unique <<<",
+    "description": "[OmdbTagsEditor] table column - set this tag value can duplicate or not"
+  },
+  "WJrnfC": {
+    "defaultMessage": ">>> Axis Organizer <<<",
+    "description": "[AxisOrganizer] dialog title"
+  },
+  "WJw8Mq": {
+    "defaultMessage": ">>> {impliedAxes} implied axis is currently hidden <<<",
+    "description": "[AccordionPanelComponent] a hit message about how many unavailable items hidden"
+  },
+  "WK+6sL": {
+    "defaultMessage": ">>> Delete {followingText} <<<",
+    "description": "[Common] for the object control - delete the object"
+  },
+  "WKNPoe": {
+    "defaultMessage": ">>> Remove \"{tagName}\" <<<",
+    "description": "[CatalogSidebarTags] context menu - remove a user tag that to be used to tag/identify system objects"
+  },
+  "WLbIgm": {
+    "defaultMessage": ">>> Annualized Returns <<<",
+    "description": "[highcharts] Switch text for toggling Annualized Returns"
+  },
+  "WPCgBE": {
+    "defaultMessage": ">>> The roll-forward date selected is not after the current model date. <<<",
+    "description": "[RollForwardDialog] the validation message - the input dates not supported"
+  },
+  "WPU0Mu": {
+    "defaultMessage": ">>> Move Tag to Section... <<<",
+    "description": "[OmdbCardBuilder] Indicates a context menu catalog title choose which section to move."
+  },
+  "WRtn3K": {
+    "defaultMessage": ">>> Periods <<<",
+    "description": "Label for the number of the periods (years, quarters and months) in the simulation"
+  },
+  "WSYz9Y": {
+    "defaultMessage": ">>> Results Generated <<<",
+    "description": "[RepositoryMessagesView] message displayed when simulation run successfully"
+  },
+  "WX44aY": {
+    "defaultMessage": ">>> Computation output saved <<<",
+    "description": "[RSSimulation] Message for Simulation Running Status Summary - Computation output saved"
+  },
+  "WZiO7t": {
+    "defaultMessage": ">>> Explore <<<",
+    "description": "[RelatedObjectPage] a group title which display catalogs of the omdb objects"
+  },
+  "WZyxqz": {
+    "defaultMessage": ">>> Simulation Events <<<",
+    "description": "Grouping for all events that originates from running a simulation"
+  },
+  "Wi05xd": {
+    "defaultMessage": ">>> Select Simulation Data Source <<<",
+    "description": "[NewSimulationDialog] default title on the dialog"
+  },
+  "WjDrs+": {
+    "defaultMessage": ">>> Subsequent Scenario{br}Average Times <<<",
+    "description": "[RSSimulation] Chart title for Subsequent Scenario Average Times"
+  },
+  "WmFuCD": {
+    "defaultMessage": ">>> Comments <<<",
+    "description": "Label for a textfield with custom user comments to describe an object"
+  },
+  "WnzyUx": {
+    "defaultMessage": ">>> Profile <<<",
+    "description": "[UserMenu] Profile"
+  },
+  "Wo+SNS": {
+    "defaultMessage": ">>> Rows <<<",
+    "description": "[InputTable] the primary axis label for the table (multiple)"
+  },
+  "WoJgHL": {
+    "defaultMessage": ">>> Market Value Through Time Statistics <<<",
+    "description": "[hightcharts] Market Value Through Time Statistics Chart in CRA"
+  },
+  "WqpUc5": {
+    "defaultMessage": ">>> Starting... <<<",
+    "description": "[RSSimulation] Progress message while starting simulation"
+  },
+  "WrSrgK": {
+    "defaultMessage": ">>> When bill has increased by a specified amount. <<<",
+    "description": "describes the notification event"
+  },
+  "WriezT": {
+    "defaultMessage": ">>> Securities <<<",
+    "description": "a module/component identification"
+  },
+  "WyDZa6": {
+    "defaultMessage": ">>> Loading Template... <<<",
+    "description": "[RSSimulation] Loading message for Loading template"
+  },
+  "X+AWUn": {
+    "defaultMessage": ">>> Export location <<<",
+    "description": "[BatchExportCustomizeDialog] radio group title - export file location"
+  },
+  "X//bcp": {
+    "defaultMessage": ">>> Input limited to the minimum value of {minimum} <<<",
+    "description": "[InputTableGridHandler] input limits hints"
+  },
+  "X/rGU1": {
+    "defaultMessage": ">>> Classic Display Mode <<<",
+    "description": "[InputSpecificationComponent] a description for the layout mode setting button"
+  },
+  "XPKY4x": {
+    "defaultMessage": ">>> Validation errors must be resolved before simulating <<<",
+    "description": "[RSSimulation] Block run message while there are validation errors"
+  },
+  "XS5hsP": {
+    "defaultMessage": ">>> Are you sure you want to delete the {objectTypeName}: \"{objectName}\" ? <<<",
+    "description": "[Common] for the object control - confirmation message before deleting an object"
+  },
+  "XTzGFf": {
+    "defaultMessage": ">>> in row {row} <<<",
+    "description": "[RepoTool] row information in the failure message"
+  },
+  "XU7lJs": {
+    "defaultMessage": ">>> CA <<<",
+    "description": "a country/economy identification"
+  },
+  "XUi4p7": {
+    "defaultMessage": ">>> Arrangement <<<",
+    "description": "[ArrangementPanel] the query input panel title"
+  },
+  "XYcAqa": {
+    "defaultMessage": ">>> Percentile Details <<<",
+    "description": "[hightcharts] Tooltip title in chart - Percentile Details"
+  },
+  "XiwW/1": {
+    "defaultMessage": ">>> SG <<<",
+    "description": "a country/economy identification"
+  },
+  "XjC/p6": {
+    "defaultMessage": ">>> Hours <<<",
+    "description": "[Countdown] Label text for hours"
+  },
+  "XkjQCd": {
+    "defaultMessage": ">>> Reward <<<",
+    "description": "[highcharts] Box chart y-axis title - Reward"
+  },
+  "XsCch4": {
+    "defaultMessage": ">>> Cannot re-run while simulation is being canceled <<<",
+    "description": "[RSSimulation] Block run message while simulation is being canceled"
+  },
+  "Xvf3s/": {
+    "defaultMessage": ">>> Returns <<<",
+    "description": "a module/component identification"
+  },
+  "Y+E8fJ": {
+    "defaultMessage": ">>> 1. General <<<",
+    "description": "[RepositoryContextMenu] book page title"
+  },
+  "Y0OOBa": {
+    "defaultMessage": ">>> Delete <<<",
+    "description": "[Common] for the object control - delete the object"
+  },
+  "Y11Y8K": {
+    "defaultMessage": ">>> 3. Messages <<<",
+    "description": "[RepositoryContextMenu] book page title"
+  },
+  "Y2kkmw": {
+    "defaultMessage": ">>> Notification Settings <<<",
+    "description": "[NotificationSettingsPage] the page title display on the browser tab, system application menu and the page's top-left button"
+  },
+  "Y4xr/A": {
+    "defaultMessage": ">>> Format Axis... <<<",
+    "description": "[highcharts] Text of menu item Format Axis"
+  },
+  "YAhk9N": {
+    "defaultMessage": ">>> Reset Arrangement <<<",
+    "description": "[Query] Pivot table context menu function - Reset Arrangement"
+  },
+  "YBrJz6": {
+    "defaultMessage": ">>> Starting Simulation Process <<<",
+    "description": "[RepositoryComponent] loading message"
+  },
+  "YKfOQh": {
+    "defaultMessage": ">>> An error occurred while trying to load {objectTypeName} data. <<<",
+    "description": "[SiteStore] application message when item is failed to load"
+  },
+  "YL1SrF": {
+    "defaultMessage": ">>> Deselect <<<",
+    "description": "[ObjectChooser] a confirm dialog deactivate button text - when user deselect all items"
+  },
+  "YRJvNB": {
+    "defaultMessage": ">>> The pivot table contains over 1 million rows or columns, which may cause it to take a long time to render or even crash the browser tab. However, you can still use the toolbar to export the data, rearrange the table, or download the table data. <<<",
+    "description": "[Query] Warning message for pivot table data exceed limitation"
+  },
+  "YbJBnz": {
+    "defaultMessage": ">>> Finalizing <<<",
+    "description": "Signals that the requested output is being finalized before being complete"
+  },
+  "YnJk/d": {
+    "defaultMessage": ">>> Select Template <<<",
+    "description": "[GetTemplateDialog] dialog title when user choosing template file"
+  },
+  "YnPeyH": {
+    "defaultMessage": ">>> Expanded (Horizontal) <<<",
+    "description": "[SettingsTabPanel] section option - Query Tool Variables Layout - Horizontal"
+  },
+  "YpTa7S": {
+    "defaultMessage": ">>> Only <<<",
+    "description": "[Query] Pivot table context menu function - Only"
+  },
+  "Yt1r82": {
+    "defaultMessage": ">>> Toggle Bootstrap <<<",
+    "description": "[Query] Enable or disable bootstrap in query result"
+  },
+  "YzlTmU": {
+    "defaultMessage": ">>> Time Aggregator <<<",
+    "description": "[RepositoryVariablesView] grid column label"
+  },
+  "Z1lNM8": {
+    "defaultMessage": ">>> Append to most recently exported {userFile} <<<",
+    "description": "[BatchExportCustomizeDialog] append date into a file on server which we operate it recently"
+  },
+  "Z27QKp": {
+    "defaultMessage": ">>> Waiting <<<",
+    "description": "Signals that the object is incomplete and is waiting on the user to run it"
+  },
+  "Z5M6vh": {
+    "defaultMessage": ">>> {userFile} generated. <<<",
+    "description": "[BatchExportProgressDialog] file is generated and saved to server"
+  },
+  "Z6/jnv": {
+    "defaultMessage": ">>> Reading file... <<<",
+    "description": "[BatchImportDialog] progressing - uploading file"
+  },
+  "Z9cZgf": {
+    "defaultMessage": ">>> User Uploaded File <<<",
+    "description": "[Common] simulation source type for scenario files that were uploaded by the user and used to create a simulation object"
+  },
+  "ZBeyjB": {
+    "defaultMessage": ">>> Probability Density <<<",
+    "description": "[highcharts] PDF y-axis title - Probability Density"
+  },
+  "ZErAd0": {
+    "defaultMessage": ">>> Expand <<<",
+    "description": "[Common] The name of a shortcut lets the user select the specific item/items quickly"
+  },
+  "ZJXgTH": {
+    "defaultMessage": ">>> Variables (Clause {clause}) <<<",
+    "description": "[Query] the query book's one of page name"
+  },
+  "ZKajVC": {
+    "defaultMessage": ">>> Your search returned no results. <<<",
+    "description": "[SortableCardsPanel] Text to indicate that there are no search results"
+  },
+  "ZKwUYV": {
+    "defaultMessage": ">>> Memory Utilization <<<",
+    "description": "[RSSimulation] Memory utilization status in simulation running progress"
+  },
+  "ZOd558": {
+    "defaultMessage": ">>> Reading Data... <<<",
+    "description": "[Query] Query run step title - Reading Data"
+  },
+  "ZUU045": {
+    "defaultMessage": ">>> Open Recent... <<<",
+    "description": "[Common] for the object control - open the object which is used recently"
+  },
+  "Zd2ZyT": {
+    "defaultMessage": ">>> Donut Size: <<<",
+    "description": "[highcharts] Label for adjusting donut size"
+  },
+  "ZhMG2z": {
+    "defaultMessage": ">>> If your browser setting prevents showing a \"save as\" dialog, then the file will automatically be downloaded to the browser's designated download folder. <<<",
+    "description": "[BatchExportProgressDialog] the direction if file not download automatically"
+  },
+  "Zl8n/u": {
+    "defaultMessage": ">>> My Objects Sorted by Name <<<",
+    "description": "My Objects Sorted by Name"
+  },
+  "a+UgPg": {
+    "defaultMessage": ">>> Compact Display Mode <<<",
+    "description": "[InputSpecificationComponent] a description for the layout mode setting button"
+  },
+  "a3VeVk": {
+    "defaultMessage": ">>> Object Type Update Failed. <<<",
+    "description": "[OmdbTagsEditor] Indicates error message dialog title when updating the object type"
+  },
+  "aBBEp5": {
+    "defaultMessage": ">>> {query} is running... <<<",
+    "description": "[QueryCard] descrbes the current state of the query"
+  },
+  "aKedaO": {
+    "defaultMessage": ">>> Copy Location <<<",
+    "description": "[InputSpecificationComponent] a action about copy a position string"
+  },
+  "aL2TSl": {
+    "defaultMessage": ">>> Same Table by Default <<<",
+    "description": "[AxisOrganizer] axis organization group title"
+  },
+  "aSHimF": {
+    "defaultMessage": ">>> Cancel <<<",
+    "description": "[Common] using for the button display. allows the user to cancel the action or message box"
+  },
+  "aTv/XB": {
+    "defaultMessage": ">>> Pan Mode <<<",
+    "description": "[Highcharts] Toolbar function - Enable or disable Pan Mode"
+  },
+  "acpNGP": {
+    "defaultMessage": ">>> Batch Import Files <<<",
+    "description": "export sub-item title - a csv file include all data in this Query object"
+  },
+  "admu16": {
+    "defaultMessage": ">>> Export data for all modules <<<",
+    "description": "[BatchExportCustomizeDialog] export all modules data"
+  },
+  "aq5i7N": {
+    "defaultMessage": ">>> Your current pivot selection is not valid for view: '{viewName}'. <<<",
+    "description": "[Query] Message for invalid pivot selection in query result view"
+  },
+  "at4iBj": {
+    "defaultMessage": ">>> Users: <<<",
+    "description": "[Billing] Billing Query form's input label - Users"
+  },
+  "axRKiR": {
+    "defaultMessage": ">>> Manager <<<",
+    "description": "[RSSimulation] Manager status in simulation running progress"
+  },
+  "ay+fj7": {
+    "defaultMessage": ">>> Export initializing... <<<",
+    "description": "[BatchExportProgressDialog] default message when export info not come in yet"
+  },
+  "b08nyI": {
+    "defaultMessage": ">>> {typeName} Object {idField} \"{id}\" copied to clipboard. <<<",
+    "description": "[SmartBrowserContextMenu] message after copied a object id to the clipboard"
+  },
+  "b2cjbd": {
+    "defaultMessage": ">>> (Folder Upload) <<<",
+    "description": "[user file] (Folder Upload)"
+  },
+  "b4RSjg": {
+    "defaultMessage": ">>> All to Columns <<<",
+    "description": "[Query] Tooltip for All to Columns function"
+  },
+  "bA5PKk": {
+    "defaultMessage": ">>> Compact <<<",
+    "description": "[InputSpecificationComponent] the layout mode setting button"
+  },
+  "bAi47a": {
+    "defaultMessage": ">>> Thousands <<<",
+    "description": "[highcharts] Display unit label in Format Axis - Thousands"
+  },
+  "bDS4Ey": {
+    "defaultMessage": ">>> All Files Uploaded. ({totalFilesCount}/{totalFilesCount}) <<<",
+    "description": "[user file] All Files are uploaded"
+  },
+  "bIySrE": {
+    "defaultMessage": ">>> When a simulation completes the 'parse' phase. <<<",
+    "description": "describes the notification event"
+  },
+  "bL0rQ0": {
+    "defaultMessage": ">>> Data Serving Charge <<<",
+    "description": "[Billing] Billing Report table's header - Data Serving Charge"
+  },
+  "bP2B0V": {
+    "defaultMessage": ">>> Expires on <<<",
+    "description": "[about dialog] Indicates the text before the current license will expire"
+  },
+  "bQfO5P": {
+    "defaultMessage": ">>> Cards <<<",
+    "description": "[Common] Indicates the cards view on the object browser"
+  },
+  "bU0lz8": {
+    "defaultMessage": ">>> Line Mode is disabled when there are more than 1000 points <<<",
+    "description": "[highcharts] Tooltip for marker mode while there are more than 1000 points"
+  },
+  "beM3Qt": {
+    "defaultMessage": ">>> Modifying {objName}... <<<",
+    "description": "[Common] the message let user know the object is modifying"
+  },
+  "bhSDTp": {
+    "defaultMessage": ">>> Browse <<<",
+    "description": "Browse Objects"
+  },
+  "bkc5QX": {
+    "defaultMessage": ">>> Loading Axes Information... <<<",
+    "description": "[FlexibleAxesEditor] message when waiting axes information loading"
+  },
+  "bn8aoP": {
+    "defaultMessage": ">>> Select Content <<<",
+    "description": "[highcharts] Button text for select asset classes return"
+  },
+  "bq3puk": {
+    "defaultMessage": ">>> Duplicate <<<",
+    "description": "[Common] for the object control - duplicate the object"
+  },
+  "brVLiq": {
+    "defaultMessage": ">>> Add To Queue <<<",
+    "description": "[user file] Add file to upload queue"
+  },
+  "btlnZI": {
+    "defaultMessage": ">>> Remove axis '{axis}'? <<<",
+    "description": "[StatisticsPanel] a confirm message before delete a axis in the Statistics inputs panel"
+  },
+  "c+OinD": {
+    "defaultMessage": ">>> Starting... <<<",
+    "description": "[BatchImportDialog] progressing - import data starting"
+  },
+  "c5mM5r": {
+    "defaultMessage": ">>> The simulation results has been successfully generated and can now be referenced and queried from other applications. <<<",
+    "description": "[RepositoryMessagesView] result status description when simulation run successfully"
+  },
+  "c6hDAR": {
+    "defaultMessage": ">>> Are you sure you want to deselect \"{itemName}\"? <<<",
+    "description": "[ObjectChooser] a confirm dialog title - when user deselect all items"
+  },
+  "cF4XM+": {
+    "defaultMessage": ">>> Formula <<<",
+    "description": "[RepositoryVariablesView] grid column label"
+  },
+  "cGSFbi": {
+    "defaultMessage": ">>> {impliedAxes} implied axes are currently shown <<<",
+    "description": "[AccordionPanelComponent] a hit message about how many unavailable items shown"
+  },
+  "cJ19rU": {
+    "defaultMessage": ">>> Collapse All <<<",
+    "description": "[Billing] Billing Query form's action button tooltip text - Collapse All"
+  },
+  "cMlBre": {
+    "defaultMessage": ">>> The value is changed since last run <<<",
+    "description": "[Query] Tooltip to notify an input value is changed since last run in Bootstrap and Sensitivity"
+  },
+  "cVrUvr": {
+    "defaultMessage": ">>> Scope <<<",
+    "description": "Label that describes the extent/coverage of a group of notification settings."
+  },
+  "cZchCc": {
+    "defaultMessage": ">>> Percentiles <<<",
+    "description": "[hightcharts] Tooltip value in chart - Percentile (plural)"
+  },
+  "ccvFj8": {
+    "defaultMessage": ">>> Coarse <<<",
+    "description": "[highcharts] Smooth level text - coarse for chart rendering"
+  },
+  "cjqb1Z": {
+    "defaultMessage": ">>> Calibrate <<<",
+    "description": "[Common] execute a Calibration object to get the result"
+  },
+  "cpUlZo": {
+    "defaultMessage": ">>> {appendFilename} was successfully appended! <<<",
+    "description": "[BatchExportProgressDialog] export file appended"
+  },
+  "cv7Z6S": {
+    "defaultMessage": ">>> This option is only available if the roll forward <<<",
+    "description": "[RollForwardDialog] message to describe why apply latest template not working (before)"
+  },
+  "czz2lK": {
+    "defaultMessage": ">>> About {productName} <<<",
+    "description": "[ApplicationMenu] Indicates menu item which show a dialog with some product information"
+  },
+  "d/LtjD": {
+    "defaultMessage": ">>> Statistics <<<",
+    "description": "[StatisticsPanel] the query input panel title"
+  },
+  "d27HJh": {
+    "defaultMessage": ">>> Without <<<",
+    "description": "[Query] Pivot table context menu function - Without"
+  },
+  "d8iylT": {
+    "defaultMessage": ">>> Flexible Axes Editor <<<",
+    "description": "[FlexibleAxesEditor] dialog title"
+  },
+  "dDg7OJ": {
+    "defaultMessage": ">>> Asset Returns Simulation <<<",
+    "description": "Link to a simulation that provides asset returns values for an optimization"
+  },
+  "dFw60s": {
+    "defaultMessage": ">>> Loading chart data... <<<",
+    "description": "[hightcharts] Loading message while loading chart data"
+  },
+  "dJjE9P": {
+    "defaultMessage": ">>> Query Tool <<<",
+    "description": "[StandaloneQueryPage] the page title display on an object viewer, system application menu and the page's top-left button"
+  },
+  "dP64l9": {
+    "defaultMessage": ">>> Remove {sectionName} Section <<<",
+    "description": "[OmdbCardBuilder] remove this section group content menu item, which is empty or contains one/many tags"
+  },
+  "dS5fJW": {
+    "defaultMessage": ">>> Failed <<<",
+    "description": "Signals that the requested operation failed to complete"
+  },
+  "dZ3UBf": {
+    "defaultMessage": ">>> Workers Requested <<<",
+    "description": "[WorkerManager] table column - Indicates the numbers of the application workers requested"
+  },
+  "ddRONf": {
+    "defaultMessage": ">>> Location <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "dhUwnB": {
+    "defaultMessage": ">>> {ac} Appended. <<<",
+    "description": "[FlexibleAxesEditor] message after Appended"
+  },
+  "di69do": {
+    "defaultMessage": ">>> Sorted A-Z <<<",
+    "description": "[Common] a order way for the list a set of items"
+  },
+  "dkdBKN": {
+    "defaultMessage": ">>> Import <<<",
+    "description": "[Common] for the object control - load a related data file"
+  },
+  "dkoVdj": {
+    "defaultMessage": ">>> Month <<<",
+    "description": "Indicates the frequency of a simulation."
+  },
+  "dmbwsE": {
+    "defaultMessage": ">>> Query Specification <<<",
+    "description": "[QueryContextMenu] export sub-item title - a inputs Specification JSON file"
+  },
+  "dsmfvV": {
+    "defaultMessage": ">>> Address Path <<<",
+    "description": "[RSSimulationContextMenu] switch for show/hide the address path bar."
+  },
+  "dvfmm/": {
+    "defaultMessage": ">>> Hide Them <<<",
+    "description": "[AccordionPanelComponent] a trigger for hide unavailable items"
+  },
+  "dyEj8A": {
+    "defaultMessage": ">>> Billing Events <<<",
+    "description": "Grouping for all events that originates from the current month's customer bill/charges"
+  },
+  "e/I+MV": {
+    "defaultMessage": ">>> Always Same Table <<<",
+    "description": "[AxisOrganizer] axis organization group title"
+  },
+  "e/hkGJ": {
+    "defaultMessage": ">>> Overwrite existing recalibration parameters with data from template? <<<",
+    "description": "[RSSimulation] Confirm message for overwrite existing recalibration parameters with data from template"
+  },
+  "e/zbyX": {
+    "defaultMessage": ">>> Expand All <<<",
+    "description": "[Common] The name of a shortcut lets the user select the specific item/items quickly"
+  },
+  "e1oTRC": {
+    "defaultMessage": ">>> Parameterization <<<",
+    "description": "[ParameterTemplateOptions] a field name for the FRIM's creating inputs"
+  },
+  "e2rdBc": {
+    "defaultMessage": ">>> Reset <<<",
+    "description": "[CatalogSidebarTags] Reset the catalog setting changes since switch to the page"
+  },
+  "eCNEcU": {
+    "defaultMessage": ">>> Desktop <<<",
+    "description": "Identifies the type of notification"
+  },
+  "eCQhtb": {
+    "defaultMessage": ">>> Edit {query} <<<",
+    "description": "[QueryCard] tooltip for a button to modify/edit a query object"
+  },
+  "eFg4fD": {
+    "defaultMessage": ">>> by Message <<<",
+    "description": "[BatchImportResultsDialog] one of sort type for detail messages"
+  },
+  "eIJghB": {
+    "defaultMessage": ">>> Output loaded into database <<<",
+    "description": "[RSSimulation] Message for Simulation Running Status Summary - Output loaded into database"
+  },
+  "eOmBfP": {
+    "defaultMessage": ">>> Export data <<<",
+    "description": "[BatchExportCustomizeDialog] group title - choose which data will export"
+  },
+  "eZkqfT": {
+    "defaultMessage": ">>> Toggle Inversion <<<",
+    "description": "[highcharts] Toolbar function - Inverse horizontal and vertical axis in chart"
+  },
+  "efHqUp": {
+    "defaultMessage": ">>> Continue Paste? <<<",
+    "description": "[TableCopier] a confirm message title"
+  },
+  "ehVTXX": {
+    "defaultMessage": ">>> Recent <<<",
+    "description": "Recent Items"
+  },
+  "ekDxpO": {
+    "defaultMessage": ">>> Optimization Direction Search Points <<<",
+    "description": "[highcharts] Switch text for toggling Optimization Direction Search Points"
+  },
+  "emBtFS": {
+    "defaultMessage": ">>> GMT Date <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "enKc8I": {
+    "defaultMessage": ">>> Start (UTC) <<<",
+    "description": "[Billing] Billing Report table's header - Start (UTC)"
+  },
+  "eq/tjt": {
+    "defaultMessage": ">>> Optimization Iteration Lines <<<",
+    "description": "[highcharts] Switch text for toggling Optimization Iteration Lines"
+  },
+  "ezTv8f": {
+    "defaultMessage": ">>> Copy <<<",
+    "description": "[Common] save the object to the clipboard"
+  },
+  "f+HIKc": {
+    "defaultMessage": ">>> View <<<",
+    "description": "[ApplicationMenu] Indicates menu sub-group title - View"
+  },
+  "f0IISQ": {
+    "defaultMessage": ">>> Enable MFA <<<",
+    "description": "[SettingsTabPanel] Indicates Multi-factor authentication option"
+  },
+  "f2/Yqa": {
+    "defaultMessage": ">>> Next <<<",
+    "description": "[Common] the object page ctrl - being the first one after the present one or after the one just mentioned"
+  },
+  "f4VeP3": {
+    "defaultMessage": ">>> Name <<<",
+    "description": "[hightcharts] Tooltip value in chart - Name"
+  },
+  "f99wKB": {
+    "defaultMessage": ">>> Messages <<<",
+    "description": "[BatchImportResultsDialog] one of navigate way for detail result"
+  },
+  "fC966V": {
+    "defaultMessage": ">>> Insert Before <<<",
+    "description": "[InputTable] insert a new column before"
+  },
+  "fEpA0/": {
+    "defaultMessage": ">>> Iterations <<<",
+    "description": "[highcharts] Tooltip title in Status - Iterations"
+  },
+  "fHNTsU": {
+    "defaultMessage": ">>> File must be {type} <<<",
+    "description": "[common] dialog error message - the upload file must be a specified file"
+  },
+  "fKtOev": {
+    "defaultMessage": ">>> 1 Axis Coordinate <<<",
+    "description": "[FlexibleAxesEditor] Axis Coordinate text"
+  },
+  "fO+c9G": {
+    "defaultMessage": ">>> Both <<<",
+    "description": "[highcharts] Toolbar function - show both horizontal and vertical grid lines in chart"
+  },
+  "fQ+nYl": {
+    "defaultMessage": ">>> Box Plot <<<",
+    "description": "[hightcharts] Box Plot Chart"
+  },
+  "fSjHG3": {
+    "defaultMessage": ">>> Definition History <<<",
+    "description": "[DefinitionHistoryDialog] dialog title"
+  },
+  "fU4n5y": {
+    "defaultMessage": ">>> Hide (Active) <<<",
+    "description": "[RepositoryVariablesView] grid column label"
+  },
+  "fVg2DY": {
+    "defaultMessage": ">>> Configuration <<<",
+    "description": "[Query] the query book's one of page name"
+  },
+  "fW3CFG": {
+    "defaultMessage": ">>> Download initiated. <<<",
+    "description": "[BatchExportProgressDialog] file is ready to download message box title"
+  },
+  "fa6HgF": {
+    "defaultMessage": ">>> Hide <<<",
+    "description": "[InstallerDownloadPage] drawer trigger, will hide the older version application download links"
+  },
+  "ffGOiZ": {
+    "defaultMessage": ">>> JPEG <<<",
+    "description": "[Common] a JPEG image file"
+  },
+  "fjt8Ea": {
+    "defaultMessage": ">>> Initializing {objName} Session <<<",
+    "description": "[common] Application Initializing Message"
+  },
+  "flQ8zs": {
+    "defaultMessage": ">>> Investments <<<",
+    "description": "a module/component identification"
+  },
+  "fouH5d": {
+    "defaultMessage": ">>> Image <<<",
+    "description": "[Common] Download image's menu divider text"
+  },
+  "fpZowG": {
+    "defaultMessage": ">>> Your query is being duplicated... <<<",
+    "description": "[Query] Message for duplicating a query"
+  },
+  "fwnxDQ": {
+    "defaultMessage": ">>> Definition Error <<<",
+    "description": "[RepositoryMessagesView] message displayed when simulation can not run successfully"
+  },
+  "fxeg7V": {
+    "defaultMessage": ">>> inputs <<<",
+    "description": "[RSSimulation] Manager status detail name - inputs"
+  },
+  "g+RTYU": {
+    "defaultMessage": ">>> Show <<<",
+    "description": "[Common] make a item can show on the page"
+  },
+  "g3D/B8": {
+    "defaultMessage": ">>> {mLength} Failed Tests <<<",
+    "description": "[ReportsSummaryView] has some failed tests"
+  },
+  "g3y9j6": {
+    "defaultMessage": ">>> Decision <<<",
+    "description": "a module/component identification"
+  },
+  "gERHNn": {
+    "defaultMessage": ">>> CH <<<",
+    "description": "a country/economy identification"
+  },
+  "gGg0Gj": {
+    "defaultMessage": ">>> Total (in period) <<<",
+    "description": "[Billing] Billing Report table's total row text - Total (in period)"
+  },
+  "gNtbSh": {
+    "defaultMessage": ">>> Optimization Iteration Points <<<",
+    "description": "[highcharts] Switch text for toggling Optimization Iteration Points"
+  },
+  "gdI6Z8": {
+    "defaultMessage": ">>> {productName} Version <<<",
+    "description": "Label for the software version"
+  },
+  "gdTLE+": {
+    "defaultMessage": ">>> Database <<<",
+    "description": "[RSSimulation] Title for Database in Simulation Running Progress"
+  },
+  "gdnpsb": {
+    "defaultMessage": ">>> Marker Mode <<<",
+    "description": "[highcharts] Tooltip for line marker tool"
+  },
+  "goASoI": {
+    "defaultMessage": ">>> Tree <<<",
+    "description": "[RSSimulationContextMenu] a mode about how the simulation navigated page"
+  },
+  "gq1DfK": {
+    "defaultMessage": ">>> Correlation <<<",
+    "description": "[query] Correlation Maxtrix Tooltip Content - Correlation"
+  },
+  "gqGY8m": {
+    "defaultMessage": ">>> Input Frequency <<<",
+    "description": "[RepositoryGeneralView] text input label"
+  },
+  "gx0zL7": {
+    "defaultMessage": ">>> When a grid has been on for longer than specified: <<<",
+    "description": "describes the notification event"
+  },
+  "h1uUic": {
+    "defaultMessage": ">>> Ignore warning and show the table content <<<",
+    "description": "[Query] Force to show table content if data exceed limiation in pivot table"
+  },
+  "h2JLOS": {
+    "defaultMessage": ">>> Your query is loading... <<<",
+    "description": "[Query] Display message for Query is loading"
+  },
+  "hB6bnK": {
+    "defaultMessage": ">>> The Reports Library is a set of analytic reports that perform computations on the raw output of a simulation and display the results in tabular and graphical form. The reports have been designed to implement analytics ranging from basic to advanced, and to provide great flexibility in adjusting the details of the computations to suit the particular needs of the user. <<<",
+    "description": "[ReportsSummaryPage] page description"
+  },
+  "hBcy71": {
+    "defaultMessage": ">>> Coarsest <<<",
+    "description": "[highcharts] Smooth level text - coarsest for chart rendering"
+  },
+  "hJPnsY": {
+    "defaultMessage": ">>> Asset Class: <<<",
+    "description": "[highcharts] Label for adjusting asset grouping"
+  },
+  "hMD5q0": {
+    "defaultMessage": ">>> Can Sort <<<",
+    "description": "[OmdbTagsEditor] table column - set this tag can become a sort index on object browser"
+  },
+  "hNahZw": {
+    "defaultMessage": ">>> Save Time <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "hSlS9I": {
+    "defaultMessage": ">>> {hour} hrs <<<",
+    "description": "[user file] More than One hour"
+  },
+  "hTeGZ3": {
+    "defaultMessage": ">>> Close Window <<<",
+    "description": "[user file] Close Upload Window"
+  },
+  "hVNHbT": {
+    "defaultMessage": ">>> Rows <<<",
+    "description": "[Query] Button text for All to Rows function"
+  },
+  "hYF5de": {
+    "defaultMessage": ">>> Cycle Grid Lines <<<",
+    "description": "[Highcharts] Toolbar function - Switch different grid lines styles"
+  },
+  "haaLjF": {
+    "defaultMessage": ">>> Sort Selected Coordinates Alphabetically Ascending <<<",
+    "description": "[FlexibleAxesEditor] sorting all items"
+  },
+  "hgOG3+": {
+    "defaultMessage": ">>> Percentile Ranges <<<",
+    "description": "[highcharts] Box chart legend title - Percentile Ranges"
+  },
+  "hiSUFd": {
+    "defaultMessage": ">>> Simulate <<<",
+    "description": "[Common] execute a simulation object to get the result"
+  },
+  "ho8Mwn": {
+    "defaultMessage": ">>> Subscription Type <<<",
+    "description": "Delivery method used for the notification: Email, Text or Desktop"
+  },
+  "huCVql": {
+    "defaultMessage": ">>> Auto <<<",
+    "description": "[Common] the status will change based on the system"
+  },
+  "i+XZpI": {
+    "defaultMessage": ">>> Done <<<",
+    "description": "[Common] for the object control - result already generated"
+  },
+  "i34Oqt": {
+    "defaultMessage": ">>> Asset Class Price Return <<<",
+    "description": "[RepositoryVariablesView] selection value for the field type"
+  },
+  "i3lDnM": {
+    "defaultMessage": ">>> View <<<",
+    "description": "[Common] the object book structure - view, included by a page"
+  },
+  "i4EZMC": {
+    "defaultMessage": ">>> Waiting for result to be ready... <<<",
+    "description": "[Query] Message for waiting query result to be ready"
+  },
+  "i4JXFn": {
+    "defaultMessage": ">>> Sorted Z-A <<<",
+    "description": "[Common] a order way for the list a set of items"
+  },
+  "i4Y7Yr": {
+    "defaultMessage": ">>> PL <<<",
+    "description": "a country/economy identification"
+  },
+  "i8+n79": {
+    "defaultMessage": ">>> Simulations <<<",
+    "description": "objectName - Simulation (multi)"
+  },
+  "iINS8i": {
+    "defaultMessage": ">>> Reset {followingText} <<<",
+    "description": "[Common] for the object control - reset the object configs"
+  },
+  "iLaZhW": {
+    "defaultMessage": ">>> Default levels <<<",
+    "description": "[RSSimulation] Log filter option text - Default levels"
+  },
+  "iMQWQp": {
+    "defaultMessage": ">>> Links <<<",
+    "description": "[ApplicationMenu] Indicates menu sub-group title - Links"
+  },
+  "iOC3/n": {
+    "defaultMessage": ">>> Delete Selected Axis Coordinate(s) <<<",
+    "description": "[FlexibleAxesEditor] delete one or multiple coordinates to the axis"
+  },
+  "iOH7PW": {
+    "defaultMessage": ">>> Errors <<<",
+    "description": "[BatchImportResultsDialog] one of navigate way for detail result"
+  },
+  "iaSliF": {
+    "defaultMessage": ">>> Report <<<",
+    "description": "sub-object name - Reports (single)"
+  },
+  "iakvzh": {
+    "defaultMessage": ">>> Variables <<<",
+    "description": "[Query] the query book's one of page name"
+  },
+  "idb7ip": {
+    "defaultMessage": ">>> Non Computed <<<",
+    "description": "[RSSimulation] Scenarios process category in simulation progress - Non Computed"
+  },
+  "ijaXWD": {
+    "defaultMessage": ">>> Markets <<<",
+    "description": "a module/component identification"
+  },
+  "ik0/4F": {
+    "defaultMessage": ">>> File <<<",
+    "description": "[RepositoryGeneralView] text input label"
+  },
+  "ikzl6N": {
+    "defaultMessage": ">>> Show log messages <<<",
+    "description": "[RSSimulation] Tooltip to show Simulation Running Messages"
+  },
+  "imTxj3": {
+    "defaultMessage": ">>> Distribution Percentiles <<<",
+    "description": "[hightcharts] Tooltip title in chart - Distribution Percentiles"
+  },
+  "ir1X1w": {
+    "defaultMessage": ">>> Tag Value <<<",
+    "description": "[TagValueStore] default new tag value name, which used to tag/identify system objects"
+  },
+  "ivfs/D": {
+    "defaultMessage": ">>> Components <<<",
+    "description": "[ParameterTemplateOptions] a field name for the FRIM's creating inputs"
+  },
+  "ixBR4O": {
+    "defaultMessage": ">>> Previous parameters <<<",
+    "description": "[CombinatorialAddRows] a sub option for the targets option"
+  },
+  "iz8/YI": {
+    "defaultMessage": ">>> Notifications <<<",
+    "description": "page title"
+  },
+  "izI4ug": {
+    "defaultMessage": ">>> Last month <<<",
+    "description": "[Billing] Date Picker's shortcut - Last month"
+  },
+  "j0BjBV": {
+    "defaultMessage": ">>> Climate Risk Analysis <<<",
+    "description": "objectName - ClimateRiskAnalysis (single)"
+  },
+  "j1fyl9": {
+    "defaultMessage": ">>> Queries <<<",
+    "description": "objectName - Query (multi)"
+  },
+  "j2DK6m": {
+    "defaultMessage": ">>> Past year <<<",
+    "description": "[Billing] Date Picker's shortcut - Past year"
+  },
+  "j4O20w": {
+    "defaultMessage": ">>> Collapsed (Vertical) <<<",
+    "description": "[SettingsTabPanel] section option - Query Tool Variables Layout - Vertical"
+  },
+  "j4R5Ui": {
+    "defaultMessage": ">>> Email <<<",
+    "description": "Identifies the type of notification"
+  },
+  "j6A8F4": {
+    "defaultMessage": ">>> Preferences <<<",
+    "description": "page title"
+  },
+  "j9RA2K": {
+    "defaultMessage": ">>> Grid Jobs <<<",
+    "description": "[ControlPanelPage] tab text - a page shows processing grid jobs on the back-end"
+  },
+  "jJ+zoM": {
+    "defaultMessage": ">>> Batch Export Special <<<",
+    "description": "[BatchExportCustomizeDialog] dialog title"
+  },
+  "jPBs4V": {
+    "defaultMessage": ">>> GMT Time <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "jPQuah": {
+    "defaultMessage": ">>> Values <<<",
+    "description": "[hightcharts] Tooltip value in chart - Value (plural)"
+  },
+  "jTO4DZ": {
+    "defaultMessage": ">>> Waiting <<<",
+    "description": "[RSSimulation] Manager status detail name - Waiting"
+  },
+  "jc5ej+": {
+    "defaultMessage": ">>> Asset Class Income Return <<<",
+    "description": "[RepositoryVariablesView] selection value for the field type"
+  },
+  "jk/bOa": {
+    "defaultMessage": ">>> Detailed <<<",
+    "description": "[InputSpecificationComponent] the layout mode setting button"
+  },
+  "juluWk": {
+    "defaultMessage": ">>> Navigation Mode <<<",
+    "description": "[BatchImportResultsDialog] import result navigation item title"
+  },
+  "jxTAfX": {
+    "defaultMessage": ">>> Cash <<<",
+    "description": "a module/component identification"
+  },
+  "jyqOsw": {
+    "defaultMessage": ">>> Format Axis <<<",
+    "description": "[highcharts] Format Axis Dialog Title"
+  },
+  "k1OEC7": {
+    "defaultMessage": ">>> Elements <<<",
+    "description": "Label for the number of elements/numbers that were generated by the simulation"
+  },
+  "k2qsoE": {
+    "defaultMessage": ">>> Expert Search Mode <<<",
+    "description": "[StandaloneQueryPage][renderExtraSettingsMenuItems] a trigger which control Query's Expert Search Mode"
+  },
+  "k6w0gD": {
+    "defaultMessage": ">>> Definition File (.DFA) <<<",
+    "description": "[Common] input field name - Definition File"
+  },
+  "kChfJB": {
+    "defaultMessage": ">>> When a simulation encounters an error during generation. <<<",
+    "description": "describes the notification event"
+  },
+  "kGlISf": {
+    "defaultMessage": ">>> Upload File or Folder <<<",
+    "description": "[user file] Upload file or folder"
+  },
+  "kJLpXV": {
+    "defaultMessage": ">>> {impliedAxes} implied axis is currently shown <<<",
+    "description": "[AccordionPanelComponent] a hit message about how many unavailable items shown"
+  },
+  "kM7rHs": {
+    "defaultMessage": ">>> Page <<<",
+    "description": "[Common] the object book structure - page, included by a book"
+  },
+  "kO/62h": {
+    "defaultMessage": ">>> Box <<<",
+    "description": "[hightcharts] Box Chart"
+  },
+  "kOdiRp": {
+    "defaultMessage": ">>> Column Coordinate Selection <<<",
+    "description": "[Query] Pivot table context menu function - Column Coordinate Selection"
+  },
+  "kUMWWm": {
+    "defaultMessage": ">>> When a simulation has been running for longer than specified: <<<",
+    "description": "describes the notification event"
+  },
+  "kW3htX": {
+    "defaultMessage": ">>> Bounds <<<",
+    "description": "[highcharts] Title for adjusting Bounds in Format Axis"
+  },
+  "kbx42i": {
+    "defaultMessage": ">>> Year <<<",
+    "description": "[hightcharts] Tooltip value in chart - Year"
+  },
+  "kenBd2": {
+    "defaultMessage": ">>> Yield <<<",
+    "description": "[ModelChart] chart label for the yield of an investment"
+  },
+  "kf5pLv": {
+    "defaultMessage": ">>> Roll forward to <<<",
+    "description": "[RollForwardDialog] input group title for setting target forward date"
+  },
+  "knxsO9": {
+    "defaultMessage": ">>> {hour}{minute}{second}left... <<<",
+    "description": "[user file] Estimate upload time"
+  },
+  "ksFqoA": {
+    "defaultMessage": ">>> Tenant: <<<",
+    "description": "[about dialog] tenant tag"
+  },
+  "kwreP1": {
+    "defaultMessage": ">>> Reference Mean: <<<",
+    "description": "[Query] Sensitivity settings - Reference Mean"
+  },
+  "l+IzqY": {
+    "defaultMessage": ">>> Append to other existing {userFile} <<<",
+    "description": "[BatchExportCustomizeDialog] append date into a file on server"
+  },
+  "l3fjWp": {
+    "defaultMessage": ">>> Accept Calibration <<<",
+    "description": "[RSSimulationApplicationBarItems] Button that accepts the changes from running a calibration"
+  },
+  "l67epJ": {
+    "defaultMessage": ">>> Created Time <<<",
+    "description": "Label that identifies the time that an object was created"
+  },
+  "l7oDrf": {
+    "defaultMessage": ">>> Truncation warning: showing only the first {i} of {total} messages <<<",
+    "description": "[RepositoryGeneralView] Truncation warning message"
+  },
+  "lJuh7h": {
+    "defaultMessage": ">>> to get back to the homepage. <<<",
+    "description": "[InstallerDownloadPage] Indicates return homepage messages - after the link"
+  },
+  "lLahS5": {
+    "defaultMessage": ">>> Split tables <<<",
+    "description": "[recalibration][ModelTree] menu tree contextmenu for operate axis organization"
+  },
+  "lNOKSd": {
+    "defaultMessage": ">>> Contact Us <<<",
+    "description": "Contact Supprt"
+  },
+  "lRUFTU": {
+    "defaultMessage": ">>> Lambda Value <<<",
+    "description": "[highcharts] Value set label in Status - Lambda Value"
+  },
+  "lRy5dz": {
+    "defaultMessage": ">>> Color <<<",
+    "description": "[EditTagValuesDialog] column - Indicates the background color of the user tag's sub-option"
+  },
+  "lWhkzp": {
+    "defaultMessage": ">>> Minimum <<<",
+    "description": "[highcharts] Label Title for adjusting bound's minimum in Format Axis"
+  },
+  "lZ8bvs": {
+    "defaultMessage": ">>> Real World <<<",
+    "description": "[Common] simulation parameterization Measure for the firm simulation"
+  },
+  "ldJxSO": {
+    "defaultMessage": ">>> Starting query... <<<",
+    "description": "[Query] Display message for Query is Starting"
+  },
+  "lgtouZ": {
+    "defaultMessage": ">>> Delete Selected {rowOrColumnLabel} <<<",
+    "description": "[InputTable] delete selected records on the table"
+  },
+  "lsF3VP": {
+    "defaultMessage": ">>> Language <<<",
+    "description": "[SettingsTabPanel] section title - Indicates a language setting block"
+  },
+  "lwxvxN": {
+    "defaultMessage": ">>> This action cannot be undone. <<<",
+    "description": "[StandaloneQueryPage] warning message - confirm message before delete"
+  },
+  "lytiDj": {
+    "defaultMessage": ">>> Computation initiated <<<",
+    "description": "[RSSimulation] Message for Simulation Running Status Summary - Computation initiated"
+  },
+  "m/TqtX": {
+    "defaultMessage": ">>> My Recent <<<",
+    "description": "My Recent Items"
+  },
+  "m1wsIk": {
+    "defaultMessage": ">>> Computation <<<",
+    "description": "[RSSimulation] Computation status in simulation running progress"
+  },
+  "m5Mn+k": {
+    "defaultMessage": ">>> Delete Tag <<<",
+    "description": "[OmdbTagsEditor] remove user tag that to be used to tag/identify system objects"
+  },
+  "m5VAtL": {
+    "defaultMessage": ">>> Reset <<<",
+    "description": "[Common] for the object control - reset the object configs"
+  },
+  "m8sY6B": {
+    "defaultMessage": ">>> Quick Filters: <<<",
+    "description": "[SoftwareNoticesPage] Indicates a text before the quick filters"
+  },
+  "mA6zBY": {
+    "defaultMessage": ">>> Today <<<",
+    "description": "[Billing] Date Picker's shortcut - Today"
+  },
+  "mBKB3i": {
+    "defaultMessage": ">>> Seconds <<<",
+    "description": "[Countdown] Label text for Seconds"
+  },
+  "mC8mut": {
+    "defaultMessage": ">>> MX <<<",
+    "description": "a country/economy identification"
+  },
+  "mCuHgG": {
+    "defaultMessage": ">>> Tax <<<",
+    "description": "a module/component identification"
+  },
+  "mEeeNE": {
+    "defaultMessage": ">>> (row {displayIndex}) <<<",
+    "description": "[FlexibleAxesEditor] a information shows what row activate contextmenu"
+  },
+  "mNd65N": {
+    "defaultMessage": ">>> New {followingText} Session <<<",
+    "description": "[Common] for the object control - new a object"
+  },
+  "mRfr4S": {
+    "defaultMessage": ">>> Pending Upload: {count} <<<",
+    "description": "[user file] Pending Upload Count"
+  },
+  "mUtDYW": {
+    "defaultMessage": ">>> Fill: <<<",
+    "description": "[highcharts] Label of adjusting fill opacity"
+  },
+  "mVy8Ly": {
+    "defaultMessage": ">>> Append Items from Clipboard <<<",
+    "description": "[FlexibleAxesEditor] paste items from clipboard"
+  },
+  "mXjU8O": {
+    "defaultMessage": ">>> Billions <<<",
+    "description": "[highcharts] Display unit label in Format Axis - Billions"
+  },
+  "mcsMdc": {
+    "defaultMessage": ">>> Scenarios <<<",
+    "description": "[RSSimulation] Scenario unit name (plural)"
+  },
+  "mfsMdI": {
+    "defaultMessage": ">>> Database saved <<<",
+    "description": "[RSSimulation] Category for chart Number Scenarios Processed - Database saved"
+  },
+  "mgaiRD": {
+    "defaultMessage": ">>> MY <<<",
+    "description": "a country/economy identification"
+  },
+  "mi3JQ2": {
+    "defaultMessage": ">>> File Name <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "miLvbR": {
+    "defaultMessage": ">>> Percentile <<<",
+    "description": "[hightcharts] Tooltip value in chart - Percentile"
+  },
+  "mjl5pJ": {
+    "defaultMessage": ">>> Change Queried Simulation(s) <<<",
+    "description": "[QueryContextMenu] item title - open properties dialog to change simulation setting"
+  },
+  "n6pXWx": {
+    "defaultMessage": ">>> Time = 0 (if different) <<<",
+    "description": "[RepositoryVariablesView] grid column label"
+  },
+  "nAGTv0": {
+    "defaultMessage": ">>> Scenario Summary <<<",
+    "description": "Label for the Meta data that describes a simulation"
+  },
+  "nCQKP1": {
+    "defaultMessage": ">>> Financial Markets <<<",
+    "description": "a module/component identification"
+  },
+  "nJiD6g": {
+    "defaultMessage": ">>> Export module selections <<<",
+    "description": "[BatchExportCustomizeDialog] export module selections information"
+  },
+  "nPo+VJ": {
+    "defaultMessage": ">>> Semimonthly (24) <<<",
+    "description": "[RepositoryGeneralView] simulation Frequency names"
+  },
+  "naxbf9": {
+    "defaultMessage": ">>> Run <<<",
+    "description": "[Common] for the object control - execute for generate the result"
+  },
+  "niDepP": {
+    "defaultMessage": ">>> Remove Statistic '{statistic}'? <<<",
+    "description": "[StatisticsPanel] a confirm message before delete a statistic in the Statistics inputs panel"
+  },
+  "njgUDG": {
+    "defaultMessage": ">>> Card <<<",
+    "description": "[OmdbTagsEditor] table column - set this tag can show on the object browser cards view"
+  },
+  "nmQd0J": {
+    "defaultMessage": ">>> CSV Files <<<",
+    "description": "[RSSimulation] Category for chart Number Scenarios Processed - CSV Files"
+  },
+  "noEuYV": {
+    "defaultMessage": ">>> Add a Statistic... <<<",
+    "description": "[StatisticsPanel] the query's Statistics inputs panel's selection input placeholder"
+  },
+  "noq9g1": {
+    "defaultMessage": ">>> Variables Layout <<<",
+    "description": "[QueryContextMenu] item title - Indicates a Query Tool Variables Layout setting block"
+  },
+  "ns4pdR": {
+    "defaultMessage": ">>> Installer Download <<<",
+    "description": "[InstallerDownloadPage] the page title display on the browser tab, system application menu and the page's top-left button"
+  },
+  "nuaaLr": {
+    "defaultMessage": ">>> Paste content: <<<",
+    "description": "[TableCopier] copy content detail display box title"
+  },
+  "nzGFNr": {
+    "defaultMessage": ">>> Module Selection <<<",
+    "description": "[ModuleSelectionDialog] dialog title"
+  },
+  "o1K/Sr": {
+    "defaultMessage": ">>> Remove this Clause <<<",
+    "description": "[AccordionToolbarButtons] a add remove current clause button text"
+  },
+  "oN+oPW": {
+    "defaultMessage": ">>> Time > 0 <<<",
+    "description": "[RepositoryVariablesView] grid column label"
+  },
+  "oNX7VO": {
+    "defaultMessage": ">>> When a simulation completes the 'compile' phase. <<<",
+    "description": "describes the notification event"
+  },
+  "oZ+icv": {
+    "defaultMessage": ">>> Modify Query <<<",
+    "description": "[QueryPropertiesDialog]  Dialog title - show when modify a Query session's properties"
+  },
+  "ocWZ8U": {
+    "defaultMessage": ">>> Sign-out <<<",
+    "description": "[UserMenu] Sign-out"
+  },
+  "ogo6A/": {
+    "defaultMessage": ">>> Manager <<<",
+    "description": "[RSSimulation] Title for Manager in Simulation Running Progress"
+  },
+  "ohSL80": {
+    "defaultMessage": ">>> Query <<<",
+    "description": "objectName - Query (single)"
+  },
+  "oiQUkk": {
+    "defaultMessage": ">>> Support <<<",
+    "description": "Customer Support"
+  },
+  "ok7Eiw": {
+    "defaultMessage": ">>> {size}MB <<<",
+    "description": "[RSSimulation] Data size processed in Data Elements Chart in Simulation Running Progress"
+  },
+  "okUJjV": {
+    "defaultMessage": ">>> Input Metadata <<<",
+    "description": "[RepositoryGeneralView] input group title"
+  },
+  "osl+ny": {
+    "defaultMessage": ">>> (File Upload) <<<",
+    "description": "[user file] (File Upload)"
+  },
+  "oyunNi": {
+    "defaultMessage": ">>> Remove Value <<<",
+    "description": "[EditTagValuesDialog] tooltip - delete the user tag's sub-option that to be used to tag/identify system objects"
+  },
+  "ozmtLO": {
+    "defaultMessage": ">>> Can Search <<<",
+    "description": "[OmdbTagsEditor] table column - set this tag can become a index of search dictionary"
+  },
+  "ozpyRk": {
+    "defaultMessage": ">>> Required <<<",
+    "description": "[OmdbTagsEditor] table column - set this user tag must be set on the object"
+  },
+  "p0mA7f": {
+    "defaultMessage": ">>> Show Them <<<",
+    "description": "[AccordionPanelComponent] a trigger for show unavailable items"
+  },
+  "p4uXdh": {
+    "defaultMessage": ">>> Replace <<<",
+    "description": "[ObjectChooser] a confirm dialog deactivate button text - when user select new item to replace old one"
+  },
+  "pDoVjX": {
+    "defaultMessage": ">>> Decrease Font Size <<<",
+    "description": "[highcharts] Toolbar function - Decrease font size on chart"
+  },
+  "pGuRkr": {
+    "defaultMessage": ">>> New Local File <<<",
+    "description": "[NavigationTree] export FIRM parameters to a new file and download"
+  },
+  "pNJBVK": {
+    "defaultMessage": ">>> Toggle Sensitivity <<<",
+    "description": "[Query] Tooltip for enable or disable Sensitivity function"
+  },
+  "pP5Z69": {
+    "defaultMessage": ">>> DK <<<",
+    "description": "a country/economy identification"
+  },
+  "pXVCXW": {
+    "defaultMessage": ">>> Set Visible <<<",
+    "description": "[OmdbCardBuilder] a tooltip of a icon which means this tag will not be shown on the card. click the icon to set visible"
+  },
+  "pax+nw": {
+    "defaultMessage": ">>> Selection: <<<",
+    "description": "[ObjectChooser] Indicates a list of object which are user selected"
+  },
+  "pbdH4c": {
+    "defaultMessage": ">>> Simulation Canceled <<<",
+    "description": "[RSSimulation] message box title for the gems based object simulate cancelled before complete"
+  },
+  "pdJjXO": {
+    "defaultMessage": ">>> Reset Zoom <<<",
+    "description": "[Highcharts] Toolbar function - Reset zoom of chart"
+  },
+  "pdpFyH": {
+    "defaultMessage": ">>> X <<<",
+    "description": "[ModelChart] chart advance setting path name for the x axis"
+  },
+  "pnHioS": {
+    "defaultMessage": ">>> Preview <<<",
+    "description": "[EditTagValuesDialog] column - Indicates the style preview of the user tag's sub-option"
+  },
+  "psHDEx": {
+    "defaultMessage": ">>> Support <<<",
+    "description": "[support dialog] dialog title"
+  },
+  "pzg9dt": {
+    "defaultMessage": ">>> Software Legal Notices <<<",
+    "description": "[SoftwareNoticesPage] the page title display on the browser tab, system application menu and the page's top-left button"
+  },
+  "q/2roj": {
+    "defaultMessage": ">>> Preparing to initialize Queries ... <<<",
+    "description": "[RSSimulation] Loading message while initializing queries after simulation is completed"
+  },
+  "q/kcIC": {
+    "defaultMessage": ">>> Paste <<<",
+    "description": "[Common] get and put the object to the clipboard"
+  },
+  "q08vFi": {
+    "defaultMessage": ">>> Initializing Resources... <<<",
+    "description": "[Query] Query run step title - Initializing Resources"
+  },
+  "q7AFlf": {
+    "defaultMessage": ">>> Distinct <<<",
+    "description": "[ObjectCatalogSearcher] type of a search result item"
+  },
+  "qBny4b": {
+    "defaultMessage": ">>> Cumulative Returns <<<",
+    "description": "[highcharts] Switch text for toggling Cumulative Returns"
+  },
+  "qDVJBV": {
+    "defaultMessage": ">>> Row <<<",
+    "description": "[InputTable] the primary axis label for the table (single)"
+  },
+  "qH/qn3": {
+    "defaultMessage": ">>> Configuration <<<",
+    "description": "[Common] an arrangement of elements in a particular form, figure, or combination"
+  },
+  "qLwXDs": {
+    "defaultMessage": ">>> Hide (Inactive) <<<",
+    "description": "[RepositoryVariablesView] grid column label"
+  },
+  "qOj+9a": {
+    "defaultMessage": ">>> No grid <<<",
+    "description": "Signals that a simulation wasn't ran with a grid"
+  },
+  "qRSqgE": {
+    "defaultMessage": ">>> Version <<<",
+    "description": "Label for the schema version of the simulation"
+  },
+  "qV0hw3": {
+    "defaultMessage": ">>> No results available <<<",
+    "description": "[RSSimulationEmptyOutput] the message box title for output page ask run simulation first"
+  },
+  "qZFzt7": {
+    "defaultMessage": ">>> {minute} min <<<",
+    "description": "[user file] One Minute"
+  },
+  "qdHPpq": {
+    "defaultMessage": ">>> Modules <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "qe61Jt": {
+    "defaultMessage": ">>> Settings <<<",
+    "description": "[StandaloneQueryPage] the extra setting menu title"
+  },
+  "qeulKk": {
+    "defaultMessage": ">>> First Scenario{br}Average Times <<<",
+    "description": "[RSSimulation] Chart title for First Scenario Average Times"
+  },
+  "qjegtW": {
+    "defaultMessage": ">>> Billing Report <<<",
+    "description": "[Billing] Billing Report's title"
+  },
+  "qjkFrB": {
+    "defaultMessage": ">>> <div>\"<b>{tagName}</b>\" already exists in type \"<b>{objectType}</b>\"</div> <<<",
+    "description": "[OmdbTagsEditor] Indicates error message when updating the object type"
+  },
+  "qp8e10": {
+    "defaultMessage": ">>> None <<<",
+    "description": "[highcharts] Display unit label in Format Axis - None"
+  },
+  "qvBABT": {
+    "defaultMessage": ">>> Run <<<",
+    "description": "[Common] Signals that a process is in the run (has been started and is running) state"
+  },
+  "r+gEq1": {
+    "defaultMessage": ">>> Scenario generation <<<",
+    "description": "[RSSimulation] Scenarios stack category in simulation progress - Scenario generation"
+  },
+  "rAkwJv": {
+    "defaultMessage": ">>> CSV <<<",
+    "description": "[Common] a CSV file"
+  },
+  "rBkNP8": {
+    "defaultMessage": ">>> Timeout (mins) <<<",
+    "description": "[WorkerManager] table column - Indicates the setting of minutes past to close the application if there is no request anymore"
+  },
+  "rBkb4h": {
+    "defaultMessage": ">>> Line Mode <<<",
+    "description": "[highcharts] Tooltip for line marker mode"
+  },
+  "rE4LtA": {
+    "defaultMessage": ">>> Estimating upload time... <<<",
+    "description": "[user file] Estimating upload time."
+  },
+  "rEay6q": {
+    "defaultMessage": ">>> Query Specification <<<",
+    "description": "[QueryPropertiesDialog] field name - Specification file upload input"
+  },
+  "rJX6Xw": {
+    "defaultMessage": ">>> Bimonthly (6) <<<",
+    "description": "[RepositoryGeneralView] simulation Frequency names"
+  },
+  "rU43We": {
+    "defaultMessage": ">>> Add tag... <<<",
+    "description": "[CatalogSidebarTags] context menu  - add a new user tag that to be used to tag/identify system objects"
+  },
+  "rWwffF": {
+    "defaultMessage": ">>> Target <<<",
+    "description": "[hightcharts] Tooltip value in chart - Target"
+  },
+  "rWxN7G": {
+    "defaultMessage": ">>> Past 3 months <<<",
+    "description": "[Billing] Date Picker's shortcut - Past 3 months"
+  },
+  "rYXiV8": {
+    "defaultMessage": ">>> Remove {tagName} Tag <<<",
+    "description": "[OmdbCardBuilder] context menu option - remove the tag from the card section group"
+  },
+  "raiSCB": {
+    "defaultMessage": ">>> Starting Year <<<",
+    "description": "[RepositoryGeneralView] text input label"
+  },
+  "rboiHa": {
+    "defaultMessage": ">>> Are you sure you want to replace the current selection? <<<",
+    "description": "[ObjectChooser] a confirm dialog title - when user select new item to replace old one"
+  },
+  "rcGYaY": {
+    "defaultMessage": ">>> Additional Settings <<<",
+    "description": "[NewSimulationDialog] a button to show/hide some additional options for create simulation"
+  },
+  "rcM3jM": {
+    "defaultMessage": ">>> Rearranging... <<<",
+    "description": "[Query] Display text for rearranging pivot table's result"
+  },
+  "rdrEFz": {
+    "defaultMessage": ">>> To latest message <<<",
+    "description": "[RSSimulation] Tooltip for button that focuses latest log message"
+  },
+  "rgecKw": {
+    "defaultMessage": ">>> User File <<<",
+    "description": "[RepositoryGeneralView] input group title"
+  },
+  "rj2nG3": {
+    "defaultMessage": ">>> Remove Tooltips <<<",
+    "description": "[highcharts] Button text for function Remove Pinned Tooltips"
+  },
+  "rkeeVt": {
+    "defaultMessage": ">>> Specification <<<",
+    "description": "[Common] an act of describing or identifying something precisely or of stating a precise requirement"
+  },
+  "rkpcdh": {
+    "defaultMessage": ">>> Minutes <<<",
+    "description": "[Countdown] Label text for Minutes"
+  },
+  "rlxCak": {
+    "defaultMessage": ">>> Settings <<<",
+    "description": "[Common] the place or type of surroundings where something is positioned or where an event takes place."
+  },
+  "rpnf9O": {
+    "defaultMessage": ">>> Scenario Processing <<<",
+    "description": "[RSSimulation] Title for Scenario Progressing in Simulation Running Progress"
+  },
+  "rq2lT9": {
+    "defaultMessage": ">>> Modified By <<<",
+    "description": "Label that identifies the name of the person that last modified an object"
+  },
+  "rxzzSE": {
+    "defaultMessage": ">>> Loading... <<<",
+    "description": "[Common] the message let user know the system is on progress"
+  },
+  "rybDJC": {
+    "defaultMessage": ">>> Linked Objects <<<",
+    "description": "[SimulationCard] tooltip for a button which shows what other objects are currently linked to (referencing) this object"
+  },
+  "s+QfcB": {
+    "defaultMessage": ">>> Source Type <<<",
+    "description": "Label for the source (Legacy, GEMS, User Uploaded File) that generated the simulation"
+  },
+  "s0RKoS": {
+    "defaultMessage": ">>> Monthly <<<",
+    "description": "[common] a option for the periodicity"
+  },
+  "s1GS+v": {
+    "defaultMessage": ">>> Batch Import Calibration Inputs <<<",
+    "description": "[BatchImportDialog] dialog title - Calibration Inputs"
+  },
+  "s2w86T": {
+    "defaultMessage": ">>> Report Range: <<<",
+    "description": "[Billing] Billing Query form's input label - Report Range"
+  },
+  "s33L0W": {
+    "defaultMessage": ">>> The simulation is in use by active query sessions and cannot be deleted <<<",
+    "description": "[Simulation] message to inform the user that a simulation object is in use and cannot be deleted"
+  },
+  "s8qYs6": {
+    "defaultMessage": ">>> Pre-adjustment Returns <<<",
+    "description": "[highcharts] Switch text for toggling Pre-adjustment Returns"
+  },
+  "sI+IeQ": {
+    "defaultMessage": ">>> {objectType} Browser <<<",
+    "description": "[Common] for the object control - object browser title"
+  },
+  "sNC2E5": {
+    "defaultMessage": ">>> Estimated Time to {br} Database Saved <<<",
+    "description": "[RSSimulation] Message for Estimated Time to Database Saved"
+  },
+  "sPYDbT": {
+    "defaultMessage": ">>> Navigation Mode <<<",
+    "description": "[RSSimulationContextMenu] set the display mode of the navigation items"
+  },
+  "sSTQhV": {
+    "defaultMessage": ">>> Only <<<",
+    "description": "[Common] The name of a shortcut lets the user select the specific item/items quickly"
+  },
+  "sap+2L": {
+    "defaultMessage": ">>> Jump Up <<<",
+    "description": "[NavigationTree] move axis coordinate at tree node contextmenu"
+  },
+  "scxFyQ": {
+    "defaultMessage": ">>> Column Series <<<",
+    "description": "[query] Correlation Maxtrix Tooltip Content - Column Series"
+  },
+  "si/kIw": {
+    "defaultMessage": ">>> Computing <<<",
+    "description": "[RSSimulation] Computation status legend name - Computing"
+  },
+  "sicrRV": {
+    "defaultMessage": ">>> Appending to file... <<<",
+    "description": "[BatchExportProgressDialog] message while system append data to the export file"
+  },
+  "smom27": {
+    "defaultMessage": ">>> Add an Axis... <<<",
+    "description": "[StatisticsPanel] the query's Statistics inputs panel's selection input placeholder"
+  },
+  "sp+4Vx": {
+    "defaultMessage": ">>> Data Frequencies <<<",
+    "description": "[RepositoryGeneralView] input group title"
+  },
+  "sy7GHZ": {
+    "defaultMessage": ">>> Mean <<<",
+    "description": "[hightcharts] Tooltip value in chart - Mean"
+  },
+  "sys5b8": {
+    "defaultMessage": ">>> Job Type <<<",
+    "description": "[GridJobs] table column - Indicates the type of the job"
+  },
+  "t7OfiR": {
+    "defaultMessage": ">>> Lock Inputs <<<",
+    "description": "[ApplicationShortCuts] to disable the page lock which is used to avoid the result lost"
+  },
+  "t7oNkh": {
+    "defaultMessage": ">>> Time-Steps <<<",
+    "description": "[TimeStepsPanel] the query input panel title"
+  },
+  "tRKAHr": {
+    "defaultMessage": ">>> Default Sort <<<",
+    "description": "[Common] a order way for the list a set of items"
+  },
+  "tSeCOS": {
+    "defaultMessage": ">>> Export data for all model choices <<<",
+    "description": "[BatchExportCustomizeDialog] export all modules choices"
+  },
+  "tYmnyy": {
+    "defaultMessage": ">>> Error exists in definition, please fix before generating simulation results <<<",
+    "description": "[RepositoryMessagesView] result status description when simulation can not run successfully"
+  },
+  "tmyT2t": {
+    "defaultMessage": ">>> No changes since last run <<<",
+    "description": "[RSSimulation] Block run message while no changes since last run"
+  },
+  "tplSro": {
+    "defaultMessage": ">>> Sum <<<",
+    "description": "[RepositoryVariablesView] selection value for the time aggregator"
+  },
+  "tr81FA": {
+    "defaultMessage": ">>> Lock <<<",
+    "description": "[Common] the object page ctrl - a page lock to avoid the result lost because user change the inputs"
+  },
+  "tx6QD9": {
+    "defaultMessage": ">>> Add notes to {path}… <<<",
+    "description": "[NoteEditor] placeholder text"
+  },
+  "u3uouh": {
+    "defaultMessage": ">>> Risk Neutral <<<",
+    "description": "[Common] simulation parameterization Measure for the firm simulation"
+  },
+  "u6FMJ9": {
+    "defaultMessage": ">>> Post-adjustment Returns <<<",
+    "description": "[highcharts] Switch text for toggling Post-adjustment Returns"
+  },
+  "u6QENf": {
+    "defaultMessage": ">>> There has been no progress update for {minutes} minutes. Network activity may be preventing successful upload. Please retry <<<",
+    "description": "[user file] No Progress Warning"
+  },
+  "u9C5md": {
+    "defaultMessage": ">>> target date <<<",
+    "description": "[RollForwardDialog] message to describe why apply latest template not working (target dates hits)"
+  },
+  "uAFHU7": {
+    "defaultMessage": ">>> Maximum <<<",
+    "description": "[highcharts] Label Title for adjusting bound's maximum in Format Axis"
+  },
+  "uJPOJv": {
+    "defaultMessage": ">>> JP <<<",
+    "description": "a country/economy identification"
+  },
+  "uN7aNg": {
+    "defaultMessage": ">>> Your query returned no viewable data. <<<",
+    "description": "[Query] Message for no viewalbe query result for the query"
+  },
+  "uOgAVj": {
+    "defaultMessage": ">>> Recalibration <<<",
+    "description": "[hightcharts] Recalibration Chart in Recalibration"
+  },
+  "uQ/4Tk": {
+    "defaultMessage": ">>> Number of Resamples: <<<",
+    "description": "[Query] Bootstrap settings - Number of Resamples"
+  },
+  "uYB6V8": {
+    "defaultMessage": ">>> Add timestamp <<<",
+    "description": "[NoteEditor] plugin tooltip"
+  },
+  "uYEeNB": {
+    "defaultMessage": ">>> Rename <<<",
+    "description": "[Common] for the object control - rename the object"
+  },
+  "uagSmG": {
+    "defaultMessage": ">>> Initializing Session <<<",
+    "description": "[RepositoryComponent] loading message"
+  },
+  "uduJ/r": {
+    "defaultMessage": ">>> Running <<<",
+    "description": "Signals that a process is running in order to generate the requested output"
+  },
+  "uhFfp4": {
+    "defaultMessage": ">>> Return to Query Specification <<<",
+    "description": "[Query] Button text for returning query speicification editor from query result"
+  },
+  "uhygAl": {
+    "defaultMessage": ">>> Add New Section <<<",
+    "description": "[OmdbCardBuilder] Add New Section group, which is empty or contains one/many tags"
+  },
+  "uiSdhC": {
+    "defaultMessage": ">>> Add A New Tag Value <<<",
+    "description": "[EditTagValuesDialog] add the user tag's sub-option that to be used to tag/identify system objects"
+  },
+  "ulqYS2": {
+    "defaultMessage": ">>> Run Query Specification <<<",
+    "description": "[QueryContextMenu] item title - execute for the query result"
+  },
+  "uqT2PR": {
+    "defaultMessage": ">>> Output saved <<<",
+    "description": "[RSSimulation] Computation status legend name - Output saved"
+  },
+  "uyPhME": {
+    "defaultMessage": ">>> SE <<<",
+    "description": "a country/economy identification"
+  },
+  "v+dmLk": {
+    "defaultMessage": ">>> Random Points <<<",
+    "description": "[highcharts] Switch text for toggling Random Points"
+  },
+  "v2+BYF": {
+    "defaultMessage": ">>> PDF <<<",
+    "description": "[Common] a JSON file"
+  },
+  "v3hCua": {
+    "defaultMessage": ">>> {simulation} In Use <<<",
+    "description": "[Simulation] dialog title to indicate that the simulation is being used/referenced by other objects"
+  },
+  "v4b01p": {
+    "defaultMessage": ">>> Batch Export <<<",
+    "description": "[NavigationTree] export FIRM parameters"
+  },
+  "v6KbLv": {
+    "defaultMessage": ">>> Insert 1 Axis Coordinate Before <<<",
+    "description": "[FlexibleAxesEditor] insert a coordinate to the axis"
+  },
+  "vFEpE4": {
+    "defaultMessage": ">>> Hide <<<",
+    "description": "[Common] make a item can not saw on the page"
+  },
+  "vLaZgQ": {
+    "defaultMessage": ">>> Status <<<",
+    "description": "[GridJobs] table column - Indicates the status of the job"
+  },
+  "vXdLkt": {
+    "defaultMessage": ">>> Batch import file contains {cError} errors and {cWarning} warnings <<<",
+    "description": "[BatchImportResultsDialog] default message description when data imported but had warnings"
+  },
+  "vay96S": {
+    "defaultMessage": ">>> Vertical <<<",
+    "description": "[highcharts] Toolbar function - show only vertical grid lines in chart"
+  },
+  "ve7wpr": {
+    "defaultMessage": ">>> Loading Correlation Matrix... <<<",
+    "description": "[Query] Display message while loading Correlation Matrix."
+  },
+  "vf7z1s": {
+    "defaultMessage": ">>> US <<<",
+    "description": "a country/economy identification"
+  },
+  "vfr9oF": {
+    "defaultMessage": ">>> Selection <<<",
+    "description": "[SimulationContextMenu] group title - include the shorts to select items"
+  },
+  "vgDBu7": {
+    "defaultMessage": ">>> Browse <<<",
+    "description": "[Common] button for ask user choose file(s) form their own machine"
+  },
+  "vgg7tN": {
+    "defaultMessage": ">>> Insert <<<",
+    "description": "[Common] put objects to selected place"
+  },
+  "vhLO2E": {
+    "defaultMessage": ">>> Show display units label on chart <<<",
+    "description": "[highcharts] Label Title for toggling showing display units label on chart in Format Axis in Format Axis"
+  },
+  "vptmDV": {
+    "defaultMessage": ">>> Text Message <<<",
+    "description": "Identifies the type of notification"
+  },
+  "vw565s": {
+    "defaultMessage": ">>> Combine tables <<<",
+    "description": "[recalibration][ModelTree] menu tree contextmenu for operate axis organization"
+  },
+  "w66hnl": {
+    "defaultMessage": ">>> Creating Simulation... <<<",
+    "description": "[NewSimulationDialog] message when system start creating a new simulation object"
+  },
+  "w6DI5w": {
+    "defaultMessage": ">>> Scatter <<<",
+    "description": "[hightcharts] Scatter Chart"
+  },
+  "wB+QGO": {
+    "defaultMessage": ">>> Loading query result... <<<",
+    "description": "[Query] Message for loading query result"
+  },
+  "wEOyxZ": {
+    "defaultMessage": ">>> Batch Import Parameters <<<",
+    "description": "[BatchImportDialog] dialog title - Parameters"
+  },
+  "wGMikk": {
+    "defaultMessage": ">>> Reserved <<<",
+    "description": "[OmdbTagsEditor] table column - set this tag is system reserved tag or not"
+  },
+  "wM1Tva": {
+    "defaultMessage": ">>> Scenarios <<<",
+    "description": "Label for the number of scenarios that were simulated"
+  },
+  "wNxRmb": {
+    "defaultMessage": ">>> Add Column... <<<",
+    "description": "[OmdbTableBuilder] a note message - add a tag as a object browser table column"
+  },
+  "wO7YUQ": {
+    "defaultMessage": ">>> Sort Selected Coordinates Alphabetically Descending <<<",
+    "description": "[FlexibleAxesEditor] sorting all items"
+  },
+  "wRmIVC": {
+    "defaultMessage": ">>> Except <<<",
+    "description": "[Query] Pivot table context menu function - Except"
+  },
+  "wSVtPj": {
+    "defaultMessage": ">>> {query} {following} <<<",
+    "description": "[SimulationContextMenu] create query by selected simulations"
+  },
+  "wUDDmN": {
+    "defaultMessage": ">>> Triannually (3) <<<",
+    "description": "[RepositoryGeneralView] simulation Frequency names"
+  },
+  "wXe6p3": {
+    "defaultMessage": ">>> Specification <<<",
+    "description": "[Common] a file about of describing or identifying something precisely or of stating a precise requirement"
+  },
+  "wYRy3R": {
+    "defaultMessage": ">>> Expand All <<<",
+    "description": "[Billing] Billing Query form's action button tooltip text - Expand All"
+  },
+  "wZxfkO": {
+    "defaultMessage": ">>> Duplicate in new tab <<<",
+    "description": "[ApplicationShortCuts] duplicate the object and open it on a new browser tab"
+  },
+  "wcPWcm": {
+    "defaultMessage": ">>> Reset Query Specification <<<",
+    "description": "[QueryContextMenu] item title - reset all inputs configuration"
+  },
+  "wcy62B": {
+    "defaultMessage": ">>> Manage Object Schemas <<<",
+    "description": "[OmdbAdminPage] the page title display on the page's top-left button"
+  },
+  "wlSjBi": {
+    "defaultMessage": ">>> View Active Queries <<<",
+    "description": "[Simulation] button to view query objects that reference the current simulation"
+  },
+  "wlTJBV": {
+    "defaultMessage": ">>> Test <<<",
+    "description": "Table header for testing notifications"
+  },
+  "wlzzUh": {
+    "defaultMessage": ">>> Input locked while running. <<<",
+    "description": "[UseCaseViewer] Tooltip for input locked while running"
+  },
+  "wmsMd3": {
+    "defaultMessage": ">>> Note <<<",
+    "description": "[RSSimulationContextMenu] the note editor switcher"
+  },
+  "woiTFO": {
+    "defaultMessage": ">>> Without <<<",
+    "description": "[Common] The name of a shortcut lets the user select the specific item/items quickly"
+  },
+  "ww91nc": {
+    "defaultMessage": ">>> Set targets to match those implied by: <<<",
+    "description": "[CombinatorialAddRows] Set targets to match those implied by options below"
+  },
+  "x2PDld": {
+    "defaultMessage": ">>> Finish (UTC) <<<",
+    "description": "[Billing] Billing Report table's header - Finish (UTC)"
+  },
+  "x3Za2s": {
+    "defaultMessage": ">>> Value <<<",
+    "description": "[hightcharts] Tooltip value in chart - Value"
+  },
+  "xMnB20": {
+    "defaultMessage": ">>> Cumulative Density Function <<<",
+    "description": "[hightcharts] Cumulative Density Function Chart"
+  },
+  "xPGg/Z": {
+    "defaultMessage": ">>> Name <<<",
+    "description": "[Billing] Billing Report table's header - Name"
+  },
+  "xPVy94": {
+    "defaultMessage": ">>> * The specified resource was still active at time of reporting. <<<",
+    "description": "[Billing] Billing Report print result footer text"
+  },
+  "xR4qs+": {
+    "defaultMessage": ">>> Import Query Specification <<<",
+    "description": "[Query] Modify query inputs by uploading a query specification json file"
+  },
+  "xRW3L9": {
+    "defaultMessage": ">>> Past 6 months <<<",
+    "description": "[Billing] Date Picker's shortcut - Past 6 months"
+  },
+  "xSrI40": {
+    "defaultMessage": ">>> Configuration <<<",
+    "description": "[Common]  a file contains an arrangement of elements in a particular form, figure, or combination"
+  },
+  "xVL+dt": {
+    "defaultMessage": ">>> Catalog Categories <<<",
+    "description": "[OmdbAdminPage] tab text - Indicates page which mange catalog and layout on the object browser sidebar"
+  },
+  "xW8Fjg": {
+    "defaultMessage": ">>> Less info <<<",
+    "description": "[RelatedObjectPage][LinkedObjectCard] Less Information"
+  },
+  "xWvmPZ": {
+    "defaultMessage": ">>> Open \"{simName}\" <<<",
+    "description": "[SimulationContextMenu] open selected simulation"
+  },
+  "xbFWPy": {
+    "defaultMessage": ">>> Row Axes <<<",
+    "description": "[ArrangementPanel] a arrangement group title"
+  },
+  "xeprFY": {
+    "defaultMessage": ">>> Items {start} to {end} of {total} <<<",
+    "description": "[SortableCardsPanel] the paginate information details"
+  },
+  "xkgWb9": {
+    "defaultMessage": ">>> Status <<<",
+    "description": "Label for the current state/status of an object"
+  },
+  "xmeSUs": {
+    "defaultMessage": ">>> Chart <<<",
+    "description": "[ModelChart] chart advance setting root path name"
+  },
+  "xpUIq1": {
+    "defaultMessage": ">>> AR <<<",
+    "description": "a country/economy identification"
+  },
+  "xz4f1z": {
+    "defaultMessage": ">>> In <<<",
+    "description": "[Query] Pivot table context menu function - In"
+  },
+  "y6xyP/": {
+    "defaultMessage": ">>> Series Identification / Value <<<",
+    "description": "[highcharts] Tooltip title in bar chart - Series Identification / Value"
+  },
+  "yAcw86": {
+    "defaultMessage": ">>> Point Value <<<",
+    "description": "[hightcharts] Tooltip title in chart - Point Value"
+  },
+  "yC+byp": {
+    "defaultMessage": ">>> Grid Name <<<",
+    "description": "Label for the the name of a grid/server"
+  },
+  "yDf4C+": {
+    "defaultMessage": ">>> Are you sure you want to cancel the {jobType} job? <<<",
+    "description": "[GridJobs] confirm message before cancel a Grid job"
+  },
+  "yGG5+H": {
+    "defaultMessage": ">>> Cloudwatch <<<",
+    "description": "page title"
+  },
+  "yNw7Vb": {
+    "defaultMessage": ">>> Distribution of Outcomes <<<",
+    "description": "[highcharts] Box chart title - Distribution of Outcomes"
+  },
+  "yOm8Y3": {
+    "defaultMessage": ">>> Download latest version <<<",
+    "description": "[InstallerDownloadPage] Indicates download latest version link button"
+  },
+  "yT8zl0": {
+    "defaultMessage": ">>> Toggle '{label}' ({drawStatus}) <<<",
+    "description": "[AccordionComponent] a contentmenu item for show/hide the drawer"
+  },
+  "yTMK9t": {
+    "defaultMessage": ">>> Inputs saved <<<",
+    "description": "[RSSimulation] Computation status legend name - Inputs saved"
+  },
+  "yYzdF1": {
+    "defaultMessage": ">>> Show Log <<<",
+    "description": "[RSSimulation] the simulate history log box display switcher"
+  },
+  "yZLgeX": {
+    "defaultMessage": ">>> Resample Size: <<<",
+    "description": "[Query] Bootstrap settings - Resample Size"
+  },
+  "ya3AC6": {
+    "defaultMessage": ">>> Data Storage Charge per Day <<<",
+    "description": "[Billing] Billing Report table's header - Data Storage Charge per Day"
+  },
+  "ykyfuQ": {
+    "defaultMessage": ">>> Version <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "ynYLUx": {
+    "defaultMessage": ">>> by Row <<<",
+    "description": "[BatchImportResultsDialog] one of sort type for detail messages"
+  },
+  "yvP9x6": {
+    "defaultMessage": ">>> Compiler <<<",
+    "description": "[RSSimulation] Category for chart Number Scenarios Processed - Compiler"
+  },
+  "yw3HBS": {
+    "defaultMessage": ">>> Your upload was interrupted or stopped accidentally <<<",
+    "description": "[user file] File upload was interrupted"
+  },
+  "z/abIq": {
+    "defaultMessage": ">>> User <<<",
+    "description": "[Billing] Billing Report table's header - User"
+  },
+  "z2zUU3": {
+    "defaultMessage": ">>> Axis Coordinate(s) <<<",
+    "description": "[FlexibleAxesEditor] Axis Coordinate text"
+  },
+  "zBxCFU": {
+    "defaultMessage": ">>> Increase Line Size <<<",
+    "description": "[highcharts] Tooltip of increasing line size in Line size Toolbar"
+  },
+  "zDWZyc": {
+    "defaultMessage": ">>> Reading Pages <<<",
+    "description": "[UseCaseViewer] Loading message for Reading Pages"
+  },
+  "zGIvZI": {
+    "defaultMessage": ">>> Percentile <<<",
+    "description": "[highcharts] CDF percentile secondary axis title - Percentile"
+  },
+  "zHVUQJ": {
+    "defaultMessage": ">>> Export data for inactive flexible axis elements <<<",
+    "description": "[BatchExportCustomizeDialog] export all modules axis coordinates only its active"
+  },
+  "zSg3ge": {
+    "defaultMessage": ">>> {ac} Copied. <<<",
+    "description": "[FlexibleAxesEditor] message after copied"
+  },
+  "zYnEBN": {
+    "defaultMessage": ">>> Are you sure you want to cancel the upload process? <<<",
+    "description": "[user file] Cancel Upload Confirm Message"
+  },
+  "zaCAk+": {
+    "defaultMessage": ">>> Dock side <<<",
+    "description": "[RSSimulation] Text for controlling simulation running message box's position"
+  },
+  "zgS4s6": {
+    "defaultMessage": ">>> New Simulation Data Source: <<<",
+    "description": "[SimulationContextMenu] a group title about create different type of Simulations"
+  },
+  "ziNh6v": {
+    "defaultMessage": ">>> User <<<",
+    "description": "[DefinitionHistoryDialog] column title for the table showing the simulation operate history"
+  },
+  "zmkOVG": {
+    "defaultMessage": ">>> Pivot Table <<<",
+    "description": "[Query] Title for Pivot Table"
+  },
+  "zqpAcP": {
+    "defaultMessage": ">>> Continue <<<",
+    "description": "[user file] continue to create a simulation"
+  },
+  "zuCLVa": {
+    "defaultMessage": ">>> Folder <<<",
+    "description": "[user file] Folder"
+  },
+  "zubpab": {
+    "defaultMessage": ">>> {hour} hr <<<",
+    "description": "[user file] One hour"
+  },
+  "zxbf2N": {
+    "defaultMessage": ">>> There has no {productName} installer available. <<<",
+    "description": "[InstallerDownloadPage] Indicates no installer available"
+  },
+  "zxdvJH": {
+    "defaultMessage": ">>> Past 2 years <<<",
+    "description": "[Billing] Date Picker's shortcut - Past 2 years"
+  }
+}

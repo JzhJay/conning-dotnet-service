@@ -1,0 +1,65 @@
+.root {
+    margin: 0 auto;
+
+    &.inline {
+        position: relative;
+        flex: 1;
+        display:flex !important;
+
+        :global {
+            .loader  {
+                position: relative;
+            }
+
+            .content {
+                padding: .5em 0;
+                flex:1;
+                margin:auto;
+            }
+        }
+    }
+
+    .prop-children {
+        margin-bottom: 10px;
+        font-weight: 450;
+    }
+
+    .status-mag {
+        margin-bottom: 10px;
+        min-height: 16px;
+        color: #333333;
+    }
+
+    .progress-group {
+        padding-top: 10px;
+
+        i {
+            display: none;
+        }
+        :global(.content .title) {
+            font-size: 90%;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.image-dimmer {
+    :global {
+        .content .center {
+            vertical-align: top;
+        }
+    }
+
+    .image-container {
+        display:flex;
+        flex-direction: column;
+
+        font-size: 1.14285714em;
+        color: rgba(0, 0, 0, 0.87);
+    }
+
+    img {
+        margin:.5em auto;
+    }
+}
+

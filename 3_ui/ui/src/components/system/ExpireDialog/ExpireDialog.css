@@ -1,0 +1,31 @@
+.dialog-footer-action-modified {
+    justify-content: center;
+    margin: 10px 0px 0px;
+}
+
+.session-reconnect-spinner {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.status-label {
+    font-size: 110%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.progress-label {
+    margin-top: 5px;
+    text-align: center;
+
+    > div:first-child {
+        font-size: 90%;
+        margin-bottom: .2em;
+    }
+
+    + .status-label {
+        margin-top: 25px;
+    }
+}
+

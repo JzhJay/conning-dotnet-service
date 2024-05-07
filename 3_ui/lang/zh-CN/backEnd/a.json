@@ -1,0 +1,882 @@
+{
+  "EliVMx": {
+    "defaultMessage": "AMBest Line",
+    "description": "",
+    "untranslatedMessage": "AMBest_Line",
+    "needsTranslation": true
+  },
+  "LKHCfm": {
+    "defaultMessage": "AMBest Rating",
+    "description": "",
+    "untranslatedMessage": "AMBest_Rating",
+    "needsTranslation": true
+  },
+  "Eojdy/": {
+    "defaultMessage": "Accumulation",
+    "description": "",
+    "untranslatedMessage": "Accumulation",
+    "needsTranslation": true
+  },
+  "J3yqC3": {
+    "defaultMessage": "协议",
+    "description": "",
+    "untranslatedMessage": "Agreement"
+  },
+  "egqw9P": {
+    "defaultMessage": "变量",
+    "description": "",
+    "untranslatedMessage": "Argument"
+  },
+  "odM9mK": {
+    "defaultMessage": "资产类别",
+    "description": "",
+    "untranslatedMessage": "Asset_Class"
+  },
+  "GjeMom": {
+    "defaultMessage": "Asset Class Grouping",
+    "description": "",
+    "untranslatedMessage": "Asset_Class_Grouping",
+    "needsTranslation": true
+  },
+  "0ZTvWh": {
+    "defaultMessage": "BTime",
+    "description": "",
+    "untranslatedMessage": "BTime",
+    "needsTranslation": true
+  },
+  "vd2+Wb": {
+    "defaultMessage": "Balance Sheet Line",
+    "description": "",
+    "untranslatedMessage": "Balance_Sheet_Line",
+    "needsTranslation": true
+  },
+  "Vn4j7i": {
+    "defaultMessage": "基本情景",
+    "description": "",
+    "untranslatedMessage": "Base"
+  },
+  "8JJ/KH": {
+    "defaultMessage": "基差",
+    "description": "",
+    "untranslatedMessage": "Basis"
+  },
+  "iYG3bJ": {
+    "defaultMessage": "债券市场",
+    "description": "",
+    "untranslatedMessage": "Bond_Market"
+  },
+  "38oobK": {
+    "defaultMessage": "Catastrophe Item",
+    "description": "",
+    "untranslatedMessage": "Catastrophe_Item",
+    "needsTranslation": true
+  },
+  "ccXLVi": {
+    "defaultMessage": "种类选择",
+    "description": "",
+    "untranslatedMessage": "Category"
+  },
+  "tC2sDr": {
+    "defaultMessage": "分类",
+    "description": "",
+    "untranslatedMessage": "Classification"
+  },
+  "4I730h": {
+    "defaultMessage": "列",
+    "description": "",
+    "untranslatedMessage": "Column"
+  },
+  "S6QlZn": {
+    "defaultMessage": "组件",
+    "description": "",
+    "untranslatedMessage": "Component"
+  },
+  "p00N+q": {
+    "defaultMessage": "复利",
+    "description": "",
+    "untranslatedMessage": "Compounding"
+  },
+  "xwzVb3": {
+    "defaultMessage": "Confidence Level",
+    "description": "",
+    "untranslatedMessage": "Confidence_Level",
+    "needsTranslation": true
+  },
+  "xG6n98": {
+    "defaultMessage": "合并",
+    "description": "",
+    "untranslatedMessage": "Consolidation"
+  },
+  "Nw+pGd": {
+    "defaultMessage": "约束条件",
+    "description": "",
+    "untranslatedMessage": "Constraint"
+  },
+  "nf1vE6": {
+    "defaultMessage": "Constraint Type",
+    "description": "",
+    "untranslatedMessage": "Constraint_Type",
+    "needsTranslation": true
+  },
+  "jtkU3K": {
+    "defaultMessage": "Conversion",
+    "description": "",
+    "untranslatedMessage": "Conversion",
+    "needsTranslation": true
+  },
+  "Dc4Vu+": {
+    "defaultMessage": "相关性",
+    "description": "",
+    "untranslatedMessage": "Correlation"
+  },
+  "SzEtQB": {
+    "defaultMessage": "交易对手",
+    "description": "",
+    "untranslatedMessage": "Counterparty"
+  },
+  "qA2eJk": {
+    "defaultMessage": "息票",
+    "description": "",
+    "untranslatedMessage": "Coupon"
+  },
+  "p9GyAe": {
+    "defaultMessage": "派息次数",
+    "description": "",
+    "untranslatedMessage": "Coupon_Frequency"
+  },
+  "55hdQy": {
+    "defaultMessage": "货币",
+    "description": "",
+    "untranslatedMessage": "Currency"
+  },
+  "7Xq+qj": {
+    "defaultMessage": "Current Rating",
+    "description": "",
+    "untranslatedMessage": "Current_Rating",
+    "needsTranslation": true
+  },
+  "DbjkqX": {
+    "defaultMessage": "Decision Module",
+    "description": "",
+    "untranslatedMessage": "Decision_Module",
+    "needsTranslation": true
+  },
+  "UJQ269": {
+    "defaultMessage": "Decision Submodule",
+    "description": "",
+    "untranslatedMessage": "Decision_Submodule",
+    "needsTranslation": true
+  },
+  "fh8Pkv": {
+    "defaultMessage": "Default Class",
+    "description": "",
+    "untranslatedMessage": "Default_Class",
+    "needsTranslation": true
+  },
+  "aU6ZEl": {
+    "defaultMessage": "Deflator",
+    "description": "",
+    "untranslatedMessage": "Deflator",
+    "needsTranslation": true
+  },
+  "DjzgUl": {
+    "defaultMessage": "衍生品市场",
+    "description": "",
+    "untranslatedMessage": "Derivative_Market"
+  },
+  "BzQPM+": {
+    "defaultMessage": "Destination",
+    "description": "",
+    "untranslatedMessage": "Destination",
+    "needsTranslation": true
+  },
+  "DZ2Koj": {
+    "defaultMessage": "Direction",
+    "description": "",
+    "untranslatedMessage": "Direction",
+    "needsTranslation": true
+  },
+  "5wa69j": {
+    "defaultMessage": "贴现结构",
+    "description": "",
+    "untranslatedMessage": "Discount_Structure"
+  },
+  "oAFgOq": {
+    "defaultMessage": "Domain",
+    "description": "",
+    "untranslatedMessage": "Domain",
+    "needsTranslation": true
+  },
+  "CcE3fw": {
+    "defaultMessage": "Economic Variable",
+    "description": "",
+    "untranslatedMessage": "Economic_Variable",
+    "needsTranslation": true
+  },
+  "L2ITCx": {
+    "defaultMessage": "经济体",
+    "description": "",
+    "untranslatedMessage": "Economy"
+  },
+  "UfO190": {
+    "defaultMessage": "实体",
+    "description": "",
+    "untranslatedMessage": "Entity"
+  },
+  "Hr7g0C": {
+    "defaultMessage": "Exchange Rate",
+    "description": "",
+    "untranslatedMessage": "Exchange_Rate",
+    "needsTranslation": true
+  },
+  "ScUfdT": {
+    "defaultMessage": "FTime",
+    "description": "",
+    "untranslatedMessage": "FTime",
+    "needsTranslation": true
+  },
+  "AbvQFb": {
+    "defaultMessage": "Field",
+    "description": "",
+    "untranslatedMessage": "Field",
+    "needsTranslation": true
+  },
+  "9Obw6C": {
+    "defaultMessage": "筛选",
+    "description": "",
+    "untranslatedMessage": "Filter"
+  },
+  "QNGVoe": {
+    "defaultMessage": "Financing Instrument",
+    "description": "",
+    "untranslatedMessage": "Financing_Instrument",
+    "needsTranslation": true
+  },
+  "vAW30j": {
+    "defaultMessage": "频率",
+    "description": "",
+    "untranslatedMessage": "Frequency"
+  },
+  "gsuLMm": {
+    "defaultMessage": "希腊字母",
+    "description": "",
+    "untranslatedMessage": "Greek"
+  },
+  "52Kzh/": {
+    "defaultMessage": "Grouping",
+    "description": "",
+    "untranslatedMessage": "Grouping",
+    "needsTranslation": true
+  },
+  "usdtat": {
+    "defaultMessage": "Growth Factor",
+    "description": "",
+    "untranslatedMessage": "Growth_Factor",
+    "needsTranslation": true
+  },
+  "BZWyGx": {
+    "defaultMessage": "HGB Line",
+    "description": "",
+    "untranslatedMessage": "HGB_Line",
+    "needsTranslation": true
+  },
+  "xGauqo": {
+    "defaultMessage": "Individual Loss Model",
+    "description": "",
+    "untranslatedMessage": "Individual_Loss_Model",
+    "needsTranslation": true
+  },
+  "h8X+lg": {
+    "defaultMessage": "Issue Period",
+    "description": "",
+    "untranslatedMessage": "Issue_Period",
+    "needsTranslation": true
+  },
+  "uDcCXN": {
+    "defaultMessage": "发行人",
+    "description": "",
+    "untranslatedMessage": "Issuer"
+  },
+  "5ujeDa": {
+    "defaultMessage": "项目",
+    "description": "",
+    "untranslatedMessage": "Item"
+  },
+  "2CnuhT": {
+    "defaultMessage": "关键利率",
+    "description": "",
+    "untranslatedMessage": "Key_Rate"
+  },
+  "8hnbp5": {
+    "defaultMessage": "Lag",
+    "description": "",
+    "untranslatedMessage": "Lag",
+    "needsTranslation": true
+  },
+  "V7PHZd": {
+    "defaultMessage": "生活用品",
+    "description": "",
+    "untranslatedMessage": "Life_Product"
+  },
+  "YcUhLa": {
+    "defaultMessage": "折线图",
+    "description": "",
+    "untranslatedMessage": "Line"
+  },
+  "wXvW0M": {
+    "defaultMessage": "Management Value",
+    "description": "",
+    "untranslatedMessage": "Management_Value",
+    "needsTranslation": true
+  },
+  "GCY0dr": {
+    "defaultMessage": "市场",
+    "description": "",
+    "untranslatedMessage": "Market"
+  },
+  "aPz27i": {
+    "defaultMessage": "市场指数",
+    "description": "",
+    "untranslatedMessage": "Market_Index"
+  },
+  "71chNq": {
+    "defaultMessage": "Maturity",
+    "description": "",
+    "untranslatedMessage": "Maturity",
+    "needsTranslation": true
+  },
+  "O73OOY": {
+    "defaultMessage": "MCT Item",
+    "description": "",
+    "untranslatedMessage": "MCT_Item",
+    "needsTranslation": true
+  },
+  "YTSPok": {
+    "defaultMessage": "MCT Line",
+    "description": "",
+    "untranslatedMessage": "MCT_Line",
+    "needsTranslation": true
+  },
+  "CA0uyt": {
+    "defaultMessage": "MCT Reinsurance Classification",
+    "description": "",
+    "untranslatedMessage": "MCT_Reinsurance_Classification",
+    "needsTranslation": true
+  },
+  "67KJ1V": {
+    "defaultMessage": "测量",
+    "description": "",
+    "untranslatedMessage": "Measure"
+  },
+  "W+1MOm": {
+    "defaultMessage": "方法",
+    "description": "",
+    "untranslatedMessage": "Method"
+  },
+  "nR92yz": {
+    "defaultMessage": "Model Class",
+    "description": "",
+    "untranslatedMessage": "Model_Class",
+    "needsTranslation": true
+  },
+  "kEbyXS": {
+    "defaultMessage": "Module",
+    "description": "",
+    "untranslatedMessage": "Module",
+    "needsTranslation": true
+  },
+  "u4OET0": {
+    "defaultMessage": "MonthsTime",
+    "description": "",
+    "untranslatedMessage": "MonthsTime",
+    "needsTranslation": true
+  },
+  "NWs0ka": {
+    "defaultMessage": "Mortgage Market",
+    "description": "",
+    "untranslatedMessage": "Mortgage_Market",
+    "needsTranslation": true
+  },
+  "/hjcnS": {
+    "defaultMessage": "Normalization",
+    "description": "",
+    "untranslatedMessage": "Normalization",
+    "needsTranslation": true
+  },
+  "PuV89w": {
+    "defaultMessage": "PTime",
+    "description": "",
+    "untranslatedMessage": "PTime",
+    "needsTranslation": true
+  },
+  "IpsDKi": {
+    "defaultMessage": "P Line",
+    "description": "",
+    "untranslatedMessage": "P_Line",
+    "needsTranslation": true
+  },
+  "VU4BBu": {
+    "defaultMessage": "Parameter",
+    "description": "",
+    "untranslatedMessage": "Parameter",
+    "needsTranslation": true
+  },
+  "Qp1beM": {
+    "defaultMessage": "路径",
+    "description": "",
+    "untranslatedMessage": "Path"
+  },
+  "FOSF2o": {
+    "defaultMessage": "Penalty Schedule",
+    "description": "",
+    "untranslatedMessage": "Penalty_Schedule",
+    "needsTranslation": true
+  },
+  "Xeufmj": {
+    "defaultMessage": "Peril",
+    "description": "",
+    "untranslatedMessage": "Peril",
+    "needsTranslation": true
+  },
+  "/wvSvu": {
+    "defaultMessage": "Placement",
+    "description": "",
+    "untranslatedMessage": "Placement",
+    "needsTranslation": true
+  },
+  "uNOJ2Q": {
+    "defaultMessage": "投资组合",
+    "description": "",
+    "untranslatedMessage": "Portfolio"
+  },
+  "8s/6vP": {
+    "defaultMessage": "Premium RBC Item",
+    "description": "",
+    "untranslatedMessage": "Premium_RBC_Item",
+    "needsTranslation": true
+  },
+  "qavcIQ": {
+    "defaultMessage": "Previous Rating",
+    "description": "",
+    "untranslatedMessage": "Previous_Rating",
+    "needsTranslation": true
+  },
+  "xQtz8J": {
+    "defaultMessage": "物价指数",
+    "description": "",
+    "untranslatedMessage": "Price_Index"
+  },
+  "zl3fuo": {
+    "defaultMessage": "Primary Portfolio",
+    "description": "",
+    "untranslatedMessage": "Primary_Portfolio",
+    "needsTranslation": true
+  },
+  "igOH5Y": {
+    "defaultMessage": "Prior Year",
+    "description": "",
+    "untranslatedMessage": "Prior_Year",
+    "needsTranslation": true
+  },
+  "8lCjAM": {
+    "defaultMessage": "Priority",
+    "description": "",
+    "untranslatedMessage": "Priority",
+    "needsTranslation": true
+  },
+  "x/ZVlU": {
+    "defaultMessage": "产品",
+    "description": "",
+    "untranslatedMessage": "Product"
+  },
+  "x7FZCa": {
+    "defaultMessage": "Product Group",
+    "description": "",
+    "untranslatedMessage": "Product_Group",
+    "needsTranslation": true
+  },
+  "7ScoLI": {
+    "defaultMessage": "Program",
+    "description": "",
+    "untranslatedMessage": "Program",
+    "needsTranslation": true
+  },
+  "u4JeJI": {
+    "defaultMessage": "Projection",
+    "description": "",
+    "untranslatedMessage": "Projection",
+    "needsTranslation": true
+  },
+  "2XNuYU": {
+    "defaultMessage": "Property Market",
+    "description": "",
+    "untranslatedMessage": "Property_Market",
+    "needsTranslation": true
+  },
+  "3HwG/5": {
+    "defaultMessage": "PY Tax Line",
+    "description": "",
+    "untranslatedMessage": "PY_Tax_Line",
+    "needsTranslation": true
+  },
+  "i/WEl+": {
+    "defaultMessage": "QIS5 Line",
+    "description": "",
+    "untranslatedMessage": "QIS5_Line",
+    "needsTranslation": true
+  },
+  "y+7ihJ": {
+    "defaultMessage": "Quality",
+    "description": "",
+    "untranslatedMessage": "Quality",
+    "needsTranslation": true
+  },
+  "atzUcB": {
+    "defaultMessage": "Quote",
+    "description": "",
+    "untranslatedMessage": "Quote",
+    "needsTranslation": true
+  },
+  "I6nM2f": {
+    "defaultMessage": "RBC Group",
+    "description": "",
+    "untranslatedMessage": "RBC_Group",
+    "needsTranslation": true
+  },
+  "LIcUSo": {
+    "defaultMessage": "RBC Line",
+    "description": "",
+    "untranslatedMessage": "RBC_Line",
+    "needsTranslation": true
+  },
+  "c0b5XV": {
+    "defaultMessage": "率",
+    "description": "",
+    "untranslatedMessage": "Rate"
+  },
+  "ETRyBL": {
+    "defaultMessage": "评级",
+    "description": "",
+    "untranslatedMessage": "Rating"
+  },
+  "KFacRB": {
+    "defaultMessage": "比率",
+    "description": "",
+    "untranslatedMessage": "Ratio"
+  },
+  "mcUhhf": {
+    "defaultMessage": "参考文献",
+    "description": "",
+    "untranslatedMessage": "Reference"
+  },
+  "HMjrRG": {
+    "defaultMessage": "Reference Module",
+    "description": "",
+    "untranslatedMessage": "Reference_Module",
+    "needsTranslation": true
+  },
+  "lnaWo/": {
+    "defaultMessage": "Region",
+    "description": "",
+    "untranslatedMessage": "Region",
+    "needsTranslation": true
+  },
+  "aSh+vv": {
+    "defaultMessage": "Regulatory Submodule",
+    "description": "",
+    "untranslatedMessage": "Regulatory_Submodule",
+    "needsTranslation": true
+  },
+  "tkgImg": {
+    "defaultMessage": "关系",
+    "description": "",
+    "untranslatedMessage": "Relation"
+  },
+  "TvTtXl": {
+    "defaultMessage": "Relative Value",
+    "description": "",
+    "untranslatedMessage": "Relative_Value",
+    "needsTranslation": true
+  },
+  "7iOcV6": {
+    "defaultMessage": "Reserve RBC Item",
+    "description": "",
+    "untranslatedMessage": "Reserve_RBC_Item",
+    "needsTranslation": true
+  },
+  "7s4jyx": {
+    "defaultMessage": "Return Class",
+    "description": "",
+    "untranslatedMessage": "Return_Class",
+    "needsTranslation": true
+  },
+  "v6rYjQ": {
+    "defaultMessage": "Risk",
+    "description": "",
+    "untranslatedMessage": "Risk",
+    "needsTranslation": true
+  },
+  "M54xrH": {
+    "defaultMessage": "Risk Source",
+    "description": "",
+    "untranslatedMessage": "Risk_Source",
+    "needsTranslation": true
+  },
+  "brdzur": {
+    "defaultMessage": "SaP Line",
+    "description": "",
+    "untranslatedMessage": "SaP_Line",
+    "needsTranslation": true
+  },
+  "0E8cbq": {
+    "defaultMessage": "SaP评级",
+    "description": "",
+    "untranslatedMessage": "SaP_Rating"
+  },
+  "N+0qSu": {
+    "defaultMessage": "部门",
+    "description": "",
+    "untranslatedMessage": "Sector"
+  },
+  "1r5WAv": {
+    "defaultMessage": "模拟",
+    "description": "",
+    "untranslatedMessage": "Simulation"
+  },
+  "aH4De2": {
+    "defaultMessage": "来源",
+    "description": "",
+    "untranslatedMessage": "Source"
+  },
+  "hg0gwU": {
+    "defaultMessage": "Source Product",
+    "description": "",
+    "untranslatedMessage": "Source_Product",
+    "needsTranslation": true
+  },
+  "cb2kY6": {
+    "defaultMessage": "标准",
+    "description": "",
+    "untranslatedMessage": "Standard"
+  },
+  "ku+mDU": {
+    "defaultMessage": "State",
+    "description": "",
+    "untranslatedMessage": "State",
+    "needsTranslation": true
+  },
+  "NR5v52": {
+    "defaultMessage": "声明",
+    "description": "",
+    "untranslatedMessage": "Statement"
+  },
+  "2YNmIA": {
+    "defaultMessage": "Statement Line",
+    "description": "",
+    "untranslatedMessage": "Statement_Line",
+    "needsTranslation": true
+  },
+  "tzMNF3": {
+    "defaultMessage": "状态",
+    "description": "",
+    "untranslatedMessage": "Status"
+  },
+  "bfdIHp": {
+    "defaultMessage": "股票指数",
+    "description": "",
+    "untranslatedMessage": "Stock_Index"
+  },
+  "ak8C4A": {
+    "defaultMessage": "Sub Statement",
+    "description": "",
+    "untranslatedMessage": "Sub_Statement",
+    "needsTranslation": true
+  },
+  "AVz0XB": {
+    "defaultMessage": "Subitem",
+    "description": "",
+    "untranslatedMessage": "Subitem",
+    "needsTranslation": true
+  },
+  "FtpHIa": {
+    "defaultMessage": "Subperiod",
+    "description": "",
+    "untranslatedMessage": "Subperiod",
+    "needsTranslation": true
+  },
+  "RrCui3": {
+    "defaultMessage": "摘要",
+    "description": "",
+    "untranslatedMessage": "Summary"
+  },
+  "JVaqNU": {
+    "defaultMessage": "Supplemental Model",
+    "description": "",
+    "untranslatedMessage": "Supplemental_Model",
+    "needsTranslation": true
+  },
+  "mao4wA": {
+    "defaultMessage": "Tax Document",
+    "description": "",
+    "untranslatedMessage": "Tax_Document",
+    "needsTranslation": true
+  },
+  "pCczfV": {
+    "defaultMessage": "Tax History Item",
+    "description": "",
+    "untranslatedMessage": "Tax_History_Item",
+    "needsTranslation": true
+  },
+  "1bt+QL": {
+    "defaultMessage": "Tax Line",
+    "description": "",
+    "untranslatedMessage": "Tax_Line",
+    "needsTranslation": true
+  },
+  "wDMl9K": {
+    "defaultMessage": "税率",
+    "description": "",
+    "untranslatedMessage": "Tax_Rates"
+  },
+  "AS/Qrx": {
+    "defaultMessage": "Tenor Density",
+    "description": "",
+    "untranslatedMessage": "Tenor_Density",
+    "needsTranslation": true
+  },
+  "a5JeaR": {
+    "defaultMessage": "Term Section",
+    "description": "",
+    "untranslatedMessage": "Term_Section",
+    "needsTranslation": true
+  },
+  "ug01Mk": {
+    "defaultMessage": "Time",
+    "description": "",
+    "untranslatedMessage": "Time",
+    "needsTranslation": true
+  },
+  "kdv4yu": {
+    "defaultMessage": "Time and Nodes",
+    "description": "",
+    "untranslatedMessage": "Time_and_Nodes",
+    "needsTranslation": true
+  },
+  "plXb3j": {
+    "defaultMessage": "时间框架",
+    "description": "",
+    "untranslatedMessage": "Time_Frame"
+  },
+  "/rKJc5": {
+    "defaultMessage": "时机",
+    "description": "",
+    "untranslatedMessage": "Timing"
+  },
+  "1+ROfp": {
+    "defaultMessage": "交易",
+    "description": "",
+    "untranslatedMessage": "Transaction"
+  },
+  "A1P5mW": {
+    "defaultMessage": "条约",
+    "description": "",
+    "untranslatedMessage": "Treaty"
+  },
+  "5F4gf3": {
+    "defaultMessage": "Treaty Variable",
+    "description": "",
+    "untranslatedMessage": "Treaty_Variable",
+    "needsTranslation": true
+  },
+  "+U6ozc": {
+    "defaultMessage": "类型",
+    "description": "",
+    "untranslatedMessage": "Type"
+  },
+  "gdnPBT": {
+    "defaultMessage": "Underwriting Period",
+    "description": "",
+    "untranslatedMessage": "Underwriting_Period",
+    "needsTranslation": true
+  },
+  "KsaMLd": {
+    "defaultMessage": "用户自定义值",
+    "description": "",
+    "untranslatedMessage": "User_Value"
+  },
+  "mmHt3b": {
+    "defaultMessage": "User Value Correlation Group",
+    "description": "",
+    "untranslatedMessage": "User_Value_Correlation_Group",
+    "needsTranslation": true
+  },
+  "tr0YPg": {
+    "defaultMessage": "变量选择",
+    "description": "",
+    "untranslatedMessage": "Variables"
+  },
+  "McnLsx": {
+    "defaultMessage": "When",
+    "description": "",
+    "untranslatedMessage": "When",
+    "needsTranslation": true
+  },
+  "/puNG4": {
+    "defaultMessage": "时间点",
+    "description": "",
+    "untranslatedMessage": "Tenor"
+  },
+  "dyElqO": {
+    "defaultMessage": "Expiry",
+    "description": "",
+    "untranslatedMessage": "Expiry",
+    "needsTranslation": true
+  },
+  "CeWvK9": {
+    "defaultMessage": "Original Currency",
+    "description": "",
+    "untranslatedMessage": "Original_Currency",
+    "needsTranslation": true
+  },
+  "5m4j06": {
+    "defaultMessage": "Scenario",
+    "description": "",
+    "untranslatedMessage": "Scenario",
+    "needsTranslation": true
+  },
+  "TBovrx": {
+    "defaultMessage": "Month",
+    "description": "",
+    "untranslatedMessage": "Month",
+    "needsTranslation": true
+  },
+  "Qa97iD": {
+    "defaultMessage": "Best Capital Line",
+    "description": "",
+    "untranslatedMessage": "AMBest_Line",
+    "needsTranslation": true
+  },
+  "JcaIzu": {
+    "defaultMessage": "Best Capital Rating",
+    "description": "",
+    "untranslatedMessage": "AMBest_Rating",
+    "needsTranslation": true
+  },
+  "3arPYi": {
+    "defaultMessage": "Standard Capital Line",
+    "description": "",
+    "untranslatedMessage": "SaP_Line",
+    "needsTranslation": true
+  },
+  "ArU8w/": {
+    "defaultMessage": "SaP评级",
+    "description": "",
+    "untranslatedMessage": "SaP_Rating"
+  },
+  "IFo1oo": {
+    "defaultMessage": "Year",
+    "description": "",
+    "untranslatedMessage": "Year",
+    "needsTranslation": "true"
+  }
+}

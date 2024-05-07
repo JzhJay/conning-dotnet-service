@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "<your-instance-name>.advise-conning.com",
+        "Type": "A",
+        "TTL": 300,
+        "ResourceRecords": [
+          {
+            "Value": "<newip>"
+          }
+        ]
+      }
+    }
+  ]
+}

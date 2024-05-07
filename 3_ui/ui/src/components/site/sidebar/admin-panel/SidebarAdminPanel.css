@@ -1,0 +1,3 @@
+.root {
+    composes: sidebar-panel from '../SidebarPanel.css';
+}

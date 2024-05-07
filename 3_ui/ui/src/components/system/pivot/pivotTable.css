@@ -1,0 +1,635 @@
+:root {
+  --dataCell-background-color: #FFFFFF;
+  --dataCell-color: #101010;
+
+  --table-row-height: 24px;
+  --spacer-size: 27px; /* row table column header height + 1 px border */
+  --spacer-background-color: #C1C1C1;
+
+  --googleSheets-border-color: #4285f4;
+  --googleSheets-selection-color: rgba(160, 195, 255, .25);
+  --cell-selected-background-color: var(--googleSheets-selection-color);
+  /*--cell-selected-background-color: rgba(127, 127, 127, .1);*/
+
+  --cell-selectedColor: black;
+
+  --minimumEmptyAxisSize: 80px;
+
+  --cell-border-color: #C1C1C1;
+  --table-border-color: var(--cell-border-color);
+  --borderBetweenAxisAndCoords: 1px solid var(--cell-border-color);
+}
+
+:global(.conning.ui.app) .pivot-table {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-height: 100vh; /* Or else safari and chrome on windows will take up as many pixels as they can */
+  overflow: hidden;
+  font-family: var(--mono-space-font-family);
+  /*font-size:13px;*/
+
+  &.is-selecting {
+    &, * {
+      cursor: wait !important;
+    }
+  }
+
+  &:global(.hidden) {
+    display: none;
+  }
+
+  .row-1, .row-2 {
+    visibility: visible;
+  }
+
+  &.show-loading-indicator {
+    .row-1, .row-2 {
+      visibility: hidden;
+    }
+  }
+
+/*
+  //::-webkit-scrollbar {
+  //    height:.4em;
+  //    width:.4em;
+  //}
+  //
+  //::-webkit-scrollbar-track {
+  //    background-color:#EAEAEA;
+  //}
+ */
+
+   /*Our rows*/
+  div.row-1, div.row-2 {
+    display: flex;
+    flex-direction: row;
+    flex: 0 auto;
+    max-height: 100%;
+
+     /*This is the background that will bleed through if you have only a single column axis.*/
+    /*background-color: $spacerBackgroundColor;*/
+  }
+
+  div.row-2 {
+    flex: 1 auto;
+  }
+
+  :global(.pivot-corner),
+  :global(.column-axes),
+  :global(.row-axes),
+  :global(.detail-cells),
+  .column-2 {
+    display: flex;
+    overflow: hidden;
+    flex: 0 1 auto;
+  }
+
+  > div > div:not(:global(.detail-cells)) {
+    div:global(.wj-header) {
+      background-color: var(--axis-background-color);
+      border-color: var(--table-border-color);
+      color: var(--axis-foreground-color);;
+      padding: 5px 15px;
+    }
+  }
+
+  > div.row-1 {
+    flex: 0 0 auto;
+    min-height: var(--table-row-height);
+    max-height: 50%;
+    /*overflow:hidden;  // Otherwise the menu won't display*/
+  }
+
+  .spacer {
+    flex: 0 0 auto;
+    background-color: var(--spacer-background-color);
+
+    &.horizontal {
+      height: var(--spacer-size);
+    }
+
+    &.vertical {
+      display: flex;
+      flex-direction: column;
+      width: var(--spacer-size);
+
+      > .top {
+        flex: 0 auto;
+        min-height: var(--spacer-size);
+        border-top: 1px solid var(--table-border-color);
+      }
+
+      > .bottom {
+        /*flex:         1;*/
+        border-right: 1px solid var(--table-border-color);
+      }
+    }
+  }
+
+  > div.row-2 {
+    overflow: hidden;
+
+    .column-1 {
+      display: flex;
+      box-sizing: border-box;
+
+      flex: 0 auto;
+      flex-direction: row;
+    }
+
+    .column-2 {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+    }
+  }
+
+  :global(.detail-cells), :global(.column-axes), .row-2 {
+    flex: 1 auto;
+  }
+
+  .row-2.cap-height {
+    flex: 0 0 auto;
+    border-bottom: 1px solid var(--cell-border-color);
+  }
+
+  &.no-row-axes {
+    border-top: 0 !important;
+    border-color: white;
+  }
+
+
+
+  /* The pivot has three grids.  When the user right-clicks or selects cells in one grid, we need to still show their cell selection, but in a way that is visually different than the active grid's */
+  /*
+  .wj-flexgrid:not(.wj-state-focused) .wj-cell:not(.wj-header):not(.wj-group) {
+    &.wj-state-selected, &.wj-state-multi-selected {
+      &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        background-color: rgba(127,127,127,.4);
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+    }
+  }*/
+
+  &.all-values-selected :global {
+    .column-axes, .row-axes {
+      div[wj-part=cells] {
+        background-color: var(--coordinate-background-color);
+        color: var(--coordinate-foreground-color);
+      }
+
+      /* Hide selected cells when unfocused */
+      /* .wj-flexgrid:not(.wj-state-focused) .wj-cell:not(.wj-header):not(.wj-group) */
+      .wj-flexgrid .wj-cell:not(.wj-header):not(.wj-group):not(.wj-state-selected):not(.wj-state-multi-selected)
+       {
+        background-color: var(--coordinate-background-color);
+        color: var(--coordinate-foreground-color);
+        border-color: var(--cell-border-color);
+      }
+    }
+
+    .detail-cells {
+      div[wj-part=cells] {
+        background-color: var(--dataCell-background-color);
+        color: var(--dataCell-color);
+      }
+    }
+  }
+
+  &:not(.all-values-selected) :global {
+    .detail-cells {
+      div[wj-part=cells] {
+        background-color: #e2e2e2;
+        color: #9E9E9E;
+
+        .wj-cell {
+          &:not(.unselected) {
+            background-color: var(--dataCell-background-color);
+            color: var(--dataCell-color);
+          }
+        }
+
+      }
+    }
+
+     /*If the pivot has some items subselected, change the default background to assume coordinate cells are UNSELECTED by default*/
+    .column-axes, .row-axes {
+      div[wj-part=cells] {
+        background-color: #e2e2e2;
+        color: #9E9E9E;
+      }
+
+      .wj-flexgrid .wj-cell:not(.wj-header):not(.wj-group):not(.wj-state-selected):not(.wj-state-multi-selected) {
+        &.any-selected {
+          background-color: var(--coordinate-background-color);
+          color: var(--coordinate-foreground-color);
+          border-color: var(--cell-border-color);
+        }
+
+        background-color: #e2e2e2;
+        color: #9E9E9E;
+        border-color: var(--cell-border-color);
+      }
+    }
+  }
+
+   /*NOTE: If the details cell displays a scrollbar the corresponding scrollbar MUST be displayed in the row/column axes so scrolling*/
+   /*can be correctly synchronized. e.g. to avoid the regression in WEB-1380*/
+  &.horizontal-scroll-bar :global {
+    div.detail-cells .wj-content div[wj-part=root], div.row-axes .wj-content div[wj-part=root] {
+      overflow-x: scroll !important;
+    }
+  }
+
+  &.vertical-scroll-bar :global {
+    div.detail-cells .wj-content div[wj-part=root], div.column-axes .wj-content div[wj-part=root] {
+      overflow-y: scroll !important;
+    }
+  }
+
+  .pivot-toolbar {
+    padding: 2px 1em;
+    z-index: 1000; /*Prevent loader from being shown above toolbar when setting statistics*/
+
+    :global(.bp3-navbar-group) {
+      margin: unset;
+        flex-wrap: wrap;
+    }
+
+    :global(.bp3-button-group) {
+        flex-flow: nowrap;
+    }
+
+    button {
+      height: 30px !important;
+      display: flex;
+    }
+
+    .select-statistics {
+        padding: 0;
+        white-space: nowrap;
+    }
+  }
+
+    :global {
+        .wj-flexgrid.wj-control {
+            border-radius: 0;
+            border: 0;
+            /*
+            // We MUST have a max-width-height default to prevent the grid from having all rows/columns viewable
+            //max-width: 5000px;
+            //max-height: 5000px;
+             */
+
+            .wj-cells[wj-part="cells"] .wj-cell {
+                background-color: var(--dataCell-background-color);
+
+                &.empty {
+                     background-color: var(--spacer-background-color);
+                }
+
+                &.undefined {
+                     /*&:after {*/
+                     /*content:          '-----'; // adding content is slow.*/
+                     text-align: center;
+                     color: black;
+                     line-height: 1.5;
+                     position: absolute;
+                     left: 0;
+                     width: 100%;
+                     height: 100%;
+                     background-color: rgba(127, 127, 127, .7);
+                     /*}*/
+                     padding: 0;
+                     /*background-color: white;*/
+                     color: transparent;
+                }
+            }
+
+            .wj-cell {
+                border-color: var(--cell-border-color);
+            }
+
+            /* Cell selection rectangle */
+            .wj-cell {
+                &.wj-state-multi-selected,
+                &.wj-state-selected {
+                    &:before {
+                         content: '';
+                         position: absolute;
+                         display: block;
+                         /*margin:-6px;*/
+                         background-color: var(--cell-selected-background-color);
+                         z-index: 10;
+                         opacity: .4;
+                         transition: opacity 300ms ease;
+                         width: 100%;
+                         height: 100%;
+                         top: 0;
+                         left: 0;
+                    }
+                }
+            }
+        }
+
+        .wj-flexgrid.wj-control.wj-state-focused, .is-context-menu-target .wj-flexgrid.wj-control {
+            .wj-cell {
+                &.wj-state-multi-selected,
+                &.wj-state-selected {
+                    &:before {
+                         opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .detail-cells {
+            overflow: hidden;
+
+            .wj-colheaders > div.wj-header {
+                border-right: 0;
+            }
+
+            .wj-rowheaders > div.wj-header {
+                border-bottom: 0;
+            }
+
+            .wj-topleft > div.wj-header {
+                border: 0;
+            }
+
+            /*Zebra stripes*/
+            .wj-flexgrid .wj-alt:not(.wj-header):not(.wj-group) {
+                background: darken(#f9f9f9, 5);
+            }
+
+            .wj-cell {
+                text-align: right;
+
+                &.first-column {
+                     border-left: 0;
+                }
+            }
+        }
+
+        .row-axes {
+            border-top: 1px solid var(--cell-border-color);
+
+            .wj-header {
+                border-bottom: var(--borderBetweenAxisAndCoords);
+                &:last-of-type {
+                    border-right: 1px solid var(--cell-border-color);
+                }
+            }
+        }
+
+        .column-axes {
+            align-self: stretch;
+            align-content: flex-end;
+            flex: 1 auto;
+
+            .wj-cell.last-axis {
+                border-bottom: 0;
+            }
+
+            div.wj-row {
+                border-right: var(--borderBetweenAxisAndCoords);
+
+                &:last-of-type {
+                    border-bottom: 0;
+                }
+            }
+
+            .wj-content div[wj-part=root] {
+                overflow-x: hidden !important;
+
+                .wj-cells {
+                    border-left: 0;
+                }
+            }
+
+            .dropIndicator {
+                width: 100%;
+                height: 4px;
+                z-index:20;
+            }
+
+            .empty-column-axes {
+                display: flex;
+                flex: 0 auto;
+
+                background-color: var(--axis-background-color);
+                border-left: 0px;
+                flex-direction: row;
+
+                > div {
+                    flex: 0 auto;
+                    position: relative;
+
+                }
+
+                .data {
+                    background-color: var(--coordinate-background-color);
+                    color: var(--coordinate-foreground-color);
+                }
+            }
+        }
+
+
+        div.row-axes {
+            min-width: 45px;
+            /*min-width: 80px;*/
+            flex: 0 0 auto;
+            align-self: stretch;
+            /*align-content: flex-end;*/
+
+            .wj-content div[wj-part=root] {
+                overflow-y: hidden !important;
+            }
+
+            .dropIndicator {
+                height: 100%;
+                width: 4px;
+                z-index:20;
+            }
+
+            .empty-row-axes {
+                align-self: stretch;
+                display: flex;
+
+                /* flex: 1;
+                /*flex: 0 auto; - commenting out - causes div to render too small leaving alot of empty space to right*/
+                background-color: var(--axis-background-color);
+                flex-direction: column;
+
+                > div {
+                flex: 0 auto;
+                position: relative;
+                min-height: calc(var(--spacer-size) - 1px);
+                min-width: var(--minimumEmptyAxisSize);
+                }
+
+                .data {
+                background-color: var(--coordinate-background-color);
+                color: var(--coordinate-foreground-color);
+                }
+            }
+        }
+
+        div.pivot-corner {
+         /*So that we can set the width programatically to match the column coordinates with the detail cells*/
+            box-sizing: border-box;
+
+            &.hidden {
+              display: none;
+            }
+
+             /*The gear icon*/
+            .iconic, .iconic * {
+              fill: var(--dataCell-background-color);
+            }
+
+            .iconic {
+              margin: auto;
+              height: calc(var(--table-row-height) - 10px);
+              width: calc(var(--table-row-height) - 10px);
+            }
+            overflow: visible; /* For the menu */
+            min-width: 45px;
+            flex-shrink: 0;
+            border: solid var(--cell-border-color);
+            border-width: 0 1px 0 0;
+            background-color: var(--axis-background-color);
+            border-radius: 2px 0 0 0;
+            margin: 0;
+
+            &.ui.button.active, &.ui.button:hover {
+              background-color: var(--coordinate-background-color);
+              border-color: var(--cell-border-color)
+            }
+        }
+
+        .row-axes, .column-axes, .detail-cells {
+            div[wj-part=root] {
+              background-color: var(--spacer-background-color);
+            }
+
+            .wj-cell {
+              padding: 5px 6px;
+
+              &:not(.wj-header):not(.wj-group):not(.wj-state-selected):not(.wj-state-multi-selected).unselected {
+                color: #9E9E9E !important;
+                background-color: #E2E2E2 !important;
+              }
+            }
+
+            .wj-header {
+              cursor: move;
+            }
+        }
+
+        :global(.scrollTips__scroll-tip) {
+            border: 1px solid black;
+            padding: 1em;
+            text-align: center;
+            display: flex;
+            align-content: center;
+            overflow: hidden;
+            background: rgba(127, 127, 127, .3);
+            opacity: 1;
+
+            &.animate {
+              transition: all .2s;
+            }
+
+            &.hidden {
+              opacity: 0;
+            }
+        }
+
+        .dropIndicator {
+            position: absolute;
+            background-color: red;
+            pointer-events: none
+        }
+
+        .wj-flexgrid.wj-control.wj-content {
+            border: 0;
+        }
+    }
+
+    .horizontal-splitter {
+        flex: 1;
+        max-height: 100%;
+
+        > :global(.pane:not(.primary)) {
+            margin-top: calc(-1 * var(--spacer-size));
+        }
+    }
+
+    .vertical-splitter > :global(.pane.primary1) {
+        height: calc(100% + var(--spacer-size));
+    }
+
+    .vertical-splitter > :global(.pane:not(.primary)) {
+        padding-top: var(--spacer-size);
+    }
+
+    :global {
+        .splitter .handle-bar {
+            background-color: var(--spacer-background-color);
+            --splitter-size: var(--spacer-size);
+        }
+
+        .handle-bar_drag {
+            display: none;
+        }
+    }
+
+    &.vertical-dragging{
+        :global {
+            .splitter .handle-bar {
+                z-index: unset !important;
+                margin-left: 0 !important;
+            }
+        }
+    }
+}
+
+:global .pivot-context-menu {
+    svg {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+.data-limits-cover {
+    padding-top: 10%;
+
+    :global(.bp3-callout) {
+        min-width: 400px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .data-limits-cover-buttons {
+        background-color: transparent;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        :global(.bp3-button:last-child) {
+            white-space: nowrap;
+            flex: 0 0 auto;
+        }
+    }
+}

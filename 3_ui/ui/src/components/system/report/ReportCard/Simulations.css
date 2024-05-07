@@ -1,0 +1,44 @@
+.root {
+    /* composes: report-card-panel from './ReportCardPanel.css'; */
+
+    &.dragging {
+        .simulations {
+            border: 2px dashed black;
+        }
+    }
+
+    :global .content:not(:first-of-type) > .ui.form > .fields > .field > label {
+        display: none;
+    }
+
+    > :global(.content):not(:first-child) {
+        padding:.5em 0 .5em .5em;
+    }
+}
+
+.simulations {
+    border: 2px solid transparent;
+    padding:1em;
+}
+
+
+.as-cards {
+    composes: sort-container from './ReportCard.css';
+
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+
+.title {
+    composes: title from './ReportCardPanel.css';
+}
+
+.header {
+    composes: header from './ReportCardPanel.css';
+}
+
+
+.no-drag :global .draggable {
+    cursor:default !important;
+}

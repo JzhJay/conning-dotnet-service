@@ -1,0 +1,92 @@
+:root {
+    --highlighted-search-result: #e3eaf3;
+    --highlighter-yellow: #ff0;
+    --selected-background-local: #e3eaf3;
+}
+
+.root {
+    align-self: flex-end;
+
+    .search-input {
+        display: flex;
+        position: relative;
+        align-items: stretch;
+        flex-direction: row;
+
+        input {
+            padding-right: 26px;
+        }
+        svg, i {
+            position: absolute;
+            right: 5px;
+        }
+        :global(.bp3-button) {
+            border: none;
+            box-shadow: none;
+            background: transparent;
+            position: absolute;
+            right: 0;
+            cursor: pointer;
+
+            svg {
+                margin-top: -7px;
+            }
+        }
+    }
+}
+
+.result-list {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.object-catalog-search-result-root {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border-top: 1px solid var(--selected-background-local);
+    padding: 5px 7px;
+
+    &:first-child{
+         border-top: none;
+    }
+
+    &.selected {
+         background-color: var(--selected-background-local);
+    }
+
+    .type-label {
+        font-size:8pt;
+        color:var(--theme-color-secondary);
+        align-self: flex-end;
+        position: relative;
+        top: -3px;
+    }
+
+    .header {
+        font-weight:bold;
+        font-size:10pt;
+    }
+
+    .description {
+        font-size:9pt;
+        white-space:pre-wrap;
+    }
+
+
+    .highlight {
+        pointer-events:   none; /* Otherwise we block access to the checkbox */
+        content:          '';
+        display:          block;
+        z-index:          10;
+        left:             0;
+        top:              0;
+        opacity:          .4;
+        background-color: var(--highlighted-search-result);
+        position:         absolute;
+        width:            100%;
+        height:           100%;
+    }
+}
+

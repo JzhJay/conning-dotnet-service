@@ -1,0 +1,13 @@
+.axis-coordinate-searcher {
+    composes: query-searcher from './querySearchers.css';
+}
+
+.hasValue {
+    background-color: var(--search-active-background-color)
+}
+
+::-webkit-scrollbar {
+    background-color: rgb(222, 225, 221);
+}
+
+

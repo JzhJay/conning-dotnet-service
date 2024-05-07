@@ -1,0 +1,99 @@
+.root {
+    border-width: 0 0 1px;
+    border-style: dashed;
+    border-color: #ccc;
+    margin:       0;
+    padding:      0;
+
+    background-color: #fbfaf9;
+}
+
+.row {
+    display:flex;
+    flex-direction:row;
+    user-select: none; /* So that text doesn't get highlighted on expand */
+
+    .description {
+        font-size:       1rem;
+        font-weight:     400;
+        color:           #414042;
+        letter-spacing:  0;
+        text-decoration: none;
+        padding:         .5em 0 .5em 2.3em;
+        line-height:     1.5;
+        display:         flex;
+        flex: 1; /* 0 0 50%; */
+        .description-text {
+            font-weight:      400;
+            color:           #414042;
+            letter-spacing:  0;
+            text-decoration: none;
+            margin:auto 0;
+        }
+
+        :global .bp3-popover-wrapper {
+            display: flex;
+
+            .bp3-popover-target {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    .severity {
+        margin-right: .5em;
+    }
+}
+
+.details-container {
+    padding: 0 1em 0 2em;
+    display:inline-block;
+
+    .params {
+        display:flex;
+        flex-direction: column;
+
+        .param {
+            padding-top:10px;
+            display: flex;
+        }
+    }
+
+    .details {
+
+    }
+}
+
+.endpoints {
+    display:        flex;
+    flex-direction: row;
+    /*padding-right: 1.05em;*/
+    overflow:visible; /* So checkboxes don't get cutoff */
+    font-size: .85rem;
+
+    :global {
+        .bp3-form-group {
+            margin-bottom:0;
+
+            > .bp3-label:empty {
+                display:none;
+            }
+        }
+
+        .bp3-control-group {
+            display:        flex;
+            flex-direction: row;
+            margin:         .5em 1em .5em 0;
+
+            .bp3-control {
+                margin-bottom: 0;
+                margin-right: .5em;
+            }
+
+            .bp3-icon {
+                overflow:visible;
+            }
+        }
+    }
+}
+

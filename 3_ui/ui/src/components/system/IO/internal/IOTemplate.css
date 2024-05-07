@@ -1,0 +1,18 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    :global(.bp3-button) {
+        font-size: 50px;
+        font-weight: 100;
+        background-color: rgba(68, 132, 178, .3);
+        margin: 10px 0;
+        border: dashed 1px grey;
+    }
+
+    .title {
+        margin: auto;
+        font-size: 20px;
+    }
+}

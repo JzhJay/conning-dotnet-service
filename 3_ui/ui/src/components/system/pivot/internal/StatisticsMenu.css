@@ -1,0 +1,15 @@
+.sortable-list {
+.sortable-item {
+    display: flex;
+
+:global(.bp3-icon) {
+    margin: 5px;
+    cursor: row-resize;
+}
+
+:global(.bp3-switch) {
+    flex-grow: 1;
+    margin:    5px 5px 5px 0;
+}
+}
+}

@@ -1,0 +1,44 @@
+:global {
+    .bp3-dialog-header .AppIcon__root {
+        margin-right: 10px;
+        margin-left: -10px;
+    }
+}
+
+.tag-value-select {
+    display: flex !important;
+
+    .tag-value-select-items {
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+
+        &.empty {
+           color: gray;
+        }
+
+    }
+
+    .tag-value-select-item {
+        margin: 2px 5px 2px 0 !important;
+
+        :global(.bp3-fill) {
+            display: flex;
+
+            :global(.bp3-icon) {
+                padding-left: 3px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    > :global(.bp3-icon) {
+        align-self: center;
+    }
+}
+
+.dropdown {
+    :global(.bp3-transition-container) {
+        z-index: 21;
+    }
+}

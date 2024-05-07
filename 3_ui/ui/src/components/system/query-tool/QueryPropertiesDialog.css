@@ -1,0 +1,19 @@
+.root {
+
+    .openInNewTab {
+        margin-left: 10px;
+        flex:        0 0 auto;
+        align-self:  center;
+    }
+
+    .queryName {
+        flex:    1 0 auto;
+        display: flex;
+
+        :global(.bp3-input-group), input {
+            flex: 1;
+        }
+    }
+}
+
+

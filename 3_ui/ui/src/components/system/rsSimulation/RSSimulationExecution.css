@@ -1,0 +1,49 @@
+.root {
+    flex: 1;
+    max-width: 100%;
+
+    .run {
+        display: flex;
+        width: fit-content;
+        margin: 20px auto;
+
+        &:hover {
+            background-color: #0A6640;
+        }
+
+        svg {
+            width: 30px;
+            height: 30px;
+            color: white;
+        }
+
+        a {
+            background-color: #0D8050;
+        }
+
+        :global(.bp3-button) {
+            font-size: 30px !important;
+            color: white;
+
+            :global(.loader) {
+                &:before, &:after {
+                    width: 30px;
+                    height: 30px;
+                    margin-left: -10px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+    .simulation-status-callout-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Open Sans", "Segoe UI", "Helvetica Neue", "Icons16", sans-serif;
+
+        :global(.bp3-button) {
+            width: fit-content;
+            font-size: 14px;
+        }
+    }
+}

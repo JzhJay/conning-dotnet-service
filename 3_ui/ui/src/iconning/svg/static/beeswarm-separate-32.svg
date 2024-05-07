@@ -1,0 +1,26 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="beeswarm-separate-32" class="iconning iconning-beeswarm-separate-32" viewBox="0 0 32 32" id="beeswarm-separate32">
+    <g class="iconning-metadata">
+        <title>Beeswarm Separate</title>
+    </g>
+    <g class="iconning-container" data-width="32" data-height="32">
+        <!-- Beeswarm Separate -->
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="1.5" y1="31.0" x2="1.5" y2="3.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="1.0" y1="30.5" x2="31.0" y2="30.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="24.5" x2="4.0" y2="24.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="18.5" x2="4.0" y2="18.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="12.5" x2="4.0" y2="12.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="6.5" x2="4.0" y2="6.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="27.5" x2="3.0" y2="27.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="21.5" x2="3.0" y2="21.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="15.5" x2="3.0" y2="15.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="9.5" x2="3.0" y2="9.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="3.5" x2="3.0" y2="3.5"/>
+        <!-- Beeswarm Circles -->
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-32 iconning-accent-1 iconning-point iconning-point-1" cx="9.166666666666668" cy="24.833333333333332" r="3.9583333333333335" fill="rgb( 40, 70,200)" opacity="0.7" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-32 iconning-accent-2 iconning-point iconning-point-2" cx="17.5" cy="16.5" r="3.9583333333333335" fill="rgb( 40, 70,200)" opacity="0.7" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-32 iconning-accent-3 iconning-point iconning-point-3" cx="25.833333333333336" cy="8.166666666666666" r="3.9583333333333335" fill="rgb( 40, 70,200)" opacity="0.7" style="stroke:none"/>
+    </g>
+</svg>

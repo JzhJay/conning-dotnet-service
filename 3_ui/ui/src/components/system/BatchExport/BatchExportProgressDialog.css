@@ -1,0 +1,12 @@
+.root {
+    &:global(.bp3-dialog) :global(.bp3-dialog-body) {
+        margin: 10px 10px 0 10px;
+    }
+
+    :global {
+        .bp3-spinner {
+            display: inline-block;
+            margin-right: 5px;
+        }
+    }
+}

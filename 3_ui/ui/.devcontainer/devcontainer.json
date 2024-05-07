@@ -1,0 +1,10 @@
+{
+  "name": "Advise UI",
+  "dockerFile": "Dockerfile",
+  "postAttachCommand": "cd /workspaces/advise && yarn install",
+  "runArgs": [],
+  "forwardPorts": [5001],
+  "containerEnv": {
+    "DOTNET_REST_API": "advise.test"
+  }
+}

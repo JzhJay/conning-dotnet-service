@@ -1,0 +1,132 @@
+.root {
+    display:        flex;
+    flex-direction: column;
+    overflow:visible;
+    background:     #efefef;
+}
+
+.form {
+    flex-grow:                                                              0;
+//margin-top: 50px !important; //margin-bottom: 50px !important; font-size: 20px !important;
+    padding:                                                                10px;
+    border:                                                                 1px solid;
+}
+
+.table {
+    flex: 1;
+
+    :global .bp3-table-row-name {
+        display: none;
+    }
+}
+
+edit-notification {
+    transition: opacity 600ms ease;
+}
+
+.notification-settings {
+    display:        flex;
+    flex-direction: column;
+    flex:           1 !important;
+    overflow:       auto !important;
+}
+
+.notification-history {
+    overflow: auto;
+    min-height: 200px;
+}
+
+.section {
+    .title-row {
+        display:        flex;
+        flex-direction: row;
+
+        .title {
+            margin-bottom: .5rem;
+            font-weight:   bold;
+            font-size:     1.5rem;
+            line-height:   1.75rem;
+            flex:          1;
+        }
+    }
+}
+
+.notification-endpoints {
+    margin: 0;
+
+    .endpoint {
+        display:flex;
+        flex-direction:column;
+
+        &:not(:first-child) {
+            margin-top:.5em;
+        }
+
+        > :first-child {
+            display:        flex;
+            flex-direction: row;
+
+            > * {
+                margin-right:.5em;
+            }
+        }
+
+        .endpoint-details {
+            display:flex;
+            flex-direction:column;
+            margin:    .5em auto .5em 2em;
+            min-width: 50%;
+            padding:.5em;
+
+            label {
+                margin-right:.5em;
+            }
+
+            > :not(:first-child) {
+                margin-top:.5em;
+            }
+        }
+        :global {
+            .bp3-button {
+                min-height: 24px;
+                min-width:  24px;
+            }
+
+            .bp3-control {
+                margin-bottom: 0;
+            }
+
+            .bp3-editable-text {
+
+            }
+        }
+
+    }
+
+    .email {
+
+    }
+
+    .phone {
+
+    }
+}
+
+.show-on-hover {
+    opacity:    0;
+    transition: opacity 600ms ease;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.notification-subscription-setting {
+    display:flex;
+    flex-direction: row;
+}
+
+.event-list {
+    margin:       5px 0;
+    padding-left: 20px;
+}

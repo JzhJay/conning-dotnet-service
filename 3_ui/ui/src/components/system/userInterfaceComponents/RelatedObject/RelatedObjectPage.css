@@ -1,0 +1,163 @@
+.root {
+    margin: 0 auto;
+    max-width: 1200px;
+
+    .title h1{
+        display: flex;
+        align-items: center;
+        margin-bottom: -15px;
+
+        .type-icon {
+            margin-right: 10px;
+        }
+
+        :global(.bp3-spinner) {
+            margin-right: 10px;
+        }
+    }
+    .article {
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+
+        .metadata {
+            flex: 1;
+            min-width: 350px;
+        }
+
+        .explore {
+            flex: 0 0 auto;
+            width: 350px;
+            z-index: 2;
+
+            .selected-object-type {
+                margin-right: -12px;
+                padding-right: 23px !important;
+                background-color: rgba(138, 155, 168, 0.15);
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                box-shadow: none;
+            }
+
+            :global {
+                .bp3-card { padding: 0; }
+                .DashboardPanel__root {
+                    height: unset !important;
+                    .DashboardPanel__icon-outer { width: 80px !important; height: 80px !important; }
+                    .DashboardPanel__title { font-size: 1.5rem; }
+
+                    .bp3-button-group { margin: 0 5px; }
+                    .DashboardPage__round-btn.bp3-button { padding: 3px 8px; }
+                    .DashboardPage__round-btn.bp3-button:first-child:not(:last-child) { padding-left: 13px; }
+                    .DashboardPage__round-btn.bp3-button:last-child { padding-right: 13px; }
+                }
+            }
+        }
+
+        .linked-objs {
+            flex: 1;
+            min-width: 350px;
+
+            &.filter-enabled {
+                background-color: rgba(138, 155, 168, 0.15);
+            }
+
+            .object-info {
+                display: flex;
+                align-items: center;
+
+                .object-title {
+                    flex: 1;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 0;
+                    overflow: hidden;
+
+                    a {
+                        margin-left: 10px;
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+                        overflow: hidden;
+                        text-decoration: none;
+
+                        > * {
+                            color: #000;
+                            font-size: 1.2rem;
+                            line-height: 1.4rem;
+                        }
+
+                        .object-path {
+                            font-size: 12px;
+                            line-height: 14px;
+                            font-weight: 100;
+                        }
+                    }
+                }
+
+                .object-extras {
+                    flex: 0;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 5px;
+                    white-space: nowrap;
+
+                    .last-updated {
+                        font-size: 12px;
+                        line-height: 14px;
+                        font-weight: 100;
+                        color: #182026;
+
+                        text-align: right;
+                    }
+                }
+            }
+
+            .open-info .object-info{
+                margin-bottom: 10px;
+            }
+
+
+        }
+    }
+
+    :global {
+        .bp3-callout {
+            background: none;
+        }
+        .bp3-card {
+            background-color: #FFFFFF;
+            padding: 10px;
+        }
+
+        .bp3-card +.bp3-card {
+            margin-top: 10px;
+        }
+
+        .SmartCard__smart-card {
+            margin: 0 !important
+        }
+    }
+}
+
+.roundIcon {
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--theme-office-site-blue-primary);
+
+    /* type */
+    &:global(.AppIconType-iconning line){ stroke: white; }
+    &:global(.AppIconType-iconning path){ stroke: white; }
+    &:global(.AppIconType-iconning circle){ fill: white; }
+
+    &:global(.AppIconType-iconic .iconic-property-stroke){ stroke: white; }
+    &:global(.AppIconType-iconic .iconic-property-fill){ fill: white; }
+
+    &:global(.AppIconType-blueprint){ color: white; }
+
+    /* customize icon */
+    &:global(.AppIconType-iconning-simulation svg){ margin-right: 10%; }
+}

@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" data-icon="simulation-80" class="iconning iconning-simulation-80" viewBox="0 0 80 80" id="simulation80">
+    <g class="iconning-metadata">
+        <title>Simulation</title>
+    </g>
+    <g class="iconning-container" data-width="80" data-height="80">
+        <!-- Scenario Lines -->
+        <line class="iconning iconning-simulation iconning-simulation-80 iconning-line" x1="3.6609640474436813" x2="76.33903595255632" y1="40.0" y2="3.6609640474436813" stroke="rgb(  0,  0,  0)" stroke-width="3.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-80 iconning-line" x1="21.83048202372184" x2="76.33903595255632" y1="49.08475898813908" y2="21.83048202372184" stroke="rgb(  0,  0,  0)" stroke-width="3.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-80 iconning-line" x1="40.0" x2="76.33903595255632" y1="58.16951797627816" y2="40.0" stroke="rgb(  0,  0,  0)" stroke-width="3.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-80 iconning-line" x1="58.16951797627816" x2="76.33903595255632" y1="67.25427696441724" y2="58.16951797627816" stroke="rgb(  0,  0,  0)" stroke-width="3.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-80 iconning-line" x1="3.6609640474436813" x2="76.33903595255632" y1="40.0" y2="76.33903595255632" stroke="rgb(  0,  0,  0)" stroke-width="3.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-80 iconning-line" x1="21.83048202372184" x2="76.33903595255632" y1="30.91524101186092" y2="58.16951797627816" stroke="rgb(  0,  0,  0)" stroke-width="3.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-80 iconning-line" x1="40.0" x2="76.33903595255632" y1="21.830482023721842" y2="40.0" stroke="rgb(  0,  0,  0)" stroke-width="3.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-80 iconning-line" x1="58.16951797627816" x2="76.33903595255632" y1="12.745723035582763" y2="21.830482023721842" stroke="rgb(  0,  0,  0)" stroke-width="3.3219280948873626" stroke-linecap="round" style="fill:none"/>
+    </g>
+</svg>

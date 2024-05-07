@@ -1,0 +1,302 @@
+:root {
+    --item-height: 32px;
+    --title-bar-height: 40px;
+}
+
+:global(.ui.left.sidebar) > :global(.ui.menu) > div.sidebar-panel:global(.item) {
+    padding:             0 0 0 0 !important;
+    border-width:        1px 0;
+    border-style:        solid;
+    flex:                0 1 auto; /* 25vh; */
+    display:             flex;
+    flex-direction:      column;
+    border-color:        var(--sidebar-item-separator-border-color);
+    border-radius:       0 !important;
+    min-height:          67px;
+    transition:          .6s ease;
+    transition-property: flex-grow, flex-basis;
+
+    /*&:not(:global(.active)) {
+        :global .ui.menu.vertical {
+            max-height:0;
+        }
+
+        flex-basis:auto;
+        min-height:0;
+    }*/
+
+    &.active {
+        flex-grow:1;
+    }
+
+    > :last-child {
+        opacity:1;
+        flex-grow:1;
+        transition: 1000ms ease opacity,500ms ease flex-grow;
+    }
+
+    /*
+    &:not(:global(.active)) {
+        flex-grow: 0;
+        min-height:0;
+        flex-basis:var(--title-bar-height) !important;
+
+        > :last-child {
+            opacity:    .3;
+            max-height:0 !important;
+            padding:0 !important;
+        }
+    }*/
+    &:only-child {
+        flex:1;
+    }
+
+    &:first-child {
+        border-top: 0;
+    }
+
+    &:last-child {
+        border-bottom: 0;
+    }
+
+    > :global(.header) {
+        background-color: var(--sidebar-item-header-background-color);
+        font-weight:      normal;
+    }
+
+    :global .bp3-tree {
+        border-color: var(--sidebar-item-separator-border-color);
+        border-style: solid;
+        border-width: 1px 0;
+        flex:         1;
+    }
+
+    /* Submenu for a panel */
+    :global .ui.menu.vertical {
+        padding:       0;
+        width:         100%;
+        border-radius: 0;
+        overflow-x:    auto;
+        overflow-y:    auto; /* scroll;  /* This makes the tooltips line up with the edge of the sidebar */
+
+        border-color:  var(--sidebar-item-separator-border-color);
+        border-style:  solid;
+        border-width:  1px 0;
+
+        .item {
+            display:        flex;
+            flex-direction: row;
+            padding:        0px 0 0 10px;
+            font-size:      14px;
+            height:         var(--item-height);
+            line-height:    var(--item-height);
+
+            border-radius:  0 !important;
+
+            i.icon:first-child {
+                margin-left:  0px;
+                margin-right: 4px;
+            }
+
+            .ui.loader {
+                margin: auto 5px auto 0;
+            }
+
+            &:last-child {
+                border-bottom: 0;
+            }
+
+            /*
+            &:hover {
+                background: var(--selected-background);
+            }
+            */
+
+            & > :global(.header) {
+                background-color: var(--sidebar-item-header-background-color);
+            }
+
+            .label {
+                align-self: center;
+                margin-left:5px;
+
+                &:first-child {
+                    margin-left:0;
+                }
+            }
+
+            &:not(.header) {
+                .bp3-button {
+                    min-height:  var(--item-height);
+                    line-height: var(--item-height);
+                    padding:     0 2px;
+                    float:       left; /* Otherwise things move when turning into a tooltip */
+                }
+            }
+
+            &:local(.no-results) {
+                font-style: italic;
+                cursor:     default;
+                padding:    0 15px !important;
+
+                &:hover {
+                    background-color: inherit !important;
+                }
+            }
+        }
+    }
+
+    .extra-info {
+        flex:       1;
+        text-align: right;
+    }
+
+    &.no-results {
+        flex-basis: 67px;
+        flex:1;
+    }
+}
+
+.row {
+    display:        flex;
+    height:         var(--item-height);
+    flex-direction: row;
+}
+
+.name {
+    flex:          1;
+    line-height:   var(--item-height) !important;
+    text-overflow: ellipsis;
+    align-self:    flex-start;
+
+    max-height:    var(--item-height);
+    text-overflow: ellipsis;
+    overflow:      hidden;
+    white-space:   nowrap;
+}
+
+.editable-name {
+    composes:    name;
+    align-self:  center;
+    line-height: 24px !important;
+    overflow:    visible;
+
+    &::before {
+        top:    -1px;
+        bottom: -1px;
+    }
+}
+
+.menu-item {
+    flex:           1;
+    flex-direction: column !important;
+}
+
+.sidebar-panel :global .bp3-button-group.bp3-minimal .bp3-button:after {
+    margin: 0 5px;
+}
+
+.collapsed {
+    :global(.ui.menu.vertical) {
+        padding: 0 !important;
+    }
+
+    .collapseExpand {
+        transform: rotateX(180deg);
+    }
+}
+
+.collapseExpand {
+    transition: transform 600ms ease;
+}
+
+.selectionIcon {
+    margin-right: 5px;
+}
+
+/* For right showing sidebar items the arrow is misaligned */
+.sidebarPopover {
+    /*margin-top: -5px !important;*/
+    margin-left: 1px !important;
+}
+
+.column {
+    flex: 1;
+}
+
+.title-text {
+    position:   absolute;
+    transition: opacity 600ms ease;
+    opacity:    0;
+    &.active {
+        font-weight: bold;
+        opacity:     1;
+    }
+}
+
+.right-button-group {
+    margin: 0 5px;
+    white-space: nowrap;
+
+    :global {
+        .bp3-button {
+            &[class*="bp3-icon-"]::before {
+                font-size: 14px;
+            }
+        }
+
+        .ui.label:last-child {
+            margin-right: 0.284em;
+        }
+    }
+}
+
+.user-picture {
+    width:         25px;
+    height:        25px;
+    border-radius: 50%;
+    margin-right:  3px;
+}
+
+no-results {
+
+}
+
+.sidebar-panel {
+    :global(.ui.vertical.menu) :global(.item):hover, :global(.bp3-tree-node):hover > :global(.bp3-tree-node-content):hover {
+        .show-on-hover {
+            opacity: 1;
+
+            &.bp3-button::after, .bp3-button::after {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.show-on-hover {
+    opacity:    0;
+    transition: opacity 600ms ease;
+
+    &.bp3-button::after, .bp3-button::after {
+        transition: opacity 600ms ease;
+        opacity:    0;
+    }
+}
+
+
+.panel-chooser {
+    :global .bp3-button {
+        &, &:hover {
+            background: transparent;
+            box-shadow:none;
+        }
+        margin-left:-8px;
+        box-shadow: none;
+
+        span:not(.bp3-icon-standard) {
+            font-size:16px !important;
+            font-weight:bold;
+        }
+    }
+}

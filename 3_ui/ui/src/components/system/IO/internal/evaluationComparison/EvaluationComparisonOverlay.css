@@ -1,0 +1,24 @@
+.evaluation-comparison-dialog {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    max-width: 95vw;
+    max-height: 95vh; 
+    background-color: #ffffff;
+    
+    :global .bp3-dialog-header {
+        margin-bottom: 1px;
+    }
+
+    :global .bp3-button-group {
+        height: 30px;
+        .ui.label {
+            height: 30px;
+        }
+    }
+}
+
+.evaluation-comparison-dialog-content {
+    flex: 1;
+    overflow: auto;
+}

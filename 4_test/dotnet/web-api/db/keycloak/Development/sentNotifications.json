@@ -1,0 +1,11 @@
+﻿{
+  "owner": "de28cad4-1789-407f-85eb-14f7920537f1",
+  delivered: true,
+  endpoint: {
+    type: "email",
+    value: "tenant.tester@conning.com"
+  },
+  title: "Testing 123",
+  messageKey: "test-data",
+  sentTime: "2018-05-23T01:41:34.821+0000"
+}

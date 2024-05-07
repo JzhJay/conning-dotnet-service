@@ -1,0 +1,71 @@
+﻿{
+  "owner": "de28cad4-1789-407f-85eb-14f7920537f1",
+  "target": "simulation",
+  "trigger": "compile",
+  "desktop": true
+}
+{
+  "owner": "de28cad4-1789-407f-85eb-14f7920537f1",
+  "target": "system",
+  "trigger": "grid_on",
+  "mobile": true,
+  "desktop": true
+}
+{
+  "owner": "de28cad4-1789-407f-85eb-14f7920537f1",
+  "target": "simulation",
+  "trigger": "threshold",
+  extra: {
+    name: 'threshold',
+    value: '1'
+  },
+  "email": true
+}
+
+{
+  "owner": "de28cad4-1789-407f-85eb-14f7920537f1",
+  "target": "simulation",
+  "trigger": "threshold",
+  extra: {
+    name: 'threshold',
+    value: '1h'
+  },
+  "email": true
+}
+{
+  "owner": "de28cad4-1789-407f-85eb-14f7920537f1",
+  "target": "system",
+  "trigger": "grid_uptime_threshold",
+  "email": true
+}
+{
+  "owner": "de28cad4-1789-407f-85eb-14f7920537f1",
+  "target": "simulation",
+  "trigger": "stored",
+  "email": true
+}
+{
+  "owner": "de28cad4-1789-407f-85eb-14f7920537f1",
+  "target": "system",
+  "trigger": "failed",
+  "email": true
+}
+{
+  "owner": "de28cad4-1789-407f-85eb-14f7920537f1",
+  "target": "simulation",
+  "trigger": "parse",
+  "email": true
+}
+{
+  "owner": "de28cad4-1789-407f-85eb-14f7920537f1",
+  "target": "simulation",
+  "trigger": "compile",
+  "email": true
+}
+{
+  "owner": "de28cad4-1789-407f-85eb-14f7920537f1",
+  "target": "simulation",
+  "trigger": "parse",
+  email: true
+}
+

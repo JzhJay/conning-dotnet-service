@@ -1,0 +1,12 @@
+.button {
+    margin-right:0;
+    align-self:center;
+    padding:0;
+}
+
+.menu-icon {
+    color:var(--theme-color-secondary) !important;
+    font-size:16px;
+    margin-right:0;
+    text-align:center;
+}

@@ -1,0 +1,30 @@
+.application-page {
+	border: 0px solid transparent;
+    border-radius:0;
+
+    flex:1;
+    background:var(--detail-panel-background);
+	overflow:auto;
+
+    display:flex;
+    flex-direction:column;
+
+    > * {
+       max-width:100%;
+
+        /*
+        &:only-child {
+            margin:auto auto;
+            font-size:120%;
+            flex:1;
+            display:flex;
+        }
+        */
+    }
+
+    > :global(.ui.segment) {
+        flex: 1;
+        //margin: 0 .5em;
+        padding: 0;
+    }
+}

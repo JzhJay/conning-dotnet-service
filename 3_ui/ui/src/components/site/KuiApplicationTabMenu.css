@@ -1,0 +1,15 @@
+.systemStatus:global(.bp3-button[class*="bp3-icon-"]) {
+    &::before { color: red; }
+
+    &.connectedToSignalr::before {
+        color: yellow;
+    }
+
+    &.connectedToADVISE::before {
+        color: green;
+    }
+
+    &.connectedToSignalr.connectedToADVISE::before {
+        color: green;
+    }
+}

@@ -1,0 +1,28 @@
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`sxy;   800 350)))
+
+/Select one detail cell that has a pivot value
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   1 1);  (`kd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ss;   (,1;    ,1))))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   1 1);  (`ku;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   1 1);  (`k;)))
+
+/Make sure the GUI has it selected
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ss.assert;   (,1;    ,1))))
+
+/Make sure k thinks the same cell is selected
+(; (`getValue; ((`advise;1);".k.p.pivot..j.s";".tc.tableSelectedCell")))
+(; (`assert; ({.tc.tableSelectedCell~,1})))
+
+/Select one detail cell that doesn't have a pivot value
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   1 0);  (`kd;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ss;   (,1;    ,0))))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   1 0);  (`ku;)))
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;   1 0);  (`k;)))
+
+/Make sure the GUI has it selected
+((`advise;1); (`jsetb;  `name `.k.p.pivot;  (`index;());  (`ss.assert;   (,1;    ,0))))
+
+/Make sure k doesn't think anything is selected (k only knows about selections when they're in the ax attribute ie. actually a value in the pivot table
+(; (`getValue; ((`advise;1);".k.p.pivot..j.s";".tc.tableSelectedCell")))
+(; (`assert; ({.tc.tableSelectedCell~!0})))
+

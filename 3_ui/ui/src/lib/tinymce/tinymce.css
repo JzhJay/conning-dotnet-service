@@ -1,0 +1,19 @@
+html {
+    height:100%;
+    display:flex;
+}
+
+#tinymce {
+    margin: 0;
+    padding: 5px 10px 5px 10px !important;
+    overflow-y: scroll !important;
+    display: flex;
+    flex: 1;
+    max-height: 100%;
+    flex-direction: column;
+}
+
+#tinymce p {
+    -webkit-margin-before: .5em;
+    -webkit-margin-after: .5em;
+}

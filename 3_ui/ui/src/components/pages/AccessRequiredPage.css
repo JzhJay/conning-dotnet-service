@@ -1,0 +1,6 @@
+.root {
+    > div {
+        margin:auto auto;
+        font-size: 150%;
+    }
+}

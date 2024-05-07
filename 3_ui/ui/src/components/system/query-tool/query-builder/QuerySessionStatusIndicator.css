@@ -1,0 +1,29 @@
+.root {
+    path {
+        stroke: white;
+    }
+
+    :not(.has-error.is-starting-session-has-session) {
+        path {
+            stroke: black;
+        }
+    }
+
+    .has-error {
+        path {
+            stroke: red;
+        }
+    }
+}
+
+.is-starting-session {
+    path {
+        stroke: orange;
+    }
+}
+
+.has-session {
+    path {
+        stroke: lightgreen;
+    }
+}

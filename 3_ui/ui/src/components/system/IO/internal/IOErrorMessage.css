@@ -1,0 +1,12 @@
+.root {
+    display: flex;
+
+    .error {
+        margin:        0 8px;
+        height:        24px;
+        width:         24px;
+        fill:          red;
+        background:    white;
+        border-radius: 12px;
+    }
+}

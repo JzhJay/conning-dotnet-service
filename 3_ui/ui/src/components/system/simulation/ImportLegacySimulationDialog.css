@@ -1,0 +1,9 @@
+
+.root {
+    min-width: 300px;
+    max-width: 720px;
+
+    :global .bp3-dialog-body {
+        min-height: 80px;
+    }
+}

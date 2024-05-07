@@ -1,0 +1,1137 @@
+{
+  "M2ezlc": {
+    "defaultMessage": ">>> SimulationManager is reading csv file parts for scenario index {scenario_index} <<<",
+    "untranslatedMessage": "SimulationManager is reading csv file parts for scenario index {scenario_index}",
+    "description": "[SimulationManager] Debug message of reading csv file parts for scenario index"
+  },
+  "RgR7ie": {
+    "defaultMessage": ">>> Finished computing scenario index {scenario_index} in {computation_time} seconds <<<",
+    "untranslatedMessage": "Finished computing scenario index {scenario_index} in {computation_time} seconds",
+    "description": "[SimulationComputer] Debug message for finishing computing scenario index in seconds"
+  },
+  "Y3cdQh": {
+    "defaultMessage": ">>> Finished writing csv file: {csv_file_name}.csv <<<",
+    "untranslatedMessage": "Finished writing csv file: {csv_file_name}.csv",
+    "description": "[SimulationManager] Info message for finishing writing csv file"
+  },
+  "YZdYI7": {
+    "defaultMessage": ">>> Calculating scenario and time independent data <<<",
+    "untranslatedMessage": "Calculating scenario and time independent data",
+    "description": "[Simulation] Progress update message - Calculating scenario and time independent data"
+  },
+  "n9jTco": {
+    "defaultMessage": ">>> This setting determines whether data for the start of the simulation is stored with the rest of output <<<",
+    "untranslatedMessage": "This setting determines whether data for the start of the simulation is stored with the rest of output",
+    "description": "[Simulation User Interface] Description for toggling Save Simulation Start Date Data"
+  },
+  "UQ2kfw": {
+    "defaultMessage": ">>> Generating steps for Discount Structures <<<",
+    "untranslatedMessage": "Generating steps for Discount Structures",
+    "description": "[Simulation] Progress update message - Generating steps for Discount Structures"
+  },
+  "LosLIN": {
+    "defaultMessage": ">>> Number of Iterations <<<",
+    "untranslatedMessage": "Number of Iterations",
+    "description": "[RecalibrationTool settings] numeric input title for Number of Iterations"
+  },
+  "4tms/j": {
+    "defaultMessage": ">>> The rows correspond to Scenarios <<<",
+    "untranslatedMessage": "The rows correspond to Scenarios",
+    "description": "[Query] Requirment for query result's chart - The rows correspond to Scenarios"
+  },
+  "+Yxs+Q": {
+    "defaultMessage": ">>> Finished reading the output for scenario with index {scenario_index} in {time} seconds <<<",
+    "untranslatedMessage": "Finished reading the output for scenario with index {scenario_index} in {time} seconds",
+    "description": "[SimulationStorer] Debug message for finishing reading the output for scenario"
+  },
+  "HMOboz": {
+    "defaultMessage": ">>> Total simulation run time: {hours}:{minutes}:{seconds} <<<",
+    "untranslatedMessage": "Total simulation run time: {hours}:{minutes}:{seconds}",
+    "description": "[SimulationManager] Info message for total simulation run time"
+  },
+  "x4Xdwl": {
+    "defaultMessage": ">>> Simulation is ready for query <<<",
+    "untranslatedMessage": "Simulation is ready for query",
+    "description": "[SimulationManager] Info message while Simulation is ready for query"
+  },
+  "13yyy5": {
+    "defaultMessage": ">>> Spread Zero Coupon Rates <<<",
+    "untranslatedMessage": "Spread Zero Coupon Rates",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "mat/19": {
+    "defaultMessage": ">>> Scenarios to Simulate <<<",
+    "untranslatedMessage": "Scenarios to Simulate",
+    "description": "[Simulation User Interface] Title for adjusting Scenarios to Simulate"
+  },
+  "cFGxI0": {
+    "defaultMessage": ">>> Annual <<<",
+    "untranslatedMessage": "Annual",
+    "description": "[Simulation User Interface] value for the frequency/time step of a simulation"
+  },
+  "nasBYA": {
+    "defaultMessage": ">>> Failure in write_csv_parts!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in write_csv_parts!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write csv parts"
+  },
+  "nWeaO1": {
+    "defaultMessage": ">>> Loading template <<<",
+    "untranslatedMessage": "Loading template",
+    "description": "[recalibration] initialize_recalibration_tool - load template file into a reclibration"
+  },
+  "Y6A3E2": {
+    "defaultMessage": ">>> Cone Chart <<<",
+    "untranslatedMessage": "Cone Chart",
+    "description": "[Query] Query result's chart name - Cone Chart"
+  },
+  "Pq7k7k": {
+    "defaultMessage": ">>> Years to Project <<<",
+    "untranslatedMessage": "Years to Project",
+    "description": "[Simulation User Interface] The Years to Project of the simulation"
+  },
+  "7u/azm": {
+    "defaultMessage": ">>> Database partition {worker_index} returned error \"{error_msg}\" while attempting to assign scenarios <<<",
+    "untranslatedMessage": "Database partition {worker_index} returned error \"{error_msg}\" while attempting to assign scenarios",
+    "description": "[SimulationManager] Warning or error message while database partition returned error while attempting to assign scenarios"
+  },
+  "TbXyUf": {
+    "defaultMessage": ">>> Generating steps for Accounting <<<",
+    "untranslatedMessage": "Generating steps for Accounting",
+    "description": "[Simulation] Progress update message - Generating steps for Accounting"
+  },
+  "DOugMu": {
+    "defaultMessage": ">>> Releasing some temporary storage <<<",
+    "untranslatedMessage": "Releasing some temporary storage",
+    "description": "[SimulationManager] Info message for releasing some temporary storage"
+  },
+  "kznIU7": {
+    "defaultMessage": ">>> Database partition {worker_index} has started <<<",
+    "untranslatedMessage": "Database partition {worker_index} has started",
+    "description": "[SimulationManager] Info message while database partition has started"
+  },
+  "h8wbI6": {
+    "defaultMessage": ">>> Number of columns is a multiple of two and each row of each column pair either contains no data values or two data values <<<",
+    "untranslatedMessage": "Number of columns is a multiple of two and each row of each column pair either contains no data values or two data values",
+    "description": "[Query] Requirment for query result's chart - Number of columns is a multiple of two and each row of each column pair either contains no data values or two data values"
+  },
+  "mxuEmV": {
+    "defaultMessage": ">>> Database partition {worker_index} returned error \"{error_msg}\" while attempting to initialize it <<<",
+    "untranslatedMessage": "Database partition {worker_index} returned error \"{error_msg}\" while attempting to initialize it",
+    "description": "[SimulationManager] Error message while database partition returned error while attempting to initialize it"
+  },
+  "zepRaR": {
+    "defaultMessage": ">>> The maximum scenario supported is 10000. All scenarios above that number will be culled from the set of scenarios run. <<<",
+    "untranslatedMessage": "The maximum scenario supported is 10000. All scenarios above that number will be culled from the set of scenarios run.",
+    "description": "[Simulation User Interface] Warning message if number of scenarios is above maximum value"
+  },
+  "ySRl0L": {
+    "defaultMessage": ">>> Writing \"compiled.scenario_specific_data_function\" returned error \"{error_msg}\" <<<",
+    "untranslatedMessage": "Writing \"compiled.scenario_specific_data_function\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write compiled.scenario_specific_data_function returned error"
+  },
+  "bh+6Vc": {
+    "defaultMessage": ">>> Aborting simulation <<<",
+    "untranslatedMessage": "Aborting simulation",
+    "description": "[SimulationManager] Info message for Aborting simulation"
+  },
+  "O5QY4n": {
+    "defaultMessage": ">>> Simulation Servers <<<",
+    "untranslatedMessage": "Simulation Servers",
+    "description": "[Simulation] Simulation Run Progress Label - Simulation Servers"
+  },
+  "HQ2JmE": {
+    "defaultMessage": ">>> Simulation Started <<<",
+    "untranslatedMessage": "Simulation Started",
+    "description": "[common] SSE message while simulation started"
+  },
+  "rI8rMj": {
+    "defaultMessage": ">>> Database partition {storage_block_number} has finished storing data <<<",
+    "untranslatedMessage": "Database partition {storage_block_number} has finished storing data",
+    "description": "[SimulationManager] Info message while database partition has finished storing data"
+  },
+  "2Icgm8": {
+    "defaultMessage": ">>> Zero Coupon Rates <<<",
+    "untranslatedMessage": "Zero Coupon Rates",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "+B63Ko": {
+    "defaultMessage": ">>> Box Plot <<<",
+    "untranslatedMessage": "Box Plot",
+    "description": "[Query] Query result's chart name - Box Plot"
+  },
+  "NzXc3w": {
+    "defaultMessage": ">>> Failure in delete_object!(InputToDelete): \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in delete_object!(InputToDelete): \"{error_msg}\"",
+    "description": "[SimulationManager] Warning message for Failure in delete_object!(InputToDelete)"
+  },
+  "HWS0wT": {
+    "defaultMessage": ">>> Failure in write_status!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in write_status!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write status"
+  },
+  "fqgXy1": {
+    "defaultMessage": ">>> Simulation Workers Initialized <<<",
+    "untranslatedMessage": "Simulation Workers Initialized",
+    "description": "[Simulation] Simulation Run Progress - Simulation Workers Initialized"
+  },
+  "h6/rLl": {
+    "defaultMessage": ">>> Starting Simulation Servers <<<",
+    "untranslatedMessage": "Starting Simulation Servers",
+    "description": "[Query] Query Run Progress - Starting Simulation Servers"
+  },
+  "7Di1Rr": {
+    "defaultMessage": ">>> V6.5 Speed-Up <<<",
+    "untranslatedMessage": "V6.5 Speed-Up",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "aC4GK0": {
+    "defaultMessage": ">>> Worker index {worker_index} changed PID from {PID} to {new_PID} <<<",
+    "untranslatedMessage": "Worker index {worker_index} changed PID from {PID} to {new_PID}",
+    "description": "[SimulationManager] Debug message while Worker index changed PID to new PID"
+  },
+  "Py8feu": {
+    "defaultMessage": ">>> Allow targeting of models to desired real world behavior <<<",
+    "untranslatedMessage": "Allow targeting of models to desired real world behavior",
+    "description": "[FIRM User Interface] Description for toggling Enable Custom Calibration checkbox"
+  },
+  "tQCWm7": {
+    "defaultMessage": ">>> Creating Output Mappings <<<",
+    "untranslatedMessage": "Creating Output Mappings",
+    "description": "[GEMSRealWorldCollector] Progress message for Creating Output Mappings"
+  },
+  "liQeoZ": {
+    "defaultMessage": ">>> Constructing steps <<<",
+    "untranslatedMessage": "Constructing steps",
+    "description": "[Simulation] Progress update message - Constructing steps"
+  },
+  "3/tuVv": {
+    "defaultMessage": ">>> Remote call to computational engine {computer_index} returned error \"{error_msg}\" while attempting to assign scenario index {scenario_index}, scenario number {scenario_number} <<<",
+    "untranslatedMessage": "Remote call to computational engine {computer_index} returned error \"{error_msg}\" while attempting to assign scenario index {scenario_index}, scenario number {scenario_number}",
+    "description": "Warning or error message for remote call to computational engine while attempting to assign scenario index and scenario number"
+  },
+  "1umysd": {
+    "defaultMessage": ">>> Starting Simulation Process <<<",
+    "untranslatedMessage": "Starting Simulation Process",
+    "description": "[common] SSE message for starting simulation process"
+  },
+  "SGSCiG": {
+    "defaultMessage": ">>> Monthly <<<",
+    "untranslatedMessage": "Monthly",
+    "description": "[Simulation User Interface] value for the frequency/time step of a simulation"
+  },
+  "eKMwVx": {
+    "defaultMessage": ">>> Finished writing input for scenario index {scenario_index} <<<",
+    "untranslatedMessage": "Finished writing input for scenario index {scenario_index}",
+    "description": "[SimulationManager] Debug message for finishing writing input for scenario index"
+  },
+  "60xCkQ": {
+    "defaultMessage": ">>> Calculating scenario independent data <<<",
+    "untranslatedMessage": "Calculating scenario independent data",
+    "description": "[Simulation] Progress update message - Calculating scenario independent data"
+  },
+  "SYBuEH": {
+    "defaultMessage": ">>> Loading use case information <<<",
+    "untranslatedMessage": "Loading use case information",
+    "description": "[GEMSRealWorldServer] Progress message for Loading use case information"
+  },
+  "BQizZZ": {
+    "defaultMessage": ">>> Generating steps for Returns <<<",
+    "untranslatedMessage": "Generating steps for Returns",
+    "description": "[Simulation] Progress update message - Generating steps for Returns"
+  },
+  "oKfJx9": {
+    "defaultMessage": ">>> Up to Horizon <<<",
+    "untranslatedMessage": "Up to Horizon",
+    "description": "[RecalibrationTool settings] numeric input title for the real term structure and inflation future dynamics"
+  },
+  "vDFeN6": {
+    "defaultMessage": ">>> Writing status (checkpoint) <<<",
+    "untranslatedMessage": "Writing status (checkpoint)",
+    "description": "[SimulationManager] Debug message for writing status (checkpoint)"
+  },
+  "fuB8go": {
+    "defaultMessage": ">>> Initializing model parameter editor <<<",
+    "untranslatedMessage": "Initializing model parameter editor",
+    "description": "[GEMSRealWorldServer] Progress message for initializing model parameter editor"
+  },
+  "M5nWT5": {
+    "defaultMessage": ">>> Connecting to Server Session <<<",
+    "untranslatedMessage": "Connecting to Server Session",
+    "description": "[common] SSE message for connecting server session"
+  },
+  "nE/n2R": {
+    "defaultMessage": ">>> Finished writing all {length_csv_files} csv files <<<",
+    "untranslatedMessage": "Finished writing all {length_csv_files} csv files",
+    "description": "[SimulationManager] Info message for finishing writing all csv files"
+  },
+  "2qvnhZ": {
+    "defaultMessage": ">>> SimulationManager has finished reading csv file parts for scenario index {scenario_index} <<<",
+    "untranslatedMessage": "SimulationManager has finished reading csv file parts for scenario index {scenario_index}",
+    "description": "[SimulationManager] Debug message while SimulationManager has finished reading csv file parts for scenario index"
+  },
+  "XJMnWf": {
+    "defaultMessage": ">>> Computation engine {computer_index} returned error \"{error_msg}\" while attempting to initialize it <<<",
+    "untranslatedMessage": "Computation engine {computer_index} returned error \"{error_msg}\" while attempting to initialize it",
+    "description": "[SimulationManager] Warning or error message while computation engine returned error while attempting to initialize it"
+  },
+  "lmP5DE": {
+    "defaultMessage": ">>> Aborting simulation not possible, simulation already complete <<<",
+    "untranslatedMessage": "Aborting simulation not possible, simulation already complete",
+    "description": "[SimulationManager] Warning message for aborting simulation not possible, simulation already complete"
+  },
+  "GPnn6F": {
+    "defaultMessage": ">>> SimulationManager is uploading csv file {csv_index} part number {part_index} containing {part_object_size} compressed bytes which isn't the last part <<<",
+    "untranslatedMessage": "SimulationManager is uploading csv file {csv_index} part number {part_index} containing {part_object_size} compressed bytes which isn't the last part",
+    "description": "[SimulationManager] Debug message while SimulationManager is uploading csv file part"
+  },
+  "I4GcX6": {
+    "defaultMessage": ">>> Failure in delete_object!(OutputToDelete): \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in delete_object!(OutputToDelete): \"{error_msg}\"",
+    "description": "[SimulationManager] Warning message for Failure in delete_object!(OutputToDelete)"
+  },
+  "jiSLsV": {
+    "defaultMessage": ">>> Generating Data to Send to Manager <<<",
+    "untranslatedMessage": "Generating Data to Send to Manager",
+    "description": "[GEMSRealWorldServer] Sub progress message for Generating Data to Send to Manager"
+  },
+  "pUV+Br": {
+    "defaultMessage": ">>> Failure in delete_objects!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in delete_objects!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to delete objects"
+  },
+  "Zk59ze": {
+    "defaultMessage": ">>> Writing \"compiled.sd\" returned error \"{error_msg}\" <<<",
+    "untranslatedMessage": "Writing \"compiled.sd\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write compiled.sd returned error"
+  },
+  "anUW6m": {
+    "defaultMessage": ">>> This setting determines the years to project. <<<",
+    "untranslatedMessage": "This setting determines the years to project.",
+    "description": "[Simulation User Interface] Description for Years to Project node"
+  },
+  "KZahKR": {
+    "defaultMessage": ">>> Canceling simulation not possible, simulation already complete <<<",
+    "untranslatedMessage": "Canceling simulation not possible, simulation already complete",
+    "description": "[SimulationManager] Warning message for canceling simulation not possible, simulation already complete"
+  },
+  "S/N8vA": {
+    "defaultMessage": ">>> Smoothed Fit Options <<<",
+    "untranslatedMessage": "Smoothed Fit Options",
+    "description": "[RecalibrationTool settings] input group title for the nominal term structure initial condition"
+  },
+  "NfFAOV": {
+    "defaultMessage": ">>> Number of Passes <<<",
+    "untranslatedMessage": "Number of Passes",
+    "description": "[RecalibrationTool settings] numeric input title for optimizer settings"
+  },
+  "8IK4Wx": {
+    "defaultMessage": ">>> Writing status returned error \"{error_msg}\" <<<",
+    "untranslatedMessage": "Writing status returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for writing status and showing returned error"
+  },
+  "mW7YpG": {
+    "defaultMessage": ">>> Not yet implemented <<<",
+    "untranslatedMessage": "Not yet implemented",
+    "description": "[RecalibrationTool settings] switcher title for a empty settings"
+  },
+  "w0U8tB": {
+    "defaultMessage": ">>> Generating steps <<<",
+    "untranslatedMessage": "Generating steps",
+    "description": "[Simulation] Progress update message - Generating steps"
+  },
+  "I32zp+": {
+    "defaultMessage": ">>> Simulation failed <<<",
+    "untranslatedMessage": "Simulation failed",
+    "description": "[SimulationManager] Info message while Simulation failed"
+  },
+  "ORKjV+": {
+    "defaultMessage": ">>> X-Y Line Chart <<<",
+    "untranslatedMessage": "X-Y Line Chart",
+    "description": "[Query] Query result's chart name - X-Y Line Chart"
+  },
+  "FtN8Oq": {
+    "defaultMessage": ">>> Computation complete <<<",
+    "untranslatedMessage": "Computation complete",
+    "description": "[SimulationManager] Info message while Computation complete"
+  },
+  "JGJEUt": {
+    "defaultMessage": ">>> Failure in send_status: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in send_status: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failure in send_status"
+  },
+  "5dxpc5": {
+    "defaultMessage": ">>> Writing \"compiled.dotD\" returned error \"{error_msg}\" <<<",
+    "untranslatedMessage": "Writing \"compiled.dotD\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write compiled.dotD returned error"
+  },
+  "2/pv6Z": {
+    "defaultMessage": ">>> No <<<",
+    "untranslatedMessage": "No",
+    "description": "[Simulation User Interface] Yes or No option text - No"
+  },
+  "iOVSCC": {
+    "defaultMessage": ">>> Exact Fit <<<",
+    "untranslatedMessage": "Exact Fit",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "OHUVZK": {
+    "defaultMessage": ">>> Cumulative Density Function <<<",
+    "untranslatedMessage": "Cumulative Density Function",
+    "description": "[Query] Query result's chart name - Cumulative Density Function"
+  },
+  "SFaCkt": {
+    "defaultMessage": ">>> SimulationManager is completing the multipart upload for csv file {part_csv_index} which was uploaded in {length_file_part_ids} parts <<<",
+    "untranslatedMessage": "SimulationManager is completing the multipart upload for csv file {part_csv_index} which was uploaded in {length_file_part_ids} parts",
+    "description": "[SimulationManager] Debug message while SimulationManager is completing the multipart upload for csv file"
+  },
+  "0ez7j2": {
+    "defaultMessage": ">>> Bar Chart <<<",
+    "untranslatedMessage": "Bar Chart",
+    "description": "[Query] Query result's chart name - Bar Chart"
+  },
+  "xEVnHb": {
+    "defaultMessage": ">>> Simulation canceled <<<",
+    "untranslatedMessage": "Simulation canceled",
+    "description": "[SimulationManager] Info message while Simulation canceled"
+  },
+  "UEyBVk": {
+    "defaultMessage": ">>> Failure in read_scenario! while reading the output for scenario with index {scenario_index}: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in read_scenario! while reading the output for scenario with index {scenario_index}: \"{error_msg}\"",
+    "description": "[SimulationStorer] Error message for failure in read_scenario! while reading the output for scenario"
+  },
+  "maBLoK": {
+    "defaultMessage": ">>> Discarding entry taken from m.scenarios_to_compute for computer_index {computer_index} and PID {PID} as current PID is now {current_PID} <<<",
+    "untranslatedMessage": "Discarding entry taken from m.scenarios_to_compute for computer_index {computer_index} and PID {PID} as current PID is now {current_PID}",
+    "description": "[SimulationManager] Debug  message for discarding entry taken from scenarios to compute for computer index and PID as current PID is now"
+  },
+  "+oYIkv": {
+    "defaultMessage": ">>> Maximal Shift Oscillation (bp) <<<",
+    "untranslatedMessage": "Maximal Shift Oscillation (bp)",
+    "description": "[RecalibrationTool settings] numeric input title for the nominal term structure initial condition"
+  },
+  "iJ7waI": {
+    "defaultMessage": ">>> Optimizer <<<",
+    "untranslatedMessage": "Optimizer",
+    "description": "[RecalibrationTool settings] selection box title for optimizer settings"
+  },
+  "h6dNfL": {
+    "defaultMessage": ">>> Temporary storage released <<<",
+    "untranslatedMessage": "Temporary storage released",
+    "description": "[SimulationManager] Info message while temporary storage released"
+  },
+  "fwIUUZ": {
+    "defaultMessage": ">>> Finished loading scenario with index {scenario_index} into partition <<<",
+    "untranslatedMessage": "Finished loading scenario with index {scenario_index} into partition",
+    "description": "[SimulationStorer] Debug message for Finished loading scenario into partition"
+  },
+  "3/T2/2": {
+    "defaultMessage": ">>> Get Corporate Bond Models... <<<",
+    "untranslatedMessage": "Get Corporate Bond Models...",
+    "description": "[recalibration] initialize_recalibration_tool - getting Corporate Bond Models information"
+  },
+  "MC0PnO": {
+    "defaultMessage": ">>> Scenario index {scenario_index} was assigned to computation engine {computer_index} and will be rescheduled <<<",
+    "untranslatedMessage": "Scenario index {scenario_index} was assigned to computation engine {computer_index} and will be rescheduled",
+    "description": "[SimulationManager] Info message while scenario index was assigned to computation engine and will be rescheduled"
+  },
+  "hTzpUU": {
+    "defaultMessage": ">>> The list of scenarios to simulate. Hyphens indicate ranges, and commas indicate separate sets of scenarios. For example, 1-5,7,10-15 produces scenarios 1, 2, 3, 4, 5, 7, 10, 11, 12, 13, 14, 15. Each scenario number is tied to a specific (immutable) random seed. <<<",
+    "untranslatedMessage": "The list of scenarios to simulate. Hyphens indicate ranges, and commas indicate separate sets of scenarios. For example, 1-5,7,10-15 produces scenarios 1, 2, 3, 4, 5, 7, 10, 11, 12, 13, 14, 15. Each scenario number is tied to a specific (immutable) random seed.",
+    "description": "[Simulation User Interface] Description for adjusting Scenarios to Simulate"
+  },
+  "b0s3KC": {
+    "defaultMessage": ">>> Enable to execute Simulation from Interpreted Steps or not <<<",
+    "untranslatedMessage": "Enable to execute Simulation from Interpreted Steps or not",
+    "description": "[Simulation User Interface] Title for toggling Enable to execute Simulation from Interpreted Steps"
+  },
+  "njIMIf": {
+    "defaultMessage": ">>> Nothing being saved, neither as a Simulation of any CSV files <<<",
+    "untranslatedMessage": "Nothing being saved, neither as a Simulation of any CSV files",
+    "description": "[SimulationManager] Error message for nothing being saved, neither as a Simulation of any CSV files"
+  },
+  "FhrUkS": {
+    "defaultMessage": ">>> Writing input for scenario index {scenario_index} <<<",
+    "untranslatedMessage": "Writing input for scenario index {scenario_index}",
+    "description": "[SimulationManager] Debug message for writing input for scenario index"
+  },
+  "aSjenp": {
+    "defaultMessage": ">>> Generating steps for User Values <<<",
+    "untranslatedMessage": "Generating steps for User Values",
+    "description": "[Simulation] Progress update message - Generating steps for User Values"
+  },
+  "l4Cg4j": {
+    "defaultMessage": ">>> Failure in worker_messages!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in worker_messages!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message in worker messages"
+  },
+  "ZQLb18": {
+    "defaultMessage": ">>> Sensitivity Analysis <<<",
+    "untranslatedMessage": "Sensitivity Analysis",
+    "description": "[Query] Query result's chart name - Sensitivity Analysis"
+  },
+  "otBGCb": {
+    "defaultMessage": ">>> Line Chart <<<",
+    "untranslatedMessage": "Line Chart",
+    "description": "[Query] Query result's chart name - Line Chart"
+  },
+  "tEskrw": {
+    "defaultMessage": ">>> Failure in write_inputs!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in write_inputs!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for fail to write inputs"
+  },
+  "vsicPN": {
+    "defaultMessage": ">>> Loading use case output... <<<",
+    "untranslatedMessage": "Loading use case output...",
+    "description": "[GEMSRealWorldServer] Progress message for loading use case output..."
+  },
+  "vBeA8I": {
+    "defaultMessage": ">>> Up to Horizon <<<",
+    "untranslatedMessage": "Up to Horizon",
+    "description": "[RecalibrationTool settings] numeric input title for the nominal term structure future dynamics"
+  },
+  "xuHluo": {
+    "defaultMessage": ">>> SimulationManager is aggregating csv file data for scenario index {csv_number_scenarios_processed} <<<",
+    "untranslatedMessage": "SimulationManager is aggregating csv file data for scenario index {csv_number_scenarios_processed}",
+    "description": "[SimulationManager] Debug message of aggregating csv file data for scenario index"
+  },
+  "bsPU7D": {
+    "defaultMessage": ">>> Writing \"compiled.composed_functions\" returned error \"{error_msg}\" <<<",
+    "untranslatedMessage": "Writing \"compiled.composed_functions\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write compiled.composed_functions returned error"
+  },
+  "C3LtiV": {
+    "defaultMessage": ">>> Failure in worker_messages!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in worker_messages!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failure in worker_messages"
+  },
+  "zSFr82": {
+    "defaultMessage": ">>> Failure in delete_object!(SingletonToDelete): \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in delete_object!(SingletonToDelete): \"{error_msg}\"",
+    "description": "[SimulationManager] Warning message for Failure in delete_object!(SingletonToDelete)"
+  },
+  "anoCoK": {
+    "defaultMessage": ">>> Number of columns is a multiple of three and each row of each column trio must contains no data values or three data values <<<",
+    "untranslatedMessage": "Number of columns is a multiple of three and each row of each column trio must contains no data values or three data values",
+    "description": "[Query] Requirment for query result's chart - Number of columns is a multiple of three and each row of each column trio must contains no data values or three data values"
+  },
+  "05Dvtj": {
+    "defaultMessage": ">>> Releasing remaining temporary storage <<<",
+    "untranslatedMessage": "Releasing remaining temporary storage",
+    "description": "[SimulationManager] Info message for releasing remaining temporary storage"
+  },
+  "HVN1Zp": {
+    "defaultMessage": ">>> Generating steps for Individual Securities <<<",
+    "untranslatedMessage": "Generating steps for Individual Securities",
+    "description": "[Simulation] Progress update message - Generating steps for Individual Securities"
+  },
+  "G6YNRg": {
+    "defaultMessage": ">>> Precompile Processes Complete <<<",
+    "untranslatedMessage": "Precompile Processes Complete",
+    "description": "[GEMSRealWorldCollector] Progress message for Precompile Processes Complete"
+  },
+  "+auEk7": {
+    "defaultMessage": ">>> Generating steps for Random number generation <<<",
+    "untranslatedMessage": "Generating steps for Random number generation",
+    "description": "[Simulation] Progress update message - Generating steps for Random number generation"
+  },
+  "6A0SzH": {
+    "defaultMessage": ">>> Probability Density Function <<<",
+    "untranslatedMessage": "Probability Density Function",
+    "description": "[Query] Query result's chart name - Probability Density Function"
+  },
+  "8s6Ybw": {
+    "defaultMessage": ">>> This setting causes the simulation to be executed on the Windows Grid \"default\". This is for developers only on the conning tenant, not for production <<<",
+    "untranslatedMessage": "This setting causes the simulation to be executed on the Windows Grid \"default\". This is for developers only on the conning tenant, not for production",
+    "description": "[Simulation User Interface] Description for toggling Execute Simulation on the Windows default grid"
+  },
+  "8O5Mgr": {
+    "defaultMessage": ">>> Last historical date, or simulation start date. <<<",
+    "untranslatedMessage": "Last historical date, or simulation start date.",
+    "description": "[FIRM User Interface] Description fo Calibration Point Input"
+  },
+  "/7uttY": {
+    "defaultMessage": ">>> Enable Custom Calibration <<<",
+    "untranslatedMessage": "Enable Custom Calibration",
+    "description": "[FIRM User Interface] Title for toggling Enable Custom Calibration checkbox"
+  },
+  "hSfkES": {
+    "defaultMessage": ">>> Generating steps for Financial Markets <<<",
+    "untranslatedMessage": "Generating steps for Financial Markets",
+    "description": "[Simulation] Progress update message - Generating steps for Financial Markets"
+  },
+  "d9Rnr/": {
+    "defaultMessage": ">>> Calculating historic data <<<",
+    "untranslatedMessage": "Calculating historic data",
+    "description": "[Simulation] Progress update message - Calculating historic data"
+  },
+  "UQ/sp1": {
+    "defaultMessage": ">>> Histogram <<<",
+    "untranslatedMessage": "Histogram",
+    "description": "[Query] Query result's chart name - Histogram"
+  },
+  "qhIhO9": {
+    "defaultMessage": ">>> added fixed tenors for {economy} {model} ({executed_tenor_length}/{tenor_length}) <<<",
+    "untranslatedMessage": "added fixed tenors for {economy} {model} ({executed_tenor_length}/{tenor_length})",
+    "description": "[recalibration] initialize_recalibration_tool - add tensors to reclibration"
+  },
+  "F9yYKf": {
+    "defaultMessage": ">>> Expose underlying model parameters <<<",
+    "untranslatedMessage": "Expose underlying model parameters",
+    "description": "[FIRM User Interface] Description for toggling Enable Direct Parameter Viewing and Editing checkbox"
+  },
+  "Mv+hvO": {
+    "defaultMessage": ">>> SimulationManager is uploading csv file {csv_index} part number {part_index} containing {part_object_size} compressed bytes which is the last part <<<",
+    "untranslatedMessage": "SimulationManager is uploading csv file {csv_index} part number {part_index} containing {part_object_size} compressed bytes which is the last part",
+    "description": "[SimulationManager] Debug message while SimulationManager is uploading last csv file part"
+  },
+  "+V1PU2": {
+    "defaultMessage": ">>> Fetching done <<<",
+    "untranslatedMessage": "Fetching done",
+    "description": "[Simulation] Simulation Run Progress Log - Fetching done"
+  },
+  "T+aEcR": {
+    "defaultMessage": ">>> Create Files For Download selected without any File Format(s) selected, no CSV files will be created <<<",
+    "untranslatedMessage": "Create Files For Download selected without any File Format(s) selected, no CSV files will be created",
+    "description": "[SimulationManager] Warning message for creating Files For Download selected without any File Format(s) selected"
+  },
+  "aym/jB": {
+    "defaultMessage": ">>> Calibration <<<",
+    "untranslatedMessage": "Calibration",
+    "description": "[FIRM User Interface] Calibration Title"
+  },
+  "6ThVoi": {
+    "defaultMessage": ">>> Preparing output destination <<<",
+    "untranslatedMessage": "Preparing output destination",
+    "description": "[Simulation] Progress update message - Preparing output destination"
+  },
+  "UqOEHU": {
+    "defaultMessage": ">>> Target Forward Curve <<<",
+    "untranslatedMessage": "Target Forward Curve",
+    "description": "[RecalibrationTool settings] switcher title for the real term structure and inflation future dynamics"
+  },
+  "L4Nac2": {
+    "defaultMessage": ">>> Fetching Data <<<",
+    "untranslatedMessage": "Fetching Data",
+    "description": "[Simulation] Simulation Run Progress Label - Fetching Data"
+  },
+  "ZTbsOX": {
+    "defaultMessage": ">>> Preparing functions <<<",
+    "untranslatedMessage": "Preparing functions",
+    "description": "[Simulation] Progress update message - Preparing functions"
+  },
+  "1OZEZj": {
+    "defaultMessage": ">>> Computation engine {computer_index} has failed and a replacement has been requested <<<",
+    "untranslatedMessage": "Computation engine {computer_index} has failed and a replacement has been requested",
+    "description": "[SimulationManager] Warning message while computation engine has failed and a replacement has been requested"
+  },
+  "ngNPXH": {
+    "defaultMessage": ">>> V6.6 A <<<",
+    "untranslatedMessage": "V6.6 A",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "smfrHt": {
+    "defaultMessage": ">>> The data values form a dense matrix (no empty cells) <<<",
+    "untranslatedMessage": "The data values form a dense matrix (no empty cells)",
+    "description": "[Query] Requirment for query result's chart - The data values form a dense matrix (no empty cells)"
+  },
+  "do6vvG": {
+    "defaultMessage": ">>> Starting {number_of_workers} database partitions to store simulation output <<<",
+    "untranslatedMessage": "Starting {number_of_workers} database partitions to store simulation output",
+    "description": "[SimulationManager] Info message for starting database partitions to store simulation output"
+  },
+  "z1VAzZ": {
+    "defaultMessage": ">>> Channel for messages from database partitions has closed <<<",
+    "untranslatedMessage": "Channel for messages from database partitions has closed",
+    "description": "[SimulationManager] Info message while Channel for messages from database partitions has closed"
+  },
+  "IpKENs": {
+    "defaultMessage": ">>> Setting frequencies <<<",
+    "untranslatedMessage": "Setting frequencies",
+    "description": "[Simulation] Progress update message - Setting frequencies"
+  },
+  "HbAs0T": {
+    "defaultMessage": ">>> Get Economies... <<<",
+    "untranslatedMessage": "Get Economies...",
+    "description": "[recalibration] initialize_recalibration_tool - getting economies information"
+  },
+  "+fSc49": {
+    "defaultMessage": ">>> Spread Par Coupon Rates <<<",
+    "untranslatedMessage": "Spread Par Coupon Rates",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "/gosCq": {
+    "defaultMessage": ">>> Accurate Dividend Yield Formula <<<",
+    "untranslatedMessage": "Accurate Dividend Yield Formula",
+    "description": "[RecalibrationTool settings] switcher title for the equity future dynamics"
+  },
+  "rUORO/": {
+    "defaultMessage": ">>> Correlation Matrix <<<",
+    "untranslatedMessage": "Correlation Matrix",
+    "description": "[Query] Query result's chart name - Correlation Matrix"
+  },
+  "W5KjjB": {
+    "defaultMessage": ">>> Smoothed Fit <<<",
+    "untranslatedMessage": "Smoothed Fit",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "gSim2S": {
+    "defaultMessage": ">>> Compressing initial data <<<",
+    "untranslatedMessage": "Compressing initial data",
+    "description": "[Simulation] Progress update message - Compressing initial data"
+  },
+  "eSXTEy": {
+    "defaultMessage": ">>> Writing \"compiled.storageblock_data\" returned error \"{error_msg}\" <<<",
+    "untranslatedMessage": "Writing \"compiled.storageblock_data\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write compiled.storageblock_data returned error"
+  },
+  "fJyey6": {
+    "defaultMessage": ">>> Failure in schedule_compute!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in schedule_compute!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for fail to schedule compute"
+  },
+  "4dIECk": {
+    "defaultMessage": ">>> Compilation complete <<<",
+    "untranslatedMessage": "Compilation complete",
+    "description": "[Simulation] Progress update message - Compilation complete"
+  },
+  "ZLAHuy": {
+    "defaultMessage": ">>> Loading model data <<<",
+    "untranslatedMessage": "Loading model data",
+    "description": "[GEMSRealWorldServer] Progress message for loading model data"
+  },
+  "luA/uD": {
+    "defaultMessage": ">>> Generated UserInterface from nodes <<<",
+    "untranslatedMessage": "Generated UserInterface from nodes",
+    "description": "[recalibration] initialize_recalibration_tool - Generated UserInterface information into reclibration"
+  },
+  "nd/N0v": {
+    "defaultMessage": ">>> There are two or more columns <<<",
+    "untranslatedMessage": "There are two or more columns",
+    "description": "[Query] Requirment for query result's chart - two or more columns"
+  },
+  "OkKZNA": {
+    "defaultMessage": ">>> Calculating initial data <<<",
+    "untranslatedMessage": "Calculating initial data",
+    "description": "[Simulation] Progress update message - Calculating initial data"
+  },
+  "MC6nBD": {
+    "defaultMessage": ">>> Penalty on Curve Inversion <<<",
+    "untranslatedMessage": "Penalty on Curve Inversion",
+    "description": "[RecalibrationTool settings] switcher title for the nominal term structure future dynamics"
+  },
+  "XXBwpm": {
+    "defaultMessage": ">>> Scatter Chart <<<",
+    "untranslatedMessage": "Scatter Chart",
+    "description": "[Query] Query result's chart name - Scatter Chart"
+  },
+  "VyEsLF": {
+    "defaultMessage": ">>> Yes <<<",
+    "untranslatedMessage": "Yes",
+    "description": "[Simulation User Interface] Yes or No option text - Yes"
+  },
+  "LM7Q25": {
+    "defaultMessage": ">>> Failure in setup_simulation!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in setup_simulation!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to setup simulation"
+  },
+  "julgHL": {
+    "defaultMessage": ">>> Connecting to Manager <<<",
+    "untranslatedMessage": "Connecting to Manager",
+    "description": "[common] SSE message for connecting to Simulation Manager"
+  },
+  "qZZWD9": {
+    "defaultMessage": ">>> Simulation complete <<<",
+    "untranslatedMessage": "Simulation complete",
+    "description": "[SimulationManager] Info message while Simulation complete"
+  },
+  "N2a1ex": {
+    "defaultMessage": ">>> Failure in report_status_messages!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in report_status_messages!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to report status messages"
+  },
+  "wioVsV": {
+    "defaultMessage": ">>> The scenario list must be a list of single scenarios or sets of contiguous scenarios indicated by hyphens, separated by commas, such as 1-3,5,7-10,15 <<<",
+    "untranslatedMessage": "The scenario list must be a list of single scenarios or sets of contiguous scenarios indicated by hyphens, separated by commas, such as 1-3,5,7-10,15",
+    "description": "[Simulation User Interface] Error message if the scenario list is invalid"
+  },
+  "BWHUej": {
+    "defaultMessage": ">>> There is exactly one axis on the rows <<<",
+    "untranslatedMessage": "There is exactly one axis on the rows",
+    "description": "[Query] Requirment for query result's chart - exactly one axis on the rows"
+  },
+  "PMn/Zt": {
+    "defaultMessage": ">>> Coupon <<<",
+    "untranslatedMessage": "Coupon",
+    "description": "[RecalibrationTool settings] selection box title for Coupon node"
+  },
+  "/w/EL5": {
+    "defaultMessage": ">>> All data are real numbers <<<",
+    "untranslatedMessage": "All data are real numbers",
+    "description": "[Query] Requirment for query result's chart - All data are real numbers"
+  },
+  "y7GPIT": {
+    "defaultMessage": ">>> Failure in check_computers!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in check_computers!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for fail to check check_computers"
+  },
+  "VuWnYs": {
+    "defaultMessage": ">>> Time Step <<<",
+    "untranslatedMessage": "Time Step",
+    "description": "[Simulation User Interface] The time step (frequency) of the simulation"
+  },
+  "50z/IF": {
+    "defaultMessage": ">>> Database partition {worker_index} returned error \"{error_msg}\" while attempting to retrieve its assigned scenarios <<<",
+    "untranslatedMessage": "Database partition {worker_index} returned error \"{error_msg}\" while attempting to retrieve its assigned scenarios",
+    "description": "[SimulationManager] Error or warning message for Database partition while attempting to retrieve its assigned scenarios"
+  },
+  "WIB2Gr": {
+    "defaultMessage": ">>> Compiling the simulation <<<",
+    "untranslatedMessage": "Compiling the simulation",
+    "description": "[Simulation] Progress update message - Compiling the simulation"
+  },
+  "iUXl3l": {
+    "defaultMessage": ">>> Writing \"compiled.queryinput\" returned error \"{error_msg}\" <<<",
+    "untranslatedMessage": "Writing \"compiled.queryinput\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write compiled.queryinput returned error"
+  },
+  "UrQYhY": {
+    "defaultMessage": ">>> Channel for messages from computation engines has closed <<<",
+    "untranslatedMessage": "Channel for messages from computation engines has closed",
+    "description": "[SimulationManager] Info message while channel for messages from computation engines has closed"
+  },
+  "oadvZg": {
+    "defaultMessage": ">>> Finished writing status (checkpoint) <<<",
+    "untranslatedMessage": "Finished writing status (checkpoint)",
+    "description": "[SimulationManager] Debug message for finishing writing status (checkpoint)"
+  },
+  "1WaNlx": {
+    "defaultMessage": ">>> Received error \"{error_msg}\" trying to compute scenario with index {scenario_index}, scenario number {scenario_number} <<<",
+    "untranslatedMessage": "Received error \"{error_msg}\" trying to compute scenario with index {scenario_index}, scenario number {scenario_number}",
+    "description": "[SimulationComputer] Error message for trying to compute scenario with index and number"
+  },
+  "B1taG/": {
+    "defaultMessage": ">>> Coupon <<<",
+    "untranslatedMessage": "Coupon",
+    "description": "[RecalibrationTool settings] selection box title for auxiliary term structure initial condition and generate corporate initial condition node"
+  },
+  "wikf2V": {
+    "defaultMessage": ">>> There is exactly one axis on the columns <<<",
+    "untranslatedMessage": "There is exactly one axis on the columns",
+    "description": "[Query] Requirment for query result's chart - exactly one axis on the columns"
+  },
+  "ML5qYY": {
+    "defaultMessage": ">>> Failure in read_status!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in read_status!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to read status"
+  },
+  "zouTnC": {
+    "defaultMessage": ">>> Target Forward Curve <<<",
+    "untranslatedMessage": "Target Forward Curve",
+    "description": "[RecalibrationTool settings] switcher title for the nominal term structure future dynamics"
+  },
+  "+mDVv0": {
+    "defaultMessage": ">>> Failure in read_csv_parts!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in read_csv_parts!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failure in read_csv_parts"
+  },
+  "hBgwDW": {
+    "defaultMessage": ">>> The maximum scenario supported is 10000. The scenarios requested must include at least one scenario at or below that maximum. <<<",
+    "untranslatedMessage": "The maximum scenario supported is 10000. The scenarios requested must include at least one scenario at or below that maximum.",
+    "description": "[Simulation User Interface] Error message if number of scenarios is invalid"
+  },
+  "tl5slm": {
+    "defaultMessage": ">>> Save Simulation Start Date Data <<<",
+    "untranslatedMessage": "Save Simulation Start Date Data",
+    "description": "[Simulation User Interface] Title for toggling Save Simulation Start Date Data"
+  },
+  "CP8SdG": {
+    "defaultMessage": ">>> Database partition {worker_index} returned error \"{error_msg}\" while attempting to assign scenarios <<<",
+    "untranslatedMessage": "Database partition {worker_index} returned error \"{error_msg}\" while attempting to assign scenarios",
+    "description": "[SimulationManager] Error message while database partition returned error while attempting to assign scenarios"
+  },
+  "6d0F2c": {
+    "defaultMessage": ">>> Canceling simulation <<<",
+    "untranslatedMessage": "Canceling simulation",
+    "description": "[SimulationManager] Info message for Canceling simulation"
+  },
+  "4T9MNw": {
+    "defaultMessage": ">>> There are no more than {columns} columns <<<",
+    "untranslatedMessage": "There are no more than {columns} columns",
+    "description": "[Query] Requirment for query result's chart - There are no more than n columns"
+  },
+  "1iXB57": {
+    "defaultMessage": ">>> There are no more than {rows} rows <<<",
+    "untranslatedMessage": "There are no more than {rows} rows",
+    "description": "[Query] Requirment for query result's chart - There are no more than n rows"
+  },
+  "RIVqFy": {
+    "defaultMessage": ">>> Failure in write_csv_files!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in write_csv_files!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write csv files"
+  },
+  "IgOvAq": {
+    "defaultMessage": ">>> Processing steps <<<",
+    "untranslatedMessage": "Processing steps",
+    "description": "[Simulation] Progress update message - Processing steps"
+  },
+  "LV799z": {
+    "defaultMessage": ">>> Recalibration Tool initialized <<<",
+    "untranslatedMessage": "Recalibration Tool initialized",
+    "description": "[recalibration] initialize_recalibration_tool - Recalibration Tool initialized"
+  },
+  "NgdQGF": {
+    "defaultMessage": ">>> Database partition {storage_block_number} has finished loading its {number_scenarios} scenarios <<<",
+    "untranslatedMessage": "Database partition {storage_block_number} has finished loading its {number_scenarios} scenarios",
+    "description": "[SimulationManager] Info message while Database partition has finished loading its scenarios"
+  },
+  "NkGxmV": {
+    "defaultMessage": ">>> Generating steps for Investments <<<",
+    "untranslatedMessage": "Generating steps for Investments",
+    "description": "[Simulation] Progress update message - Generating steps for Investments"
+  },
+  "VvXTvU": {
+    "defaultMessage": ">>> Finished reading scenario index {scenario_index} input in {time} seconds <<<",
+    "untranslatedMessage": "Finished reading scenario index {scenario_index} input in {time} seconds",
+    "description": "[SimulationComputer] Debug message for finishing reading scenario input in time"
+  },
+  "9BFllI": {
+    "defaultMessage": ">>> Database partition {worker_index} has failed and a replacement has been requested <<<",
+    "untranslatedMessage": "Database partition {worker_index} has failed and a replacement has been requested",
+    "description": "[SimulationManager] Warning message while Database partition has failed and a replacement has been requested"
+  },
+  "MjCSil": {
+    "defaultMessage": ">>> Custom Recalibration initialized... <<<",
+    "untranslatedMessage": "Custom Recalibration initialized...",
+    "description": "[recalibration] initialize_recalibration_tool - reclibraton tool started"
+  },
+  "/sZPDA": {
+    "defaultMessage": ">>> Preparing simulation <<<",
+    "untranslatedMessage": "Preparing simulation",
+    "description": "[Simulation] Progress update message - Preparing simulation"
+  },
+  "dfN2Sr": {
+    "defaultMessage": ">>> Generating steps for Economic Variables <<<",
+    "untranslatedMessage": "Generating steps for Economic Variables",
+    "description": "[Simulation] Progress update message - Generating steps for Economic Variables"
+  },
+  "JVrTGI": {
+    "defaultMessage": ">>> Beeswarm Chart <<<",
+    "untranslatedMessage": "Beeswarm Chart",
+    "description": "[Query] Query result's chart name - Beeswarm Chart"
+  },
+  "ku9IHI": {
+    "defaultMessage": ">>> Par Coupon Rates <<<",
+    "untranslatedMessage": "Par Coupon Rates",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "nQkvbN": {
+    "defaultMessage": ">>> All {number_scenarios} scenarios have finished loading into {num_workers} database partitions <<<",
+    "untranslatedMessage": "All {number_scenarios} scenarios have finished loading into {num_workers} database partitions",
+    "description": "[SimulationManager] Info message while all scenarios have finished loading into database partitions"
+  },
+  "MogkT3": {
+    "defaultMessage": ">>> Initializing Collector <<<",
+    "untranslatedMessage": "Initializing Collector",
+    "description": "[GEMSRealWorldCollector] Progress message for initializing collector"
+  },
+  "69Pyqq": {
+    "defaultMessage": ">>> Quarterly <<<",
+    "untranslatedMessage": "Quarterly",
+    "description": "[Simulation User Interface] value for the frequency/time step of a simulation"
+  },
+  "Bo3cnS": {
+    "defaultMessage": ">>> Get Auxiliary Spread Term Structure... <<<",
+    "untranslatedMessage": "Get Auxiliary Spread Term Structure...",
+    "description": "[recalibration] initialize_recalibration_tool - getting Auxiliary Spread Term Structure information"
+  },
+  "YUX0oE": {
+    "defaultMessage": ">>> Parameters <<<",
+    "untranslatedMessage": "Parameters",
+    "description": "[FIRM] Tree Node Function Name - Parameters "
+  },
+  "M1ynvr": {
+    "defaultMessage": ">>> V6.6 B <<<",
+    "untranslatedMessage": "V6.6 B",
+    "description": "[RecalibrationTool settings] selection option title"
+  },
+  "kigYVC": {
+    "defaultMessage": ">>> Computation engine {computer_index} has started <<<",
+    "untranslatedMessage": "Computation engine {computer_index} has started",
+    "description": "[SimulationManager] Debug message while computation engine has started"
+  },
+  "mm0E9J": {
+    "defaultMessage": ">>> Writing \"writeable RFAs\" returned error \"{error_msg}\" <<<",
+    "untranslatedMessage": "Writing \"writeable RFAs\" returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write writeable RFAs returned error"
+  },
+  "C0QXjp": {
+    "defaultMessage": ">>> Adding {number_of_computers_to_add} computation engines for a total of {total} <<<",
+    "untranslatedMessage": "Adding {number_of_computers_to_add} computation engines for a total of {total}",
+    "description": "[SimulationManager] Info message of adding computation engines"
+  },
+  "74saPh": {
+    "defaultMessage": ">>> Enable Direct Parameter Viewing and Editing <<<",
+    "untranslatedMessage": "Enable Direct Parameter Viewing and Editing",
+    "description": "[FIRM User Interface] Title for toggling Enable Direct Parameter Viewing and Editing checkbox"
+  },
+  "Z6ayew": {
+    "defaultMessage": ">>> This setting causes the simulation to be executed step-by-step, like an interpreted language, instead of as a compiled block. Selecting this option will cause the simulation to start much sooner for large simulations, but each subsequent scenario will execute somewhat more slowly. <<<",
+    "untranslatedMessage": "This setting causes the simulation to be executed step-by-step, like an interpreted language, instead of as a compiled block. Selecting this option will cause the simulation to start much sooner for large simulations, but each subsequent scenario will execute somewhat more slowly.",
+    "description": "[Simulation User Interface] Description for toggling Enable to execute Simulation from Interpreted Steps"
+  },
+  "X+UZf0": {
+    "defaultMessage": ">>> There are two or more rows <<<",
+    "untranslatedMessage": "There are two or more rows",
+    "description": "[Query] Requirment for query result's chart - two or more rows"
+  },
+  "QudPYm": {
+    "defaultMessage": ">>> Fit <<<",
+    "untranslatedMessage": "Fit",
+    "description": "[RecalibrationTool settings] selection box title for the nominal term structure initial condition"
+  },
+  "Cf3JY9": {
+    "defaultMessage": ">>> Successfully started database partition {worker_index} to store {number_scenarios_in_worker} scenarios of simulation output <<<",
+    "untranslatedMessage": "Successfully started database partition {worker_index} to store {number_scenarios_in_worker} scenarios of simulation output",
+    "description": "[SimulationManager] Info message while successfully started database partition to store scenarios of simulation output"
+  },
+  "bTy6Ap": {
+    "defaultMessage": ">>> Aborting simulation not possible, simulation already aborting <<<",
+    "untranslatedMessage": "Aborting simulation not possible, simulation already aborting",
+    "description": "[SimulationManager] Warning message for aborting simulation not possible, simulation already aborting"
+  },
+  "Uw9jfQ": {
+    "defaultMessage": ">>> Database partition {worker_index}: {worker_text_message} <<<",
+    "untranslatedMessage": "Database partition {worker_index}: {worker_text_message}",
+    "description": "[SimulationManager] Info message from database partition worker"
+  },
+  "l0vSQ9": {
+    "defaultMessage": ">>> Generated Nodes from rules <<<",
+    "untranslatedMessage": "Generated Nodes from rules",
+    "description": "[recalibration] initialize_recalibration_tool - Generated Nodes information into reclibration"
+  },
+  "joC7Lu": {
+    "defaultMessage": ">>> Canceling simulation not possible, simulation already canceled <<<",
+    "untranslatedMessage": "Canceling simulation not possible, simulation already canceled",
+    "description": "[SimulationManager] Warning message for Canceling simulation not possible, simulation already canceled"
+  },
+  "C/UhbR": {
+    "defaultMessage": ">>> Failure in computer_messages!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in computer_messages!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for fail to computer messages"
+  },
+  "sXNMK4": {
+    "defaultMessage": ">>> Starting Simulation Workers <<<",
+    "untranslatedMessage": "Starting Simulation Workers",
+    "description": "[Simulation] Simulation Run Progress - Starting Simulation Workers"
+  },
+  "h1wc16": {
+    "defaultMessage": ">>> Output frequency of the simulation <<<",
+    "untranslatedMessage": "Output frequency of the simulation",
+    "description": "[Simulation User Interface] description for the time step node"
+  },
+  "uuu6zq": {
+    "defaultMessage": ">>> Generating steps for Supplemental Models <<<",
+    "untranslatedMessage": "Generating steps for Supplemental Models",
+    "description": "[Simulation] Progress update message - Generating steps for Supplemental Models"
+  },
+  "ndIHOE": {
+    "defaultMessage": ">>> Aborting simulation already in process <<<",
+    "untranslatedMessage": "Aborting simulation already in process",
+    "description": "[SimulationManager] Warning message for aborting simulation already in process"
+  },
+  "k9g6KZ": {
+    "defaultMessage": ">>> Initializing Custom Recalibration... <<<",
+    "untranslatedMessage": "Initializing Custom Recalibration...",
+    "description": "[recalibration] initialize_recalibration_tool - reclibraton tool preparing"
+  },
+  "ipuVrq": {
+    "defaultMessage": ">>> Canceling simulation not possible, simulation already canceled <<<",
+    "untranslatedMessage": "Canceling simulation not possible, simulation already canceled",
+    "description": "[SimulationManager] Warning message for canceling simulation not possible, simulation already canceled"
+  },
+  "QHqoBE": {
+    "defaultMessage": ">>> Computation engine {computer_index}: {computer_text_message} <<<",
+    "untranslatedMessage": "Computation engine {computer_index}: {computer_text_message}",
+    "description": "[SimulationManager] Computer message with computer index and text message"
+  },
+  "1F7WoO": {
+    "defaultMessage": ">>> Failure in computer_messages!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in computer_messages!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for computer messages"
+  },
+  "QoQ/eN": {
+    "defaultMessage": ">>> Writing input for scenario index {scenario_index} returned error \"{error_msg}\" <<<",
+    "untranslatedMessage": "Writing input for scenario index {scenario_index} returned error \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for failing to write input for scenario index"
+  },
+  "frVEyf": {
+    "defaultMessage": ">>> Bootstrap Analysis <<<",
+    "untranslatedMessage": "Bootstrap Analysis",
+    "description": "[Query] Query result's chart name - Bootstrap Analysis"
+  },
+  "jZJfdx": {
+    "defaultMessage": ">>> Computation engine {computer_index} changed PID from {PID} to {new_PID} <<<",
+    "untranslatedMessage": "Computation engine {computer_index} changed PID from {PID} to {new_PID}",
+    "description": "[SimulationManager] Debug message while Computation engine changed PID to new PID"
+  },
+  "FMqjjD": {
+    "defaultMessage": ">>> Received error \"{error_msg}\" trying to read input for scenario index {scenario_index} <<<",
+    "untranslatedMessage": "Received error \"{error_msg}\" trying to read input for scenario index {scenario_index}",
+    "description": "[SimulationComputer] Error message for trying to read input for scenario"
+  },
+  "QwVLaB": {
+    "defaultMessage": ">>> Finished writing scenario index {scenario_index} output in {time} seconds <<<",
+    "untranslatedMessage": "Finished writing scenario index {scenario_index} output in {time} seconds",
+    "description": "[SimulationComputer] Debug message for finishing writing scenario index output in seconds"
+  },
+  "GsoQSo": {
+    "defaultMessage": ">>> Received error \"{error_msg}\" trying to write output for scenario at simulation index {scenario_index}, scenario number {scenario_number} <<<",
+    "untranslatedMessage": "Received error \"{error_msg}\" trying to write output for scenario at simulation index {scenario_index}, scenario number {scenario_number}",
+    "description": "[SimulationComputer] Error message for trying to write output for scenario at simulation index and scenario number"
+  },
+  "//2wns": {
+    "defaultMessage": ">>> Calibration Point <<<",
+    "untranslatedMessage": "Calibration Point",
+    "description": "[FIRM User Interface] Calibration Point Input Title"
+  },
+  "NtuM8y": {
+    "defaultMessage": ">>> Model initialization complete <<<",
+    "untranslatedMessage": "Model initialization complete",
+    "description": "[GEMSRealWorldServer] Progress message for Model initialization complete"
+  },
+  "VW//kz": {
+    "defaultMessage": ">>> Execute Simulation on the Windows \"default\" grid <<<",
+    "untranslatedMessage": "Execute Simulation on the Windows \"default\" grid",
+    "description": "[Simulation User Interface] Title for toggling Execute Simulation on the Windows default grid"
+  },
+  "2AgbQ+": {
+    "defaultMessage": ">>> Pivot Table <<<",
+    "untranslatedMessage": "Pivot Table",
+    "description": "[Query] Query result's chart name - Pivot Table"
+  },
+  "4dHXfm": {
+    "defaultMessage": ">>> Waiting to start database partitions <<<",
+    "untranslatedMessage": "Waiting to start database partitions",
+    "description": "[SimulationManager] Info message for waiting to start database partitions"
+  },
+  "a0RdcS": {
+    "defaultMessage": ">>> Compiling Simulation <<<",
+    "untranslatedMessage": "Compiling Simulation",
+    "description": "[GEMSRealWorldCollector] Progress message for compiling imulation"
+  },
+  "VdmGMB": {
+    "defaultMessage": ">>> Failure in schedule_store!: \"{error_msg}\" <<<",
+    "untranslatedMessage": "Failure in schedule_store!: \"{error_msg}\"",
+    "description": "[SimulationManager] Error message for fail to schedulte store"
+  },
+  "loMvy0": {
+    "defaultMessage": ">>> Maximum Absolute Error (bp) <<<",
+    "untranslatedMessage": "Maximum Absolute Error (bp)",
+    "description": "[RecalibrationTool settings] numeric input title for the nominal term structure initial condition"
+  },
+  "pHgZrP": {
+    "defaultMessage": ">>> All {num_workers} database partitions have finished storing data <<<",
+    "untranslatedMessage": "All {num_workers} database partitions have finished storing data",
+    "description": "[SimulationManager] Info message while all database partitions have finished storing data"
+  }
+}

@@ -1,0 +1,154 @@
+.root {
+    display:        flex;
+    flex-direction: column;
+    flex:           1;
+    overflow:       hidden;
+
+    > :global(.ui.message) {
+        flex:          1;
+        align-items:   flex-start;
+        border-radius: 0;
+    }
+}
+
+.loading-panel {
+    flex:           1;
+    display:        flex;
+    flex-direction: column;
+
+    > :global(.bp3-tabs) {
+        flex:           1;
+        max-height:     100%;
+        display:        flex;
+        flex-direction: column;
+
+        > :global(.bp3-tab-panel) {
+            margin:   0;
+            display:  flex;
+            overflow: hidden;
+        }
+    }
+}
+
+.steps-toolbar {
+    display:        flex;
+    flex-direction: row;
+    width:          100%;
+    border-bottom:  1px solid var(--theme-border-color);
+    flex:           0 0 auto;
+
+    :global {
+        .ui.steps {
+            margin:        0;
+            border-radius: 0;
+            flex:          1;
+
+            .step {
+                cursor:        pointer !important;
+                border-radius: 0;
+
+                .step {
+                    /* Don't pad inner .step */
+                    padding: 0;
+
+                }
+            }
+        }
+
+        .bp3-button-group > * {
+            flex: 1;
+        }
+    }
+}
+
+.sidebar {
+    flex:           0 0 auto;
+    display:        flex;
+    flex-direction: column;
+
+    > :global(.bp3-button-group) {
+        width: 100%;
+
+        > * {
+            flex: 1;
+
+            > * {
+                width: 100%;
+
+                > * {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.simulation-toolbar:global(.bp3-navbar) {
+    :global {
+        .bp3-navbar-heading {
+            font-size: 14px;
+        }
+
+        table.bp3-html-table {
+            td {
+                padding: 5px;
+            }
+        }
+    }
+
+    label {
+        font-weight:  bold;
+        margin-right: .5em;
+    }
+}
+
+.simulation-progress:global(.ui.progress) {
+    width:  100%;
+    margin: 0;
+    flex: 0 0 auto;
+    &, :global(.bar) {
+        border-radius: 0;
+        height:        30px;
+
+        > :global(.progress) {
+            margin-top: -8px;
+        }
+    }
+}
+
+.selected {
+    :global .title {
+
+    }
+}
+
+.raw-view-container {
+    overflow:       auto;
+    display:        grid;
+    grid-auto-flow: row;
+    grid-gap:       .5em;
+    padding:        .5em;
+    background:     white;
+}
+
+.step-table:global(.bp3-html-table) {
+    td {
+        text-align: center;
+    }
+}
+
+.tables {
+    display:        flex;
+    flex-direction: column;
+    overflow:       hidden;
+    background:     white;
+
+    > * {
+        flex: 1 0 auto;
+
+        &:first-child {
+            max-height:    40vh;
+            margin-bottom: 1em;
+        }
+    }
+}

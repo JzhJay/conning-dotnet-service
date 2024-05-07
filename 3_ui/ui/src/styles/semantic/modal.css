@@ -1,0 +1,56 @@
+:global{
+    .ui.page.dimmer {
+        &.visible, &.transition {
+            /*display:flex !important;*/
+            --margin-y: 50px;
+            --margin-x: 50px;
+        }
+
+
+
+
+        perspective: initial;
+
+        .ui.modal {
+            display:        flex;
+            flex-direction: column;
+            margin:         var(--margin-y) var(--margin-x) !important;
+            min-height:     calc(100% - 2 * var(--margin-y));
+            min-width:      calc(100% - 2 * var(--margin-x));
+            top:            auto;
+            left:           auto;
+            flex:           1 0 auto;
+                            /*position:static;*/
+
+            .header {
+                flex:    0 auto;
+                padding: .5em; /* todo - this should be the same as segment header padding */
+            }
+
+            > .content {
+                width:   auto;
+                padding: .25em;
+                display: flex;
+                flex:    1 0 auto;
+            }
+
+            > .actions {
+                flex:    0 auto;
+                padding: .5rem;
+            }
+        }
+    }
+
+    .ui.dimmer {
+        z-index: 1;
+        &.visible, &.animating {
+            z-index:  1000;
+                       /*File -> Open*/
+            overflow: hidden;
+
+            .modal {
+                overflow: auto;
+            }
+        }
+    }
+}

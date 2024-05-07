@@ -1,0 +1,1 @@
+export {HighchartsComponent} from './highchartsComponent'

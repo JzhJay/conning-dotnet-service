@@ -1,0 +1,120 @@
+.root {
+    .hover-tooltip {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin: 0 2px;
+        white-space: nowrap;
+        user-select: none;
+
+        .icon-when-hover { display: none;}
+
+        &:not(.disabled):not(.running):hover,
+        &.show-tooltip:not(.disabled):not(.running) {
+            .hover-tooltip-target {
+                padding: 3px 8px;
+                visibility: visible;
+                max-width: 200px;
+                transition: visibility 0.3s linear, padding 0.3s linear, max-width 0.5s linear;
+            }
+            .icon-normal     { display: none;}
+            .icon-when-hover { display: flex;}
+        }
+
+        &.disabled {
+            color: rgba(200,200,200, 0.4);
+            cursor: not-allowed;
+        }
+
+        &.running {
+            color: #96290D;
+            cursor: not-allowed;
+            opacity: 0.4;
+        }
+
+        .hover-tooltip-target {
+            display: flex;
+            padding: 3px 0px;
+            overflow: hidden;
+            visibility: hidden;
+            max-width: 0px;
+            transition: padding 0.1s linear, max-width 0.1s linear;
+
+            :global(.bp3-spinner) { margin-right: 5px; }
+        }
+    }
+
+    .short-cut-item {
+        :global(.AppIcon__root) {
+            margin: 5px 8px;
+        }
+
+        svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .hover-tooltip-target {
+            padding-left: 0px !important;
+        }
+
+        &:hover,
+        &.show-tooltop {
+            border-radius: 3px;
+            background-color: rgba(255, 255, 255, .2);
+        }
+
+        .semantic-icon {
+            margin-top: 0px;
+        }
+    }
+
+    .rename {
+        border: 2px solid transparent;
+        border-radius: 3px;
+        user-select: unset;
+
+        &:hover,
+        &.show-tooltip {
+             border-color: rgba(255, 255, 255, .2);
+
+            .hover-tooltip-target {
+                background-color: rgba(255, 255, 255, .2);
+            }
+
+            input {
+                text-align: center;
+            }
+        }
+
+        input {
+            flex-grow: 1;
+            background-color: transparent;
+            border: none;
+            color: white;
+            margin: 0 3px;
+            text-align: right;
+        }
+
+    }
+
+    &.is-busy {
+        .short-cut-item {
+            cursor: wait;
+            svg {
+                fill-opacity: 0.5;
+            }
+            .hover-tooltip-target {
+                opacity: .5;
+            }
+        }
+
+        .rename {
+            cursor: wait;
+            input {
+                cursor: wait;
+                opacity: .5;
+            }
+        }
+    }
+}

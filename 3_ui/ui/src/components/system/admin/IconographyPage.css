@@ -1,0 +1,77 @@
+.root {
+    display:    flex;
+    padding:    5px;
+    background: white;
+
+    :global(.ui.container) {
+        display:  inline-flex;
+        flex-direction: column;
+        overflow: auto;
+
+        > .panel {
+
+        }
+    }
+
+    :global {
+        .bp3-card {
+            padding:5px;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        .ui.cards > .card {
+            > .content {
+                /*padding:    .5em;*/
+                text-align: center;
+
+                .header {
+                    margin-top:.5em;
+                    font-size:      14px;
+                    font-weight:normal;
+                    /*text-transform: capitalize;*/
+                }
+
+                svg {
+                    max-height: 48px
+                }
+
+                i.icon, .bp3-icon-large {
+                    font-size: 48px;
+                }
+
+                .description {
+                    padding: .5em;
+                }
+            }
+        }
+    }
+}
+
+.panel {
+    flex:          0 0 auto;
+    border:        1px solid var(--theme-border-color);
+    border-radius: 5px;
+    padding:       5px;
+    display:       inline-block;
+    margin:5px;
+    .header {
+        display:        block;
+        text-align:     center;
+        flex:           1;
+        font-size:16px;
+        margin-bottom:5px;
+        font-weight:bold;
+        text-transform: capitalize;
+    }
+
+    .contents {
+        div {
+            margin:0 auto;
+        }
+
+        display: flex;
+    }
+
+}
+

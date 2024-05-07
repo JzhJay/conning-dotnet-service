@@ -1,0 +1,11 @@
+.root {
+    display: inline-block;
+}
+
+.clipped-tooltip {
+    .close {
+        svg {
+            color: white;
+        }
+    }
+}

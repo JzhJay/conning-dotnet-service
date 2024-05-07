@@ -1,0 +1,11 @@
+.root {
+    .missing-simulation-warn-input {
+        box-shadow: 0 0 0 0 rgb(219 55 55 / 0%), 0 0 0 0 rgb(219 55 55 / 0%), 0 0 0 0 rgb(219 55 55 / 0%), inset 0 0 0 1px #db3737, inset 0 0 0 1px rgb(16 22 26 / 30%), inset 0 1px 1px rgb(16 22 26 / 40%);
+    }
+
+    :global(.bp3-dialog-header .iconning-point) {
+        fill: black;
+    }
+}
+
+

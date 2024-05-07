@@ -1,0 +1,30 @@
+:root {
+    --sideLength: 32px;
+}
+
+.no-profile {
+
+}
+
+.user-menu {
+    flex: 0 0 auto;
+    display:flex;
+    flex-direction:row;
+    /*margin-right:5px;*/
+
+    .user-image {
+        background-size: var(--sideLength) var(--sideLength);
+        width: var(--sideLength);
+        height: var(--sideLength);
+
+        border-radius:50%;
+        display:block;
+    }
+
+
+    :global .ui.menu {
+        right: -11px;
+        left:auto;
+        left: auto;
+    }
+}

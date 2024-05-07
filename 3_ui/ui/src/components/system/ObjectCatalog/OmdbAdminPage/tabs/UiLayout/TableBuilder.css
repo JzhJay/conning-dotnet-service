@@ -1,0 +1,38 @@
+.root {
+    box-shadow: 0px 0px 5px #000;
+    margin: 0px 10px;
+    max-width: calc(100% - 20px) !important;
+
+    > :global(.bp3-navbar) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+.num-frozen-column-input {
+    padding-right: 0;
+}
+
+.table-container {
+    overflow-x: auto;
+    overflow-y: visible;
+}
+
+.table {
+    composes: table from '../../../../../widgets/SmartBrowser/SmartTable_blueprint.css';
+}
+
+.column-cell {
+    composes: column-cell from '../../../../../widgets/SmartBrowser/SmartTable_blueprint.css';
+}
+
+
+.column-header-text {
+    composes: column-header-text from '../../../../../widgets/SmartBrowser/SmartTable_blueprint.css';
+}
+
+.odd-row {
+    composes: odd-row from '../../../../../widgets/SmartBrowser/SmartTable_blueprint.css';
+}

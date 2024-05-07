@@ -1,0 +1,49 @@
+#scalar User
+#scalar Json
+#scalar Time
+
+enum Power {
+    powered_on
+    powered_off
+} 
+
+enum Status {
+    running
+    deleting
+    deleted
+}
+
+type GridSpec {
+    ami: String!
+    cloud_host: String
+    cloud_port: Int
+    iam_role: String
+    instance_type: String
+    key: String,
+    volume_size: Float
+    block_dev_map: String
+    clones: [String!]
+}
+
+type CloudGrid {
+    id: ID
+    
+    activeInstanceIds: [String!]
+    deletedInstanceIds: [String!]
+    orderedInstanceIds: [String!]
+    
+    createdBy: String!
+    updatedBy: String
+    
+    gridName: String!
+    gridSize: Int!
+    launchTime: String
+    untilTime: String
+    managerHost: String
+    power: Boolean!
+    status: Status
+    
+    stopLaunching: Boolean
+    maxInstanceTypeEver: String
+    gridSpect: GridSpec
+}

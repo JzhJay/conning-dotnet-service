@@ -1,0 +1,33 @@
+.root {
+    .associated-card {
+        background: white;
+        margin: .5em .5em .5em 0 !important;
+
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-shadow: #000 0px 0px 7px;
+
+        &, :global(.card) {
+           border-radius: .5em;
+        }
+
+        > :global(.content) > :global(.header) {
+            min-height: unset !important;
+
+            > :global(.SmartCard__button-bar) {
+                min-height: unset !important;
+                margin-right: 5px;
+            }
+        }
+
+        :global(.bp3-button .bp3-icon:first-child:last-child) {
+            margin: 0;
+        }
+    }
+}
+
+.icon-size-16 {
+    width: 16px;
+    height: 16px;
+}

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="iconic iconic-regression-line" width="128" height="128" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Bar Chart</title>
+  </g>
+  <g class="iconic-regression-line-lg iconic-container iconic-lg" data-width="128" data-height="128" display="inline">
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-12 iconic-property-stroke" d="M1 7h4" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-11 iconic-property-stroke" d="M1 17h2" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-10 iconic-property-stroke" d="M1 27h4" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-9 iconic-property-stroke" d="M1 37h2" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-8 iconic-property-stroke" d="M1 47h4" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-7 iconic-property-stroke" d="M1 57h2" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-6 iconic-property-stroke" d="M1 67h4" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-5 iconic-property-stroke" d="M1 77h2" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-4 iconic-property-stroke" d="M1 87h4" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-3 iconic-property-stroke" d="M1 97h2" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-2 iconic-property-stroke" d="M1 107h4" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-1 iconic-property-stroke" d="M1 117h2" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-12 iconic-property-stroke" d="M121 126v-4" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-11 iconic-property-stroke" d="M111 126v-2" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-10 iconic-property-stroke" d="M101 126v-4" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-9 iconic-property-stroke" d="M91 126v-2" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-8 iconic-property-stroke" d="M81 126v-4" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-7 iconic-property-stroke" d="M71 126v-2" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-6 iconic-property-stroke" d="M61 126v-4" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-5 iconic-property-stroke" d="M51 126v-2" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-4 iconic-property-stroke" d="M41 126v-4" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-3 iconic-property-stroke" d="M31 126v-2" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-2 iconic-property-stroke" d="M21 126v-4" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-1 iconic-property-stroke" d="M11 126v-2" fill="none" />
+    <path stroke-width="2" stroke-linecap="square" class="iconic-regression-line-axes iconic-property-stroke" d="M121 127h-120v-120" fill="none" />
+  </g>
+  <g class="iconic-regression-line-md iconic-container iconic-md" data-width="32" data-height="32" display="none" transform="scale(4)">
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-10 iconic-property-stroke" d="M.5 1h2" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-9 iconic-property-stroke" d="M.5 4h1" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-8 iconic-property-stroke" d="M.5 7h2" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-7 iconic-property-stroke" d="M.5 10h1" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-6 iconic-property-stroke" d="M.5 13h2" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-5 iconic-property-stroke" d="M.5 16h1" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-4 iconic-property-stroke" d="M.5 19h2" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-3 iconic-property-stroke" d="M.5 22h1" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-2 iconic-property-stroke" d="M.5 25h2" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-1 iconic-property-stroke" d="M.5 28h1" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-10 iconic-property-stroke" d="M30.5 31v-2" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-9 iconic-property-stroke" d="M27.5 31v-1" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-8 iconic-property-stroke" d="M24.5 31v-2" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-7 iconic-property-stroke" d="M21.5 31v-1" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-6 iconic-property-stroke" d="M18.5 31v-2" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-5 iconic-property-stroke" d="M15.5 31v-1" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-4 iconic-property-stroke" d="M12.5 31v-2" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-3 iconic-property-stroke" d="M9.5 31v-1" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-major iconic-regression-line-tick-2 iconic-property-stroke" d="M6.5 31v-2" fill="none" />
+    <path stroke-width=".985" stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-minor iconic-regression-line-tick-1 iconic-property-stroke" d="M3.5 31v-1" fill="none" />
+    <path stroke-linecap="square" class="iconic-regression-line-axes iconic-property-stroke" d="M30.5 31h-30v-30" fill="none" />
+  </g>
+  <g class="iconic-regression-line-sm iconic-container iconic-sm" data-width="16" data-height="16" display="none" transform="scale(8)">
+    <path stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-5 iconic-property-stroke" d="M.5.5h1" fill="none" />
+    <path stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-4 iconic-property-stroke" d="M.5 3.5h1" fill="none" />
+    <path stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-3 iconic-property-stroke" d="M.5 6.5h1" fill="none" />
+    <path stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-2 iconic-property-stroke" d="M.5 9.5h1" fill="none" />
+    <path stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-1 iconic-property-stroke" d="M.5 12.5h1" fill="none" />
+    <path stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-5 iconic-property-stroke" d="M15.5 15.5v-1" fill="none" />
+    <path stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-4 iconic-property-stroke" d="M12.5 15.5v-1" fill="none" />
+    <path stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-3 iconic-property-stroke" d="M9.5 15.5v-1" fill="none" />
+    <path stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-2 iconic-property-stroke" d="M6.5 15.5v-1" fill="none" />
+    <path stroke-linecap="square" class="iconic-regression-line-tick iconic-regression-line-tick-1 iconic-property-stroke" d="M3.5 15.5v-1" fill="none" />
+
+    <path stroke-linecap="square" class="iconic-regression-line-axes iconic-property-stroke" d="M15.5 15.5h-15v-15" fill="none" />
+  </g>
+</svg>

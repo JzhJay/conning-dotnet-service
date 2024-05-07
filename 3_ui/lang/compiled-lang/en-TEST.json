@@ -1,0 +1,8520 @@
+{
+  "++hGYI": [
+    {
+      "type": 0,
+      "value": ">>> Resume File Upload <<<"
+    }
+  ],
+  "+1Q2L9": [
+    {
+      "type": 0,
+      "value": ">>> Validate <<<"
+    }
+  ],
+  "+6Puwp": [
+    {
+      "type": 0,
+      "value": ">>> Company Data Repository <<<"
+    }
+  ],
+  "+8UIk+": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "objName"
+    },
+    {
+      "type": 0,
+      "value": " \""
+    },
+    {
+      "type": 1,
+      "value": "itemName"
+    },
+    {
+      "type": 0,
+      "value": "\" Modified <<<"
+    }
+  ],
+  "+CAS6W": [
+    {
+      "type": 0,
+      "value": ">>> ID <<<"
+    }
+  ],
+  "+D412r": [
+    {
+      "type": 0,
+      "value": ">>> less... <<<"
+    }
+  ],
+  "+RXPGl": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "objName"
+    },
+    {
+      "type": 0,
+      "value": " \""
+    },
+    {
+      "type": 1,
+      "value": "itemName"
+    },
+    {
+      "type": 0,
+      "value": "\" Created <<<"
+    }
+  ],
+  "+UMElx": [
+    {
+      "type": 0,
+      "value": ">>> Minor <<<"
+    }
+  ],
+  "+X0o7E": [
+    {
+      "type": 0,
+      "value": ">>> Sent Time <<<"
+    }
+  ],
+  "+X5ZEo": [
+    {
+      "type": 0,
+      "value": ">>> Year <<<"
+    }
+  ],
+  "+ZVlk1": [
+    {
+      "type": 0,
+      "value": ">>> Remove Tag <<<"
+    }
+  ],
+  "+cfhHH": [
+    {
+      "type": 0,
+      "value": ">>> Loading Pivot Table... <<<"
+    }
+  ],
+  "+ob+9Y": [
+    {
+      "type": 0,
+      "value": ">>> KR <<<"
+    }
+  ],
+  "+q43a9": [
+    {
+      "type": 0,
+      "value": ">>> Initialization... <<<"
+    }
+  ],
+  "+reIKs": [
+    {
+      "type": 0,
+      "value": ">>> Past week <<<"
+    }
+  ],
+  "+urdfb": [
+    {
+      "type": 0,
+      "value": ">>> Ignore <<<"
+    }
+  ],
+  "+vGNz/": [
+    {
+      "type": 0,
+      "value": ">>> Result <<<"
+    }
+  ],
+  "/68lZQ": [
+    {
+      "type": 0,
+      "value": ">>> Trillions <<<"
+    }
+  ],
+  "/8pGtG": [
+    {
+      "type": 0,
+      "value": ">>> More... <<<"
+    }
+  ],
+  "/ASU/q": [
+    {
+      "type": 0,
+      "value": ">>> Default <<<"
+    }
+  ],
+  "/BWHZz": [
+    {
+      "type": 0,
+      "value": ">>> Show Reserved Tags? <<<"
+    }
+  ],
+  "/CVnBX": [
+    {
+      "type": 0,
+      "value": ">>> Waiting Progressing Start... <<<"
+    }
+  ],
+  "/FYKKS": [
+    {
+      "type": 0,
+      "value": ">>> in column "
+    },
+    {
+      "type": 1,
+      "value": "col"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "/GMDgP": [
+    {
+      "type": 0,
+      "value": ">>> Download "
+    },
+    {
+      "type": 1,
+      "value": "fileType"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "/HUBb1": [
+    {
+      "type": 0,
+      "value": ">>> Estimated Time to "
+    },
+    {
+      "type": 1,
+      "value": "br"
+    },
+    {
+      "type": 0,
+      "value": " Ready for Query <<<"
+    }
+  ],
+  "/O1cy0": [
+    {
+      "type": 0,
+      "value": ">>> Your query for "
+    },
+    {
+      "type": 1,
+      "value": "variablesSelected"
+    },
+    {
+      "type": 0,
+      "value": " variables is running... <<<"
+    }
+  ],
+  "/O3AMS": [
+    {
+      "type": 0,
+      "value": ">>> Loading query view ... <<<"
+    }
+  ],
+  "/Q0aGr": [
+    {
+      "type": 0,
+      "value": ">>> Create Simulation <<<"
+    }
+  ],
+  "/U61ze": [
+    {
+      "type": 0,
+      "value": ">>> Line: <<<"
+    }
+  ],
+  "/X0QBn": [
+    {
+      "type": 0,
+      "value": ">>> Instance Type <<<"
+    }
+  ],
+  "/ZilHe": [
+    {
+      "type": 0,
+      "value": ">>> Object Type(s) <<<"
+    }
+  ],
+  "/e7g17": [
+    {
+      "type": 0,
+      "value": ">>> Upload local file <<<"
+    }
+  ],
+  "/koqK1": [
+    {
+      "type": 0,
+      "value": ">>> Hundreds <<<"
+    }
+  ],
+  "/oAfYf": [
+    {
+      "type": 0,
+      "value": ">>> You must name the query and select a simulation <<<"
+    }
+  ],
+  "/spA2o": [
+    {
+      "type": 0,
+      "value": ">>> Classic <<<"
+    }
+  ],
+  "/xHYXL": [
+    {
+      "type": 0,
+      "value": ">>> TH <<<"
+    }
+  ],
+  "0+G2pS": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "simulation"
+    },
+    {
+      "type": 0,
+      "value": " Not Complete <<<"
+    }
+  ],
+  "0+Yx1z": [
+    {
+      "type": 0,
+      "value": ">>> Line Spacing: <<<"
+    }
+  ],
+  "04yBTe": [
+    {
+      "type": 0,
+      "value": ">>> Dashboard <<<"
+    }
+  ],
+  "07HY4Q": [
+    {
+      "type": 0,
+      "value": ">>> DE <<<"
+    }
+  ],
+  "08EXRw": [
+    {
+      "type": 0,
+      "value": ">>> Creating <<<"
+    }
+  ],
+  "0DCu34": [
+    {
+      "type": 0,
+      "value": ">>> Import file <<<"
+    }
+  ],
+  "0FadWK": [
+    {
+      "type": 0,
+      "value": ">>> Field <<<"
+    }
+  ],
+  "0JoTI6": [
+    {
+      "type": 0,
+      "value": ">>> First Scenario Number <<<"
+    }
+  ],
+  "0L2oOr": [
+    {
+      "type": 0,
+      "value": ">>> Saving... <<<"
+    }
+  ],
+  "0O6q87": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "ac"
+    },
+    {
+      "type": 0,
+      "value": " Pasted. <<<"
+    }
+  ],
+  "0PjJSb": [
+    {
+      "type": 0,
+      "value": ">>> Reduce Marker Size <<<"
+    }
+  ],
+  "0QFZk+": [
+    {
+      "type": 0,
+      "value": ">>> Row "
+    },
+    {
+      "type": 1,
+      "value": "r"
+    },
+    {
+      "type": 0,
+      "value": ", Col "
+    },
+    {
+      "type": 1,
+      "value": "c"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "0ROcHf": [
+    {
+      "type": 0,
+      "value": ">>> Date <<<"
+    }
+  ],
+  "0SfInl": [
+    {
+      "type": 0,
+      "value": ">>> Submitted By <<<"
+    }
+  ],
+  "0V7Yiw": [
+    {
+      "type": 0,
+      "value": ">>> Run Bootstrap <<<"
+    }
+  ],
+  "0ZG59M": [
+    {
+      "type": 0,
+      "value": ">>> All levels <<<"
+    }
+  ],
+  "0ccepM": [
+    {
+      "type": 0,
+      "value": ">>> Region <<<"
+    }
+  ],
+  "0f+tGn": [
+    {
+      "type": 0,
+      "value": ">>> Loading catalog... <<<"
+    }
+  ],
+  "0i6XcI": [
+    {
+      "type": 0,
+      "value": ">>> DFS Path <<<"
+    }
+  ],
+  "0nVDCC": [
+    {
+      "type": 0,
+      "value": ">>> Workers Ready <<<"
+    }
+  ],
+  "1+DpX7": [
+    {
+      "type": 0,
+      "value": ">>> Simulation Monitor <<<"
+    }
+  ],
+  "13FS2Y": [
+    {
+      "type": 0,
+      "value": ">>> Book <<<"
+    }
+  ],
+  "16s3oe": [
+    {
+      "type": 0,
+      "value": ">>> Show log messages' timestamp <<<"
+    }
+  ],
+  "173U8Q": [
+    {
+      "type": 0,
+      "value": ">>> Compute Charge <<<"
+    }
+  ],
+  "18w7R0": [
+    {
+      "type": 0,
+      "value": ">>> Row <<<"
+    }
+  ],
+  "19B95l": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "minute"
+    },
+    {
+      "type": 0,
+      "value": " mins <<<"
+    }
+  ],
+  "1BWDNT": [
+    {
+      "type": 0,
+      "value": ">>> Financing <<<"
+    }
+  ],
+  "1ENpA2": [
+    {
+      "type": 0,
+      "value": ">>> File Type <<<"
+    }
+  ],
+  "1Fm/FE": [
+    {
+      "type": 0,
+      "value": ">>> Address: <<<"
+    }
+  ],
+  "1N5QsY": [
+    {
+      "type": 0,
+      "value": ">>> No "
+    },
+    {
+      "type": 1,
+      "value": "objectName"
+    },
+    {
+      "type": 0,
+      "value": " Selected <<<"
+    }
+  ],
+  "1QAWxL": [
+    {
+      "type": 0,
+      "value": ">>> Metrics <<<"
+    }
+  ],
+  "1XEa67": [
+    {
+      "type": 0,
+      "value": ">>> 2. Variables <<<"
+    }
+  ],
+  "1fVwqx": [
+    {
+      "type": 0,
+      "value": ">>> Associated "
+    },
+    {
+      "type": 1,
+      "value": "objectType"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "1j9L1d": [
+    {
+      "type": 0,
+      "value": ">>> GB <<<"
+    }
+  ],
+  "1uoB15": [
+    {
+      "type": 0,
+      "value": ">>> Swap Rows and Columns <<<"
+    }
+  ],
+  "1vN7U5": [
+    {
+      "type": 0,
+      "value": ">>> Log level: "
+    },
+    {
+      "type": 1,
+      "value": "filterText"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "1xT+XS": [
+    {
+      "type": 0,
+      "value": ">>> Everyone <<<"
+    }
+  ],
+  "1xlrW8": [
+    {
+      "type": 0,
+      "value": ">>> Zoom Mode <<<"
+    }
+  ],
+  "26I7Wp": [
+    {
+      "type": 0,
+      "value": ">>> Email <<<"
+    }
+  ],
+  "274WiR": [
+    {
+      "type": 0,
+      "value": ">>> Historical Points <<<"
+    }
+  ],
+  "28AQ+5": [
+    {
+      "type": 0,
+      "value": ">>> Output read <<<"
+    }
+  ],
+  "2H+mMJ": [
+    {
+      "type": 0,
+      "value": ">>> CL <<<"
+    }
+  ],
+  "2N9aIF": [
+    {
+      "type": 0,
+      "value": ">>> Point Values <<<"
+    }
+  ],
+  "2Qy9px": [
+    {
+      "type": 0,
+      "value": ">>> No results. <<<"
+    }
+  ],
+  "2Z4sj8": [
+    {
+      "type": 0,
+      "value": ">>> Parameters <<<"
+    }
+  ],
+  "2b+IJ1": [
+    {
+      "type": 0,
+      "value": ">>> Open "
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "2cHdHw": [
+    {
+      "type": 0,
+      "value": ">>> New <<<"
+    }
+  ],
+  "2rDnzz": [
+    {
+      "type": 0,
+      "value": ">>> Please proceed to download the results or perform a query. <<<"
+    }
+  ],
+  "30AhJA": [
+    {
+      "type": 0,
+      "value": ">>> Import Data <<<"
+    }
+  ],
+  "35B+Zt": [
+    {
+      "type": 0,
+      "value": ">>> Loading Results... <<<"
+    }
+  ],
+  "390G9/": [
+    {
+      "type": 0,
+      "value": ">>> Always Separate Tables <<<"
+    }
+  ],
+  "3BkIF5": [
+    {
+      "type": 0,
+      "value": ">>> Batch import file contains no errors or warnings <<<"
+    }
+  ],
+  "3ONvj6": [
+    {
+      "type": 0,
+      "value": ">>> Your query is being deleted... <<<"
+    }
+  ],
+  "3Vss0x": [
+    {
+      "type": 0,
+      "value": ">>> Breadcrumb <<<"
+    }
+  ],
+  "3Wm0Mn": [
+    {
+      "type": 0,
+      "value": ">>> Your query is being reset... <<<"
+    }
+  ],
+  "3dUGU8": [
+    {
+      "type": 0,
+      "value": ">>> Sort Coordinates Alphabetically Ascending <<<"
+    }
+  ],
+  "3mOpZT": [
+    {
+      "type": 0,
+      "value": ">>> by Severity by Message <<<"
+    }
+  ],
+  "3rx63S": [
+    {
+      "type": 0,
+      "value": ">>> Has Result <<<"
+    }
+  ],
+  "3wh+Bs": [
+    {
+      "type": 0,
+      "value": ">>> This year <<<"
+    }
+  ],
+  "3xyqfp": [
+    {
+      "type": 0,
+      "value": ">>> Append <<<"
+    }
+  ],
+  "427XQQ": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": " Installer <<<"
+    }
+  ],
+  "44q3YM": [
+    {
+      "type": 0,
+      "value": ">>> Appending file fails! <<<"
+    }
+  ],
+  "483Ofp": [
+    {
+      "type": 0,
+      "value": ">>> Modules <<<"
+    }
+  ],
+  "49Mnj2": [
+    {
+      "type": 0,
+      "value": ">>> When a simulation has finished writing to disk. <<<"
+    }
+  ],
+  "4AXcYr": [
+    {
+      "type": 0,
+      "value": ">>> PNG <<<"
+    }
+  ],
+  "4BF9SX": [
+    {
+      "type": 0,
+      "value": ">>> Yesterday <<<"
+    }
+  ],
+  "4EPfZQ": [
+    {
+      "type": 0,
+      "value": ">>> Toggle Mean Values <<<"
+    }
+  ],
+  "4Miffo": [
+    {
+      "type": 0,
+      "value": ">>> Flip <<<"
+    }
+  ],
+  "4PJpNx": [
+    {
+      "type": 0,
+      "value": ">>> Are you sure you want to unlock the inputs? <<<"
+    }
+  ],
+  "4PfuxZ": [
+    {
+      "type": 0,
+      "value": ">>> Percentiles: <<<"
+    }
+  ],
+  "4Pq0n1": [
+    {
+      "type": 0,
+      "value": ">>> Adjusted <<<"
+    }
+  ],
+  "4RJAp+": [
+    {
+      "type": 0,
+      "value": ">>> Tell us how you'd like to receive "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "push notifications"
+        }
+      ],
+      "type": 8,
+      "value": "PushNotificationTooltip"
+    },
+    {
+      "type": 0,
+      "value": " from "
+    },
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": ". <<<"
+    }
+  ],
+  "4UQmO8": [
+    {
+      "type": 0,
+      "value": ">>> Licensed to <<<"
+    }
+  ],
+  "4ayJ4U": [
+    {
+      "type": 0,
+      "value": ">>> No file(s) detected <<<"
+    }
+  ],
+  "4blqkY": [
+    {
+      "type": 0,
+      "value": ">>> About <<<"
+    }
+  ],
+  "4bylpZ": [
+    {
+      "type": 0,
+      "value": ">>> Intermediate Results <<<"
+    }
+  ],
+  "4csc8I": [
+    {
+      "type": 0,
+      "value": ">>> Remove Section <<<"
+    }
+  ],
+  "4hus6T": [
+    {
+      "type": 0,
+      "value": ">>> 1 File Uploaded. ("
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": "/"
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": ") <<<"
+    }
+  ],
+  "4mJ8vA": [
+    {
+      "type": 0,
+      "value": ">>> Insert "
+    },
+    {
+      "type": 1,
+      "value": "num"
+    },
+    {
+      "type": 1,
+      "value": "rowOrColumnLabel"
+    },
+    {
+      "type": 0,
+      "value": " After <<<"
+    }
+  ],
+  "4ra63h": [
+    {
+      "type": 0,
+      "value": ">>> Started <<<"
+    }
+  ],
+  "4syfmK": [
+    {
+      "type": 0,
+      "value": ">>> Specification (.JSON) <<<"
+    }
+  ],
+  "4vSfMI": [
+    {
+      "type": 0,
+      "value": ">>> HK <<<"
+    }
+  ],
+  "510OjE": [
+    {
+      "type": 0,
+      "value": ">>> Waiting "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " Ready... <<<"
+    }
+  ],
+  "58D2mA": [
+    {
+      "type": 0,
+      "value": ">>> Series <<<"
+    }
+  ],
+  "5BTQD5": [
+    {
+      "type": 0,
+      "value": ">>> Martingale Tests <<<"
+    }
+  ],
+  "5COhnu": [
+    {
+      "type": 0,
+      "value": ">>> Clear <<<"
+    }
+  ],
+  "5HAuyk": [
+    {
+      "type": 0,
+      "value": ">>> Download <<<"
+    }
+  ],
+  "5IkArU": [
+    {
+      "type": 0,
+      "value": ">>> Delete "
+    },
+    {
+      "type": 1,
+      "value": "selectionLength"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "rowOrColumnLabel"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "5OWNwE": [
+    {
+      "type": 0,
+      "value": ">>> Warning <<<"
+    }
+  ],
+  "5P3XXZ": [
+    {
+      "type": 0,
+      "value": ">>> Restarting <<<"
+    }
+  ],
+  "5U87DB": [
+    {
+      "type": 0,
+      "value": ">>> Message Order <<<"
+    }
+  ],
+  "5UlLXe": [
+    {
+      "type": 0,
+      "value": ">>> Run Simulation <<<"
+    }
+  ],
+  "5VHWAp": [
+    {
+      "type": 0,
+      "value": ">>> Edit "
+    },
+    {
+      "type": 1,
+      "value": "l"
+    },
+    {
+      "type": 0,
+      "value": " Objects in New Tabs <<<"
+    }
+  ],
+  "5W8dYl": [
+    {
+      "type": 0,
+      "value": ">>> Time <<<"
+    }
+  ],
+  "5e5Jku": [
+    {
+      "type": 0,
+      "value": ">>> Animate Changes <<<"
+    }
+  ],
+  "5eghvL": [
+    {
+      "type": 0,
+      "value": ">>> Start Scenario Generation <<<"
+    }
+  ],
+  "5gr7MB": [
+    {
+      "type": 0,
+      "value": ">>> Accept the calibration changes by saving the updated simulation parameters <<<"
+    }
+  ],
+  "5hccdH": [
+    {
+      "type": 0,
+      "value": ">>> Data Serving Charge per Hour <<<"
+    }
+  ],
+  "5hvHbR": [
+    {
+      "type": 0,
+      "value": ">>> Status <<<"
+    }
+  ],
+  "5jbJxj": [
+    {
+      "type": 0,
+      "value": ">>> Semiannually (2) <<<"
+    }
+  ],
+  "5n7tmQ": [
+    {
+      "type": 0,
+      "value": ">>> Base Case <<<"
+    }
+  ],
+  "5yocpL": [
+    {
+      "type": 0,
+      "value": ">>> Chart data fetch failed <<<"
+    }
+  ],
+  "6+qFmx": [
+    {
+      "type": 0,
+      "value": ">>> Area Opacity: <<<"
+    }
+  ],
+  "6+sY/3": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "message"
+    },
+    {
+      "type": 0,
+      "value": ". Attempting retry: "
+    },
+    {
+      "type": 1,
+      "value": "retryCount"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "6FEcQb": [
+    {
+      "type": 0,
+      "value": ">>> Section "
+    },
+    {
+      "type": 1,
+      "value": "sectionName"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "6KwW6r": [
+    {
+      "type": 0,
+      "value": ">>> Errors <<<"
+    }
+  ],
+  "6N1B8H": [
+    {
+      "type": 0,
+      "value": ">>> Unknown License <<<"
+    }
+  ],
+  "6Qz4AV": [
+    {
+      "type": 0,
+      "value": ">>> Insert "
+    },
+    {
+      "type": 1,
+      "value": "num"
+    },
+    {
+      "type": 1,
+      "value": "rowOrColumnLabel"
+    },
+    {
+      "type": 0,
+      "value": " At End <<<"
+    }
+  ],
+  "6SufEK": [
+    {
+      "type": 0,
+      "value": ">>> Volatility <<<"
+    }
+  ],
+  "6WFrFO": [
+    {
+      "type": 0,
+      "value": ">>> Title <<<"
+    }
+  ],
+  "6bcoap": [
+    {
+      "type": 0,
+      "value": ">>> Save "
+    },
+    {
+      "type": 1,
+      "value": "userFile"
+    },
+    {
+      "type": 0,
+      "value": " to server <<<"
+    }
+  ],
+  "6jAbHA": [
+    {
+      "type": 0,
+      "value": ">>> Validation Detail <<<"
+    }
+  ],
+  "6l53/y": [
+    {
+      "type": 0,
+      "value": ">>> Date <<<"
+    }
+  ],
+  "6pwt5M": [
+    {
+      "type": 0,
+      "value": ">>> Run "
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "6rDmL4": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "second"
+    },
+    {
+      "type": 0,
+      "value": " second <<<"
+    }
+  ],
+  "6uhwD5": [
+    {
+      "type": 0,
+      "value": ">>> Active "
+    },
+    {
+      "type": 1,
+      "value": "objectType"
+    },
+    {
+      "type": 0,
+      "value": " Sessions <<<"
+    }
+  ],
+  "6wndHo": [
+    {
+      "type": 0,
+      "value": ">>> (Locked by Administrator) <<<"
+    }
+  ],
+  "6x9yaK": [
+    {
+      "type": 0,
+      "value": ">>> ("
+    },
+    {
+      "type": 1,
+      "value": "enabledCount"
+    },
+    {
+      "type": 0,
+      "value": " of "
+    },
+    {
+      "type": 1,
+      "value": "total"
+    },
+    {
+      "type": 0,
+      "value": ") <<<"
+    }
+  ],
+  "6yZob9": [
+    {
+      "type": 0,
+      "value": ">>> Search... <<<"
+    }
+  ],
+  "7+7nhO": [
+    {
+      "type": 0,
+      "value": ">>> Upload <<<"
+    }
+  ],
+  "7+A6Rd": [
+    {
+      "type": 0,
+      "value": ">>> Market Returns <<<"
+    }
+  ],
+  "70PPCg": [
+    {
+      "type": 0,
+      "value": ">>> Data Labels <<<"
+    }
+  ],
+  "70fBbf": [
+    {
+      "type": 0,
+      "value": ">>> Simulation results is now ready to use <<<"
+    }
+  ],
+  "78soQB": [
+    {
+      "type": 0,
+      "value": ">>> Card Settings <<<"
+    }
+  ],
+  "7AJ2QT": [
+    {
+      "type": 0,
+      "value": ">>> Batch Import File <<<"
+    }
+  ],
+  "7ESXBG": [
+    {
+      "type": 0,
+      "value": ">>> Deliver To <<<"
+    }
+  ],
+  "7GV0/M": [
+    {
+      "type": 0,
+      "value": ">>> Tree Hierarchy <<<"
+    }
+  ],
+  "7MClT7": [
+    {
+      "type": 0,
+      "value": ">>> Weekly (52) <<<"
+    }
+  ],
+  "7MO2It": [
+    {
+      "type": 0,
+      "value": ">>> Area Opacity <<<"
+    }
+  ],
+  "7P2I4s": [
+    {
+      "type": 0,
+      "value": ">>> Simulation Complete <<<"
+    }
+  ],
+  "7P3fXa": [
+    {
+      "type": 0,
+      "value": ">>> Output read by database <<<"
+    }
+  ],
+  "7S9LJ3": [
+    {
+      "type": 0,
+      "value": ">>> Choose a file... <<<"
+    }
+  ],
+  "7SwCo5": [
+    {
+      "type": 0,
+      "value": ">>> Delete Selected Axis Coordinate(s) <<<"
+    }
+  ],
+  "7WY5fO": [
+    {
+      "type": 0,
+      "value": ">>> Copy "
+    },
+    {
+      "type": 1,
+      "value": "typeName"
+    },
+    {
+      "type": 0,
+      "value": " Object "
+    },
+    {
+      "type": 1,
+      "value": "idField"
+    },
+    {
+      "type": 0,
+      "value": " to Clipboard <<<"
+    }
+  ],
+  "7Yml5y": [
+    {
+      "type": 0,
+      "value": ">>> The path is not valid. <<<"
+    }
+  ],
+  "7Zco0H": [
+    {
+      "type": 0,
+      "value": ">>> Pivot Selection <<<"
+    }
+  ],
+  "7akOcW": [
+    {
+      "type": 0,
+      "value": ">>> Holdings <<<"
+    }
+  ],
+  "7fmX5V": [
+    {
+      "type": 0,
+      "value": ">>> Flexible Axes <<<"
+    }
+  ],
+  "7fq4if": [
+    {
+      "type": 0,
+      "value": ">>> Computation completed <<<"
+    }
+  ],
+  "7tiZod": [
+    {
+      "type": 0,
+      "value": ">>> Applications: <<<"
+    }
+  ],
+  "7y3u6L": [
+    {
+      "type": 0,
+      "value": ">>> Simulation Failed <<<"
+    }
+  ],
+  "85tMAU": [
+    {
+      "type": 0,
+      "value": ">>> Running "
+    },
+    {
+      "type": 1,
+      "value": "queryTitle"
+    },
+    {
+      "type": 0,
+      "value": " Queries <<<"
+    }
+  ],
+  "86dZxH": [
+    {
+      "type": 0,
+      "value": ">>> Point Identification <<<"
+    }
+  ],
+  "88RKEm": [
+    {
+      "type": 0,
+      "value": ">>> This action cannot be undone. <<<"
+    }
+  ],
+  "8ACKek": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "impliedAxes"
+    },
+    {
+      "type": 0,
+      "value": " implied axes are currently hidden <<<"
+    }
+  ],
+  "8ENSsT": [
+    {
+      "type": 0,
+      "value": ">>> Object Name <<<"
+    }
+  ],
+  "8IGjOq": [
+    {
+      "type": 0,
+      "value": ">>> Economic Variables <<<"
+    }
+  ],
+  "8TkCV0": [
+    {
+      "type": 0,
+      "value": ">>> Add a catalog field... <<<"
+    }
+  ],
+  "8dNwL7": [
+    {
+      "type": 0,
+      "value": ">>> Starting <<<"
+    }
+  ],
+  "8iOEHh": [
+    {
+      "type": 0,
+      "value": ">>> Axis Coordinates <<<"
+    }
+  ],
+  "8lmtGm": [
+    {
+      "type": 0,
+      "value": ">>> Two-Factor Authentication <<<"
+    }
+  ],
+  "8oTJDR": [
+    {
+      "type": 0,
+      "value": ">>> Degree of Smoothing <<<"
+    }
+  ],
+  "8qc3Yp": [
+    {
+      "type": 0,
+      "value": ">>> Economies <<<"
+    }
+  ],
+  "8sF++e": [
+    {
+      "type": 0,
+      "value": ">>> A fatal error has occurred while simulating. <<<"
+    }
+  ],
+  "8v3AEB": [
+    {
+      "type": 0,
+      "value": ">>> Forward yields <<<"
+    }
+  ],
+  "8wmQMy": [
+    {
+      "type": 0,
+      "value": ">>> Columns <<<"
+    }
+  ],
+  "8zttU0": [
+    {
+      "type": 0,
+      "value": ">>> Axes <<<"
+    }
+  ],
+  "95+nlf": [
+    {
+      "type": 0,
+      "value": ">>> Show Regression Line <<<"
+    }
+  ],
+  "97v4Wf": [
+    {
+      "type": 0,
+      "value": ">>> Status <<<"
+    }
+  ],
+  "98dfLN": [
+    {
+      "type": 0,
+      "value": ">>> Billing Report | ADVISE <<<"
+    }
+  ],
+  "99RTTQ": [
+    {
+      "type": 0,
+      "value": ">>> Company Data Simulation <<<"
+    }
+  ],
+  "9EnaaT": [
+    {
+      "type": 0,
+      "value": ">>> Initialized. <<<"
+    }
+  ],
+  "9FXmEn": [
+    {
+      "type": 0,
+      "value": ">>> Modified Time <<<"
+    }
+  ],
+  "9GkT7y": [
+    {
+      "type": 0,
+      "value": ">>> Saving "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "... <<<"
+    }
+  ],
+  "9J9k2P": [
+    {
+      "type": 0,
+      "value": ">>> User <<<"
+    }
+  ],
+  "9Lo6be": [
+    {
+      "type": 0,
+      "value": ">>> Loading "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "... <<<"
+    }
+  ],
+  "9Q4GH5": [
+    {
+      "type": 0,
+      "value": ">>> Insert "
+    },
+    {
+      "type": 1,
+      "value": "ac"
+    },
+    {
+      "type": 0,
+      "value": " At End <<<"
+    }
+  ],
+  "9RSJ6n": [
+    {
+      "type": 0,
+      "value": ">>> Simulation Log Messages <<<"
+    }
+  ],
+  "9WHq0V": [
+    {
+      "type": 0,
+      "value": ">>> On-demand messages from our system"
+    },
+    {
+      "children": [
+      ],
+      "type": 8,
+      "value": "br"
+    },
+    {
+      "type": 0,
+      "value": "(Simulation events, billing alerts, etc) <<<"
+    }
+  ],
+  "9WM/fm": [
+    {
+      "type": 0,
+      "value": ">>> Use Single Axis <<<"
+    }
+  ],
+  "9XJhfW": [
+    {
+      "type": 0,
+      "value": ">>> Classic <<<"
+    }
+  ],
+  "9XMaqd": [
+    {
+      "type": 0,
+      "value": ">>> AU <<<"
+    }
+  ],
+  "9cXHuR": [
+    {
+      "type": 0,
+      "value": ">>> Climate Risk Analyses <<<"
+    }
+  ],
+  "9dwGR2": [
+    {
+      "type": 0,
+      "value": ">>> Available Reports <<<"
+    }
+  ],
+  "9iVrNV": [
+    {
+      "type": 0,
+      "value": ">>> Choose Definition File... <<<"
+    }
+  ],
+  "9ig7f+": [
+    {
+      "type": 0,
+      "value": ">>> Product <<<"
+    }
+  ],
+  "9m8f06": [
+    {
+      "type": 0,
+      "value": ">>> Catalog <<<"
+    }
+  ],
+  "9nYp5z": [
+    {
+      "type": 0,
+      "value": ">>> Add "
+    },
+    {
+      "type": 1,
+      "value": "numberOfAddRows"
+    },
+    {
+      "type": 0,
+      "value": " Row <<<"
+    }
+  ],
+  "9sWmlN": [
+    {
+      "type": 0,
+      "value": ">>> Initializing... <<<"
+    }
+  ],
+  "A+urvO": [
+    {
+      "type": 0,
+      "value": ">>> Your "
+    },
+    {
+      "type": 1,
+      "value": "objectTypeName"
+    },
+    {
+      "type": 0,
+      "value": " is loading... <<<"
+    }
+  ],
+  "A/d0M/": [
+    {
+      "type": 0,
+      "value": ">>> Maximum Number of vCPUs <<<"
+    }
+  ],
+  "A1E7K3": [
+    {
+      "type": 0,
+      "value": ">>> Zoom Out <<<"
+    }
+  ],
+  "A46yVu": [
+    {
+      "type": 0,
+      "value": ">>> Message Details <<<"
+    }
+  ],
+  "A6sWIj": [
+    {
+      "type": 0,
+      "value": ">>> Import "
+    },
+    {
+      "type": 1,
+      "value": "uf"
+    },
+    {
+      "type": 0,
+      "value": " from server <<<"
+    }
+  ],
+  "AEv0I3": [
+    {
+      "type": 0,
+      "value": ">>> Batch Import failed; no blocks imported <<<"
+    }
+  ],
+  "ASvPIq": [
+    {
+      "type": 0,
+      "value": ">>> Linked Objects <<<"
+    }
+  ],
+  "AWNrfD": [
+    {
+      "type": 0,
+      "value": ">>> Updating Layout... <<<"
+    }
+  ],
+  "AY+Q2i": [
+    {
+      "type": 0,
+      "value": ">>> MD5 Hash <<<"
+    }
+  ],
+  "Ad/4l0": [
+    {
+      "type": 0,
+      "value": ">>> Insert Axis Coordinate(s) After <<<"
+    }
+  ],
+  "AgDvR9": [
+    {
+      "type": 0,
+      "value": ">>> Input limited to the maximum value of "
+    },
+    {
+      "type": 1,
+      "value": "maximum"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "AhJBv3": [
+    {
+      "type": 0,
+      "value": ">>> Clear Selection <<<"
+    }
+  ],
+  "Ajoidd": [
+    {
+      "type": 0,
+      "value": ">>> Insert After <<<"
+    }
+  ],
+  "AspZUu": [
+    {
+      "type": 0,
+      "value": ">>> Asset Class <<<"
+    }
+  ],
+  "Atpkzj": [
+    {
+      "type": 0,
+      "value": ">>> Double click to Expand <<<"
+    }
+  ],
+  "Ax2+po": [
+    {
+      "type": 0,
+      "value": ">>> Hide all <<<"
+    }
+  ],
+  "AydJLG": [
+    {
+      "type": 0,
+      "value": ">>> more... <<<"
+    }
+  ],
+  "B6SFth": [
+    {
+      "type": 0,
+      "value": ">>> Expanded (Horizontal) <<<"
+    }
+  ],
+  "B9YbKw": [
+    {
+      "type": 0,
+      "value": ">>> Download File <<<"
+    }
+  ],
+  "BB7bXB": [
+    {
+      "type": 0,
+      "value": ">>> Object Schemas <<<"
+    }
+  ],
+  "BBLrGv": [
+    {
+      "type": 0,
+      "value": ">>> Columns <<<"
+    }
+  ],
+  "BEhTXm": [
+    {
+      "type": 0,
+      "value": ">>> All to columns <<<"
+    }
+  ],
+  "BGfGzz": [
+    {
+      "type": 0,
+      "value": ">>> Configure properties related to your <<<"
+    }
+  ],
+  "BGjhWE": [
+    {
+      "type": 0,
+      "value": ">>> Locations <<<"
+    }
+  ],
+  "BWgQP+": [
+    {
+      "type": 0,
+      "value": ">>> Add "
+    },
+    {
+      "type": 1,
+      "value": "numberOfAddRows"
+    },
+    {
+      "type": 0,
+      "value": " Rows <<<"
+    }
+  ],
+  "BWpji1": [
+    {
+      "type": 0,
+      "value": ">>> Location: \""
+    },
+    {
+      "type": 1,
+      "value": "locationPath"
+    },
+    {
+      "type": 0,
+      "value": "\" copied <<<"
+    }
+  ],
+  "BaTV7l": [
+    {
+      "type": 0,
+      "value": ">>> Run Report <<<"
+    }
+  ],
+  "BcMufO": [
+    {
+      "type": 0,
+      "value": ">>> Toggle Preview Panel <<<"
+    }
+  ],
+  "BcmPYP": [
+    {
+      "type": 0,
+      "value": ">>> Quarterly (4) <<<"
+    }
+  ],
+  "BjhisJ": [
+    {
+      "type": 0,
+      "value": ">>> Simulation required to modify or view query settings <<<"
+    }
+  ],
+  "BkVbHG": [
+    {
+      "type": 0,
+      "value": ">>> Insert "
+    },
+    {
+      "type": 1,
+      "value": "num"
+    },
+    {
+      "type": 1,
+      "value": "rowOrColumnLabel"
+    },
+    {
+      "type": 0,
+      "value": " Before <<<"
+    }
+  ],
+  "BuomEC": [
+    {
+      "type": 0,
+      "value": ">>> New File <<<"
+    }
+  ],
+  "BwoKtu": [
+    {
+      "type": 0,
+      "value": ">>> Amount <<<"
+    }
+  ],
+  "C/Eyzn": [
+    {
+      "type": 0,
+      "value": ">>> HighchartsComponent requires either chartData passed as prop or a query result from which it can query data. <<<"
+    }
+  ],
+  "C06fZf": [
+    {
+      "type": 0,
+      "value": ">>> Object Type: <<<"
+    }
+  ],
+  "C2cfMO": [
+    {
+      "type": 0,
+      "value": ">>> Scenarios <<<"
+    }
+  ],
+  "C3OqHR": [
+    {
+      "type": 0,
+      "value": ">>> Your query for "
+    },
+    {
+      "type": 1,
+      "value": "variablesSelected"
+    },
+    {
+      "type": 0,
+      "value": " variable is running... <<<"
+    }
+  ],
+  "CAqGU4": [
+    {
+      "type": 0,
+      "value": ">>> Login <<<"
+    }
+  ],
+  "CB+Z4m": [
+    {
+      "type": 0,
+      "value": ">>> Scenario <<<"
+    }
+  ],
+  "CB42+5": [
+    {
+      "type": 0,
+      "value": ">>> Percentile % <<<"
+    }
+  ],
+  "CBxh+a": [
+    {
+      "type": 0,
+      "value": ">>> Swap rows and columns <<<"
+    }
+  ],
+  "CFu9Zj": [
+    {
+      "type": 0,
+      "value": ">>> Inputs saved <<<"
+    }
+  ],
+  "CGNBYL": [
+    {
+      "type": 0,
+      "value": ">>> Number Scenarios Processed <<<"
+    }
+  ],
+  "CM8E5G": [
+    {
+      "type": 0,
+      "value": ">>> The simulation has been canceled. <<<"
+    }
+  ],
+  "CN8TbA": [
+    {
+      "type": 0,
+      "value": ">>> XLSX <<<"
+    }
+  ],
+  "CRimAA": [
+    {
+      "type": 0,
+      "value": ">>> Table <<<"
+    }
+  ],
+  "CRzBKF": [
+    {
+      "type": 0,
+      "value": ">>> User Values <<<"
+    }
+  ],
+  "CZNFVw": [
+    {
+      "type": 0,
+      "value": ">>> Current <<<"
+    }
+  ],
+  "Ci96IR": [
+    {
+      "type": 0,
+      "value": ">>> Active Sessions <<<"
+    }
+  ],
+  "CiWLls": [
+    {
+      "type": 0,
+      "value": ">>> Roll Forward Finished. <<<"
+    }
+  ],
+  "Cl+rcm": [
+    {
+      "type": 0,
+      "value": ">>> Add Variable Clause <<<"
+    }
+  ],
+  "Cpg9BX": [
+    {
+      "type": 0,
+      "value": ">>> Display Tags <<<"
+    }
+  ],
+  "CuBlm1": [
+    {
+      "type": 0,
+      "value": ">>> Distribution Information <<<"
+    }
+  ],
+  "Cxwzve": [
+    {
+      "type": 0,
+      "value": ">>> Complete <<<"
+    }
+  ],
+  "D2JDn4": [
+    {
+      "type": 0,
+      "value": ">>> Row Coordinate Selection <<<"
+    }
+  ],
+  "D2PGWJ": [
+    {
+      "type": 0,
+      "value": ">>> Cancel <<<"
+    }
+  ],
+  "D4nJlW": [
+    {
+      "type": 0,
+      "value": ">>> Unable to find a axis value - "
+    },
+    {
+      "type": 1,
+      "value": "coordinateID"
+    },
+    {
+      "type": 0,
+      "value": " - for "
+    },
+    {
+      "type": 1,
+      "value": "part"
+    },
+    {
+      "type": 0,
+      "value": " axis {axisGroupNameLabel} <<<"
+    }
+  ],
+  "DGaNuf": [
+    {
+      "type": 0,
+      "value": ">>> Drop file to upload <<<"
+    }
+  ],
+  "DL9DpG": [
+    {
+      "type": 0,
+      "value": ">>> Computed <<<"
+    }
+  ],
+  "DLapE2": [
+    {
+      "type": 0,
+      "value": ">>> Statistics is on when using sensitivity <<<"
+    }
+  ],
+  "DMPAkB": [
+    {
+      "type": 0,
+      "value": ">>> Custom levels <<<"
+    }
+  ],
+  "DNMxQH": [
+    {
+      "type": 0,
+      "value": ">>> Objects Sorted by Name <<<"
+    }
+  ],
+  "DNcgkD": [
+    {
+      "type": 0,
+      "value": ">>> NO <<<"
+    }
+  ],
+  "DQEFYh": [
+    {
+      "type": 0,
+      "value": ">>> Browse <<<"
+    }
+  ],
+  "DRgb4m": [
+    {
+      "type": 0,
+      "value": ">>> Bootstrap is not supported for this view <<<"
+    }
+  ],
+  "DS9zer": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "unit"
+    },
+    {
+      "type": 0,
+      "value": " Data Elements <<<"
+    }
+  ],
+  "DUPEDJ": [
+    {
+      "type": 0,
+      "value": ">>> Refresh <<<"
+    }
+  ],
+  "DVm3SQ": [
+    {
+      "type": 0,
+      "value": ">>> Fetching data... <<<"
+    }
+  ],
+  "DW37vu": [
+    {
+      "type": 0,
+      "value": ">>> New Tag <<<"
+    }
+  ],
+  "DXcACD": [
+    {
+      "type": 0,
+      "value": ">>> Edit <<<"
+    }
+  ],
+  "DXyQrQ": [
+    {
+      "type": 0,
+      "value": ">>> None <<<"
+    }
+  ],
+  "DZZFj7": [
+    {
+      "type": 0,
+      "value": ">>> Horizon <<<"
+    }
+  ],
+  "DbIvZ2": [
+    {
+      "type": 0,
+      "value": ">>> Name <<<"
+    }
+  ],
+  "DcF1gc": [
+    {
+      "type": 0,
+      "value": ">>> Detailed Display Mode <<<"
+    }
+  ],
+  "DnJsgJ": [
+    {
+      "type": 0,
+      "value": ">>> Variables <<<"
+    }
+  ],
+  "DptQLT": [
+    {
+      "type": 0,
+      "value": ">>> Export <<<"
+    }
+  ],
+  "Dq459Y": [
+    {
+      "type": 0,
+      "value": ">>> Shifted Mean: <<<"
+    }
+  ],
+  "Dtf4tF": [
+    {
+      "type": 0,
+      "value": ">>> Entities <<<"
+    }
+  ],
+  "DyYK73": [
+    {
+      "type": 0,
+      "value": ">>> OK <<<"
+    }
+  ],
+  "DyizlF": [
+    {
+      "type": 0,
+      "value": ">>> Display Chart <<<"
+    }
+  ],
+  "Dzx3U5": [
+    {
+      "type": 0,
+      "value": ">>> Export "
+    },
+    {
+      "type": 1,
+      "value": "fileType"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "E0SuWZ": [
+    {
+      "type": 0,
+      "value": ">>> Creating query... <<<"
+    }
+  ],
+  "E2b2lh": [
+    {
+      "type": 0,
+      "value": ">>> When a simulation begins. <<<"
+    }
+  ],
+  "E4wez8": [
+    {
+      "type": 0,
+      "value": ">>> Variables List <<<"
+    }
+  ],
+  "E7sz0b": [
+    {
+      "type": 0,
+      "value": ">>> Remove Pinned Tooltips <<<"
+    }
+  ],
+  "EOxzUO": [
+    {
+      "type": 0,
+      "value": ">>> Canceled <<<"
+    }
+  ],
+  "EQx2C3": [
+    {
+      "type": 0,
+      "value": ">>> Format Axis <<<"
+    }
+  ],
+  "ERVFF9": [
+    {
+      "type": 0,
+      "value": ">>> Append flexible axes <<<"
+    }
+  ],
+  "EXnOLS": [
+    {
+      "type": 0,
+      "value": ">>> Total Charge <<<"
+    }
+  ],
+  "EbQPix": [
+    {
+      "type": 0,
+      "value": ">>> Hierarchical View <<<"
+    }
+  ],
+  "EcdDFW": [
+    {
+      "type": 0,
+      "value": ">>> Generating simulation results <<<"
+    }
+  ],
+  "EeCbl1": [
+    {
+      "type": 0,
+      "value": ">>> Increase Font Size <<<"
+    }
+  ],
+  "EfYeQ0": [
+    {
+      "type": 0,
+      "value": ">>> Unlock Inputs <<<"
+    }
+  ],
+  "EfmjRB": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " of "
+    },
+    {
+      "type": 1,
+      "value": "total"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "EgegKB": [
+    {
+      "type": 0,
+      "value": ">>> Computation"
+    },
+    {
+      "type": 1,
+      "value": "br"
+    },
+    {
+      "type": 0,
+      "value": "Engines <<<"
+    }
+  ],
+  "Eh+i89": [
+    {
+      "type": 0,
+      "value": ">>> this <<<"
+    }
+  ],
+  "EhCDoj": [
+    {
+      "type": 0,
+      "value": ">>> No suggested paths. <<<"
+    }
+  ],
+  "EhrLS6": [
+    {
+      "type": 0,
+      "value": ">>> Supplemental Models <<<"
+    }
+  ],
+  "Ejki/Q": [
+    {
+      "type": 0,
+      "value": ">>> Switching to {switchingTo}... <<<"
+    }
+  ],
+  "ElcEbT": [
+    {
+      "type": 0,
+      "value": ">>> Millions <<<"
+    }
+  ],
+  "Etc0pP": [
+    {
+      "type": 0,
+      "value": ">>> User Files <<<"
+    }
+  ],
+  "EyA41N": [
+    {
+      "type": 0,
+      "value": ">>> Loading "
+    },
+    {
+      "type": 1,
+      "value": "chart"
+    },
+    {
+      "type": 0,
+      "value": " Chart... <<<"
+    }
+  ],
+  "F14VCh": [
+    {
+      "type": 0,
+      "value": ">>> Control Panel <<<"
+    }
+  ],
+  "F6PB83": [
+    {
+      "type": 0,
+      "value": ">>> Variables List (with ampersands) <<<"
+    }
+  ],
+  "F8hFuk": [
+    {
+      "type": 0,
+      "value": ">>> Export flexible axes <<<"
+    }
+  ],
+  "FGexY0": [
+    {
+      "type": 0,
+      "value": ">>> \""
+    },
+    {
+      "type": 1,
+      "value": "text"
+    },
+    {
+      "type": 0,
+      "value": "\" copied to clipboard. <<<"
+    }
+  ],
+  "FIGbA/": [
+    {
+      "type": 0,
+      "value": ">>> Type <<<"
+    }
+  ],
+  "FNwIC4": [
+    {
+      "type": 0,
+      "value": ">>> Multiple columns were selected for pasting, however the pasted data contains no \"TAB\" characters to separate the data into columns. <<<"
+    }
+  ],
+  "FR0g5z": [
+    {
+      "type": 0,
+      "value": ">>> None <<<"
+    }
+  ],
+  "FT4eQg": [
+    {
+      "type": 0,
+      "value": ">>> Horizontal <<<"
+    }
+  ],
+  "FUmh+j": [
+    {
+      "type": 0,
+      "value": ">>> Bond Default Rate <<<"
+    }
+  ],
+  "Fb0h4R": [
+    {
+      "type": 0,
+      "value": ">>> Major <<<"
+    }
+  ],
+  "FiJ+Ql": [
+    {
+      "type": 0,
+      "value": ">>> Variables ("
+    },
+    {
+      "type": 1,
+      "value": "variables"
+    },
+    {
+      "type": 0,
+      "value": ") <<<"
+    }
+  ],
+  "FiZI40": [
+    {
+      "type": 0,
+      "value": ">>> Deleting query... <<<"
+    }
+  ],
+  "Fj/r5o": [
+    {
+      "type": 0,
+      "value": ">>> Row(s) <<<"
+    }
+  ],
+  "FpPufP": [
+    {
+      "type": 0,
+      "value": ">>> Drop to upload <<<"
+    }
+  ],
+  "Ft/MMU": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "logLevel"
+    },
+    {
+      "type": 0,
+      "value": " only <<<"
+    }
+  ],
+  "FtnlQi": [
+    {
+      "type": 0,
+      "value": ">>> Hours: <<<"
+    }
+  ],
+  "FxVnRS": [
+    {
+      "type": 0,
+      "value": ">>> File must be selected <<<"
+    }
+  ],
+  "G5HUe5": [
+    {
+      "type": 0,
+      "value": ">>> Created By <<<"
+    }
+  ],
+  "G7aFV4": [
+    {
+      "type": 0,
+      "value": ">>> Shifted Standard Deviation: <<<"
+    }
+  ],
+  "G8xYEe": [
+    {
+      "type": 0,
+      "value": ">>> Click To Set Background Color <<<"
+    }
+  ],
+  "GAE4Em": [
+    {
+      "type": 0,
+      "value": ">>> Horizon <<<"
+    }
+  ],
+  "GAghOj": [
+    {
+      "type": 0,
+      "value": ">>> Query Tool Variables Layout <<<"
+    }
+  ],
+  "GBvsp8": [
+    {
+      "type": 0,
+      "value": ">>> Waiting <<<"
+    }
+  ],
+  "GIdPGg": [
+    {
+      "type": 0,
+      "value": ">>> Action <<<"
+    }
+  ],
+  "GKm90G": [
+    {
+      "type": 0,
+      "value": ">>> Efficient Frontier Line <<<"
+    }
+  ],
+  "GLwqt/": [
+    {
+      "type": 0,
+      "value": ">>> Browser <<<"
+    }
+  ],
+  "GMDMT0": [
+    {
+      "type": 0,
+      "value": ">>> Template <<<"
+    }
+  ],
+  "GQBU8l": [
+    {
+      "type": 0,
+      "value": ">>> Selected "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " File <<<"
+    }
+  ],
+  "GXIwCc": [
+    {
+      "type": 0,
+      "value": ">>> BR <<<"
+    }
+  ],
+  "GXMYcT": [
+    {
+      "type": 0,
+      "value": ">>> Computed <<<"
+    }
+  ],
+  "GXvdqk": [
+    {
+      "type": 0,
+      "value": ">>> Default tag value needed. <<<"
+    }
+  ],
+  "Gbn8fl": [
+    {
+      "type": 0,
+      "value": ">>> Quarter <<<"
+    }
+  ],
+  "GdlYSj": [
+    {
+      "type": 0,
+      "value": ">>> Reset Zoom Level <<<"
+    }
+  ],
+  "GiDf69": [
+    {
+      "type": 0,
+      "value": ">>> Enable <<<"
+    }
+  ],
+  "GmehsZ": [
+    {
+      "type": 0,
+      "value": ">>> Duplicate in same tab <<<"
+    }
+  ],
+  "GnzpoW": [
+    {
+      "type": 0,
+      "value": ">>> Inputs read <<<"
+    }
+  ],
+  "God8oA": [
+    {
+      "type": 0,
+      "value": ">>> You query is being deleted... <<<"
+    }
+  ],
+  "GvxAcu": [
+    {
+      "type": 0,
+      "value": ">>> File <<<"
+    }
+  ],
+  "H+iqnk": [
+    {
+      "type": 0,
+      "value": ">>> Rename "
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "H+z7X7": [
+    {
+      "type": 0,
+      "value": ">>> Daily (360) <<<"
+    }
+  ],
+  "H0aLm3": [
+    {
+      "type": 0,
+      "value": ">>> Batch Import succeeded with warnings; all blocks imported <<<"
+    }
+  ],
+  "H0x8fz": [
+    {
+      "type": 0,
+      "value": ">>> Identification <<<"
+    }
+  ],
+  "H2mnYX": [
+    {
+      "type": 0,
+      "value": ">>> Toggle Filter Sidebar <<<"
+    }
+  ],
+  "HAvMd7": [
+    {
+      "type": 0,
+      "value": ">>> All Tests Passed! <<<"
+    }
+  ],
+  "HFpH7I": [
+    {
+      "type": 0,
+      "value": ">>> Sensitivity is not supported for this view <<<"
+    }
+  ],
+  "HGLORe": [
+    {
+      "type": 0,
+      "value": ">>> Overwrite matching existing row(s) <<<"
+    }
+  ],
+  "HM0Bsk": [
+    {
+      "type": 0,
+      "value": ">>> Formatting <<<"
+    }
+  ],
+  "HOg2Ji": [
+    {
+      "type": 0,
+      "value": ">>> Remove Column \""
+    },
+    {
+      "type": 1,
+      "value": "displayText"
+    },
+    {
+      "type": 0,
+      "value": "\" <<<"
+    }
+  ],
+  "HRj0Qt": [
+    {
+      "type": 0,
+      "value": ">>> Efficient Frontier Points <<<"
+    }
+  ],
+  "HT7xkQ": [
+    {
+      "type": 0,
+      "value": ">>> Deleting all axis values is not allowed <<<"
+    }
+  ],
+  "HTxzHU": [
+    {
+      "type": 0,
+      "value": ">>> Save "
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "HX2wcg": [
+    {
+      "type": 0,
+      "value": ">>> Table <<<"
+    }
+  ],
+  "HYv/c3": [
+    {
+      "type": 0,
+      "value": ">>> Report... <<<"
+    }
+  ],
+  "HZwbLt": [
+    {
+      "type": 0,
+      "value": ">>> Select All <<<"
+    }
+  ],
+  "HgDO16": [
+    {
+      "type": 0,
+      "value": ">>> Download <<<"
+    }
+  ],
+  "HiT2gC": [
+    {
+      "type": 0,
+      "value": ">>> Please proceed to results. <<<"
+    }
+  ],
+  "Hp7afe": [
+    {
+      "type": 0,
+      "value": ">>> Jump Down <<<"
+    }
+  ],
+  "HsjpUt": [
+    {
+      "type": 0,
+      "value": ">>> New "
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "HudRX2": [
+    {
+      "type": 0,
+      "value": ">>> Add New <<<"
+    }
+  ],
+  "HwzkeV": [
+    {
+      "type": 0,
+      "value": ">>> All <<<"
+    }
+  ],
+  "HxBrXP": [
+    {
+      "type": 0,
+      "value": ">>> Column <<<"
+    }
+  ],
+  "IAMjKR": [
+    {
+      "type": 0,
+      "value": ">>> Open <<<"
+    }
+  ],
+  "IC2IJv": [
+    {
+      "type": 0,
+      "value": ">>> Loading Economic Scenario Generator Session Failed <<<"
+    }
+  ],
+  "ID47UM": [
+    {
+      "type": 0,
+      "value": ">>> With <<<"
+    }
+  ],
+  "IDfcYo": [
+    {
+      "type": 0,
+      "value": ">>> Loading "
+    },
+    {
+      "type": 1,
+      "value": "objName"
+    },
+    {
+      "type": 0,
+      "value": " Session Failed <<<"
+    }
+  ],
+  "IKhL0G": [
+    {
+      "type": 0,
+      "value": ">>> Apply latest template as part of roll-forward process <<<"
+    }
+  ],
+  "IM3WdG": [
+    {
+      "type": 0,
+      "value": ">>> Monthly (12) <<<"
+    }
+  ],
+  "INMwBM": [
+    {
+      "type": 0,
+      "value": ">>> Flip Vertical Axis <<<"
+    }
+  ],
+  "IPcxHA": [
+    {
+      "type": 0,
+      "value": ">>> account <<<"
+    }
+  ],
+  "ISuJjY": [
+    {
+      "type": 0,
+      "value": ">>> Notification Type <<<"
+    }
+  ],
+  "ISxe64": [
+    {
+      "type": 0,
+      "value": ">>> If checked, the template information for the latest template on or before the roll-forward date will be included in the roll-forward process. <<<"
+    }
+  ],
+  "IWgKMx": [
+    {
+      "type": 0,
+      "value": ">>> Creating "
+    },
+    {
+      "type": 1,
+      "value": "objName"
+    },
+    {
+      "type": 0,
+      "value": "... <<<"
+    }
+  ],
+  "IXkbrp": [
+    {
+      "type": 0,
+      "value": ">>> No errors or warnings <<<"
+    }
+  ],
+  "Idddsa": [
+    {
+      "type": 0,
+      "value": ">>> Not Complete <<<"
+    }
+  ],
+  "IjUo4s": [
+    {
+      "type": 0,
+      "value": ">>> Copy Special <<<"
+    }
+  ],
+  "IkAZkq": [
+    {
+      "type": 0,
+      "value": ">>> Remove Slot <<<"
+    }
+  ],
+  "IsvpAv": [
+    {
+      "type": 0,
+      "value": ">>> Hide Regression Line <<<"
+    }
+  ],
+  "IuBGUP": [
+    {
+      "type": 0,
+      "value": ">>> Notes <<<"
+    }
+  ],
+  "Iuk/YM": [
+    {
+      "type": 0,
+      "value": ">>> A valid query-result must be specified to switch to {viewName} <<<"
+    }
+  ],
+  "IzSQTT": [
+    {
+      "type": 0,
+      "value": ">>> An upload is in progress ... <<<"
+    }
+  ],
+  "J3JboO": [
+    {
+      "type": 0,
+      "value": ">>> CN <<<"
+    }
+  ],
+  "J6BRa8": [
+    {
+      "type": 0,
+      "value": ">>> No Results Available <<<"
+    }
+  ],
+  "J86XnD": [
+    {
+      "type": 0,
+      "value": ">>> Manage Tags <<<"
+    }
+  ],
+  "JAD3sf": [
+    {
+      "type": 0,
+      "value": ">>> Parameters Basis <<<"
+    }
+  ],
+  "JHmQAO": [
+    {
+      "type": 0,
+      "value": ">>> Medium <<<"
+    }
+  ],
+  "JIyRDJ": [
+    {
+      "type": 0,
+      "value": ">>> Inputs locked while simulating. <<<"
+    }
+  ],
+  "JKQDIQ": [
+    {
+      "type": 0,
+      "value": ">>> Bin Width <<<"
+    }
+  ],
+  "JR4/iL": [
+    {
+      "type": 0,
+      "value": ">>> No Selected "
+    },
+    {
+      "type": 1,
+      "value": "rowOrColumnLabel"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "JVELQm": [
+    {
+      "type": 0,
+      "value": ">>> Probability Density Function <<<"
+    }
+  ],
+  "JaCcw3": [
+    {
+      "type": 0,
+      "value": ">>> Frequencies <<<"
+    }
+  ],
+  "JbcKkK": [
+    {
+      "type": 0,
+      "value": ">>> Layout <<<"
+    }
+  ],
+  "JdeZiC": [
+    {
+      "type": 0,
+      "value": ">>> Charge Type <<<"
+    }
+  ],
+  "Jdjtcd": [
+    {
+      "type": 0,
+      "value": ">>> Total CPU Time <<<"
+    }
+  ],
+  "JfZRob": [
+    {
+      "type": 0,
+      "value": ">>> Unlock <<<"
+    }
+  ],
+  "JfvqfA": [
+    {
+      "type": 0,
+      "value": ">>> Active Workspace <<<"
+    }
+  ],
+  "Jg+z9r": [
+    {
+      "type": 0,
+      "value": ">>> Reference Standard Deviation: <<<"
+    }
+  ],
+  "JhV3wy": [
+    {
+      "type": 0,
+      "value": ">>> Collapse All <<<"
+    }
+  ],
+  "JlR/IV": [
+    {
+      "type": 0,
+      "value": ">>> Creating New Simulation... <<<"
+    }
+  ],
+  "Joi3O9": [
+    {
+      "type": 0,
+      "value": ">>> Annual <<<"
+    }
+  ],
+  "JrI1EG": [
+    {
+      "type": 0,
+      "value": ">>> Blocks <<<"
+    }
+  ],
+  "JzoGyK": [
+    {
+      "type": 0,
+      "value": ">>> corresponds to a template. <<<"
+    }
+  ],
+  "K0zzr1": [
+    {
+      "type": 0,
+      "value": ">>> Uploading Files... ("
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": "/"
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": ") <<<"
+    }
+  ],
+  "K9YA75": [
+    {
+      "type": 0,
+      "value": ">>> Individual Securities <<<"
+    }
+  ],
+  "KCnfFf": [
+    {
+      "type": 0,
+      "value": ">>> Value <<<"
+    }
+  ],
+  "KItlk9": [
+    {
+      "type": 0,
+      "value": ">>> Indentation: <<<"
+    }
+  ],
+  "KIwU49": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": " software products use or incorporate third party software and other copyright material that are subject to the acknowledgements and terms set out below. <<<"
+    }
+  ],
+  "KTMCg3": [
+    {
+      "type": 0,
+      "value": ">>> Inputs saved <<<"
+    }
+  ],
+  "KVvTYw": [
+    {
+      "type": 0,
+      "value": ">>> Sort Coordinates Alphabetically Descending <<<"
+    }
+  ],
+  "KXo1W7": [
+    {
+      "type": 0,
+      "value": ">>> Separate Tables by Default <<<"
+    }
+  ],
+  "KZDAdw": [
+    {
+      "type": 0,
+      "value": ">>> Special... <<<"
+    }
+  ],
+  "KaoJUf": [
+    {
+      "type": 0,
+      "value": ">>> Billing <<<"
+    }
+  ],
+  "KbBgre": [
+    {
+      "type": 0,
+      "value": ">>> Waiting for Upload. <<<"
+    }
+  ],
+  "Kf1CKy": [
+    {
+      "type": 0,
+      "value": ">>> Duration (DDD:HH:MM) <<<"
+    }
+  ],
+  "KgQMkq": [
+    {
+      "type": 0,
+      "value": ">>> Probability Density <<<"
+    }
+  ],
+  "Kgytsx": [
+    {
+      "type": 0,
+      "value": ">>> Data Order... <<<"
+    }
+  ],
+  "Kl5zZx": [
+    {
+      "type": 0,
+      "value": ">>> IL <<<"
+    }
+  ],
+  "Km/YyG": [
+    {
+      "type": 0,
+      "value": ">>> Column(s) <<<"
+    }
+  ],
+  "KokIDt": [
+    {
+      "type": 0,
+      "value": ">>> Cancel <<<"
+    }
+  ],
+  "Ktv1VI": [
+    {
+      "type": 0,
+      "value": ">>> Reduce Line Size <<<"
+    }
+  ],
+  "L1lvWj": [
+    {
+      "type": 0,
+      "value": ">>> Output loaded <<<"
+    }
+  ],
+  "L8lcJu": [
+    {
+      "type": 0,
+      "value": ">>> Increase Marker Size <<<"
+    }
+  ],
+  "LH7/1X": [
+    {
+      "type": 0,
+      "value": ">>> Add Tag... <<<"
+    }
+  ],
+  "LO7g4+": [
+    {
+      "type": 0,
+      "value": ">>> Available Axes <<<"
+    }
+  ],
+  "LOB4AC": [
+    {
+      "type": 0,
+      "value": ">>> Validation Sidebar <<<"
+    }
+  ],
+  "LOteEd": [
+    {
+      "type": 0,
+      "value": ">>> Older Versions <<<"
+    }
+  ],
+  "LQWF/M": [
+    {
+      "type": 0,
+      "value": ">>> Starting Period <<<"
+    }
+  ],
+  "LRQnR3": [
+    {
+      "type": 0,
+      "value": ">>> Point <<<"
+    }
+  ],
+  "LSX1Fc": [
+    {
+      "type": 0,
+      "value": ">>> Group Identification <<<"
+    }
+  ],
+  "LSsBtw": [
+    {
+      "type": 0,
+      "value": ">>> Contact "
+    },
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": " Support <<<"
+    }
+  ],
+  "LSvWFX": [
+    {
+      "type": 0,
+      "value": ">>> File loaded successfully <<<"
+    }
+  ],
+  "LUe+8k": [
+    {
+      "type": 0,
+      "value": ">>> Favorite this item <<<"
+    }
+  ],
+  "LdqBOk": [
+    {
+      "type": 0,
+      "value": ">>> Deactivate <<<"
+    }
+  ],
+  "LfN346": [
+    {
+      "type": 0,
+      "value": ">>> Show Timestamp <<<"
+    }
+  ],
+  "Lfsyiw": [
+    {
+      "type": 0,
+      "value": ">>> Remove "
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "LiUWrt": [
+    {
+      "type": 0,
+      "value": ">>> Worker Manager Apps <<<"
+    }
+  ],
+  "Ljw0cm": [
+    {
+      "type": 0,
+      "value": ">>> Batch Export <<<"
+    }
+  ],
+  "LptEGk": [
+    {
+      "type": 0,
+      "value": ">>> TW <<<"
+    }
+  ],
+  "LqVTLz": [
+    {
+      "type": 0,
+      "value": ">>> Multiple <<<"
+    }
+  ],
+  "LsoMI4": [
+    {
+      "type": 0,
+      "value": ">>> Import "
+    },
+    {
+      "type": 1,
+      "value": "fileType"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "LtCfsL": [
+    {
+      "type": 0,
+      "value": ">>> Total Size: "
+    },
+    {
+      "type": 1,
+      "value": "size"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "Lx90GL": [
+    {
+      "type": 0,
+      "value": ">>> Annually (1) <<<"
+    }
+  ],
+  "LxorwO": [
+    {
+      "type": 0,
+      "value": ">>> Display Unit <<<"
+    }
+  ],
+  "LyNOoM": [
+    {
+      "type": 0,
+      "value": ">>> Insert Axis Coordinate(s) Before <<<"
+    }
+  ],
+  "LzgKEl": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "second"
+    },
+    {
+      "type": 0,
+      "value": " seconds <<<"
+    }
+  ],
+  "M+Q4dq": [
+    {
+      "type": 0,
+      "value": ">>> Smoothing: <<<"
+    }
+  ],
+  "M3+OIH": [
+    {
+      "type": 0,
+      "value": ">>> With <<<"
+    }
+  ],
+  "M5j+MA": [
+    {
+      "type": 0,
+      "value": ">>> Result <<<"
+    }
+  ],
+  "M7TfcY": [
+    {
+      "type": 0,
+      "value": ">>> This is a Favorite <<<"
+    }
+  ],
+  "MAaBxM": [
+    {
+      "type": 0,
+      "value": ">>> Run simulation to generate output files. <<<"
+    }
+  ],
+  "MB1y91": [
+    {
+      "type": 0,
+      "value": ">>> Mutates <<<"
+    }
+  ],
+  "MGBNs2": [
+    {
+      "type": 0,
+      "value": ">>> Database <<<"
+    }
+  ],
+  "MGfE3m": [
+    {
+      "type": 0,
+      "value": ">>> Batch Import <<<"
+    }
+  ],
+  "MI5bhw": [
+    {
+      "type": 0,
+      "value": ">>> Batch Import Result <<<"
+    }
+  ],
+  "MXPCO5": [
+    {
+      "type": 0,
+      "value": ">>> Computation inputs read <<<"
+    }
+  ],
+  "McLU8e": [
+    {
+      "type": 0,
+      "value": ">>> (No data available) <<<"
+    }
+  ],
+  "Me+TA6": [
+    {
+      "type": 0,
+      "value": ">>> Step by Step <<<"
+    }
+  ],
+  "Mjpdw+": [
+    {
+      "type": 0,
+      "value": ">>> Info <<<"
+    }
+  ],
+  "MsHzDu": [
+    {
+      "type": 0,
+      "value": ">>> Value <<<"
+    }
+  ],
+  "MtalYx": [
+    {
+      "type": 0,
+      "value": ">>> File Size <<<"
+    }
+  ],
+  "N6wnCd": [
+    {
+      "type": 0,
+      "value": ">>> Except <<<"
+    }
+  ],
+  "N8Elq4": [
+    {
+      "type": 0,
+      "value": ">>> Single Axis Options <<<"
+    }
+  ],
+  "NGKdIR": [
+    {
+      "type": 0,
+      "value": ">>> Modifying a completed "
+    },
+    {
+      "type": 1,
+      "value": "objectTypeName"
+    },
+    {
+      "type": 0,
+      "value": " after unlocking will delete the output results. <<<"
+    }
+  ],
+  "NJmpcI": [
+    {
+      "type": 0,
+      "value": ">>> Generating "
+    },
+    {
+      "type": 1,
+      "value": "userFile"
+    },
+    {
+      "type": 0,
+      "value": "... <<<"
+    }
+  ],
+  "NMqdnW": [
+    {
+      "type": 0,
+      "value": ">>> Restore default setting <<<"
+    }
+  ],
+  "NYB075": [
+    {
+      "type": 0,
+      "value": ">>> Seed: <<<"
+    }
+  ],
+  "Na3YSf": [
+    {
+      "type": 0,
+      "value": ">>> Stored Queries <<<"
+    }
+  ],
+  "NaMml0": [
+    {
+      "type": 0,
+      "value": ">>> Zoom In <<<"
+    }
+  ],
+  "NanmrP": [
+    {
+      "type": 0,
+      "value": ">>> All <<<"
+    }
+  ],
+  "Nb5jUo": [
+    {
+      "type": 0,
+      "value": ">>> Get Template... <<<"
+    }
+  ],
+  "Nb7abH": [
+    {
+      "type": 0,
+      "value": ">>> Linked Objects <<<"
+    }
+  ],
+  "Ndg8zI": [
+    {
+      "type": 0,
+      "value": ">>> Use Case <<<"
+    }
+  ],
+  "NiuXBL": [
+    {
+      "type": 0,
+      "value": ">>> Run (Generate Results) <<<"
+    }
+  ],
+  "NkXrim": [
+    {
+      "type": 0,
+      "value": ">>> Empty Section Name <<<"
+    }
+  ],
+  "NpOp37": [
+    {
+      "type": 0,
+      "value": ">>> File failed to load <<<"
+    }
+  ],
+  "NwNftX": [
+    {
+      "type": 0,
+      "value": ">>> Detail View <<<"
+    }
+  ],
+  "O2AI9y": [
+    {
+      "type": 0,
+      "value": ">>> Browse Simulations... <<<"
+    }
+  ],
+  "O3wnmK": [
+    {
+      "type": 0,
+      "value": ">>> All to Rows <<<"
+    }
+  ],
+  "O5EgOE": [
+    {
+      "type": 0,
+      "value": ">>> click here <<<"
+    }
+  ],
+  "O5bVAG": [
+    {
+      "type": 0,
+      "value": ">>> Row Series <<<"
+    }
+  ],
+  "O8frR6": [
+    {
+      "type": 0,
+      "value": ">>> Remove Tag <<<"
+    }
+  ],
+  "O9nrEO": [
+    {
+      "type": 0,
+      "value": ">>> Show Statistics <<<"
+    }
+  ],
+  "OALFU3": [
+    {
+      "type": 0,
+      "value": ">>> Grid <<<"
+    }
+  ],
+  "OEUEKu": [
+    {
+      "type": 0,
+      "value": ">>> Delivered To <<<"
+    }
+  ],
+  "OKNT5i": [
+    {
+      "type": 0,
+      "value": ">>> Run "
+    },
+    {
+      "type": 1,
+      "value": "query"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "OOclv6": [
+    {
+      "type": 0,
+      "value": ">>> Object Type(s) for Tag {tagName} <<<"
+    }
+  ],
+  "OPGOTx": [
+    {
+      "type": 0,
+      "value": ">>> This month <<<"
+    }
+  ],
+  "OTdNc6": [
+    {
+      "type": 0,
+      "value": ">>> by Severity by Row <<<"
+    }
+  ],
+  "OVjEdA": [
+    {
+      "type": 0,
+      "value": ">>> Support <<<"
+    }
+  ],
+  "OaSSX6": [
+    {
+      "type": 0,
+      "value": ">>> View Result <<<"
+    }
+  ],
+  "Obtmww": [
+    {
+      "type": 0,
+      "value": ">>> Portfolios <<<"
+    }
+  ],
+  "OdtmRQ": [
+    {
+      "type": 0,
+      "value": ">>> Run simulation to generate results. <<<"
+    }
+  ],
+  "Oj5FHu": [
+    {
+      "type": 0,
+      "value": ">>> Starting... <<<"
+    }
+  ],
+  "OjNqYV": [
+    {
+      "type": 0,
+      "value": ">>> Units <<<"
+    }
+  ],
+  "OkdtVV": [
+    {
+      "type": 0,
+      "value": ">>> Open \""
+    },
+    {
+      "type": 1,
+      "value": "simName"
+    },
+    {
+      "type": 0,
+      "value": "\" in New Tab <<<"
+    }
+  ],
+  "OlvDz5": [
+    {
+      "type": 0,
+      "value": ">>> Download <<<"
+    }
+  ],
+  "OorvP/": [
+    {
+      "type": 0,
+      "value": ">>> Edit Tag Values <<<"
+    }
+  ],
+  "P2ZyHc": [
+    {
+      "type": 0,
+      "value": ">>> Reports <<<"
+    }
+  ],
+  "P6RN7x": [
+    {
+      "type": 0,
+      "value": ">>> Cycle Asset Grouping <<<"
+    }
+  ],
+  "P9zlS8": [
+    {
+      "type": 0,
+      "value": ">>> Actions <<<"
+    }
+  ],
+  "PBGhE4": [
+    {
+      "type": 0,
+      "value": ">>> Output Frequency <<<"
+    }
+  ],
+  "PHQ6Zl": [
+    {
+      "type": 0,
+      "value": ">>> Field Type <<<"
+    }
+  ],
+  "PHkJkm": [
+    {
+      "type": 0,
+      "value": ">>> Duration <<<"
+    }
+  ],
+  "PK0IMZ": [
+    {
+      "type": 0,
+      "value": ">>> Periodicity <<<"
+    }
+  ],
+  "PXDi3x": [
+    {
+      "type": 0,
+      "value": ">>> Upload is almost finished ... <<<"
+    }
+  ],
+  "PYaf/v": [
+    {
+      "type": 0,
+      "value": ">>> Append module selections <<<"
+    }
+  ],
+  "PZFp4p": [
+    {
+      "type": 0,
+      "value": ">>> Your query could not be loaded. <<<"
+    }
+  ],
+  "Pan8Qb": [
+    {
+      "type": 0,
+      "value": ">>> When a grid is powered off. <<<"
+    }
+  ],
+  "PfG/Mw": [
+    {
+      "type": 0,
+      "value": ">>> You are logged in as <<<"
+    }
+  ],
+  "Ph1fCx": [
+    {
+      "type": 0,
+      "value": ">>> Collapsed (Vertical) <<<"
+    }
+  ],
+  "PiD2Uo": [
+    {
+      "type": 0,
+      "value": ">>> Action <<<"
+    }
+  ],
+  "PiQrmP": [
+    {
+      "type": 0,
+      "value": ">>> Loading Default Settings... <<<"
+    }
+  ],
+  "PmeVIp": [
+    {
+      "type": 0,
+      "value": ">>> Errors exist below <<<"
+    }
+  ],
+  "PmkZf6": [
+    {
+      "type": 0,
+      "value": ">>> New <<<"
+    }
+  ],
+  "PmtxEf": [
+    {
+      "type": 0,
+      "value": ">>> Optimization Distance Search Points <<<"
+    }
+  ],
+  "Pp82Us": [
+    {
+      "type": 0,
+      "value": ">>> Add Tag <<<"
+    }
+  ],
+  "Pp8OVz": [
+    {
+      "type": 0,
+      "value": ">>> Past month <<<"
+    }
+  ],
+  "Prqb1E": [
+    {
+      "type": 0,
+      "value": ">>> Are you sure you want to delete the "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " with ID: "
+    },
+    {
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "type": 0,
+      "value": "? <<<"
+    }
+  ],
+  "PsSrkQ": [
+    {
+      "type": 0,
+      "value": ">>> Billing <<<"
+    }
+  ],
+  "PvQxej": [
+    {
+      "type": 0,
+      "value": ">>> File must be JSON <<<"
+    }
+  ],
+  "PwwbdY": [
+    {
+      "type": 0,
+      "value": ">>> System Events <<<"
+    }
+  ],
+  "PxPf5I": [
+    {
+      "type": 0,
+      "value": ">>> User File <<<"
+    }
+  ],
+  "Q+sfVO": [
+    {
+      "type": 0,
+      "value": ">>> Copy <<<"
+    }
+  ],
+  "Q/5JzM": [
+    {
+      "type": 0,
+      "value": ">>> Query Server <<<"
+    }
+  ],
+  "Q0FBzB": [
+    {
+      "type": 0,
+      "value": ">>> Simulation <<<"
+    }
+  ],
+  "Q3UzI6": [
+    {
+      "type": 0,
+      "value": ">>> in file "
+    },
+    {
+      "type": 1,
+      "value": "file"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "Q3gANw": [
+    {
+      "type": 0,
+      "value": ">>> Arrangement: <<<"
+    }
+  ],
+  "Q6ZcDW": [
+    {
+      "type": 0,
+      "value": ">>> Please <<<"
+    }
+  ],
+  "QAVhjU": [
+    {
+      "type": 0,
+      "value": ">>> CZ <<<"
+    }
+  ],
+  "QNhfc3": [
+    {
+      "type": 0,
+      "value": ">>> Accounting <<<"
+    }
+  ],
+  "QOZ1Lr": [
+    {
+      "type": 0,
+      "value": ">>> Simulate <<<"
+    }
+  ],
+  "QSSABH": [
+    {
+      "type": 0,
+      "value": ">>> Profile <<<"
+    }
+  ],
+  "QTcJjE": [
+    {
+      "type": 0,
+      "value": ">>> Scenarios <<<"
+    }
+  ],
+  "QTfiw5": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "no Items"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "1 Item"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 1,
+              "value": "itemCount"
+            },
+            {
+              "type": 0,
+              "value": " Items"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "itemCount"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "QV/iy0": [
+    {
+      "type": 0,
+      "value": ">>> Data Elements (Billions) <<<"
+    }
+  ],
+  "QcmBho": [
+    {
+      "type": 0,
+      "value": ">>> Clear console <<<"
+    }
+  ],
+  "QiQ9ll": [
+    {
+      "type": 0,
+      "value": ">>> Catastrophe <<<"
+    }
+  ],
+  "QsAPNb": [
+    {
+      "type": 0,
+      "value": ">>> Machine <<<"
+    }
+  ],
+  "QvJxSN": [
+    {
+      "type": 0,
+      "value": ">>> Cone <<<"
+    }
+  ],
+  "R7Oxxt": [
+    {
+      "type": 0,
+      "value": ">>> Daily (365) <<<"
+    }
+  ],
+  "R7YbGd": [
+    {
+      "type": 0,
+      "value": ">>> Compound <<<"
+    }
+  ],
+  "R9IJdD": [
+    {
+      "type": 0,
+      "value": ">>> Append to Recent File <<<"
+    }
+  ],
+  "RBKlKu": [
+    {
+      "type": 0,
+      "value": ">>> SVG <<<"
+    }
+  ],
+  "RDtvcQ": [
+    {
+      "type": 0,
+      "value": ">>> File <<<"
+    }
+  ],
+  "RFxHCV": [
+    {
+      "type": 0,
+      "value": ">>> Simulation Summary Status <<<"
+    }
+  ],
+  "RIKlDi": [
+    {
+      "type": 0,
+      "value": ">>> Collapse <<<"
+    }
+  ],
+  "RIgGiL": [
+    {
+      "type": 0,
+      "value": ">>> Data Storage Charge <<<"
+    }
+  ],
+  "RLlMuW": [
+    {
+      "type": 0,
+      "value": ">>> Series Identification <<<"
+    }
+  ],
+  "RLnb6Y": [
+    {
+      "type": 0,
+      "value": ">>> Uploading File... ("
+    },
+    {
+      "type": 1,
+      "value": "uploadedFilesCount"
+    },
+    {
+      "type": 0,
+      "value": "/"
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": ") <<<"
+    }
+  ],
+  "ROdRNf": [
+    {
+      "type": 0,
+      "value": ">>> Error <<<"
+    }
+  ],
+  "RRWl8S": [
+    {
+      "type": 0,
+      "value": ">>> Ongoing Storage Charge per Day <<<"
+    }
+  ],
+  "RVJfQP": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "objectName"
+    },
+    {
+      "type": 0,
+      "value": " Chooser <<<"
+    }
+  ],
+  "RWKI1p": [
+    {
+      "type": 0,
+      "value": ">>> Run Sensitivity <<<"
+    }
+  ],
+  "RaZHSE": [
+    {
+      "type": 0,
+      "value": ">>> Series <<<"
+    }
+  ],
+  "RipBQl": [
+    {
+      "type": 0,
+      "value": ">>> Me <<<"
+    }
+  ],
+  "RqOvCw": [
+    {
+      "type": 0,
+      "value": ">>> Computation <<<"
+    }
+  ],
+  "Rr9xiH": [
+    {
+      "type": 0,
+      "value": ">>> Include in Results <<<"
+    }
+  ],
+  "S/e6Pm": [
+    {
+      "type": 0,
+      "value": ">>> View <<<"
+    }
+  ],
+  "S3V8OV": [
+    {
+      "type": 0,
+      "value": ">>> User File Browser <<<"
+    }
+  ],
+  "S49Nw0": [
+    {
+      "type": 0,
+      "value": ">>> Loading pivot information... <<<"
+    }
+  ],
+  "SQ0A0d": [
+    {
+      "type": 0,
+      "value": ">>> Close Similar <<<"
+    }
+  ],
+  "SRFIgB": [
+    {
+      "type": 0,
+      "value": ">>> Combinatorial Add Rows <<<"
+    }
+  ],
+  "SUB+XA": [
+    {
+      "type": 0,
+      "value": ">>> Save Date <<<"
+    }
+  ],
+  "SUXpHa": [
+    {
+      "type": 0,
+      "value": ">>> &nbsp;&nbsp;Upload Completed. <<<"
+    }
+  ],
+  "SV/Ys5": [
+    {
+      "type": 0,
+      "value": ">>> Economies <<<"
+    }
+  ],
+  "SVA9z7": [
+    {
+      "type": 0,
+      "value": ">>> Select Statistics <<<"
+    }
+  ],
+  "SXy9Mq": [
+    {
+      "type": 0,
+      "value": ">>> Updates <<<"
+    }
+  ],
+  "Sacl/H": [
+    {
+      "type": 0,
+      "value": ">>> Previous <<<"
+    }
+  ],
+  "ScC5v3": [
+    {
+      "type": 0,
+      "value": ">>> Loading Output Views... <<<"
+    }
+  ],
+  "Scgg/X": [
+    {
+      "type": 0,
+      "value": ">>> Calibration Inputs <<<"
+    }
+  ],
+  "SikeBD": [
+    {
+      "type": 0,
+      "value": ">>> Warnings <<<"
+    }
+  ],
+  "SisAep": [
+    {
+      "type": 0,
+      "value": ">>> Parameterization Measure <<<"
+    }
+  ],
+  "SkaR6A": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "i"
+    },
+    {
+      "type": 0,
+      "value": " Axis Coordinates <<<"
+    }
+  ],
+  "SkoVw/": [
+    {
+      "type": 0,
+      "value": ">>> Edit "
+    },
+    {
+      "type": 1,
+      "value": "typeName"
+    },
+    {
+      "type": 0,
+      "value": " in New Tab <<<"
+    }
+  ],
+  "SnoQ2F": [
+    {
+      "type": 0,
+      "value": ">>> Variables <<<"
+    }
+  ],
+  "Sw13ji": [
+    {
+      "type": 0,
+      "value": ">>> Roll Forward <<<"
+    }
+  ],
+  "T/FZvI": [
+    {
+      "type": 0,
+      "value": ">>> Result <<<"
+    }
+  ],
+  "T/GfHh": [
+    {
+      "type": 0,
+      "value": ">>> Allocation Optimization <<<"
+    }
+  ],
+  "T64fxl": [
+    {
+      "type": 0,
+      "value": ">>> All to Rows <<<"
+    }
+  ],
+  "T9zPww": [
+    {
+      "type": 0,
+      "value": ">>> Delivery Methods <<<"
+    }
+  ],
+  "TAMOCy": [
+    {
+      "type": 0,
+      "value": ">>> Values for Tag \""
+    },
+    {
+      "type": 1,
+      "value": "tagName"
+    },
+    {
+      "type": 0,
+      "value": "\" <<<"
+    }
+  ],
+  "TEjmwO": [
+    {
+      "type": 0,
+      "value": ">>> Quarterly <<<"
+    }
+  ],
+  "TGOLgn": [
+    {
+      "type": 0,
+      "value": ">>> PDF <<<"
+    }
+  ],
+  "TLaUft": [
+    {
+      "type": 0,
+      "value": ">>> Debug <<<"
+    }
+  ],
+  "TNLgMW": [
+    {
+      "type": 0,
+      "value": ">>> Reason for Stopping <<<"
+    }
+  ],
+  "TORl/M": [
+    {
+      "type": 0,
+      "value": ">>> Clear Filter <<<"
+    }
+  ],
+  "TQQLwE": [
+    {
+      "type": 0,
+      "value": ">>> Euler Period <<<"
+    }
+  ],
+  "TVD5wY": [
+    {
+      "type": 0,
+      "value": ">>> Selected Tag does not support multiple object types. using the first type instead. <<<"
+    }
+  ],
+  "TZ6zvP": [
+    {
+      "type": 0,
+      "value": ">>> Last <<<"
+    }
+  ],
+  "TbUXxE": [
+    {
+      "type": 0,
+      "value": ">>> Previous <<<"
+    }
+  ],
+  "TcO0Qg": [
+    {
+      "type": 0,
+      "value": ">>> Single Axis Name <<<"
+    }
+  ],
+  "Tjj4jm": [
+    {
+      "type": 0,
+      "value": ">>> Horizon <<<"
+    }
+  ],
+  "TnsiZf": [
+    {
+      "type": 0,
+      "value": ">>> Duplicate "
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "TrHC6n": [
+    {
+      "type": 0,
+      "value": ">>> Unknown query view "
+    },
+    {
+      "type": 1,
+      "value": "viewName"
+    },
+    {
+      "type": 0,
+      "value": ". <<<"
+    }
+  ],
+  "TuebEO": [
+    {
+      "type": 0,
+      "value": ">>> \""
+    },
+    {
+      "type": 1,
+      "value": "tagName"
+    },
+    {
+      "type": 0,
+      "value": "\" is referenced by "
+    },
+    {
+      "type": 1,
+      "value": "total"
+    },
+    {
+      "type": 0,
+      "value": " objects. Deleting will remove all references. <<<"
+    }
+  ],
+  "TzcAsk": [
+    {
+      "type": 0,
+      "value": ">>> New <<<"
+    }
+  ],
+  "U1L+qn": [
+    {
+      "type": 0,
+      "value": ">>> Batch Import succeeded without warnings; all blocks imported <<<"
+    }
+  ],
+  "U3AgVy": [
+    {
+      "type": 0,
+      "value": ">>> Column Axes <<<"
+    }
+  ],
+  "U3RwqB": [
+    {
+      "type": 0,
+      "value": ">>> Last Check In <<<"
+    }
+  ],
+  "U4kZJO": [
+    {
+      "type": 0,
+      "value": ">>> Initializing Simulation Session <<<"
+    }
+  ],
+  "U9WY4R": [
+    {
+      "type": 0,
+      "value": ">>> When a grid is powered on. <<<"
+    }
+  ],
+  "UEgFTS": [
+    {
+      "type": 0,
+      "value": ">>> Preparing model parameter data... <<<"
+    }
+  ],
+  "UKWFbM": [
+    {
+      "type": 0,
+      "value": ">>> Initializing "
+    },
+    {
+      "type": 1,
+      "value": "simulationName"
+    },
+    {
+      "type": 0,
+      "value": " Simulation Session <<<"
+    }
+  ],
+  "UM37ll": [
+    {
+      "type": 0,
+      "value": ">>> The "
+    },
+    {
+      "type": 1,
+      "value": "objectType"
+    },
+    {
+      "type": 0,
+      "value": " inputs have been locked. Please unlock to edit. <<<"
+    }
+  ],
+  "UMPOC2": [
+    {
+      "type": 0,
+      "value": ">>> Open Similar <<<"
+    }
+  ],
+  "UXRCmA": [
+    {
+      "type": 0,
+      "value": ">>> Version <<<"
+    }
+  ],
+  "UYLQ6H": [
+    {
+      "type": 0,
+      "value": ">>> Items Per Page: <<<"
+    }
+  ],
+  "UYxHeP": [
+    {
+      "type": 0,
+      "value": ">>> This action cannot be undone. <<<"
+    }
+  ],
+  "UaA+6d": [
+    {
+      "type": 0,
+      "value": ">>> History <<<"
+    }
+  ],
+  "UeXAqH": [
+    {
+      "type": 0,
+      "value": ">>> Starting Custom Recalibration... <<<"
+    }
+  ],
+  "Uh1+FS": [
+    {
+      "type": 0,
+      "value": ">>> Edit "
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "Ujb3Iy": [
+    {
+      "type": 0,
+      "value": ">>> frozen columns <<<"
+    }
+  ],
+  "UkY7C1": [
+    {
+      "type": 0,
+      "value": ">>> Starting "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "... <<<"
+    }
+  ],
+  "UmMwg1": [
+    {
+      "type": 0,
+      "value": ">>> Canceling <<<"
+    }
+  ],
+  "Ut3pnx": [
+    {
+      "type": 0,
+      "value": ">>> The simulation inputs have been locked. Please unlock to edit. <<<"
+    }
+  ],
+  "Uvdi9K": [
+    {
+      "type": 0,
+      "value": ">>> Metadata <<<"
+    }
+  ],
+  "V5ZDwY": [
+    {
+      "type": 0,
+      "value": ">>> Event Subscriptions <<<"
+    }
+  ],
+  "V6oRGw": [
+    {
+      "type": 0,
+      "value": ">>> Cumulative Density <<<"
+    }
+  ],
+  "VAqY4f": [
+    {
+      "type": 0,
+      "value": ">>> Flip Horizontal Axis <<<"
+    }
+  ],
+  "VFBcw9": [
+    {
+      "type": 0,
+      "value": ">>> Selected "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " Files <<<"
+    }
+  ],
+  "VKki3X": [
+    {
+      "type": 0,
+      "value": ">>> Name <<<"
+    }
+  ],
+  "VNuaqG": [
+    {
+      "type": 0,
+      "value": ">>> Reset <<<"
+    }
+  ],
+  "VPBMWk": [
+    {
+      "type": 0,
+      "value": ">>> Loading failed with error: "
+    },
+    {
+      "type": 1,
+      "value": "lastErrorMessage"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "VU4R9/": [
+    {
+      "type": 0,
+      "value": ">>> Apply User Tag <<<"
+    }
+  ],
+  "VXF2Np": [
+    {
+      "type": 0,
+      "value": ">>> Completed Reports <<<"
+    }
+  ],
+  "Va/Gut": [
+    {
+      "type": 0,
+      "value": ">>> Batch import file contains "
+    },
+    {
+      "type": 1,
+      "value": "cError"
+    },
+    {
+      "type": 0,
+      "value": " errors and "
+    },
+    {
+      "type": 1,
+      "value": "cWarning"
+    },
+    {
+      "type": 0,
+      "value": " warnings <<<"
+    }
+  ],
+  "VhX4a9": [
+    {
+      "type": 0,
+      "value": ">>> Insert 1 Axis Coordinate After <<<"
+    }
+  ],
+  "ViXCC/": [
+    {
+      "type": 0,
+      "value": ">>> Email: <<<"
+    }
+  ],
+  "Vkz+8R": [
+    {
+      "type": 0,
+      "value": ">>> Insert an Axis Coordinate <<<"
+    }
+  ],
+  "VrVk5O": [
+    {
+      "type": 0,
+      "value": ">>> My Related <<<"
+    }
+  ],
+  "VtfHdS": [
+    {
+      "type": 0,
+      "value": ">>> Print <<<"
+    }
+  ],
+  "VtySkA": [
+    {
+      "type": 0,
+      "value": ">>> Insurance <<<"
+    }
+  ],
+  "Vv17WJ": [
+    {
+      "type": 0,
+      "value": ">>> Finest <<<"
+    }
+  ],
+  "Vxh/qu": [
+    {
+      "type": 0,
+      "value": ">>> Loading Module Information... <<<"
+    }
+  ],
+  "Vz/JcE": [
+    {
+      "type": 0,
+      "value": ">>> Ignore All <<<"
+    }
+  ],
+  "W+9gst": [
+    {
+      "type": 0,
+      "value": ">>> Database"
+    },
+    {
+      "type": 1,
+      "value": "br"
+    },
+    {
+      "type": 0,
+      "value": "Partitions <<<"
+    }
+  ],
+  "W4ljAx": [
+    {
+      "type": 0,
+      "value": ">>> Asset Allocation <<<"
+    }
+  ],
+  "W8xH2C": [
+    {
+      "type": 0,
+      "value": ">>> Create Simulation Without Upload <<<"
+    }
+  ],
+  "WDA0H3": [
+    {
+      "type": 0,
+      "value": ">>> Size <<<"
+    }
+  ],
+  "WDeTQA": [
+    {
+      "type": 0,
+      "value": ">>> Fine <<<"
+    }
+  ],
+  "WE50Xm": [
+    {
+      "type": 0,
+      "value": ">>> Price <<<"
+    }
+  ],
+  "WFAqE6": [
+    {
+      "type": 0,
+      "value": ">>> Output saved <<<"
+    }
+  ],
+  "WFQ315": [
+    {
+      "type": 0,
+      "value": ">>> Allocation Optimizations <<<"
+    }
+  ],
+  "WFgmV6": [
+    {
+      "type": 0,
+      "value": ">>> Account <<<"
+    }
+  ],
+  "WIGF2Z": [
+    {
+      "type": 0,
+      "value": ">>> Unique <<<"
+    }
+  ],
+  "WJrnfC": [
+    {
+      "type": 0,
+      "value": ">>> Axis Organizer <<<"
+    }
+  ],
+  "WJw8Mq": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "impliedAxes"
+    },
+    {
+      "type": 0,
+      "value": " implied axis is currently hidden <<<"
+    }
+  ],
+  "WK+6sL": [
+    {
+      "type": 0,
+      "value": ">>> Delete "
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "WKNPoe": [
+    {
+      "type": 0,
+      "value": ">>> Remove \""
+    },
+    {
+      "type": 1,
+      "value": "tagName"
+    },
+    {
+      "type": 0,
+      "value": "\" <<<"
+    }
+  ],
+  "WLbIgm": [
+    {
+      "type": 0,
+      "value": ">>> Annualized Returns <<<"
+    }
+  ],
+  "WPCgBE": [
+    {
+      "type": 0,
+      "value": ">>> The roll-forward date selected is not after the current model date. <<<"
+    }
+  ],
+  "WPU0Mu": [
+    {
+      "type": 0,
+      "value": ">>> Move Tag to Section... <<<"
+    }
+  ],
+  "WRtn3K": [
+    {
+      "type": 0,
+      "value": ">>> Periods <<<"
+    }
+  ],
+  "WSYz9Y": [
+    {
+      "type": 0,
+      "value": ">>> Results Generated <<<"
+    }
+  ],
+  "WX44aY": [
+    {
+      "type": 0,
+      "value": ">>> Computation output saved <<<"
+    }
+  ],
+  "WZiO7t": [
+    {
+      "type": 0,
+      "value": ">>> Explore <<<"
+    }
+  ],
+  "WZyxqz": [
+    {
+      "type": 0,
+      "value": ">>> Simulation Events <<<"
+    }
+  ],
+  "Wi05xd": [
+    {
+      "type": 0,
+      "value": ">>> Select Simulation Data Source <<<"
+    }
+  ],
+  "WjDrs+": [
+    {
+      "type": 0,
+      "value": ">>> Subsequent Scenario"
+    },
+    {
+      "type": 1,
+      "value": "br"
+    },
+    {
+      "type": 0,
+      "value": "Average Times <<<"
+    }
+  ],
+  "WmFuCD": [
+    {
+      "type": 0,
+      "value": ">>> Comments <<<"
+    }
+  ],
+  "WnzyUx": [
+    {
+      "type": 0,
+      "value": ">>> Profile <<<"
+    }
+  ],
+  "Wo+SNS": [
+    {
+      "type": 0,
+      "value": ">>> Rows <<<"
+    }
+  ],
+  "WoJgHL": [
+    {
+      "type": 0,
+      "value": ">>> Market Value Through Time Statistics <<<"
+    }
+  ],
+  "WqpUc5": [
+    {
+      "type": 0,
+      "value": ">>> Starting... <<<"
+    }
+  ],
+  "WrSrgK": [
+    {
+      "type": 0,
+      "value": ">>> When bill has increased by a specified amount. <<<"
+    }
+  ],
+  "WriezT": [
+    {
+      "type": 0,
+      "value": ">>> Securities <<<"
+    }
+  ],
+  "WyDZa6": [
+    {
+      "type": 0,
+      "value": ">>> Loading Template... <<<"
+    }
+  ],
+  "X+AWUn": [
+    {
+      "type": 0,
+      "value": ">>> Export location <<<"
+    }
+  ],
+  "X//bcp": [
+    {
+      "type": 0,
+      "value": ">>> Input limited to the minimum value of "
+    },
+    {
+      "type": 1,
+      "value": "minimum"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "X/rGU1": [
+    {
+      "type": 0,
+      "value": ">>> Classic Display Mode <<<"
+    }
+  ],
+  "XPKY4x": [
+    {
+      "type": 0,
+      "value": ">>> Validation errors must be resolved before simulating <<<"
+    }
+  ],
+  "XS5hsP": [
+    {
+      "type": 0,
+      "value": ">>> Are you sure you want to delete the "
+    },
+    {
+      "type": 1,
+      "value": "objectTypeName"
+    },
+    {
+      "type": 0,
+      "value": ": \""
+    },
+    {
+      "type": 1,
+      "value": "objectName"
+    },
+    {
+      "type": 0,
+      "value": "\" ? <<<"
+    }
+  ],
+  "XTzGFf": [
+    {
+      "type": 0,
+      "value": ">>> in row "
+    },
+    {
+      "type": 1,
+      "value": "row"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "XU7lJs": [
+    {
+      "type": 0,
+      "value": ">>> CA <<<"
+    }
+  ],
+  "XUi4p7": [
+    {
+      "type": 0,
+      "value": ">>> Arrangement <<<"
+    }
+  ],
+  "XYcAqa": [
+    {
+      "type": 0,
+      "value": ">>> Percentile Details <<<"
+    }
+  ],
+  "XiwW/1": [
+    {
+      "type": 0,
+      "value": ">>> SG <<<"
+    }
+  ],
+  "XjC/p6": [
+    {
+      "type": 0,
+      "value": ">>> Hours <<<"
+    }
+  ],
+  "XkjQCd": [
+    {
+      "type": 0,
+      "value": ">>> Reward <<<"
+    }
+  ],
+  "XsCch4": [
+    {
+      "type": 0,
+      "value": ">>> Cannot re-run while simulation is being canceled <<<"
+    }
+  ],
+  "Xvf3s/": [
+    {
+      "type": 0,
+      "value": ">>> Returns <<<"
+    }
+  ],
+  "Y+E8fJ": [
+    {
+      "type": 0,
+      "value": ">>> 1. General <<<"
+    }
+  ],
+  "Y0OOBa": [
+    {
+      "type": 0,
+      "value": ">>> Delete <<<"
+    }
+  ],
+  "Y11Y8K": [
+    {
+      "type": 0,
+      "value": ">>> 3. Messages <<<"
+    }
+  ],
+  "Y2kkmw": [
+    {
+      "type": 0,
+      "value": ">>> Notification Settings <<<"
+    }
+  ],
+  "Y4xr/A": [
+    {
+      "type": 0,
+      "value": ">>> Format Axis... <<<"
+    }
+  ],
+  "YAhk9N": [
+    {
+      "type": 0,
+      "value": ">>> Reset Arrangement <<<"
+    }
+  ],
+  "YBrJz6": [
+    {
+      "type": 0,
+      "value": ">>> Starting Simulation Process <<<"
+    }
+  ],
+  "YKfOQh": [
+    {
+      "type": 0,
+      "value": ">>> An error occurred while trying to load "
+    },
+    {
+      "type": 1,
+      "value": "objectTypeName"
+    },
+    {
+      "type": 0,
+      "value": " data. <<<"
+    }
+  ],
+  "YL1SrF": [
+    {
+      "type": 0,
+      "value": ">>> Deselect <<<"
+    }
+  ],
+  "YRJvNB": [
+    {
+      "type": 0,
+      "value": ">>> The pivot table contains over 1 million rows or columns, which may cause it to take a long time to render or even crash the browser tab. However, you can still use the toolbar to export the data, rearrange the table, or download the table data. <<<"
+    }
+  ],
+  "YbJBnz": [
+    {
+      "type": 0,
+      "value": ">>> Finalizing <<<"
+    }
+  ],
+  "YnJk/d": [
+    {
+      "type": 0,
+      "value": ">>> Select Template <<<"
+    }
+  ],
+  "YnPeyH": [
+    {
+      "type": 0,
+      "value": ">>> Expanded (Horizontal) <<<"
+    }
+  ],
+  "YpTa7S": [
+    {
+      "type": 0,
+      "value": ">>> Only <<<"
+    }
+  ],
+  "Yt1r82": [
+    {
+      "type": 0,
+      "value": ">>> Toggle Bootstrap <<<"
+    }
+  ],
+  "YzlTmU": [
+    {
+      "type": 0,
+      "value": ">>> Time Aggregator <<<"
+    }
+  ],
+  "Z1lNM8": [
+    {
+      "type": 0,
+      "value": ">>> Append to most recently exported "
+    },
+    {
+      "type": 1,
+      "value": "userFile"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "Z27QKp": [
+    {
+      "type": 0,
+      "value": ">>> Waiting <<<"
+    }
+  ],
+  "Z5M6vh": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "userFile"
+    },
+    {
+      "type": 0,
+      "value": " generated. <<<"
+    }
+  ],
+  "Z6/jnv": [
+    {
+      "type": 0,
+      "value": ">>> Reading file... <<<"
+    }
+  ],
+  "Z9cZgf": [
+    {
+      "type": 0,
+      "value": ">>> User Uploaded File <<<"
+    }
+  ],
+  "ZBeyjB": [
+    {
+      "type": 0,
+      "value": ">>> Probability Density <<<"
+    }
+  ],
+  "ZErAd0": [
+    {
+      "type": 0,
+      "value": ">>> Expand <<<"
+    }
+  ],
+  "ZJXgTH": [
+    {
+      "type": 0,
+      "value": ">>> Variables (Clause "
+    },
+    {
+      "type": 1,
+      "value": "clause"
+    },
+    {
+      "type": 0,
+      "value": ") <<<"
+    }
+  ],
+  "ZKajVC": [
+    {
+      "type": 0,
+      "value": ">>> Your search returned no results. <<<"
+    }
+  ],
+  "ZKwUYV": [
+    {
+      "type": 0,
+      "value": ">>> Memory Utilization <<<"
+    }
+  ],
+  "ZOd558": [
+    {
+      "type": 0,
+      "value": ">>> Reading Data... <<<"
+    }
+  ],
+  "ZUU045": [
+    {
+      "type": 0,
+      "value": ">>> Open Recent... <<<"
+    }
+  ],
+  "Zd2ZyT": [
+    {
+      "type": 0,
+      "value": ">>> Donut Size: <<<"
+    }
+  ],
+  "ZhMG2z": [
+    {
+      "type": 0,
+      "value": ">>> If your browser setting prevents showing a \"save as\" dialog, then the file will automatically be downloaded to the browser's designated download folder. <<<"
+    }
+  ],
+  "Zl8n/u": [
+    {
+      "type": 0,
+      "value": ">>> My Objects Sorted by Name <<<"
+    }
+  ],
+  "a+UgPg": [
+    {
+      "type": 0,
+      "value": ">>> Compact Display Mode <<<"
+    }
+  ],
+  "a3VeVk": [
+    {
+      "type": 0,
+      "value": ">>> Object Type Update Failed. <<<"
+    }
+  ],
+  "aBBEp5": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "query"
+    },
+    {
+      "type": 0,
+      "value": " is running... <<<"
+    }
+  ],
+  "aKedaO": [
+    {
+      "type": 0,
+      "value": ">>> Copy Location <<<"
+    }
+  ],
+  "aL2TSl": [
+    {
+      "type": 0,
+      "value": ">>> Same Table by Default <<<"
+    }
+  ],
+  "aSHimF": [
+    {
+      "type": 0,
+      "value": ">>> Cancel <<<"
+    }
+  ],
+  "aTv/XB": [
+    {
+      "type": 0,
+      "value": ">>> Pan Mode <<<"
+    }
+  ],
+  "acpNGP": [
+    {
+      "type": 0,
+      "value": ">>> Batch Import Files <<<"
+    }
+  ],
+  "admu16": [
+    {
+      "type": 0,
+      "value": ">>> Export data for all modules <<<"
+    }
+  ],
+  "aq5i7N": [
+    {
+      "type": 0,
+      "value": ">>> Your current pivot selection is not valid for view: {viewName}. <<<"
+    }
+  ],
+  "at4iBj": [
+    {
+      "type": 0,
+      "value": ">>> Users: <<<"
+    }
+  ],
+  "axRKiR": [
+    {
+      "type": 0,
+      "value": ">>> Manager <<<"
+    }
+  ],
+  "ay+fj7": [
+    {
+      "type": 0,
+      "value": ">>> Export initializing... <<<"
+    }
+  ],
+  "b08nyI": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "typeName"
+    },
+    {
+      "type": 0,
+      "value": " Object "
+    },
+    {
+      "type": 1,
+      "value": "idField"
+    },
+    {
+      "type": 0,
+      "value": " \""
+    },
+    {
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "type": 0,
+      "value": "\" copied to clipboard. <<<"
+    }
+  ],
+  "b2cjbd": [
+    {
+      "type": 0,
+      "value": ">>> (Folder Upload) <<<"
+    }
+  ],
+  "b4RSjg": [
+    {
+      "type": 0,
+      "value": ">>> All to Columns <<<"
+    }
+  ],
+  "bA5PKk": [
+    {
+      "type": 0,
+      "value": ">>> Compact <<<"
+    }
+  ],
+  "bAi47a": [
+    {
+      "type": 0,
+      "value": ">>> Thousands <<<"
+    }
+  ],
+  "bDS4Ey": [
+    {
+      "type": 0,
+      "value": ">>> All Files Uploaded. ("
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": "/"
+    },
+    {
+      "type": 1,
+      "value": "totalFilesCount"
+    },
+    {
+      "type": 0,
+      "value": ") <<<"
+    }
+  ],
+  "bIySrE": [
+    {
+      "type": 0,
+      "value": ">>> When a simulation completes the 'parse' phase. <<<"
+    }
+  ],
+  "bL0rQ0": [
+    {
+      "type": 0,
+      "value": ">>> Data Serving Charge <<<"
+    }
+  ],
+  "bP2B0V": [
+    {
+      "type": 0,
+      "value": ">>> Expires on <<<"
+    }
+  ],
+  "bQfO5P": [
+    {
+      "type": 0,
+      "value": ">>> Cards <<<"
+    }
+  ],
+  "bU0lz8": [
+    {
+      "type": 0,
+      "value": ">>> Line Mode is disabled when there are more than 1000 points <<<"
+    }
+  ],
+  "beM3Qt": [
+    {
+      "type": 0,
+      "value": ">>> Modifying "
+    },
+    {
+      "type": 1,
+      "value": "objName"
+    },
+    {
+      "type": 0,
+      "value": "... <<<"
+    }
+  ],
+  "bhSDTp": [
+    {
+      "type": 0,
+      "value": ">>> Browse <<<"
+    }
+  ],
+  "bkc5QX": [
+    {
+      "type": 0,
+      "value": ">>> Loading Axes Information... <<<"
+    }
+  ],
+  "bn8aoP": [
+    {
+      "type": 0,
+      "value": ">>> Select Content <<<"
+    }
+  ],
+  "bq3puk": [
+    {
+      "type": 0,
+      "value": ">>> Duplicate <<<"
+    }
+  ],
+  "brVLiq": [
+    {
+      "type": 0,
+      "value": ">>> Add To Queue <<<"
+    }
+  ],
+  "btlnZI": [
+    {
+      "type": 0,
+      "value": ">>> Remove axis {axis}? <<<"
+    }
+  ],
+  "c+OinD": [
+    {
+      "type": 0,
+      "value": ">>> Starting... <<<"
+    }
+  ],
+  "c5mM5r": [
+    {
+      "type": 0,
+      "value": ">>> The simulation results has been successfully generated and can now be referenced and queried from other applications. <<<"
+    }
+  ],
+  "c6hDAR": [
+    {
+      "type": 0,
+      "value": ">>> Are you sure you want to deselect \""
+    },
+    {
+      "type": 1,
+      "value": "itemName"
+    },
+    {
+      "type": 0,
+      "value": "\"? <<<"
+    }
+  ],
+  "cF4XM+": [
+    {
+      "type": 0,
+      "value": ">>> Formula <<<"
+    }
+  ],
+  "cGSFbi": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "impliedAxes"
+    },
+    {
+      "type": 0,
+      "value": " implied axes are currently shown <<<"
+    }
+  ],
+  "cJ19rU": [
+    {
+      "type": 0,
+      "value": ">>> Collapse All <<<"
+    }
+  ],
+  "cMlBre": [
+    {
+      "type": 0,
+      "value": ">>> The value is changed since last run <<<"
+    }
+  ],
+  "cVrUvr": [
+    {
+      "type": 0,
+      "value": ">>> Scope <<<"
+    }
+  ],
+  "cZchCc": [
+    {
+      "type": 0,
+      "value": ">>> Percentiles <<<"
+    }
+  ],
+  "ccvFj8": [
+    {
+      "type": 0,
+      "value": ">>> Coarse <<<"
+    }
+  ],
+  "cjqb1Z": [
+    {
+      "type": 0,
+      "value": ">>> Calibrate <<<"
+    }
+  ],
+  "cpUlZo": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "appendFilename"
+    },
+    {
+      "type": 0,
+      "value": " was successfully appended! <<<"
+    }
+  ],
+  "cv7Z6S": [
+    {
+      "type": 0,
+      "value": ">>> This option is only available if the roll forward <<<"
+    }
+  ],
+  "czz2lK": [
+    {
+      "type": 0,
+      "value": ">>> About "
+    },
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "d/LtjD": [
+    {
+      "type": 0,
+      "value": ">>> Statistics <<<"
+    }
+  ],
+  "d27HJh": [
+    {
+      "type": 0,
+      "value": ">>> Without <<<"
+    }
+  ],
+  "d8iylT": [
+    {
+      "type": 0,
+      "value": ">>> Flexible Axes Editor <<<"
+    }
+  ],
+  "dDg7OJ": [
+    {
+      "type": 0,
+      "value": ">>> Asset Returns Simulation <<<"
+    }
+  ],
+  "dFw60s": [
+    {
+      "type": 0,
+      "value": ">>> Loading chart data... <<<"
+    }
+  ],
+  "dJjE9P": [
+    {
+      "type": 0,
+      "value": ">>> Query Tool <<<"
+    }
+  ],
+  "dP64l9": [
+    {
+      "type": 0,
+      "value": ">>> Remove "
+    },
+    {
+      "type": 1,
+      "value": "sectionName"
+    },
+    {
+      "type": 0,
+      "value": " Section <<<"
+    }
+  ],
+  "dS5fJW": [
+    {
+      "type": 0,
+      "value": ">>> Failed <<<"
+    }
+  ],
+  "dZ3UBf": [
+    {
+      "type": 0,
+      "value": ">>> Workers Requested <<<"
+    }
+  ],
+  "ddRONf": [
+    {
+      "type": 0,
+      "value": ">>> Location <<<"
+    }
+  ],
+  "dhUwnB": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "ac"
+    },
+    {
+      "type": 0,
+      "value": " Appended. <<<"
+    }
+  ],
+  "di69do": [
+    {
+      "type": 0,
+      "value": ">>> Sorted A-Z <<<"
+    }
+  ],
+  "dkdBKN": [
+    {
+      "type": 0,
+      "value": ">>> Import <<<"
+    }
+  ],
+  "dkoVdj": [
+    {
+      "type": 0,
+      "value": ">>> Month <<<"
+    }
+  ],
+  "dmbwsE": [
+    {
+      "type": 0,
+      "value": ">>> Query Specification <<<"
+    }
+  ],
+  "dsmfvV": [
+    {
+      "type": 0,
+      "value": ">>> Address Path <<<"
+    }
+  ],
+  "dvfmm/": [
+    {
+      "type": 0,
+      "value": ">>> Hide Them <<<"
+    }
+  ],
+  "dyEj8A": [
+    {
+      "type": 0,
+      "value": ">>> Billing Events <<<"
+    }
+  ],
+  "e/I+MV": [
+    {
+      "type": 0,
+      "value": ">>> Always Same Table <<<"
+    }
+  ],
+  "e/hkGJ": [
+    {
+      "type": 0,
+      "value": ">>> Overwrite existing recalibration parameters with data from template? <<<"
+    }
+  ],
+  "e/zbyX": [
+    {
+      "type": 0,
+      "value": ">>> Expand All <<<"
+    }
+  ],
+  "e1oTRC": [
+    {
+      "type": 0,
+      "value": ">>> Parameterization <<<"
+    }
+  ],
+  "e2rdBc": [
+    {
+      "type": 0,
+      "value": ">>> Reset <<<"
+    }
+  ],
+  "eCNEcU": [
+    {
+      "type": 0,
+      "value": ">>> Desktop <<<"
+    }
+  ],
+  "eCQhtb": [
+    {
+      "type": 0,
+      "value": ">>> Edit "
+    },
+    {
+      "type": 1,
+      "value": "query"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "eFg4fD": [
+    {
+      "type": 0,
+      "value": ">>> by Message <<<"
+    }
+  ],
+  "eIJghB": [
+    {
+      "type": 0,
+      "value": ">>> Output loaded into database <<<"
+    }
+  ],
+  "eOmBfP": [
+    {
+      "type": 0,
+      "value": ">>> Export data <<<"
+    }
+  ],
+  "eZkqfT": [
+    {
+      "type": 0,
+      "value": ">>> Toggle Inversion <<<"
+    }
+  ],
+  "efHqUp": [
+    {
+      "type": 0,
+      "value": ">>> Continue Paste? <<<"
+    }
+  ],
+  "ehVTXX": [
+    {
+      "type": 0,
+      "value": ">>> Recent <<<"
+    }
+  ],
+  "ekDxpO": [
+    {
+      "type": 0,
+      "value": ">>> Optimization Direction Search Points <<<"
+    }
+  ],
+  "emBtFS": [
+    {
+      "type": 0,
+      "value": ">>> GMT Date <<<"
+    }
+  ],
+  "enKc8I": [
+    {
+      "type": 0,
+      "value": ">>> Start (UTC) <<<"
+    }
+  ],
+  "eq/tjt": [
+    {
+      "type": 0,
+      "value": ">>> Optimization Iteration Lines <<<"
+    }
+  ],
+  "ezTv8f": [
+    {
+      "type": 0,
+      "value": ">>> Copy <<<"
+    }
+  ],
+  "f+HIKc": [
+    {
+      "type": 0,
+      "value": ">>> View <<<"
+    }
+  ],
+  "f0IISQ": [
+    {
+      "type": 0,
+      "value": ">>> Enable MFA <<<"
+    }
+  ],
+  "f2/Yqa": [
+    {
+      "type": 0,
+      "value": ">>> Next <<<"
+    }
+  ],
+  "f4VeP3": [
+    {
+      "type": 0,
+      "value": ">>> Name <<<"
+    }
+  ],
+  "f99wKB": [
+    {
+      "type": 0,
+      "value": ">>> Messages <<<"
+    }
+  ],
+  "fC966V": [
+    {
+      "type": 0,
+      "value": ">>> Insert Before <<<"
+    }
+  ],
+  "fEpA0/": [
+    {
+      "type": 0,
+      "value": ">>> Iterations <<<"
+    }
+  ],
+  "fHNTsU": [
+    {
+      "type": 0,
+      "value": ">>> File must be "
+    },
+    {
+      "type": 1,
+      "value": "type"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "fKtOev": [
+    {
+      "type": 0,
+      "value": ">>> 1 Axis Coordinate <<<"
+    }
+  ],
+  "fO+c9G": [
+    {
+      "type": 0,
+      "value": ">>> Both <<<"
+    }
+  ],
+  "fQ+nYl": [
+    {
+      "type": 0,
+      "value": ">>> Box Plot <<<"
+    }
+  ],
+  "fSjHG3": [
+    {
+      "type": 0,
+      "value": ">>> Definition History <<<"
+    }
+  ],
+  "fU4n5y": [
+    {
+      "type": 0,
+      "value": ">>> Hide (Active) <<<"
+    }
+  ],
+  "fVg2DY": [
+    {
+      "type": 0,
+      "value": ">>> Configuration <<<"
+    }
+  ],
+  "fW3CFG": [
+    {
+      "type": 0,
+      "value": ">>> Download initiated. <<<"
+    }
+  ],
+  "fa6HgF": [
+    {
+      "type": 0,
+      "value": ">>> Hide <<<"
+    }
+  ],
+  "ffGOiZ": [
+    {
+      "type": 0,
+      "value": ">>> JPEG <<<"
+    }
+  ],
+  "fjt8Ea": [
+    {
+      "type": 0,
+      "value": ">>> Initializing "
+    },
+    {
+      "type": 1,
+      "value": "objName"
+    },
+    {
+      "type": 0,
+      "value": " Session <<<"
+    }
+  ],
+  "flQ8zs": [
+    {
+      "type": 0,
+      "value": ">>> Investments <<<"
+    }
+  ],
+  "fouH5d": [
+    {
+      "type": 0,
+      "value": ">>> Image <<<"
+    }
+  ],
+  "fpZowG": [
+    {
+      "type": 0,
+      "value": ">>> Your query is being duplicated... <<<"
+    }
+  ],
+  "fwnxDQ": [
+    {
+      "type": 0,
+      "value": ">>> Definition Error <<<"
+    }
+  ],
+  "fxeg7V": [
+    {
+      "type": 0,
+      "value": ">>> inputs <<<"
+    }
+  ],
+  "g+RTYU": [
+    {
+      "type": 0,
+      "value": ">>> Show <<<"
+    }
+  ],
+  "g3D/B8": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "mLength"
+    },
+    {
+      "type": 0,
+      "value": " Failed Tests <<<"
+    }
+  ],
+  "g3y9j6": [
+    {
+      "type": 0,
+      "value": ">>> Decision <<<"
+    }
+  ],
+  "gERHNn": [
+    {
+      "type": 0,
+      "value": ">>> CH <<<"
+    }
+  ],
+  "gGg0Gj": [
+    {
+      "type": 0,
+      "value": ">>> Total (in period) <<<"
+    }
+  ],
+  "gNtbSh": [
+    {
+      "type": 0,
+      "value": ">>> Optimization Iteration Points <<<"
+    }
+  ],
+  "gdI6Z8": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": " Version <<<"
+    }
+  ],
+  "gdTLE+": [
+    {
+      "type": 0,
+      "value": ">>> Database <<<"
+    }
+  ],
+  "gdnpsb": [
+    {
+      "type": 0,
+      "value": ">>> Marker Mode <<<"
+    }
+  ],
+  "goASoI": [
+    {
+      "type": 0,
+      "value": ">>> Tree <<<"
+    }
+  ],
+  "gq1DfK": [
+    {
+      "type": 0,
+      "value": ">>> Correlation <<<"
+    }
+  ],
+  "gqGY8m": [
+    {
+      "type": 0,
+      "value": ">>> Input Frequency <<<"
+    }
+  ],
+  "gx0zL7": [
+    {
+      "type": 0,
+      "value": ">>> When a grid has been on for longer than specified: <<<"
+    }
+  ],
+  "h1uUic": [
+    {
+      "type": 0,
+      "value": ">>> Ignore warning and show the table content <<<"
+    }
+  ],
+  "h2JLOS": [
+    {
+      "type": 0,
+      "value": ">>> Your query is loading... <<<"
+    }
+  ],
+  "hB6bnK": [
+    {
+      "type": 0,
+      "value": ">>> The Reports Library is a set of analytic reports that perform computations on the raw output of a simulation and display the results in tabular and graphical form. The reports have been designed to implement analytics ranging from basic to advanced, and to provide great flexibility in adjusting the details of the computations to suit the particular needs of the user. <<<"
+    }
+  ],
+  "hBcy71": [
+    {
+      "type": 0,
+      "value": ">>> Coarsest <<<"
+    }
+  ],
+  "hJPnsY": [
+    {
+      "type": 0,
+      "value": ">>> Asset Class: <<<"
+    }
+  ],
+  "hMD5q0": [
+    {
+      "type": 0,
+      "value": ">>> Can Sort <<<"
+    }
+  ],
+  "hNahZw": [
+    {
+      "type": 0,
+      "value": ">>> Save Time <<<"
+    }
+  ],
+  "hSlS9I": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "hour"
+    },
+    {
+      "type": 0,
+      "value": " hrs <<<"
+    }
+  ],
+  "hTeGZ3": [
+    {
+      "type": 0,
+      "value": ">>> Close Window <<<"
+    }
+  ],
+  "hVNHbT": [
+    {
+      "type": 0,
+      "value": ">>> Rows <<<"
+    }
+  ],
+  "hYF5de": [
+    {
+      "type": 0,
+      "value": ">>> Cycle Grid Lines <<<"
+    }
+  ],
+  "haaLjF": [
+    {
+      "type": 0,
+      "value": ">>> Sort Selected Coordinates Alphabetically Ascending <<<"
+    }
+  ],
+  "hgOG3+": [
+    {
+      "type": 0,
+      "value": ">>> Percentile Ranges <<<"
+    }
+  ],
+  "hiSUFd": [
+    {
+      "type": 0,
+      "value": ">>> Simulate <<<"
+    }
+  ],
+  "ho8Mwn": [
+    {
+      "type": 0,
+      "value": ">>> Subscription Type <<<"
+    }
+  ],
+  "huCVql": [
+    {
+      "type": 0,
+      "value": ">>> Auto <<<"
+    }
+  ],
+  "i+XZpI": [
+    {
+      "type": 0,
+      "value": ">>> Done <<<"
+    }
+  ],
+  "i34Oqt": [
+    {
+      "type": 0,
+      "value": ">>> Asset Class Price Return <<<"
+    }
+  ],
+  "i3lDnM": [
+    {
+      "type": 0,
+      "value": ">>> View <<<"
+    }
+  ],
+  "i4EZMC": [
+    {
+      "type": 0,
+      "value": ">>> Waiting for result to be ready... <<<"
+    }
+  ],
+  "i4JXFn": [
+    {
+      "type": 0,
+      "value": ">>> Sorted Z-A <<<"
+    }
+  ],
+  "i4Y7Yr": [
+    {
+      "type": 0,
+      "value": ">>> PL <<<"
+    }
+  ],
+  "i8+n79": [
+    {
+      "type": 0,
+      "value": ">>> Simulations <<<"
+    }
+  ],
+  "iINS8i": [
+    {
+      "type": 0,
+      "value": ">>> Reset "
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "iLaZhW": [
+    {
+      "type": 0,
+      "value": ">>> Default levels <<<"
+    }
+  ],
+  "iMQWQp": [
+    {
+      "type": 0,
+      "value": ">>> Links <<<"
+    }
+  ],
+  "iOC3/n": [
+    {
+      "type": 0,
+      "value": ">>> Delete Selected Axis Coordinate(s) <<<"
+    }
+  ],
+  "iOH7PW": [
+    {
+      "type": 0,
+      "value": ">>> Errors <<<"
+    }
+  ],
+  "iaSliF": [
+    {
+      "type": 0,
+      "value": ">>> Report <<<"
+    }
+  ],
+  "iakvzh": [
+    {
+      "type": 0,
+      "value": ">>> Variables <<<"
+    }
+  ],
+  "idb7ip": [
+    {
+      "type": 0,
+      "value": ">>> Non Computed <<<"
+    }
+  ],
+  "ijaXWD": [
+    {
+      "type": 0,
+      "value": ">>> Markets <<<"
+    }
+  ],
+  "ik0/4F": [
+    {
+      "type": 0,
+      "value": ">>> File <<<"
+    }
+  ],
+  "ikzl6N": [
+    {
+      "type": 0,
+      "value": ">>> Show log messages <<<"
+    }
+  ],
+  "imTxj3": [
+    {
+      "type": 0,
+      "value": ">>> Distribution Percentiles <<<"
+    }
+  ],
+  "ir1X1w": [
+    {
+      "type": 0,
+      "value": ">>> Tag Value <<<"
+    }
+  ],
+  "ivfs/D": [
+    {
+      "type": 0,
+      "value": ">>> Components <<<"
+    }
+  ],
+  "ixBR4O": [
+    {
+      "type": 0,
+      "value": ">>> Previous parameters <<<"
+    }
+  ],
+  "iz8/YI": [
+    {
+      "type": 0,
+      "value": ">>> Notifications <<<"
+    }
+  ],
+  "izI4ug": [
+    {
+      "type": 0,
+      "value": ">>> Last month <<<"
+    }
+  ],
+  "j0BjBV": [
+    {
+      "type": 0,
+      "value": ">>> Climate Risk Analysis <<<"
+    }
+  ],
+  "j1fyl9": [
+    {
+      "type": 0,
+      "value": ">>> Queries <<<"
+    }
+  ],
+  "j2DK6m": [
+    {
+      "type": 0,
+      "value": ">>> Past year <<<"
+    }
+  ],
+  "j4O20w": [
+    {
+      "type": 0,
+      "value": ">>> Collapsed (Vertical) <<<"
+    }
+  ],
+  "j4R5Ui": [
+    {
+      "type": 0,
+      "value": ">>> Email <<<"
+    }
+  ],
+  "j6A8F4": [
+    {
+      "type": 0,
+      "value": ">>> Preferences <<<"
+    }
+  ],
+  "j9RA2K": [
+    {
+      "type": 0,
+      "value": ">>> Grid Jobs <<<"
+    }
+  ],
+  "jJ+zoM": [
+    {
+      "type": 0,
+      "value": ">>> Batch Export Special <<<"
+    }
+  ],
+  "jPBs4V": [
+    {
+      "type": 0,
+      "value": ">>> GMT Time <<<"
+    }
+  ],
+  "jPQuah": [
+    {
+      "type": 0,
+      "value": ">>> Values <<<"
+    }
+  ],
+  "jTO4DZ": [
+    {
+      "type": 0,
+      "value": ">>> Waiting <<<"
+    }
+  ],
+  "jc5ej+": [
+    {
+      "type": 0,
+      "value": ">>> Asset Class Income Return <<<"
+    }
+  ],
+  "jk/bOa": [
+    {
+      "type": 0,
+      "value": ">>> Detailed <<<"
+    }
+  ],
+  "juluWk": [
+    {
+      "type": 0,
+      "value": ">>> Navigation Mode <<<"
+    }
+  ],
+  "jxTAfX": [
+    {
+      "type": 0,
+      "value": ">>> Cash <<<"
+    }
+  ],
+  "jyqOsw": [
+    {
+      "type": 0,
+      "value": ">>> Format Axis <<<"
+    }
+  ],
+  "k1OEC7": [
+    {
+      "type": 0,
+      "value": ">>> Elements <<<"
+    }
+  ],
+  "k2qsoE": [
+    {
+      "type": 0,
+      "value": ">>> Expert Search Mode <<<"
+    }
+  ],
+  "k6w0gD": [
+    {
+      "type": 0,
+      "value": ">>> Definition File (.DFA) <<<"
+    }
+  ],
+  "kChfJB": [
+    {
+      "type": 0,
+      "value": ">>> When a simulation encounters an error during generation. <<<"
+    }
+  ],
+  "kGlISf": [
+    {
+      "type": 0,
+      "value": ">>> Upload File or Folder <<<"
+    }
+  ],
+  "kJLpXV": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "impliedAxes"
+    },
+    {
+      "type": 0,
+      "value": " implied axis is currently shown <<<"
+    }
+  ],
+  "kM7rHs": [
+    {
+      "type": 0,
+      "value": ">>> Page <<<"
+    }
+  ],
+  "kO/62h": [
+    {
+      "type": 0,
+      "value": ">>> Box <<<"
+    }
+  ],
+  "kOdiRp": [
+    {
+      "type": 0,
+      "value": ">>> Column Coordinate Selection <<<"
+    }
+  ],
+  "kUMWWm": [
+    {
+      "type": 0,
+      "value": ">>> When a simulation has been running for longer than specified: <<<"
+    }
+  ],
+  "kW3htX": [
+    {
+      "type": 0,
+      "value": ">>> Bounds <<<"
+    }
+  ],
+  "kbx42i": [
+    {
+      "type": 0,
+      "value": ">>> Year <<<"
+    }
+  ],
+  "kenBd2": [
+    {
+      "type": 0,
+      "value": ">>> Yield <<<"
+    }
+  ],
+  "kf5pLv": [
+    {
+      "type": 0,
+      "value": ">>> Roll forward to <<<"
+    }
+  ],
+  "knxsO9": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "hour"
+    },
+    {
+      "type": 1,
+      "value": "minute"
+    },
+    {
+      "type": 1,
+      "value": "second"
+    },
+    {
+      "type": 0,
+      "value": "left... <<<"
+    }
+  ],
+  "ksFqoA": [
+    {
+      "type": 0,
+      "value": ">>> Tenant: <<<"
+    }
+  ],
+  "kwreP1": [
+    {
+      "type": 0,
+      "value": ">>> Reference Mean: <<<"
+    }
+  ],
+  "l+IzqY": [
+    {
+      "type": 0,
+      "value": ">>> Append to other existing "
+    },
+    {
+      "type": 1,
+      "value": "userFile"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "l3fjWp": [
+    {
+      "type": 0,
+      "value": ">>> Accept Calibration <<<"
+    }
+  ],
+  "l67epJ": [
+    {
+      "type": 0,
+      "value": ">>> Created Time <<<"
+    }
+  ],
+  "l7oDrf": [
+    {
+      "type": 0,
+      "value": ">>> Truncation warning: showing only the first "
+    },
+    {
+      "type": 1,
+      "value": "i"
+    },
+    {
+      "type": 0,
+      "value": " of "
+    },
+    {
+      "type": 1,
+      "value": "total"
+    },
+    {
+      "type": 0,
+      "value": " messages <<<"
+    }
+  ],
+  "lJuh7h": [
+    {
+      "type": 0,
+      "value": ">>> to get back to the homepage. <<<"
+    }
+  ],
+  "lLahS5": [
+    {
+      "type": 0,
+      "value": ">>> Split tables <<<"
+    }
+  ],
+  "lNOKSd": [
+    {
+      "type": 0,
+      "value": ">>> Contact Us <<<"
+    }
+  ],
+  "lRUFTU": [
+    {
+      "type": 0,
+      "value": ">>> Lambda Value <<<"
+    }
+  ],
+  "lRy5dz": [
+    {
+      "type": 0,
+      "value": ">>> Color <<<"
+    }
+  ],
+  "lWhkzp": [
+    {
+      "type": 0,
+      "value": ">>> Minimum <<<"
+    }
+  ],
+  "lZ8bvs": [
+    {
+      "type": 0,
+      "value": ">>> Real World <<<"
+    }
+  ],
+  "ldJxSO": [
+    {
+      "type": 0,
+      "value": ">>> Starting query... <<<"
+    }
+  ],
+  "lgtouZ": [
+    {
+      "type": 0,
+      "value": ">>> Delete Selected "
+    },
+    {
+      "type": 1,
+      "value": "rowOrColumnLabel"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "lsF3VP": [
+    {
+      "type": 0,
+      "value": ">>> Language <<<"
+    }
+  ],
+  "lwxvxN": [
+    {
+      "type": 0,
+      "value": ">>> This action cannot be undone. <<<"
+    }
+  ],
+  "lytiDj": [
+    {
+      "type": 0,
+      "value": ">>> Computation initiated <<<"
+    }
+  ],
+  "m/TqtX": [
+    {
+      "type": 0,
+      "value": ">>> My Recent <<<"
+    }
+  ],
+  "m1wsIk": [
+    {
+      "type": 0,
+      "value": ">>> Computation <<<"
+    }
+  ],
+  "m5Mn+k": [
+    {
+      "type": 0,
+      "value": ">>> Delete Tag <<<"
+    }
+  ],
+  "m5VAtL": [
+    {
+      "type": 0,
+      "value": ">>> Reset <<<"
+    }
+  ],
+  "m8sY6B": [
+    {
+      "type": 0,
+      "value": ">>> Quick Filters: <<<"
+    }
+  ],
+  "mA6zBY": [
+    {
+      "type": 0,
+      "value": ">>> Today <<<"
+    }
+  ],
+  "mBKB3i": [
+    {
+      "type": 0,
+      "value": ">>> Seconds <<<"
+    }
+  ],
+  "mC8mut": [
+    {
+      "type": 0,
+      "value": ">>> MX <<<"
+    }
+  ],
+  "mCuHgG": [
+    {
+      "type": 0,
+      "value": ">>> Tax <<<"
+    }
+  ],
+  "mEeeNE": [
+    {
+      "type": 0,
+      "value": ">>> (row "
+    },
+    {
+      "type": 1,
+      "value": "displayIndex"
+    },
+    {
+      "type": 0,
+      "value": ") <<<"
+    }
+  ],
+  "mNd65N": [
+    {
+      "type": 0,
+      "value": ">>> New "
+    },
+    {
+      "type": 1,
+      "value": "followingText"
+    },
+    {
+      "type": 0,
+      "value": " Session <<<"
+    }
+  ],
+  "mRfr4S": [
+    {
+      "type": 0,
+      "value": ">>> Pending Upload: "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "mUtDYW": [
+    {
+      "type": 0,
+      "value": ">>> Fill: <<<"
+    }
+  ],
+  "mVy8Ly": [
+    {
+      "type": 0,
+      "value": ">>> Append Items from Clipboard <<<"
+    }
+  ],
+  "mXjU8O": [
+    {
+      "type": 0,
+      "value": ">>> Billions <<<"
+    }
+  ],
+  "mcsMdc": [
+    {
+      "type": 0,
+      "value": ">>> Scenarios <<<"
+    }
+  ],
+  "mfsMdI": [
+    {
+      "type": 0,
+      "value": ">>> Database saved <<<"
+    }
+  ],
+  "mgaiRD": [
+    {
+      "type": 0,
+      "value": ">>> MY <<<"
+    }
+  ],
+  "mi3JQ2": [
+    {
+      "type": 0,
+      "value": ">>> File Name <<<"
+    }
+  ],
+  "miLvbR": [
+    {
+      "type": 0,
+      "value": ">>> Percentile <<<"
+    }
+  ],
+  "mjl5pJ": [
+    {
+      "type": 0,
+      "value": ">>> Change Queried Simulation(s) <<<"
+    }
+  ],
+  "n6pXWx": [
+    {
+      "type": 0,
+      "value": ">>> Time = 0 (if different) <<<"
+    }
+  ],
+  "nAGTv0": [
+    {
+      "type": 0,
+      "value": ">>> Scenario Summary <<<"
+    }
+  ],
+  "nCQKP1": [
+    {
+      "type": 0,
+      "value": ">>> Financial Markets <<<"
+    }
+  ],
+  "nJiD6g": [
+    {
+      "type": 0,
+      "value": ">>> Export module selections <<<"
+    }
+  ],
+  "nPo+VJ": [
+    {
+      "type": 0,
+      "value": ">>> Semimonthly (24) <<<"
+    }
+  ],
+  "naxbf9": [
+    {
+      "type": 0,
+      "value": ">>> Run <<<"
+    }
+  ],
+  "niDepP": [
+    {
+      "type": 0,
+      "value": ">>> Remove Statistic {statistic}? <<<"
+    }
+  ],
+  "njgUDG": [
+    {
+      "type": 0,
+      "value": ">>> Card <<<"
+    }
+  ],
+  "nmQd0J": [
+    {
+      "type": 0,
+      "value": ">>> CSV Files <<<"
+    }
+  ],
+  "noEuYV": [
+    {
+      "type": 0,
+      "value": ">>> Add a Statistic... <<<"
+    }
+  ],
+  "noq9g1": [
+    {
+      "type": 0,
+      "value": ">>> Variables Layout <<<"
+    }
+  ],
+  "ns4pdR": [
+    {
+      "type": 0,
+      "value": ">>> Installer Download <<<"
+    }
+  ],
+  "nuaaLr": [
+    {
+      "type": 0,
+      "value": ">>> Paste content: <<<"
+    }
+  ],
+  "nzGFNr": [
+    {
+      "type": 0,
+      "value": ">>> Module Selection <<<"
+    }
+  ],
+  "o1K/Sr": [
+    {
+      "type": 0,
+      "value": ">>> Remove this Clause <<<"
+    }
+  ],
+  "oN+oPW": [
+    {
+      "type": 0,
+      "value": ">>> Time > 0 <<<"
+    }
+  ],
+  "oNX7VO": [
+    {
+      "type": 0,
+      "value": ">>> When a simulation completes the 'compile' phase. <<<"
+    }
+  ],
+  "oZ+icv": [
+    {
+      "type": 0,
+      "value": ">>> Modify Query <<<"
+    }
+  ],
+  "ocWZ8U": [
+    {
+      "type": 0,
+      "value": ">>> Sign-out <<<"
+    }
+  ],
+  "ogo6A/": [
+    {
+      "type": 0,
+      "value": ">>> Manager <<<"
+    }
+  ],
+  "ohSL80": [
+    {
+      "type": 0,
+      "value": ">>> Query <<<"
+    }
+  ],
+  "oiQUkk": [
+    {
+      "type": 0,
+      "value": ">>> Support <<<"
+    }
+  ],
+  "ok7Eiw": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "size"
+    },
+    {
+      "type": 0,
+      "value": "MB <<<"
+    }
+  ],
+  "okUJjV": [
+    {
+      "type": 0,
+      "value": ">>> Input Metadata <<<"
+    }
+  ],
+  "osl+ny": [
+    {
+      "type": 0,
+      "value": ">>> (File Upload) <<<"
+    }
+  ],
+  "oyunNi": [
+    {
+      "type": 0,
+      "value": ">>> Remove Value <<<"
+    }
+  ],
+  "ozmtLO": [
+    {
+      "type": 0,
+      "value": ">>> Can Search <<<"
+    }
+  ],
+  "ozpyRk": [
+    {
+      "type": 0,
+      "value": ">>> Required <<<"
+    }
+  ],
+  "p0mA7f": [
+    {
+      "type": 0,
+      "value": ">>> Show Them <<<"
+    }
+  ],
+  "p4uXdh": [
+    {
+      "type": 0,
+      "value": ">>> Replace <<<"
+    }
+  ],
+  "pDoVjX": [
+    {
+      "type": 0,
+      "value": ">>> Decrease Font Size <<<"
+    }
+  ],
+  "pGuRkr": [
+    {
+      "type": 0,
+      "value": ">>> New Local File <<<"
+    }
+  ],
+  "pNJBVK": [
+    {
+      "type": 0,
+      "value": ">>> Toggle Sensitivity <<<"
+    }
+  ],
+  "pP5Z69": [
+    {
+      "type": 0,
+      "value": ">>> DK <<<"
+    }
+  ],
+  "pXVCXW": [
+    {
+      "type": 0,
+      "value": ">>> Set Visible <<<"
+    }
+  ],
+  "pax+nw": [
+    {
+      "type": 0,
+      "value": ">>> Selection: <<<"
+    }
+  ],
+  "pbdH4c": [
+    {
+      "type": 0,
+      "value": ">>> Simulation Canceled <<<"
+    }
+  ],
+  "pdJjXO": [
+    {
+      "type": 0,
+      "value": ">>> Reset Zoom <<<"
+    }
+  ],
+  "pdpFyH": [
+    {
+      "type": 0,
+      "value": ">>> X <<<"
+    }
+  ],
+  "pnHioS": [
+    {
+      "type": 0,
+      "value": ">>> Preview <<<"
+    }
+  ],
+  "psHDEx": [
+    {
+      "type": 0,
+      "value": ">>> Support <<<"
+    }
+  ],
+  "pzg9dt": [
+    {
+      "type": 0,
+      "value": ">>> Software Legal Notices <<<"
+    }
+  ],
+  "q/2roj": [
+    {
+      "type": 0,
+      "value": ">>> Preparing to initialize Queries ... <<<"
+    }
+  ],
+  "q/kcIC": [
+    {
+      "type": 0,
+      "value": ">>> Paste <<<"
+    }
+  ],
+  "q08vFi": [
+    {
+      "type": 0,
+      "value": ">>> Initializing Resources... <<<"
+    }
+  ],
+  "q7AFlf": [
+    {
+      "type": 0,
+      "value": ">>> Distinct <<<"
+    }
+  ],
+  "qBny4b": [
+    {
+      "type": 0,
+      "value": ">>> Cumulative Returns <<<"
+    }
+  ],
+  "qDVJBV": [
+    {
+      "type": 0,
+      "value": ">>> Row <<<"
+    }
+  ],
+  "qH/qn3": [
+    {
+      "type": 0,
+      "value": ">>> Configuration <<<"
+    }
+  ],
+  "qLwXDs": [
+    {
+      "type": 0,
+      "value": ">>> Hide (Inactive) <<<"
+    }
+  ],
+  "qOj+9a": [
+    {
+      "type": 0,
+      "value": ">>> No grid <<<"
+    }
+  ],
+  "qRSqgE": [
+    {
+      "type": 0,
+      "value": ">>> Version <<<"
+    }
+  ],
+  "qV0hw3": [
+    {
+      "type": 0,
+      "value": ">>> No results available <<<"
+    }
+  ],
+  "qZFzt7": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "minute"
+    },
+    {
+      "type": 0,
+      "value": " min <<<"
+    }
+  ],
+  "qdHPpq": [
+    {
+      "type": 0,
+      "value": ">>> Modules <<<"
+    }
+  ],
+  "qe61Jt": [
+    {
+      "type": 0,
+      "value": ">>> Settings <<<"
+    }
+  ],
+  "qeulKk": [
+    {
+      "type": 0,
+      "value": ">>> First Scenario"
+    },
+    {
+      "type": 1,
+      "value": "br"
+    },
+    {
+      "type": 0,
+      "value": "Average Times <<<"
+    }
+  ],
+  "qjegtW": [
+    {
+      "type": 0,
+      "value": ">>> Billing Report <<<"
+    }
+  ],
+  "qjkFrB": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "\""
+        },
+        {
+          "children": [
+            {
+              "type": 1,
+              "value": "tagName"
+            }
+          ],
+          "type": 8,
+          "value": "b"
+        },
+        {
+          "type": 0,
+          "value": "\" already exists in type \""
+        },
+        {
+          "children": [
+            {
+              "type": 1,
+              "value": "objectType"
+            }
+          ],
+          "type": 8,
+          "value": "b"
+        },
+        {
+          "type": 0,
+          "value": "\""
+        }
+      ],
+      "type": 8,
+      "value": "div"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "qp8e10": [
+    {
+      "type": 0,
+      "value": ">>> None <<<"
+    }
+  ],
+  "qvBABT": [
+    {
+      "type": 0,
+      "value": ">>> Run <<<"
+    }
+  ],
+  "r+gEq1": [
+    {
+      "type": 0,
+      "value": ">>> Scenario generation <<<"
+    }
+  ],
+  "rAkwJv": [
+    {
+      "type": 0,
+      "value": ">>> CSV <<<"
+    }
+  ],
+  "rBkNP8": [
+    {
+      "type": 0,
+      "value": ">>> Timeout (mins) <<<"
+    }
+  ],
+  "rBkb4h": [
+    {
+      "type": 0,
+      "value": ">>> Line Mode <<<"
+    }
+  ],
+  "rE4LtA": [
+    {
+      "type": 0,
+      "value": ">>> Estimating upload time... <<<"
+    }
+  ],
+  "rEay6q": [
+    {
+      "type": 0,
+      "value": ">>> Query Specification <<<"
+    }
+  ],
+  "rJX6Xw": [
+    {
+      "type": 0,
+      "value": ">>> Bimonthly (6) <<<"
+    }
+  ],
+  "rU43We": [
+    {
+      "type": 0,
+      "value": ">>> Add tag... <<<"
+    }
+  ],
+  "rWwffF": [
+    {
+      "type": 0,
+      "value": ">>> Target <<<"
+    }
+  ],
+  "rWxN7G": [
+    {
+      "type": 0,
+      "value": ">>> Past 3 months <<<"
+    }
+  ],
+  "rYXiV8": [
+    {
+      "type": 0,
+      "value": ">>> Remove "
+    },
+    {
+      "type": 1,
+      "value": "tagName"
+    },
+    {
+      "type": 0,
+      "value": " Tag <<<"
+    }
+  ],
+  "raiSCB": [
+    {
+      "type": 0,
+      "value": ">>> Starting Year <<<"
+    }
+  ],
+  "rboiHa": [
+    {
+      "type": 0,
+      "value": ">>> Are you sure you want to replace the current selection? <<<"
+    }
+  ],
+  "rcGYaY": [
+    {
+      "type": 0,
+      "value": ">>> Additional Settings <<<"
+    }
+  ],
+  "rcM3jM": [
+    {
+      "type": 0,
+      "value": ">>> Rearranging... <<<"
+    }
+  ],
+  "rdrEFz": [
+    {
+      "type": 0,
+      "value": ">>> To latest message <<<"
+    }
+  ],
+  "rgecKw": [
+    {
+      "type": 0,
+      "value": ">>> User File <<<"
+    }
+  ],
+  "rj2nG3": [
+    {
+      "type": 0,
+      "value": ">>> Remove Tooltips <<<"
+    }
+  ],
+  "rkeeVt": [
+    {
+      "type": 0,
+      "value": ">>> Specification <<<"
+    }
+  ],
+  "rkpcdh": [
+    {
+      "type": 0,
+      "value": ">>> Minutes <<<"
+    }
+  ],
+  "rlxCak": [
+    {
+      "type": 0,
+      "value": ">>> Settings <<<"
+    }
+  ],
+  "rpnf9O": [
+    {
+      "type": 0,
+      "value": ">>> Scenario Processing <<<"
+    }
+  ],
+  "rq2lT9": [
+    {
+      "type": 0,
+      "value": ">>> Modified By <<<"
+    }
+  ],
+  "rxzzSE": [
+    {
+      "type": 0,
+      "value": ">>> Loading... <<<"
+    }
+  ],
+  "rybDJC": [
+    {
+      "type": 0,
+      "value": ">>> Linked Objects <<<"
+    }
+  ],
+  "s+QfcB": [
+    {
+      "type": 0,
+      "value": ">>> Source Type <<<"
+    }
+  ],
+  "s0RKoS": [
+    {
+      "type": 0,
+      "value": ">>> Monthly <<<"
+    }
+  ],
+  "s1GS+v": [
+    {
+      "type": 0,
+      "value": ">>> Batch Import Calibration Inputs <<<"
+    }
+  ],
+  "s2w86T": [
+    {
+      "type": 0,
+      "value": ">>> Report Range: <<<"
+    }
+  ],
+  "s33L0W": [
+    {
+      "type": 0,
+      "value": ">>> The simulation is in use by active query sessions and cannot be deleted <<<"
+    }
+  ],
+  "s8qYs6": [
+    {
+      "type": 0,
+      "value": ">>> Pre-adjustment Returns <<<"
+    }
+  ],
+  "sI+IeQ": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "objectType"
+    },
+    {
+      "type": 0,
+      "value": " Browser <<<"
+    }
+  ],
+  "sNC2E5": [
+    {
+      "type": 0,
+      "value": ">>> Estimated Time to "
+    },
+    {
+      "type": 1,
+      "value": "br"
+    },
+    {
+      "type": 0,
+      "value": " Database Saved <<<"
+    }
+  ],
+  "sPYDbT": [
+    {
+      "type": 0,
+      "value": ">>> Navigation Mode <<<"
+    }
+  ],
+  "sSTQhV": [
+    {
+      "type": 0,
+      "value": ">>> Only <<<"
+    }
+  ],
+  "sap+2L": [
+    {
+      "type": 0,
+      "value": ">>> Jump Up <<<"
+    }
+  ],
+  "scxFyQ": [
+    {
+      "type": 0,
+      "value": ">>> Column Series <<<"
+    }
+  ],
+  "si/kIw": [
+    {
+      "type": 0,
+      "value": ">>> Computing <<<"
+    }
+  ],
+  "sicrRV": [
+    {
+      "type": 0,
+      "value": ">>> Appending to file... <<<"
+    }
+  ],
+  "smom27": [
+    {
+      "type": 0,
+      "value": ">>> Add an Axis... <<<"
+    }
+  ],
+  "sp+4Vx": [
+    {
+      "type": 0,
+      "value": ">>> Data Frequencies <<<"
+    }
+  ],
+  "sy7GHZ": [
+    {
+      "type": 0,
+      "value": ">>> Mean <<<"
+    }
+  ],
+  "sys5b8": [
+    {
+      "type": 0,
+      "value": ">>> Job Type <<<"
+    }
+  ],
+  "t7OfiR": [
+    {
+      "type": 0,
+      "value": ">>> Lock Inputs <<<"
+    }
+  ],
+  "t7oNkh": [
+    {
+      "type": 0,
+      "value": ">>> Time-Steps <<<"
+    }
+  ],
+  "tRKAHr": [
+    {
+      "type": 0,
+      "value": ">>> Default Sort <<<"
+    }
+  ],
+  "tSeCOS": [
+    {
+      "type": 0,
+      "value": ">>> Export data for all model choices <<<"
+    }
+  ],
+  "tYmnyy": [
+    {
+      "type": 0,
+      "value": ">>> Error exists in definition, please fix before generating simulation results <<<"
+    }
+  ],
+  "tmyT2t": [
+    {
+      "type": 0,
+      "value": ">>> No changes since last run <<<"
+    }
+  ],
+  "tplSro": [
+    {
+      "type": 0,
+      "value": ">>> Sum <<<"
+    }
+  ],
+  "tr81FA": [
+    {
+      "type": 0,
+      "value": ">>> Lock <<<"
+    }
+  ],
+  "tx6QD9": [
+    {
+      "type": 0,
+      "value": ">>> Add notes to "
+    },
+    {
+      "type": 1,
+      "value": "path"
+    },
+    {
+      "type": 0,
+      "value": "… <<<"
+    }
+  ],
+  "u3uouh": [
+    {
+      "type": 0,
+      "value": ">>> Risk Neutral <<<"
+    }
+  ],
+  "u6FMJ9": [
+    {
+      "type": 0,
+      "value": ">>> Post-adjustment Returns <<<"
+    }
+  ],
+  "u6QENf": [
+    {
+      "type": 0,
+      "value": ">>> There has been no progress update for "
+    },
+    {
+      "type": 1,
+      "value": "minutes"
+    },
+    {
+      "type": 0,
+      "value": " minutes. Network activity may be preventing successful upload. Please retry <<<"
+    }
+  ],
+  "u9C5md": [
+    {
+      "type": 0,
+      "value": ">>> target date <<<"
+    }
+  ],
+  "uAFHU7": [
+    {
+      "type": 0,
+      "value": ">>> Maximum <<<"
+    }
+  ],
+  "uJPOJv": [
+    {
+      "type": 0,
+      "value": ">>> JP <<<"
+    }
+  ],
+  "uN7aNg": [
+    {
+      "type": 0,
+      "value": ">>> Your query returned no viewable data. <<<"
+    }
+  ],
+  "uOgAVj": [
+    {
+      "type": 0,
+      "value": ">>> Recalibration <<<"
+    }
+  ],
+  "uQ/4Tk": [
+    {
+      "type": 0,
+      "value": ">>> Number of Resamples: <<<"
+    }
+  ],
+  "uYB6V8": [
+    {
+      "type": 0,
+      "value": ">>> Add timestamp <<<"
+    }
+  ],
+  "uYEeNB": [
+    {
+      "type": 0,
+      "value": ">>> Rename <<<"
+    }
+  ],
+  "uagSmG": [
+    {
+      "type": 0,
+      "value": ">>> Initializing Session <<<"
+    }
+  ],
+  "uduJ/r": [
+    {
+      "type": 0,
+      "value": ">>> Running <<<"
+    }
+  ],
+  "uhFfp4": [
+    {
+      "type": 0,
+      "value": ">>> Return to Query Specification <<<"
+    }
+  ],
+  "uhygAl": [
+    {
+      "type": 0,
+      "value": ">>> Add New Section <<<"
+    }
+  ],
+  "uiSdhC": [
+    {
+      "type": 0,
+      "value": ">>> Add A New Tag Value <<<"
+    }
+  ],
+  "ulqYS2": [
+    {
+      "type": 0,
+      "value": ">>> Run Query Specification <<<"
+    }
+  ],
+  "uqT2PR": [
+    {
+      "type": 0,
+      "value": ">>> Output saved <<<"
+    }
+  ],
+  "uyPhME": [
+    {
+      "type": 0,
+      "value": ">>> SE <<<"
+    }
+  ],
+  "v+dmLk": [
+    {
+      "type": 0,
+      "value": ">>> Random Points <<<"
+    }
+  ],
+  "v2+BYF": [
+    {
+      "type": 0,
+      "value": ">>> PDF <<<"
+    }
+  ],
+  "v3hCua": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "simulation"
+    },
+    {
+      "type": 0,
+      "value": " In Use <<<"
+    }
+  ],
+  "v4b01p": [
+    {
+      "type": 0,
+      "value": ">>> Batch Export <<<"
+    }
+  ],
+  "v6KbLv": [
+    {
+      "type": 0,
+      "value": ">>> Insert 1 Axis Coordinate Before <<<"
+    }
+  ],
+  "vFEpE4": [
+    {
+      "type": 0,
+      "value": ">>> Hide <<<"
+    }
+  ],
+  "vLaZgQ": [
+    {
+      "type": 0,
+      "value": ">>> Status <<<"
+    }
+  ],
+  "vXdLkt": [
+    {
+      "type": 0,
+      "value": ">>> Batch import file contains "
+    },
+    {
+      "type": 1,
+      "value": "cError"
+    },
+    {
+      "type": 0,
+      "value": " errors and "
+    },
+    {
+      "type": 1,
+      "value": "cWarning"
+    },
+    {
+      "type": 0,
+      "value": " warnings <<<"
+    }
+  ],
+  "vay96S": [
+    {
+      "type": 0,
+      "value": ">>> Vertical <<<"
+    }
+  ],
+  "ve7wpr": [
+    {
+      "type": 0,
+      "value": ">>> Loading Correlation Matrix... <<<"
+    }
+  ],
+  "vf7z1s": [
+    {
+      "type": 0,
+      "value": ">>> US <<<"
+    }
+  ],
+  "vfr9oF": [
+    {
+      "type": 0,
+      "value": ">>> Selection <<<"
+    }
+  ],
+  "vgDBu7": [
+    {
+      "type": 0,
+      "value": ">>> Browse <<<"
+    }
+  ],
+  "vgg7tN": [
+    {
+      "type": 0,
+      "value": ">>> Insert <<<"
+    }
+  ],
+  "vhLO2E": [
+    {
+      "type": 0,
+      "value": ">>> Show display units label on chart <<<"
+    }
+  ],
+  "vptmDV": [
+    {
+      "type": 0,
+      "value": ">>> Text Message <<<"
+    }
+  ],
+  "vw565s": [
+    {
+      "type": 0,
+      "value": ">>> Combine tables <<<"
+    }
+  ],
+  "w66hnl": [
+    {
+      "type": 0,
+      "value": ">>> Creating Simulation... <<<"
+    }
+  ],
+  "w6DI5w": [
+    {
+      "type": 0,
+      "value": ">>> Scatter <<<"
+    }
+  ],
+  "wB+QGO": [
+    {
+      "type": 0,
+      "value": ">>> Loading query result... <<<"
+    }
+  ],
+  "wEOyxZ": [
+    {
+      "type": 0,
+      "value": ">>> Batch Import Parameters <<<"
+    }
+  ],
+  "wGMikk": [
+    {
+      "type": 0,
+      "value": ">>> Reserved <<<"
+    }
+  ],
+  "wM1Tva": [
+    {
+      "type": 0,
+      "value": ">>> Scenarios <<<"
+    }
+  ],
+  "wNxRmb": [
+    {
+      "type": 0,
+      "value": ">>> Add Column... <<<"
+    }
+  ],
+  "wO7YUQ": [
+    {
+      "type": 0,
+      "value": ">>> Sort Selected Coordinates Alphabetically Descending <<<"
+    }
+  ],
+  "wRmIVC": [
+    {
+      "type": 0,
+      "value": ">>> Except <<<"
+    }
+  ],
+  "wSVtPj": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "query"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "following"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "wUDDmN": [
+    {
+      "type": 0,
+      "value": ">>> Triannually (3) <<<"
+    }
+  ],
+  "wXe6p3": [
+    {
+      "type": 0,
+      "value": ">>> Specification <<<"
+    }
+  ],
+  "wYRy3R": [
+    {
+      "type": 0,
+      "value": ">>> Expand All <<<"
+    }
+  ],
+  "wZxfkO": [
+    {
+      "type": 0,
+      "value": ">>> Duplicate in new tab <<<"
+    }
+  ],
+  "wcPWcm": [
+    {
+      "type": 0,
+      "value": ">>> Reset Query Specification <<<"
+    }
+  ],
+  "wcy62B": [
+    {
+      "type": 0,
+      "value": ">>> Manage Object Schemas <<<"
+    }
+  ],
+  "wlSjBi": [
+    {
+      "type": 0,
+      "value": ">>> View Active Queries <<<"
+    }
+  ],
+  "wlTJBV": [
+    {
+      "type": 0,
+      "value": ">>> Test <<<"
+    }
+  ],
+  "wlzzUh": [
+    {
+      "type": 0,
+      "value": ">>> Input locked while running. <<<"
+    }
+  ],
+  "wmsMd3": [
+    {
+      "type": 0,
+      "value": ">>> Note <<<"
+    }
+  ],
+  "woiTFO": [
+    {
+      "type": 0,
+      "value": ">>> Without <<<"
+    }
+  ],
+  "ww91nc": [
+    {
+      "type": 0,
+      "value": ">>> Set targets to match those implied by: <<<"
+    }
+  ],
+  "x2PDld": [
+    {
+      "type": 0,
+      "value": ">>> Finish (UTC) <<<"
+    }
+  ],
+  "x3Za2s": [
+    {
+      "type": 0,
+      "value": ">>> Value <<<"
+    }
+  ],
+  "xMnB20": [
+    {
+      "type": 0,
+      "value": ">>> Cumulative Density Function <<<"
+    }
+  ],
+  "xPGg/Z": [
+    {
+      "type": 0,
+      "value": ">>> Name <<<"
+    }
+  ],
+  "xPVy94": [
+    {
+      "type": 0,
+      "value": ">>> * The specified resource was still active at time of reporting. <<<"
+    }
+  ],
+  "xR4qs+": [
+    {
+      "type": 0,
+      "value": ">>> Import Query Specification <<<"
+    }
+  ],
+  "xRW3L9": [
+    {
+      "type": 0,
+      "value": ">>> Past 6 months <<<"
+    }
+  ],
+  "xSrI40": [
+    {
+      "type": 0,
+      "value": ">>> Configuration <<<"
+    }
+  ],
+  "xVL+dt": [
+    {
+      "type": 0,
+      "value": ">>> Catalog Categories <<<"
+    }
+  ],
+  "xW8Fjg": [
+    {
+      "type": 0,
+      "value": ">>> Less info <<<"
+    }
+  ],
+  "xWvmPZ": [
+    {
+      "type": 0,
+      "value": ">>> Open \""
+    },
+    {
+      "type": 1,
+      "value": "simName"
+    },
+    {
+      "type": 0,
+      "value": "\" <<<"
+    }
+  ],
+  "xbFWPy": [
+    {
+      "type": 0,
+      "value": ">>> Row Axes <<<"
+    }
+  ],
+  "xeprFY": [
+    {
+      "type": 0,
+      "value": ">>> Items "
+    },
+    {
+      "type": 1,
+      "value": "start"
+    },
+    {
+      "type": 0,
+      "value": " to "
+    },
+    {
+      "type": 1,
+      "value": "end"
+    },
+    {
+      "type": 0,
+      "value": " of "
+    },
+    {
+      "type": 1,
+      "value": "total"
+    },
+    {
+      "type": 0,
+      "value": " <<<"
+    }
+  ],
+  "xkgWb9": [
+    {
+      "type": 0,
+      "value": ">>> Status <<<"
+    }
+  ],
+  "xmeSUs": [
+    {
+      "type": 0,
+      "value": ">>> Chart <<<"
+    }
+  ],
+  "xpUIq1": [
+    {
+      "type": 0,
+      "value": ">>> AR <<<"
+    }
+  ],
+  "xz4f1z": [
+    {
+      "type": 0,
+      "value": ">>> In <<<"
+    }
+  ],
+  "y6xyP/": [
+    {
+      "type": 0,
+      "value": ">>> Series Identification / Value <<<"
+    }
+  ],
+  "yAcw86": [
+    {
+      "type": 0,
+      "value": ">>> Point Value <<<"
+    }
+  ],
+  "yC+byp": [
+    {
+      "type": 0,
+      "value": ">>> Grid Name <<<"
+    }
+  ],
+  "yDf4C+": [
+    {
+      "type": 0,
+      "value": ">>> Are you sure you want to cancel the "
+    },
+    {
+      "type": 1,
+      "value": "jobType"
+    },
+    {
+      "type": 0,
+      "value": " job? <<<"
+    }
+  ],
+  "yGG5+H": [
+    {
+      "type": 0,
+      "value": ">>> Cloudwatch <<<"
+    }
+  ],
+  "yNw7Vb": [
+    {
+      "type": 0,
+      "value": ">>> Distribution of Outcomes <<<"
+    }
+  ],
+  "yOm8Y3": [
+    {
+      "type": 0,
+      "value": ">>> Download latest version <<<"
+    }
+  ],
+  "yT8zl0": [
+    {
+      "type": 0,
+      "value": ">>> Toggle {label} ("
+    },
+    {
+      "type": 1,
+      "value": "drawStatus"
+    },
+    {
+      "type": 0,
+      "value": ") <<<"
+    }
+  ],
+  "yTMK9t": [
+    {
+      "type": 0,
+      "value": ">>> Inputs saved <<<"
+    }
+  ],
+  "yYzdF1": [
+    {
+      "type": 0,
+      "value": ">>> Show Log <<<"
+    }
+  ],
+  "yZLgeX": [
+    {
+      "type": 0,
+      "value": ">>> Resample Size: <<<"
+    }
+  ],
+  "ya3AC6": [
+    {
+      "type": 0,
+      "value": ">>> Data Storage Charge per Day <<<"
+    }
+  ],
+  "ykyfuQ": [
+    {
+      "type": 0,
+      "value": ">>> Version <<<"
+    }
+  ],
+  "ynYLUx": [
+    {
+      "type": 0,
+      "value": ">>> by Row <<<"
+    }
+  ],
+  "yvP9x6": [
+    {
+      "type": 0,
+      "value": ">>> Compiler <<<"
+    }
+  ],
+  "yw3HBS": [
+    {
+      "type": 0,
+      "value": ">>> Your upload was interrupted or stopped accidentally <<<"
+    }
+  ],
+  "z/abIq": [
+    {
+      "type": 0,
+      "value": ">>> User <<<"
+    }
+  ],
+  "z2zUU3": [
+    {
+      "type": 0,
+      "value": ">>> Axis Coordinate(s) <<<"
+    }
+  ],
+  "zBxCFU": [
+    {
+      "type": 0,
+      "value": ">>> Increase Line Size <<<"
+    }
+  ],
+  "zDWZyc": [
+    {
+      "type": 0,
+      "value": ">>> Reading Pages <<<"
+    }
+  ],
+  "zGIvZI": [
+    {
+      "type": 0,
+      "value": ">>> Percentile <<<"
+    }
+  ],
+  "zHVUQJ": [
+    {
+      "type": 0,
+      "value": ">>> Export data for inactive flexible axis elements <<<"
+    }
+  ],
+  "zSg3ge": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "ac"
+    },
+    {
+      "type": 0,
+      "value": " Copied. <<<"
+    }
+  ],
+  "zYnEBN": [
+    {
+      "type": 0,
+      "value": ">>> Are you sure you want to cancel the upload process? <<<"
+    }
+  ],
+  "zaCAk+": [
+    {
+      "type": 0,
+      "value": ">>> Dock side <<<"
+    }
+  ],
+  "zgS4s6": [
+    {
+      "type": 0,
+      "value": ">>> New Simulation Data Source: <<<"
+    }
+  ],
+  "ziNh6v": [
+    {
+      "type": 0,
+      "value": ">>> User <<<"
+    }
+  ],
+  "zmkOVG": [
+    {
+      "type": 0,
+      "value": ">>> Pivot Table <<<"
+    }
+  ],
+  "zqpAcP": [
+    {
+      "type": 0,
+      "value": ">>> Continue <<<"
+    }
+  ],
+  "zuCLVa": [
+    {
+      "type": 0,
+      "value": ">>> Folder <<<"
+    }
+  ],
+  "zubpab": [
+    {
+      "type": 0,
+      "value": ">>> "
+    },
+    {
+      "type": 1,
+      "value": "hour"
+    },
+    {
+      "type": 0,
+      "value": " hr <<<"
+    }
+  ],
+  "zxbf2N": [
+    {
+      "type": 0,
+      "value": ">>> There has no "
+    },
+    {
+      "type": 1,
+      "value": "productName"
+    },
+    {
+      "type": 0,
+      "value": " installer available. <<<"
+    }
+  ],
+  "zxdvJH": [
+    {
+      "type": 0,
+      "value": ">>> Past 2 years <<<"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+:root {
+    --thick-line: 5px solid black;
+    --thin-line: 2px solid black;
+
+    --value-cell-width: 35px;
+    --inner-axis-width: 50px;
+    /*column-header-width = value-cell-width + inner-axis-width + $thick-line;*/
+
+    --selection-color: #DAA600;
+}
+
+:global(.ui.popup) {
+  pointer-events: none;
+}
+
+.correlation-table {
+  overflow:    hidden;
+  flex:        1;
+  font-family: var(--mono-space-font-family);
+  display:     flex;
+  flex-direction: column;
+
+  > * {
+    flex: 1;
+  }
+
+  > .correlation-toolbar{
+    flex: 0;
+    min-height: 37px;
+  }
+
+  :global(#prerender-container) {
+    position:    absolute;
+    visibility:  hidden;
+    height:      auto;
+    width:       auto;
+    white-space: nowrap;
+  }
+
+  :global(.rotate-container) {
+    display:         flex;
+    flex:            0;
+    min-width:       var(--value-cell-width);
+
+    align-items:     center;
+    justify-content: center;
+    /*overflow: hidden;*/
+
+    width:           1.5em;
+    line-height:     1.5;
+
+    > span {
+      display:        inline-block;
+      white-space:    nowrap;
+      pointer-events: none;
+
+      transform:      rotate(-90deg);
+    }
+  }
+
+  :global(.ui.popup) {
+    /*height:20px;*/
+  }
+
+  div:global(.wj-flexgrid.wj-content) {
+    width:            100% !important;
+    background-color: white;
+
+    div.selection-box {
+      border:         var(--selection-color) 2px solid;
+      pointer-events: none;
+      box-sizing:     border-box;
+      z-index:        11;
+      /*background-color: selection-color;*/
+    }
+
+    &.scroll-mode div {
+      pointer-events: none;
+    }
+
+    .vertical-align {
+      display:         flex;
+      justify-content: center;
+      align-items:     center;
+      flex:            1;
+      height:          100%;
+    }
+
+    /*div["wj-part=tl"], div["wj-part=ch"]
+	{
+		border-top:
+		border-color:black;
+		border-style:solid;
+	}
+
+	div["wj-part=tl"], div["wj-part=rh"]
+	{
+		border-color:black;
+		border-style: solid;
+	}*/
+
+    div.selected-header {
+        background-color: var(--selection-color) !important;
+    }
+
+    div:global(.wj-header) {
+        &.selected-header, &.pending-deselection-header {
+            transition: background-color 0.4s ease;
+        }
+    }
+
+    div :global {
+
+      .wj-cell {
+        transition:   outline-color 0.4s ease;
+        border-color: black;
+      }
+
+      div[wj-part="cells"] {
+        background: rgba(0, 0, 0, 0); /* transparent background for overflows scroll container. */
+
+        .wj-cell {
+          line-height: var(--value-cell-width) !important;
+          padding:     0px 3px !important;
+
+          &:hover {
+            position: relative;
+            &:before {
+              content:       '';
+              width:         100%;
+              height:        100%;
+              position:      absolute;
+              z-index:       5;
+
+              outline-style: solid;
+              outline-width: 2px;
+              outline-color: var(--selection-color);
+              top:           0px;
+              left:          0px;
+            }
+          }
+        }
+      }
+
+      .col-quadrant-border {
+        border-right: var(--thick-line);
+      }
+
+      .row-quadrant-border {
+        border-bottom: var(--thick-line);
+        /*height: value-cell-width + ($thick-line - $thin-line);
+
+        //&:last-of-type {
+        //   border-bottom:0;
+        //}
+         */
+      }
+
+      .wj-cell:hover {
+        overflow: visible;
+        /*padding:0px;*/
+      }
+
+      .wj-cell.wj-header {
+
+        span {
+          color: white;
+        }
+
+        span:hover {
+          outline-width: 0px;
+        }
+      }
+
+      .wj-state-selected, .wj-state-multi-selected {
+        background-color: rgb(0, 133, 199) !important;
+        color:            blue;
+      }
+    }
+  }
+}
+
+.is-layout-dragging :global {
+
+  pointer-events: none;
+  .wj-flexgrid {
+    background-color: inherit !important;
+    border: none;
+  }
+
+  div[wj-part=root] {
+    overflow: hidden !important;
+    background-color: inherit;
+  }
+
+  div[wj-part=rh] {
+    display:none
+  }
+
+  div[wj-part=ch] {
+    display:none
+  }
+
+  div[wj-part=tl] {
+    display: none
+  }
+}

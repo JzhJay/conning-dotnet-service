@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="iconic iconic-flip" width="128" height="128" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Tab-plus</title>
+  </g>
+  <g class="iconic-tab-lg iconic-container iconic-lg" data-width="128" data-height="128" display="none" transform="translate(0 0)">
+    <path d="M 0 8 c 0 -8 0 -8 8 -8 h 112 c 8 0 8 0 8 8 v 112 c 0 8 0 8 -8 8 h -104 l -16 -16 z M 64 52 a 12 12 0 0 0 -12 12 a 12 12 0 0 0 12 12 a 12 12 0 0 0 12 -12 a 12 12 0 0 0 -12 -12 M 64 84 h -3 c -3 0 -3 0 -3 3 v 30 c 0 3 0 3 3 3 h 6 c 3 0 3 0 3 -3 v -30 c 0 -3 0 -3 -3 -3 z M 14 8 h -3 c -3 0 -3 0 -3 3 v 3 c 0 3 0 3 3 3 h 3 c 3 0 3 0 3 -3 v -3 c 0 -3 0 -3 -3 -3 z" class="iconic-tab iconic-property-fill"/>
+  </g>
+  <g class="iconic-tab-md iconic-container iconic-md" data-width="64" data-height="64" display="none" transform="scale(2) translate(0 0)">
+    <path d="M 0 4 c 0 -4 0 -4 4 -4 h 56 c 4 0 4 0 4 4 v 56 c 0 4 0 4 -4 4 h -52 l -8 -8 z M 32 26 a 6 6 0 0 0 -6 6 a 6 6 0 0 0 6 6 a 6 6 0 0 0 6 -6 a 6 6 0 0 0 -6 -6 M 32 42 h -2 c -2 0 -2 0 -2 2 v 14 c 0 2 0 2 2 2 h 4 c 2 0 2 0 2 -2 v -14 c 0 -2 0 -2 -2 -2 z M 7 3 h -2 c -2 0 -2 0 -2 2 v 2 c 0 2 0 2 2 2 h 2 c 2 0 2 0 2 -2 v -2 c 0 -2 0 -2 -2 -2 z" class="iconic-tab iconic-property-fill"/>
+  </g>
+  <g class="iconic-tab-sm iconic-container iconic-sm" data-width="16" data-height="16" display="none" transform="scale(8) translate(0 0)">
+    <path d="M 0 1 c 0 -1 0 -1 1 -1 h 14 c 1 0 1 0 1 1 v 14 c 0 1 0 1 -1 1 h -13 l -2 -2 z M 8 6 a 2 2 0 0 0 -2 2 a 2 2 0 0 0 2 2 a 2 2 0 0 0 2 -2 a 2 2 0 0 0 -2 -2 M 8 11 c -1 0 -1 0 -1 1 v 2 c 0 1 0 1 1 1 c 1 0 1 0 1 -1 v -2 c 0 -1 0 -1 -1 -1 z" class="iconic-tab iconic-property-fill"/>
+  </g>
+</svg>

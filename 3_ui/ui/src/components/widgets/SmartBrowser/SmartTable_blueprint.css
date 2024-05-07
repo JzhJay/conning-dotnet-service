@@ -1,0 +1,213 @@
+.root {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    height: 100%;
+}
+
+/*.initial-render {
+    &:before {
+        position:absolute;
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+        content: '';
+        background: rgba(127,127,127,.7);
+    }
+
+    .table {
+        :global .bp3-table-cell-client {
+            opacity:.1;
+        }
+    }
+}*/
+
+.table {
+    flex:       1;
+    background: white;
+
+    --padding:  8px;
+
+    :global .bp3-table-row-name-text {
+        display:none;
+    }
+
+    :global .bp3-table-cell-client {
+        opacity:    1;
+        transition: opacity ease .5s;
+    }
+
+    .column-cell {
+        display:        flex;
+        flex-direction: row;
+
+        > * {
+            align-self: center;
+        }
+
+        :global {
+            .wj-glyph-up, .wj-glyph-down {
+                margin-right: auto;
+                margin-left:.5em;
+            }
+        }
+    }
+
+    .user-tags {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+
+        .user-tag {
+            margin: 1px;
+        }
+    }
+
+    .user-tags-cell {
+        overflow-y: auto;
+
+        :global{
+            .bp3-table-truncated-text {
+                overflow: visible;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .bp3-tag {
+                margin: 1px;
+            }
+        }
+    }
+
+    :global {
+        .center {
+            :local(.column-header-text), .bp3-table-truncated-text, .bp3-table-no-wrap-text {
+                margin:     auto auto;
+                text-align: center;
+            }
+        }
+        .right {
+            :local(.column-header-text), .bp3-table-truncated-text, .bp3-table-no-wrap-text {
+
+                margin-left:  auto;
+                text-align:   right;
+                margin-right: 0;
+            }
+        }
+
+        .bp3-table-cell {
+            display: flex;
+            padding: 0 var(--padding);
+
+            > * {
+                margin-top:    auto;
+                margin-bottom: auto
+            }
+
+            .bp3-button {
+                .bp3-icon {
+                    margin: auto;
+                }
+            }
+
+            .bp3-table-truncated-text {
+                line-height: 18px;
+
+                a, span {
+                    max-height:    100%;
+                    overflow:      hidden;
+                    text-overflow: ellipsis;
+                    user-select:   none;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        .bp3-table-quadrant-stack {
+            display: flex;
+            &, > * {
+                flex:           1;
+                flex-direction: column;
+            }
+        }
+
+        .bp3-table-header:hover .bp3-table-th-menu-container-background {
+            background:none;
+        }
+
+        .bp3-table-th-menu-container {
+            opacity: .5;
+            display: none;
+        }
+    }
+
+    .column-header-text {
+        flex:1;
+        padding: 0 var(--padding);
+    }
+
+    :global(.bp-table-text-no-measure) {
+        display: none;
+    }
+
+    .sortable :global(.bp-table-text-no-measure){
+        display: block;
+        cursor: pointer;
+    }
+
+    .sortable :global(.bp3-table-th-menu-container){
+        display: block;
+    }
+
+    .odd-row {
+        background: #f9f9f9;
+    }
+
+    .show-drop-highlight {
+        background-color: #ADD8E6;
+    }
+
+    .show-favorite-icon:global(.cell-name) :global(.bp3-table-truncated-text) {
+        display: flex;
+        flex: 1;
+
+        .name-outer {
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: flex;
+        }
+        :global(.FavoriteIndicator__root) {
+            margin-left: 10px;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
+
+.loading {
+    opacity: 0;
+}
+
+.value-link {
+    display: flex;
+    margin-right: 3px;
+
+    .value-link-icon {
+        margin-right: 2px;
+        height: 14px;
+        width: 14px;
+
+        :global(.bp3-icon svg){
+            height: 14px;
+            width: 14px;
+        }
+    }
+
+    .value-link-text {
+        white-space: nowrap;
+    }
+}

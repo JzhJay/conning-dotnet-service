@@ -1,0 +1,13 @@
+.input-switch {
+    margin: 0;
+}
+
+.menu-divider {
+    padding-bottom: 5px;
+}
+
+.ui-label {
+    padding: 7px !important;
+    align-self: center;
+    border: 1px solid rgba(34, 36, 38, 0.15) !important;
+}

@@ -1,0 +1,10 @@
+.queryPanelToolbar {
+	composes: row from './row.css';
+    background: var(--super-panel-header-background);
+    border-top-width:0;
+    max-height:initial;
+    padding-left:2px;
+    padding-right: 15px;
+    min-height:0;
+    height:34px;
+}

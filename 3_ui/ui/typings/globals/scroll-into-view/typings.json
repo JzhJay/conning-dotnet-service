@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/4f1ec2ec0e2afa12fd34f16051983dc430a27c29/scroll-into-view/scroll-into-view.d.ts",
+    "raw": "registry:dt/scroll-into-view#1.6.0+20161006171625",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/4f1ec2ec0e2afa12fd34f16051983dc430a27c29/scroll-into-view/scroll-into-view.d.ts"
+  }
+}

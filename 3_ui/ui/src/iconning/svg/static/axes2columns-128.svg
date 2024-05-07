@@ -1,0 +1,38 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="axes2columns-128" class="iconning iconning-axes2columns-128" viewBox="0 0 128 128" id="axes2columns128">
+    <g class="iconning-metadata">
+        <title>Axes to Columns</title>
+    </g>
+    <g class="iconning-container" data-width="128" data-height="128">
+        <!-- Existing Column Axes -->
+        <rect class="iconning iconning-axes2columns iconning-axes2columns-128 iconning-accent-0" x="104.0" y="10.0" width="24.0" height="18.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M 0 80.0 L 0 0" begin="axes2columns128foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <!-- Existing Row Axes -->
+        <rect class="iconning iconning-axes2columns iconning-axes2columns-128 iconning-accent-0" x="104.0" y="30.0" width="24.0" height="18.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M -104.0 80.0 Q -104.0 0 0 0" begin="axes2columns128foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <rect class="iconning iconning-axes2columns iconning-axes2columns-128 iconning-accent-0" x="104.0" y="50.0" width="24.0" height="18.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M -78.0 60.0 Q -78.0 0 0 0" begin="axes2columns128foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <rect class="iconning iconning-axes2columns iconning-axes2columns-128 iconning-accent-0" x="104.0" y="70.0" width="24.0" height="18.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M -52.0 40.0 Q -52.0 0 0 0" begin="axes2columns128foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <rect class="iconning iconning-axes2columns iconning-axes2columns-128 iconning-accent-0" x="104.0" y="90.0" width="24.0" height="18.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M -26.0 20.0 Q -26.0 0 0 0" begin="axes2columns128foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+    </g>
+    <!-- Curved Arrow -->
+    <g data-width="88.39999999999999" data-height="88.39999999999999">
+        <g data-width="88.39999999999999" data-height="88.39999999999999" transform="translate(104.0, 110.0)">
+            <path class="iconning iconning-axes2columns iconning-axes2columns-128 iconning-stroke iconning-arrow" d="M -65.195 -0.0 L -78.455 -0.0 A 78.455 78.455 0 0 1 -32.87720931276138 -71.23395351098293 L -37.044742887618455 -80.26360958983992 A 78.455 78.455 0 0 1 -0.0 -71.82499999999999 A 65.195 65.195 0 0 0 -23.152964304761536 -50.16475599364994 L -27.32049787961861 -59.194412072506935 A 65.195 65.195 0 0 0 -65.195 -0.0" fill="rgb(  0,  0,  0)" style="stroke:none"/>
+        </g>
+        <animateTransform attributeName="transform" dur="0.5s" type="rotate" from="-180.0 104.0 110.0" to="0.0 104.0 110.0" begin="axes2columns128foregroundrectangle.mouseover"/>
+    </g>
+    <!-- Foreground Rectangle (transparent, for mouseover event only) -->
+    <rect class="iconning iconning-axes2columns iconning-axes2columns-128 iconning-bg" x="0" y="0" width="128" height="128" fill="rgb(255,255,255)" id="axes2columns128foregroundrectangle" style="stroke:none; fill-opacity:0"/>
+</svg>

@@ -1,0 +1,24 @@
+.root {
+    align-self: center;
+    margin: auto;
+
+
+    fill: white;
+
+    :global {
+        svg.iconic.icon {
+            width: 24px;
+            height: 24px;
+
+            .iconic-property-fill {
+                stroke: black !important;
+            }
+        }
+    }
+}
+
+.is-favorite {
+    fill: yellow;
+}
+
+

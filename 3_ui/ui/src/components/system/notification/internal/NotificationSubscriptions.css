@@ -1,0 +1,64 @@
+.root {
+    display:flex;
+    flex-direction:column;
+    flex: 0 0 auto;
+
+    :global {
+        .ui.accordion.ui.accordion {
+            margin:.5em 0;
+            .title {
+                border: 1px solid #ccc;
+                margin-bottom:0;
+                padding: 1.25rem 1rem;
+
+                &:not(.active) {
+                    margin-bottom: .5rem;
+                }
+            }
+
+            .content {
+                background:#faf9f8;
+                opacity:0;
+                transition: opacity .2s ease-out 0s;
+                border-top: 1px solid #ccc;
+                padding:0;
+                display:block;
+
+                &.active {
+                    opacity:1;
+                    border: 1px solid #ccc;
+                    border-top:0;
+
+                    &:not(:last-child) {
+                        margin-bottom: .5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.event-title {
+    display: flex;
+    align-items: center;
+}
+
+.scope {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    height: 0px;
+    overflow: visible;
+
+    span {
+        margin-right: 10px;
+    }
+}
+
+.subscription-groups {
+
+}
+
+.title {
+    composes: title from '../../../widgets/forms/PanelSection.css'
+}

@@ -1,0 +1,31 @@
+.root {
+	padding:0;
+}
+
+.error {
+	padding:5px;
+}
+
+.runQueryProgressControl {
+    display:flex;
+    flex-direction:column;
+
+    :global(.text) {
+        margin: .5em 0;
+        text-align: center;
+        font-weight:bold;
+        font-size: 16px;
+    }
+}
+
+[role="query-panel"] {
+    overflow:visible;
+}
+
+.settings-panel {
+    padding:20px;
+
+    h5 {
+        margin-bottom:20px;
+    }
+}

@@ -1,0 +1,113 @@
+.panel-search-bar {
+    /*background:   var(--search-background);*/
+    color:        var(--search-color);
+    flex:         0 0 auto;
+    display:      flex;
+    margin: 0 6px;
+
+    &.no-toolbar {
+        background:  var(--row-background);
+        min-height:  31px;
+        max-height:  31px;
+        line-height: 29px;
+    }
+
+    > div:not(:global(.Select)) {
+        display: flex;
+    }
+
+    :global(.react-autosuggest__container) {
+        min-width:  17em;
+        background: var(--row-background);
+    }
+
+    .react-autosuggest__suggestion {
+        line-height:  1.5;
+        padding-left: 27px;
+    }
+
+    .react-autosuggest__container--open .react-autosuggest__suggestions-container {
+        top:           27px;
+        left:          -27px;
+        width:         calc(100% + 27px);
+        padding-right: 0;
+        max-height:    calc(27px * 5);
+    }
+
+    :global .Select {
+        .Select-control {
+            border-radius: 0;
+            padding-right: 0px;
+            border:        0;
+
+            .Select-placeholder {
+                user-select: none;
+            }
+
+            .Select-placeholder, .Select-input {
+                padding-left: 0;
+            }
+
+            .Select-option {
+                padding-left: calc(var(--checkbox-width) + 1em);
+            }
+
+            .Select-value {
+                padding-left:0px;
+            }
+
+            .Select-clear-zone {
+                width: 13px;
+            }
+
+            .Select-arrow-zone {
+                width: 10px;
+            }
+
+            .Select-option {
+                padding-top:    3px;
+                padding-bottom: 3px;
+                padding-right:  0px;
+            }
+        }
+        .Select-menu-outer {
+            width:       calc(100% + 28px);
+            font-size:11px;
+            margin-left: -28px;
+        }
+    }
+
+    input {
+        user-select: none;
+        padding:     0;
+
+        &::-webkit-input-placeholder {
+            color: rgba(127, 127, 127, .9);
+        }
+    }
+
+    input.range-searcher {
+        user-select: none;
+        color:       black;
+        border:      0;
+    }
+
+    > :global(.icon:not(.button)) {
+        flex:       0 0 auto;
+        width:      calc(var(--checkbox-width) + 1em);
+        background: white;
+        color:      black;
+        height:     24px;
+        margin:     0;
+    }
+
+    > :global(*:not(.icon)) {
+        flex:       1;
+        max-height: 24px;
+        color:black;
+    }
+}
+
+.has-value {
+    border:1px solid var(--search-active-background-color);
+}

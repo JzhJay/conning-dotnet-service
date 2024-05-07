@@ -1,0 +1,38 @@
+.root {
+
+    font-size:              14px;
+
+    .title {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        height: 37px;
+        white-space: nowrap;
+    }
+
+    .input {
+        font-size:              inherit;
+        --label-background:     black;
+        --emphasis-font-weight: none;
+
+        :global(.bp3-control.bp3-large) {
+            font-size: inherit;
+        }
+
+        > div:not(.bp3-navbar) {
+            padding: 0px;
+        }
+
+    }
+
+    :global(.InputSpecificationComponent__view-title) {
+        font-size: unset;
+        text-decoration: unset;
+        padding-left: 0;
+
+        &:after {
+            content: ":";
+        }
+    }
+
+}

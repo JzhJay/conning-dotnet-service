@@ -1,0 +1,76 @@
+.site-footer {
+    display:        flex;
+    flex-direction: row;
+    font-size:      12px;
+    align-self:     flex-end;
+    width:          100%;
+    border-top:     1px solid var(--theme-border-color);
+    flex: 0 0 auto;
+    overflow:hidden;
+
+    > .fill {
+        flex:        1;
+        height:      100%;
+    }
+
+    > * {
+        height:26px;
+        padding:    0 5px;
+        display:    flex;
+        flex:       0 0 auto;
+        line-height:26px;
+
+        align-self: center;
+
+        &:not(:first-child) {
+            border-left: 1px solid rgba(0, 0, 0, 0.0980392);
+        }
+
+        /* To turn off the damn Mobx borders */
+        :global .MobxDevTools__dev-tools {
+            border: 0 !important;
+        }
+
+        :global .bp3-button {
+            line-height: 26px;
+            height:26px;
+            padding:0;
+        }
+
+        a {
+            margin:0 5px;
+            align-self: center;
+        }
+    }
+
+    span {
+        align-self:center;
+    }
+
+    label {
+        align-self:center;
+        font-weight:bold;
+        margin-right:5px;
+    }
+
+    :global a.bp3-button span:not([class*="bp3-icon-"]) {
+        color:#106ba3;
+    }
+}
+
+.app-section {
+    text-transform: capitalize;
+}
+
+.git-branch {
+    font-style: italic;
+}
+
+.product {
+    //background-color:var(--theme-color-primary);
+    //color:white;
+    font-size:14px;
+    font-weight:bold;
+    border-right: 1px solid rgba(0, 0, 0, 0.0980392);
+}
+

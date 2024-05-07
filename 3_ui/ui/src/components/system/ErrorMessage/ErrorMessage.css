@@ -1,0 +1,38 @@
+.root:global(.ui.message) {
+    padding: .5em;
+    flex-direction: column !important;
+
+    > :global(.header):first-child {
+        text-align: center;
+        font-size:140%;
+        padding: .5em 0;
+        margin-bottom:.5em;
+        border-bottom: 1px solid var(--color_gray0);
+    }
+}
+
+.error-panel {
+    padding:0 1em 1em 1em;
+    overflow:auto;
+
+    :global .content {
+        white-space: pre;
+    }
+}
+
+.graphQlErrors {
+    :global {
+        .list:not(.ui) li {
+            &:before {
+                display: none;
+            }
+
+            white-space: pre-wrap;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.graphQlError {
+
+}

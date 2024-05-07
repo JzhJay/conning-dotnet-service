@@ -1,0 +1,19 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="cdf-16" class="iconning iconning-cdf-16" viewBox="0 0 16 16" id="cdf16">
+    <g class="iconning-metadata">
+        <title>Cumulative Density Function Chart with Filled Plot</title>
+    </g>
+    <g class="iconning-container" data-width="16" data-height="16">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.5" y1="16.0" x2="0.5" y2="0.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.0" y1="15.5" x2="16.0" y2="15.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="9.5" x2="3.0" y2="9.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="3.5" x2="3.0" y2="3.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="12.5" x2="2.0" y2="12.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="6.5" x2="2.0" y2="6.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="0.5" x2="2.0" y2="0.5"/>
+        <!-- CDF Filled Plot -->
+        <path class="iconning iconning-cdf iconning-cdf-16 iconning-accent-1" d="M 4 14 L 4.0 14.0 L 6.388130319097328 13.409090909090908 L 7.074656750478283 12.818181818181817 L 7.504240375824534 12.227272727272725 L 7.836353625189834 11.636363636363633 L 8.116652063192134 11.045454545454541 L 8.387476062480655 10.45454545454545 L 8.63487880245766 9.863636363636358 L 8.858835168135055 9.272727272727266 L 9.078850902762067 8.681818181818175 L 9.284924177649923 8.090909090909083 L 9.488066179201127 7.499999999999992 L 9.700465164672785 6.909090909090901 L 9.921297088423044 6.31818181818181 L 10.138075483067851 5.7272727272727195 L 10.358142702699084 5.136363636363629 L 10.601545485904195 4.545454545454538 L 10.862899610190148 3.954545454545447 L 11.151424791308617 3.363636363636356 L 11.492681621143134 2.7727272727272654 L 11.913799104681564 2.1818181818181746 L 12.584885864949216 1.5909090909090837 L 15.0 0.9999999999999928 L 15 0.40909090909090184 L 15 14" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

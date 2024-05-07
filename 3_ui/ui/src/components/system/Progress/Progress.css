@@ -1,0 +1,35 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+
+    .title {
+        align-self: center;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    > :global(.ui.steps) {
+        margin: 0 10%;
+
+        :global(.step) {
+            margin-right: calc((1.18 * 2.5em) + 1rem); /* Add margin equal to icon + padding so centered text is centered with rest of page */
+
+            &.highcharts{
+                width: 100%;
+                margin: 10px;
+                padding: 0;
+            }
+        }
+    }
+
+    &.root{
+        margin-bottom: 10px;
+    }
+
+    &.hide {
+        display: none;
+    }
+}
+

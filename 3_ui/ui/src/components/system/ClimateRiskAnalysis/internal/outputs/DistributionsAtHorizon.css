@@ -1,0 +1,61 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 100%;
+
+    >:global(.bp3-navbar) {
+        height: 35px;
+        padding: 2px;
+
+        :global(.bp3-navbar-divider) {
+            margin: 0 1px;
+        }
+    }
+}
+
+.views {
+    display: flex;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    max-height: calc(100% - 35px);
+
+    .view {
+        display: flex;
+        flex: 1;
+        min-width: 100px;
+        min-height: 100px;
+        cursor: pointer;
+
+        :global(.highchartsComponent__highchartsComponent) {
+            height: 100%;
+
+            :global(.bp3-navbar) {
+                display: none;
+            }
+        }
+    }
+
+    /*:global(.highcharts-container):hover {*/
+        /*outline: 2px rgba(var(--theme-color-primary-raw), .5) dotted;*/
+        /*outline-offset: -2px;*/
+    /*}*/
+
+    .view.selected, .view:only-child {
+        /*border: var(--theme-color-primary) 2px solid;*/
+        &.view.selected :global(.highcharts-container) {
+            outline: 2px var(--theme-color-primary) dotted !important;
+            outline-offset: -2px;
+        }
+
+        :global(.highchartsComponent__highchartsComponent) {
+            position: unset !important;
+
+            :global(.bp3-navbar) {
+                display: block;
+                position: absolute;
+            }
+        }
+    }
+}

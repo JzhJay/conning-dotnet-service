@@ -1,0 +1,15 @@
+{
+  "data": {
+    "billing": {
+      "report": {
+        "total": {
+          "simulationCharge": 2989.5,
+          "dataElements": 51.050000000000004,
+          "dataServingChargeSimulation": 265.06,
+          "ongoingDataStorageChargePerDay": 0.31090000000000007,
+          "dataStorageCharge": 4.8517
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.root {
+    max-height:30px;
+    display:inline-flex;
+    flex-direction:row;
+    align-items: center;
+
+    .label {
+        margin-right:5px;
+    }
+
+    >*:last-child .bp3-button {
+        padding:0;
+    }
+
+    :global .bp3-button {
+        height:100%;
+    }
+}
+
+.button {
+    display:flex;
+    padding:0;
+    min-width:26px;
+
+    >div  {
+        margin: 5px 0;
+    }
+    :global .bp3-icon-standard.bp3-align-right {
+        margin:         auto;
+        vertical-align: middle;
+    }
+}
+
+.popover {
+    :global .bp3-menu {
+        min-width:0;
+        display:flex;
+        flex-direction:column;
+
+        .bp3-menu-item-label {
+            margin:0;
+        }
+    }
+}

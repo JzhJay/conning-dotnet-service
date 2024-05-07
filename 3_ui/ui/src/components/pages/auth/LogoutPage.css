@@ -1,0 +1,11 @@
+.root {
+    background-color: var(--theme-office-site-background) !important;
+    background-image: url('../../../ui/images/cta-article-hero.jpg') !important;
+    background-size: cover !important;
+    background-position: 50% !important;
+
+    > :global(.ui.message) {
+        margin:.5em auto;
+        width:auto;
+    }
+}

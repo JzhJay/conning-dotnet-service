@@ -1,0 +1,386 @@
+{
+  "objectType": "Simulation",
+  "catalog": {
+    "tags": ["gridName", "status","frequencies","modules", "economies", "variables", "scenarios","version", "createdBy","modifiedBy", "sourceType", "productVersion", "userFile"]
+  },
+  "card": {
+    "sections": [
+      {
+        "tags": [
+          {
+            name: "status"
+          },
+          {
+            name: "sourceType"
+          }
+        ]
+      },
+      {
+        "tags": [
+          {
+            name: "gridName",
+            hide : true
+          },
+          {
+            name: "modules"
+          },
+		  {
+			name: "userFile",
+            hide : true
+		  }
+        ]
+      },
+      {
+        "tags": [
+          {
+            name: "periods"
+          },
+          {
+            name: "variables"
+          },
+          {
+            name: "scenarios"
+          }
+        ]
+      },
+      {
+        "tags": [
+          {
+            name: "economies"
+          }
+        ] 
+      },
+      {
+        "tags": [
+          {
+            name: "frequencies"
+          }
+        ]
+      },
+      {
+        "tags": [
+          {
+            name: "createdBy"
+          },
+          {
+            name: "createdTime"
+          },
+          {
+            name: "modifiedBy"
+          },
+          {
+            name: "modifiedTime"
+          },
+          {
+            name: "productVersion"
+          }
+        ]
+      }
+    ]
+  },
+  "table": {
+    frozenColumns: 2,
+    columns: [
+      {name: 'name', wordWrap: true, defaultWidth: 200},
+      {name: 'actions', internal: true, align: 'center'},
+      {name:'status'},
+      {name:'gridName', hide : true},
+      {name:'modules', wordWrap: true, defaultWidth: 250},
+      {name: "userFile", hide : true},
+      {name:'variables'},
+      {name: 'economies', defaultWidth:200},
+      {name: 'frequencies', defaultWidth:200},
+      {name: 'scenarios'},
+      {name: 'createdBy', canSort: false},
+      {name: 'modifiedBy', canSort: false},
+      {name: 'createdTime'},
+      {name: 'modifiedTime'}
+    ]
+  }
+}
+{
+  "objectType": "Query",
+  "catalog": {
+    "tags": [
+      "simulations",
+      "hasResult",
+      "variables",
+      "scenarios",
+      "frequencies",
+      "periods",
+      "createdBy",
+      "modifiedBy"
+    ]
+  },
+  "card": {
+    "sections": [
+      {
+        "tags": [
+          {
+            name: "hasResult"
+          },
+          {
+            name: "archived"
+          }
+        ]
+      },
+      {
+        "tags": [
+          {
+            name: "variables"
+          },
+          {
+            name: "scenarios"
+          },
+          {
+            name: "frequencies"
+          },
+          {
+            name: "periods"
+          }
+        ]
+      },
+      {
+        "tags": [
+          {
+            name: "createdBy"
+          },
+          {
+            name: "createdTime"
+          },
+          {
+            name: "modifiedBy"
+          },
+          {
+            name: "modifiedTime"
+          }
+        ]
+      }
+    ]
+  },
+  "table": {
+    frozenColumns: 2,
+    columns: [
+      {
+        name: 'name',
+        wordWrap: true
+      },
+      {
+        name: 'actions',
+        internal: true,
+        align: 'center'
+      },
+      {name: 'simulations'},
+      {name: 'variables'},
+      {name: 'scenarios'},
+      {name: 'frequencies'},
+      {name: 'periods'},
+      {name: 'createdBy', canSort: false},
+      {name: 'modifiedBy', canSort: false},
+      {name: 'createdTime'},
+      {name: 'modifiedTime'}
+    ]
+  }
+}
+{
+  "objectType": "Report",
+  "catalog": {
+    "tags": ["createdBy","modifiedBy","simulations"]
+  },
+  "card": {
+    "sections": [
+    ]
+  },
+
+  "table": {
+    frozenColumns: 2,
+    columns: [
+      {name: 'name', wordWrap: true},
+      {name: 'actions', align: 'center'},
+      {name: 'createdBy'},
+      {name: 'createdTime'},
+      {name: 'modifiedTime'}
+    ]
+  }
+}
+{
+  "objectType" : "InvestmentOptimization",
+  "catalog" : {
+    "tags" : [
+      "status",
+      "version",
+      "createdBy",
+      "modifiedBy"
+    ]
+  },
+  "card" : {
+    "sections" : [
+      {
+        "tags" : [
+          {
+            "name" : "status"
+          }
+        ]
+      },
+      {
+        "tags" : [
+          {
+            "name" : "createdBy"
+          },
+          {
+            "name" : "createdTime"
+          },
+          {
+            "name" : "modifiedBy"
+          },
+          {
+            "name" : "modifiedTime"
+          }
+        ]
+      }
+    ]
+  },
+  "table" : {
+    "frozenColumns" : 2,
+    "columns" : [
+      {
+        "name" : "name",
+        "wordWrap" : true,
+        "defaultWidth" : 200
+      },
+      {
+        "name" : "actions",
+        "internal" : true,
+        "align" : "center"
+      },
+      {
+        "name" : "status"
+      },
+      {
+        "name" : "createdBy",
+        "canSort" : false
+      },
+      {
+        "name" : "modifiedBy",
+        "canSort" : false
+      },
+      {
+        "name" : "createdTime"
+      },
+      {
+        "name" : "modifiedTime"
+      }
+    ]
+  }
+}
+{
+  "objectType" : "UserFile",
+  "catalog" : {
+    "tags" : [
+      "type",
+      "status",
+      "createdBy",
+      "createdTime"
+    ]
+  },
+  "card" : {
+    "sections" : [
+      {
+        "tags" : [
+          {
+            "name" : "type"
+          },
+          {
+            "name" : "status"
+          },
+          {
+            "name" : "createdBy"
+          },
+          {
+            "name" : "createdTime"
+          }
+        ]
+      }
+    ]
+  },
+  "table" : {
+    "frozenColumns" : 2,
+    "columns" : [
+      {
+        "name" : "name",
+        "wordWrap" : true,
+        "defaultWidth" : 200
+      },
+      {
+        "name" : "actions",
+        "internal" : true,
+        "align" : "center"
+      },
+      {
+        "name": "type"
+      },
+      {
+        "name": "status"
+      },
+      {
+        "name" : "createdBy",
+        "canSort" : false
+      },
+      {
+        "name" : "createdTime"
+      }
+    ]
+  }
+}
+{
+  "objectType" : "ClimateRiskAnalysis",
+  "catalog" : {
+    "tags" : [
+      "status",
+      "createdBy",
+      "createdTime"
+    ]
+  },
+  "card" : {
+    "sections" : [
+      {
+        "tags" : [
+          {
+            "name" : "status"
+          },
+          {
+            "name" : "createdBy"
+          },
+          {
+            "name" : "createdTime"
+          }
+        ]
+      }
+    ]
+  },
+  "table" : {
+    "frozenColumns" : 2,
+    "columns" : [
+      {
+        "name" : "name",
+        "wordWrap" : true,
+        "defaultWidth" : 200
+      },
+      {
+        "name" : "actions",
+        "internal" : true,
+        "align" : "center"
+      },
+      {
+        "name": "status"
+      },
+      {
+        "name" : "createdBy",
+        "canSort" : false
+      },
+      {
+        "name" : "createdTime"
+      }
+    ]
+  }
+}

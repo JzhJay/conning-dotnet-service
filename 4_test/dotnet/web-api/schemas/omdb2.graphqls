@@ -1,0 +1,147 @@
+
+
+#scalar Status
+#scalar Module
+#scalar Period
+
+#type ConningUser {
+#    _id: ID!
+#    fullName: String
+#    email: String
+#}
+
+interface DbObject {
+    _id: ID!
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: Date
+    createdTime: Date!
+}
+
+type UserTagValue {
+    _id: ID!
+    name: String!
+    background: String
+    color: String
+    tag: UserTag!
+}
+
+type UserTag {
+    _id: ID!
+    name: String!
+    objectTypes: [String!]!
+    multiple: Boolean
+    values: [UserTagValue!]!
+}
+
+type Axis {
+    name: String!
+}
+
+type AxisValue {
+    axis: Axis!
+    name: String!
+}
+
+type AxisCollection {
+    axis: Axis!
+    axisValues: [AxisValue!]!
+}
+
+#union AutomationOutput = Simulation | Foo | Bar
+#
+#interface IAutomationJobOutput {
+#    s3Path: String
+#}
+#
+#type SimulationJobOutput implements IAutomationJobOutput {
+#    s3Path: String
+#}
+
+#union AutomationJobOutput = SimulationJobOutput
+
+type AutomationJob {
+    _id: ID!
+    jobId: ID!
+    createdBy: ConningUser
+    createdTime: Date!
+    #    output: AutomationJobOutput
+}
+
+# A monte carlo simulation
+type Simulation implements DbObject{
+    _id: ID!
+    name: String!
+
+    version: String!
+
+    archived: Boolean
+    scenarios: Int!
+    frequency: [String!]!
+    periods: Int!
+    modules: [String!]!
+    economies: [String!]!
+    variables: Int!
+    axes: [AxisCollection!]
+
+    status: String
+
+    gridName: String
+
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+
+    createdTime: Date!
+    modifiedTime: Date
+
+    billing: SimulationBillingInfo
+
+    tagValues: [UserTagValue!]
+
+    userFile: String!
+}
+
+type SimulationBillingInfo {
+    cost: Float!
+}
+
+type Query implements DbObject {
+    _id: ID!
+    name: String!
+
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: Date
+    createdTime: Date!
+
+    simulations: [Simulation!]!
+}
+
+type Report {
+    _id: ID!
+    name: String!
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: Date
+    createdTime: Date!
+    reportItems: [Json!]
+}
+
+type DffInput {
+
+}
+
+type IoOutput implements DbObject {
+    _id: ID!
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: Date
+    createdTime: Date!
+
+    dff: DffInput!
+    entityData: Simulation!
+    returnData: Simulation!
+    s3Guid: ID!
+
+    tagValues: [UserTagValue!]
+}

@@ -1,0 +1,92 @@
+.container {
+    position: absolute;
+    padding-left: 10px;
+    right: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    z-index: 20;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transition: padding-right .2s;
+
+    .window {
+        flex-shrink: 0;
+        max-height: calc(100vh - 100px);
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        min-width: 300px;
+        background: #FFF;
+        box-shadow: 0 0 8px 0 rgba(0,0,0,.3), 0 0 2px 0 rgba(0,0,0,.5);
+        border-radius: 4px;
+        overflow: hidden;
+        transition: margin-bottom .1s;
+
+        &.minimize-window {
+            flex-shrink: 1;
+            margin-bottom: 0;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background: #0d1e2b;
+            padding: 10px;
+
+            .title {
+                flex-grow: 1;
+                flex-shrink: 1;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                margin-right: 20px;
+                color: #FFF;
+            }
+
+            :global(.AppIcon__root) {
+                margin: 0 8px 0 4px;
+                height: 20px;
+                width: 20px;
+
+                svg {
+                    color: #FFF;
+                }
+            }
+
+            .action-icon {
+                cursor: pointer;
+                margin-left: 10px;
+                color: rgba(255,255,255,0.6);
+
+                &:hover{
+                     color: rgba(255,255,255,1);
+                }
+            }
+        }
+
+        &:global(.bp3-intent-success) {
+            .header {
+                background: #0f9960;
+            }
+        }
+
+        &:global(.bp3-intent-danger) {
+            .header {
+                background: #DB3737;
+            }
+        }
+
+        .body {
+            padding: 10px;
+            overflow-y: auto;
+        }
+    }
+}
+

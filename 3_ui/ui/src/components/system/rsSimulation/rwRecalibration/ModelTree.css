@@ -1,0 +1,15 @@
+.root {
+    display: flex;
+    min-width: 250px; /*Temp, might want to fit content*/
+    padding: 0px 5px;
+    border-right: none;
+    overflow: auto;
+
+    :global(.bp3-tree) {
+        min-width: 100%;
+    }
+
+    &.hide-tree {
+        display: none;
+    }
+}

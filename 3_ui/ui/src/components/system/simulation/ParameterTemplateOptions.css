@@ -1,0 +1,33 @@
+.root {
+    .checkboxes {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-row-gap: 2px;
+
+        &.fixed-columns {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .template-checkbox {
+            display: flex;
+            line-height: 1;
+
+            >div {
+                margin-left: 5px !important;
+            }
+
+            :global(.bp3-control.bp3-large:not(.bp3-align-right)) {
+                padding-left: 0px;
+            }
+        }
+    }
+
+    :global(.bp3-popover-target) {
+        width: 100%;
+
+        button {
+            width: 100%;
+            justify-content: space-between;
+        }
+    }
+}

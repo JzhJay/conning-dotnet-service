@@ -1,0 +1,33 @@
+.root:global(.bp3-tree) {
+    :global {
+        .bp3-tree-node-selected {
+            > .bp3-tree-node-content{
+                &, .bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-tree-node-caret::before {
+                    background-color: inherit;
+                    color: inherit;
+                }
+
+                .bp3-tree-node-label {
+                    color: inherit;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .bp3-tree-node-secondary-label {
+            padding: 0;
+            height: 30px;
+            display: flex;
+            align-items: center;
+
+            .bp3-button.bp3-icon {
+                line-height: 30px;
+                text-align: center;
+            }
+
+            .bp3-button[class*="bp3-icon-"]::before {
+                color: black;
+            }
+        }
+    }
+}

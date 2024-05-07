@@ -1,0 +1,60 @@
+.nav-bar-items{}
+
+
+.navigation, .navigation-overlay, .nav-bar-items {
+        display: flex;
+        background-color: var(--site-tab-background);
+        color: white;
+        font-size: 16px;
+        align-items: center;
+
+    :global(.bp3-button) {
+        font-size: 16px;
+
+    svg:global(.bp3-icon) {
+        color: white;
+    }
+
+    &:global(.bp3-disabled) {
+         color: rgba(255, 255, 255, .2) !important;
+     }
+    }
+}
+
+.page-menu, .insert-view :global(.bp3-menu) {
+    > :global(.bp3-submenu):first-child {
+        display: none
+    }
+
+    > :global(.bp3-switch) {
+        margin: 0px 9px;
+        padding: 6px 0 6px 38px;
+    }
+}
+
+/*
+.page-number-button {
+    padding: 0px;
+    margin: 0px -5px;
+
+    :global(.bp3-button-text) {
+        margin: 0px;
+    }
+}*/
+
+/*
+.nav-bar-items {
+    display: flex;
+}*/
+
+.view-menu-item.not-applicable {
+     height: 0;
+     overflow: hidden;
+     display: none;
+}
+
+.view-menu-item :global(.bp3-icon[data-icon="heat-grid"]) {
+    width: 20px;
+    height: 20px;
+    margin: auto
+}

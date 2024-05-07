@@ -1,0 +1,255 @@
+{
+  "name":        "_id",
+  "objectTypes": [
+  ],
+  "type":        "id",
+  "reserved":    true,
+  "required":    true
+}
+{
+  "name":        "createdBy",
+  "objectTypes": [
+    "Simulation",
+    "Query",
+    "Report"
+  ],
+  type:          'userId',
+  "reserved":    true,
+  "required":    true
+}
+{
+  "name":        "createdTime",
+  type:          'date',
+  "objectTypes": [
+    "Simulation",
+    "Query",
+    "Report"
+  ],
+  "reserved":    true,
+  "required":    true
+}
+{
+  "name":        "dfsPath",
+  "objectTypes": [
+    "Simulation"
+  ],
+  "reserved":    true,
+  "required":    false,
+  canSearch:     false
+}
+{
+  "name":        "economies",
+  "objectTypes": [
+    "Simulation"
+  ],
+  "reserved":    true,
+  "required":    false,
+  multiple:      true
+}
+{
+  "name":        "frequencies",
+  "objectTypes": [
+    "Simulation"
+  ],
+  "reserved":    true,
+  "required":    false,
+  multiple:      true
+}
+{
+  "name":        "gridName",
+  "objectTypes": [
+    "Simulation"
+  ],
+  "reserved":    true,
+  "required":    false,
+  "canSort":     true
+}
+{
+  "name":        "model",
+  "objectTypes": [
+    "Simulation"
+  ],
+  "reserved":    true,
+  "required":    false,
+  canSearch:     false
+}
+{
+  "objectTypes": [
+    "Simulation",
+    "Query",
+    "Report"
+  ],
+  "name":        "modifiedBy",
+  type:          'userId',
+  "reserved":    true,
+  "required":    false
+}
+{
+  "objectTypes": [
+    "Simulation",
+    "Query",
+    "Report"
+  ],
+  "name":        "modifiedTime",
+  type:          'date',
+  "reserved":    true,
+  "required":    false
+}
+{
+  "name":        "modules",
+  "objectTypes": [
+    "Simulation"
+  ],
+  "reserved":    true,
+  "required":    false,
+  multiple:      true
+}
+{
+  "name":        "name",
+  "objectTypes": [
+    "Simulation",
+    "Query",
+    "Report"
+  ],
+  "reserved":    true,
+  "required":    true,
+  "canSort":     true
+}
+{
+  "name":        "variables",
+  "objectTypes": [
+    "Simulation"
+  ],
+  "label":       "# of Variables",
+  "reserved":    true,
+  "required":    false
+}
+{
+  "name":        "scenarios",
+  "objectTypes": [
+    "Simulation"
+  ],
+  "label":       "# of Scenarios",
+  "reserved":    true,
+  "required":    false
+}
+{
+  "name":        "subPaths",
+  "objectTypes": [
+    "Simulation"
+  ],
+  "label":       "# of Subpaths",
+  "reserved":    true,
+  "required":    false
+}
+{
+  "name":        "path",
+  "objectTypes": [
+    "Simulation"
+  ],
+  "reserved":    true,
+  "required":    false,
+  canSearch:     false
+}
+{
+  "objectTypes": [
+    "Simulation",
+    "Query"
+  ],
+  "name":        "status",
+  "reserved":    true,
+  "required":    true,
+  "values":      [
+    {
+      value: "Startup"
+    },
+    {
+      value: "Running"
+    },
+    {
+      value: "Complete"
+    },
+    {
+      value: "Failed"
+    }
+  ]
+}
+{
+  "name":        "timePeriod",
+  "label":       "# of Time Periods",
+  "objectTypes": [
+    "Simulation"
+  ],
+  "reserved":    true,
+  "required":    false
+}
+{
+  "name":        "version",
+  "objectTypes": [
+    "Simulation"
+  ],
+  "reserved":    true,
+  "required":    false
+}
+{
+  "name":        "userFile",
+  "objectTypes": [
+	"Simulation"
+  ],
+  "reserved":    true,
+  "required":    false
+}
+{
+  "name":        "hasResult",
+  "objectTypes": [
+    "Query"
+  ],
+  "label":       'Has Query Result?',
+  "reserved":    true,
+  "required":    false,
+  canSearch:     false
+}
+
+{
+  "name":        "hasSession",
+  "objectTypes": [
+    "Query"
+  ],
+  "label":       'Active Session?',
+  "reserved":    true,
+  "required":    false,
+  canSearch:     false
+}
+{
+  name:        "simulationIds",
+  label:       'Simulations',
+  type:        'Simulation',
+  multiple:    true,
+  reserved:    true,
+  required:    true,
+  objectTypes: [
+    "Query"
+  ]
+}
+{
+  name:        "labels",
+  objectTypes: [
+    "Simulation",
+    "Query"
+  ],
+  type:        'id',
+  mutates:     true,
+  multiple:    true,
+  values:      [
+    {
+      value:      "foo (yellow)",
+      background: 'yellow',
+      color:      'black'
+    },
+    {
+      value:      "bar (blue)",
+      background: 'blue',
+      color:      'white'
+    }
+  ]
+}

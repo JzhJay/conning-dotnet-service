@@ -1,0 +1,27 @@
+﻿{
+  "name": "Simulation",
+  "rates": {
+      "t2" : 0.1,
+      "c4" : 0.125,
+      "c5" : 0.115,
+      "c5n": 0.130,
+      "m4" : 0.125,
+      "m5" : 0.122,
+      "r4" : 0.146,
+      "r5" : 0.142,
+      "x1" : 0.195,
+      "x1e": 0.271
+  }
+}
+{
+  "name" : "Data Serving",
+  "rates" : 0.2
+}
+{
+  "name" : "Data Storage",
+  "rates" : 0.01
+}
+{
+  "name" : "Query Session",
+  "rates" : 0.25
+}

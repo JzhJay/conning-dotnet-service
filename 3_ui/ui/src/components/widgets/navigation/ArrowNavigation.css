@@ -1,0 +1,11 @@
+.navigation {
+    display: inline-flex;
+
+    .page-number-button {
+        padding: 0px 0px 0px 5px;
+
+        :global(.bp3-button-text) {
+            margin: 0px;
+        }
+    }
+}

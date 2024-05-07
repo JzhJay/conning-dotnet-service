@@ -1,0 +1,183 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+
+.quick-switch-tools {
+    display: flex;
+    margin-left: 15px;
+    flex-wrap: nowrap;
+}
+
+.point-name {
+    margin-bottom: 5px;
+}
+
+.point-number {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    vertical-align: middle;
+    border-radius: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.primary-point {
+    background-color: #004085 !important;
+    :global(.bp3-button-text) {
+        color: #ffffff;
+    }
+}
+
+.secondary-point {
+    background-color: #4485C6 !important;
+    :global(.bp3-button-text) {
+        color: #ffffff;
+    }
+}
+
+.main {
+    flex: 1;
+    overflow-y: auto;
+    font-family: "Lucida Grande", LucidaGrande, "Lucida Sans Unicode", Arial, Helvetica, sans-serif; /* LucidaGrande is for export PDF, PDF specification doesn't allow space in font name */
+    
+    .title {
+        padding: 15px 0px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .flex-item {
+        padding: 8px;
+    }
+
+    .asset-class {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .symbol {
+        display: inline-block;
+        height: 16px;
+        width: 16px;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        padding: 15px 20px;
+    }
+
+    .asset-class-table {
+        table {
+            width: auto;
+            min-width: 460px;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .evaluation-switch-button-group {
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(50%, -35%);
+        }
+
+        thead {
+            th {
+                width: 25%;
+                vertical-align: bottom;
+                box-shadow: none !important;
+                font-size: 12px !important;
+                text-align: center !important;
+            }
+        }
+
+        td {
+            box-shadow: none !important;
+            text-align: right;
+        }
+
+        td, th {
+            padding: 0px 11px;
+            border-width: 0px 1px 0px 1px;
+            border-style: solid;
+            border-color: #F4F4F4;    
+            font-size: 12px;
+        }
+
+        .empty-row {
+            border-left-width: 0;
+            border-right-width: 0;
+        }
+
+        .first-cell {
+            border-left-width: 0;
+            box-shadow: none;
+        }
+
+        .last-cell {
+            border-right-width: 0;
+        }
+
+        .diff-header-th {
+            padding-bottom: 13px;
+        }
+
+        .cell-content {
+            font-size: 14px;
+        }
+    }
+
+    .charts-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dominance-charts-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .allocation-charts-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .asset-header {
+
+    }
+
+    .asset-allocation-chart, .asset-diff-chart {
+        min-width: 350px;
+        max-width: 450px;
+    }
+
+    .dominance-chart-container {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .scenario-dominance-chart, .statistical-dominance-chart {
+        width: 350px;
+        height: 400px;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .content {
+        flex-direction: column;
+    }
+}

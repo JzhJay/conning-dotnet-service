@@ -1,0 +1,35 @@
+:global .splitter {
+  &.hide-splitter .handle-bar {
+    display:none;
+  }
+
+  .handle-bar {
+    background-color: var(--theme-color-secondary);
+
+    --splitter-size: 5px;
+    &.vertical {
+      width: var(--splitter-size);
+      min-width: var(--splitter-size);
+    }
+
+    &.horizontal {
+      height:     var(--splitter-size);
+      min-height: var(--splitter-size);
+    }
+    .drag {
+      display:none;
+    }
+  }
+
+  >.pane > :only-child {
+    height:  100%;
+    width:100%;
+    display: flex;
+  }
+
+  > .pane.vertical {
+    > :only-child {
+      flex-direction:column;
+    }
+  }
+}

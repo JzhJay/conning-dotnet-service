@@ -1,0 +1,117 @@
+:global {
+    /* Don't show a hover color on header text in the menu */
+    .ui.menu .header.item:hover {
+        background: inherit;
+        color:      inherit;
+        cursor:     default;
+    }
+
+    .ui.menu .ui.dropdown.item {
+        cursor: default;
+    }
+
+    .ui.vertical.menu .ui.item {
+        cursor: default;
+    }
+
+    .ui.item.isLink {
+    }
+
+    .dropdown-cycle-button {
+        &.active {
+            > .ui.button {
+                border-bottom-left-radius:  0;
+                border-bottom-right-radius: 0;
+            }
+        }
+    }
+
+    .ui.buttons > .ui.dropdown:last-child .menu {
+        right: -1px;
+    }
+
+    .ui.menu {
+        > .bp3-popover-target {
+            display: block;
+        }
+
+        .item.disabled, .item.disabled:hover {
+            cursor:           default !important;
+            font-style:       italic !important;
+            background-color: transparent;
+            color:            rgba(40, 40, 40, 0.3);
+        }
+
+        .active.item {
+            background:  rgba(0, 0, 0, 0.05) !important;
+            color:       rgba(0, 0, 0, 0.95) !important;
+            font-weight: normal;
+            box-shadow:  none;
+        }
+    }
+
+    .ui.dropdown,
+    .ui.dropdown.item {
+        .ui.menu {
+            z-index: 5000;
+
+            > .divider {
+                border: 1px solid #ebebeb;
+            }
+
+            .item {
+                &:not(.filtered) {
+                    display: flex;
+                }
+
+                &.header {
+                    margin:         1em 0em 0.75em;
+                    padding:        0em 1.14285714em;
+                    color:          rgba(0, 0, 0, 0.85);
+                    font-size:      0.9em;
+                    font-weight:    bold;
+                    text-transform: uppercase;
+                }
+
+                .isvg .iconic {
+                    width:  1em;
+                    height: 1em;
+                }
+
+                &.dropdown .menu {
+                /* margin-top: 2 px !important; */
+                }
+            }
+
+            > .item .dropdown.icon {
+                flex:       1;
+                text-align: right;
+                top:        1px; /* Looks much nicer lined up with text to these eyes */
+            }
+
+            > .item .icon:not(.dropdown) {
+                flex: 0 auto;
+            }
+
+            > .divider {
+                margin: 0; /* otherwise highlights and spacing look awful */
+            }
+
+            .menu {
+                margin:        0 0 0 0 !important;
+                border-radius: 0 !important;
+                border:        0; /* Makes the nested menu line up nicely instead of down and to the right by a pixel */
+            }
+        }
+    }
+
+    .ui.menu .ui.menu .item:hover {
+        cursor:     pointer;
+        color:      rgba(0, 0, 0, 0.95);
+        background: rgba(0, 0, 0, 0.03);
+    }
+
+    .ui.menu.inverted .ui.menu .item:hover {
+        color:      white;
+    }
+}

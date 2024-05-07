@@ -1,0 +1,124 @@
+.optimization-resources {
+        margin-left: var(--indent-margin);
+
+    .columns {
+        display: flex;
+        margin-left: var(--indent-margin);
+
+        --color-1: rgb(0, 112, 192);
+        --color-2: rgb(193, 23, 23);
+        --color-3: rgb(11, 172, 88);
+        --input-height: 30px;
+        --label-height: 50px;
+        --spacer-width: 20px;
+        --row-spacer-height: 10px;
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            width: 160px;
+
+        .titles {
+            color: white;
+            background-color: black;
+        }
+
+        &.vcpus-per-optimizer {
+
+            > span.titles {
+                background-color: var(--color-3);
+            }
+
+            > span.dropdown {
+                width: 100%;
+                border-color: var(--color-3);
+                border-style: solid;
+            }
+
+        }
+
+        &.optimizers {
+
+            > span {
+                background-color: var(--color-2);
+            }
+
+            input {
+                width: 160px;
+                border-color: var(--color-2);
+                border-style: solid;
+            }
+
+        }
+
+        &.total-vcpus {
+
+        > span.titles {
+            background-color: var(--color-1);
+        }
+
+        }
+
+        > :global(.bp3-popover-wrapper) {
+            display: flex;
+            height: var(--input-height);
+            justify-content: center;
+            align-items: center;
+            overflow: hidden; /*Clip rect if validation error forces text beyond bound*/
+        }
+
+    }
+
+    >div {
+        >span:first-child {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: var(--label-height);
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: var(--row-spacer-height);
+        }
+
+        >:nth-child(2), >:nth-child(2) input {
+            height: var(--input-height);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+    }
+
+    .formula {
+        position: absolute;
+        margin-left: -60px;
+        width: 50px;
+        color: rgb(11, 172, 88);
+        font-weight: bold;
+
+        >span:nth-child(2) {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+        .spacer {
+            display: flex;
+            flex-direction: column;
+
+            .multiply {
+                font-size: 7px;
+                flex: 1;
+            }
+
+            span {
+                width: var(--spacer-width);
+            }
+        }
+    }
+
+    div.chart {
+        margin-left: 60px;
+    }
+}

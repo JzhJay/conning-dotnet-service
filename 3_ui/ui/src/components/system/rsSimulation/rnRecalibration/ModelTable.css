@@ -1,0 +1,13 @@
+.root {
+    :global(.InputTable__root > .bp3-navbar) {
+        border-bottom-width: 0 !important;
+    }
+
+    :global(.InputTable__root > .wj-flexgrid) {
+        border: 1px solid;
+    }
+
+    .table {
+        width: 100%;
+    }
+}

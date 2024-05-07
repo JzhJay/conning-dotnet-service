@@ -1,0 +1,295 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: fit-content;
+    max-width: 100%;
+    position: relative;
+    /*padding-top: 10px;*/
+
+    --label-background: var(--theme-color-primary);
+    --label-color: white;
+    --editable-background: rgb(255, 255, 255);
+    --editable-label-color: black;
+    --not-editable-background: rgb(239, 239, 239);
+    --border-color: rgb(200, 200, 200);
+    --cell-description-icon-color: var(--highlighter-yellow);
+
+    &.loading {
+        opacity: 0;
+    }
+
+    &.slot {
+        max-width: max-content;
+    }
+
+    .title {
+        height: 30px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    &.allow-scroll {
+        div[wj-part="root"] {
+            overflow-y: hidden !important; /*Overwrite inline style*/
+        }
+    }
+
+    .hide-children {
+        font-size: 0px;
+
+        >* {
+            display: none !important;
+        }
+     }
+
+    /*Only allow dropdown pointer events if the cell is selected. But always allow for the dropdown button so it can be opened with 1 click*/
+    .dropdown:not([tabindex="0"]) .dropdown-wrapper {
+        pointer-events: none;
+
+        :global(.wj-input-group-btn) {
+            pointer-events: all;
+        }
+    }
+
+    div[wj-state-measuring="true"] input {
+        width: 0 !important;
+    }
+
+    .dropdown-wrapper {
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        height: 100%;
+
+        :global(.wj-combobox) {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .label-sizer {
+            height: 0px;
+            opacity: 0;
+            width: fit-content;
+            /*white-space: nowrap;*/
+        }
+
+        input {
+            pointer-events: none; /*Prevent events to not interfere with drag and drop selection. Will still allow selecting text but without cursor*/
+            width: min-content;
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+        }
+    }
+
+    > :global(.LoadingUntil__loading-until) {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        :global(.ui.inverted.dimmer) {
+            background-color: rgba(255,255,255,.95);
+        }
+    }
+
+    :global {
+        .wj-topleft {
+            .wj-row:not(:last-child) .wj-cell {
+                border-bottom: none;
+            }
+
+            .wj-cell:not(:last-child) {
+                border-right: none;
+            }
+        }
+
+        .wj-input-group-btn>.wj-btn, .wj-input-group .wj-form-control {
+            min-height: unset;
+        }
+    }
+
+    :global(.wj-header.wj-cell .bp3-popover-target) {
+        cursor: unset;
+        white-space: pre-wrap;
+        display: unset;
+    }
+
+    :global(.wj-header.wj-cell) .description-triangle {
+        position: absolute;
+        top: 0;
+        right: 0;
+        .description-triangle-icon {
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        .description-triangle-icon-1 {
+            border-top: 5px solid var(--cell-description-icon-color);
+            border-left: 5px solid transparent;
+            width: 10px;
+            height: 0;
+        }
+        .description-triangle-icon-2 {
+            border-top: 5px solid var(--cell-description-icon-color);
+            border-left: 5px solid transparent;
+            width: 0;
+            height: 0;
+        }
+    }
+
+    :global(.wj-header.wj-cell), :global(.wj-cell:not(.wj-header):not(.wj-group):not(.wj-state-selected):not(.wj-state-multi-selected)).extreme {
+        display: flex;
+        flex-direction: column;
+        text-align: center !important;
+        justify-content: center;
+        /*white-space: normal;*/
+        background-color: var(--label-background);
+        color: var(--label-color);
+        border-color: var(--border-color);
+
+        &.extreme {
+            text-align: right !important; /*Overwrite inline style*/
+            font-weight: 700;
+        }
+    }
+
+    :global(.wj-cell:not(.wj-header):not(.wj-group):not(.wj-state-selected)):not(.extreme), :global(.wj-header.wj-cell).editable {
+        background-color: var(--editable-background);
+        color: var(--editable-label-color);
+
+        &.dropdown {
+            padding-right: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            white-space: nowrap;
+            line-height: 25px;
+
+            .dropdown-wrapper {
+                line-height: 20px; /*Reset to original for custom dropdowns*/
+            }
+
+            >button {
+                display:     flex;
+                min-width:   30px;
+                height:      100%;
+                border-left: 1px solid rgba(0, 0, 0, .5);
+
+                span {
+                    margin:    auto;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        &:global(.wj-header.wj-cell).editable {
+            text-align: center !important; /*Overwrite inline style*/
+            input {
+                text-align: center !important;
+            }
+        }
+
+        &:global(.wj-header.wj-cell).lightForegroundColor {
+            color: #ffffff;
+        }
+    }
+
+    :global(.wj-cell:not(.wj-header):not(.wj-group):not(.wj-state-selected):not(.wj-state-multi-selected)):not(.extreme).not-editable {
+        background-color: var(--not-editable-background);
+        color: var(--editable-label-color);
+
+        :global(.wj-elem-dropdown) {
+            display: none;
+        }
+    }
+
+    :global(.wj-cell) {
+        border-color: var(--border-color);
+    }
+
+    :global(.wj-marquee) {
+        background-color: rgba(0, 0, 0, .2);
+    }
+
+    :global(.wj-cell) svg:not([data-icon="drag-handle-vertical"]) {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .selector-cell {
+        padding-right: 25px !important;
+    }
+
+    .closable-tooltip-container {
+
+        &, span {
+           position: absolute;
+           height:   100%;
+           width:    100%;
+           left:     0px;
+           top:      0px;
+        }
+    }
+
+    :global(.wj-frozen.wj-frozen-col) {
+        background-color: white !important;
+    }
+}
+
+.detail-ctrl-row-header {
+    :global {
+        .bp3-button{
+            padding: 0;
+            margin-left: -1px;
+            min-height: 16px;
+            min-width: 16px;
+        }
+        .bp3-icon {
+            color: white;
+            svg {
+                position: unset !important;
+                transform: none !important;
+            }
+        }
+    }
+}
+
+:global(.wj-dropdown-panel) {
+    max-height: 500px !important; /*Overwrite inline style*/
+}
+
+.detail-table-dialog {
+    width: unset !important;
+    padding: 0px;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+
+    :global {
+        .bp3-dialog-header {
+            border: none;
+            background: transparent;
+
+            .bp3-dialog-close-button .bp3-icon{
+                color: #FFF;
+            }
+        }
+        .bp3-dialog-body {
+            background: rgba(255,255,255,1);
+            border: 1px solid #000;
+            border-radius: 5px;
+            margin: 0px !important;
+            padding: 5px !important;
+            box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 4px 8px rgba(16, 22, 26, 0.2), 0 18px 46px 6px rgba(16, 22, 26, 0.2);
+        }
+        .bp3-dialog-footer {
+            display: none;
+        }
+    }
+}
+
+.most-top-layer {
+    z-index: 65537 !important;
+}

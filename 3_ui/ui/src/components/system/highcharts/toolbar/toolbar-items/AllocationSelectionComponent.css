@@ -1,0 +1,13 @@
+.content-menu {
+    margin-top: 10px;
+}
+
+.point-formatter {
+    float: right;
+}
+
+.content-popover-button {
+    min-width: 24px;
+    min-height: 16px;
+    padding: 0 7px;
+}

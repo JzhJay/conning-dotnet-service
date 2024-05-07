@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="simulation-32" class="iconning iconning-simulation-32" viewBox="0 0 32 32" id="simulation32">
+    <g class="iconning-metadata">
+        <title>Simulation</title>
+    </g>
+    <g class="iconning-container" data-width="32" data-height="32">
+        <!-- Scenario Lines -->
+        <line class="iconning iconning-simulation iconning-simulation-32 iconning-line" x1="2.0" x2="30.0" y1="16.0" y2="2.0" stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-32 iconning-line" x1="11.333333333333334" x2="30.0" y1="20.666666666666668" y2="11.333333333333334" stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-32 iconning-line" x1="20.666666666666668" x2="30.0" y1="25.333333333333336" y2="20.666666666666668" stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-32 iconning-line" x1="2.0" x2="30.0" y1="16.0" y2="30.0" stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-32 iconning-line" x1="11.333333333333334" x2="30.0" y1="11.333333333333332" y2="20.666666666666664" stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-32 iconning-line" x1="20.666666666666668" x2="30.0" y1="6.666666666666665" y2="11.33333333333333" stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="round" style="fill:none"/>
+    </g>
+</svg>

@@ -1,0 +1,165 @@
+:global(.bp3-tab-panel) {
+    overflow: auto;
+}
+
+.root {
+    margin:         0 auto;
+    flex: 0 0 auto;
+    display:        flex;
+    flex-direction: column;
+    overflow:       hidden;
+    box-shadow: 0px 0px 5px #000;
+    max-height:     -webkit-fill-available;
+
+    .unused-tags {
+        display:        flex;
+        flex-direction: row;
+        flex-wrap:      wrap;
+
+        :global(.bp3-button) {
+            user-select: none;
+        }
+    }
+}
+
+.card {
+    flex:     1;
+    overflow: hidden;
+    box-shadow: #000 0 0 2px;
+    composes: smart-card from '../../../../../widgets/SmartBrowser/SmartCard/SmartCard.css';
+
+    .title {
+        padding-top:    0;
+        padding-bottom: 0;
+    }
+}
+
+.section {
+    /* composes: section from '../../../../../widgets/SmartBrowser/SmartCard/SmartCard.css' */;
+    margin: 5px;
+    padding: 0px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    background: #FFF;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    overflow: hidden;
+
+    .drag-container {
+        background: #EEE;
+        display: flex;
+    }
+
+    .section-body {
+        flex: 1 0;
+    }
+
+    .title {
+        background: #F8F8F8;
+    }
+
+    &.sortable-drag {
+        border: 1px dashed black !important;
+    }
+
+    .button-bar {
+        margin-right: 0;
+    }
+
+    :global(.bp3-button) {
+        max-height:24px;
+        min-height: 24px;
+
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+}
+
+.title {
+    composes:  title from '../../../../../widgets/SmartBrowser/SmartCard/SmartCard.css';
+    font-style:italic;
+    text-transform: capitalize;
+    padding: 5px !important;
+    margin: 0px !important;
+
+    .add-tag-dropdown {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    > :global(.bp3-editable-text) {
+        flex: 1;
+        padding:4px 2px;
+        margin: 0 2px;
+    }
+}
+
+.card-icon {
+    composes: card-icon from '../../../../../widgets/SmartBrowser/SmartCard/SmartCard.css';
+}
+
+.header-content {
+    composes: header-content from '../../../../../widgets/SmartBrowser/SmartCard/SmartCard.css';
+}
+
+.button-bar {
+    composes: button-bar from '../../../../../widgets/SmartBrowser/SmartCard/SmartCard.css';
+}
+
+.tags {
+}
+
+.tag {
+    display:        flex;
+    flex-direction: row;
+    padding: 5px;
+    border: 1px solid #EEE;
+    margin: -1px;
+    background: #FFF;
+
+    :global(.bp3-icon-eye-off) {
+        cursor: pointer;
+        color: #888;
+    }
+}
+
+.sortable-drag {
+    border: 1px dashed black !important;
+}
+
+.drag-handle {
+    margin: auto;
+}
+
+.sections {
+    overflow: auto;
+
+    .button-bar {
+        :global .bp3-button {
+            min-height: 24px;
+        }
+    }
+}
+
+.tag-content {
+    composes: tag from '../../../../../widgets/SmartBrowser/SmartCard/SmartCard.css';
+    flex:     1;
+    margin:   0 .5em;
+    padding:  0px 3px;
+    border:   1px solid transparent;
+    grid-template-columns: 1fr;
+}
+
+.tag-label {
+    composes: tag-label from '../../../../../widgets/SmartBrowser/SmartCard/SmartCard.css';
+}
+
+.tag-value-container {
+    composes:   tag-value-container from '../../../../../widgets/SmartBrowser/SmartCard/SmartCard.css';
+    font-style: italic;
+}
+
+.tag-value {
+    composes: tag-value from '../../../../../widgets/SmartBrowser/SmartCard/SmartCard.css';
+}

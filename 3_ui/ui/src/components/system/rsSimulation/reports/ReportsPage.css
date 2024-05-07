@@ -1,0 +1,9 @@
+.root {
+    flex:     1;
+    display:  flex;
+    overflow: hidden;
+
+    .input-specification-component {
+        flex: 1;
+    }
+}

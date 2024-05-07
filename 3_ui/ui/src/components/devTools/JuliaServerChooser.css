@@ -1,0 +1,25 @@
+.root {
+	flex: 0 1 auto;
+	text-align:-webkit-right;
+	display:flex;
+
+	.label {
+		padding-right:10px;
+		text-align:left;
+		font-weight: bold;
+	}
+
+	> :global(.ui.item.dropdown) {
+		flex: 0 1 auto;
+
+		> :global(.text) {
+			flex:       1;
+			text-align: right;
+		}
+
+		button {
+			margin-left:5px;
+			padding:2px;
+		}
+	}
+}

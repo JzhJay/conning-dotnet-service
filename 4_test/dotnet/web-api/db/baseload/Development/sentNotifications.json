@@ -1,0 +1,11 @@
+﻿{
+  "owner": "google-oauth2|113496205501185249519",
+  delivered: true,
+  endpoint: {
+    type: "email",
+    value: "noah.shipley@conning.com"
+  },
+  title: "Testing 123",
+  messageKey: "test-data",
+  sentTime: "2018-05-23T01:41:34.821+0000"
+}

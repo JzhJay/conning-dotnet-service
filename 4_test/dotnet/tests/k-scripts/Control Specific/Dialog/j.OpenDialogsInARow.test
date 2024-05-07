@@ -1,0 +1,8 @@
+((`advise;1); (`jsetb;  `name `.k.p.OpenFolder;  (`index;());  (`value;())))
+((`advise;1); (`jsetb;  `name `.j.OPEN;  (`index;());  (`value;   ("C:\\";    ,"C:\\main"))))
+((`advise;1); (`jsetb;  `name `.j.OPEN;  (`index;());  (`value;   ("C:\\";    ,"C:\\main"))))
+(; (`getValue; ((`advise;1);".k.res";".tc.resValue")))
+/use case-insensitive compare as AutoTest may have an upper or lower case drive letter
+(; (`assert; ({.u.uc[*.tc.resValue]~.u.uc "C:\\main"})))
+
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`close;())))

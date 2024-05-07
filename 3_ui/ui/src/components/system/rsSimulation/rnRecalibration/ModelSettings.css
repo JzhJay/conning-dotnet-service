@@ -1,0 +1,110 @@
+.scroll-container {
+
+}
+
+.root {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 100%;
+
+
+    .main-area {
+        flex: 3 1 auto;
+        overflow: hidden;
+        padding-bottom: 20px;
+        border-right: var(--border);
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .advanced-area {
+        flex: 1 0 450px;
+        align-self: start;
+        position: relative;
+        top: 0;
+
+        padding-top: 30px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+
+    .header {
+        display: flex;
+        height: 30px;
+        justify-content: flex-end;
+    }
+
+    .setting-menu {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        margin-left: 30px;
+    }
+
+    &.enable-paginate {
+        .main-area {
+            padding-bottom: 0px;
+
+        }
+
+        .advanced-area {
+            padding-bottom: 48px;
+        }
+    }
+
+    &.hide-sidebar {
+        .main-area {
+            border-right: none;
+        }
+        .advanced-area {
+            display: none;
+        }
+    }
+
+    .main-panel-settings {
+        padding: var(--padding);
+
+        .input-specification-component > div {
+            padding: 0px;
+        }
+    }
+
+    .sidebar-settings {
+        margin-right: 10px;
+        padding: var(--padding);
+    }
+
+    .paginate-navbar {
+        position: relative;
+        z-index: 10;
+
+        background: #efefef;
+        display: flex;
+        flex-direction: row;
+        flex: 0;
+        justify-content: flex-end;
+        -webkit-box-shadow: 0 0 0 1px rgb(16 22 26 / 15%), 0 0 0 rgb(16 22 26 / 0%), 0 0 0 rgb(16 22 26 / 0%);
+        box-shadow: 0 0 0 1px rgb(16 22 26 / 15%), 0 0 0 rgb(16 22 26 / 0%), 0 0 0 rgb(16 22 26 / 0%);
+    }
+
+    .paginate-space {
+        visibility: hidden;
+        flex: 1;
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        height: 37px;
+        white-space: nowrap;
+    }
+}
+

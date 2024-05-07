@@ -1,0 +1,40 @@
+.tab-simple {
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+
+    /*
+    //a[role="tab"] {
+    //    color:inherit;
+    //}
+     */
+
+    >.nav.nav-tabs {
+        display:flex;
+        flex:0 0 auto;
+    }
+
+    .tab-content {
+        flex: 1;
+        /*display:flex;*/
+
+        .tab-pane {
+            padding:4px;
+            width:100%;
+            height:100%;
+            display:flex;
+            flex-direction: column;
+            > *:only-child {
+                flex: 1;
+            }
+        }
+    }
+}
+
+
+.form-group .checkbox input[type="checkbox"] {
+    vertical-align: middle;
+    margin-right:5px;
+    position:relative;
+    top:-1px;
+}

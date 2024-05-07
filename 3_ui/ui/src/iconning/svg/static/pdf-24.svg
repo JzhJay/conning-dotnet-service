@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" data-icon="pdf-24" class="iconning iconning-pdf-24" viewBox="0 0 24 24" id="pdf24">
+    <g class="iconning-metadata">
+        <title>Probability Density Function Chart</title>
+    </g>
+    <g class="iconning-container" data-width="24" data-height="24">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.5" y1="24.0" x2="0.5" y2="2.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.0" y1="23.5" x2="24.0" y2="23.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="17.5" x2="3.0" y2="17.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="11.5" x2="3.0" y2="11.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="5.5" x2="3.0" y2="5.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="20.5" x2="2.0" y2="20.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="14.5" x2="2.0" y2="14.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="8.5" x2="2.0" y2="8.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="2.5" x2="2.0" y2="2.5"/>
+        <!-- PDF Polygon -->
+        <path class="iconning iconning-pdf iconning-pdf-24 iconning-accent-1" d="M 4.0 21.78381367524241 L 4.487179487179487 21.686931508699118 L 4.9743589743589745 21.504575210066513 L 5.461538461538462 21.23331728260682 L 5.948717948717949 20.847365026498753 L 6.435897435897436 20.367075174519044 L 6.923076923076923 19.69881433018482 L 7.410256410256411 18.912198689655128 L 7.897435897435898 17.894220439085526 L 8.384615384615385 16.737928302863892 L 8.871794871794872 15.396324397906394 L 9.358974358974358 13.700963484776448 L 9.846153846153847 11.821315869250345 L 10.333333333333332 10.12076675935081 L 10.820512820512821 8.572008007757441 L 11.307692307692307 7.310869224116269 L 11.794871794871796 5.963147319946575 L 12.282051282051283 4.745259426889412 L 12.76923076923077 4.126683535298 L 13.256410256410257 3.9499999999999993 L 13.743589743589743 4.160125382649401 L 14.23076923076923 4.733901410428533 L 14.717948717948717 5.753424341922461 L 15.205128205128204 7.0539195831575245 L 15.692307692307692 8.435227242019165 L 16.17948717948718 10.20934372040071 L 16.666666666666664 12.113232498315393 L 17.153846153846153 13.851421235688626 L 17.641025641025642 15.511082153264564 L 18.128205128205128 16.86602288099708 L 18.615384615384613 17.95118023807747 L 19.102564102564102 18.92313323824006 L 19.58974358974359 19.75900841568796 L 20.076923076923077 20.422787378339507 L 20.564102564102566 20.86685789193969 L 21.05128205128205 21.160842656138232 L 21.53846153846154 21.419713267851584 L 22.025641025641026 21.621578237289647 L 22.512820512820515 21.766894887677637" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

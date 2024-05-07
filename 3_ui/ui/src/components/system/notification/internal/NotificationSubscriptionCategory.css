@@ -1,0 +1,23 @@
+:global(.title).active {
+
+}
+
+.summary {
+    opacity: 0;
+    transition: opacity 400ms ease;
+    &.loaded {
+        opacity:1;
+    }
+}
+
+.action-footer {
+    padding:1em;
+    display:flex;
+    justify-content: center;
+
+    :global .bp3-button {
+        &:not(:first-child) {
+            margin-left: 1em;
+        }
+    }
+}

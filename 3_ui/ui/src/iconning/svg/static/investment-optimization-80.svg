@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" data-icon="investment-optimization-80" class="iconning iconning-investment-optimization-80" viewBox="0 0 80 80" id="investment-optimization80">
+    <g class="iconning-metadata">
+        <title>Investment Optimization</title>
+    </g>
+    <g class="iconning-container" data-width="80" data-height="80">
+        <!-- Frontier Line -->
+        <path class="iconning iconning-investment_optimization iconning-investment_optimization-80 iconning-line" d="M 7.927217342196264 72.07278265780374 A 64.14556531560747 64.14556531560747 0 0 1 72.07278265780373 7.927217342196272" stroke="rgb(  0,  0,  0)" stroke-width="3.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <!-- Frontier Points -->
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-80 iconning-point" cx="7.927217342196258" cy="72.07278265780374" r="5.927217342196264" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-80 iconning-point" cx="11.066724772958857" cy="52.25071286149284" r="5.927217342196264" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-80 iconning-point" cx="20.177930203689094" cy="34.36896536532609" r="5.927217342196264" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-80 iconning-point" cx="34.368965365326076" cy="20.177930203689108" r="5.927217342196264" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-80 iconning-point" cx="52.25071286149283" cy="11.066724772958871" r="5.927217342196264" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-80 iconning-point" cx="72.07278265780373" cy="7.927217342196272" r="5.927217342196264" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

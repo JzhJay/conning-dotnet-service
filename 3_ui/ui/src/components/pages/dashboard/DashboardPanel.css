@@ -1,0 +1,247 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &.type-block {
+        flex-direction: row;
+        padding: 20px 10px 20px 20px;
+        align-items: stretch;
+        overflow: hidden;
+        height: 180px;
+
+        .icon-outer {
+            flex-grow: 0;
+            flex-shrink: 0;
+            background-color: var(--theme-office-site-blue-primary);
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            align-self: center;
+
+            .icon {
+                color: var(--theme-office-site-font-light);
+                width: 100% !important;
+                height: 100%  !important;
+                line-height: 100%;
+                padding: 20%;
+
+                * {
+                    stroke: var(--theme-office-site-font-light);
+                    fill: var(--theme-office-site-font-light);
+                }
+
+                svg{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            :global(.bp3-icon){
+                color: var(--theme-office-site-font-light);
+                margin: 15%;
+                height: 100%;
+                width: 100%;
+
+                svg {
+                    height: 70%;
+                    width: 70%;
+                }
+            }
+        }
+
+        .ctrl-outer {
+            flex-grow: 1;
+            flex-shrink: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            .title {
+                color: var(--theme-office-site-blue-primary);
+                flex-grow: 1;
+                flex-shrink: 1;
+                margin: 0;
+                padding: 0 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .ctrls {
+                flex-grow: 0;
+                flex-shrink: 0;
+                padding-top: 10px;
+            }
+        }
+
+        .create-btn :global(.AppIcon__root) {
+            padding: 0 4px 0 8px;
+        }
+
+        &[data-type="Simulation"] .icon-outer .icon {
+            padding-left:13%;
+            padding-right:27%;
+        }
+
+        &[data-type="RNSimulation"] .icon-outer .icon {
+            padding-left:13%;
+            padding-right:27%;
+        }
+
+        &[data-type="UserFile"] .icon-outer :global(.bp3-icon) {
+             width: 80%;
+             height: 80%;
+             margin: 18% 23%;
+        }
+    }
+
+    &.recent-block {
+        .loading,
+        .noCards {
+            margin: 150px 0;
+        }
+
+        :global(.bp3-tabs) {
+            display: block;
+            width: 100%;
+            margin: 0px;
+            padding: 2px;
+            border-bottom: 2px solid var(--theme-office-site-line-color);
+            text-align: center;
+
+            :global(.bp3-tab-list) {
+                justify-content: center;
+            }
+
+            :global(.bp3-tab) {
+                padding: 25px 15px;
+                margin: 0;
+                font-weight: 600;
+                color: var(--theme-office-site-blue-primary);
+
+                &[aria-selected="true"],
+                &:not([aria-disabled="true"]):hover {
+                     color: var(--theme-office-site-font-dark);
+                     border-color: var(--theme-office-site-blue-primary);
+                }
+            }
+        }
+
+        .smart-cards {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            text-align: left;
+            width: 100%;
+
+            .smart-card {
+                margin: 10px;
+
+                :global(.SmartCard__smart-card) {
+                    margin: 0;
+                    overflow: hidden;
+                    max-width: unset !important;
+                    min-width: unset !important;
+                    width: unset !important;
+                }
+
+
+                :global(.SmartCard__rename) {
+                    margin-top: 7px !important;
+                }
+
+                :global(.SmartCard__section) {
+                    display: none;
+
+                    &:nth-child(2){
+                         display: flex;
+                    }
+                }
+
+                :global(.FavoriteIndicator__root) {
+                    display: none !important;
+                }
+            }
+
+            .toggle {
+                float: right;
+                padding: 3px 10px;
+                color: var(--theme-office-site-blue-primary);
+                cursor: pointer;
+                border-radius: 0 0 4px 4px;
+
+                &:hover {
+                    color: var(--theme-office-site-font-dark);
+                }
+            }
+
+            .smart-card-hover {
+                :global(.SmartCard__smart-card) {
+                    border: 2px solid var(--theme-office-site-blue-dark);
+                    border-bottom-right-radius: 0;
+                }
+
+                :global(.SmartCard__section) {
+                    display: flex;
+                }
+
+                .toggle {
+                    position: relative;
+                    z-index: 5;
+                    background: var(--theme-office-site-blue-dark);
+                    color: rgba(255,255,255,0.8);
+                    box-shadow: 0 1px 3px 0 #d4d4d5, 0 1px 0 1px #d4d4d5;
+
+                    &:hover {
+                        color: #FFF;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 949px) {
+    .root.type-block {
+        height: 150px;
+
+        .icon-outer {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+@media screen and (max-width: 729px) {
+    .root.type-block {
+        height: unset;
+        min-height: 90px;
+        padding: 10px 10px;
+
+        .icon-outer {
+            width: 50px;
+            height: 50px;
+        }
+        .ctrl-outer {
+            flex-direction: row;
+            align-items: center;
+            .title {
+                white-space: pre-line;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                justify-content: flex-start;
+                flex-grow: 1;
+                text-align: left;
+            }
+            .ctrls {
+                justify-content: flex-end;
+                text-align: right;
+            }
+        }
+    }
+}

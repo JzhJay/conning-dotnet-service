@@ -1,0 +1,136 @@
+.root {
+    --negative: rgb(255, 0, 0);
+    --positive: rgb(0, 255, 0);
+
+    font-family: "Lucida Grande", LucidaGrande, "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    width: 100%;
+
+    .table-wrapper {
+        display: flex;
+        width: 100%;
+        overflow-y: auto;
+
+        /*table {*/
+            /*flex: 1; This breaks zoom to fit behavior  */
+        /*}*/
+
+        &.hover-mode {
+            td:not(.cell-highlight) {
+                opacity: .2;
+            }
+        }
+
+        .cell-clickable {
+            border: 2px solid #ffffff;
+            cursor: pointer;
+            transition: border-color 0.5s;
+
+            &:hover {
+                border-color: #c0c5ce;
+            }
+
+            &.selected {
+                border-color: #000000;
+            }
+        }
+        
+        .header-label {
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            color: black;
+            background-color: white;
+            font-size: 14px;
+        }
+
+        .negative-dominance {
+            background-color: var(--negative);
+        }
+
+        .positive-dominance {
+            background-color: var(--positive);
+        }
+    }
+
+    .title {
+        font-size: 18px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    tbody th {
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+        box-shadow: none !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+    }
+
+    th, td {
+        fill: #666666;
+        color: #666666;
+        vertical-align: middle !important;
+        text-align: center !important;
+    }
+
+    svg {
+        width: 100%;
+        vertical-align: top;
+    }
+
+    tbody td {
+        border: 2px solid #ffffff;
+        box-shadow: none !important;
+        font-size: 0px; /* for solving td get extra space in PDF */
+        /*border: grey solid 1px;*/
+    }
+
+    .legend {
+        display: grid;
+        place-items: center;
+        min-width: 180px;
+        font-weight: bold;
+
+        .legend-wrapper {
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .symbol {
+            height: 16px;
+            width: 16px;
+            margin-right: 5px;
+        }
+
+        &.fraction-mode-legend {
+            .symbol {
+                height: 100px;
+            }
+
+            .gradient-label {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-self: stretch;
+            }
+
+            .legend-heading {
+                margin: auto;
+                margin-left: 5px;
+                width: 95px;
+            }
+        }
+    }
+
+    :global .empty-hover-svg {
+        opacity: 0;
+    }
+}

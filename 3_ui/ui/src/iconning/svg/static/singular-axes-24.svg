@@ -1,0 +1,20 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" data-icon="singular-axes-24" class="iconning iconning-singular-axes-24" viewBox="0 0 24 24" id="singular-axes24">
+    <g class="iconning-metadata">
+        <title>Singular Axes</title>
+    </g>
+    <g class="iconning-container" data-width="24" data-height="24">
+        <!-- Singular Axes (Axis, Colon, Coordinate) -->
+        <rect class="iconning-accent-0" x="0" y="0.0" width="9.0" height="6.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="round" class="iconning-equal-sign" x1="10.8" y1="2.0" x2="13.2" y2="2.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="round" class="iconning-equal-sign" x1="10.8" y1="4.0" x2="13.2" y2="4.0"/>
+        <rect class="iconning-accent-1" x="15.0" y="0.0" width="9.0" height="6.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <rect class="iconning-accent-0" x="0" y="9.0" width="9.0" height="6.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="round" class="iconning-equal-sign" x1="10.8" y1="11.0" x2="13.2" y2="11.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="round" class="iconning-equal-sign" x1="10.8" y1="13.0" x2="13.2" y2="13.0"/>
+        <rect class="iconning-accent-1" x="15.0" y="9.0" width="9.0" height="6.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <rect class="iconning-accent-0" x="0" y="18.0" width="9.0" height="6.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="round" class="iconning-equal-sign" x1="10.8" y1="20.0" x2="13.2" y2="20.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="round" class="iconning-equal-sign" x1="10.8" y1="22.0" x2="13.2" y2="22.0"/>
+        <rect class="iconning-accent-1" x="15.0" y="18.0" width="9.0" height="6.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

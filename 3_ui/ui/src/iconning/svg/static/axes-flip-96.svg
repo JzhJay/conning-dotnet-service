@@ -1,0 +1,48 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="96" height="96" data-icon="axes-flip-96" class="iconning iconning-axes-flip-96" viewBox="0 0 96 96" id="axes-flip96">
+    <g class="iconning-metadata">
+        <title>Axes Flip</title>
+    </g>
+    <g class="iconning-container" data-width="96" data-height="96">
+        <!-- Axes -->
+        <rect class="iconning iconning-axes-flip iconning-axes-flip-96 iconning-accent-0" x="2.0" y="80.0" width="22.0" height="16.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M 72.0 -54.0 Q 72.0 -54.0 0 0 0" begin="axesflip96foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <rect class="iconning iconning-axes-flip iconning-axes-flip-96 iconning-accent-0" x="74.0" y="26.0" width="22.0" height="16.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M -72.0 54.0 Q -72.0 54.0 0 0 0" begin="axesflip96foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <rect class="iconning iconning-axes-flip iconning-axes-flip-96 iconning-accent-0" x="26.0" y="80.0" width="22.0" height="16.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M 48.0 -36.0 Q 48.0 -36.0 0 0 0" begin="axesflip96foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <rect class="iconning iconning-axes-flip iconning-axes-flip-96 iconning-accent-0" x="74.0" y="44.0" width="22.0" height="16.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M -48.0 36.0 Q -48.0 36.0 0 0 0" begin="axesflip96foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <rect class="iconning iconning-axes-flip iconning-axes-flip-96 iconning-accent-0" x="50.0" y="80.0" width="22.0" height="16.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M 24.0 -18.0 Q 24.0 -18.0 0 0 0" begin="axesflip96foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <rect class="iconning iconning-axes-flip iconning-axes-flip-96 iconning-accent-0" x="74.0" y="62.0" width="22.0" height="16.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M -24.0 18.0 Q -24.0 18.0 0 0 0" begin="axesflip96foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+    </g>
+    <!-- Curved Arrow -->
+    <g data-width="62.9" data-height="62.9">
+        <g data-width="62.9" data-height="62.9" transform="translate(74.0, 80.0)">
+            <path class="iconning iconning-axes-flip iconning-axes-flip-96 iconning-stroke iconning-arrow" d="M -42.11910089774533 -19.43958502972863 L -35.694153303174005 -16.47422460146494 A 46.38875 46.38875 0 0 0 -51.10625 -0.0 A 55.82375 55.82375 0 0 1 -57.1106452850784 -26.358759362343903 L -50.68569769050708 -23.393398934080214 A 55.82375 55.82375 0 0 1 -39.47335217626253 -39.47335217626253 L -32.80179969576746 -32.80179969576746 A 46.38875 46.38875 0 0 0 -42.11910089774533 -19.43958502972863" fill="rgb(  0,  0,  0)" style="stroke:none"/>
+        </g>
+        <animateTransform attributeName="transform" dur="0.5s" type="rotate" from="180.0 74.0 80.0" to="0.0 74.0 80.0" begin="axesflip96foregroundrectangle.mouseover"/>
+        <!-- Foreground Rectangle (transparent, for mouseover event only) -->
+    </g>
+    <g data-width="62.9" data-height="62.9">
+        <g data-width="62.9" data-height="62.9" transform="translate(74.0, 80.0)">
+            <path class="iconning iconning-axes-flip iconning-axes-flip-96 iconning-stroke iconning-arrow" d="M -32.80179969576746 -32.80179969576746 L -39.47335217626253 -39.47335217626253 A 55.82375 55.82375 0 0 1 -23.393398934080214 -50.68569769050708 L -26.358759362343903 -57.1106452850784 A 55.82375 55.82375 0 0 1 -0.0 -51.10625 A 46.38875 46.38875 0 0 0 -16.47422460146494 -35.694153303174005 L -19.43958502972863 -42.11910089774533 A 46.38875 46.38875 0 0 0 -32.80179969576746 -32.80179969576746" fill="rgb(  0,  0,  0)" style="stroke:none"/>
+        </g>
+        <animateTransform attributeName="transform" dur="0.5s" type="rotate" from="-180.0 74.0 80.0" to="0.0 74.0 80.0" begin="axesflip96foregroundrectangle.mouseover"/>
+        <!-- Foreground Rectangle (transparent, for mouseover event only) -->
+    </g>
+    <rect class="iconning iconning-axes-flip iconning-axes-flip-96 iconning-bg" x="0" y="0" width="96" height="96" fill="rgb(255,255,255)" id="axesflip96foregroundrectangle" style="stroke:none; fill-opacity:0"/>
+</svg>

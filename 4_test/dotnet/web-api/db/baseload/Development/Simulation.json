@@ -1,0 +1,172 @@
+{
+  "scenarios" : 5,
+  "modules" : [],
+  "jobIds" : [
+    "Fake_job_id_1"
+  ],
+  "createdBy" : "auth0|5b4b84b1a177ac1965fdaa6a",
+  "elements" : "Not Applicable",
+  "axes" : [
+    "User_value",
+    "FTime",
+    "Securities",
+    "Taxlot"
+  ],
+  "gridName" : "Fake_Grid_Name_1",
+  "periods" : {
+    "Quarter" : 7,
+    "Year" : 12
+  },
+  "size" : "Not Applicable",
+  "economies" : [
+    "US",
+    "DE",
+    "CA"
+  ],
+  "path" : "Fake_s3_path_4",
+  "modifiedTime" : "2018-07-05T15:56:59.585",
+  "name" : "Fake_Simulation_1",
+  "variables" : 2974,
+  "createdTime" : "2018-07-05T15:56:59.585",
+  "deletedTime" : null,
+  "status" : "Complete",
+  "archived" : false,
+  "billingInformation" : {
+    "startTime" : 1521630840,
+    "compilationEndTime" : 1521630840,
+    "simulationWorkerEndTime" : 1522847040,
+    "elements" : NumberLong(12710000000),
+  },
+  "frequencies" : [
+    "Year",
+    "Quarter"
+  ],
+  "modifiedBy" : "auth0|5b4b84b1a177ac1965fdaa6a",
+  "version" : "Not Applicable"
+}
+{
+  "scenarios" : 100,
+  "modules" : [
+    "Economy",
+    "Taxlot"
+  ],
+  "jobIds" : [
+    "Fake_job_id_2"
+  ],
+  "createdBy" : "auth0|5b4b84b1a177ac1965fdaa6a",
+  "elements" : "Not Applicable",
+  "axes" : [
+    "Modules",
+    "Measure"
+  ],
+  "gridName" : "Fake_Grid_Name_3",
+  "periods" : {
+    "Quarter" : 19,
+    "Month" : 7
+  },
+  "size" : "Not Applicable",
+  "economies" : [
+    "GB",
+    "DE",
+    "CA"
+  ],
+  "path" : "Fake_s3_path_5",
+  "modifiedTime" : "2018-07-05T15:56:59.585",
+  "name" : "Fake_Simulation_2",
+  "variables" : 2949,
+  "createdTime" : "2018-07-05T15:56:59.585",
+  "deletedTime" : null,
+  "status" : "Complete",
+  "archived" : false,
+  "billingInformation" : {
+    "startTime" : 1523266440,
+    "compilationEndTime" : 1523266440,
+    "simulationWorkerEndTime" : 1523275020,
+    "elements" : NumberLong(2170000000),
+  },
+  "frequencies" : [
+    "Month",
+    "Quarter"
+  ],
+  "modifiedBy" : "auth0|5b4b84b1a177ac1965fdaa6a",
+  "version" : "Not Applicable"
+}
+{
+  "scenarios" : 5000,
+  "modules" : [
+    "User_value",
+    "Taxlot"
+  ],
+  "jobIds" : [
+    "Fake_job_id_4"
+  ],
+  "createdBy" : "auth0|5b4b84b1a177ac1965fdaa6a",
+  "elements" : "Not Applicable",
+  "axes" : [
+    "Modules",
+    "Securities",
+    "Taxlot",
+    "Measure"
+  ],
+  "gridName" : "Fake_Grid_Name_3",
+  "periods" : {
+    "Month" : 39,
+    "Year" : 3
+  },
+  "size" : "Not Applicable",
+  "economies" : [
+    "US",
+    "CA",
+    "CH"
+  ],
+  "path" : "Fake_s3_path_2",
+  "modifiedTime" : "2018-07-05T15:56:59.585",
+  "name" : "Fake_Simulation_4",
+  "variables" : 2021,
+  "createdTime" : "2018-07-05T15:56:59.585",
+  "deletedTime" : null,
+  "status" : "Run",
+  "archived" : false,
+  "billingInformation" : {
+    "startTime" : 1525101360,
+    "compilationEndTime" : 1525101360,
+    "simulationWorkerEndTime" : null,
+    "elements" : NumberLong(16210000000),
+  },
+  "frequencies" : [
+    "Year",
+    "Month"
+  ],
+  "modifiedBy" : "auth0|5b4b84b1a177ac1965fdaa6a",
+  "version" : "Not Applicable"
+}
+{
+  "_id": ObjectId("606c228e70f8081053237a54"),
+  "createdBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "createdTime": "2021-04-06T08:57:50.209Z",
+  "modifiedBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "modifiedTime": "2021-04-06T08:59:15.719Z",
+  "__typename": "Simulation",
+  "name": "CRA_Karma",
+  "gridName": "No grid",
+  "economies": [],
+  "frequencies": [
+	"Year"
+  ],
+  "modules": [],
+  "version": "0.1",
+  "status": "Complete",
+  "variables": 3,
+  "scenarios": 5,
+  "dfsPath": null,
+  "periods": {
+	"month": null,
+	"quarter": null,
+	"year": 81,
+	"__typename": "Period"
+  },
+  "sourceType": "Repository",
+  "productVersion": null,
+  "userTagValues": [],
+  "userFile": "606c226370f8081053237a53"
+}

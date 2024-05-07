@@ -1,0 +1,54 @@
+.root {
+    display: flex;
+    cursor: pointer;
+    pointer-events: unset !important;
+
+    &.disabled-link .text{
+         color: var(--theme-link-color);
+    }
+
+    .icon {
+        width: 14px !important;
+        height: 14px !important;
+        --icon-color: #5c7080;
+
+        &:not(:global(.bp3-spinner)) {
+            path, line {
+                stroke: var(--icon-color);
+            }
+
+            circle {
+                stroke: var(--icon-color);
+                fill: var(--icon-color);
+            }
+        }
+
+        :global(.bp3-icon) {
+            svg {
+                width: 14px;
+                height: 14px;
+            }
+
+            path {
+                stroke: none;
+                fill: var(--icon-color);
+            }
+        }
+    }
+
+    .text {
+        padding-left: 3px;
+        flex-shrink: 1;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+        :global(.SmartCard__tag-value) {
+            padding: 0;
+        }
+    }
+}
+
+.notFound {
+    font-style: italic;
+}

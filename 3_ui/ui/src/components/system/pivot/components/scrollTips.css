@@ -1,0 +1,75 @@
+:global(.pivotTable__pivot-table) .scroll-tips {
+             /*position:relative;*/
+  top:       0;
+  left:      0;
+  flex:      0;
+  z-index: 21;
+  font-size: 75%;
+
+  position:  absolute;
+
+  &:globa(.empty) {
+    display: none;
+  }
+
+  > div {
+    position:         absolute;
+    overflow:         hidden;
+    border-width:     1px;
+    border-style:     solid;
+    border-color:     var(--theme-border-color);
+    box-shadow:       1px 1px 2px var(--theme-border-color);
+    padding:          .5em;
+    text-align:       center;
+    background-color: rgba(220, 200, 127, .9);
+    display:          flex;
+    font-size:        100%;
+    opacity:          0;
+    transition:       opacity .6s ease;
+    pointer-events:   none;
+
+    &:global(.visible) {
+      opacity: 1;
+    }
+
+    &.over-pivot {
+      /*background-color: rgba(220, 200, 127, .95);*/
+    }
+
+    table {
+      th {
+        padding:    0 1.5em;
+        text-align: center;
+
+        &:first-of-type {
+          padding-right: 2em;
+        }
+      }
+
+      tr {
+        td:first-of-type {
+          font-weight:   bold;
+          text-align:    right;
+          padding-right: .5em;
+        }
+
+        td {
+          text-align: center;
+        }
+      }
+    }
+
+    td {
+      flex:        1;
+      user-select: none;
+    }
+  }
+
+  :global(.pivotTable__horizontal) {
+    max-width: 600px;
+  }
+
+  :global(.pivotTable__vertical) {
+    max-height: 400px;
+  }
+}

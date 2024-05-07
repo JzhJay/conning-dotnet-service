@@ -1,0 +1,10 @@
+type TestType_ForKarmaTest {
+    _id: ID!
+    name: String!
+    status: Int!
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    createdTime: DateTime
+    modifiedTime: DateTime
+    json: Json
+}

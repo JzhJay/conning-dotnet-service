@@ -1,0 +1,61 @@
+.root {
+    display: block;
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 28px 56px;
+}
+
+.filter {
+    padding: 0 56px;
+    color: #5e6c84;
+    font-weight: bold;
+}
+
+.filter-button-group {
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+
+.divider {
+    margin: 20px 0;
+    border-top: 1px solid #D2D8DD;
+}
+
+.library-container {
+    padding: 0 56px;
+}
+
+.library-callout {
+    margin-bottom: 14px;
+}
+
+.copyright {
+    color: #565656;
+    font-weight: bold;
+}
+
+.license, .copyright, .notices {
+    margin-top: 14px;
+}
+
+.license-link {
+    margin-right: 10px;
+}
+
+.license-content {
+    flex-direction: column;
+    p {
+        margin-bottom: 14px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .root {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,16 @@
+((`advise;1); (`jsetb;  `name `".*.k.p2";  (`index;());  (`sxy;   400 200)))
+((`advise;1); (`jsetb;  `name `".*.k.p2";  (`index;());  (`sloc;   300 0)))
+
+((`advise;1); (`jsetc;  `name `.k.p.button;  (`index;());  (`value;())))
+((`advise;1); (`jsetb;  `name `".*.k.modal";  (`index;());  (`sxy;   400 200)))
+((`advise;1); (`jsetb;  `name `".*.k.modal";  (`index;());  (`sloc;   100 100)))
+
+((`advise;1); (`jsetb;  `name `.k.modal.ok;  (`index;());  (`value;())))
+
+((`advise;1); (`jsetc;  `name `.k.p.button;  (`index;());  (`value;())))
+((`advise;1); (`jsetb;  `name `".*.k.modal";  (`index;());  (`sxy;   400 200)))
+((`advise;1); (`jsetb;  `name `".*.k.modal";  (`index;());  (`sloc;   100 100)))
+
+((`advise;1); (`jsetb;  `name `.k.modal.cancel;  (`index;());  (`value;())))
+
+((`advise;1); (`jsetb;  `name `".*.k.p";  (`index;());  (`close;())))

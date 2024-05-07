@@ -1,0 +1,41 @@
+.run-button {
+    user-select: none;
+
+    .optimize {
+        position: relative;
+        background-color: #0D8050;
+    }
+
+    .cancel {
+        position: relative;
+        background-color: rgba(255, 0, 0, 0.7);
+
+        .loader {
+            position: absolute;
+
+            &:before {
+                border-color: white;
+            }
+
+            &:before, &:after {
+                width: 20px;
+                height: 20px;
+                margin-left: -10px;
+                margin-top: 5px;
+            }
+        }
+
+        &:global(.bp3-disabled) {
+            color: rgba(255, 255, 255, .7) !important;
+        }
+    }
+
+    .finalize {
+        margin-left: 5px;
+        background-color:  rgba(255, 0, 0, 0.7);
+
+        &:global(.bp3-disabled) {
+            color: rgba(255, 255, 255, .7) !important;
+        }
+    }
+}

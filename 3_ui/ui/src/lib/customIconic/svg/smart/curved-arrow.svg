@@ -1,0 +1,245 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+     data-icon="curved-arrow" 
+     class="iconic iconic-curved-arrow" 
+     width="128" height="128" 
+     viewBox="0 0 128 128">
+
+    <g id="title"><title>Curved Arrow</title></g>
+    <g id="iconic-curved-arrow-lg" class="iconic-lg iconic-container" data-width="128" data-height="128" display="inline">
+        <g class="iconic-curved-arrow-direction iconic-curved-arrow-direction-double">
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-left" >
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="red" points="66,38 95.9905,2 126,38 "/>
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="green" points="38,126 2,96.0095 38,66 "/>
+                <path class="iconic-curved-arrow-line" d="M38,106.1113v-20c26.4668,0,48-21.5332,48-48h20C106,75.6074,75.4961,106.1113,38,106.1113z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-right" display="none">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="90,66 126,95.9905 90,126 "/>
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="2,38 31.9905,2 62,38 "/>
+                <path class="iconic-curved-arrow-line" d="M21.8887,38h20c0,26.4668,21.5332,48,48,48v20C52.3926,106,21.8887,75.4961,21.8887,38z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-left" display="none">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="38,62 2,32.0095 38,2 "/>
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="126,90 96.0095,126 66,90 "/>
+                <path class="iconic-curved-arrow-line" d="M106.1113,90h-20c0-26.4668-21.5332-48-48-48V22C75.6074,22,106.1113,52.5039,106.1113,90z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-right" display="none">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="62,90 32.0095,126 2,90 "/>
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="90,2 126,31.9905 90,62 "/>
+                <path class="iconic-curved-arrow-line" d="M90,21.8887v20c-26.4668,0-48,21.5332-48,48H22C22,52.3926,52.5039,21.8887,90,21.8887z"/>
+            </g>
+        </g>
+        <g class="iconic-curved-arrow-direction iconic-curved-arrow-direction-clockwise">
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-left">
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="2.1113,38 32.1018,2 62.1113,38 "/>
+                <path class="iconic-curved-arrow-line" d="M22,38h20c0,26.4668,21.5332,48,48,48v20C52.5039,106,22,75.4961,22,38z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-right">
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="90,2.1113 126,32.1018 90,62.1113 "/>
+                <path class="iconic-curved-arrow-line" d="M90,22v20c-26.4668,0-48,21.5332-48,48H22C22,52.5039,52.5039,22,90,22z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-left">
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="38,125.8887 2,95.8982 38,65.8887 "/>
+                <path class="iconic-curved-arrow-line" d="M38,106V86c26.4668,0,48-21.5332,48-48h20C106,75.4961,75.4961,106,38,106z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-right">
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="125.8887,90 95.8982,126 65.8887,90 "/>
+                <path class="iconic-curved-arrow-line" d="M106,90H86c0-26.4668-21.5332-48-48-48V22C75.4961,22,106,52.5039,106,90z"/>
+            </g>
+        </g>
+        <g class="iconic-curved-arrow-direction iconic-curved-arrow-direction-counter-clockwise">
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-left">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="40,64 4,34.0095 40,4 "/>
+                <path class="iconic-curved-arrow-line" d="M108.1113,92h-20c0-26.4668-21.5332-48-48-48V24C77.6074,24,108.1113,54.5039,108.1113,92z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-right">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="66,38 95.9905,2 126,38 "/>
+                <path class="iconic-curved-arrow-line" d="M38,106.1113v-20c26.4668,0,48-21.5332,48-48h20C106,75.6074,75.4961,106.1113,38,106.1113z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-left">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="62,90.1113 32.0095,126.1113 2,90.1113 "/>
+                <path class="iconic-curved-arrow-line" d="M90,22v20c-26.4668,0-48,21.5332-48,48H22C22,52.5039,52.5039,22,90,22z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-right">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="91,66 127,95.9905 91,126 "/>
+                <path class="iconic-curved-arrow-line" d="M22.8887,38h20c0,26.4668,21.5332,48,48,48v20C53.3926,106,22.8887,75.4961,22.8887,38z"/>
+            </g>
+        </g>
+    </g>
+    <g id="iconic-curved-arrow-md" class="iconic-md iconic-container" data-width="32" data-height="32" display="none" transform="scale(4)">
+        <g class="iconic-curved-arrow-direction iconic-curved-arrow-direction-double">
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-left" >
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="16,9 23.4976,0 31,9 "/>
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="9,31 0,23.5024 9,16 "/>
+                <path class="iconic-curved-arrow-line" d="M9,26.0278v-5c6.6167,0,12-5.3833,12-12h5C26,18.4019,18.374,26.0278,9,26.0278z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-right" display="none">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="23,16 32,23.4976 23,31 "/>
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="1,9 8.4976,0 16,9 "/>
+                <path class="iconic-curved-arrow-line" d="M5.9722,9h5c0,6.6167,5.3833,12,12,12v5C13.5981,26,5.9722,18.374,5.9722,9z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-left" display="none">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="9,16 0,8.5024 9,1 "/>
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="31,23 23.5024,32 16,23 "/>
+                <path class="iconic-curved-arrow-line" d="M26.0278,23h-5c0-6.6167-5.3833-12-12-12V6C18.4019,6,26.0278,13.626,26.0278,23z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-right" display="none">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="16,23 8.5024,32 1,23 "/>
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="23,1 32,8.4976 23,16 "/>
+                <path class="iconic-curved-arrow-line" d="M23,5.9722v5c-6.6167,0-12,5.3833-12,12H6C6,13.5981,13.626,5.9722,23,5.9722z"/>
+            </g>
+        </g>
+        <g class="iconic-curved-arrow-direction iconic-curved-arrow-direction-clockwise">
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-left">
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="1,9 8.4976,0 16,9 "/>
+                <path class="iconic-curved-arrow-line" d="M5.9722,9h5c0,6.6167,5.3833,12,12,12v5C13.5981,26,5.9722,18.374,5.9722,9z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-right">
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="23,1 32,8.4976 23,16 "/>
+                <path class="iconic-curved-arrow-line" d="M23,5.9722v5c-6.6167,0-12,5.3833-12,12H6C6,13.5981,13.626,5.9722,23,5.9722z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-left">
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="9,30.9722 0,23.4745 9,15.9722 "/>
+                <path class="iconic-curved-arrow-line" d="M9,26v-5c6.6167,0,12-5.3833,12-12h5C26,18.374,18.374,26,9,26z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-right">
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="31,23 23.5024,32 16,23 "/>
+                <path class="iconic-curved-arrow-line" d="M26.0278,23h-5c0-6.6167-5.3833-12-12-12V6C18.4019,6,26.0278,13.626,26.0278,23z"/>
+            </g>
+        </g>
+        <g class="iconic-curved-arrow-direction iconic-curved-arrow-direction-counter-clockwise">
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-left">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="9,16.0139 0,8.5163 9,1.0139 "/>
+                <path class="iconic-curved-arrow-line" d="M26.0278,23.0139h-5c0-6.6167-5.3833-12-12-12v-5C18.4019,6.0139,26.0278,13.6399,26.0278,23.0139z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-right">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="16.0139,8.9861 23.5115,-0.0139 31.0139,8.9861 "/>
+                <path class="iconic-curved-arrow-line" d="M9.0139,26.0139v-5c6.6167,0,12-5.3833,12-12h5C26.0139,18.3879,18.3879,26.0139,9.0139,26.0139z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-left">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="16,23 8.5024,32 1,23 "/>
+                <path class="iconic-curved-arrow-line" d="M23,5.9722v5c-6.6167,0-12,5.3833-12,12H6C6,13.5981,13.626,5.9722,23,5.9722z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-right">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="23,16 32,23.4976 23,31 "/>
+                <path class="iconic-curved-arrow-line" d="M5.9722,9h5c0,6.6167,5.3833,12,12,12v5C13.5981,26,5.9722,18.374,5.9722,9z"/>
+            </g>
+        </g>
+    </g>
+    <g id="iconic-curved-arrow-sm" class="iconic-sm iconic-container" data-width="16" data-height="16" display="none" transform="scale(8)">
+        <g class="iconic-curved-arrow-direction iconic-curved-arrow-direction-double">
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-left" >
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="7,4 11.0363,0 15,4"/>
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="4,15 0,10.9637 4,7"/>
+                <path class="iconic-curved-arrow-line" d="M3.9819,12.5186v-3C7.0244,9.5186,9.5,7.043,9.5,4h3C12.5,8.6973,8.6787,12.5186,3.9819,12.5186z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-right" display="none">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="9,11 4.9637,15 1,11"/>
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="12,0 16,4.0363 12,8"/>
+		        <path class="iconic-curved-arrow-line" d="M12.0181,2.4814v3C8.9756,5.4814,6.5,7.957,6.5,11h-3C3.5,6.3027,7.3213,2.4814,12.0181,2.4814z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-left" display="none">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="4,8 0,3.9637 4,0"/>
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="15,11 10.9637,15 7,11"/>
+                <path class="iconic-curved-arrow-line" d="M12.5186,11.0181h-3C9.5186,7.9756,7.043,5.5,4,5.5v-3C8.6973,2.5,12.5186,6.3213,12.5186,11.0181z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-right" display="none">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="11,7 15,11.0363 11,15"/>
+                <polygon class="iconic-curved-arrow--clockwise-head-fill" fill="#2998FB" points="0,4 4.0363,0 8,4"/>
+                <path class="iconic-curved-arrow-line" d="M2.4814,3.9819h3C5.4814,7.0244,7.957,9.5,11,9.5v3C6.3027,12.5,2.4814,8.6787,2.4814,3.9819z"/>
+            </g>
+        </g>
+        <g class="iconic-curved-arrow-direction iconic-curved-arrow-direction-clockwise">
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-left">
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="8,3.98 3.9637,-0.02 0,3.98"/>
+		        <path class="iconic-curved-arrow-line" d="M11.0181,12.4986v-3C7.9756,9.4986,5.5,7.023,5.5,3.98h-3C2.5,8.6773,6.3213,12.4986,11.0181,12.4986z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-right">
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="12,7.9819 16,3.9456 12,-0.0181"/>
+		        <path class="iconic-curved-arrow-line" d="M3.4814,11h3c0-3.0425,2.4756-5.5181,5.5186-5.5181v-3C7.3027,2.4819,3.4814,6.3032,3.4814,11z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-left">
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="4,7.9819 0,12.0183 4,15.9819"/>
+		        <path class="iconic-curved-arrow-line" d="M12.5186,4.9639h-3c0,3.0425-2.4756,5.5181-5.5186,5.5181v3C8.6973,13.4819,12.5186,9.6606,12.5186,4.9639z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-right">
+                <polygon class="iconic-curved-arrow-clockwise-head-fill" fill="#2998FB" points="8,11.9819 12.0363,15.9819 16,11.9819"/>
+		        <path class="iconic-curved-arrow-line" d="M4.9819,3.4634v3c3.0425,0,5.5181,2.4756,5.5181,5.5186h3C13.5,7.2847,9.6787,3.4634,4.9819,3.4634z"/>
+            </g>
+        </g>
+        <g class="iconic-curved-arrow-direction iconic-curved-arrow-direction-counter-clockwise">
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-left">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="4,8 0,3.9637 4,0"/>
+		        <path class="iconic-curved-arrow-line" d="M12.5186,11.0181h-3C9.5186,7.9756,7.043,5.5,4,5.5v-3C8.6973,2.5,12.5186,6.3213,12.5186,11.0181z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-upper-right">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="8,4 12.0363,0 16,4"/>
+		        <path class="iconic-curved-arrow-line" d="M4.9819,12.5186v-3C8.0244,9.5186,10.5,7.043,10.5,4h3C13.5,8.6973,9.6787,12.5186,4.9819,12.5186z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-left">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="8,12 3.9637,16 0,12"/>
+		        <path class="iconic-curved-arrow-line" d="M11.0181,3.4814v3C7.9756,6.4814,5.5,8.957,5.5,12h-3C2.5,7.3027,6.3213,3.4814,11.0181,3.4814z"/>
+            </g>
+            <g class="iconic-curved-arrow-orientation iconic-curved-arrow-orientation-lower-right">
+                <polygon class="iconic-curved-arrow-counter-clockwise-head-fill" fill="#2998FB" points="11.9287,8 15.9287,12.0363 11.9287,16"/>
+		        <path class="iconic-curved-arrow-line" d="M3.4102,4.9819h3c0,3.0425,2.4756,5.5181,5.5186,5.5181v3C7.2314,13.5,3.4102,9.6787,3.4102,4.9819z"/>
+            </g>
+        </g>
+    </g>
+    <script class="iconic-api" type="application/ecmascript">
+    //<![CDATA[
+    //TODO: Minify JS code
+    //TODO: Remove console.log() output
+    var iconicApis = window._Iconic ? window._Iconic.smartIconApis : {};
+
+    iconicApis["curved-arrow"] = iconicApis["curved-arrow"] || function(t) {
+    
+        window.logging = true;
+
+        $c().log("Staring curved-arrow ...");
+    
+        var f1 = function(direction) {
+        
+            // double (default)
+            // clockwise
+            // counter-clockwise
+    
+            t.setAttribute("curved-arrow-direction", direction);
+        
+            $c().log("Set curved-arrow direction to " + direction);
+        
+        // Turn on/off required elements
+            $c(t).off(".iconic-curved-arrow-direction");
+            $c(t).on(".iconic-curved-arrow-direction-" + direction);
+        };
+        var f2 = function(orientation) {
+        
+            // upper left (default)
+            // lower left
+            // lower right
+            // upper right
+    
+            t.setAttribute("curved-arrow-orientation", orientation);
+        
+            $c().log("Set curved-arrows orientation to " + orientation);
+        
+        // Turn on/off required elements
+            $c(t).off(".iconic-curved-arrow-orientation");
+            $c(t).on(".iconic-curved-arrow-orientation-" + orientation);
+        };
+        var f3 = function() {
+            var a = t.getAttribute("data-curved-arrow-direction");
+            a && f1(a);
+            
+            var b = t.getAttribute("data-curved-arrow-orientation");
+            b && f2(b);
+        };
+        return {
+            update: f3,
+            setDirection: f1,
+            setOrientation: f2
+        }
+    };
+    //]]>
+    </script>
+</svg>
+

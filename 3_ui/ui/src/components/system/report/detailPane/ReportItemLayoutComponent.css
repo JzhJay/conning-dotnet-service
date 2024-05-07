@@ -1,0 +1,64 @@
+.root {
+    flex:1;
+    height:100%;
+
+    &.show-top-border {
+        border-top: 1px solid rgba(0,0,0,0.2) !important;
+    }
+
+    :global {
+        .mce-tinymce {
+            border-width:0 !important;
+        }
+
+        .bp3-navbar, .mce-toolbar-grp {
+            transition-property:max-height, padding, margin, border;
+            transition-duration: 600ms;
+            transition-timing-function: ease-in-out;
+            overflow:hidden;
+        }
+    }
+
+    &.hide-toolbar {
+        :global {
+            .bp3-navbar, .mce-toolbar-grp {
+                overflow: hidden !important;
+                max-height: 0;
+                padding-top: 0;
+                padding-bottom: 0;
+                border:0;
+            }
+        }
+    }
+
+    >* {
+        flex:1;
+    }
+}
+
+.highlight {
+    box-shadow: 0 0 0 1px #137cbd, 0 0 0 3px rgba(19, 124, 189, 0.3), inset 0 1px 1px rgba(16, 22, 26, 0.2) !important;
+}
+
+.is-layout-dragging {
+}
+
+.custom-tab-icon {
+    width: initial;
+    display:flex;
+
+    :global(.iconic) {
+        max-height:16px;
+        max-width:16px;
+    }
+
+    /* Search icon is too high in tab */
+    :global .bp3-icon-search {
+        padding-top:1px;
+    }
+
+    > * {
+        margin-left:5px;
+        position:relative;
+    }
+}

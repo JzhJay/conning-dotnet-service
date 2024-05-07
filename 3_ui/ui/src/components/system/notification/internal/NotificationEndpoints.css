@@ -1,0 +1,64 @@
+.root {
+    border: 1px dashed #ccc;
+    margin: 0;
+
+    > table {
+        width: 100%;
+
+        th:nth-child(1), th:nth-child(1) {
+            width: 150px;
+        }
+
+        th:nth-child(2), th:nth-child(2),
+        td:nth-child(3), td:nth-child(3) {
+            width:      70px;
+            text-align: center;
+        }
+
+        td {
+            vertical-align: middle;
+
+            > :only-child {
+                flex:      1;
+                //min-width: 150px;
+
+                &:global(.bp3-switch) {
+                    margin-left: 1em;
+                }
+            }
+
+            .cell-contents {
+                display:        flex;
+                flex-direction: row;
+                align-items:    center;
+            }
+        }
+    }
+
+    .edit-endpoint {
+        padding:          2em;
+        background-color: #fbfaf9;
+        border-style:     solid;
+        border-color:     #ccc;
+
+        > h3 {
+            border-bottom:  1px solid #ccc;
+            margin-bottom:  .25em;
+            padding-bottom: .5em;
+
+        }
+
+        > div {
+            padding-left: 4em;
+        }
+
+        :global {
+            .bp3-button-group {
+                .bp3-button {
+                    margin-right: 1em;
+                }
+            }
+        }
+    }
+}
+

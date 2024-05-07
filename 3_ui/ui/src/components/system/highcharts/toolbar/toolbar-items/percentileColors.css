@@ -1,0 +1,29 @@
+
+.color-boxes {
+    display: flex !important;
+    padding: 5px 4px !important;
+    width:   40px;
+
+    &.leftRight {
+        flex-direction: row;
+        &.invert {
+            flex-direction: row-reverse;
+        }
+
+        .first, .second {
+            height: 20px;
+            width:  10px;
+        }
+    }
+
+    &.topBottom {
+        flex-direction: column;
+    }
+
+    .first,.second {
+        margin:0;
+        flex:   .5;
+        width:  100%;
+        height: 10px;
+    }
+}

@@ -1,0 +1,8 @@
+[auth]
+token=3b8ece576280452aa654baaba459f159d34d964274dc4c02b477f045816d1682
+
+[defaults]
+org=conning-inc
+auth.token=
+url=https://sentry.io/
+project=advise

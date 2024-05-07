@@ -1,0 +1,9 @@
+{
+    "schema": "http://advise.test/graphql",
+    "documents": "./ui/src/stores/**/*.graphql",
+    "generates": {
+        "./ui/src/codegen/types.ts": {
+            "plugins": ["typescript", "typescript-operations"]
+        }
+    }
+}

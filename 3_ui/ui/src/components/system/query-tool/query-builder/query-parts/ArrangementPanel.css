@@ -1,0 +1,150 @@
+:root {
+    --text-color: white;
+}
+
+.arrangement-panel {
+    display:          flex;
+    flex-direction:   column;
+    /* overflow-y:       auto;*  Very slow in chrome/
+    flex:             1;
+    flex-basis:       0;
+    /*background-color: gainsboro;*/
+    opacity:          1;
+    user-select:      none;
+    border:           0 solid var(--super-panel-separator-color);
+    border-top-width: 1px;
+    overflow:         auto;
+    height:           100%;
+
+    .axes-group {
+        will-change: height;
+        margin-bottom:    4px;
+        background-color: var(--axis-background-color);
+        display: flex;
+        flex-direction: column;
+
+        > :global(.ReactCollapse--content) {
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            /*flex:1;*/
+        }
+
+        &[data-group="row"] {
+            margin-left:  3px;
+            margin-right: 4.5em;
+        }
+
+        &[data-group="column"] {
+            margin-left:  4.5em;
+            margin-right: 3px;
+            margin-top:4px;
+        }
+
+        .axes-group-heading {
+            background-color:                  var(--axis-background-color);
+            color:                             var(--axis-foreground-color);
+            font-weight:                       bold;
+            font-family:                       var(--mono-space-font-family);
+            font-size:16px;
+            display:block;
+            text-align:center;
+            padding:       .5em;
+        }
+
+        .sortableContainer {
+            flex: 1;
+            min-height: 1.5em;
+            padding:0 0 3px 1.5em;
+            /*overflow:auto; slows down variable search considerably*/
+
+            :global .sortable-chosen {
+                opacity: 0;
+            }
+        }
+    }
+
+    .button-panel {
+        height:    1.5em;
+        flex:      0 auto;
+        font-size: 2.5em;
+
+        i {
+            flex:   1;
+            cursor: pointer;
+        }
+    }
+
+    .drag-handle {
+        img {
+            vertical-align: middle;
+            text-align:     center;
+        }
+        margin: 0;
+        cursor: move;
+    }
+
+    :global .bp3-popover-target {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+}
+
+/* Note: The axis row class is defined outside of the arrangement-panel so the drag target which is appending to the body will still be correctly formatted */
+.axes-row {
+    margin: 3px 5px 0 5px;
+    display: flex;
+    padding: 4px;
+    cursor: move;
+    background-color:                      var(--coordinate-background-color);
+    color:                                 var(--coordinate-foreground-color);
+
+    i {
+        width:       16px;
+        margin-left: .1em;
+    }
+
+    .axis {
+        margin-left: .5em;
+    }
+}
+
+.toolbar {
+    composes:       queryPanelToolbar from '../styles/queryPanelToolbar.css';
+
+    ////border:0;
+    //flex-direction: row;
+    ////position:absolute;
+    ////left:0;
+    //width: auto;
+    //background: transparent;
+    ////margin-top:4px;
+
+    :global(.bp3-button-group) {
+
+        :global(.bp3-popover-target) {
+            display: flex;
+
+            :global(.bp3-button) {
+                min-height: 24px;
+                min-width: 24px;
+                padding: 0px;
+            }
+        }
+
+        span {
+            margin: auto;
+        }
+    }
+
+    :global(.ui.buttons) {
+        align-self: center;
+        padding:    0px 3px 0 2px;
+        background: transparent;
+        flex:       0;
+        :global(.ui.button) {
+            flex: 0 0 auto;
+        }
+    }
+}

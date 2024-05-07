@@ -1,0 +1,60 @@
+.root {
+    min-height: 250px;
+
+    .input-group {
+        display: flex;
+        align-items: center;
+
+        > span {
+            margin:0 5px;
+        }
+
+        :global(.bp3-control-group) {
+            z-index: 1;
+        }
+    }
+
+    .date-input {
+        text-align: center;
+
+        /* remove number input arrows*/
+        -moz-appearance: textfield;
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            appearance: none;
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    }
+
+    :global(.bp3-form-helper-text .bp3-popover-target span) {
+        text-decoration: underline dotted;
+    }
+}
+
+.popup-content {
+    padding: 5px;
+    display: flex;
+
+    :global(.bp3-button) {
+        min-width: 48px;
+    }
+
+    .suggest-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+        padding: 5px;
+        border-right: 1px solid rgba(0,0,0,0.5);
+    }
+
+    .quick-actions {
+        padding: 2.5px;
+        display: flex;
+        flex-direction: column;
+
+        > * {
+            margin: 2.5px;
+        }
+    }
+}

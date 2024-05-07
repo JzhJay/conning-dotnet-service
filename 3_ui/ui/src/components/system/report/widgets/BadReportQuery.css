@@ -1,0 +1,16 @@
+.root {
+    :global .ui.message > .content {
+        margin-top:1em;
+
+        .ui.card {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    }
+
+    display: flex;
+
+    > * {
+        flex: 1;
+    }
+}

@@ -1,0 +1,27 @@
+.report-title-bar {
+    align-items: center;
+    font-size:18px;
+    display:flex;
+
+    :global .bp3-button-group {
+        height:30px;
+        align-itens: center;
+    }
+
+    .report-title {
+        padding: 0 1em;
+        cursor:default;
+        &:hover {
+            background: transparent;
+        }
+
+        a, a:hover {
+            color:black;
+            text-decoration: none;
+        }
+    }
+
+    .selected-item-name {
+        margin-right:1em;
+    }
+}

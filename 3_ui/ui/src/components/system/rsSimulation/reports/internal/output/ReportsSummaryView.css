@@ -1,0 +1,28 @@
+.root {
+    width: 100% !important;
+
+    .error-list {
+        margin: 5px 0;
+        padding: 1px;
+
+        .error-item {
+            border-top: 1px solid lightgrey;
+            padding: 5px 10px;
+
+            &:first-child {
+                border: none;
+            }
+        }
+
+
+    }
+
+    .error-list-2 {
+        padding-inline-start: 20px;
+
+        .error-item-2 {
+            padding-top: 4px;
+            padding-bottom: 4px;
+        }
+    }
+}

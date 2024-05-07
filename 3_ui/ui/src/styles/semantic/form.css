@@ -1,0 +1,290 @@
+:global {
+    .conning.app.ui {
+      .ui.form input:not([type]), .ui.form input[type="date"], .ui.form input[type="datetime-local"], .ui.form input[type="email"], .ui.form input[type="number"], .ui.form input[type="password"], .ui.form input[type="search"], .ui.form input[type="tel"], .ui.form input[type="time"], .ui.form input[type="text"], .ui.form input[type="file"], .ui.form input[type="url"] {
+        font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      }
+
+      textarea::selection, input::selection {
+        background-color: #CCE2FF;
+        color: rgba(0, 0, 0, 0.87);
+      }
+
+      .ui.form ::-webkit-input-placeholder, .ui.input input::-webkit-input-placeholder {
+        color: rgba(191, 191, 191, 1);
+        font-style: italic;
+      }
+
+      .ui.form {
+        /*
+        overflow: hidden;
+        To deal with rc-slider messing up the page bounds
+         */
+
+        .ui.checkbox {
+          display: flex;
+          padding-left: 0px;
+          input[type="checkbox"] {
+            padding: 0;
+            top: auto;
+          }
+        }
+        .ui.input input {
+          width: auto;
+          padding-left: .5em;
+        }
+
+        .ui.field {
+          padding: 1em;
+        }
+
+        .ui.label {
+          line-height: inherit;
+        }
+
+        /*.Select {
+        //    flex:1;
+        //    .Select-control {
+        //        height: 100%;
+        //        line-height:34px;
+        //
+        //        .Select-placeholder, .Select-value-label {
+        //            line-height: inherit;
+        //        }
+        //        .Select-input {
+        //            height: 100%;
+        //            line-height: inherit;
+        //
+        //            > input {
+        //                height: calc(100% - 16px);
+        //            }
+        //        }
+        //    }
+        //}
+         */
+
+        .ui.labeled.input:not([class*="corner labeled"]) .label:first-child + .Select > .Select-control {
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 0px;
+          border-left-color: transparent;
+        }
+        .ui.action.input:not([class*="left action"]) > .Select > .Select-control {
+          border-top-right-radius: 0px !important;
+          border-bottom-right-radius: 0px !important;
+          border-right-color: transparent !important;
+        }
+
+        .ui.segments {
+          box-shadow: none;
+
+          .ui.segment {
+            padding: .5em;
+            border-radius:.5em;
+
+          }
+        }
+
+        fieldset {
+          legend {
+            font-size: 125%;
+          }
+
+          border-width: 2px;
+        }
+
+        fieldset .fields:last-child {
+          margin-bottom: 0;
+        }
+
+        fieldset, fieldset.field {
+          margin-bottom: 1em;
+          border-radius: 0.285714rem;
+        }
+
+        .field:last-child {
+          margin-bottom: 0;
+          flex: 1;
+          > .bp3-button-group {
+            align-self: flex-end;
+            /* text-align: right; */
+            flex-direction: row;
+          }
+        }
+
+        .segment fieldset {
+          border-radius: 0;
+        }
+
+        .ui.labeled.input {
+          > .label {
+            min-width: 12rem;
+          }
+
+          .rc-slider {
+            margin: 0.67861429em .2em 0.67861429em 1em;
+          }
+        }
+
+        .inline.field {
+          .ui.checkbox {
+
+          }
+        }
+
+        .inline .rc-slider {
+          margin: auto .5em !important;
+          width: auto !important;
+          flex: 1 0 100px !important;
+        }
+
+        .field {
+          display: flex;
+
+          &:not(.inline) {
+            flex-direction: column;
+          }
+
+          .draggable {
+            line-height: 38px;
+            vertical-align: middle;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.9);
+            font-size: 16px;
+            margin:auto;
+          }
+
+          .ui.message {
+            padding: 0.67857143em 1em;
+          }
+
+          &.inline {
+            flex-direction: row;
+
+            > label {
+              /* flex: 0 0 12em; */
+              line-height: 1.5;
+            }
+          }
+
+          &.error {
+            .Select-control, .Select-placeholder {
+              border-color: #E0B4B4 !important;
+              background: #FFF6F6 !important;
+              color: #9F3A38 !important;
+            }
+          }
+
+          > .list {
+            margin-top: 0;
+          }
+
+          > label {
+            height: 16px;
+          }
+
+          .Select {
+            line-height: 1.21428571em;
+            --select-height: 38px;
+            margin-top: auto;
+            margin-bottom: auto;
+            display: inline-table;
+
+            &.is-open .Select-control {
+              border-bottom-left-radius: 0;
+              border-bottom-right-radius: 0;
+            }
+
+            &.Select--multi {
+              .Select-input {
+                margin-left: 0;
+              }
+            }
+
+            .Select-control {
+              line-height: 1.21428571em;
+
+              &, .Select-placeholder {
+                border-radius: 0.28571429rem;
+              }
+
+              border: 1px solid rgba(34, 36, 38, 0.15);
+              padding: 0;
+              /*width: calc(100% - 1.5em);*/
+
+              .Select-input, .Select-placeholder {
+                padding-left: .5em;
+              }
+
+              .Select-input {
+                height: 22px;
+                line-height: 22px;
+
+                > input {
+                  height: 0;
+                  border: 0;
+                  line-height: inherit;
+                }
+              }
+
+              .Select-menu-outer {
+
+              }
+
+              .Select-value {
+                display: flex;
+                max-height: 100%;
+                /*padding: 0.678571em 1em;*/
+
+                > .Select-value-label {
+                  align-self: center;
+                  padding-right: 5px;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                }
+              }
+            }
+          }
+
+          .Select, .rc-slider {
+            flex: 1;
+            width: 100%;
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            vertical-align: middle;
+            font-size: 1em;
+          }
+
+          .rc-slider {
+            display: block;
+            margin: .5em .5em 2em 1em;
+
+            .rc-slider-mark-text {
+              font-size: 75%;
+            }
+
+            .rc-slider-track {
+              background-color: var(--theme-color-primary);
+            }
+
+            .rc-slider-dot-active {
+              border-color: var(--theme-color-primary);
+            }
+
+            .rc-slider-handle {
+              border-color: var(--theme-color-primary);
+            }
+          }
+        }
+      }
+    }
+
+    .ui.grid > .row {
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+    }
+
+    .ui.grid > .column:not(.row), .ui.grid > .row > .column {
+      padding-left: .5rem;
+      padding-right: .5rem;
+    }
+}

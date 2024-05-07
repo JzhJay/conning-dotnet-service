@@ -1,0 +1,89 @@
+.alert:global(.bp3-alert) {
+    background: #fafafa;
+    border-radius: 3px;
+    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    
+    :global {
+        .bp3-alert-body {
+            padding: 12px;
+
+            .bp3-alert-contents {
+                display: flex;
+                flex-direction: row;
+                width:100%;
+            }
+
+            :local {
+                .icon {
+                    :global i.icon {
+                        margin: 0;
+                        font-size: 3em;
+                        line-height: 1;
+                        vertical-align: middle;
+                        color: var(--theme-color-secondary);
+                    }
+
+                    :global .bp3-icon {
+                        margin: 0;
+                        color: var(--theme-color-secondary);
+                    }
+                }
+
+                .text {
+                    padding-left: 20px;
+                    min-width:275px;
+
+                    flex: 1;
+                    .message {
+                        font-weight:bold;
+                        font-size: 16px;
+                        margin-bottom: 8px;
+                        word-break: break-word;
+                    }
+
+                    .description {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+        }
+
+        .bp3-alert-footer {
+            margin-top:0;
+            padding: 12px 12px 0 12px;
+            border-top: 1px solid #e0e0df;
+
+            .bp3-button {
+                width: 40%;
+                padding: 8px 12px;
+                background: #fafafa;
+                box-shadow: inset 0 0 0 1px #d6d6d6;
+                border: none;
+                margin: 0 6px;
+                border-radius: 3px;
+                min-height: 0;
+                min-width: 0;
+                color: #737272;
+                font-weight: bold;
+                font-size: 13px;
+                line-height: 13px;
+
+                /* Footer row is displayed in reverse order...thanks blueprint */
+                &:first-child {
+                    margin-right:0;
+                }
+
+                &.bp3-intent-primary {
+                    box-shadow: inset 0 0 0 1px #328ad6;
+                    background-color: #328ad6;
+                    color: #fff;
+
+                    &:hover {
+                        background-color: #5ba1de;
+                    }
+                }
+            }
+        }
+    }
+}

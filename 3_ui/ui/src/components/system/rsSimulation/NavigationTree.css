@@ -1,0 +1,23 @@
+.root {
+    padding: 0px;
+}
+
+.content {
+    padding: 5px 10px 10px 10px;
+}
+
+.tree-node-editable-text {
+    cursor: default;
+    
+    input {
+        color: black;
+    }
+}
+
+.hide-collapse-tree {
+    visibility: hidden;
+}
+
+:global(.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content) {
+    background-color: var(--theme-color-primary);
+}

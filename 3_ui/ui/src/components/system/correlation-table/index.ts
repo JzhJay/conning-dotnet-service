@@ -1,0 +1,1 @@
+export {CorrelationTable} from './correlationTable'

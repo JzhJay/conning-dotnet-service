@@ -1,0 +1,85 @@
+{
+  "endTime": ISODate("2018-04-04T15:02:00.000Z"),
+  "querySessions":[
+    {
+      "startTime": ISODate("2018-04-04T13:04:00.000Z"),
+      "queryId": "1",
+      "userId": "auth0|5b4b84b1a177ac1965fdaa6a"
+    }
+  ],
+  "createdBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "modifiedBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "createdTime": ISODate("2018-04-04T13:04:00.000Z"),
+  "modifiedTime": ISODate("2018-04-04T15:02:00.000Z")
+}
+{
+  "endTime": ISODate("2018-04-06T10:01:00.000Z"),
+  "querySessions":[
+    {
+      "startTime": ISODate("2018-04-06T09:04:00.000Z"),
+      "queryId": "2",
+      "userId": "auth0|5b4b84b1a177ac1965fdaa6a"
+    }
+  ],
+  "createdBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "modifiedBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "createdTime": ISODate("2018-04-06T09:04:00.000Z"),
+  "modifiedTime": ISODate("2018-04-06T10:01:00.000Z")
+}
+{
+  "endTime": ISODate("2018-04-10T16:19:00.000Z"),
+  "querySessions":[
+    {
+      "startTime": ISODate("2018-04-10T10:24:00.000Z"),
+      "queryId": "3",
+      "userId": "auth0|5b4b84b1a177ac1965fdaa6a"
+    }
+  ],
+  "createdBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "modifiedBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "createdTime": ISODate("2018-04-10T10:24:00.000Z"),
+  "modifiedTime": ISODate("2018-04-10T16:19:00.000Z")
+}
+{
+  "querySessions":[
+    {
+      "startTime": ISODate("2018-04-10T10:24:00.000Z"),
+      "queryId": "3",
+      "userId": "auth0|5b4b84b1a177ac1965fdaa6a"
+    }
+  ],
+  "createdBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "modifiedBy": "auth0|5b4b84b1a177ac1965fdaa6a",
+  "createdTime": ISODate("2018-04-10T10:24:00.000Z"),
+  "modifiedTime": ISODate("2018-04-10T16:19:00.000Z")
+}
+{
+  "endTime": ISODate("2018-04-20T15:02:00.000Z"),
+  "querySessions":[
+    {
+      "startTime": ISODate("2018-04-20T00:04:00.000Z"),
+      "queryId": "4",
+      "userId": "auth0|5bc4f33847655345115b8b94"
+    }
+  ],
+  "createdBy": "auth0|5bc4f33847655345115b8b94",
+  "modifiedBy": "auth0|5bc4f33847655345115b8b94",
+  "createdTime": ISODate("2018-04-04T13:04:00.000Z"),
+  "modifiedTime": ISODate("2018-04-04T15:02:00.000Z"),
+  "target": "DeletedSimulation"
+}
+{
+  "endTime": ISODate("2018-04-21T09:31:00.000Z"),
+  "querySessions":[
+    {
+      "startTime": ISODate("2018-04-21T09:30:00.000Z"),
+      "queryId": "5",
+      "userId": "auth0|5bc4f33847655345115b8b94"
+    }
+  ],
+  "createdBy": "auth0|5bc4f33847655345115b8b94",
+  "modifiedBy": "auth0|5bc4f33847655345115b8b94",
+  "createdTime": ISODate("2018-04-21T09:29:00.000Z"),
+  "modifiedTime": ISODate("2018-04-21T09:29:00.000Z"),
+  "target": "DeletedSimulation"
+}

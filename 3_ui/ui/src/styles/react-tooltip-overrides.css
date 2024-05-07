@@ -1,0 +1,12 @@
+:global {
+    .app.conning.ui, #mocha {
+        .__react_component_tooltip.show {
+            opacity: .9;
+        }
+
+        .__react_component_tooltip {
+            background-color: black;
+            color:            white;
+        }
+    }
+}

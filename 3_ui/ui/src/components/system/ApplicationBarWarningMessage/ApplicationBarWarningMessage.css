@@ -1,0 +1,14 @@
+.root {
+    --color: 217, 130, 43;
+
+    display: flex;
+    border: rgb(var(--color)) 2px dashed;
+    background-color: rgba(var(--color), .3);
+
+    .warning {
+        margin:        0px;
+        height:        24px;
+        width:         24px;
+        fill:          rgb(var(--color));
+    }
+}

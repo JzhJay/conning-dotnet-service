@@ -1,0 +1,26 @@
+:global .app.conning.ui {
+    .bp3-dialog {
+        width: 60%;
+        background-color: #ebf1f5;
+        min-width: 300px;
+        max-width: 720px;
+        top: 20%;
+        margin-bottom:0;
+
+        .bp3-dialog-body {
+            min-height: auto;
+        }
+
+        .bp3-label > span {
+            width: 120px;
+        }
+    }
+
+    :local(.root) {
+        :global .bp3-label {
+            span {
+                flex-basis: 150px;
+            }
+        }
+    }
+}

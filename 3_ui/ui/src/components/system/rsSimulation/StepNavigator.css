@@ -1,0 +1,226 @@
+.arrow {
+    height: 100%;
+    position: absolute;
+    right: 0;
+
+    path {
+        stroke: var(--theme-color-primary);
+        fill: var(--theme-office-site-blue-darker);
+    }
+}
+
+.step-item-list-root {
+    flex: 0 !important;
+    display: flex;
+    position: relative;
+    border-width: 1px 8px;
+    border-style: solid;
+    border-color: var(--theme-color-primary);
+
+    &.last-list {
+        border-bottom-width: 4px;
+    }
+
+    .overflow-ctrl-right, .overflow-ctrl-left {
+        position: absolute !important;
+        top: 0;
+        width: 30px;
+        height: 100%;
+        z-index: 1;
+        display: none;
+
+        &.show{
+            display: block;
+        }
+    }
+
+    .overflow-ctrl-left {
+        left: 0;
+    }
+
+    .overflow-ctrl-right {
+        right: 0;
+    }
+
+    .list-outer {
+        flex: 1;
+        overflow: hidden;
+    }
+
+    .list-container {
+        width: 100%;
+        position: relative;
+        overflow-x: hidden;
+    }
+
+    .items-list {
+        display: flex;
+        align-items: stretch;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    .interaction-item {
+        cursor: pointer;
+        position: relative;
+        background-color: var(--theme-office-site-blue-darker);
+
+        &::before, &::after {
+            content: "";
+            width: 100%;
+            height: 2px;
+            background-color: var(--theme-color-primary);
+            position: absolute;
+            top:0;
+            left:0;
+            z-index: 3;
+        }
+
+        &::after {
+            top:unset;
+            bottom: 0;
+        }
+
+        &:hover::before, &:hover::after {
+            height: 0px;
+        }
+
+        &.active {
+            cursor: default;
+            background-color: #0D8050;
+
+            .arrow path{
+                fill: #0D8050;
+            }
+        }
+
+        &:not(.active):hover {
+            background-color: #0A6640;
+
+            .arrow path{
+                fill: #0A6640;
+            }
+        }
+    }
+}
+
+.item-root {
+    display: flex;
+    white-space: nowrap;
+    font-size: 14px;
+    font-family: "Open Sans", "Segoe UI", "Helvetica Neue", "Icons16", sans-serif;
+    color: var(--theme-office-site-font-light);
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 0 10px;
+
+    &:last-child {
+        .text-content {
+            margin-right: 0 !important;
+        }
+    }
+
+    &:first-child {
+        .arrow {
+            display: none;
+        }
+    }
+
+    .text-content {
+        flex-grow: 1;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+.nav-button-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+
+    .nav-button {
+        cursor: pointer;
+        display: flex;
+        position: relative;
+        align-items: center;
+        color: white;
+        height: 30px;
+        margin: 0 10px;
+        background-color: #0D8050;
+
+        &:hover {
+             background-color: #0A6640;
+            svg path {
+                fill: #0A6640;
+            }
+        }
+
+        > span {
+            display: inline;
+            padding: 0 15px;
+        }
+
+        svg path {
+            fill: #0D8050;
+            stroke: white;
+        }
+
+        &.disabled {
+            cursor: wait;
+            background-color: gray !important;
+            svg path {
+                fill: gray !important;
+            }
+        }
+    }
+}
+
+.breadcrumb {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+
+    .arrow {
+        position: unset;
+        margin: 0 10px;
+
+        path {
+            fill: transparent;
+            stroke: var(--theme-office-site-blue-darker);
+        }
+    }
+}
+
+:global(.ApplicationBarItems__application-bar-items) .breadcrumb {
+    flex: 0;
+    margin-right: 10px;
+
+    :global(.bp3-button) {
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .arrow {
+        path {
+            stroke: var(--theme-office-site-font-light);
+        }
+    }
+}
+
+.sequence {
+    &::before {
+        content: counter(num, var(--type));
+    }
+}
+
+
+
+

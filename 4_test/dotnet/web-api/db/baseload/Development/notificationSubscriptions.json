@@ -1,0 +1,71 @@
+﻿{
+  "owner": "google-oauth2|113496205501185249519",
+  "target": "simulation",
+  "trigger": "compile",
+  "desktop": true
+}
+{
+  "owner": "google-oauth2|113496205501185249519",
+  "target": "system",
+  "trigger": "grid_on",
+  "mobile": true,
+  "desktop": true
+}
+{
+  "owner": "google-oauth2|113496205501185249519",
+  "target": "simulation",
+  "trigger": "threshold",
+  extra: {
+    name: 'threshold',
+    value: '1'
+  },
+  "email": true
+}
+
+{
+  "owner": "google-oauth2|111174857101538761898",
+  "target": "simulation",
+  "trigger": "threshold",
+  extra: {
+    name: 'threshold',
+    value: '1h'
+  },
+  "email": true
+}
+{
+  "owner": "google-oauth2|111174857101538761898",
+  "target": "system",
+  "trigger": "grid_uptime_threshold",
+  "email": true
+}
+{
+  "owner": "google-oauth2|111174857101538761898",
+  "target": "simulation",
+  "trigger": "stored",
+  "email": true
+}
+{
+  "owner": "google-oauth2|111174857101538761898",
+  "target": "system",
+  "trigger": "failed",
+  "email": true
+}
+{
+  "owner": "google-oauth2|111174857101538761898",
+  "target": "simulation",
+  "trigger": "parse",
+  "email": true
+}
+{
+  "owner": "google-oauth2|111174857101538761898",
+  "target": "simulation",
+  "trigger": "compile",
+  "email": true
+}
+{
+  "owner": "google-oauth2|111174857101538761898",
+  "target": "simulation",
+  "trigger": "parse",
+  email: true
+}
+

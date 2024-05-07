@@ -1,0 +1,270 @@
+.root, .print-portal {
+    flex: 1 !important;
+    overflow: hidden;
+
+    table {
+        border:     1px solid var(--border);
+        background: white;
+
+        th {
+            background-color: var(--theme-color-secondary);
+            color:            white;
+        }
+        th, td {
+        /* text-align: center; white-space: nowrap; */
+        }
+        overflow:   auto;
+    }
+
+    .toolbar {
+        overflow: visible;
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: flex-start;
+        border-bottom: 1px solid var(--theme-border-color);
+		padding: 0 10px;
+        
+        .toolbar-group {
+            white-space: nowrap;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            justify-items: center;
+            margin-left: .5em;
+        }
+
+        .date-range input {
+            width: 7rem;
+        }
+
+        .inner-header-group {
+            margin: 0 0.25em;
+            padding: 3px 0;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        :global {
+            .bp3-button, bp3-button-group {
+                flex-wrap: nowrap;
+				white-space: nowrap;
+			}
+
+            .bp3-navbar-heading {
+                line-height: 30px;
+                margin-right: 3px;
+                white-space: nowrap;
+            }
+            
+            .bp3-navbar-group{
+                flex-wrap: wrap;
+            }
+
+            .bp3-align-right {
+                padding-left: .5em;
+                justify-content: flex-end;
+                flex-grow: 1;
+            }
+        }        
+    }
+
+    .details {
+        position: relative;
+        padding: .5em;
+    }
+
+    .totals {
+        tbody tr {
+            td:first-child {
+                background-color: var(--theme-color-secondary) !important;
+                color:            white !important;
+            }
+        }
+    }
+
+    .simulationTotal {
+        background-color: rgba(var(--theme-color-primary-raw), .2) !important;
+    }
+
+    .total {
+        background-color: rgba(var(--theme-color-primary-raw), .5) !important;
+        font-weight: bold;
+    }
+
+    .collapse-expansion-modes {
+        margin-left: auto !important;
+    }
+
+    .action {
+        position: absolute;
+        left: -7px;
+        margin-top: -10px;
+        cursor: pointer;
+
+        &.expanded i {
+          transform: rotate(0deg) translate(5px);
+        }
+
+        i {
+            font-size: 2em;
+            //opacity: .5;
+            transform: rotate(-90deg) translate(-5px);
+            color: var(--theme-color-secondary);
+        }
+    }
+
+    .simulation-details, .totals {
+        overflow:       auto;
+        flex:           0;
+        display:        flex;
+        flex-direction: row;
+        margin-left: 20px;
+
+        table {
+            margin: .5em auto;
+
+            th {
+                white-space: normal;
+                vertical-align: middle;
+                cursor: pointer;
+                position: relative; /* keep for browser which not support "sticky" */
+                position: -webkit-sticky; /* for Safari */
+                position: sticky;
+                top: 0;
+                z-index: 1;
+
+                i {
+                    //float: right;
+                    position: absolute;
+                    left: calc(100% - 10px);
+                    top: calc(50% - 8px);
+                    width: 10px;
+                }
+            }
+        }
+
+    }
+
+    .sort-ascending {
+        transform: rotate(180deg) translate(0, -4px);
+    }
+
+    .expanded-cover {
+        background: rgb(239,239,239);
+        position: absolute;
+        width: 27px;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+}
+
+:global(.bp3-icon)::before {
+    content: unset;
+}
+
+@media only screen and (max-width: 1350px) {
+    .toolbar :global .bp3-align-right .bp3-button {
+        .bp3-icon {
+            margin: 0;
+        }
+        .bp3-button-text:not(:only-child) {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    .toolbar :global .bp3-navbar-group {
+        flex-wrap: wrap;
+    }
+
+    .toolbar :global .bp3-align-left .bp3-button {
+        .bp3-icon {
+            margin: 0;
+        }
+        .bp3-button-text:not(:only-child) {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .toolbar :global .bp3-navbar-group .bp3-button {
+        .bp3-icon {
+            margin: 3px;
+        }
+        .bp3-button-text {
+            display: block;
+        }
+    }
+}
+
+.print-portal {
+   display: none;
+}
+
+@media print {
+    @page {
+        size:  auto;   /* auto is the initial value */
+        margin: 0.2in;  /* this affects the margin in the printer settings */
+    }
+
+    :global(.react-app), :global(.bp3-portal) {
+        display: none;
+    }
+
+    :global(.conning.app.ui) {
+        display: block;
+        width: auto;
+        height: auto;
+        overflow: visible;
+    }
+
+    .print-portal {
+        background: #FFF;
+        overflow: visible;
+        display: block;
+
+        .print-title {
+            margin-bottom: 5px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .print-duration {
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .simulation-details {
+            margin: 0;
+            overflow: visible;
+            display: block;
+
+            table {
+                margin: 0;
+                font-size: 11px;
+            }
+
+            th {
+                padding: 4px 4px;
+            }
+
+            td {
+                white-space: normal;
+                padding: 4px 4px;
+
+                &:nth-child(11),
+                &:nth-child(12) {
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        .action {
+            display: none;
+        }
+    }
+}

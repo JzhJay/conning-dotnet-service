@@ -1,0 +1,67 @@
+.root {
+    display:flex;
+    flex-direction: column;
+    background:#efefef;
+
+    :global {
+        .react-card-flip {
+            flex-grow: 0;
+            margin:    5px auto auto auto;
+        }
+
+        .react-card-front {
+            position: unset !important;
+        }
+
+        .bp3-editable-text {
+            display: flex;
+            flex:    1;
+        }
+    }
+
+    .card {
+        min-width: 600px;
+        width:     auto;
+        border: 1px solid black !important;
+    }
+}
+
+.form, .content {
+    flex-grow:0;
+    font-size:20px !important;
+}
+
+.profile-pic {
+    max-width:128px;
+    max-height:128px;
+}
+
+.value {
+    //margin-left:auto !important;
+    flex-grow:0;
+    width:unset !important;
+    overflow:hidden;
+
+    input {
+        flex-grow:0 !important;
+    }
+}
+
+.add {
+    svg {
+        margin:auto;
+    }
+}
+
+.button {
+    cursor: pointer;
+}
+
+.row {
+    border-top: 1px solid var(--theme-border-color);
+
+     >:first-child {
+        font-weight: bold;
+     }
+}
+

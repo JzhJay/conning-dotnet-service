@@ -1,0 +1,38 @@
+.root {
+    height: 100%;
+
+    .title-text {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    :global(.bp3-callout) {
+        margin: 10px auto;
+        width:  fit-content;
+    }
+
+    .messages-div {
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .warning {
+        width: 80%;
+        padding: 5px 10px 5px;
+        margin: 5px 10% 5px 10%;
+        background-color: rgb(245, 173, 90);
+        color: white;
+        border-radius: 20px;
+    }
+
+    .error {
+        width: 80%;
+        padding: 5px 10px 5px;
+        margin: 5px 10% 5px 10%;
+        background-color: rgb(232, 112, 98);
+        color: white;
+        border-radius: 20px;
+    }
+}

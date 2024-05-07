@@ -1,0 +1,21 @@
+.pages {
+    composes: sort-container from './ReportCard.css';
+    border: 2px solid transparent;
+    grid-template-columns: repeat(auto-fill, minmax(60em, 1fr));
+}
+
+.root {
+    &.dragging {
+        .pages {
+            border: 2px dashed black;
+        }
+    }
+}
+
+.title {
+    composes: title from './ReportCardPanel.css';
+}
+
+.header {
+    composes: header from './ReportCardPanel.css';
+}

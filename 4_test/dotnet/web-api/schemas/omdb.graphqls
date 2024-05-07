@@ -1,0 +1,569 @@
+interface DbObject {
+    _id: ID!
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: DateTime
+    createdTime: DateTime
+}
+
+interface UI {
+    name: String!
+	comments: String
+	userTagValues: [UserTagValue!]
+}
+
+interface BillingInfo {
+    isBilling: Boolean
+}
+
+type UserTagValue implements DbObject {
+    _id: ID!
+    value: String!
+    background: String
+    color: String
+    label: String
+    align: String
+
+    tag: UserTag!
+
+    order: Int
+    isDefault: Boolean
+
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+
+    createdTime: DateTime
+    modifiedTime: DateTime
+}
+
+type UserTag implements DbObject  {
+    _id: ID!
+    name: String!
+    objectTypes: [String!]
+    multiple: Boolean
+    label: String
+    hierarchy: Boolean
+    required: Boolean
+    mutates: Boolean
+    canSearch: Boolean
+    canSort: Boolean
+
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    createdTime: DateTime
+    modifiedTime: DateTime
+
+    values: [UserTagValue!]
+}
+#union AutomationOutput = Simulation | Foo | Bar
+#
+#interface IAutomationJobOutput {
+#    s3Path: String
+#}
+#
+#type SimulationJobOutput implements IAutomationJobOutput {
+#    s3Path: String
+#}
+
+#union AutomationJobOutput = SimulationJobOutput
+
+#type AutomationJob {
+#    _id: ID!
+#    jobId: ID!
+#    createdBy: ConningUser
+#    createdTime: Date
+#    output: AutomationJobOutput
+
+type Period {
+    year: Int
+    quarter: Int
+    month: Int
+    eulerPeriod: Int
+}
+
+
+# A monte carlo simulation
+type Simulation implements DbObject & UI {
+    _id: ID!
+    name: String!
+    jobIds: [ID!]
+    archived: Boolean
+    scenarios: Int
+    frequencies: [String!]
+    periods: Period
+    modules: [String]
+    economies: [String]
+    variables: Int
+    axes: [String]
+    status: String
+    gridName: String
+    path: String
+    dfsPath: String
+    version: String
+    elements: String
+    size: String
+    sourceType: String
+    productVersion: String
+    folder: String
+    userFile: ID
+    useCase: String
+	parameterizationMeasure: String
+    inputsVersion: Int
+
+    createdBy: ConningUser
+    createdTime: DateTime
+    modifiedBy: ConningUser
+    modifiedTime: DateTime
+    deletedTime: DateTime
+
+    billingInformation: SimulationBillingInfo
+	userTagValues: [UserTagValue!]
+    useCaseQueries: [ID]
+
+    scenarioSummary: ScenarioSummary
+	comments: String
+	locked: Boolean
+}
+
+# A monte carlo simulation
+type DeletedSimulation implements DbObject & UI {
+    _id: ID!
+    name: String!
+    jobIds: [ID!]
+    archived: Boolean
+    scenarios: Int
+    frequencies: [String!]
+    periods: Period
+    modules: [String]
+    economies: [String]
+    variables: Int
+    axes: [String]
+    status: String
+    gridName: String
+    path: String
+    dfsPath: String
+    version: String
+    elements: String
+    size: String
+    sourceType: String
+    productVersion: String
+    userFile: ID
+
+    createdBy: ConningUser
+    createdTime: DateTime
+    modifiedBy: ConningUser
+    modifiedTime: DateTime
+    deletedTime: DateTime
+
+    billingInformation: SimulationBillingInfo
+	userTagValues: [UserTagValue!]
+
+    scenarioSummary: ScenarioSummary
+	comments: String
+}
+
+type ScenarioSummary {
+    storageBlocks:[Int]                            # list of storage block number inside SimulationServer
+    storageBlockByScenario: [Int]               # list of index into storage_blocks representing which storage_block does current scenario belong
+    relativeIndicesByScenario: [Int]            # list of relative index of scenario within storage block
+    scenariosByStorageBlock: [StorageBlockScenario]            # list of absolute scenario indices for each storage block
+    numberScenariosPerSimulationBlock: Int                   # number of scenarios per simulation blocks (npa)
+    actualStorageBlockBySimulationBlock: [SimulationBlock]  # list of index into storage_blocks representing which storage_block does current simulation block get assigned
+    targetStorageBlockBySimulationBlock: [SimulationBlock]
+}
+
+type SimulationBlock {
+    index: Int
+    storageBlockNumber: Int
+    relativeIndex: Int
+}
+
+type StorageBlockScenario {
+    index: Int
+    scenarios: [Int]
+}
+
+type SimulationBillingInfo {
+    windowsEC2InstanceType: [String!]
+    linuxEC2InstanceType: [String!]
+    linuxEC2InstanceQuantity: Int
+    windowsEC2InstanceQuantity: Int
+    startTime: Int
+    simulationWorkerEndTime: Int
+    compilationEndTime: Int
+    provisionedElements: Float
+    elements: Float
+}
+
+type Query implements DbObject & UI & BillingInfo{
+    _id: ID!
+    archived: Boolean
+    simulations: [Simulation!]!
+    name: String!
+    variables: Int
+    hasResult: Boolean
+    result: QueryResult
+    querySave: Json
+    scenarios: Int
+    periods: Period
+    frequencies: [String!]
+    version: String
+    simulationInputsVersions: [Json!]
+
+    isBilling: Boolean
+    billingInformation: QueryBillingInfo
+	userTagValues: [UserTagValue!]
+
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: DateTime
+    createdTime: DateTime
+
+	comments: String
+    isLink: Boolean
+}
+
+type QueryBillingInfo {
+    sessionStartTime: DateTime
+    sessionEndTime: DateTime
+}
+
+type Arrangement {
+    columnAxes: [Int]
+    columns: Int
+    rowAxes: [Int]
+    rows: Int
+}
+
+type QueryResult {
+    name: String
+    ready: Boolean
+
+    default_arrangement: Arrangement
+    shape: [Int!]
+    singularAxisCoordinate: [SingularAxisCoordinate]
+    availableViews: [View]
+    userOptions: Json
+}
+
+type SingularAxisCoordinate {
+    axis: String!
+    coordinate: String!
+}
+
+type View {
+    name: String
+    description: String
+    available: Boolean
+    bootstrappable: Boolean
+    sensitivity: Boolean
+    requirements: [ViewRequirement]
+}
+
+type ViewRequirement{
+    met: Boolean
+    description: String
+}
+
+type Report implements DbObject & UI {
+    _id: ID!
+    name: String!
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: DateTime
+    createdTime: DateTime
+    reportItems: [Json!]
+    version: String
+
+	comments: String
+	userTagValues: [UserTagValue!]
+}
+
+type QuerySession{
+    startTime: DateTime
+    queryId: String
+    userId: ConningUser
+}
+
+type SimulationSession implements DbObject {
+    _id: ID!
+    simulation: Simulation
+    endTime: DateTime
+    querySessions:[QuerySession]
+    version: String
+
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: DateTime
+    createdTime: DateTime
+}
+
+type Ec2Instance{
+    instanceId: String
+    hostname: String
+    instanceType: String
+}
+
+type Job{
+    jobId: String
+    instances: [Ec2Instance]
+}
+
+type GridStatus implements DbObject{
+    _id: ID!
+    windowsInstances: [Ec2Instance]
+    linuxInstances: [Ec2Instance]
+    jobs: [Job]
+    timeStamp: DateTime
+    gridName: String
+    gridId: String
+    power: String
+    version: String
+
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: DateTime
+    createdTime: DateTime
+}
+
+type S3File implements DbObject  {
+    _id: ID!
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: DateTime
+    createdTime: DateTime
+
+    defaultName: String
+    s3Key: ID!
+    type: FileType
+    for: ConningUser
+}
+
+type FileType implements DbObject  {
+    _id: ID!
+
+    name: String!
+    icon: String
+    extension: String!
+    objectType: ID
+
+    createdBy: ConningUser
+    createdTime: DateTime
+    modifiedBy: ConningUser
+    modifiedTime: DateTime
+}
+
+type FolderItem implements DbObject {
+    _id: ID!
+    createdBy: ConningUser
+    createdTime: DateTime
+    modifiedBy: ConningUser
+    modifiedTime: DateTime
+    _folder: Folder!
+
+    itemType: String!
+    itemId: ID! # Mongo does not like having _id and id coexist
+
+    # name: String # If not specified, use the linked item's name
+    # item : OmdbUnionType # A custom resolver is registered to handle this in the C# code
+}
+
+type Folder implements DbObject & UI {
+    path: String # . delimited list root -> you   Example: grandparent.parent
+    contents: [FolderItem!] # Synthetic list of children items, stored in FolderItem collection
+
+    _id: ID!
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: DateTime
+    createdTime: DateTime
+
+	name: String!
+	comments: String
+	userTagValues: [UserTagValue!]
+}
+
+type HierarchyGroup implements UI {
+	name: String!
+	comments: String
+	userTagValues: [UserTagValue!]
+
+    _id: ID!
+    numObjects: Int
+
+	createdTime: DateTime
+	modifiedTime: DateTime
+}
+
+type InvestmentOptimization implements DbObject & UI {
+    _id: ID!
+    name: String!
+    jobIds: [ID!]
+    archived: Boolean
+    scenarios: Int
+    status: String
+    gridName: String
+    path: String
+    dfioPath: String
+    version: String
+    size: String
+    userInterfaceSavedToS3: Boolean
+    billingInformation: InvestmentOptimizationBillingInfo
+	userTagValues: [UserTagValue!]
+    assetReturnsSimulation: ID
+    companyDataSimulation: ID
+    companyDataRepository: ID
+
+    createdBy: ConningUser
+    createdTime: DateTime
+    modifiedBy: ConningUser
+    modifiedTime: DateTime
+    deletedTime: DateTime
+
+	comments: String
+	locked: Boolean
+
+}
+
+type UserFile implements DbObject & UI {
+    _id: ID!
+    name: String!
+    type: String!
+    status: String
+    version: String
+	userTagValues: [UserTagValue!]
+
+    createdBy: ConningUser
+    createdTime: DateTime
+    modifiedBy: ConningUser
+    modifiedTime: DateTime
+    deletedTime: DateTime
+
+	comments: String
+	locked: Boolean
+}
+
+type ClimateRiskAnalysis implements DbObject & UI {
+    _id: ID!
+    name: String!
+    status: String
+    version: String
+    simulation: ID
+    billingInformation: ClimateRiskAnalysisBillingInfo
+	userTagValues: [UserTagValue!]
+
+    createdBy: ConningUser
+    createdTime: DateTime
+    modifiedBy: ConningUser
+    modifiedTime: DateTime
+    deletedTime: DateTime
+
+	comments: String
+	locked: Boolean
+}
+
+type ClimateRiskAnalysisBillingInfo {
+    analysisStartTime: DateTime
+    analysisEndTime: DateTime
+    elements: Float
+}
+
+type InvestmentOptimizationBillingInfo {
+    optimizationStartTime: DateTime
+    optimizationEndTime: DateTime
+    elements: Float
+    instanceType: String
+    numberOfInstances: Int
+}
+
+type UserSession {
+    startTime: DateTime
+    endTime: DateTime
+    userId: String!
+}
+
+type InvestmentOptimizationSession implements DbObject {
+    _id: ID!
+    optimization: InvestmentOptimization
+    startTime: DateTime
+    endTime:DateTime
+    userSessions: [UserSession]
+    version: String
+
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: DateTime
+    createdTime: DateTime
+}
+
+type ClimateRiskAnalysisSession implements DbObject {
+    _id: ID!
+    climateRiskAnalysis: ClimateRiskAnalysis
+    startTime: DateTime
+    endTime:DateTime
+    simulationSessions: [ClimateRiskAnalysisSimulationSession]
+    version: String
+
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: DateTime
+    createdTime: DateTime
+}
+
+type ClimateRiskAnalysisSimulationSession{
+    startTime: DateTime
+    simulationId: String
+    userId: ConningUser
+}
+
+type RSSimulationSession implements DbObject {
+    _id: ID!
+    simulation: Simulation
+    startTime: DateTime
+    endTime:DateTime
+    version: String
+
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: DateTime
+    createdTime: DateTime
+}
+
+type BillingAdditionalInformation {
+    _id: ID!
+    name: String!
+    gridName: String!
+    createdBy: ConningUser
+}
+
+type RiskInfo {
+    statistic: String
+    area: String
+    thresholdType: String
+    percentile: Float
+    fixedThreshold: Float
+}
+
+type RewardInfo {
+    statistic: String
+    area: String
+    percentile: Float
+}
+
+type ioFrontierTable implements DbObject {
+    _id: ID!
+    version: String
+    simulation: ID
+    assets: String
+    risk: RiskInfo
+    reward: RewardInfo
+    years: Int
+    user: String
+    time: Int
+    frontier: Json
+
+    modifiedBy: ConningUser
+    createdBy: ConningUser
+    modifiedTime: DateTime
+    createdTime: DateTime
+}

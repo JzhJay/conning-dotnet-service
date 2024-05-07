@@ -1,0 +1,24 @@
+﻿{
+  tag:  ObjectId("5b33b21cbe4b3c0d543ee2a2"),
+  value: "Value 1 (yellow)",
+  "background": "yellow",
+  "color": "black"
+}
+{
+  tag:  ObjectId("5b33b21cbe4b3c0d543ee2a2"),
+  value: "Value 2 (blue)",
+  "background": "blue",
+  "color": "white"
+}
+{
+  tag:  ObjectId("5b33b21cbe4b3c0d543ee2a3"),
+  value: "Value 1 (red)",
+  "background": "black",
+  "color": "red"
+}
+{
+  tag:  ObjectId("5b33b21cbe4b3c0d543ee2a3"),
+  value: "Value 2 (green)",
+  "background": "black",
+  "color": "green"
+}

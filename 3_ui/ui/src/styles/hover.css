@@ -1,0 +1,34 @@
+/* Pulse */
+@-webkit-keyframes hvr-pulse {
+    25% {
+        transform: scale(1.1);
+    }
+
+    75% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes hvr-pulse {
+    25% {
+        transform: scale(1.1);
+    }
+
+    75% {
+        transform: scale(0.9);
+    }
+}
+
+.hvr-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+}
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+    animation-name: hvr-pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

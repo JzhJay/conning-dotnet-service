@@ -1,0 +1,115 @@
+.root {
+    width: 850px;
+    height: calc(94vh);
+    margin: calc(3vh) 0;
+
+    .body-header {
+        display: flex;
+
+        label { padding: 0 5px 0 10px; }
+        label:after { content: ":"; }
+    }
+
+    :global(.bp3-dialog-body) {
+        overflow: hidden;
+    }
+
+    .body-content {
+        display: flex;
+        padding: 10px 20px;
+        flex: 1 1 auto;
+        flex-direction: column;
+        overflow: hidden;
+
+        .message-list {
+            flex: 1 2;
+            overflow: auto;
+            margin-bottom: 10px;
+            min-height: 100px;
+
+            .message {
+                margin: 5px;
+                display: flex;
+                flex-direction: row;
+
+                .message-content {
+                    margin-left: 5px;
+                    & > * {margin-right: 5px;}
+                }
+
+                .message-text {
+                    color: black;
+                    &:not(:last-child):after {
+                        content: ":";
+                    }
+                }
+                .message-location {
+                    color: gray;
+                }
+            }
+        }
+
+        .details {
+            flex: 2 1;
+            overflow: auto;
+            min-height: 200px;
+
+            h5 {
+                margin-block-end: 0.33rem;
+            }
+            .detail-message-list {
+                min-height: 40px;
+                padding: 5px 12px;
+                margin-bottom: 10px;
+
+                .detail-message {
+                    margin: 5px 0;
+                }
+            }
+            .error-cell, .warning-cell{
+                > span {
+                    z-index:  1;
+                    position: relative;
+                }
+
+                &::before {
+                    content: "";
+                    display: block;
+                    left: 0;
+                    position: absolute;
+                    top: 0;
+                    width: calc(100% - 1px);
+                    height: calc(100% - 1px);
+                }
+            }
+
+            .error-cell {
+                color: white;
+                &::before { background-color: red; }
+            }
+
+            .warning-cell::before { background-color: yellow; }
+
+        }
+    }
+
+    &.loading  :global(.bp3-control-group){
+        height: 150px;
+        .loading-indicator {
+            background-color: transparent !important;
+        }
+    }
+    :global {
+        .bp3-dialog-body { margin: 1px 0 0 0; }
+        .bp3-card {
+            background: white;
+            padding: 10px;
+        }
+        .bp3-table-truncated-text { line-height: unset; }
+        .bp3-table-row-headers-cells-container .bp3-table-row-name-text {
+            font-size: 12px;
+            text-align: right;
+            padding: 0 5px;
+        }
+    }
+}
