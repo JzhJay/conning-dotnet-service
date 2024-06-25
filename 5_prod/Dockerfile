@@ -36,6 +36,57 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 ARG DEBIAN_FRONTEND=noninteractive
 ARG CI="false"
 
+# install basic packages
+RUN apt-get update
+RUN apt-get install -y \
+    software-properties-common \
+    && add-apt-repository -y "deb http://security.ubuntu.com/ubuntu jammy-security main" \
+    && apt-get install -y \
+    apt-utils  \
+    apt-transport-https  \
+    curl  \
+    fonts-liberation  \
+    libappindicator3-1 \
+      libasound2  \
+    libatk-bridge2.0-0  \
+    libatk1.0-0  \
+    libatspi2.0-0  \
+    libcairo2  \
+    libcups2  \
+    libdbus-1-3 \
+    liblttng-ust1  \
+    libcurl4  \
+    libnspr4  \
+    libnss3  \
+    libssl3  \
+    libxss1  \
+    libunwind8  \
+    libuuid1  \
+    libkrb5-3  \
+    zlib1g  \
+    libicu70  \
+    xdg-utils \
+    wget  \
+    build-essential  \
+    unzip  \
+    git  \
+    libpng-dev \
+    libgdk-pixbuf2.0-0
+
+# install dotnet
+ARG DOTNET_SDK_VERSION=6.0
+ENV DOTNET_CLI_TELEMETRY_OPTOUT=1
+RUN wget https://dot.net/v1/dotnet-install.sh -O /tmp/dotnet-install.sh \
+    && chmod +x ./tmp/dotnet-install.sh \
+    && ./tmp/dotnet-install.sh --channel ${DOTNET_SDK_VERSION} --install-dir /opt/dotnet \
+    && rm ./tmp/dotnet-install.sh
+# expose the dotnet path in a few places
+RUN echo "export PATH=$PATH:/opt/dotnet" >> /etc/profile.d/dotnet.sh \
+    && chmod +x /etc/profile.d/dotnet.sh  \
+    && sed -i "\$ s|\$|:/opt/dotnet|" /etc/environment \
+    && cat /etc/environment \
+    && echo ". /etc/profile.d/dotnet.sh" >> /root/.bashrc
+
 # update path with dotnet
 ENV PATH "$PATH:/opt/dotnet"
 

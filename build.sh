@@ -18,5 +18,5 @@ docker build --build-arg BASE_IMAGE=dotnet.ui:latest --build-arg DOTNET_SDK_VERS
 popd
 
 pushd 5_prod
-docker build --build-arg BASE_IMAGE=ubuntu:22.04 --build-arg TEST_IMAGE=dotnet.test:latest -t dotnet.prod:latest .
+docker build --build-arg BASE_IMAGE=ubuntu:22.04 --build-arg TEST_IMAGE=dotnet.test:latest -t conning/advise-ui:latest .
 popd
