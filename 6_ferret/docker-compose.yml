@@ -1,0 +1,39 @@
+version: '3'
+services:
+  ferretdb:
+    image: ghcr.io/ferretdb/ferretdb
+    container_name: ferret-proxy
+    restart: on-failure
+    ports:
+    - 27018:27017
+    environment:
+      - FERRETDB_POSTGRESQL_URL=postgres://rwuser:Conning2026!@postgres:5432/ferretdb
+      - FERRETDB_TEST_ENABLE_NEW_AUTH=true
+      - FERRETDB_SETUP_USERNAME=rwuser
+      - FERRETDB_SETUP_PASSWORD=Conning2026!
+      - FERRETDB_SETUP_DATABASE=ferretdb
+    depends_on:
+      - postgres
+  postgres:
+    image: conning/bitnami/postgresql:15.1.0-debian-11-r31
+    container_name: postgres
+    environment:
+      - POSTGRES_DB=ferretdb
+      - POSTGRES_USER=rwuser
+      - POSTGRES_PASSWORD=Conning2026!
+      - POSTGRES_PORT=5432
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./data:/var/lib/postgres/data
+    #healthcheck:
+    #  test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+    #  interval: 1m30s
+    #  timeout: 10s
+    #  retries: 3
+    #  start_period: 30s
+volumes:
+  data: {}
+networks:
+  default:
+    name: ferretdb

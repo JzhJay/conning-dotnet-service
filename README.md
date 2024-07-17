@@ -1,4 +1,29 @@
-# Troubleshooting - Dotnet docker image build 
+# FerretDB configuration
+1. Setup FerretDB and PostgreSQL with docker compose
+```
+cd ferret && dokcer-compose up -d
+```
+2. Connect to FerretDB via a Mongo Client
+```
+mongosh mongodb://rwuser:Conning2026!@127.0.0.1:27018/ferretdb
+```
+
+# .NET Dev environment build
+## Set AWS env variables 
+add the following:
+```
+export AWS_ACCESS_KEY_ID=ID
+export AWS_SECRET_ACCESS_KEY=key
+export AWS_SESSION_TOKEN=token
+export AWS_REGION=us-east-1
+export ON_PREM_K8S=1
+```
+to ~/.bashrc, then run:
+```
+source ~/.bashrc
+```
+
+# .NET docker image build troubleshooting
 ## Offline docker installation
 ```
 tar xvf dokcer-installer.tar
