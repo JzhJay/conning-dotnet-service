@@ -1,7 +1,7 @@
 # FerretDB configuration
 1. Setup FerretDB and PostgreSQL with docker compose
 ```
-cd ferret && dokcer-compose up -d
+cd ferret && docker-compose up -d
 ```
 2. Connect to FerretDB via a Mongo Client
 ```

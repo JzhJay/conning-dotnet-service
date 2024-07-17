@@ -10,9 +10,7 @@ db.createUser(
   {
     user: 'rancher-user',
     pwd: 'ConningRS**',
-    roles: [{ role: 'readWrite', db: 'omdb_rancher' },
-            { role: 'readWrite', db: 'auth_conning' },
-            { role: 'readWrite', db: 'auth_prod-rancher-conning' }],
+    roles: [],
   },
 );
 
