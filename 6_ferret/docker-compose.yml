@@ -1,16 +1,16 @@
 services:
   ferretdb:
-    image: ghcr.io/ferretdb/ferretdb
+    image: ghcr.io/ferretdb/ferretdb:1.21.0
     container_name: ferret-proxy
     restart: on-failure
     ports:
     - 27018:27017
     environment:
       - FERRETDB_POSTGRESQL_URL=postgres://rwuser:Conning2026!@postgres:5432/ferretdb
-      - FERRETDB_TEST_ENABLE_NEW_AUTH=true
-      - FERRETDB_SETUP_USERNAME=rwuser
-      - FERRETDB_SETUP_PASSWORD=Conning2026!
-      - FERRETDB_SETUP_DATABASE=ferretdb
+      # - FERRETDB_TEST_ENABLE_NEW_AUTH=true
+      # - FERRETDB_SETUP_USERNAME=rwuser
+      # - FERRETDB_SETUP_PASSWORD=Conning2026!
+      # - FERRETDB_SETUP_DATABASE=ferretdb
     depends_on:
       - postgres
   postgres:
