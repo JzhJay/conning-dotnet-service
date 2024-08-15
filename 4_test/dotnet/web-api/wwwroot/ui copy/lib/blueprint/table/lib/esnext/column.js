@@ -1,0 +1,1 @@
+import*as React from"react";import{DISPLAYNAME_PREFIX}from"@blueprintjs/core";import{emptyCellRenderer}from"./cell/cell";export class Column extends React.PureComponent{}Column.displayName=`${DISPLAYNAME_PREFIX}.Column`,Column.defaultProps={cellRenderer:emptyCellRenderer};

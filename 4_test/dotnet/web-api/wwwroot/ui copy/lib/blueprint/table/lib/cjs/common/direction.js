@@ -1,0 +1,1 @@
+"use strict";var Direction;Object.defineProperty(exports,"__esModule",{value:!0}),exports.Direction=void 0,function(e){e.UP="up",e.DOWN="down",e.LEFT="left",e.RIGHT="right"}(Direction=exports.Direction||(exports.Direction={}));

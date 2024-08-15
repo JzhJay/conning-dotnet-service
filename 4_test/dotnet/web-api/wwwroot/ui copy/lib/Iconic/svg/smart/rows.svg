@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="iconic iconic-flip" width="128" height="128" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Rows</title>
+  </g>
+  <g class="iconic-loop-lg iconic-container iconic-lg" data-width="112" data-height="72" display="inline" transform="translate(8 28)">
+    <path stroke-width="8" stroke-linecap="square" d="M51 58h 54c 1.657 0 3-1.343 3-3v-42" class="iconic-loop-line iconic-loop-line-bottom iconic-property-stroke" fill="none" />
+    <path d="M25.296 58.756l21.409 12.488c.715.417 1.296.084 1.296-.744v-25c0-.828-.58-1.162-1.296-.744l-21.409 12.488c-.716.417-.716 1.094 0 1.512z" class="iconic-loop-arrowhead iconic-loop-arrowhead-bottom iconic-property-fill" />
+  </g>
+  <g class="iconic-loop-md iconic-container iconic-md" data-width="30" data-height="23" display="none" transform="scale(4) translate(1 4)">
+    <path stroke-width="3" d="M12.6 18.5h 14.9c .552 0 1 -.448 1-1v-15" class="iconic-loop-line iconic-loop-line-bottom iconic-property-stroke" fill="none" />
+    <path d="M7.4 18.2l5.2-3.9c.221-.166.4-.076.4.2v8c0 .276-.179.366-.4.2l-5.2-3.9c-.221-.166-.221-.434 0-.6z" class="iconic-loop-arrowhead iconic-loop-arrowhead-bottom iconic-property-fill" />
+  </g>
+  <g class="iconic-loop-sm iconic-container iconic-sm" data-width="16" data-height="14" display="none" transform="scale(8) translate(0 1)">
+    <path stroke-width="2" d="M7 11h 7.5c .276 0 .5-.224.5-.5v-9" class="iconic-loop-line iconic-loop-line-bottom iconic-property-stroke" fill="none" />
+    <path class="iconic-loop-arrowhead iconic-loop-arrowhead-bottom iconic-property-fill" d="M7 14v-6l-3 3z" />
+  </g>
+</svg>

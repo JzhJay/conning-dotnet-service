@@ -1,0 +1,1 @@
+import{isFunction}from"./functionUtils";export function safeInvokeMember(n,i){for(var o=[],r=2;r<arguments.length;r++)o[r-2]=arguments[r];if(null!=n){var t=n[i];if(isFunction(t))return t.apply(void 0,o)}}

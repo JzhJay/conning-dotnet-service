@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.safeInvokeMember=void 0;var functionUtils_1=require("./functionUtils");function safeInvokeMember(e,n){for(var r=[],o=2;o<arguments.length;o++)r[o-2]=arguments[o];if(null!=e){var t=e[n];if(functionUtils_1.isFunction(t))return t.apply(void 0,r)}}exports.safeInvokeMember=safeInvokeMember;

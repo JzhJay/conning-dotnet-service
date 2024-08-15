@@ -1,0 +1,1 @@
+import"../configureDom4";import*as Classes from"../classes";export function isDarkTheme(s){return null!=s&&s instanceof Element&&null!=s.closest(`.${Classes.DARK}`)}

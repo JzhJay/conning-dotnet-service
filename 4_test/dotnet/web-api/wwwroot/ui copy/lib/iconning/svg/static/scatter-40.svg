@@ -1,0 +1,75 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" data-icon="scatter-40" class="iconning iconning-scatter-40" viewBox="0 0 40 40" id="scatter40">
+    <g class="iconning-metadata">
+        <title>Scatter Chart</title>
+    </g>
+    <g class="iconning-container" data-width="40" data-height="40">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="1.5" y1="39.0" x2="1.5" y2="2.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="1.0" y1="38.5" x2="39.0" y2="38.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="32.5" x2="4.0" y2="32.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="26.5" x2="4.0" y2="26.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="20.5" x2="4.0" y2="20.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="14.5" x2="4.0" y2="14.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="8.5" x2="4.0" y2="8.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="2.5" x2="4.0" y2="2.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="35.5" x2="3.0" y2="35.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="29.5" x2="3.0" y2="29.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="23.5" x2="3.0" y2="23.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="17.5" x2="3.0" y2="17.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="11.5" x2="3.0" y2="11.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="5.5" x2="3.0" y2="5.5"/>
+        <!-- Scatter Points -->
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="30.464218023672267" cy="14.791578051955089" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="32.435057974280475" cy="13.455087645723506" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="16.84030231603213" cy="25.295091058487888" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="19.719928890517114" cy="21.43312218887062" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="29.24334538515705" cy="20.089313081775128" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="25.424833231212293" cy="17.25424911308823" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="22.35730764083812" cy="10.604108906252037" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="20.06097051692133" cy="30.571245930341526" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="14.712422841000151" cy="21.7076805778121" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="12.406425912700787" cy="22.638990357428394" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="11.430989623381953" cy="21.561009817526486" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="26.74676780167976" cy="15.984103409563538" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="32.213511017090745" cy="17.29788361581835" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="16.928119223519865" cy="21.101307555150463" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="19.024040598323886" cy="21.946091024314427" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="24.39995377156154" cy="22.175259394816408" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="19.953784594325256" cy="28.408351951073954" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="13.563452556752937" cy="21.18498565585449" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="36.578048994025416" cy="10.196969830306035" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="20.330264599753757" cy="18.81260164293248" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="25.18895452758666" cy="18.916942929978607" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="22.97076615080803" cy="14.249727947810928" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="16.775937606351718" cy="23.163769309342314" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="27.753029052371172" cy="20.448525779957528" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="25.4630878631164" cy="23.551183473647242" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="11.432662812390005" cy="25.75302511110673" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="26.89070598389454" cy="26.530549282815386" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="29.26980222395253" cy="16.890516832363414" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="17.589134398160205" cy="17.41277767598914" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="30.622661690255267" cy="13.596925383451286" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="28.190731969358026" cy="14.005200935987013" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="20.74852563549376" cy="19.31401680285805" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="27.85653972172012" cy="22.639051505020134" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="17.250350381773202" cy="24.007813887125636" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="24.75172275570909" cy="18.58345976653068" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="19.139988733468105" cy="20.270106342824178" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="19.052400801124538" cy="16.36164624665819" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="19.35494899081126" cy="25.734072821186984" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="20.61313549027837" cy="24.449911894911832" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="29.120122223011613" cy="12.031124965471346" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="33.26535920221035" cy="20.180020906923613" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="9.885115411018242" cy="23.17495766196586" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="14.978636890583154" cy="23.88553246212632" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="28.257862790520488" cy="18.61053460923364" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="11.485147023147011" cy="33.787552198873314" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="11.362930118559621" cy="27.91507884102507" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="21.099998072568503" cy="25.442214501853364" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="15.129625382108411" cy="29.751513542168738" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="6.220354942771994" cy="30.34756778054765" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-scatter iconning-scatter-40 iconning-accent-1 iconning-point" cx="18.673214405723385" cy="25.8880116314185" r="1.1843605347018307" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

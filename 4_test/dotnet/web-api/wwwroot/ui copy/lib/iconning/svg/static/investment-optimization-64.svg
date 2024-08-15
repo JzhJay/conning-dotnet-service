@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" data-icon="investment-optimization-64" class="iconning iconning-investment-optimization-64" viewBox="0 0 64 64" id="investment-optimization64">
+    <g class="iconning-metadata">
+        <title>Investment Optimization</title>
+    </g>
+    <g class="iconning-container" data-width="64" data-height="64">
+        <!-- Frontier Line -->
+        <path class="iconning iconning-investment_optimization iconning-investment_optimization-64 iconning-line" d="M 6.577749295230841 57.422250704769155 A 50.84450140953832 50.84450140953832 0 0 1 57.422250704769155 6.577749295230838" stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="round" style="fill:none"/>
+        <!-- Frontier Points -->
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-64 iconning-point" cx="6.577749295230838" cy="57.422250704769155" r="4.577749295230841" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-64 iconning-point" cx="9.066256321449622" cy="41.71043569870085" r="4.577749295230841" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-64 iconning-point" cx="16.288184993931687" cy="27.53660261607867" r="4.577749295230841" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-64 iconning-point" cx="27.53660261607867" cy="16.288184993931687" r="4.577749295230841" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-64 iconning-point" cx="41.71043569870085" cy="9.066256321449622" r="4.577749295230841" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-64 iconning-point" cx="57.422250704769155" cy="6.577749295230838" r="4.577749295230841" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

@@ -1,0 +1,1 @@
+import{isDateValid,isDayInRange}from"./common/dateUtils";export function getFormattedDateString(a,e,t=!1){return null==a?"":isDateValid(a)?t||isDayInRange(a,[e.minDate,e.maxDate])?e.formatDate(a,e.locale):e.outOfRangeMessage:e.invalidDateMessage}

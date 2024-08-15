@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.useHotkeys=void 0;var useHotkeys_1=require("./hotkeys/useHotkeys");Object.defineProperty(exports,"useHotkeys",{enumerable:!0,get:function(){return useHotkeys_1.useHotkeys}});

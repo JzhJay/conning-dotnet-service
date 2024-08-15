@@ -1,0 +1,1 @@
+export var Boundary={START:"start",END:"end"};

@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" data-icon="line-20" class="iconning iconning-line-20" viewBox="0 0 20 20" id="line20">
+    <g class="iconning-metadata">
+        <title>line</title>
+    </g>
+    <g class="iconning-container" data-width="20" data-height="20">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.5" y1="20.0" x2="0.5" y2="1.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.0" y1="19.5" x2="20.0" y2="19.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="13.5" x2="3.0" y2="13.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="7.5" x2="3.0" y2="7.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="1.5" x2="3.0" y2="1.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="16.5" x2="2.0" y2="16.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="10.5" x2="2.0" y2="10.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="4.5" x2="2.0" y2="4.5"/>
+        <!-- Line Segments -->
+        <line class="iconning iconning-fill iconning-line iconning-line-20 iconning-accent-1" x1="6.5" y1="7.0" x2="11.5" y2="12.0" stroke="rgb( 40, 70,200)" stroke-width="2.732892142331044" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-fill iconning-line iconning-line-20 iconning-accent-1" x1="11.5" y1="12.0" x2="16.5" y2="3.0" stroke="rgb( 40, 70,200)" stroke-width="2.732892142331044" stroke-linecap="round" style="fill:none"/>
+    </g>
+</svg>

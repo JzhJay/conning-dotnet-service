@@ -1,0 +1,1 @@
+export function formatPercentage(r){return(100*r).toFixed(2)+"%"}export function fillValues(r,t,e,n){for(var o=t<e?1:-1,f=t;f!==e+o;f+=o)r[f]=n}export function argMin(r,t){if(0!==r.length){for(var e=r[0],n=t(e),o=1;o<r.length;o++){var f=r[o],a=t(f);a<n&&(e=f,n=a)}return e}}

@@ -1,0 +1,20 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="96" height="96" data-icon="singular-axes-96" class="iconning iconning-singular-axes-96" viewBox="0 0 96 96" id="singular-axes96">
+    <g class="iconning-metadata">
+        <title>Singular Axes</title>
+    </g>
+    <g class="iconning-container" data-width="96" data-height="96">
+        <!-- Singular Axes (Axis, Colon, Coordinate) -->
+        <rect class="iconning-accent-0" x="0" y="0.0" width="36.0" height="24.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="4.0" stroke-linecap="round" class="iconning-equal-sign" x1="43.2" y1="8.0" x2="52.8" y2="8.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="4.0" stroke-linecap="round" class="iconning-equal-sign" x1="43.2" y1="16.0" x2="52.8" y2="16.0"/>
+        <rect class="iconning-accent-1" x="60.0" y="0.0" width="36.0" height="24.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <rect class="iconning-accent-0" x="0" y="36.0" width="36.0" height="24.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="4.0" stroke-linecap="round" class="iconning-equal-sign" x1="43.2" y1="44.0" x2="52.8" y2="44.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="4.0" stroke-linecap="round" class="iconning-equal-sign" x1="43.2" y1="52.0" x2="52.8" y2="52.0"/>
+        <rect class="iconning-accent-1" x="60.0" y="36.0" width="36.0" height="24.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <rect class="iconning-accent-0" x="0" y="72.0" width="36.0" height="24.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="4.0" stroke-linecap="round" class="iconning-equal-sign" x1="43.2" y1="80.0" x2="52.8" y2="80.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="4.0" stroke-linecap="round" class="iconning-equal-sign" x1="43.2" y1="88.0" x2="52.8" y2="88.0"/>
+        <rect class="iconning-accent-1" x="60.0" y="72.0" width="36.0" height="24.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="line-128" class="iconning iconning-line-128" viewBox="0 0 128 128" id="line128">
+    <g class="iconning-metadata">
+        <title>line</title>
+    </g>
+    <g class="iconning-container" data-width="128" data-height="128">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="4.5" y1="125.0" x2="4.5" y2="5.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="3.0" y1="123.5" x2="125.0" y2="123.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="6.0" y1="105.5" x2="12.0" y2="105.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="6.0" y1="87.5" x2="12.0" y2="87.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="6.0" y1="69.5" x2="12.0" y2="69.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="6.0" y1="51.5" x2="12.0" y2="51.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="6.0" y1="33.5" x2="12.0" y2="33.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="6.0" y1="15.5" x2="12.0" y2="15.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="114.5" x2="9.0" y2="114.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="96.5" x2="9.0" y2="96.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="78.5" x2="9.0" y2="78.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="60.5" x2="9.0" y2="60.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="42.5" x2="9.0" y2="42.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="24.5" x2="9.0" y2="24.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="6.5" x2="9.0" y2="6.5"/>
+        <!-- Line Segments -->
+        <line class="iconning iconning-fill iconning-line iconning-line-128 iconning-accent-1" x1="23.916666666666664" y1="42.0" x2="41.75" y2="75.0" stroke="rgb( 40, 70,200)" stroke-width="6.75" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-fill iconning-line iconning-line-128 iconning-accent-1" x1="41.75" y1="75.0" x2="59.583333333333336" y2="14.0" stroke="rgb( 40, 70,200)" stroke-width="6.75" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-fill iconning-line iconning-line-128 iconning-accent-1" x1="59.583333333333336" y1="14.0" x2="77.41666666666666" y2="36.0" stroke="rgb( 40, 70,200)" stroke-width="6.75" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-fill iconning-line iconning-line-128 iconning-accent-1" x1="77.41666666666666" y1="36.0" x2="95.24999999999999" y2="64.0" stroke="rgb( 40, 70,200)" stroke-width="6.75" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-fill iconning-line iconning-line-128 iconning-accent-1" x1="95.24999999999999" y1="64.0" x2="113.08333333333333" y2="103.0" stroke="rgb( 40, 70,200)" stroke-width="6.75" stroke-linecap="round" style="fill:none"/>
+    </g>
+</svg>

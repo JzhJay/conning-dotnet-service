@@ -1,0 +1,1 @@
+"use strict";var RenderMode;Object.defineProperty(exports,"__esModule",{value:!0}),exports.RenderMode=void 0,function(e){e.BATCH="batch",e.BATCH_ON_UPDATE="batch-on-update",e.NONE="none"}(RenderMode=exports.RenderMode||(exports.RenderMode={}));

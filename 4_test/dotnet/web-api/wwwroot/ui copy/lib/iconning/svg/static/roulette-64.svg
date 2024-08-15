@@ -1,0 +1,71 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" data-icon="roulette-64" class="iconning iconning-roulette-64" viewBox="0 0 64 64" id="roulette64">
+    <g class="iconning-metadata">
+        <title>Roulette Wheel</title>
+    </g>
+    <g class="iconning-container" data-width="64" data-height="64">
+        <g data-width="64" data-height="64" transform="translate(32.0 32.0)">
+            <!-- Background Circle -->
+            <circle class="iconning-bg iconning-roulette-bg" fill="rgb(255,255,255)" fill-opacity="0.5" r="32.0" style="stroke:none"/>
+            <!-- Slots -->
+            <g data-width="64" data-height="64" transform="rotate(12.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-red" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(255,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(32.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-black" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(0,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(52.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-red" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(255,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(72.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-black" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(0,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(92.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-red" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(255,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(112.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-black" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(0,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(132.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-red" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(255,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(152.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-black" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(0,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(172.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-green" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(0,255,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(192.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-red" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(255,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(212.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-black" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(0,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(232.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-red" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(255,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(252.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-black" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(0,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(272.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-red" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(255,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(292.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-black" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(0,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(312.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-red" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(255,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(332.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-black" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(0,0,0)" style="stroke:none"/>
+            </g>
+            <g data-width="64" data-height="64" transform="rotate(352.5)">
+                <path class="iconning iconning-roulette iconning-roulette-64 iconning-roulette-slot-green" d="M 0 -15.36 V -30.72 A 30.72 30.72 0 0 1 7.950921065549437 -29.67324138360018 L 3.9754605327747186 -14.83662069180009" fill="rgb(0,255,0)" style="stroke:none"/>
+            </g>
+            <!-- Center -->
+            <path class="iconning iconning-roulette iconning-roulette-64 iconning-stroke iconning-roulette-center" d="M 0 9.216 L 3.072 3.072 L 9.216 0 L 3.072 -3.072 L 0 -9.216 L -3.072 -3.072 L -9.216 0 L -3.072 3.072 L 0 9.216" fill="rgb(  0,  0,  0)" style="stroke:none"/>
+            <!-- Foreground Circle (transparent for mouseover event only)-->
+            <circle class="iconning-fg iconning-roulette-fg" fill="rgb(255,255,255)" r="32.0" style="stroke:none; fill-opacity:0" id="roulette64circle"/>
+        </g>
+        <animateTransform attributeName="transform" dur="0.5s" type="rotate" from="0.0 32.0 32.0" to="180.0 32.0 32.0" begin="roulette64circle.mouseover"/>
+    </g>
+</svg>

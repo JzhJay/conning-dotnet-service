@@ -1,0 +1,20 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="singular-axes-32" class="iconning iconning-singular-axes-32" viewBox="0 0 32 32" id="singular-axes32">
+    <g class="iconning-metadata">
+        <title>Singular Axes</title>
+    </g>
+    <g class="iconning-container" data-width="32" data-height="32">
+        <!-- Singular Axes (Axis, Colon, Coordinate) -->
+        <rect class="iconning-accent-0" x="0" y="0.0" width="12.0" height="8.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.3333333333333333" stroke-linecap="round" class="iconning-equal-sign" x1="14.4" y1="2.666666666666667" x2="17.6" y2="2.666666666666667"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.3333333333333333" stroke-linecap="round" class="iconning-equal-sign" x1="14.4" y1="5.333333333333333" x2="17.6" y2="5.333333333333333"/>
+        <rect class="iconning-accent-1" x="20.0" y="0.0" width="12.0" height="8.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <rect class="iconning-accent-0" x="0" y="12.0" width="12.0" height="8.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.3333333333333333" stroke-linecap="round" class="iconning-equal-sign" x1="14.4" y1="14.666666666666666" x2="17.6" y2="14.666666666666666"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.3333333333333333" stroke-linecap="round" class="iconning-equal-sign" x1="14.4" y1="17.333333333333332" x2="17.6" y2="17.333333333333332"/>
+        <rect class="iconning-accent-1" x="20.0" y="12.0" width="12.0" height="8.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <rect class="iconning-accent-0" x="0" y="24.0" width="12.0" height="8.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.3333333333333333" stroke-linecap="round" class="iconning-equal-sign" x1="14.4" y1="26.666666666666668" x2="17.6" y2="26.666666666666668"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.3333333333333333" stroke-linecap="round" class="iconning-equal-sign" x1="14.4" y1="29.333333333333332" x2="17.6" y2="29.333333333333332"/>
+        <rect class="iconning-accent-1" x="20.0" y="24.0" width="12.0" height="8.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

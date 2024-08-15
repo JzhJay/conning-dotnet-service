@@ -1,0 +1,1 @@
+const inliner=require("sass-inline-svg");module.exports={"svg-icon":inliner("../../resources/icons",{optimize:!0,encodingFormat:"uri"})};

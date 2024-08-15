@@ -1,0 +1,156 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+     data-icon="cone-plot" 
+     class="iconic iconic-cone-plot" 
+     width="128" height="128" 
+     viewBox="0 0 128 128">
+     
+    <title>Cone Plot</title>
+    <g id="iconic-cone-plot-lg" class="iconic-lg iconic-container" data-width="128" data-height="128" display="inline">
+        <!-- CONE BANDS -->
+        <polygon class="iconic-cone-plot-fill-1" fill="#B7BEA7" points="120,11 11,63 120,35"/>
+        <polygon class="iconic-cone-plot-fill-2" fill="#697947" points="120,35 11,63 120,63"/>
+        <polygon class="iconic-cone-plot-fill-3" fill="#642524" points="120,63 11,63 120,87"/>
+        <polygon class="iconic-cone-plot-fill-4" fill="#9F7979" points="120,87 11,63 120,103"/>
+        <g class="line-and-dots">
+            <polyline class="iconic-cone-line" fill="none" stroke="#000000" stroke-miterlimit="10" points="11.8697,62.618 16.5681,62.618 21.2666,62.618 25.9128,60.7908 30.8201,58.0762 35.4141,59.2908 39.3817,53.5 43.9757,60.7908 47.5778,52.8035 50.5778,66.8466 56.8181,70.2399 61.3599,59.2908 63.7091,55 67,61.0762 71.1222,61.5 76.0295,57.3453 81.9358,38.5 86.6793,29.99 91.3777,52 96.3372,42.3625 100.9312,48.5749 107.4046,57 112.0508,55.8453 115.0508,37.2464 119.4117,34.5318"/>
+            <!-- FILLS -->
+            <circle class="iconic-cone-point-fill" cx="21.2666" cy="62.618" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="25.9128" cy="60.7908" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="30.8201" cy="58.0762" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="35.4141" cy="59.2908" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="39.3817" cy="53.5" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="43.9757" cy="60.7908" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="47.5778" cy="52.8035" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="50.5778" cy="66.8466" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="56.8181" cy="70.2399" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="61.3599" cy="59.2908" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="63.7091" cy="55" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="67" cy="61.0762" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="71.1222" cy="61.5" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="76.0295" cy="57.3453" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="81.9358" cy="38.5" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="86.6793" cy="29.99" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="91.3777" cy="52" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="96.3372" cy="42.3625" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="100.9312" cy="48.5749" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="107.4046" cy="57" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="112.0508" cy="55.8453" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="115.0508" cy="37.2464" r="1.5"/>
+            <circle class="iconic-cone-point-fill" cx="119.4117" cy="34.5318" r="1.5"/>
+            <!-- STROKES -->
+            <circle class="iconic-cone-point-stroke" cx="21.2666" cy="62.618" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="25.9128" cy="60.7908" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="30.8201" cy="58.0762" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="35.4141" cy="59.2908" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="39.3817" cy="53.5" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="43.9757" cy="60.7908" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="47.5778" cy="52.8035" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="50.5778" cy="66.8466" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="56.8181" cy="70.2399" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="61.3599" cy="59.2908" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="63.7091" cy="55" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="67" cy="61.0762" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="71.1222" cy="61.5" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="76.0295" cy="57.3453" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="81.9358" cy="38.5" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="86.6793" cy="29.99" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="91.3777" cy="52" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="96.3372" cy="42.3625" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="100.9312" cy="48.5749" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="107.4046" cy="57" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="112.0508" cy="55.8453" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="115.0508" cy="37.2464" r="1.5"/>
+            <circle class="iconic-cone-point-stroke" cx="119.4117" cy="34.5318" r="1.5"/>
+        </g>
+        <!--grid-->
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-major iconic-cone-plot-chart-tick-11 iconic-property-stroke" d="M1,5.25h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-major iconic-cone-plot-chart-tick-10 iconic-property-stroke" d="M1,25.25h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-major iconic-cone-plot-chart-tick-9 iconic-property-stroke" d="M1,45.25h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-major iconic-cone-plot-chart-tick-8 iconic-property-stroke" d="M1,65.25h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-major iconic-cone-plot-chart-tick-7 iconic-property-stroke" d="M1,85.25h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-minor iconic-cone-plot-chart-tick-6 iconic-property-stroke" d="M1-4.75h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-minor iconic-cone-plot-chart-tick-5 iconic-property-stroke" d="M1,15.256h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-minor iconic-cone-plot-chart-tick-4 iconic-property-stroke" d="M1,35.25h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-minor iconic-cone-plot-chart-tick-3 iconic-property-stroke" d="M1,55.25h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-minor iconic-cone-plot-chart-tick-2 iconic-property-stroke" d="M1,75.25h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-minor iconic-cone-plot-chart-tick-1 iconic-property-stroke" d="M1,95.25h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-cone-plot-chart-axes iconic-property-stroke" d="M127,105.2236 H1v-110"/>
+        <!--/grid-->
+    </g>
+    <g id="iconic-cone-plot-md" class="iconic-md iconic-container" data-width="32" data-height="32" transform="scale(4)" display="none" >
+        <!-- CONE BANDS -->
+        <polygon class="iconic-cone-plot-fill-1" fill="#B7BEA7" points="29,3.75 4,16.75 29,9.75"/>
+        <polygon class="iconic-cone-plot-fill-2" fill="#697947" points="29,9.75 4,16.75 29,16.75"/>
+        <polygon class="iconic-cone-plot-fill-3" fill="#642524" points="29,16.75 4,16.75 29,22.75"/>
+        <polygon class="iconic-cone-plot-fill-4" fill="#9F7979" points="29,22.75 4,16.75 29,26.75"/>
+        <g class="line-and-dots">
+            <polyline class="iconic-cone-line" fill="none" stroke="#000000" stroke-miterlimit="10" points="5.3431,16.6887 9.625,16.6887 13.0312,13.5735 14.6228,18.5877 19.0164,15.375 21.452,8.5593 26.1919,15.2889 28.938,9.6909"/>
+            <!-- FILLS -->
+            <circle class="iconic-cone-point-fill" cx="5.3431" cy="16.6887" r="1"/>
+            <circle class="iconic-cone-point-fill" cx="9.75" cy="16.6887" r="1"/>
+            <circle class="iconic-cone-point-fill" cx="14.5" cy="18.5877" r="1"/>
+            <circle class="iconic-cone-point-fill" cx="19.0677" cy="15.273" r="1"/>
+            <circle class="iconic-cone-point-fill" cx="21.375" cy="8.5593" r="1"/>
+            <circle class="iconic-cone-point-fill" cx="26.1919" cy="15.2889" r="1"/>
+            <circle class="iconic-cone-point-fill" cx="29" cy="9.75" r="1"/>
+            <circle class="iconic-cone-point-fill" cx="13.0439" cy="13.5735" r="1"/>
+            <!-- STROKES -->
+            <circle class="iconic-cone-point-stroke" cx="5.3431" cy="16.6887" r="1"/>
+            <circle class="iconic-cone-point-stroke" cx="9.75" cy="16.6887" r="1"/>
+            <circle class="iconic-cone-point-stroke" cx="14.5" cy="18.5877" r="1"/>
+            <circle class="iconic-cone-point-stroke" cx="19.0677" cy="15.273" r="1"/>
+            <circle class="iconic-cone-point-stroke" cx="21.375" cy="8.5593" r="1"/>
+            <circle class="iconic-cone-point-stroke" cx="26.1919" cy="15.2889" r="1"/>
+            <circle class="iconic-cone-point-stroke" cx="29" cy="9.75" r="1"/>
+            <circle class="iconic-cone-point-stroke" cx="13.0439" cy="13.5735" r="1"/>
+        </g>
+        <!--grid-->
+        <g id="iconic-cone-plot-chart-grid-md">
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-major iconic-cone-plot-chart-tick-1 iconic-property-stroke" d="M1.5,1.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-minor iconic-cone-plot-chart-tick-2 iconic-property-stroke" d="M1.5,4.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-major iconic-cone-plot-chart-tick-3 iconic-property-stroke" d="M1.5,7.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-minor iconic-cone-plot-chart-tick-4 iconic-property-stroke" d="M1.5,10.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-major iconic-cone-plot-chart-tick-5 iconic-property-stroke" d="M1.5,13.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-minor iconic-cone-plot-chart-tick-6 iconic-property-stroke" d="M1.5,16.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-major iconic-cone-plot-chart-tick-7 iconic-property-stroke" d="M1.5,19.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-minor iconic-cone-plot-chart-tick-8 iconic-property-stroke" d="M1.5,22.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-major iconic-cone-plot-chart-tick-9 iconic-property-stroke" d="M1.5,25.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-minor iconic-cone-plot-chart-tick-10 iconic-property-stroke" d="M1.5,28.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-cone-plot-chart-axes iconic-property-stroke" d="M30.5,31.5h-29v-30"/>
+        </g>
+        <!--/grid-->
+    </g>
+    <g id="iconic-cone-plot-sm" class="iconic-sm iconic-container" data-width="16" data-height="16" transform="scale(8)" display="none">
+        <!-- CONE BANDS -->
+        <polygon class="iconic-cone-plot-fill-1" fill="#9F7979" points="15,0 3,9 15,4"/>
+        <polygon class="iconic-cone-plot-fill-2" fill="#4F6128" points="15,4 3,9 15,8"/>
+        <polygon class="iconic-cone-plot-fill-3" fill="#642524" points="15,8 3,9 15,12"/>
+        <polygon class="iconic-cone-plot-fill-4" fill="#9F7979" points="15,12 3,9 15,14"/>
+        <g class="line-and-dots">
+            <polyline class="iconic-cone-line" fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" points="3.6715,8.9693 7.5156,7.4118 8.8358,9.5938 11.226,4.9046 13.004,8.2695 15,5.1929"/>
+            <!-- FILLS -->
+            <circle class="iconic-cone-point-fill" cx="3.6715" cy="8.9693" r="0.5"/>
+            <circle class="iconic-cone-point-fill" cx="8.8358" cy="9.5938" r="0.5"/>
+            <circle class="iconic-cone-point-fill" cx="11.226" cy="4.9046" r="0.5"/>
+            <circle class="iconic-cone-point-fill" cx="13.004" cy="8.2695" r="0.5"/>
+            <circle class="iconic-cone-point-fill" cx="15" cy="5.1929" r="0.5"/>
+            <circle class="iconic-cone-point-fill" cx="7.522" cy="7.4118" r="0.5"/>
+            <!-- STROKES -->
+            <circle class="iconic-cone-point-stroke" cx="3.6715" cy="8.9693" r="0.5"/>
+            <circle class="iconic-cone-point-stroke" cx="8.8358" cy="9.5938" r="0.5"/>
+            <circle class="iconic-cone-point-stroke" cx="11.226" cy="4.9046" r="0.5"/>
+            <circle class="iconic-cone-point-stroke" cx="13.004" cy="8.2695" r="0.5"/>
+            <circle class="iconic-cone-point-stroke" cx="15" cy="5.1929" r="0.5"/>
+            <circle class="iconic-cone-point-stroke" cx="7.522" cy="7.4118" r="0.5"/>
+        </g>
+        <!--grid-->
+        <path stroke="#000" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-5 iconic-property-stroke" fill="none" d="M0.5,0.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-4 iconic-property-stroke" fill="none" d="M0.5,3.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-3 iconic-property-stroke" fill="none" d="M0.5,6.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-2 iconic-property-stroke" fill="none" d="M0.5,9.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-cone-plot-chart-tick iconic-cone-plot-chart-tick-1 iconic-property-stroke" fill="none" d="M0.5,12.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-cone-plot-chart-axes iconic-property-stroke" fill="none" d="M15.5,15.5h-15v-15"/>
+        <!--/grid-->
+    </g>
+</svg>
+

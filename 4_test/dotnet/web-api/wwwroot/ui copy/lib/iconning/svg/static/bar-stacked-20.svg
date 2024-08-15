@@ -1,0 +1,23 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" data-icon="bar-stacked-20" class="iconning iconning-bar-stacked-20" viewBox="0 0 20 20" id="bar-stacked20">
+    <g class="iconning-metadata">
+        <title>Stacked Bar Chart</title>
+    </g>
+    <g class="iconning-container" data-width="20" data-height="20">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.5" y1="20.0" x2="0.5" y2="1.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.0" y1="19.5" x2="20.0" y2="19.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="13.5" x2="3.0" y2="13.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="7.5" x2="3.0" y2="7.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="1.5" x2="3.0" y2="1.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="16.5" x2="2.0" y2="16.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="10.5" x2="2.0" y2="10.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="4.5" x2="2.0" y2="4.5"/>
+        <!-- Stacked Columns -->
+        <polygon class="iconning iconning-bar iconning-bar-20 iconning-accent-0 iconning-bar-1" points="4.0 18.0 11.0 18.0 11.0 14.0 4.0 14.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-bar iconning-bar-20 iconning-accent-1 iconning-bar-2" points="4.0 14.0 11.0 14.0 11.0 8.4 4.0 8.4" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-bar iconning-bar-20 iconning-accent-0 iconning-bar-1" points="12.0 18.0 19.0 18.0 19.0 8.4 12.0 8.4" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-bar iconning-bar-20 iconning-accent-1 iconning-bar-2" points="12.0 8.4 19.0 8.4 19.0 2.0 12.0 2.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

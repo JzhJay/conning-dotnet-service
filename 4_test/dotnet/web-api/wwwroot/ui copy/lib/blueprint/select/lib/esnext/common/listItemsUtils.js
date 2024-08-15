@@ -1,0 +1,1 @@
+export function getCreateNewItem(){return{__blueprintCreateNewItemBrand:"blueprint-create-new-item"}}export function isCreateNewItem(e){if(null==e)return!1;const t=Object.keys(e);return 1===t.length&&"__blueprintCreateNewItemBrand"===t[0]&&"blueprint-create-new-item"===e.__blueprintCreateNewItemBrand}export function getActiveItem(e){return null==e||isCreateNewItem(e)?null:e}

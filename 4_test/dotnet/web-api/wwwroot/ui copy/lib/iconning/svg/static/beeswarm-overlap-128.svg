@@ -1,0 +1,30 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="beeswarm-overlap-128" class="iconning iconning-beeswarm-overlap-128" viewBox="0 0 128 128" id="beeswarm-overlap128">
+    <g class="iconning-metadata">
+        <title>Beeswarm Overlap</title>
+    </g>
+    <g class="iconning-container" data-width="128" data-height="128">
+        <!-- Beeswarm Overlap -->
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="4.5" y1="125.0" x2="4.5" y2="5.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="3.0" y1="123.5" x2="125.0" y2="123.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="6.0" y1="105.5" x2="12.0" y2="105.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="6.0" y1="87.5" x2="12.0" y2="87.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="6.0" y1="69.5" x2="12.0" y2="69.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="6.0" y1="51.5" x2="12.0" y2="51.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="6.0" y1="33.5" x2="12.0" y2="33.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="6.0" y1="15.5" x2="12.0" y2="15.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="114.5" x2="9.0" y2="114.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="96.5" x2="9.0" y2="96.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="78.5" x2="9.0" y2="78.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="60.5" x2="9.0" y2="60.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="42.5" x2="9.0" y2="42.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="24.5" x2="9.0" y2="24.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="3.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="6.0" y1="6.5" x2="9.0" y2="6.5"/>
+        <!-- Beeswarm Circles -->
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-128 iconning-accent-1 iconning-point iconning-point-1" cx="41.75" cy="92.25" r="25.412499999999998" fill="rgb( 40, 70,200)" opacity="0.7" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-128 iconning-accent-2 iconning-point iconning-point-2" cx="68.5" cy="92.25" r="25.412499999999998" fill="rgb( 40, 70,200)" opacity="0.7" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-128 iconning-accent-3 iconning-point iconning-point-3" cx="95.25" cy="92.25" r="25.412499999999998" fill="rgb( 40, 70,200)" opacity="0.7" style="stroke:none"/>
+    </g>
+</svg>

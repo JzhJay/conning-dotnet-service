@@ -1,0 +1,1 @@
+export function renderFilteredItems(e,r,t){if(0===e.query.length&&void 0!==t)return t;var n=e.filteredItems.map(e.renderItem).filter((function(e){return null!=e}));return n.length>0?n:r}

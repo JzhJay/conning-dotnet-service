@@ -1,0 +1,1 @@
+export const Boundary={START:"start",END:"end"};

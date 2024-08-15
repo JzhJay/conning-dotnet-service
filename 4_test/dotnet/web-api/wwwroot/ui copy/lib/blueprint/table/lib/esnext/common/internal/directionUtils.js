@@ -1,0 +1,1 @@
+import{Direction}from"../direction";export function directionToDelta(r){switch(r){case Direction.UP:return{rows:-1,cols:0};case Direction.DOWN:return{rows:1,cols:0};case Direction.LEFT:return{rows:0,cols:-1};case Direction.RIGHT:return{rows:0,cols:1};default:return}}

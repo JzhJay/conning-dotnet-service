@@ -1,0 +1,56 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+     data-icon="separate-window" 
+     class="iconic iconic-separate-window" 
+     width="128" height="128" 
+     viewBox="0 0 128 128">
+     
+    <g id="title"><title>Separate Window</title></g>
+    <g id="iconic-separate-window-lg" class="iconic-lg iconic-container" data-width="128" data-height="128" display="inline">
+        <polygon class="iconic-separate-window-edge iconic-property-accent" points="14,22 2,22 2,122 102,122 102,110 14,110"/>
+        <path class="iconic-separate-window-block iconic-separate-window-block-in" d="M122,102V2H22v100H122z M39,45l14.1482,14.1482L90.572,21.7241l11.7039,11.7039L64.8518,70.8518L79,85H39V45z"/>
+        <path class="iconic-separate-window-block iconic-separate-window-block-out" d="M22,2v100h100V2H22z M105,59L90.8518,44.8518L53.428,82.2759L41.7241,70.572l37.4241-37.4238L65,19h40V59z"/>
+    </g>
+    <g id="iconic-separate-window-md" class="iconic-md iconic-container" data-width="32" data-height="32" display="none" transform="scale(4)">
+        <polygon class="iconic-separate-window-edge iconic-property-accent" points="2,26 2,4 0,4 0,28 24,28 24,26"/>
+        <path class="iconic-separate-window-block iconic-separate-window-block-in" d="M28,24V0L4,0v24H28z M9,9l3.5859,3.5859l7.5-7.5l2.8281,2.8281l-7.5,7.5L19,19H9V9z"/>
+        <path class="iconic-separate-window-block iconic-separate-window-block-out" d="M4,0v24h24V0H4z M23,15l-3.5859-3.5859l-7.5,7.5l-2.8281-2.8281l7.5-7.5L13,5h10V15z"/>
+    </g>
+    <g id="iconic-separate-window-sm" class="iconic-sm iconic-container" data-width="16" data-height="16" display="none" transform="scale(8)">
+        <polygon class="iconic-separate-window-edge iconic-property-accent" points="2,4 0,4 0,16 12,16 12,14 2,14"/>
+        <path class="iconic-separate-window-block iconic-separate-window-block-in" d="M16,12V0L4,0v12H16z M7,4l1.793,1.793l3.5-3.5L13.707,3.707l-3.5,3.5L12,9H7V4z"/>
+        <path class="iconic-separate-window-block iconic-separate-window-block-out" d="M4,0v12h12V0H4z M13,8l-1.793-1.793l-3.5,3.5L6.293,8.293l3.5-3.5L8,3h5V8z"/>
+    </g>
+    <script class="iconic-api" type="application/ecmascript">
+    //<![CDATA[
+    //TODO: Minify JS code
+    //TODO: Remove console.log() output
+    var iconicApis = window._Iconic ? window._Iconic.smartIconApis : {};
+
+    iconicApis["separate-window"] = iconicApis["separate-window"] || function(t) {
+    
+        window.logging = true;
+
+        $c().log("Staring separate-window ...");
+    
+        var f1 = function(direction) {
+    
+            t.setAttribute("data-separate-window-direction", direction);
+        
+            $c().log("Set separate-window direction to " + direction);
+        
+            $c(t).off(".iconic-separate-window-block");
+            $c(t).on(".iconic-separate-window-block-" + (direction == "in" ? "in" : "out"));
+        };
+        var f2 = function() {
+            var e = t.getAttribute("data-separate-window-direction");
+            e && f1(e)
+        };
+        return {
+            update: f2,
+            setDirection: f1
+        }
+    };
+    //]]>
+    </script>
+</svg>
+

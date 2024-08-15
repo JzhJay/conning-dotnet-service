@@ -1,0 +1,91 @@
+<svg id="conning-logo" width="60" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created by David Weiss -->
+ <defs>
+   <clipPath id="box">
+     <path d="M 5 5 h 29.7 v 29.7 h -29.7 z"/>
+   </clipPath>
+ </defs>
+ <g style="clip-path: url(#box);" transform="scale(1.429499) translate(1.151071 1.151071) rotate(-45 19.85 19.85)">
+  <g>
+    <path id="L1" d="M 12.5 0 h 12.5 v 12.5 h -12.5 z" fill="#004990"/>
+    <animateMotion
+              path="M 0 0 h 14.7 v 27.2 h -27.2 v -27.2 z"
+              begin="0ms" dur="1000ms" repeatCount="indefinite"
+              />
+  </g>
+  <g>
+    <path id="L2" d="M 10 0 h 12.5 v 12.5 h -12.5 z" fill="#004990"/>
+    <animateMotion
+              path="M 0 0 h 17.2 v 27.2 h -27.2 v -27.2 z"
+              begin="0ms" dur="1000ms" repeatCount="indefinite"
+              />
+  </g>
+  <g>
+    <path id="L3" d="M 7.5 0 h 12.5 v 12.5 h -12.5 z" fill="#004990"/>
+    <animateMotion
+              path="M 0 0 h 19.7 v 27.2 h -27.2 v -27.2 z"
+              begin="0ms" dur="1000ms" repeatCount="indefinite"
+              />
+  </g>
+  <g>
+    <path id="L4" d="M 5 0 h 12.5 v 12.5 h -12.5 z" fill="#004990"/>
+    <animateMotion
+              path="M 0 0 h 22.2 v 27.2 h -27.2 v -27.2 z"
+              begin="0ms" dur="1000ms" repeatCount="indefinite"
+              />
+  </g>
+  <g>
+    <path id="L5" d="M 2.5 0 h 12.5 v 12.5 h -12.5 z" fill="#004990"/>
+    <animateMotion
+              path="M 0 0 h 24.7 v 27.2 h -27.2 v -27.2 z"
+              begin="0ms" dur="1000ms" repeatCount="indefinite"
+              />
+  </g>
+  <g>
+    <path id="L6" d="M 0 0 h 12.5 v 12.5 h -12.5 z" fill="#004990"/>
+    <animateMotion
+              path="M 0 0 h 27.2 v 27.2 h -27.2 z"
+              begin="0ms" dur="1000ms" repeatCount="indefinite"
+              />
+  </g>
+  <g>
+    <path id="L7" d="M 0 2.5 h 12.5 v 12.5 h -12.5 z" fill="#004990"/>
+    <animateMotion
+              path="M 0 0 v -2.5 h 27.2 v 27.2 h -27.2 z"
+              begin="0ms" dur="1000ms" repeatCount="indefinite"
+              />
+  </g>
+  <g>
+    <path id="L8" d="M 0 5 h 12.5 v 12.5 h -12.5 z" fill="#004990"/>
+    <animateMotion
+              path="M 0 0 v -5 h 27.2 v 27.2 h -27.2 z"
+              begin="0ms" dur="1000ms" repeatCount="indefinite"
+              />
+  </g>
+  <g>
+    <path id="L9" d="M 0 7.5 h 12.5 v 12.5 h -12.5 z" fill="#004990"/>
+    <animateMotion
+              path="M 0 0 v -7.5 h 27.2 v 27.2 h -27.2 z"
+              begin="0ms" dur="1000ms" repeatCount="indefinite"
+              />
+  </g>
+  <g>
+    <path id="LA" d="M 0 10 h 12.5 v 12.5 h -12.5 z" fill="#004990"/>
+    <animateMotion
+              path="M 0 0 v -10 h 27.2 v 27.2 h -27.2 z"
+              begin="0ms" dur="1000ms" repeatCount="indefinite"
+              />
+  </g>
+  <g>
+    <path id="LB" d="M 0 12.5 h 12.5 v 12.5 h -12.5 z" fill="#004990"/>
+    <animateMotion
+              path="M 0 0 v -12.5 h 27.2 v 27.2 h -27.2 z"
+              begin="0ms" dur="1000ms" repeatCount="indefinite"
+              />
+  </g>
+  <!-- Internal Box -->
+  <g>
+    <path id="S" d="M 25 25 h -10.3 v -10.3 h 10.3 z" fill="#5091CD"/>
+  </g>
+ </g>
+</svg>

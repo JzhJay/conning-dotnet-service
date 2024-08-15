@@ -1,0 +1,112 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+     width="128" height="128" 
+     viewBox="0 0 128 128" 
+     data-icon="add-view" 
+     class="iconic iconic-add-view">
+     
+    <title>Add View</title>
+    <g class="iconic-add-view-lg iconic-container iconic-lg" display="inline"> 
+        <g class="iconic-add-view-orientation iconic-add-view-orientation-right">
+            <path class="iconic-add-view-fill" d="M0-1v128h128V-1H0z M124,123H64V3h60V123z"/>
+            <rect class="iconic-add-view-edge" x="2" y="2" fill="none" stroke="#FF0000" stroke-width="4" stroke-miterlimit="10" width="124" height="124"/>
+	        <polygon class="iconic-add-view-plus" points="92,79 100,79 100,67 112,67 112,59 100,59 100,47 92,47 92,59 80,59 80,67 92,67"/>
+        </g>
+        <g class="iconic-add-view-orientation iconic-add-view-orientation-left">
+            <path class="iconic-add-view-fill" d="M0,0v128h128V0H0z M64,124H4V4h60V124z"/>
+	        <rect class="iconic-add-view-edge" x="2" y="2" fill="none" stroke="#FF0000" stroke-width="4" stroke-miterlimit="10" width="124" height="124"/>
+	        <polygon class="iconic-add-view-plus" points="28,80 36,80 36,68 48,68 48,60 36,60 36,48 28,48 28,60 16,60 16,68 28,68"/>
+        </g>
+        <g class="iconic-add-view-orientation iconic-add-view-orientation-top">
+            <path class="iconic-add-view-fill" d="M0,0v128h128V0H0z M124,64H4V4h120V64z"/>
+	        <rect class="iconic-add-view-edge" x="2" y="2" fill="none" stroke="#FF0000" stroke-width="4" stroke-miterlimit="10" width="124" height="124"/>
+	        <polygon class="iconic-add-view-plus" points="60,48 68,48 68,36 80,36 80,28 68,28 68,16 60,16 60,28 48,28 48,36 60,36"/>
+        </g>
+        <g class="iconic-add-view-orientation iconic-add-view-orientation-bottom">
+            <path class="iconic-add-view-fill" d="M0,0v128h128V0H0z M124,124H4V64h120V124z"/>
+	        <rect class="iconic-add-view-edge" x="2" y="2" fill="none" stroke="#FF0000" stroke-width="4" stroke-miterlimit="10" width="124" height="124"/>
+	        <polygon class="iconic-add-view-plus" points="60,112 68,112 68,100 80,100 80,92 68,92 68,80 60,80 60,92 48,92 48,100 60,100"/>
+        </g>
+    </g>
+    <g id="iconic-add-view-md" class="iconic-add-view-chart-md iconic-container iconic-md" data-width="32" data-height="32" display="none"  transform="scale(4)"> 
+        <g class="iconic-add-view-orientation iconic-add-view-orientation-right">
+            <path class="iconic-add-view-fill" d="M0,0v32h32V0H0z M31,31H16V1h15V31z"/>
+            <rect class="iconic-add-view-edge" x="0.5" y="0.5" fill="none" stroke="#FF0000" stroke-width="1" stroke-miterlimit="10" width="31" height="31"/>
+            <polygon class="iconic-add-view-plus" points="28,15 25,15 25,12 23,12 23,15 20,15 20,17 23,17 23,20 25,20 25,17 28,17 "/>
+        </g>
+        <g class="iconic-add-view-orientation iconic-add-view-orientation-left">
+            <path class="iconic-add-view-fill" d="M32,32V0H0v32H32z M1,1h15v30H1V1z"/>
+            <rect class="iconic-add-view-edge" x="0.5" y="0.5" fill="none" stroke="#FF0000" stroke-width="1" stroke-miterlimit="10" width="31" height="31"/>
+            <polygon class="iconic-add-view-plus" points="4,17 7,17 7,20 9,20 9,17 12,17 12,15 9,15 9,12 7,12 7,15 4,15 "/>
+        </g>
+        <g class="iconic-add-view-orientation iconic-add-view-orientation-top">
+            <path class="iconic-add-view-fill" d="M0,32h32V0H0V32z M31,1v15H1V1H31z"/>
+            <rect class="iconic-add-view-edge" x="0.5" y="0.5" fill="none" stroke="#FF0000" stroke-width="1" stroke-miterlimit="10" width="31" height="31"/>
+            <polygon class="iconic-add-view-plus" points="15,4 15,7 12,7 12,9 15,9 15,12 17,12 17,9 20,9 20,7 17,7 17,4 "/>
+        </g>
+        <g class="iconic-add-view-orientation iconic-add-view-orientation-bottom">
+            <path class="iconic-add-view-fill" d="M32,0H0v32h32V0z M1,31V16h30v15H1z"/>
+            <rect class="iconic-add-view-edge" x="0.5" y="0.5" fill="none" stroke="#FF0000" stroke-width="1" stroke-miterlimit="10" width="31" height="31"/>
+            <polygon class="iconic-add-view-plus" points="17,28 17,25 20,25 20,23 17,23 17,20 15,20 15,23 12,23 12,25 15,25 15,28 "/>
+        </g>
+    </g>
+    <g class="iconic-add-view-sm iconic-container iconic-sm" data-width="16" data-height="16" display="none" transform="scale(8)">
+        <g class="iconic-add-view-orientation iconic-add-view-orientation-right">
+            <polygon class="iconic-add-view-fill" points="14,7 12,7 12,5 10,5 10,7 8,7 8,9 10,9 10,11 12,11 12,9 14,9 "/>
+            <rect class="iconic-add-view-edge" x="0.5" y="0.5" fill="none" stroke="#FF0000" stroke-width="1" stroke-miterlimit="10" width="15" height="15"/>
+            <path class="iconic-add-view-plus" d="M15,1v14H7V1H15 M16,0H0v16h16V0z"/>
+        </g>
+        <g class="iconic-add-view-orientation iconic-add-view-orientation-left">
+            <polygon class="iconic-add-view-fill" points="2,9 4,9 4,11 6,11 6,9 8,9 8,7 6,7 6,5 4,5 4,7 2,7 "/>
+            <rect class="iconic-add-view-edge" x="0.5" y="0.5" fill="none" stroke="#FF0000" stroke-width="1" stroke-miterlimit="10" width="15" height="15"/>
+            <path class="iconic-add-view-plus" d="M1,15V1h8v14H1 M0,16h16V0H0V16z"/>
+        </g>
+        <g class="iconic-add-view-orientation iconic-add-view-orientation-top">
+            <polygon class="iconic-add-view-fill" points="7,2 7,4 5,4 5,6 7,6 7,8 9,8 9,6 11,6 11,4 9,4 9,2 "/>
+            <rect class="iconic-add-view-edge" x="0.5" y="0.5" fill="none" stroke="#FF0000" stroke-width="1" stroke-miterlimit="10" width="15" height="15"/>
+            <path class="iconic-add-view-plus" d="M1,1h14v8H1V1 M0,0v16h16V0H0z"/>
+        </g>
+        <g class="iconic-add-view-orientation iconic-add-view-orientation-bottom">
+            <polygon class="iconic-add-view-fill" points="9,14 9,12 11,12 11,10 9,10 9,8 7,8 7,10 5,10 5,12 7,12 7,14 "/>
+            <rect class="iconic-add-view-edge" x="0.5" y="0.5" fill="none" stroke="#FF0000" stroke-width="1" stroke-miterlimit="10" width="15" height="15"/>
+            <path class="iconic-add-view-plus" d="M15,15H1V7h14V15 M16,16V0H0v16H16z"/>
+        </g>
+    </g>
+    <script class="iconic-api" type="application/ecmascript">
+        //<![CDATA[
+        //TODO: Minify JS code
+        //TODO: Remove console.log() output
+        var iconicApis = window._Iconic ? window._Iconic.smartIconApis : {};
+
+        iconicApis["add-view"] = iconicApis["add-view"] || function(t) {
+    
+            window.logging = true;
+
+            $c().log("Starting add-view ...");
+    
+            var f1 = function(orientation) {
+        
+                // right (default)
+                // left
+                // top
+                // bottom
+    
+                t.setAttribute("add-view-orientation", orientation);
+        
+                $c().log("Set add-view orientation to " + orientation);
+        
+            // Turn on/off required elements
+                $c(t).off(".iconic-add-view-orientation");
+                $c(t).on(".iconic-add-view-orientation-" + orientation);
+            };
+            var f2 = function() {
+                var e = t.getAttribute("data-add-view-orientation");
+                e && f1(e);
+            };
+            return {
+                update: f2,
+                setOrientation: f1
+            }
+        };
+        //]]>
+    </script>
+</svg>

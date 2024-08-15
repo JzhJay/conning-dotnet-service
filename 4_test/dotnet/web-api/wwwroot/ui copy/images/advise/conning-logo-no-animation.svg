@@ -1,0 +1,28 @@
+<svg id="conning-logo" width="60" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created by David Weiss -->
+ <defs>
+   <clipPath id="box">
+     <path d="M 5 5 h 30 v 30 h -30 z"/>
+   </clipPath>
+ </defs>
+ <g style="clip-path: url(#box);" transform="scale(1.429499) translate(8 1.151071) rotate(-45 19.85 19.85)">
+  <g>
+    <path
+        id="outer-box"
+        d="M 12.5 0 h 12.5 v 12.5 h -12.5 z
+            M 10 0 h 12.5 v 12.5 h -12.5 z
+            M 7.5 0 h 12.5 v 12.5 h -12.5 z
+            M 5 0 h 12.5 v 12.5 h -12.5 z
+            M 2.5 0 h 12.5 v 12.5 h -12.5 z
+            M 0 0 h 12.5 v 12.5 h -12.5 z
+            M 0 2.5 h 12.5 v 12.5 h -12.5 z
+            M 0 5 h 12.5 v 12.5 h -12.5 z
+            M 0 7.5 h 12.5 v 12.5 h -12.5 z
+            M 0 10 h 12.5 v 12.5 h -12.5 z
+            M 0 12.5 h 12.5 v 12.5 h -12.5 z"/>
+
+  <!-- Internal Box -->
+    <path id="internal-box" d="M 25 25 h -10.3 v -10.3 h 10.3 z" fill="#5091CD"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),"undefined"!=typeof require&&"undefined"!=typeof window&&"undefined"!=typeof document&&require("dom4");

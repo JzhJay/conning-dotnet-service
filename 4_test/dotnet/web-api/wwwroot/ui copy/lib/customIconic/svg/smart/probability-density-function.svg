@@ -1,0 +1,172 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+     width="128" height="128" 
+     viewBox="0 0 128 128" 
+     data-icon="probability-density-function" 
+     class="iconic iconic-probability-density-function">
+     
+    <g><title>Probability Density Function</title></g>
+
+    <g class="iconic-pdf-chart-lg iconic-container iconic-lg" data-width="128" data-height="112" display="none" transform="translate(0 8)"> 
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-least" display="none">
+            <path class="iconic-pdf-curve-fill iconic-pdf-smoothing-fill-5 iconic-property-accent" fill="#73E1E1" d="M14,94.9719l19.0363-75.4315c0.289-2.1211,2.5409-2.3078,3.029-0.2512l6.6266,27.9177c0.452,1.9041,2.4869,1.9344,2.9714,0.0443l10.318-40.2527c0.5256-2.0505,2.7862-1.7824,3.026,0.3589L61.6775,31.2c0.2513,2.2436,2.6653,2.384,3.0654,0.1784l0.9649-5.3193c0.4008-2.2093,2.8199-2.0633,3.0661,0.185l3.6643,33.4668c0.2533,2.3136,2.7695,2.3718,3.0842,0.0714l3.4805-25.4439c0.3008-2.1992,2.669-2.2826,3.0584-0.1077l6.8462,38.242c0.3694,2.0634,2.5762,2.1349,3.0219,0.0979l2.8524-13.0342c0.4368-1.9961,2.5851-1.9819,3.0067,0.0198l2.1347,10.1341c0.3743,1.7769,2.1943,2.0604,2.8722,0.4473l1.239-2.9484c0.6733-1.6022,2.4784-1.3361,2.8668,0.4226L113,95.2236"/>
+            <path class="iconic-pdf-curve-line iconic-pdf-smoothing-line-5 iconic-property-stroke iconic-property-accent" fill="none" stroke="#297C7A" stroke-width="2" d="M14,94.9719l19.0363-75.4315c0.289-2.1211,2.5409-2.3078,3.029-0.2512l6.6266,27.9177c0.452,1.9041,2.4869,1.9344,2.9714,0.0443l10.318-40.2527c0.5256-2.0505,2.7862-1.7824,3.026,0.3589L61.6775,31.2c0.2513,2.2436,2.6653,2.384,3.0654,0.1784l0.9649-5.3193c0.4008-2.2093,2.8199-2.0633,3.0661,0.185l3.6643,33.4668c0.2533,2.3136,2.7695,2.3718,3.0842,0.0714l3.4805-25.4439c0.3008-2.1992,2.669-2.2826,3.0584-0.1077l6.8462,38.242c0.3694,2.0634,2.5762,2.1349,3.0219,0.0979l2.8524-13.0342c0.4368-1.9961,2.5851-1.9819,3.0067,0.0198l2.1347,10.1341c0.3743,1.7769,2.1943,2.0604,2.8722,0.4473l1.239-2.9484c0.6733-1.6022,2.4784-1.3361,2.8668,0.4226L113,95.2236"/>
+        </g>
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-less" display="none">
+            <path class="iconic-pdf-curve-fill iconic-pdf-smoothing-fill-4 iconic-property-accent" fill="#A4C2FC" d="M101.797,65.371c-0.9445-2.4216-2.5994-4.0687-4.484-4.4631l-5.8845-1.2316c-1.7072-0.3573-3.2343-1.7451-4.2113-3.8269l-5.7036-12.1538c-1.1509-2.4525-3.0522-3.9177-5.0838-3.9177h-1.3966c-2.2288,0-4.2844-1.7612-5.3771-4.6071l-8.4819-22.0906c-2.1746-5.6636-7.5963-6.2152-10.2844-1.0464l-4.3215,8.3095c-1.8391,3.5362-5.1604,4.588-7.8322,2.4803c-3.2436-2.5587-7.2849-0.4098-8.6531,4.6011L14.5,95.3744h99L101.797,65.371z"/>
+            <path class="iconic-pdf-curve-line iconic-pdf-smoothing-line-4 iconic-property-stroke iconic-property-accent" fill="none" stroke="#133EA8" stroke-width="2" d="M113.5,95.3744L101.797,65.371c-0.9446-2.4216-2.5994-4.0687-4.484-4.4631l-5.8845-1.2315c-1.7072-0.3573-3.2344-1.7451-4.2113-3.8269l-5.7036-12.1538c-1.1509-2.4525-3.0523-3.9178-5.0838-3.9178h-1.3966c-2.2288,0-4.2844-1.7612-5.3771-4.6071l-8.4819-22.0906c-2.1746-5.6635-7.5962-6.2152-10.2844-1.0464l-4.3216,8.3095c-1.8391,3.5362-5.1604,4.5879-7.8322,2.4803c-3.2435-2.5586-7.2849-0.4097-8.653,4.6011L14.5,95.3744"/>
+        </g>
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-default" display="inline">
+            <path class="iconic-pdf-curve-fill iconic-pdf-curve-fill-3 iconic-property-accent" fill="#C3E1B6" d="M90.7,62.3236c-9.2-23.3-15.5-53.7-26.7-53.7s-17.5,30.4-26.7,53.7c-7.5,19.1-11.7,24.5-23.3,32.9h100C102.4,86.8236,98.2,81.4236,90.7,62.3236z"/>
+            <path class="iconic-pdf-curve-line iconic-pdf-curve-line-3 iconic-property-stroke iconic-property-accent" fill="none" stroke="#11AA4B" stroke-width="2" d="M14,95.2236c11.6-8.4,15.8-13.8,23.3-32.9c9.2-23.3,15.5-53.7,26.7-53.7s17.5,30.4,26.7,53.7c7.5,19.1,11.7,24.5,23.3,32.9"/>
+        </g>
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-more" display="none">
+            <path class="iconic-pdf-curve-fill iconic-pdf-curve-fill-2 iconic-property-accent" fill="#F9BEBF" d="M114,83.2236c-5-5-9.5-10.6-13.5-16c-14-19-24-38-36.5-38s-22.5,19-36.5,38c-4,5.4-8.5,11-13.5,16V96h100V83.2236z"/>
+            <path class="iconic-pdf-curve-line iconic-pdf-curve-line-2 iconic-property-stroke iconic-property-accent" fill="none" stroke="#ED2224" stroke-width="2" d="M114,83.2236c-5-5-9.5-10.6-13.5-16c-14-19-24-38-36.5-38s-22.5,19-36.5,38c-4,5.4-8.5,11-13.5,16"/>
+        </g>
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-most" display="none">
+            <path class="iconic-pdf-curve-fill iconic-pdf-curve-fill-1 iconic-property-accent" fill="#FCD277" d="M114,71c-4-5-24-34.0825-50-34.0825S18,66,14,71v25h100V71z"/>
+            <path class="iconic-pdf-curve-line iconic-pdf-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#EF9C07" stroke-width="2" stroke-miterlimit="10" d="M114,71c-4-5-24-34.0825-50-34.0825S18,66,14,71"/>
+        </g>
+        <!--grid-->
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-major iconic-pdf-chart-tick-11 iconic-property-stroke" d="M1,5.2236h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-major iconic-pdf-chart-tick-10 iconic-property-stroke" d="M1,25.2236h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-major iconic-pdf-chart-tick-9 iconic-property-stroke" d="M1,45.2236h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-major iconic-pdf-chart-tick-8 iconic-property-stroke" d="M1,65.2236h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-major iconic-pdf-chart-tick-7 iconic-property-stroke" d="M1,85.2236h4"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-minor iconic-pdf-chart-tick-6 iconic-property-stroke" d="M1-4.7764h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-minor iconic-pdf-chart-tick-5 iconic-property-stroke" d="M1,15.2236h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-minor iconic-pdf-chart-tick-4 iconic-property-stroke" d="M1,35.2236h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-minor iconic-pdf-chart-tick-3 iconic-property-stroke" d="M1,55.2236h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-minor iconic-pdf-chart-tick-2 iconic-property-stroke" d="M1,75.2236h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-minor iconic-pdf-chart-tick-1 iconic-property-stroke" d="M1,95.2236h2"/>
+        <path stroke="#000" stroke-width="2" stroke-linecap="square" fill="none" class="iconic-pdf-chart-axes iconic-property-stroke" d="M127,105.2236 H1v-110"/>
+        <!--/grid-->
+    </g>
+  
+    <g id="iconic-pdf-chart-md" data-width="32" data-height="32" class="iconic-pdf-chart-md iconic-container iconic-md" display="inline"  transform="scale(4)"> 
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-least" display="none">
+            <path class="iconic-pdf-curve-fill iconic-pdf-curve-fill-5 iconic-property-accent" fill="#73E1E1" d="M6.75,28l4.3264-16.8325c0.0656-0.4733,0.5775-0.5149,0.6885-0.056l1.506,6.2299c0.1028,0.4247,0.5651,0.4313,0.6754,0.0096l2.3451-8.9824c0.1194-0.4575,0.6332-0.3977,0.6877,0.0801l0.6069,5.3205c0.0572,0.5007,0.6058,0.532,0.6968,0.0398l0.2194-1.1871c0.0911-0.493,0.6409-0.4604,0.6968,0.0412l0.8329,7.4682c0.0576,0.5162,0.6294,0.5293,0.7009,0.016l0.7911-5.6778c0.0684-0.4908,0.6066-0.5094,0.6951-0.0241l1.5559,8.5337c0.084,0.4604,0.5856,0.4764,0.6868,0.0219l0.6482-2.9086c0.0992-0.4455,0.5874-0.4422,0.6833,0.0044l0.4852,2.2615c0.0851,0.3965,0.4988,0.4597,0.6527,0.0998l0.2816-0.658c0.153-0.3575,0.5632-0.2982,0.6516,0.0943l1.386,6.1616"/>
+            <path class="iconic-pdf-curve-line iconic-pdf-curve-line-5 iconic-property-stroke iconic-property-accent" fill="none" stroke="#297C7A" stroke-width="1" d="M6.75,28l4.3264-16.8325c0.0656-0.4733,0.5775-0.5149,0.6885-0.056l1.506,6.2299c0.1028,0.4247,0.5651,0.4313,0.6754,0.0096l2.3451-8.9824c0.1194-0.4575,0.6332-0.3977,0.6877,0.0801l0.6069,5.3205c0.0572,0.5007,0.6058,0.532,0.6968,0.0398l0.2194-1.1871c0.0911-0.493,0.6409-0.4604,0.6968,0.0412l0.8329,7.4682c0.0576,0.5162,0.6294,0.5293,0.7009,0.016l0.7911-5.6778c0.0684-0.4908,0.6066-0.5094,0.6951-0.0241l1.5559,8.5337c0.084,0.4604,0.5856,0.4764,0.6868,0.0219l0.6482-2.9086c0.0992-0.4455,0.5874-0.4422,0.6833,0.0044l0.4852,2.2615c0.0851,0.3965,0.4988,0.4597,0.6527,0.0998l0.2816-0.658c0.153-0.3575,0.5632-0.2982,0.6516,0.0943l1.386,6.1616"/>
+        </g>
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-less" display="none">
+            <path class="iconic-pdf-curve-fill iconic-pdf-curve-fill-4 iconic-property-accent" fill="#A4C2FC" d="M26.5903,21.0948c-0.2147-0.5573-0.5908-0.9364-1.0191-1.0272l-1.3374-0.2835c-0.3879-0.0822-0.735-0.4016-0.9572-0.8808l-1.2962-2.7972c-0.2616-0.5645-0.6938-0.9017-1.1554-0.9017h-0.3174c-0.5066,0-0.9737-0.4054-1.2221-1.0602l-1.9277-5.0839c-0.4943-1.3035-1.7265-1.4303-2.3374-0.2408l-0.9821,1.9124c-0.4181,0.8138-1.1728,1.0559-1.7801,0.5707c-0.7373-0.5888-1.6556-0.0944-1.9667,1.0589L6.75,28h22.5L26.5903,21.0948z"/>
+            <path class="iconic-pdf-curve-line iconic-pdf-curve-line-4 iconic-property-stroke iconic-property-accent" fill="none" stroke="#133EA8" stroke-width="1" d="M29.25,28l-2.6597-6.9052c-0.2147-0.5573-0.5908-0.9364-1.0191-1.0272l-1.3374-0.2835c-0.3879-0.0822-0.735-0.4016-0.9572-0.8808l-1.2962-2.7972c-0.2616-0.5645-0.6938-0.9017-1.1554-0.9017h-0.3174c-0.5066,0-0.9737-0.4054-1.2221-1.0602l-1.9277-5.0839c-0.4943-1.3035-1.7265-1.4303-2.3374-0.2408l-0.9821,1.9124c-0.4181,0.8138-1.1728,1.0559-1.7801,0.5707c-0.7373-0.5888-1.6556-0.0944-1.9665,1.0589L6.75,28"/>
+        </g>
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-default">
+            <path class="iconic-pdf-curve-fill iconic-pdf-curve-fill-3 iconic-property-accent" fill="#C3E1B6" d="M23.9808,20.3912C21.92,15.034,20.5088,8.0444,18,8.0444s-3.92,6.9896-5.9808,12.3467C10.3392,24.7827,9.3484,26.0687,6.75,28h22.5C26.6516,26.0687,25.6608,24.7827,23.9808,20.3912z"/>
+            <path class="iconic-pdf-curve-line iconic-pdf-curve-line-3 iconic-property-stroke iconic-property-accent" fill="none" stroke="#11AA4B" stroke-width="1" d="M6.75,28c2.61-1.94,3.555-3.1871,5.2425-7.5982C14.0625,15.0208,15.48,8,18,8s3.9375,7.0208,6.0075,12.4018C25.695,24.8129,26.64,26.06,29.25,28"/>
+        </g>
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-more" display="none">
+            <path class="iconic-pdf-curve-fill iconic-pdf-curve-fill-2 iconic-property-accent" fill="#F9BEBF" d="M26.2125,24.4444C23.0625,20.2222,20.8125,16,18,16s-5.0625,4.2222-8.2125,8.4444c-0.9,1.2-1.9125,2.4444-3.0375,3.5556h22.5C28.125,26.8889,27.1125,25.6444,26.2125,24.4444z"/>
+            <path class="iconic-pdf-curve-line iconic-pdf-curve-line-2 iconic-property-stroke iconic-property-accent" fill="none" stroke="#ED2224" stroke-width="1" d="M29.25,28c-1.125-1.1111-2.1375-2.3556-3.0375-3.5556C23.0625,20.2222,20.8125,16,18,16s-5.0625,4.2222-8.2125,8.4444c-0.9,1.2-1.9125,2.4444-3.0375,3.5556"/>
+        </g>
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-most" display="none">
+            <path  class="iconic-pdf-curve-fill iconic-pdf-curve-fill-1 iconic-property-accent" fill="#FCD277" d="M18,20.5c-5.85,0-10.35,6.3997-11.25,7.5h22.5C28.35,26.8999,23.85,20.5,18,20.5z"/>    
+            <path  class="iconic-pdf-curve-line iconic-pdf-curve-line-1 iconic-property-stroke iconic-property-accent" fill="none" stroke="#EF9C07" stroke-width="1" d="M29.25,28.0002c-0.9-1.1002-5.4-7.5-11.25-7.5s-10.35,6.3998-11.25,7.5"/>
+        </g>
+        <!--grid-->
+        <g id="iconic-pdf-chart-grid-md">
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-major iconic-pdf-chart-tick-1 iconic-property-stroke" d="M1.5,1.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-minor iconic-pdf-chart-tick-2 iconic-property-stroke" d="M1.5,4.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-major iconic-pdf-chart-tick-3 iconic-property-stroke" d="M1.5,7.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-minor iconic-pdf-chart-tick-4 iconic-property-stroke" d="M1.5,10.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-major iconic-pdf-chart-tick-5 iconic-property-stroke" d="M1.5,13.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-minor iconic-pdf-chart-tick-6 iconic-property-stroke" d="M1.5,16.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-major iconic-pdf-chart-tick-7 iconic-property-stroke" d="M1.5,19.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-minor iconic-pdf-chart-tick-8 iconic-property-stroke" d="M1.5,22.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-major iconic-pdf-chart-tick-9 iconic-property-stroke" d="M1.5,25.5h2"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-minor iconic-pdf-chart-tick-10 iconic-property-stroke" d="M1.5,28.5h1.25"/>
+            <path fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" class="iconic-pdf-chart-axes iconic-property-stroke" d="M30.5,31.5h-29v-30"/>
+        </g>
+        <!--/grid-->
+    </g>
+  
+    <g class="iconic-pdf-chart-sm iconic-container iconic-sm" data-width="16" data-height="16" display="none" transform="scale(8)">
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-least" display="none">
+            <polygon class="iconic-pdf-curve-fill iconic-pdf-smoothing-fill-5 iconic-property-accent" fill="#73E1E1" points="3,13 5,4.5 6,8 8,2 9,6 10,4 11,9 12,6 13,11 14,9 15,13.0304 "/>
+            <polyline class="iconic-pdf-curve-line iconic-pdf-smoothing-line-5 iconic-property-stroke iconic-property-accent" fill="none" stroke="#297C7A" stroke-width="1" points="15,13.0304 14,9 13,11 12,6 11,9 10,4 9,6 8,2 6,8 5,4.5 3,13 "/>
+        </g>
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-less" display="none">
+            <polygon class="iconic-pdf-curve-fill iconic-pdf-smoothing-fill-4 iconic-property-accent" fill="#A4C2FC" points="14,8 13,10 12,5 10.8276,8.5172 8.5,2 6.5,8 5,4 3,13 15,13.0304 "/>
+            <polyline class="iconic-pdf-curve-line iconic-pdf-smoothing-line-4 iconic-property-stroke iconic-property-accent" fill="none" stroke="#133EA8" stroke-width="1" points="15,13.0304 14,8 13,10 12,5 10.8276,8.5172 8.5,2 6.5,8 5,4 3,13 "/>
+        </g>
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-default" display="inline">
+            <path class="iconic-pdf-curve-fill iconic-pdf-smoothing-fill-3 iconic-property-accent" fill="#C3E1B6" d="M3,13c1.392-0.97,1.896-1.5935,2.796-3.7991C6.9,6.5104,7,3,9,3s2.1,3.5104,3.204,6.2009C13.104,11.4065,13.608,12.03,15,13"/>
+            <path class="iconic-pdf-curve-line iconic-pdf-smoothing-line-3 iconic-property-stroke iconic-property-accent" fill="none" stroke="#11AA4B" stroke-width="1" d="M3,13c1.392-0.97,1.896-1.5935,2.796-3.7991C6.9,6.5104,7,3,9,3s2.1,3.5104,3.204,6.2009C13.104,11.4065,13.608,12.03,15,13"/>
+        </g>
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-more" display="none">
+            <path class="iconic-pdf-curve-fill iconic-pdf-smoothing-fill-2 iconic-property-accent" fill="#F9BEBF" d="M13.38,10.9259C11.7,8.463,11,6,9,6s-2.7,2.463-4.38,4.9259C4.14,11.6259,3.6,12.3518,3,13h12C14.4,12.3518,13.86,11.6259,13.38,10.9259z"/>
+            <path class="iconic-pdf-curve-line iconic-pdf-smoothing-line-2 iconic-property-stroke iconic-property-accent" fill="none" stroke="#ED2224" stroke-width="1" d="M15,13c-0.6-0.6481-1.14-1.3741-1.62-2.0741C11.7,8.463,11,6,9,6s-2.7,2.463-4.38,4.9259C4.14,11.6259,3.6,12.3519,3,13"/>
+        </g>
+        <g class="iconic-pdf-smoothing iconic-pdf-smoothing-most" display="none">
+            <path class="iconic-pdf-curve-line iconic-pdf-smoothing-line-1 iconic-property-accent" fill="none" stroke="#EF9C07" stroke-width="1" d="M15,13.0001c-0.48-0.5868-2.88-4-6-4s-5.52,3.4132-6,4"/>
+            <path class="iconic-pdf-curve-fill iconic-pdf-smoothing-fill-1 iconic-property-stroke iconic-property-accent" fill="#FCD277" d="M9,9c-3.12,0-5.52,3.4132-6,4h12C14.52,12.4133,12.12,9,9,9z"/>
+        </g>
+        <!--grid-->
+        <path stroke="#000" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-5 iconic-property-stroke" fill="none" d="M0.5,0.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-4 iconic-property-stroke" fill="none" d="M0.5,3.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-3 iconic-property-stroke" fill="none" d="M0.5,6.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-2 iconic-property-stroke" fill="none" d="M0.5,9.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-pdf-chart-tick iconic-pdf-chart-tick-1 iconic-property-stroke" fill="none" d="M0.5,12.5h1"/>
+        <path stroke="#000" stroke-linecap="square" class="iconic-pdf-chart-axes iconic-property-stroke" fill="none" d="M15.5,15.5h-15v-15"/>
+        <!--/grid-->
+    </g>
+
+    <script class="iconic-api" type="application/ecmascript">
+        //<![CDATA[
+        //TODO: Minify JS code
+        //TODO: Remove console.log() output
+        var iconicApis = window._Iconic ? window._Iconic.smartIconApis : {};
+        iconicApis["probability-density-function"] = iconicApis["probability-density-function"] || function(t) {
+        
+            window.logging = true;
+    
+            $c().log("Staring probability density function ...");
+    
+            var f1 = function(degreeOfSmoothingIndex) {
+    
+                $c().log("degreeOfSmoothingIndex is: " + degreeOfSmoothingIndex);
+    
+                var smoothing = 0;
+                if (! isNaN(degreeOfSmoothingIndex)) smoothing = parseInt(degreeOfSmoothingIndex);
+    
+                t.setAttribute("data-degree-of-smoothing", smoothing);
+        
+                $c().log("Smoothing value is: " + smoothing);
+        
+                var attr = "default";
+                switch (smoothing) {
+        
+                    case -2:
+                        attr = "least";
+                        break;
+                    case -1:
+                        attr = "less";
+                        break;
+                    case 1:
+                        attr = "more";
+                        break;
+                    case 2:
+                        attr = "most";
+                        break;
+                    case 0:
+                    default:
+                        attr = "default";
+                        break;
+                }
+        
+                $c(t).off([".iconic-pdf-smoothing"]);
+                $c(t).on([".iconic-pdf-smoothing-" + attr]);
+            };
+            var f2 = function() {
+                var e = t.getAttribute("data-degree-of-smoothing");
+                e && f1(e)
+            };
+            return {
+                update: f2,
+                setDegreeOfSmoothing: f1
+            }
+        };
+        //]]>
+    </script>
+</svg>

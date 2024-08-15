@@ -1,0 +1,13 @@
+/*! Copyright Conning and Company */
+
+//!KARMA && this.lock.logout({returnTo: returnToUrl})
+
+//!api.julia.connected
+
+//!descriptor && console.log(`No descriptor for '${name}'`);
+
+//!julia.connected
+
+//!loading && data && console.log(data.notification.subscriptions);
+
+//!rsSimulation.recalibration.isLoaded && await reactionToPromise(() => rsSimulation.recalibration.isLoaded, true);

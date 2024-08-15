@@ -1,0 +1,72 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="font-size" width="128" height="128" class="iconic iconic-font-size" viewBox="0 0 128 128">
+    <g><title>Font Size</title></g>
+    <g data-width="128" data-height="128" class="iconic-lg iconic-container iconic-font-size-lg" display="inline">
+        <g class="iconic-font-size iconic-font-size-smaller">
+            <path class="iconic-font-size-character" d="M31.2971,62.1943L8,122.0078h12.8113l4.9369-13.5866h23.9091l5.2225,13.5866h13.1378l-23.95-59.8135H31.2971z M29.461,98.3435l8.0785-22.1955l8.2417,22.1955H29.461z"/>
+            <polygon class="iconic-font-size-caret iconic-property-accent" points="98,42.0078 120,19.0078 106,19.0078 106,7.0078 90,7.0078 90,19.0078 76,19.0078"/>
+        </g>
+        <g class="iconic-font-size iconic-font-size-bigger">
+            <path class="iconic-font-size-character" d="M43.8545,30.0078l-35.8336,92h19.7053l7.5935-20.8977h36.7749l8.0327,20.8977h20.2074l-36.8377-92C63.497,30.0078,43.8545,30.0078,43.8545,30.0078z M41.0305,85.6094l12.4256-34.1392l12.6767,34.1392H41.0305z"/>
+            <polygon class="iconic-font-size-caret iconic-property-accent" points="98,7.0078 76,30.0078 90,30.0078 90,42.0078 106,42.0078 106,30.0078 120,30.0078"/>
+        </g>
+    </g>
+    <g data-width="32" data-height="32" class="iconic-md iconic-container iconic-font-size-md" display="none" transform="scale(4)">
+        <g class="iconic-font-size iconic-font-size-smaller">
+            <path class="iconic-font-size-character" d="M7.7993,15.1187L2,30.0078h3.189l1.2289-3.382h5.9515l1.3,3.382h3.2703l-5.9616-14.8891C10.9781,15.1187,7.7993,15.1187,7.7993,15.1187z M7.3423,24.1172l2.011-5.5251l2.0516,5.5251C11.4048,24.1172,7.3423,24.1172,7.3423,24.1172z"/>
+            <polygon class="iconic-font-size-caret iconic-property-accent" points="24,11.0086 30,5.0086 26,5.0086 26,2.0106 22,2.0106 22,5.0086 18,5.0086"/>
+        </g>
+        <g class="iconic-font-size iconic-font-size-bigger">
+            <path class="iconic-font-size-character" d="M10.9219,7.1016L2,30.0078h4.9062l1.8906-5.2031h9.1562l2,5.2031h5.0312L15.8125,7.1016H10.9219z M10.2188,20.9453l3.0938-8.5l3.1562,8.5H10.2188z"/>
+            <polygon class="iconic-font-size-caret iconic-property-accent" points="24,1.0078 18,7.0078 22,7.0078 22,10.0059 26,10.0059 26,7.0078 30,7.0078"/>
+        </g>
+    </g>
+    <g data-width="16" data-height="16" class="iconic-sm iconic-container iconic-font-size-sm" display="none" transform="scale(8)">
+        <g class="iconic-font-size iconic-font-size-smaller">
+            <path class="iconic-font-size-character" d="M2.7588,6.991l-2.733,7.0168h1.5029l0.5791-1.5939h2.8048l0.6127,1.5939h1.5412L4.2569,6.991H2.7588z M2.5434,11.2317l0.9477-2.6038l0.9669,2.6038H2.5434z"/>
+            <polygon class="iconic-font-size-caret iconic-property-accent" points="12.0257,6.0078 16.0257,2.0078 13.0257,2.0078 13.0257,0.0078 11.0257,0.0078 11.0257,2.0078 8.0257,2.0078"/>
+        </g>
+        <g class="iconic-font-size iconic-font-size-bigger">
+            <path class="iconic-font-size-character" d="M3.897,4L0,14.0054h2.143l0.8258-2.2728h3.9994l0.8736,2.2728h2.1976L6.0332,4H3.897z M3.59,10.047l1.3514-3.7128L6.32,10.047H3.59z"/>
+            <polygon class="iconic-font-size-caret iconic-property-accent" points="12.0257,0 8.0257,4 11.0257,4 11.0257,6 13.0257,6 13.0257,4 16.0257,4"/>
+        </g>
+    </g>
+    <script class="iconic-api" type="application/ecmascript">
+    //<![CDATA[
+    //TODO: Minify JS code
+    //TODO: Remove console.log() output
+    var iconicApis = window._Iconic ? window._Iconic.smartIconApis : {};
+    iconicApis["font-size"] = iconicApis["font-size"] || function(t) {
+
+        window.logging = true;
+    
+        $c().log("Staring font-size-change ...");
+    
+        var f1 = function(fontSizeChange) {
+    
+            t.setAttribute("data-font-size-change", fontSizeChange);
+
+            $c().log("fontSizeChange: " + fontSizeChange);
+        
+            $c(t).off(".iconic-font-size");
+        
+            if ("bigger" === fontSizeChange) {
+                $c().log("Making font bigger ...");
+                $c(t).on(".iconic-font-size-bigger");
+            } 
+            else {
+                $c().log("Making font smaller ...");
+                $c(t).on(".iconic-font-size-smaller");
+            }
+        };
+        var f2 = function() {
+            var e = t.getAttribute("data-font-size-change");
+            e && f1(e)
+        };
+        return {
+            update: f2,
+            setFontSizeChange: f1
+        }
+    };
+    //]]>
+    </script>
+</svg>

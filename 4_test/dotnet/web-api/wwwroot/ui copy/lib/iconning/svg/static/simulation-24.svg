@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" data-icon="simulation-24" class="iconning iconning-simulation-24" viewBox="0 0 24 24" id="simulation24">
+    <g class="iconning-metadata">
+        <title>Simulation</title>
+    </g>
+    <g class="iconning-container" data-width="24" data-height="24">
+        <!-- Scenario Lines -->
+        <line class="iconning iconning-simulation iconning-simulation-24 iconning-line" x1="0.792481250360578" x2="23.207518749639423" y1="12.0" y2="0.792481250360578" stroke="rgb(  0,  0,  0)" stroke-width="1.584962500721156" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-24 iconning-line" x1="8.26416041678686" x2="23.207518749639423" y1="15.73583958321314" y2="8.26416041678686" stroke="rgb(  0,  0,  0)" stroke-width="1.584962500721156" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-24 iconning-line" x1="15.735839583213142" x2="23.207518749639423" y1="19.47167916642628" y2="15.735839583213142" stroke="rgb(  0,  0,  0)" stroke-width="1.584962500721156" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-24 iconning-line" x1="0.792481250360578" x2="23.207518749639423" y1="12.0" y2="23.207518749639423" stroke="rgb(  0,  0,  0)" stroke-width="1.584962500721156" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-24 iconning-line" x1="8.26416041678686" x2="23.207518749639423" y1="8.26416041678686" y2="15.735839583213142" stroke="rgb(  0,  0,  0)" stroke-width="1.584962500721156" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-24 iconning-line" x1="15.735839583213142" x2="23.207518749639423" y1="4.528320833573719" y2="8.264160416786861" stroke="rgb(  0,  0,  0)" stroke-width="1.584962500721156" stroke-linecap="round" style="fill:none"/>
+    </g>
+</svg>
