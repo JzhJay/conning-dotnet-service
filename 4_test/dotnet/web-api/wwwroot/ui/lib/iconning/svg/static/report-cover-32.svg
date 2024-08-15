@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="report-cover-32" class="iconning iconning-report-cover-32" viewBox="0 0 32 32" id="report-cover32">
+    <g class="iconning-metadata">
+        <title>Report Cover</title>
+    </g>
+    <g class="iconning-container" data-width="32" data-height="32">
+        <!-- Report Cover -->
+        <path class="iconning iconning-report iconning-report-32 iconning-accent-1 iconning-report-cover" d="M 1.0 4 L 2.5 4 L 4.8625 4 L 4.8625 6.025 A 2.025 2.025 0 1 0 6.887499999999999 6.025 L 6.887499999999999 4.0 L 9.25 4.0 L 11.6125 4.0 L 11.6125 6.025 A 2.025 2.025 0 1 0 13.637500000000001 6.025 L 13.637500000000001 4.0 L 16.0 4.0 L 18.3625 4.0 L 18.3625 6.025 A 2.025 2.025 0 1 0 20.3875 6.025 L 20.3875 4.0 L 22.75 4.0 L 25.1125 4.0 L 25.1125 6.025 A 2.025 2.025 0 1 0 27.1375 6.025 L 27.1375 4.0 L 29.5 4.0 L 31.0 4.0 L 31.0 28.0 L 1.0 28.0 L 1.0 4" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <!-- Report Binding -->
+        <line class="iconning iconning-report iconning-report-32 iconning-report-binding" x1="5.875" y1="0.9625000000000002" x2="5.875" y2="7.54375" stroke="rgb(  0,  0,  0)" stroke-width="1.0125" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-report iconning-report-32 iconning-report-binding" x1="12.625" y1="0.9625000000000002" x2="12.625" y2="7.54375" stroke="rgb(  0,  0,  0)" stroke-width="1.0125" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-report iconning-report-32 iconning-report-binding" x1="19.375" y1="0.9625000000000002" x2="19.375" y2="7.54375" stroke="rgb(  0,  0,  0)" stroke-width="1.0125" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-report iconning-report-32 iconning-report-binding" x1="26.125" y1="0.9625000000000002" x2="26.125" y2="7.54375" stroke="rgb(  0,  0,  0)" stroke-width="1.0125" stroke-linecap="round" style="fill:none"/>
+    </g>
+</svg>

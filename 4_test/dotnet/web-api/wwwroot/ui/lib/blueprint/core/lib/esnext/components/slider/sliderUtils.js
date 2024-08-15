@@ -1,0 +1,1 @@
+export function formatPercentage(t){return`${(100*t).toFixed(2)}%`}export function fillValues(t,e,n,r){const o=e<n?1:-1;for(let f=e;f!==n+o;f+=o)t[f]=r}export function argMin(t,e){if(0===t.length)return;let n=t[0],r=e(n);for(let o=1;o<t.length;o++){const f=t[o],l=e(f);l<r&&(n=f,r=l)}return n}

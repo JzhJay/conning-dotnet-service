@@ -1,0 +1,23 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="cdf-32" class="iconning iconning-cdf-32" viewBox="0 0 32 32" id="cdf32">
+    <g class="iconning-metadata">
+        <title>Cumulative Density Function Chart with Filled Plot</title>
+    </g>
+    <g class="iconning-container" data-width="32" data-height="32">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="1.5" y1="31.0" x2="1.5" y2="3.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="1.0" y1="30.5" x2="31.0" y2="30.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="24.5" x2="4.0" y2="24.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="18.5" x2="4.0" y2="18.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="12.5" x2="4.0" y2="12.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="6.5" x2="4.0" y2="6.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="27.5" x2="3.0" y2="27.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="21.5" x2="3.0" y2="21.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="15.5" x2="3.0" y2="15.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="9.5" x2="3.0" y2="9.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="3.5" x2="3.0" y2="3.5"/>
+        <!-- CDF Filled Plot -->
+        <path class="iconning iconning-cdf iconning-cdf-32 iconning-accent-1" d="M 5 29 L 5.0 29.0 L 8.959968963820248 28.5 L 10.233491937213186 28.0 L 11.026423707082138 27.5 L 11.682223893264373 27.0 L 12.180230033202609 26.5 L 12.617759552647714 26.0 L 13.006181800553437 25.5 L 13.348192982452982 25.0 L 13.675047017763003 24.5 L 13.986443044431564 24.0 L 14.26702728455858 23.5 L 14.531094632106097 23.0 L 14.80074815039299 22.5 L 15.061129808222127 22.0 L 15.302541457799775 21.5 L 15.553823831235032 21.0 L 15.788912590236837 20.5 L 15.999246987900403 20.0 L 16.219170206758037 19.5 L 16.4426924437521 19.0 L 16.651412232101194 18.5 L 16.868734913663623 18.0 L 17.08413408304286 17.5 L 17.282667182693224 17.0 L 17.49130401274171 16.5 L 17.70736394569614 16.0 L 17.91789179658248 15.5 L 18.123574496581888 15.0 L 18.33361101158129 14.5 L 18.559013596479502 14.0 L 18.76608113037924 13.5 L 18.989435407446244 13.0 L 19.204203885092824 12.5 L 19.438644438317077 12.0 L 19.672669122714638 11.5 L 19.911623874665068 11.0 L 20.16772313887739 10.5 L 20.428502520501404 10.0 L 20.692610873636607 9.5 L 20.970433048124235 9.0 L 21.273196647483246 8.5 L 21.58874464858459 8.0 L 21.95220627571557 7.5 L 22.351789004119418 7.0 L 22.794696162813345 6.5 L 23.30285768675528 6.0 L 23.95568466894748 5.5 L 24.804989353958938 5.0 L 26.075664738810715 4.5 L 30.0 4.0 L 30 3.5 L 30 29" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

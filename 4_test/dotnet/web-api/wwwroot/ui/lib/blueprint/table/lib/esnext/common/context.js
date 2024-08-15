@@ -1,0 +1,1 @@
+import*as PropTypes from"prop-types";export const columnInteractionBarContextTypes={enableColumnInteractionBar:PropTypes.bool};

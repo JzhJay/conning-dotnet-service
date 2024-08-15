@@ -1,0 +1,47 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="pivot-16" class="iconning iconning-pivot-16" viewBox="0 0 16 16" id="pivot16">
+    <g class="iconning-metadata">
+        <title>Pivot</title>
+    </g>
+    <g class="iconning-container" data-width="16" data-height="16">
+        <!-- Column Axis Rectangle -->
+        <rect class="iconning iconning-pivot iconning-pivot-16 iconning-accent-0 iconning-pivot-axis" x="1.0" y="1.0" width="6.0" height="2.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <!-- Row Axis Rectangle -->
+        <rect class="iconning iconning-pivot iconning-pivot-16 iconning-accent-0 iconning-pivot-axis" x="1.0" y="4.0" width="3.0" height="2.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <!-- Column Coordinate Rectangles -->
+        <rect class="iconning iconning-pivot iconning-pivot-16 iconning-accent-1 iconning-pivot-coordinate" x="8.0" y="1.0" width="3.0" height="2.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <rect class="iconning iconning-pivot iconning-pivot-16 iconning-accent-1 iconning-pivot-coordinate" x="12.0" y="1.0" width="3.0" height="2.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <!-- Row Coordinate Rectangles -->
+        <rect class="iconning iconning-pivot iconning-pivot-16 iconning-accent-1 iconning-pivot-coordinate" x="1.0" y="7.0" width="3.0" height="2.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <rect class="iconning iconning-pivot iconning-pivot-16 iconning-accent-1 iconning-pivot-coordinate" x="1.0" y="10.0" width="3.0" height="2.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <rect class="iconning iconning-pivot iconning-pivot-16 iconning-accent-1 iconning-pivot-coordinate" x="1.0" y="13.0" width="3.0" height="2.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <!-- Top Border -->
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="1.0" y1="0.5" x2="16" y2="0.5" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <!-- Borders Above and Below Row Axis and Coordinates -->
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="1.0" y1="3.5" x2="4.0" y2="3.5" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="1.0" y1="6.5" x2="4.0" y2="6.5" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="1.0" y1="9.5" x2="4.0" y2="9.5" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="1.0" y1="12.5" x2="4.0" y2="12.5" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="1.0" y1="15.5" x2="4.0" y2="15.5" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <!-- Left Border -->
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="0.5" y1="0" x2="0.5" y2="16" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <!-- Borders Left and Right of Column Axis and Coordinates -->
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="7.5" y1="1.0" x2="7.5" y2="3.0" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="11.5" y1="1.0" x2="11.5" y2="3.0" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="15.5" y1="1.0" x2="15.5" y2="3.0" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <!-- Thick Right Angle Border Area -->
+        <polygon class="iconning iconning-pivot iconning-pivot-16 iconning-stroke iconning-border" points="4.0 3.0 16.0 3.0 16.0 7.0 8.0 7.0 8.0 16.0 4.0 16.0" fill="rgb(  0,  0,  0)" opacity="1.0" style="stroke:none"/>
+        <!-- Data Grid Borders -->
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="8.0" y1="9.5" x2="12.0" y2="9.5" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="11.5" y1="7.0" x2="11.5" y2="9.0" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="8.0" y1="12.5" x2="12.0" y2="12.5" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="11.5" y1="10.0" x2="11.5" y2="12.0" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="8.0" y1="15.5" x2="12.0" y2="15.5" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="11.5" y1="13.0" x2="11.5" y2="15.0" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="12.0" y1="9.5" x2="16.0" y2="9.5" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="15.5" y1="7.0" x2="15.5" y2="9.0" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="12.0" y1="12.5" x2="16.0" y2="12.5" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="15.5" y1="10.0" x2="15.5" y2="12.0" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="12.0" y1="15.5" x2="16.0" y2="15.5" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-16 iconning-border" x1="15.5" y1="13.0" x2="15.5" y2="15.0" stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+    </g>
+</svg>

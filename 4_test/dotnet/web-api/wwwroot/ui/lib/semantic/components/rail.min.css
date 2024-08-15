@@ -1,0 +1,9 @@
+/*!
+ * # Semantic UI 2.3.1 - Rail
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */.ui.rail{height:100%;position:absolute;top:0;width:300px}.ui.left.rail{left:auto;margin:0 2rem 0 0;padding:0 2rem 0 0;right:100%}.ui.right.rail{left:100%}.ui.left.internal.rail,.ui.right.rail{margin:0 0 0 2rem;padding:0 0 0 2rem;right:auto}.ui.left.internal.rail{left:0}.ui.right.internal.rail{left:auto;margin:0 2rem 0 0;padding:0 2rem 0 0;right:0}.ui.dividing.rail{width:302.5px}.ui.left.dividing.rail{border-right:1px solid #22242626;margin:0 2.5rem 0 0;padding:0 2.5rem 0 0}.ui.right.dividing.rail{border-left:1px solid #22242626;margin:0 0 0 2.5rem;padding:0 0 0 2.5rem}.ui.close.rail{width:calc(300px + 1em)}.ui.close.left.rail{margin:0 1em 0 0;padding:0 1em 0 0}.ui.close.right.rail{margin:0 0 0 1em;padding:0 0 0 1em}.ui.very.close.rail{width:calc(300px + .5em)}.ui.very.close.left.rail{margin:0 .5em 0 0;padding:0 .5em 0 0}.ui.very.close.right.rail{margin:0 0 0 .5em;padding:0 0 0 .5em}.ui.attached.left.rail,.ui.attached.right.rail{margin:0;padding:0}.ui.mini.rail{font-size:.78571429rem}.ui.tiny.rail{font-size:.85714286rem}.ui.small.rail{font-size:.92857143rem}.ui.rail{font-size:1rem}.ui.large.rail{font-size:1.14285714rem}.ui.big.rail{font-size:1.28571429rem}.ui.huge.rail{font-size:1.42857143rem}.ui.massive.rail{font-size:1.71428571rem}

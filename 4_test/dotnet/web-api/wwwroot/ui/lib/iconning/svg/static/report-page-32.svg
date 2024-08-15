@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="report-page-32" class="iconning iconning-report-page-32" viewBox="0 0 32 32" id="report-page32">
+    <g class="iconning-metadata">
+        <title>Report Page</title>
+    </g>
+    <g class="iconning-container" data-width="32" data-height="32">
+        <!-- Report Page -->
+        <path class="iconning iconning-report iconning-report-32 iconning-accent-1 iconning-report-cover" d="M 1.0 4 L 2.5 4 L 4.8625 4 L 4.8625 6.025 A 2.025 2.025 0 1 0 6.887499999999999 6.025 L 6.887499999999999 4.0 L 9.25 4.0 L 11.6125 4.0 L 11.6125 6.025 A 2.025 2.025 0 1 0 13.637500000000001 6.025 L 13.637500000000001 4.0 L 16.0 4.0 L 18.3625 4.0 L 18.3625 6.025 A 2.025 2.025 0 1 0 20.3875 6.025 L 20.3875 4.0 L 22.75 4.0 L 25.1125 4.0 L 25.1125 6.025 A 2.025 2.025 0 1 0 27.1375 6.025 L 27.1375 4.0 L 29.5 4.0 L 31.0 4.0 L 31.0 11.575 L 1.0 11.575 L 1.0 4" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-report iconning-report-32 iconning-accent-1 iconning-report-page-border" d="M 1.0 11.575 v 16.425 h 30 v -16.425 h -1.5 v 14.925 h -27.0 v -14.925 h -1.5" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

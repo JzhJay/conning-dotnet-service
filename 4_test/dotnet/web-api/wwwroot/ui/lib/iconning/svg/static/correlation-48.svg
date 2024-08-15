@@ -1,0 +1,32 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="48" height="48" data-icon="correlation-48" class="iconning iconning-correlation-48" viewBox="0 0 48 48" id="correlation48">
+    <g class="iconning-metadata">
+        <title>Correlation Matrix</title>
+    </g>
+    <g class="iconning-container" data-width="48" data-height="48">
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-1" points="2.0 1.0 9.0 1.0 9.0 8.0 2.0 8.0" opacity="1.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-2" points="2.0 10.0 9.0 10.0 9.0 17.0 2.0 17.0" opacity="0.8" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-3" points="2.0 19.0 9.0 19.0 9.0 26.0 2.0 26.0" opacity="0.6" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-4" points="2.0 28.0 9.0 28.0 9.0 35.0 2.0 35.0" opacity="0.4" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-5" points="2.0 37.0 9.0 37.0 9.0 44.0 2.0 44.0" opacity="0.19999999999999996" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-2" points="11.0 1.0 18.0 1.0 18.0 8.0 11.0 8.0" opacity="0.8" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-1" points="11.0 10.0 18.0 10.0 18.0 17.0 11.0 17.0" opacity="1.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-2" points="11.0 19.0 18.0 19.0 18.0 26.0 11.0 26.0" opacity="0.8" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-3" points="11.0 28.0 18.0 28.0 18.0 35.0 11.0 35.0" opacity="0.6" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-4" points="11.0 37.0 18.0 37.0 18.0 44.0 11.0 44.0" opacity="0.4" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-3" points="20.0 1.0 27.0 1.0 27.0 8.0 20.0 8.0" opacity="0.6" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-2" points="20.0 10.0 27.0 10.0 27.0 17.0 20.0 17.0" opacity="0.8" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-1" points="20.0 19.0 27.0 19.0 27.0 26.0 20.0 26.0" opacity="1.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-2" points="20.0 28.0 27.0 28.0 27.0 35.0 20.0 35.0" opacity="0.8" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-3" points="20.0 37.0 27.0 37.0 27.0 44.0 20.0 44.0" opacity="0.6" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-4" points="29.0 1.0 36.0 1.0 36.0 8.0 29.0 8.0" opacity="0.4" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-3" points="29.0 10.0 36.0 10.0 36.0 17.0 29.0 17.0" opacity="0.6" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-2" points="29.0 19.0 36.0 19.0 36.0 26.0 29.0 26.0" opacity="0.8" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-1" points="29.0 28.0 36.0 28.0 36.0 35.0 29.0 35.0" opacity="1.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-2" points="29.0 37.0 36.0 37.0 36.0 44.0 29.0 44.0" opacity="0.8" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-5" points="38.0 1.0 45.0 1.0 45.0 8.0 38.0 8.0" opacity="0.19999999999999996" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-4" points="38.0 10.0 45.0 10.0 45.0 17.0 38.0 17.0" opacity="0.4" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-3" points="38.0 19.0 45.0 19.0 45.0 26.0 38.0 26.0" opacity="0.6" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-2" points="38.0 28.0 45.0 28.0 45.0 35.0 38.0 35.0" opacity="0.8" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-correlation iconning-correlation-48 iconning-accent-1 iconning-correlation-1" points="38.0 37.0 45.0 37.0 45.0 44.0 38.0 44.0" opacity="1.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

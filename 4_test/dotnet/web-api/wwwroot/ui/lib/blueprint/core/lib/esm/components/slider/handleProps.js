@@ -1,0 +1,1 @@
+export var HandleType={FULL:"full",START:"start",END:"end"};export var HandleInteractionKind={LOCK:"lock",PUSH:"push",NONE:"none"};

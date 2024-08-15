@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" data-icon="io-compare-24" class="iconning iconning-io-compare-24" viewBox="0 0 24 24" id="io-compare24">
+    <g class="iconning-metadata">
+        <title>IO Compare</title>
+    </g>
+    <g class="iconning-container" data-width="24" data-height="24">
+        <!-- Left Circle with > -->
+        <path class="iconning iconning-io-compare iconning-io-compare-24 iconning-fill iconning-accent-0 iconning-io-compare-minuend" d="M 5.4 6.0 a 5.4 5.4 0 0 0 0 10.8 a 5.4 5.4 0 0 0 0 -10.8 M 4.5 7.800000000000001 l 3.6000000000000005 3.6000000000000005 l -3.6000000000000005 3.6000000000000005 l -1.0 -1.0 l 2.6000000000000005 -2.6000000000000005 l -2.6000000000000005 -2.6000000000000005 L 4.5 7.800000000000001" fill-rule="evenodd" fill="rgb(  0,  0,  0)" style="stroke:none"/>
+        <!-- Right Circle with < -->
+        <path class="iconning iconning-io-compare iconning-io-compare-24 iconning-fill iconning-accent-1 iconning-io-compare-subtrahend" d="M 18.6 6.0 a 5.4 5.4 0 0 0 0 10.8 a 5.4 5.4 0 0 0 0 -10.8 M 19.5 7.800000000000001 l -3.6000000000000005 3.6000000000000005 l 3.6000000000000005 3.6000000000000005 l 1.0 -1.0 l -2.6000000000000005 -2.6000000000000005 l 2.6000000000000005 -2.6000000000000005 L 19.5 7.800000000000001" fill-rule="evenodd" fill="rgb(  0,  0,  0)" style="stroke:none"/>
+        <!-- Vertical Line -->
+        <line class="iconning iconning-io-compare iconning-io-compare-24 iconning-stroke iconning-io-compare-vertical-line" x1="12.0" y1="0.6" x2="12.0" y2="23.4" stroke="rgb(  0,  0,  0)" stroke-width="1.2"/>
+    </g>
+</svg>

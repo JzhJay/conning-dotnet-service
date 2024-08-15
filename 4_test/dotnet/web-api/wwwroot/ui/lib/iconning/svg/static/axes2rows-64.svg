@@ -1,0 +1,30 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" data-icon="axes2rows-64" class="iconning iconning-axes2rows-64" viewBox="0 0 64 64" id="axes2rows64">
+    <g class="iconning-metadata">
+        <title>Axes to Rows</title>
+    </g>
+    <g class="iconning-container" data-width="64" data-height="64">
+        <!-- Existing Row Axes -->
+        <rect class="iconning iconning-axes2rows iconning-axes2rows-64 iconning-accent-0" x="2.0" y="54.0" width="14.0" height="10.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M 32.0 0 L 0 0" begin="axes2rows64foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <!-- Existing Column Axes -->
+        <rect class="iconning iconning-axes2rows iconning-axes2rows-64 iconning-accent-0" x="18.0" y="54.0" width="14.0" height="10.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M 32.0 -24.0 Q 0 -24.0 0 0 0" begin="axes2rows64foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <rect class="iconning iconning-axes2rows iconning-axes2rows-64 iconning-accent-0" x="34.0" y="54.0" width="14.0" height="10.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M 16.0 -12.0 Q 0 -12.0 0 0 0" begin="axes2rows64foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+    </g>
+    <!-- Curved Arrow -->
+    <g data-width="42.5" data-height="42.5">
+        <g data-width="42.5" data-height="42.5" transform="translate(50.0, 54.0)">
+            <path class="iconning iconning-axes2rows iconning-axes2rows-64 iconning-stroke iconning-arrow" d="M -28.458851957936027 -13.134854749816641 L -24.117671150793246 -11.131232838827662 A 31.34375 31.34375 0 0 0 -34.53125 -0.0 A 37.71875 37.71875 0 0 1 -38.58827384126919 -17.80997254212426 L -34.24709303412641 -15.806350631135281 A 37.71875 37.71875 0 0 1 -0.0 -37.71875 L -0.0 -31.34375 A 31.34375 31.34375 0 0 0 -28.458851957936027 -13.134854749816641" fill="rgb(  0,  0,  0)" style="stroke:none"/>
+        </g>
+        <animateTransform attributeName="transform" dur="0.5s" type="rotate" from="180.0 50.0 54.0" to="0.0 50.0 54.0" begin="axes2rows64foregroundrectangle.mouseover"/>
+        <!-- Foreground Rectangle (transparent, for mouseover event only) -->
+    </g>
+    <rect class="iconning iconning-axes2rows iconning-axes2rows-64 iconning-bg" x="0" y="0" width="64" height="64" fill="rgb(255,255,255)" id="axes2rows64foregroundrectangle" style="stroke:none; fill-opacity:0"/>
+</svg>

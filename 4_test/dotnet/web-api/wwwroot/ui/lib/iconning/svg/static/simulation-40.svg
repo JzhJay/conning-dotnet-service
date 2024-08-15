@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" data-icon="simulation-40" class="iconning iconning-simulation-40" viewBox="0 0 40 40" id="simulation40">
+    <g class="iconning-metadata">
+        <title>Simulation</title>
+    </g>
+    <g class="iconning-container" data-width="40" data-height="40">
+        <!-- Scenario Lines -->
+        <line class="iconning iconning-simulation iconning-simulation-40 iconning-line" x1="2.1609640474436813" x2="37.839035952556316" y1="20.0" y2="2.1609640474436813" stroke="rgb(  0,  0,  0)" stroke-width="2.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-40 iconning-line" x1="14.053654682481225" x2="37.839035952556316" y1="25.946345317518773" y2="14.053654682481225" stroke="rgb(  0,  0,  0)" stroke-width="2.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-40 iconning-line" x1="25.94634531751877" x2="37.839035952556316" y1="31.892690635037546" y2="25.94634531751877" stroke="rgb(  0,  0,  0)" stroke-width="2.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-40 iconning-line" x1="2.1609640474436813" x2="37.839035952556316" y1="20.0" y2="37.839035952556316" stroke="rgb(  0,  0,  0)" stroke-width="2.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-40 iconning-line" x1="14.053654682481225" x2="37.839035952556316" y1="14.053654682481227" y2="25.94634531751877" stroke="rgb(  0,  0,  0)" stroke-width="2.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-simulation iconning-simulation-40 iconning-line" x1="25.94634531751877" x2="37.839035952556316" y1="8.107309364962454" y2="14.053654682481225" stroke="rgb(  0,  0,  0)" stroke-width="2.3219280948873626" stroke-linecap="round" style="fill:none"/>
+    </g>
+</svg>

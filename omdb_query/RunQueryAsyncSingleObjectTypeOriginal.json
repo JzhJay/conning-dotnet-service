@@ -1,0 +1,177 @@
+[
+    {
+      $addFields: {
+        __typename: "Simulation"
+      }
+    },
+    {
+      $addFields:
+        /**
+         * newField: The new field name.
+         * expression: The new field expression.
+         */
+        {
+          _idString: {
+            $toString: "$_id"
+          }
+        }
+    },
+    {
+      $lookup:
+        /**
+         * from: The target collection.
+         * localField: The local join field.
+         * foreignField: The target join field.
+         * as: The name for the results.
+         * pipeline: Optional pipeline to run on the foreign collection.
+         * let: Optional variables to use in the pipeline field stages.
+         */
+        {
+          from: "UserTagValue",
+          localField: "userTagValues",
+          foreignField: "_id",
+          as: "userTagValuesResolved"
+        }
+    },
+    // if path != null
+    {
+      $match: {
+        $or: [
+          {
+            isLink: {
+              $exists: false
+            }
+          },
+          {
+            isLink: false
+          }
+        ]
+      }
+    },
+    {
+      $group: {
+        _id: {
+          $cond: [
+            {
+              $gt: [
+                {
+                  $size: {
+                    $split: ["$name", "/"]
+                  }
+                },
+                1
+              ]
+            },
+            {
+              $arrayElemAt: [
+                {
+                  $split: ["$name", "/"]
+                },
+                0
+              ]
+            },
+            "$_id"
+          ]
+        },
+        result: {
+          $mergeObjects: "$$ROOT"
+        },
+        numObjects: {
+          $sum: 1
+        },
+        createdTime: {
+          $max: "$createdTime"
+        },
+        modifiedTime: {
+          $max: "$modifiedTime"
+        }
+      }
+    },
+    {
+      $replaceRoot: {
+        newRoot: {
+          $cond: [
+            {
+              $or: [
+                {
+                  $gt: ["$numObjects", 1]
+                },
+                {
+                  $ne: ["$_id", "$result._id"]
+                }
+              ]
+            },
+            {
+              $mergeObjects: [
+                "$$ROOT",
+                {
+                  name: "$_id",
+                  _isObjectFolder: true,
+                  createdTime: "$createdTime",
+                  modifiedTime: "$modifiedTime"
+                }
+              ]
+            },
+            {
+              $mergeObjects: ["$$ROOT", "$result"]
+            }
+          ]
+        }
+      }
+    },
+    // if path != null
+    // if sortByUserTag == null && sortBy == "modifiedTime"
+    {
+      $addFields: {
+        _sort_modifiedTime: {
+          $cond: [
+            {
+              $gt: ["$modifiedTime", "$createdTime"]
+            },
+            "$modifiedTime",
+            "$createdTime"
+          ]
+        }
+      }
+    },
+    // if sortByUserTag == null && sortBy == "modifiedTime"
+    {
+      $sort: {
+        _sort_modifiedTime: -1
+      }
+    },
+    {
+      $addFields: {
+        isFavorite: {
+          $in: ["$_id", []]
+        }
+      }
+    },
+    {
+      $sort: {
+        isFavorite: -1
+      }
+    },
+    {
+      $sort: {
+        _isObjectFolder: -1
+      }
+    },
+    {
+      $facet: {
+        results: [
+          {
+            $skip: 0
+          },
+          {
+            $limit: 20
+          }
+        ],
+        totalCount: [
+          {
+            $count: "count"
+          }
+        ]
+      }
+    }
+  ]

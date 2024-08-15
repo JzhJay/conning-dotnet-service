@@ -1,0 +1,20 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" data-icon="pdf-20" class="iconning iconning-pdf-20" viewBox="0 0 20 20" id="pdf20">
+    <g class="iconning-metadata">
+        <title>Probability Density Function Chart</title>
+    </g>
+    <g class="iconning-container" data-width="20" data-height="20">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.5" y1="20.0" x2="0.5" y2="1.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.0" y1="19.5" x2="20.0" y2="19.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="13.5" x2="3.0" y2="13.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="7.5" x2="3.0" y2="7.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="1.5" x2="3.0" y2="1.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="16.5" x2="2.0" y2="16.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="10.5" x2="2.0" y2="10.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="4.5" x2="2.0" y2="4.5"/>
+        <!-- PDF Polygon -->
+        <path class="iconning iconning-pdf iconning-pdf-20 iconning-accent-1" d="M 4.0 17.827182512889475 L 4.483870967741936 17.706056451244205 L 4.967741935483871 17.473222355083028 L 5.451612903225806 17.1226381418207 L 5.935483870967742 16.573528917130695 L 6.419354838709678 15.794397533505645 L 6.903225806451613 14.896165737493765 L 7.387096774193548 13.851811087680689 L 7.870967741935484 12.412609399591375 L 8.35483870967742 10.41997108413263 L 8.838709677419356 8.367809051939513 L 9.32258064516129 6.643558386897965 L 9.806451612903226 5.422634798395364 L 10.29032258064516 3.984455231767665 L 10.774193548387096 2.9146727851953607 L 11.258064516129032 2.8000000000000007 L 11.741935483870968 3.119140170688336 L 12.225806451612904 3.857808426094781 L 12.709677419354838 5.208672146423421 L 13.193548387096774 6.733016965600793 L 13.67741935483871 8.624000753572082 L 14.161290322580646 10.481883658926595 L 14.64516129032258 12.347046701300565 L 15.129032258064516 13.786938682971504 L 15.612903225806452 14.908742799343404 L 16.096774193548388 15.874874384751013 L 16.58064516129032 16.613165362374577 L 17.064516129032256 17.075242867814797 L 17.548387096774192 17.393378422072594 L 18.032258064516128 17.65263661931969 L 18.516129032258064 17.8106397100149" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

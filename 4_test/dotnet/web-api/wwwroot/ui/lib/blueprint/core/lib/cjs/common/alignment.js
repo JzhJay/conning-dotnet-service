@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Alignment=void 0,exports.Alignment={CENTER:"center",LEFT:"left",RIGHT:"right"};

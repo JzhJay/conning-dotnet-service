@@ -1,0 +1,40 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" data-icon="axes-flip-20" class="iconning iconning-axes-flip-20" viewBox="0 0 20 20" id="axes-flip20">
+    <g class="iconning-metadata">
+        <title>Axes Flip</title>
+    </g>
+    <g class="iconning-container" data-width="20" data-height="20">
+        <!-- Axes -->
+        <rect class="iconning iconning-axes-flip iconning-axes-flip-20 iconning-accent-0" x="0.0" y="16.0" width="6.0" height="4.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M 14.0 -10.0 Q 14.0 -10.0 0 0 0" begin="axesflip20foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <rect class="iconning iconning-axes-flip iconning-axes-flip-20 iconning-accent-0" x="14.0" y="6.0" width="6.0" height="4.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M -14.0 10.0 Q -14.0 10.0 0 0 0" begin="axesflip20foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <rect class="iconning iconning-axes-flip iconning-axes-flip-20 iconning-accent-0" x="7.0" y="16.0" width="6.0" height="4.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M 7.0 -5.0 Q 7.0 -5.0 0 0 0" begin="axesflip20foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+        <rect class="iconning iconning-axes-flip iconning-axes-flip-20 iconning-accent-0" x="14.0" y="11.0" width="6.0" height="4.0" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none">
+            <animateMotion dur="0.5s" path="M -7.0 5.0 Q -7.0 5.0 0 0 0" begin="axesflip20foregroundrectangle.mouseover">
+            </animateMotion>
+        </rect>
+    </g>
+    <!-- Curved Arrow -->
+    <g data-width="11.9" data-height="11.9">
+        <g data-width="11.9" data-height="11.9" transform="translate(14.0, 16.0)">
+            <path class="iconning iconning-axes-flip iconning-axes-flip-20 iconning-stroke iconning-arrow" d="M -7.968478548222089 -3.67775932994866 L -6.752947922222109 -3.1167451948717457 A 8.776250000000001 8.776250000000001 0 0 0 -9.668750000000001 -0.0 A 10.561250000000001 10.561250000000001 0 0 1 -10.804716675555374 -4.986792311794793 L -9.589186049555394 -4.425778176717879 A 10.561250000000001 10.561250000000001 0 0 1 -7.467931492806426 -7.467931492806426 L -6.205745888388439 -6.205745888388439 A 8.776250000000001 8.776250000000001 0 0 0 -7.968478548222089 -3.67775932994866" fill="rgb(  0,  0,  0)" style="stroke:none"/>
+        </g>
+        <animateTransform attributeName="transform" dur="0.5s" type="rotate" from="180.0 14.0 16.0" to="0.0 14.0 16.0" begin="axesflip20foregroundrectangle.mouseover"/>
+        <!-- Foreground Rectangle (transparent, for mouseover event only) -->
+    </g>
+    <g data-width="11.9" data-height="11.9">
+        <g data-width="11.9" data-height="11.9" transform="translate(14.0, 16.0)">
+            <path class="iconning iconning-axes-flip iconning-axes-flip-20 iconning-stroke iconning-arrow" d="M -6.205745888388439 -6.205745888388439 L -7.467931492806426 -7.467931492806426 A 10.561250000000001 10.561250000000001 0 0 1 -4.425778176717879 -9.589186049555394 L -4.986792311794793 -10.804716675555374 A 10.561250000000001 10.561250000000001 0 0 1 -0.0 -9.668750000000001 A 8.776250000000001 8.776250000000001 0 0 0 -3.1167451948717457 -6.752947922222109 L -3.67775932994866 -7.968478548222089 A 8.776250000000001 8.776250000000001 0 0 0 -6.205745888388439 -6.205745888388439" fill="rgb(  0,  0,  0)" style="stroke:none"/>
+        </g>
+        <animateTransform attributeName="transform" dur="0.5s" type="rotate" from="-180.0 14.0 16.0" to="0.0 14.0 16.0" begin="axesflip20foregroundrectangle.mouseover"/>
+        <!-- Foreground Rectangle (transparent, for mouseover event only) -->
+    </g>
+    <rect class="iconning iconning-axes-flip iconning-axes-flip-20 iconning-bg" x="0" y="0" width="20" height="20" fill="rgb(255,255,255)" id="axesflip20foregroundrectangle" style="stroke:none; fill-opacity:0"/>
+</svg>

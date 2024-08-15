@@ -1,0 +1,1 @@
+export function isMac(e){var r="undefined"!=typeof navigator?navigator.platform:void 0,t=null!=e?e:r;return null!=t&&/Mac|iPod|iPhone|iPad/.test(t)}export var isModKeyPressed=function(e,r){var t=isMac(r);return t&&e.metaKey||!t&&e.ctrlKey};

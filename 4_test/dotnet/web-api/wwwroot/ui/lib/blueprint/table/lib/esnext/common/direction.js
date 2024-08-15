@@ -1,0 +1,1 @@
+export var Direction;!function(i){i.UP="up",i.DOWN="down",i.LEFT="left",i.RIGHT="right"}(Direction||(Direction={}));

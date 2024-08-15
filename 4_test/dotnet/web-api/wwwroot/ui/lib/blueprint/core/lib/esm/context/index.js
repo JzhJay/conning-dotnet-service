@@ -1,0 +1,1 @@
+export{HotkeysContext,HotkeysProvider}from"./hotkeys/hotkeysProvider";

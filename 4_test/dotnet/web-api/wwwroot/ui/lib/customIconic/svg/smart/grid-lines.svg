@@ -1,0 +1,245 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+    data-icon="grid-lines" class="iconic iconic-grid-lines" 
+    width="128" height="128"  viewBox="0 0 128 128">
+    
+  <g class="iconic-metadata">
+    <title>Grid Lines</title>
+  </g>
+  
+  <g data-width="128" data-height="128" class="iconic-lg iconic-container" display="inline">
+    <g id="iconic-grid-lines-minor-lg">
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="2" stroke-linecap="square" d="M6,14h118.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="2" stroke-linecap="square" d="M6,34h118.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="2" stroke-linecap="square" d="M6,54h118.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="2" stroke-linecap="square" d="M6,74h118.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="2" stroke-linecap="square" d="M6,94h118.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="2" stroke-linecap="square" d="M6,114h118.5"/>
+
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="2" stroke-linecap="square" d="M14,122V3.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="2" stroke-linecap="square" d="M34,122V3.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="2" stroke-linecap="square" d="M54,122V3.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="2" stroke-linecap="square" d="M74,122V3.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="2" stroke-linecap="square" d="M94,122V3.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="2" stroke-linecap="square" d="M114,122V3.5"/>
+    </g>
+    <g id="grid-lines-major-lg">
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-grid-lines-horizontal iconic-grid-lines-horizontal-first iconic-property-accent iconic-property-stroke" display="none" fill="none" stroke="#00F" stroke-width="2" stroke-linecap="square" d="M8,3h116.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="2" stroke-linecap="square" d="M8,24h116.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="2" stroke-linecap="square" d="M8,44h116.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="2" stroke-linecap="square" d="M8,64h116.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="2" stroke-linecap="square" d="M8,84h116.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="2" stroke-linecap="square" d="M8,104h116.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="2" stroke-linecap="square" d="M24,120V3.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="2" stroke-linecap="square" d="M44,120V3.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="2" stroke-linecap="square" d="M64,120V3.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="2" stroke-linecap="square" d="M84,120V3.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="2" stroke-linecap="square" d="M104,120V3.5"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-grid-lines-vertical iconic-grid-lines-vertical-last iconic-property-accent iconic-property-stroke"  fill="none" stroke="#00F" stroke-width="2" stroke-linecap="square" d="M125,3.5v121"/>
+    </g>
+    <g id="iconic-grid-chart-tick-minor-lg">
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M3.5,14H6"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M3.5,34H6"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M3.5,54H6"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M3.5,74H6"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M3.5,94H6"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M3.5,114H6"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M14,124.5V122"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M34,124.5V122"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M54,124.5V122"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M74,124.5V122"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M94,124.5V122"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M114,124.5V122"/>
+    </g>
+    <g id="iconic-grid-chart-tick-major-lg">
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M3.5,3H8"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M3.5,24H8"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M3.5,44H8"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M3.5,64H8"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M3.5,84H8"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M3.5,104H8"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M24,124.5V120"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M44,124.5V120"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M64,124.5V120"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M84,124.5V120"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M104,124.5V120"/>
+        <path class="iconic-grid-lines-tick iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="2" stroke-linecap="square" d="M125,125V120"/>
+    </g>
+    <g id="iconic-grid-axes-lg">
+        <path class="iconic-grid-axes iconic-property-stroke iconic-grid-lines-axis-left"  fill="none" stroke="#000" stroke-width="3" stroke-linecap="square" d="M3.5,124.5V3.5"/>
+        <path class="iconic-grid-axes iconic-property-stroke iconic-grid-lines-axis-bottom"  fill="none" stroke="#000" stroke-width="3" stroke-linecap="square" d="M124.5,124.5H3.5"/>
+    </g>
+  </g>
+  
+  <g data-width="32" data-height="32" class="iconic-grid-lines-md iconic-md iconic-container" display="none" transform="scale(4)">
+    <g id="iconic-grid-lines-minor-md">
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="1" stroke-linecap="square" d="M3.5,29.5v-28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="1" stroke-linecap="square" d="M9.5,29.5v-28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="1" stroke-linecap="square" d="M15.5,29.5v-28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="1" stroke-linecap="square" d="M21.5,29.5v-28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="1" stroke-linecap="square" d="M27.5,29.5v-28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="1" stroke-linecap="square" d="M1.5,4.5h29"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="1" stroke-linecap="square" d="M1.5,10.5h29"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="1" stroke-linecap="square" d="M1.5,16.5h29"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="1" stroke-linecap="square" d="M1.5,22.5h29"/>
+        <path class="iconic-grid-lines iconic-grid-lines-minor iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-width="1" stroke-linecap="square" d="M1.5,28.5h29"/>
+    </g>
+    <g id="iconic-grid-lines-major-md">
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="1" stroke-linecap="square" d="M6.5,29.5v-28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="1" stroke-linecap="square" d="M12.5,29.5v-28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="1" stroke-linecap="square" d="M18.5,29.5v-28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="1" stroke-linecap="square" d="M24.5,29.5v-28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="1" stroke-linecap="square" d="M30.5,29.5v-28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="1" stroke-linecap="square" d="M2.5,1.5h28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="1" stroke-linecap="square" d="M2.5,7.5h28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="1" stroke-linecap="square" d="M2.5,13.5h28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="1" stroke-linecap="square" d="M2.5,19.5h28"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#00F" stroke-width="1" stroke-linecap="square" d="M2.5,25.5h28"/>
+    </g>
+    <g id="iconic-grid-chart-tick-minor-md">
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,4.5h1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,10.5h1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,16.5h1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,22.5h1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,28.5h1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M9.5,31.5v-1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M3.5,31.5v-1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M15.5,31.5v-1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M21.5,31.5v-1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-minor" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M27.5,31.5v-1"/>
+    </g>
+    <g id="iconic-grid-chart-tick-major-md">
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,1.5h2"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,7.5h2"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,13.5h2"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,19.5h2"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,25.5h2"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M6.5,31.5v-2"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M12.5,31.5v-2"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M18.5,31.5v-2"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M24.5,31.5v-2"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M30.5,31.5v-2"/>
+    </g>
+    <g id="iconic-grid-axes-md">
+        <path class="iconic-grid-axes iconic-property-stroke iconic-grid-axis-left" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,1.5v30"/>
+	    <path class="iconic-grid-axes iconic-property-stroke iconic-grid-axis-bottom" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,31.5h30"/>
+    </g>
+  </g>
+  
+  <g data-width="16" data-height="16" class="iconic-sm iconic-container" display="none" transform="scale(8)">
+    <g id="iconic-grid-lines-vertical">
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-linecap="square" d="M3.5,14v-14"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-linecap="square" d="M6.5,14v-14"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-linecap="square" d="M9.5,14v-14"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-linecap="square" d="M12.5,14v-14"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-vertical iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-linecap="square" d="M15.5,14v-14"/>
+    </g>
+    <g id="iconic-grid-lines-horizontal">
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-linecap="square" d="M1.5,0.5h14"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-linecap="square" d="M1.5,3.5h14"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-linecap="square" d="M1.5,6.5h14"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-linecap="square" d="M1.5,9.5h14"/>
+        <path class="iconic-grid-lines iconic-grid-lines-major iconic-property-stroke iconic-grid-lines-horizontal iconic-property-accent iconic-property-stroke" fill="none" stroke="#ADD8E6" stroke-linecap="square" d="M1.5,12.5h14"/>
+    </g>
+    <g id="iconic-grid-lines-tick-marks">
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-linecap="square" d="M0.5,0.5h1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-linecap="square" d="M0.5,3.5h1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-linecap="square" d="M0.5,6.5h1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-linecap="square" d="M0.5,9.5h1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-linecap="square" d="M0.5,12.5h1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-linecap="square" d="M15.5,15.5v-1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-linecap="square" d="M12.5,15.5v-1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-linecap="square" d="M9.5,15.5v-1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-linecap="square" d="M6.5,15.5v-1"/>
+        <path class="iconic-grid-lines-tick-marks iconic-grid-lines-tick-major" fill="none" stroke="#000" stroke-linecap="square" d="M3.5,15.5v-1"/>
+    </g>
+    <g id="iconic-grid-lines-axes-sm">
+        <path class="iconic-grid-axes iconic-property-stroke iconic-grid-axis-vertical" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,0.5v15"/>
+        <path class="iconic-grid-axes iconic-property-stroke iconic-grid-axis-horizontal" fill="none" stroke="#000" stroke-width="1" stroke-linecap="square" d="M0.5,15.5h15"/>
+    </g>
+  </g>
+<script class="iconic-api" type="application/ecmascript">
+//<![CDATA[
+//TODO: Minify JS code
+//TODO: Remove console.log() output
+var iconicApis = window._Iconic ? window._Iconic.smartIconApis : {};
+iconicApis["grid-lines"] = iconicApis["grid-lines"] || function(t) {
+
+    window.logging = true;
+    
+    $c().log("Staring grid-direction ...");
+    
+    var f1 = function(gridDirection) {
+    
+        var direction = gridDirection.toLowerCase();
+        
+        $c().log("Direction: " + direction);
+        
+        t.setAttribute("data-grid-direction", direction);
+            
+        $c().log("direction: " + direction);    
+        
+        /*
+         1. Hide all elements (more efficient than listing every element)
+         2. Show only required elements for specified properties
+         3. Top and right axes are hidden by default. Only shown on 'both'
+        */
+        
+        $c(t).off([
+            ".iconic-grid-lines",
+            ".iconic-grid-lines-axis-top", 
+            ".iconic-grid-lines-axis-right"
+        ]);
+
+        if ("horizontal" === direction) {
+            
+            $c().log("Setting grid lines direction to horizontal");
+            
+            $c(t).on([
+                ".iconic-grid-lines-horizontal",
+                ".iconic-grid-lines-tick-mark-bottom-last",
+                ".iconic-grid-lines-tick-mark-left-first"
+            ]);
+        } 
+        else if ("vertical" === direction) {
+            
+            $c().log("Setting grid lines direction to horizontal");
+            
+            $c(t).on([
+                ".iconic-grid-lines-vertical",
+                ".iconic-grid-lines-tick-mark-bottom-last",
+                ".iconic-grid-lines-tick-mark-left-first",
+                ".iconic-grid-lines-vertical-last"
+            ]);
+        }
+        else if ("both" === direction) {
+            
+            $c().log("Setting grid lines direction to both");
+            
+            $c(t).on([
+                ".iconic-grid-lines-axis-top",
+                ".iconic-grid-lines-axis-right",
+                ".iconic-grid-lines"
+            ]);
+        }
+        else {
+            
+            $c().log("Setting grid lines direction to none");
+
+            $c(t).on([
+                ".iconic-grid-lines-tick-mark-bottom-last",
+                ".iconic-grid-lines-tick-mark-left-first"
+            ]);
+        }
+    };
+    var f2 = function() {
+        var e = t.getAttribute("data-grid-direction");
+        e && f1(e)
+    };
+    return {
+        update: f2,
+        setGridDirection: f1
+    }
+};
+//]]>
+</script>
+</svg>

@@ -1,0 +1,285 @@
+{
+    {
+        "$match": {
+            "$or": [
+                {
+                    "isLink": {
+                        "$exists": false
+                    }
+                },
+                {
+                    "isLink": false
+                }
+            ]
+        }
+    }
+},
+{
+    {
+        "$facet": {
+            "createdBy": [
+                {
+                    "$match": {
+                        "createdBy": {
+                            "$ne": null
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": "$createdBy",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "economies": [
+                {
+                    "$match": {
+                        "economies": {
+                            "$not": {
+                                "$type": 10
+                            }
+                        }
+                    }
+                },
+                {
+                    "$unwind": "$economies"
+                },
+                {
+                    "$group": {
+                        "_id": "$economies",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "frequencies": [
+                {
+                    "$match": {
+                        "frequencies": {
+                            "$not": {
+                                "$type": 10
+                            }
+                        }
+                    }
+                },
+                {
+                    "$unwind": "$frequencies"
+                },
+                {
+                    "$group": {
+                        "_id": "$frequencies",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "gridName": [
+                {
+                    "$match": {
+                        "gridName": {
+                            "$ne": null
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": "$gridName",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "modifiedBy": [
+                {
+                    "$match": {
+                        "modifiedBy": {
+                            "$ne": null
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": "$modifiedBy",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "modules": [
+                {
+                    "$match": {
+                        "modules": {
+                            "$not": {
+                                "$type": 10
+                            }
+                        }
+                    }
+                },
+                {
+                    "$unwind": "$modules"
+                },
+                {
+                    "$group": {
+                        "_id": "$modules",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "parameterizationMeasure": [
+                {
+                    "$match": {
+                        "parameterizationMeasure": {
+                            "$ne": null
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": "$parameterizationMeasure",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "productVersion": [
+                {
+                    "$match": {
+                        "productVersion": {
+                            "$ne": null
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": "$productVersion",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "scenarios": [
+                {
+                    "$match": {
+                        "scenarios": {
+                            "$ne": null
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": "$scenarios",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "sourceType": [
+                {
+                    "$project": {
+                        "sourceType": {
+                            "$ifNull": [
+                                "$sourceType",
+                                "Classic"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "$match": {
+                        "sourceType": {
+                            "$ne": null
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": "$sourceType",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "status": [
+                {
+                    "$match": {
+                        "status": {
+                            "$ne": null
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": "$status",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "useCase": [
+                {
+                    "$match": {
+                        "useCase": {
+                            "$ne": null
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": "$useCase",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "variables": [
+                {
+                    "$match": {
+                        "variables": {
+                            "$ne": null
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": "$variables",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "version": [
+                {
+                    "$match": {
+                        "version": {
+                            "$ne": null
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": "$version",
+                        "count": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

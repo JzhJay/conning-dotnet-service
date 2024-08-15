@@ -1,0 +1,18 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="io-monitor-128" class="iconning iconning-io-monitor-128" viewBox="0 0 128 128" id="io-monitor128">
+    <g class="iconning-metadata">
+        <title>IO Monitor</title>
+    </g>
+    <g class="iconning-container" data-width="128" data-height="128">
+        <!-- Lambda Character -->
+        <path class="iconning iconning-io-monitor iconning-io-monitor-128 iconning-stroke iconning-lambda-character" d="M 51.2 5.12 L 61.44 30.72 L 35.84 97.28 L 46.08 97.28 L 66.56 46.08 L 87.04 97.28 L 97.28 97.28 L 61.44 5.12 L 51.2 5.12" fill="rgb(  0,  0,  0)" style="stroke:none"/>
+        <!-- Lambda Columns -->
+        <path class="iconning iconning-io-monitor iconning-io-monitor-128 iconning-fill iconning-lambda-column" d="M 5.12 122.88 L 5.12 112.64 L 15.36 112.64 L 15.36 122.88" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-128 iconning-fill iconning-lambda-column" d="M 20.48 122.88 L 20.48 97.28 L 30.72 97.28 L 30.72 122.88" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-128 iconning-fill iconning-lambda-column" d="M 35.84 122.88 L 35.84 112.64 L 46.080000000000005 112.64 L 46.080000000000005 122.88" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-128 iconning-fill iconning-lambda-column" d="M 51.2 122.88 L 51.2 112.64 L 61.440000000000005 112.64 L 61.440000000000005 122.88" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-128 iconning-fill iconning-lambda-column" d="M 66.56 122.88 L 66.56 87.03999999999999 L 76.8 87.03999999999999 L 76.8 122.88" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-128 iconning-fill iconning-lambda-column" d="M 81.92 122.88 L 81.92 117.75999999999999 L 92.16 117.75999999999999 L 92.16 122.88" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-128 iconning-fill iconning-lambda-column" d="M 97.28 122.88 L 97.28 112.64 L 107.52 112.64 L 107.52 122.88" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-128 iconning-fill iconning-lambda-column" d="M 112.64 122.88 L 112.64 56.31999999999999 L 122.88 56.31999999999999 L 122.88 122.88" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

@@ -1,0 +1,1 @@
+export function measureTextWidth(t,e="",n=document.body){if(null==n)return 0;const r=document.createElement("span");r.classList.add(e),r.textContent=t,n.appendChild(r);const o=r.offsetWidth;return r.remove(),o}export function padWithZeroes(t,e){return t.length<e?`${stringRepeat("0",e-t.length)}${t}`:t}function stringRepeat(t,e){return new Array(e+1).join(t)}

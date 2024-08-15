@@ -1,0 +1,19 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="cdf-smooth-16" class="iconning iconning-cdf-smooth-16" viewBox="0 0 16 16" id="cdf-smooth16">
+    <g class="iconning-metadata">
+        <title>Cumulative Density Function Chart with Smooth Plot</title>
+    </g>
+    <g class="iconning-container" data-width="16" data-height="16">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.5" y1="16.0" x2="0.5" y2="0.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.0" y1="15.5" x2="16.0" y2="15.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="9.5" x2="3.0" y2="9.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="3.5" x2="3.0" y2="3.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="12.5" x2="2.0" y2="12.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="6.5" x2="2.0" y2="6.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="0.5" x2="2.0" y2="0.5"/>
+        <!-- CDF Smooth Plot -->
+        <path class="iconning iconning-cdf iconning-cdf-16 iconning-fill iconning-accent-1" d="M 5 12 L 5.0 12.0 L 6.736822050252602 11.545454545454545 L 7.236114000347842 11.09090909090909 L 7.548538455145116 10.636363636363635 L 7.790075363774425 10.18181818181818 L 7.9939287732306425 9.727272727272725 L 8.190891681804112 9.27272727272727 L 8.370820947241935 8.818181818181815 L 8.533698304098223 8.36363636363636 L 8.693709747463322 7.909090909090906 L 8.843581220109034 7.4545454545454515 L 8.991320857600819 6.999999999999997 L 9.145792847034752 6.545454545454543 L 9.306397882489486 6.090909090909089 L 9.464054896776618 5.636363636363635 L 9.624103783781152 5.181818181818181 L 9.801123989748506 4.727272727272727 L 9.991199716501926 4.2727272727272725 L 10.201036211860814 3.818181818181818 L 10.449222997195006 3.3636363636363633 L 10.755490257950228 2.9090909090909087 L 11.243553356326702 2.454545454545454 L 13.0 1.9999999999999996" stroke="rgb( 40, 70,200)" stroke-width="2.25" stroke-linecap="round" stroke-endcap="round" style="fill:none"/>
+    </g>
+</svg>

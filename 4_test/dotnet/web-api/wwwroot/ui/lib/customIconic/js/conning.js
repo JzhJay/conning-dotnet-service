@@ -1,0 +1,1 @@
+window.$c=window.$c||function(n){var o={};return o.svg=n,o.on=function(n){o._(n,"display","inline")},o.off=function(n){o._(n,"display","none")},o._=function(n,t,e){for("object"!=typeof n&&(n=[n]),x=0;x<n.length;x++){var f=o.svg.querySelectorAll(n[x]);for(i=0;i<f.length;i++)f[i].setAttribute(t,e)}},o.log=function(n){},o};

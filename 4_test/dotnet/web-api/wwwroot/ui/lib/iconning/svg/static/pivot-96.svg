@@ -1,0 +1,103 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="96" height="96" data-icon="pivot-96" class="iconning iconning-pivot-96" viewBox="0 0 96 96" id="pivot96">
+    <g class="iconning-metadata">
+        <title>Pivot</title>
+    </g>
+    <g class="iconning-container" data-width="96" data-height="96">
+        <!-- Column Axis Rectangle -->
+        <rect class="iconning iconning-pivot iconning-pivot-96 iconning-accent-0 iconning-pivot-axis" x="2.25" y="2.25" width="25.5" height="7.5" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <!-- Row Axis Rectangle -->
+        <rect class="iconning iconning-pivot iconning-pivot-96 iconning-accent-0 iconning-pivot-axis" x="2.25" y="12.0" width="15.0" height="8.25" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <!-- Column Coordinate Rectangles -->
+        <rect class="iconning iconning-pivot iconning-pivot-96 iconning-accent-1 iconning-pivot-coordinate" x="30.0" y="2.25" width="14.25" height="7.5" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <rect class="iconning iconning-pivot iconning-pivot-96 iconning-accent-1 iconning-pivot-coordinate" x="46.5" y="2.25" width="14.25" height="7.5" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <rect class="iconning iconning-pivot iconning-pivot-96 iconning-accent-1 iconning-pivot-coordinate" x="63.0" y="2.25" width="14.25" height="7.5" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <rect class="iconning iconning-pivot iconning-pivot-96 iconning-accent-1 iconning-pivot-coordinate" x="79.5" y="2.25" width="14.25" height="7.5" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <!-- Row Coordinate Rectangles -->
+        <rect class="iconning iconning-pivot iconning-pivot-96 iconning-accent-1 iconning-pivot-coordinate" x="2.25" y="22.5" width="15.0" height="8.25" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <rect class="iconning iconning-pivot iconning-pivot-96 iconning-accent-1 iconning-pivot-coordinate" x="2.25" y="33.0" width="15.0" height="8.25" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <rect class="iconning iconning-pivot iconning-pivot-96 iconning-accent-1 iconning-pivot-coordinate" x="2.25" y="43.5" width="15.0" height="8.25" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <rect class="iconning iconning-pivot iconning-pivot-96 iconning-accent-1 iconning-pivot-coordinate" x="2.25" y="54.0" width="15.0" height="8.25" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <rect class="iconning iconning-pivot iconning-pivot-96 iconning-accent-1 iconning-pivot-coordinate" x="2.25" y="64.5" width="15.0" height="8.25" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <rect class="iconning iconning-pivot iconning-pivot-96 iconning-accent-1 iconning-pivot-coordinate" x="2.25" y="75.0" width="15.0" height="8.25" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <rect class="iconning iconning-pivot iconning-pivot-96 iconning-accent-1 iconning-pivot-coordinate" x="2.25" y="85.5" width="15.0" height="8.25" fill="rgb( 40, 70,200)" fill-opacity="1.0" style="stroke:none"/>
+        <!-- Top Border -->
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="2.25" y1="1.125" x2="96" y2="1.125" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <!-- Borders Above and Below Row Axis and Coordinates -->
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="2.25" y1="10.875" x2="17.25" y2="10.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="2.25" y1="21.375" x2="17.25" y2="21.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="2.25" y1="31.875" x2="17.25" y2="31.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="2.25" y1="42.375" x2="17.25" y2="42.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="2.25" y1="52.875" x2="17.25" y2="52.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="2.25" y1="63.375" x2="17.25" y2="63.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="2.25" y1="73.875" x2="17.25" y2="73.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="2.25" y1="84.375" x2="17.25" y2="84.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="2.25" y1="94.875" x2="17.25" y2="94.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <!-- Left Border -->
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="1.125" y1="0" x2="1.125" y2="96" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <!-- Borders Left and Right of Column Axis and Coordinates -->
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="28.875" y1="2.25" x2="28.875" y2="9.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="45.375" y1="2.25" x2="45.375" y2="9.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="61.875" y1="2.25" x2="61.875" y2="9.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="78.375" y1="2.25" x2="78.375" y2="9.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="94.875" y1="2.25" x2="94.875" y2="9.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <!-- Thick Right Angle Border Area -->
+        <polygon class="iconning iconning-pivot iconning-pivot-96 iconning-stroke iconning-border" points="17.25 9.75 96.0 9.75 96.0 22.5 30.0 22.5 30.0 96.0 17.25 96.0" fill="rgb(  0,  0,  0)" opacity="1.0" style="stroke:none"/>
+        <!-- Data Grid Borders -->
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="30.0" y1="31.875" x2="46.5" y2="31.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="45.375" y1="22.5" x2="45.375" y2="30.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="30.0" y1="42.375" x2="46.5" y2="42.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="45.375" y1="33.0" x2="45.375" y2="41.25" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="30.0" y1="52.875" x2="46.5" y2="52.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="45.375" y1="43.5" x2="45.375" y2="51.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="30.0" y1="63.375" x2="46.5" y2="63.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="45.375" y1="54.0" x2="45.375" y2="62.25" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="30.0" y1="73.875" x2="46.5" y2="73.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="45.375" y1="64.5" x2="45.375" y2="72.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="30.0" y1="84.375" x2="46.5" y2="84.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="45.375" y1="75.0" x2="45.375" y2="83.25" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="30.0" y1="94.875" x2="46.5" y2="94.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="45.375" y1="85.5" x2="45.375" y2="93.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="46.5" y1="31.875" x2="63.0" y2="31.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="61.875" y1="22.5" x2="61.875" y2="30.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="46.5" y1="42.375" x2="63.0" y2="42.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="61.875" y1="33.0" x2="61.875" y2="41.25" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="46.5" y1="52.875" x2="63.0" y2="52.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="61.875" y1="43.5" x2="61.875" y2="51.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="46.5" y1="63.375" x2="63.0" y2="63.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="61.875" y1="54.0" x2="61.875" y2="62.25" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="46.5" y1="73.875" x2="63.0" y2="73.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="61.875" y1="64.5" x2="61.875" y2="72.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="46.5" y1="84.375" x2="63.0" y2="84.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="61.875" y1="75.0" x2="61.875" y2="83.25" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="46.5" y1="94.875" x2="63.0" y2="94.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="61.875" y1="85.5" x2="61.875" y2="93.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="63.0" y1="31.875" x2="79.5" y2="31.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="78.375" y1="22.5" x2="78.375" y2="30.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="63.0" y1="42.375" x2="79.5" y2="42.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="78.375" y1="33.0" x2="78.375" y2="41.25" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="63.0" y1="52.875" x2="79.5" y2="52.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="78.375" y1="43.5" x2="78.375" y2="51.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="63.0" y1="63.375" x2="79.5" y2="63.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="78.375" y1="54.0" x2="78.375" y2="62.25" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="63.0" y1="73.875" x2="79.5" y2="73.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="78.375" y1="64.5" x2="78.375" y2="72.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="63.0" y1="84.375" x2="79.5" y2="84.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="78.375" y1="75.0" x2="78.375" y2="83.25" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="63.0" y1="94.875" x2="79.5" y2="94.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="78.375" y1="85.5" x2="78.375" y2="93.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="79.5" y1="31.875" x2="96.0" y2="31.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="94.875" y1="22.5" x2="94.875" y2="30.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="79.5" y1="42.375" x2="96.0" y2="42.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="94.875" y1="33.0" x2="94.875" y2="41.25" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="79.5" y1="52.875" x2="96.0" y2="52.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="94.875" y1="43.5" x2="94.875" y2="51.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="79.5" y1="63.375" x2="96.0" y2="63.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="94.875" y1="54.0" x2="94.875" y2="62.25" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="79.5" y1="73.875" x2="96.0" y2="73.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="94.875" y1="64.5" x2="94.875" y2="72.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="79.5" y1="84.375" x2="96.0" y2="84.375" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="94.875" y1="75.0" x2="94.875" y2="83.25" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="79.5" y1="94.875" x2="96.0" y2="94.875" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+        <line class="iconning iconning-pivot iconning-pivot-96 iconning-border" x1="94.875" y1="85.5" x2="94.875" y2="93.75" stroke="rgb(  0,  0,  0)" stroke-width="2.25" stroke-opacity="1.0" stroke-endcap="butt" style="fill:none"/>
+    </g>
+</svg>

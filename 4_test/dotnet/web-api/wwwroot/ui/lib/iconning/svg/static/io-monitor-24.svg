@@ -1,0 +1,18 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" data-icon="io-monitor-24" class="iconning iconning-io-monitor-24" viewBox="0 0 24 24" id="io-monitor24">
+    <g class="iconning-metadata">
+        <title>IO Monitor</title>
+    </g>
+    <g class="iconning-container" data-width="24" data-height="24">
+        <!-- Lambda Character -->
+        <path class="iconning iconning-io-monitor iconning-io-monitor-24 iconning-stroke iconning-lambda-character" d="M 9.6 0.96 L 11.52 5.76 L 6.72 18.24 L 8.64 18.24 L 12.48 8.64 L 16.32 18.24 L 18.24 18.24 L 11.52 0.96 L 9.6 0.96" fill="rgb(  0,  0,  0)" style="stroke:none"/>
+        <!-- Lambda Columns -->
+        <path class="iconning iconning-io-monitor iconning-io-monitor-24 iconning-fill iconning-lambda-column" d="M 0.96 23.04 L 0.96 21.119999999999997 L 2.88 21.119999999999997 L 2.88 23.04" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-24 iconning-fill iconning-lambda-column" d="M 3.84 23.04 L 3.84 18.24 L 5.76 18.24 L 5.76 23.04" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-24 iconning-fill iconning-lambda-column" d="M 6.72 23.04 L 6.72 21.119999999999997 L 8.64 21.119999999999997 L 8.64 23.04" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-24 iconning-fill iconning-lambda-column" d="M 9.6 23.04 L 9.6 21.119999999999997 L 11.52 21.119999999999997 L 11.52 23.04" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-24 iconning-fill iconning-lambda-column" d="M 12.48 23.04 L 12.48 16.32 L 14.4 16.32 L 14.4 23.04" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-24 iconning-fill iconning-lambda-column" d="M 15.36 23.04 L 15.36 22.08 L 17.28 22.08 L 17.28 23.04" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-24 iconning-fill iconning-lambda-column" d="M 18.24 23.04 L 18.24 21.119999999999997 L 20.159999999999997 21.119999999999997 L 20.159999999999997 23.04" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-io-monitor iconning-io-monitor-24 iconning-fill iconning-lambda-column" d="M 21.119999999999997 23.04 L 21.119999999999997 10.559999999999999 L 23.04 10.559999999999999 L 23.04 23.04" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

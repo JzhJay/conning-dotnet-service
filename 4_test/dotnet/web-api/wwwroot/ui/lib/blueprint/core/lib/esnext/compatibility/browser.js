@@ -1,0 +1,1 @@
+const userAgent="undefined"!=typeof navigator?navigator.userAgent:"",browser={isEdge:/Edge/.test(userAgent),isInternetExplorer:/Trident|rv:11/.test(userAgent),isWebkit:/AppleWebKit/.test(userAgent)};export const Browser={isEdge:()=>browser.isEdge,isInternetExplorer:()=>browser.isInternetExplorer,isWebkit:()=>browser.isWebkit};

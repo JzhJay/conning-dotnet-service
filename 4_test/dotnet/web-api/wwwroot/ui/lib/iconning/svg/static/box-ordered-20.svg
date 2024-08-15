@@ -1,0 +1,25 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" data-icon="box-ordered-20" class="iconning iconning-box-ordered-20" viewBox="0 0 20 20" id="box-ordered20">
+    <g class="iconning-metadata">
+        <title>Box Plot</title>
+    </g>
+    <g class="iconning-container" data-width="20" data-height="20">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.5" y1="20.0" x2="0.5" y2="1.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.0" y1="19.5" x2="20.0" y2="19.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="13.5" x2="3.0" y2="13.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="7.5" x2="3.0" y2="7.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="1.5" x2="3.0" y2="1.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="16.5" x2="2.0" y2="16.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="10.5" x2="2.0" y2="10.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="4.5" x2="2.0" y2="4.5"/>
+        <!-- Box Polygons -->
+        <polygon class="iconning iconning-box-ordered iconning-box-ordered-20 iconning-accent-2 iconning-box-ordered-1 iconning-percentile-up iconning-percentile-1" points="4.0 11.777777777777779 8.0 11.777777777777779 8.0 9.11111111111111 4.0 9.11111111111111" fill="rgb(  0, 98, 37)" opacity="1.0" style="stroke:none"/>
+        <polygon class="iconning iconning-box-ordered iconning-box-ordered-20 iconning-accent-3 iconning-box-1 iconning-percentile-down iconning-percentile-1" points="4.0 11.777777777777779 8.0 11.777777777777779 8.0 14.444444444444446 4.0 14.444444444444446" fill="rgb(138, 32,  3)" opacity="1.0" style="stroke:none"/>
+        <polygon class="iconning iconning-box-ordered iconning-box-ordered-20 iconning-accent-2 iconning-box-ordered-2 iconning-percentile-up iconning-percentile-1" points="9.0 10.88888888888889 13.0 10.88888888888889 13.0 5.555555555555557 9.0 5.555555555555557" fill="rgb(  0, 98, 37)" opacity="1.0" style="stroke:none"/>
+        <polygon class="iconning iconning-box-ordered iconning-box-ordered-20 iconning-accent-3 iconning-box-2 iconning-percentile-down iconning-percentile-1" points="9.0 10.88888888888889 13.0 10.88888888888889 13.0 16.22222222222222 9.0 16.22222222222222" fill="rgb(138, 32,  3)" opacity="1.0" style="stroke:none"/>
+        <polygon class="iconning iconning-box-ordered iconning-box-ordered-20 iconning-accent-2 iconning-box-ordered-3 iconning-percentile-up iconning-percentile-1" points="14.0 10.0 18.0 10.0 18.0 2.0 14.0 2.0" fill="rgb(  0, 98, 37)" opacity="1.0" style="stroke:none"/>
+        <polygon class="iconning iconning-box-ordered iconning-box-ordered-20 iconning-accent-3 iconning-box-3 iconning-percentile-down iconning-percentile-1" points="14.0 10.0 18.0 10.0 18.0 18.0 14.0 18.0" fill="rgb(138, 32,  3)" opacity="1.0" style="stroke:none"/>
+    </g>
+</svg>

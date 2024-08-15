@@ -1,0 +1,32 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" data-icon="beeswarm-64" class="iconning iconning-beeswarm-64" viewBox="0 0 64 64" id="beeswarm64">
+    <g class="iconning-metadata">
+        <title>Beeswarm Chart</title>
+    </g>
+    <g class="iconning-container" data-width="64" data-height="64">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="3.0" y1="62.0" x2="3.0" y2="6.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="2.0" y1="61.0" x2="62.0" y2="61.0"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="4.0" y1="49.0" x2="8.0" y2="49.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="4.0" y1="37.0" x2="8.0" y2="37.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="4.0" y1="25.0" x2="8.0" y2="25.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="4.0" y1="13.0" x2="8.0" y2="13.0"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="4.0" y1="55.0" x2="6.0" y2="55.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="4.0" y1="43.0" x2="6.0" y2="43.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="4.0" y1="31.0" x2="6.0" y2="31.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="4.0" y1="19.0" x2="6.0" y2="19.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="2.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="4.0" y1="7.0" x2="6.0" y2="7.0"/>
+        <!-- Beeswarm Circles -->
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-64 iconning-accent-1 iconning-point" cx="15.0" cy="53.0" r="5.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-64 iconning-accent-1 iconning-point" cx="27.5" cy="53.0" r="5.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-64 iconning-accent-1 iconning-point" cx="40.0" cy="53.0" r="5.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-64 iconning-accent-1 iconning-point" cx="52.5" cy="53.0" r="5.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-64 iconning-accent-1 iconning-point" cx="21.25" cy="42.17468245269452" r="5.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-64 iconning-accent-1 iconning-point" cx="33.75" cy="42.17468245269452" r="5.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-64 iconning-accent-1 iconning-point" cx="46.25" cy="42.17468245269452" r="5.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-64 iconning-accent-1 iconning-point" cx="27.5" cy="31.349364905389038" r="5.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-64 iconning-accent-1 iconning-point" cx="40.0" cy="31.349364905389038" r="5.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-fill iconning-beeswarm iconning-beeswarm-64 iconning-accent-1 iconning-point" cx="33.75" cy="20.524047358083557" r="5.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

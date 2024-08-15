@@ -1,0 +1,9 @@
+/*!
+ * # Semantic UI 2.3.1 - Nag
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */.ui.nag{background:#555;border-radius:0 0 .28571429rem .28571429rem;-webkit-box-shadow:0 1px 2px 0 #0003;box-shadow:0 1px 2px 0 #0003;color:#000000de;display:none;font-size:1rem;left:0;margin:0;min-height:0;opacity:.95;padding:.75em 1em;position:relative;text-align:center;top:0;-webkit-transition:background .2s ease;transition:background .2s ease;width:100%;z-index:999}a.ui.nag{cursor:pointer}.ui.nag>.title{color:#fff;display:inline-block;margin:0 .5em}.ui.nag>.close.icon{color:#fff;cursor:pointer;font-size:1em;margin:-.5em 0 0;opacity:.4;position:absolute;right:1em;top:50%;-webkit-transition:opacity .2s ease;transition:opacity .2s ease}.ui.nag:hover{background:#555;opacity:1}.ui.nag .close:hover{opacity:1}.ui.overlay.nag{display:block;position:absolute}.ui.fixed.nag{position:fixed}.ui.bottom.nag,.ui.bottom.nags{border-radius:.28571429rem .28571429rem 0 0;bottom:0;top:auto}.ui.inverted.nag,.ui.inverted.nags .nag{background-color:#f3f4f5;color:#000000d9}.ui.inverted.nag .close,.ui.inverted.nag .title,.ui.inverted.nags .nag .close,.ui.inverted.nags .nag .title{color:#0006}.ui.nags .nag{border-radius:0!important}.ui.nags .nag:last-child{border-radius:0 0 .28571429rem .28571429rem}.ui.bottom.nags .nag:last-child{border-radius:.28571429rem .28571429rem 0 0}

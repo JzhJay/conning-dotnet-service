@@ -1,0 +1,56 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+     data-icon="accordion-action" 
+     class="iconic iconic-accordion-action" 
+     width="128" height="128" 
+     viewBox="0 0 128 128">
+     
+    <g id="title"><title>Accordion Action</title></g>
+    <g id="iconic-accordion-action-lg" class="iconic-lg iconic-container" data-width="128" data-height="128" display="inline">
+        <path class="iconic-accordion-action-edge iconic-property-accent" d="M120,0v8H8V0H120z"/>
+	    <path class="iconic-accordion-action-block iconic-accordion-action-block-expand" d="M8,128h112V16H8V128z M56,88V36h16v52h24l-32,32L32,88H56z"/>
+        <path class="iconic-accordion-action-block iconic-accordion-action-block-collapse" d="M8,128h112V16H8V128z M64,24l32,32H72v52H56V56H32L64,24z"/>
+    </g>
+    <g id="iconic-accordion-action-md" class="iconic-md iconic-container" data-width="32" data-height="32" display="none" transform="scale(4)">
+        <path class="iconic-accordion-action-edge iconic-property-accent" d="M30,0v2H2V0H30z"/>
+        <path class="iconic-accordion-action-block iconic-accordion-action-block-expand" d="M2,32h28V4H2V32z M14,22V9h4v13h6l-8,8l-8-8H14z"/>
+        <path class="iconic-accordion-action-block iconic-accordion-action-block-collapse" d="M2,32h28V4H2V32z M16,6l8,8h-6v13h-4V14H8L16,6z"/>
+    </g>
+    <g id="iconic-accordion-action-sm" class="iconic-sm iconic-container" data-width="16" data-height="16" display="none" transform="scale(8)">
+	    <path class="iconic-accordion-action-edge iconic-property-accent" d="M15,0v1H1V0H15z"/>
+        <path class="iconic-accordion-action-block iconic-accordion-action-block-expand" d="M1,16h14V2H1V16z M6,10V4h4v6h3l-5,5l-5-5H6z"/>
+	    <path class="iconic-accordion-action-block iconic-accordion-action-block-collapse" d="M1,16h14V2H1V16z M8,3l5,5h-3v6H6V8H3L8,3z"/>
+    </g>
+    <script class="iconic-api" type="application/ecmascript">
+    //<![CDATA[
+    //TODO: Minify JS code
+    //TODO: Remove console.log() output
+    var iconicApis = window._Iconic ? window._Iconic.smartIconApis : {};
+
+    iconicApis["accordion-action"] = iconicApis["accordion-action"] || function(t) {
+    
+        window.logging = true;
+
+        $c().log("Staring accordion-action ...");
+    
+        var f1 = function(action) {
+    
+            t.setAttribute("data-accordion-action-action", action);
+        
+            $c().log("Set accordion-action action to " + action);
+        
+            $c(t).off(".iconic-accordion-action-block");
+            $c(t).on(".iconic-accordion-action-block-" + (action == "expand" ? "expand" : "collapse"));
+        };
+        var f2 = function() {
+            var e = t.getAttribute("data-accordion-action-action");
+            e && f1(e)
+        };
+        return {
+            update: f2,
+            setAction: f1
+        }
+    };
+    //]]>
+    </script>
+</svg>
+

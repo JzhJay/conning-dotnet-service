@@ -1,0 +1,22 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="bar-adjacent-16" class="iconning iconning-bar-adjacent-16" viewBox="0 0 16 16" id="bar-adjacent16">
+    <g class="iconning-metadata">
+        <title>Adjacent Bar Chart</title>
+    </g>
+    <g class="iconning-container" data-width="16" data-height="16">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.5" y1="16.0" x2="0.5" y2="0.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.0" y1="15.5" x2="16.0" y2="15.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="9.5" x2="3.0" y2="9.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="3.5" x2="3.0" y2="3.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="12.5" x2="2.0" y2="12.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="6.5" x2="2.0" y2="6.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="0.5" x2="2.0" y2="0.5"/>
+        <!-- Adjacent Columns -->
+        <polygon class="iconning iconning-bar iconning-bar-16 iconning-accent-0 iconning-bar-1" points="4.0 14.0 6.0 14.0 6.0 8.583333333333332 4.0 8.583333333333332" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-bar iconning-bar-16 iconning-accent-1 iconning-bar-2" points="7.0 14.0 9.0 14.0 9.0 6.416666666666666 7.0 6.416666666666666" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-bar iconning-bar-16 iconning-accent-0 iconning-bar-1" points="10.0 14.0 12.0 14.0 12.0 1.0 10.0 1.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-bar iconning-bar-16 iconning-accent-1 iconning-bar-2" points="13.0 14.0 15.0 14.0 15.0 5.333333333333332 13.0 5.333333333333332" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

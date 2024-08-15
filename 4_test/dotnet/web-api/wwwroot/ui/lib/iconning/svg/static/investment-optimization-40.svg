@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" data-icon="investment-optimization-40" class="iconning iconning-investment-optimization-40" viewBox="0 0 40 40" id="investment-optimization40">
+    <g class="iconning-metadata">
+        <title>Investment Optimization</title>
+    </g>
+    <g class="iconning-container" data-width="40" data-height="40">
+        <!-- Frontier Line -->
+        <path class="iconning iconning-investment_optimization iconning-investment_optimization-40 iconning-line" d="M 4.482030860758089 35.51796913924191 A 31.035938278483822 31.035938278483822 0 0 1 35.51796913924191 4.4820308607580905" stroke="rgb(  0,  0,  0)" stroke-width="2.3219280948873626" stroke-linecap="round" style="fill:none"/>
+        <!-- Frontier Points -->
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-40 iconning-point" cx="4.4820308607580905" cy="35.51796913924191" r="3.482030860758089" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-40 iconning-point" cx="6.844500991467129" cy="23.641029752160648" r="3.482030860758089" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-40 iconning-point" cx="13.572246722038855" cy="13.572246722038855" r="3.482030860758089" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-40 iconning-point" cx="23.641029752160648" cy="6.844500991467129" r="3.482030860758089" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <circle class="iconning iconning-investment_optimization iconning-investment_optimization-40 iconning-point" cx="35.51796913924191" cy="4.4820308607580905" r="3.482030860758089" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

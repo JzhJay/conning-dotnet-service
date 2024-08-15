@@ -1,0 +1,1 @@
+import{isFunction}from"./functionUtils";export function safeInvokeMember(n,i,...o){if(null!=n){const t=n[i];if(isFunction(t))return t(...o)}}

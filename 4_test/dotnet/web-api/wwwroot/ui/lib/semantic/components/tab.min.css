@@ -1,0 +1,9 @@
+/*!
+ * # Semantic UI 2.3.1 - Tab
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */.ui.tab{display:none}.ui.tab.active,.ui.tab.open{display:block}.ui.tab.loading{display:block;min-height:250px;overflow:hidden;position:relative}.ui.tab.loading *{left:-10000px!important;position:relative!important}.ui.tab.loading.segment:before,.ui.tab.loading:before{border:.2em solid #0000001a;border-radius:500rem;content:"";height:2.5em;left:50%;margin:-1.25em 0 0 -1.25em;position:absolute;top:100px;width:2.5em}.ui.tab.loading.segment:after,.ui.tab.loading:after{-webkit-animation:button-spin .6s linear;animation:button-spin .6s linear;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;border:.2em solid #0000;border-radius:500rem;border-top-color:#767676;-webkit-box-shadow:0 0 0 1px #0000;box-shadow:0 0 0 1px #0000;content:"";height:2.5em;left:50%;margin:-1.25em 0 0 -1.25em;position:absolute;top:100px;width:2.5em}

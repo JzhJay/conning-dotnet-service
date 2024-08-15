@@ -1,0 +1,1 @@
+export function isMac(t){const e="undefined"!=typeof navigator?navigator.platform:void 0,n=null!=t?t:e;return null!=n&&/Mac|iPod|iPhone|iPad/.test(n)}export const isModKeyPressed=(t,e)=>{const n=isMac(e);return n&&t.metaKey||!n&&t.ctrlKey};

@@ -1,0 +1,1 @@
+export function isFunction(n){return"function"==typeof n}export function safeInvoke(n){for(var o=[],t=1;t<arguments.length;t++)o[t-1]=arguments[t];if(isFunction(n))return n.apply(void 0,o)}export function safeInvokeOrValue(n){for(var o=[],t=1;t<arguments.length;t++)o[t-1]=arguments[t];return isFunction(n)?n.apply(void 0,o):n}

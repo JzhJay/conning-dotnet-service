@@ -1,0 +1,22 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" data-icon="line-24" class="iconning iconning-line-24" viewBox="0 0 24 24" id="line24">
+    <g class="iconning-metadata">
+        <title>line</title>
+    </g>
+    <g class="iconning-container" data-width="24" data-height="24">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.5" y1="24.0" x2="0.5" y2="2.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="0.0" y1="23.5" x2="24.0" y2="23.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="17.5" x2="3.0" y2="17.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="11.5" x2="3.0" y2="11.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="1.0" y1="5.5" x2="3.0" y2="5.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="20.5" x2="2.0" y2="20.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="14.5" x2="2.0" y2="14.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="8.5" x2="2.0" y2="8.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="1.0" y1="2.5" x2="2.0" y2="2.5"/>
+        <!-- Line Segments -->
+        <line class="iconning iconning-fill iconning-line iconning-line-24 iconning-accent-1" x1="7.166666666666666" y1="9.0" x2="13.5" y2="15.0" stroke="rgb( 40, 70,200)" stroke-width="3.127443751081734" stroke-linecap="round" style="fill:none"/>
+        <line class="iconning iconning-fill iconning-line iconning-line-24 iconning-accent-1" x1="13.5" y1="15.0" x2="19.833333333333332" y2="4.0" stroke="rgb( 40, 70,200)" stroke-width="3.127443751081734" stroke-linecap="round" style="fill:none"/>
+    </g>
+</svg>

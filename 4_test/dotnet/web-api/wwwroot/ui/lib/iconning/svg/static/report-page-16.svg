@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="report-page-16" class="iconning iconning-report-page-16" viewBox="0 0 16 16" id="report-page16">
+    <g class="iconning-metadata">
+        <title>Report Page</title>
+    </g>
+    <g class="iconning-container" data-width="16" data-height="16">
+        <!-- Report Page -->
+        <path class="iconning iconning-report iconning-report-16 iconning-accent-1 iconning-report-cover" d="M 1.0 4 L 1.7000000000000002 4 L 3.9050000000000002 4 L 3.9050000000000002 5.89 A 1.89 1.89 0 1 0 5.795 5.89 L 5.795 4.0 L 8.0 4.0 L 10.205 4.0 L 10.205 5.89 A 1.89 1.89 0 1 0 12.095 5.89 L 12.095 4.0 L 14.3 4.0 L 15.0 4.0 L 15.0 10.370000000000001 L 1.0 10.370000000000001 L 1.0 4" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <path class="iconning iconning-report iconning-report-16 iconning-accent-1 iconning-report-page-border" d="M 1.0 10.370000000000001 v 4.63 h 14 v -4.63 h -0.7000000000000001 v 3.9299999999999997 h -12.6 v -3.9299999999999997 h -0.7000000000000001" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>

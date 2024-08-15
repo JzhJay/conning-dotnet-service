@@ -1,0 +1,1 @@
+export var RenderMode;!function(e){e.BATCH="batch",e.BATCH_ON_UPDATE="batch-on-update",e.NONE="none"}(RenderMode||(RenderMode={}));

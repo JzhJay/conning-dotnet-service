@@ -1,0 +1,29 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="histogram-32" class="iconning iconning-histogram-32" viewBox="0 0 32 32" id="histogram32">
+    <g class="iconning-metadata">
+        <title>Histogram</title>
+    </g>
+    <g class="iconning-container" data-width="32" data-height="32">
+        <!-- Axes -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="1.5" y1="31.0" x2="1.5" y2="3.0"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-axes" x1="1.0" y1="30.5" x2="31.0" y2="30.5"/>
+        <!-- Major Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="24.5" x2="4.0" y2="24.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="18.5" x2="4.0" y2="18.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="12.5" x2="4.0" y2="12.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-major" x1="2.0" y1="6.5" x2="4.0" y2="6.5"/>
+        <!-- Minor Tick Marks -->
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="27.5" x2="3.0" y2="27.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="21.5" x2="3.0" y2="21.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="15.5" x2="3.0" y2="15.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="9.5" x2="3.0" y2="9.5"/>
+        <line stroke="rgb(  0,  0,  0)" stroke-width="1.0" stroke-linecap="butt" class="iconning iconning-grid-lines-tick-marks iconning-grid-lines-tick-minor" x1="2.0" y1="3.5" x2="3.0" y2="3.5"/>
+        <!-- Histogram Columns -->
+        <polygon class="iconning iconning-fill iconning-histogram iconning-histogram-32 iconning-accent-1 iconning-histogram-1" points="5.0 29.0 7.0 29.0 7.0 26.0 5.0 26.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-fill iconning-histogram iconning-histogram-32 iconning-accent-1 iconning-histogram-2" points="8.0 29.0 10.0 29.0 10.0 22.0 8.0 22.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-fill iconning-histogram iconning-histogram-32 iconning-accent-1 iconning-histogram-3" points="11.0 29.0 13.0 29.0 13.0 11.0 11.0 11.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-fill iconning-histogram iconning-histogram-32 iconning-accent-1 iconning-histogram-4" points="14.0 29.0 16.0 29.0 16.0 5.0 14.0 5.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-fill iconning-histogram iconning-histogram-32 iconning-accent-1 iconning-histogram-5" points="17.0 29.0 19.0 29.0 19.0 11.0 17.0 11.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-fill iconning-histogram iconning-histogram-32 iconning-accent-1 iconning-histogram-6" points="20.0 29.0 22.0 29.0 22.0 22.0 20.0 22.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+        <polygon class="iconning iconning-fill iconning-histogram iconning-histogram-32 iconning-accent-1 iconning-histogram-7" points="23.0 29.0 25.0 29.0 25.0 26.0 23.0 26.0" fill="rgb( 40, 70,200)" style="stroke:none"/>
+    </g>
+</svg>
