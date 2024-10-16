@@ -501,6 +501,7 @@ namespace Conning.Kui.Web
             services.AddAWSService<Amazon.S3.IAmazonS3>();
 
             services.AddSingleton<MongoDbService>();
+            services.AddSingleton<PostgreService>();
             services.AddSingleton<OmdbService>();
 
             if (appSettings.auth.provider == "keycloak")
@@ -702,25 +703,25 @@ namespace Conning.Kui.Web
                 routes.MapRoute("default", "{controller}/{action}");
                 routes.MapRoute("Unknown api call", "api/{*url}", new NotFoundResult());
 
-                if (env.IsDevelopment())
-                {
-                    routes.MapMiddlewareGet("/ui/{*url}",  _app =>
-                    {
-                        _app.UseSpa(spa =>
-                        {
-                            var webpackServerHostName = Environment.GetEnvironmentVariable("REMOTE_CONTAINERS") == "true"
-                                ? "advise.test"
-                                : "localhost";
-                            spa.UseProxyToSpaDevelopmentServer($"http://{webpackServerHostName}:5001");
-                        });
-                    });
+                // if (env.IsDevelopment())
+                // {
+                //     routes.MapMiddlewareGet("/ui/{*url}",  _app =>
+                //     {
+                //         _app.UseSpa(spa =>
+                //         {
+                //             var webpackServerHostName = Environment.GetEnvironmentVariable("REMOTE_CONTAINERS") == "true"
+                //                 ? "advise.test"
+                //                 : "localhost";
+                //             spa.UseProxyToSpaDevelopmentServer($"http://{webpackServerHostName}:5001");
+                //         });
+                //     });
 
-                    routes.MapRoute("React", "{*url}", defaults: new {controller = "React", action = "Index"});
-                }
-                else
-                {
-                    routes.MapRoute("React", "{*url}", defaults: new {controller = "React", action = "Index"});
-                }
+                //     routes.MapRoute("React", "{*url}", defaults: new {controller = "React", action = "Index"});
+                // }
+                // else
+                // {
+                routes.MapRoute("React", "{*url}", defaults: new {controller = "React", action = "Index"});
+                // }
             });
 
             appLifetime.ApplicationStarted.Register(() =>

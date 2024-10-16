@@ -12,6 +12,10 @@ namespace Conning.Db.Services
         {
         }
 
+        public UserDatabase(PostgreService service, string tenant) : base(service, tenant)
+        {
+        }
+
         protected override String GetDatabaseName(string connectionString)
         {
             return "auth_" + this.TenantName;

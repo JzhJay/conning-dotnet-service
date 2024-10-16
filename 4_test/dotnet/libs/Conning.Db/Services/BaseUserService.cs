@@ -81,6 +81,7 @@ namespace Conning.Db.Services
         private ILogger<BaseUserService> _log;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private MongoDbService _mongo;
+        private PostgreService _postgres;
         private bool _isMultiTenant;
         
         
@@ -121,6 +122,11 @@ namespace Conning.Db.Services
         public void SetMongoDbService(MongoDbService mongo)
         {
             this._mongo = mongo;
+        }
+
+        public void SetPostgreService(PostgreService postgres)
+        {
+            this._postgres = postgres;
         }
 
         public String GetCurrentUserId()

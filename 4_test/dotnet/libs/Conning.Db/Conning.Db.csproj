@@ -20,6 +20,7 @@
 
     <PackageReference Include="MongoDB.Driver" Version="2.19.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Npgsql" Version="6.0" />
     <!-- Adding direct dependency to force SharpCompress upgrade and resolve a vulnerability (TRAC-5052). See if this direct dependency can be removed after upgrading MongoDB.Driver version -->
     <PackageReference Include="SharpCompress" Version="0.30.1" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.7.0" />

@@ -7,6 +7,7 @@ using Conning.Db.Services;
 using Conning.Library.Utility;
 using Conning.Models.OMDB;
 using GraphQL;
+using Npgsql;
 using GraphQL.Resolvers;
 using GraphQL.Types;
 using Microsoft.Extensions.Caching.Memory;
@@ -160,6 +161,7 @@ namespace Conning.GraphQL
         private OmdbCache _cache;
 
         private MongoDbService _mongo;
+        private PostgreService _postgres;
         public ILogger<OmdbService> log;
         public const string UI_COLLECTION = "omdb_ui";
 
@@ -170,10 +172,11 @@ namespace Conning.GraphQL
 
         public readonly string schemaVersion;
 
-        public OmdbService(IMemoryCache cache, MongoDbService mongo, ILogger<OmdbService> _log, IOptions<AdviseAppSettings> settings)
+        public OmdbService(IMemoryCache cache, MongoDbService mongo, PostgreService postgres, ILogger<OmdbService> _log, IOptions<AdviseAppSettings> settings)
         {
             _cache = new OmdbCache(this, cache);
             _mongo = mongo;
+            _postgres = postgres;
             log = _log;
             _settings = settings;
             schemaVersion = _settings.Value.omdb.schemaVersion;
@@ -218,6 +221,8 @@ namespace Conning.GraphQL
         }
 
         public MongoDbService MongoService => this._mongo;
+
+        public PostgreService PostgreService => this._postgres;
 
         public AdviseAppSettings Settings => _settings.Value;
 
@@ -421,6 +426,290 @@ namespace Conning.GraphQL
 		    });
 
 	        return pipeline;
+        }
+
+        public async Task<NpgsqlDataReader> RunQueryPostgresAsync(IEnumerable<string> objectTypes, IDictionary<string, object> whereParams, int skip = 0,
+            int limit = DEFAULT_QUERY_LIMIT, string searchText = "",
+            string sortBy = "", string sortOrder = "asc",  IEnumerable<string> searchTags = null, IEnumerable<string> favorites = null, string path = null)
+        {
+            if (limit == 0)
+            {
+                limit = DEFAULT_QUERY_LIMIT;
+            }
+
+            var tenant = _mongo.getCurrentTenant();
+            var cacheKey = $"{OmdbCacheKeys.RunQuery}_" + JsonConvert.SerializeObject(new {objectTypes, whereParams, skip, limit, searchText, sortBy, sortOrder, searchTags, favorites, tenant, path});
+            var sortOrderIsDesc = !string.IsNullOrEmpty(sortOrder) && sortOrder.ToLower() == "desc";
+
+            log.LogInformation($"Try to get query result from key: {cacheKey}");
+            return await _cache.GetValue(cacheKey, async entry =>
+            {
+                log.LogInformation($"Cannot found data in cache, store query result by key: {cacheKey}, tenant: {tenant}");
+                var result = new OmdbQueryResult()
+                {
+                    input = new OmdbQueryRunInput()
+                    {
+                        objectTypes = objectTypes.ToList(),
+                        limit = limit,
+                        searchText = searchText,
+                        sortBy = sortBy,
+                        sortOrder = sortOrder,
+                        where = (Dictionary<string, object>)whereParams
+                    }
+                };
+
+                if (objectTypes == null)
+                {
+                    objectTypes = ObjectTypes;
+                }
+
+                whereParams = ConvertWhereParamsForQuery(objectTypes, whereParams);
+
+                BsonArray sortByUserTag = null;
+                if (!string.IsNullOrEmpty(sortBy))
+                {
+	                var userTagCollection = db.GetCollection<dynamic>("UserTag");
+	                var userTagDocuments = userTagCollection.Find(Builders<dynamic>.Filter.Eq("name", sortBy)).ToList();
+	                if (userTagDocuments.Count > 0)
+	                {
+		                // sortBy = "";
+		                sortByUserTag = new BsonArray(userTagDocuments.Select<dynamic,ObjectId>(doc => doc._id));
+		            }
+                }
+
+
+                var objectType = "omdb_ui";
+
+                if (objectTypes.Count() == 1)
+                {
+	                objectType = objectTypes.First();
+                }
+                else if (objectTypes.Count() > 0)
+                {
+	                return null;
+                }
+                else
+                {
+	                return null;
+                }
+
+                var listSqlText = new List<string>();
+
+                string dropAllViewIfExist = @"
+                DROP VIEW IF EXISTS
+                aggFacetResult, facetResult, sortByFolder, replaceRoot, addFavoriteTag, addSortByModifiedTime, groupResult, mergeLookup,
+                lookupResult, simulationUserTagValues;";
+                listSqlText.Add(dropAllViewIfExist);
+
+                string createViewSimUserTagValues = @"
+                CREATE VIEW simulationUserTagValues AS
+                SELECT
+                    json_array_elements_text(coalesce((_jsonb->>'userTagValues')::json, '[null]')) AS userTagValues,
+                    _jsonb
+                FROM ferretdb.simulation_4e6c5d36;";
+                listSqlText.Add(createViewSimUserTagValues);
+
+                string createViewLookupResult = @"
+                CREATE VIEW lookupResult AS
+                SELECT 
+                    _jsonb->>'_id' AS _id,
+                    _jsonb->>'scenarios' AS scenarios,
+                    (_jsonb->>'modules')::json AS modules,
+                    (_jsonb->>'jobsIds')::json AS jobsIds,
+                    _jsonb->>'createdBy' AS createdBy,
+                    _jsonb->>'elements' AS elements,
+                    (_jsonb->>'axes')::json AS axes,
+                    _jsonb->>'gridName' AS gridName,
+                    (_jsonb->>'periods')::json AS periods,
+                    _jsonb->>'size' AS size,
+                    (_jsonb->>'economies')::json AS economies,
+                    _jsonb->>'path' AS path,
+                    _jsonb->>'modifiedTime' AS modifiedTime,
+                    _jsonb->>'name' AS name,
+                    _jsonb->>'variables' AS variables,
+                    _jsonb->>'createdTime' AS createdTime,
+                    _jsonb->>'deletedTime' AS deletedTime,
+                    _jsonb->>'status' AS status,
+                    _jsonb->>'archived' AS archived,
+                    (_jsonb->>'billingInformation')::json AS billingInformation,
+                    (_jsonb->>'frequencies')::json AS frequencies,
+                    _jsonb->>'modifiedBy' AS modifiedBy,
+                    _jsonb->>'version' AS version,
+                    (_jsonb->>'userTagValues')::json AS userTagValues,
+                    'Simulation' AS __typename,
+                    _jsonb->>'_id' AS _idString,
+                    (
+                        SELECT json_agg(_jsonb)
+                        FROM ferretdb.usertagvalue_eb2a1c13
+                        WHERE _jsonb->>'_id' IN (simulationUserTagValues.userTagValues)
+                    ) AS userTagValuesResolved
+                FROM simulationUserTagValues
+                WHERE NOT EXISTS 
+                (
+                SELECT 1
+                FROM jsonb_each(_jsonb)
+                WHERE key='isLink'
+                )
+                OR _jsonb->>'_id'='false';"; 
+                listSqlText.Add(createViewLookupResult);
+
+                string createViewMergeLookup = @"
+                CREATE VIEW mergeLookup AS 
+                SELECT 
+                    CASE
+                        WHEN ARRAY_LENGTH(string_to_array(name,'/'),1) > 1 THEN split_part(name,'/',1)
+                        ELSE _id
+                    END AS _id,
+                    createdtime AS createdTime,
+                    modifiedtime AS modifiedTime,
+                    json_build_object('_id',_id,
+                                    'scenarios',scenarios,
+                                    'modules',modules,
+                                    'jobsIds',jobsids,
+                                    'createdBy',createdby,
+                                    'elements',elements,
+                                    'axes',axes,
+                                    'gridName',gridname,
+                                    'periods',periods,
+                                    'size',size,
+                                    'economies',economies,
+                                    'path',path,
+                                    'modifiedTime',modifiedtime,
+                                    'name',name,
+                                    'variables',variables,
+                                    'createdTime',createdtime,
+                                    'deletedTime',deletedtime,
+                                    'status',status,
+                                    'archived',archived,
+                                    'billingInformation',billinginformation,
+                                    'frequencies',frequencies,
+                                    'modifiedBy',modifiedby,
+                                    'version',version,
+                                    'userTagValues',usertagvalues,
+                                    '__typename',__typename,
+                                    '_idString',_idString,
+                                    'userTagValuesResolved',userTagValuesResolved) AS json
+                FROM lookupResult;"; 
+                listSqlText.Add(createViewMergeLookup);
+
+                string createViewGroupResult = @"
+                CREATE VIEW groupResult AS
+                SELECT 
+                    _id,
+                    json_agg(json)->0 result,COUNT(_id) numobjects,createdtime,modifiedtime
+                FROM mergeLookup
+                GROUP BY _id,createdtime,modifiedtime;"; 
+                listSqlText.Add(createViewGroupResult);
+
+                string createViewAddSortByModifedTime = @"
+                CREATE VIEW addSortByModifiedTime AS
+                SELECT 
+                    *,
+                    CASE 
+                        WHEN (modifiedTime > createdTime) THEN modifiedTime
+                        ELSE createdTime
+                    END AS _sort_modifiedTime
+                FROM groupResult
+                ORDER BY _sort_modifiedtime DESC;"; 
+                listSqlText.Add(createViewAddSortByModifedTime);
+
+                string createViewAddFavoriteTag = @"
+                CREATE VIEW addFavoriteTag AS
+                SELECT 
+                    *,
+                    CASE 
+                        WHEN _id LIKE '%[]%' THEN true
+                        ELSE false
+                    END AS isFavorite
+                FROM addSortByModifiedTime
+                ORDER BY isfavorite DESC;"; 
+                listSqlText.Add(createViewAddFavoriteTag);
+
+                string createViewReplaceRoot = @"
+                CREATE VIEW replaceRoot AS 
+                SELECT 
+                    CASE
+                        WHEN(numobjects > 1 OR _id <> result->>'_id') THEN json_build_object('_id',_id,
+                                                                                        'result',result,
+                                                                                        'numObjects',numobjects,
+                                                                                        'createdTime',createdtime,
+                                                                                        'modifiedTime',modifiedtime,
+                                                                                        'name',_id,
+                                                                                        '_isObjectFolder',true,
+                                                                                        '_sort_modifiedTime',_sort_modifiedtime,
+                                                                                        'isFavorite',isfavorite)
+                        ELSE json_build_object('_id',_id,
+                                            'result',result,
+                                            'numObjects',numobjects,
+                                            'createdTime',createdtime,
+                                            'modifiedTime',modifiedtime,
+                                            'scenarios',result->>'scenarios',
+                                            'modules',(result->>'modules')::json,
+                                            'jobsIds',(result->>'jobsIds')::json,
+                                            'createdBy',result->>'createdBy',
+                                            'elements',result->>'elements',
+                                            'axes',(result->>'axes')::json,
+                                            'gridName',result->>'gridName',
+                                            'periods',(result->>'periods')::json,
+                                            'size',result->>'size',
+                                            'economies',(result->>'economies')::json,
+                                            'path',result->>'path',
+                                            'name',result->>'name',
+                                            'variables',result->>'variables',
+                                            'deletedTime',result->>'deletedTime',
+                                            'status',result->>'status',
+                                            'archived',result->>'archived',
+                                            'billingInformation',(result->>'billingInformation')::json,
+                                            'frequencies',(result->>'frequencies')::json,
+                                            'modifiedBy',result->>'modifiedBy',
+                                            'version',result->>'version',
+                                            'userTagValues',(result->>'userTagValues')::json,
+                                            '__typename',result->>'__typename',
+                                            '_idString',result->>'_idString',
+                                            'userTagValuesResolved',(result->>'userTagValuesResolved')::json,
+                                            '_sort_modifiedTime',_sort_modifiedtime,
+                                            'isFavorite',isfavorite)
+                    END AS agg
+                FROM addFavoriteTag;"; 
+                listSqlText.Add(createViewReplaceRoot);
+
+                string createViewSortByFolder = @"
+                CREATE VIEW sortByFolder AS
+                SELECT * 
+                FROM replaceRoot
+                ORDER BY agg->>'_isObjectFolder' ASC;";
+                listSqlText.Add(createViewSortByFolder);
+
+                string createViewFacetResult = @"
+                CREATE VIEW facetResult AS
+                SELECT json_agg(agg), COUNT(*)  FROM sortByFolder
+                LIMIT 20 
+                OFFSET 0;";
+                listSqlText.Add(createViewFacetResult);
+
+                string createViewAggFacetResult = @"
+                CREATE VIEW aggFacetResult AS
+                SELECT 
+                    json_agg(json_agg) AS results, 
+                    json_agg(json_build_object('count',count)) AS totalCount 
+                FROM facetResult;";
+                listSqlText.Add(createViewAggFacetResult);
+
+                string getAggResult = @"
+                SELECT json_build_object('results',results->0,'totalCount',totalCount)
+                FROM aggFacetResult;";
+                listSqlText.Add(getAggResult);
+
+                string finalSqlText = "";
+                foreach (var sqltext in listSqlText) 
+                {
+                    finalSqlText += listSqlText;
+                }
+
+                NpgsqlCommand command = new NpgsqlCommand(finalSqlText, _postgres.sqlDatabase);
+                var aggResult = await command.ExecuteReaderAsync();
+                return aggResult;
+            });
         }
 
         public async Task<OmdbQueryResult> RunQueryAsync(IEnumerable<string> objectTypes, IDictionary<string, object> whereParams, int skip = 0,
@@ -974,6 +1263,258 @@ namespace Conning.GraphQL
 
         secureQuery(FilterDefinition<TDocument> filter)*/
 
+        public async Task<Dictionary<string, List<DistinctTagValuesEntry>>> getDistinctTagValuesPostgres(ObjectGraphType[] objectTypes, IEnumerable<string> tags, string searchText,
+            Dictionary<string, object> where, string path)
+        {
+            var objectTypeNames = objectTypes.Select(ot => ot.Name).ToArray();
+
+            where = (Dictionary<string, object>) ConvertWhereParamsForQuery(objectTypeNames, new Dictionary<string, object>(where));
+
+            var tenant = _postgres.getCurrentTenant();
+            var cacheKey = $"{OmdbCacheKeys.GetDistinctTagValues}_" + JsonConvert.SerializeObject(new {objectTypes = objectTypeNames, tags, searchText, where, path, tenant});
+            return await _cache.GetValue(cacheKey, async entry =>
+            {
+                var result = new Dictionary<string, List<DistinctTagValuesEntry>>();
+                foreach (var objectType in objectTypes)
+                {
+                    var listSqlText = new List<string>();
+                    string dropAllViewIfExist = @"DROP VIEW IF EXISTS 
+                    aggFacet,versionFacet,variablesFacet,useCaseFacet,statusFacet,sourceTypeFacet,
+                    scenariosFacet,productVersionFacet,parameterizationMeasureFacet,modulesFacet,
+                    modifiedByFacet,gridNameFacet,frequenciesFacet,economiesFacet,createdByFacet,
+                    matchResult;"; 
+                    listSqlText.Add(dropAllViewIfExist);
+
+                    string matchResult = @"CREATE VIEW matchResult AS
+                    SELECT 
+                        _jsonb->>'_id' AS _id,
+                        _jsonb->>'scenarios' AS scenarios,
+                        (_jsonb->>'modules')::jsonb AS modules,
+                        (_jsonb->>'jobsIds')::jsonb AS jobsIds,
+                        _jsonb->>'createdBy' AS createdBy,
+                        _jsonb->>'elements' AS elements,
+                        (_jsonb->>'axes')::jsonb AS axes,
+                        _jsonb->>'gridName' AS gridName,
+                        (_jsonb->>'periods')::jsonb AS periods,
+                        _jsonb->>'size' AS size,
+                        (_jsonb->>'economies')::jsonb AS economies,
+                        _jsonb->>'path' AS path,
+                        _jsonb->>'modifiedTime' AS modifiedTime,
+                        _jsonb->>'name' AS name,
+                        _jsonb->>'variables' AS variables,
+                        _jsonb->>'createdTime' AS createdTime,
+                        _jsonb->>'deletedTime' AS deletedTime,
+                        _jsonb->>'status' AS status,
+                        _jsonb->>'archived' AS archived,
+                        (_jsonb->>'billingInformation')::jsonb AS billingInformation,
+                        (_jsonb->>'frequencies')::jsonb AS frequencies,
+                        _jsonb->>'modifiedBy' AS modifiedBy,
+                        _jsonb->>'version' AS version,
+                        coalesce((_jsonb->>'Physical')::jsonb, NULL) AS parameterizationMeasure,
+                        coalesce((_jsonb->>'useCase')::jsonb, NULL) AS useCase,
+                        'Latest' AS productVersion,
+                        'Classic' AS sourceType
+                    FROM ferretdb.simulation_4e6c5d36
+                    WHERE NOT EXISTS 
+                    (
+                    SELECT 1
+                    FROM jsonb_each(_jsonb)
+                    WHERE key='isLink'
+                    )
+                    OR _jsonb->>'isLink'='false';";
+                    listSqlText.Add(matchResult);
+
+                    string createdByFacet = @"CREATE VIEW createdByFacet AS
+                    SELECT
+                        createdBy AS _id,
+                        COUNT(*) AS count
+                    FROM matchResult
+                    WHERE createdBy IS NOT NULL
+                    GROUP BY createdBy;";
+                    listSqlText.Add(createdByFacet);
+
+                    string economiesFacet = @"CREATE VIEW economiesFacet AS
+                    SELECT 
+                        e.economie->0 AS _id,
+                        COUNT(*) AS count
+                    FROM
+                    (
+                        SELECT jsonb_array_elements(economies) AS economie
+                        FROM matchResult
+                        WHERE economies IS NOT NULL
+                    ) AS e
+                    GROUP BY e.economie;";
+                    listSqlText.Add(economiesFacet);
+
+                    string frequenciesFacet = @"CREATE VIEW frequenciesFacet AS
+                    SELECT 
+                        e.frequencie->0 AS _id,
+                        COUNT(*) AS count
+                    FROM
+                    (
+                        SELECT jsonb_array_elements(frequencies) AS frequencie
+                        FROM matchResult
+                        WHERE frequencies IS NOT NULL
+                    ) AS e
+                    GROUP BY e.frequencie";
+                    listSqlText.Add(frequenciesFacet);
+
+                    string gridNameFacet = @"CREATE VIEW gridNameFacet AS
+                    SELECT
+                        gridName AS _id,
+                        COUNT(*) AS count
+                    FROM matchResult
+                    WHERE gridName IS NOT NULL
+                    GROUP BY gridName;";
+                    listSqlText.Add(gridNameFacet);
+
+                    string modifiedByFacet = @"CREATE VIEW modifiedByFacet AS
+                    SELECT
+                        modifiedBy AS _id,
+                        COUNT(*) AS count
+                    FROM matchResult
+                    WHERE modifiedBy IS NOT NULL
+                    GROUP BY modifiedBy;";
+                    listSqlText.Add(modifiedByFacet);
+
+                    string modulesFacet = @"CREATE VIEW modulesFacet AS
+                    SELECT 
+                        e.module->0 AS _id,
+                        COUNT(*) AS count
+                    FROM
+                    (
+                        SELECT jsonb_array_elements(modules) AS module
+                        FROM matchResult
+                        WHERE modules IS NOT NULL
+                    ) AS e
+                    GROUP BY e.module;";
+                    listSqlText.Add(modulesFacet);
+
+                    string parameterizationMeasureFacet = @"CREATE VIEW parameterizationMeasureFacet AS
+                    SELECT
+                        parameterizationMeasure AS _id,
+                        COUNT(*) AS count
+                    FROM matchResult
+                    WHERE parameterizationMeasure IS NOT NULL
+                    GROUP BY parameterizationMeasure;";
+                    listSqlText.Add(parameterizationMeasureFacet);
+
+                    string productVersionFacet = @"CREATE VIEW productVersionFacet AS
+                    SELECT
+                        productVersion AS _id,
+                        COUNT(*) AS count
+                    FROM matchResult
+                    WHERE productVersion IS NOT NULL
+                    GROUP BY productVersion;";
+                    listSqlText.Add(productVersionFacet);
+
+                    string sourceTypeFacet = @"CREATE VIEW sourceTypeFacet AS
+                    SELECT
+                        sourceType AS _id,
+                        COUNT(*) AS count
+                    FROM matchResult
+                    WHERE sourceType IS NOT NULL
+                    GROUP BY sourceType;";
+                    listSqlText.Add(sourceTypeFacet);
+
+                    string statusFacet = @"CREATE VIEW statusFacet AS
+                    SELECT
+                        status AS _id,
+                        COUNT(*) AS count
+                    FROM matchResult
+                    WHERE status IS NOT NULL
+                    GROUP BY status;";
+                    listSqlText.Add(statusFacet);
+
+                    string useCaseFacet = @"CREATE VIEW useCaseFacet AS
+                    SELECT
+                        useCase AS _id,
+                        COUNT(*) AS count
+                    FROM matchResult
+                    WHERE useCase IS NOT NULL
+                    GROUP BY useCase;";
+                    listSqlText.Add(useCaseFacet);
+
+                    string variablesFacet = @"CREATE VIEW variablesFacet AS
+                    SELECT
+                        variables AS _id,
+                        COUNT(*) AS count
+                    FROM matchResult
+                    WHERE variables IS NOT NULL
+                    GROUP BY variables;";
+                    listSqlText.Add(variablesFacet);
+
+                    string versionFacet = @"CREATE VIEW versionFacet AS
+                    SELECT
+                        version AS _id,
+                        COUNT(*) AS count
+                    FROM matchResult
+                    WHERE version IS NOT NULL
+                    GROUP BY version;";
+                    listSqlText.Add(versionFacet);
+
+                    string aggFacet = @"CREATE VIEW aggFacet AS 
+                    SELECT jsonb_agg(e.agg)
+                    FROM
+                    (
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM createdByFacet
+                        UNION ALL
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM economiesFacet
+                        UNION ALL
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM frequenciesFacet
+                        UNION ALL
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM gridNameFacet
+                        UNION ALL
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM modifiedByFacet
+                        UNION ALL
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM modulesFacet
+                        UNION ALL
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM parameterizationMeasureFacet
+                        UNION ALL
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM productVersionFacet
+                        UNION ALL
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM scenariosFacet
+                        UNION ALL
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM sourceTypeFacet
+                        UNION ALL
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM statusFacet
+                        UNION ALL
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM useCaseFacet
+                        UNION ALL
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM variablesFacet
+                        UNION ALL
+                        SELECT jsonb_agg(jsonb_build_object('_id',_id,'count',count)) AS agg FROM versionFacet
+                    ) e;";
+                    listSqlText.Add(aggFacet);
+
+                    string getAggResult = @"
+                    SELECT jsonb_build_object('createdBy',jsonb_agg->0,
+						  'economies',jsonb_agg->1,
+						  'frequencies',jsonb_agg->2,
+						  'gridName',jsonb_agg->3,
+						  'modifiedBy',jsonb_agg->4,
+						  'modules',jsonb_agg->5,
+						  'parameterizationMeasure',jsonb_agg->6,
+						  'productVersion',jsonb_agg->7,
+						  'scenarios',jsonb_agg->8,
+						  'sourceType',jsonb_agg->9,
+						  'status',jsonb_agg->10,
+						  'useCase',jsonb_agg->11,
+						  'variables',jsonb_agg->12,
+						  'version',jsonb_agg->13)
+                    FROM aggFacet";
+                    listSqlText.Add(getAggResult);
+
+                    string finalSqlText = listSqlText.Aggregate("", (current, next) => current + next);
+                    await using var command = new NpgsqlCommand(dropAllViewIfExist, _postgres.sqlDatabase);
+                    await using var aggResult = await command.ExecuteReaderAsync();
+                    string test = "";
+
+                }
+                return result;
+            });
+    
+        }
 
         public async Task<Dictionary<string, List<DistinctTagValuesEntry>>> getDistinctTagValues(ObjectGraphType[] objectTypes, IEnumerable<string> tags, string searchText,
             Dictionary<string, object> where, string path)
@@ -1243,6 +1784,17 @@ namespace Conning.GraphQL
 			        }
 		        ));
         }
+
+        // private async Task RunDistinctTagValuesAggregationPipelinePostgres(List<DistinctTagValuesEntry> entries, IMongoCollection<dynamic> collection, string sqlCommand, Dictionary<string, FieldType> fields, IEnumerable<string> tags, bool isUserTag)
+        // {
+        //     if (!tags.Any())
+        //     {
+        //         return;
+        //     }
+
+
+            
+        // }
         
         
         private async Task RunDistinctTagValuesAggregationPipeline(List<DistinctTagValuesEntry> entries, IMongoCollection<dynamic> collection, List<BsonDocument> queryPipelines, Dictionary<string, FieldType> fields, IEnumerable<string> tags, bool isUserTag)
