@@ -1,0 +1,386 @@
+{
+  {
+    "results": [
+      {
+        "__typename": "Simulation",
+        "_id": ObjectId("66a88a48e044c24e69b45b2c"),
+        "_idString": "66a88a48e044c24e69b45b2c",
+        "_sort_modifiedTime": ISODate("2018-06-17T15:56:59.585Z"),
+        "archived": false,
+        "axes": [
+          "User_value",
+          "FTime",
+          "Securities",
+          "Taxlot"
+        ],
+        "billingInformation": {
+          "compilationEndTime": 1521630840,
+          "elements": NumberLong("12710000000"),
+          "simulationWorkerEndTime": 1522847040,
+          "startTime": 1521630840
+        },
+        "createdBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+        "createdTime": ISODate("2018-06-17T15:56:59.585Z"),
+        "deletedTime": null,
+        "economies": [
+          "US",
+          "DE",
+          "CA"
+        ],
+        "elements": "Not Applicable",
+        "frequencies": [
+          "Year",
+          "Quarter"
+        ],
+        "gridName": "Fake_Grid_Name_1",
+        "isFavorite": false,
+        "jobIds": [
+          "Fake_job_id_1"
+        ],
+        "modifiedBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+        "modifiedTime": ISODate("2018-06-16T15:56:59.585Z"),
+        "modules": [],
+        "name": "Fake_Simulation_1",
+        "numObjects": 1,
+        "path": "Fake_s3_path_4",
+        "periods": {
+          "Quarter": 7,
+          "Year": 12
+        },
+        "result": {
+          "__typename": "Simulation",
+          "_id": ObjectId("66a88a48e044c24e69b45b2c"),
+          "_idString": "66a88a48e044c24e69b45b2c",
+          "archived": false,
+          "axes": [
+            "User_value",
+            "FTime",
+            "Securities",
+            "Taxlot"
+          ],
+          "billingInformation": {
+            "compilationEndTime": 1521630840,
+            "elements": NumberLong("12710000000"),
+            "simulationWorkerEndTime": 1522847040,
+            "startTime": 1521630840
+          },
+          "createdBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+          "createdTime": ISODate("2018-06-17T15:56:59.585Z"),
+          "deletedTime": null,
+          "economies": [
+            "US",
+            "DE",
+            "CA"
+          ],
+          "elements": "Not Applicable",
+          "frequencies": [
+            "Year",
+            "Quarter"
+          ],
+          "gridName": "Fake_Grid_Name_1",
+          "jobIds": [
+            "Fake_job_id_1"
+          ],
+          "modifiedBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+          "modifiedTime": ISODate("2018-06-16T15:56:59.585Z"),
+          "modules": [],
+          "name": "Fake_Simulation_1",
+          "path": "Fake_s3_path_4",
+          "periods": {
+            "Quarter": 7,
+            "Year": 12
+          },
+          "scenarios": 5,
+          "size": "Not Applicable",
+          "status": "Complete",
+          "userTagValues": [ObjectId("66a0b78e943c840c637b414f"), ObjectId("66a0b78e943c840c637b4150")
+          ],
+          "userTagValuesResolved": [
+            {
+              "_id": ObjectId("66a0b78e943c840c637b414f"),
+              "background": "yellow",
+              "color": "black",
+              "tag": ObjectId("5b33b21cbe4b3c0d543ee2a2"),
+              "value": "Value 1 (yellow)"
+            },
+            {
+              "_id": ObjectId("66a0b78e943c840c637b4150"),
+              "background": "blue",
+              "color": "white",
+              "tag": ObjectId("5b33b21cbe4b3c0d543ee2a2"),
+              "value": "Value 2 (blue)"
+            }
+          ],
+          "variables": 2974,
+          "version": "Not Applicable"
+        },
+        "scenarios": 5,
+        "size": "Not Applicable",
+        "status": "Complete",
+        "userTagValues": [ObjectId("66a0b78e943c840c637b414f"), ObjectId("66a0b78e943c840c637b4150")
+        ],
+        "userTagValuesResolved": [
+          {
+            "_id": ObjectId("66a0b78e943c840c637b414f"),
+            "background": "yellow",
+            "color": "black",
+            "tag": ObjectId("5b33b21cbe4b3c0d543ee2a2"),
+            "value": "Value 1 (yellow)"
+          },
+          {
+            "_id": ObjectId("66a0b78e943c840c637b4150"),
+            "background": "blue",
+            "color": "white",
+            "tag": ObjectId("5b33b21cbe4b3c0d543ee2a2"),
+            "value": "Value 2 (blue)"
+          }
+        ],
+        "variables": 2974,
+        "version": "Not Applicable"
+      },
+      {
+        "__typename": "Simulation",
+        "_id": ObjectId("66d6bb07761175487a6baf92"),
+        "_idString": "66d6bb07761175487a6baf92",
+        "_sort_modifiedTime": ISODate("2018-06-17T15:56:59.585Z"),
+        "archived": false,
+        "axes": [
+          "User_value",
+          "FTime",
+          "Securities",
+          "Taxlot"
+        ],
+        "billingInformation": {
+          "compilationEndTime": 1521630840,
+          "elements": NumberLong("12710000000"),
+          "simulationWorkerEndTime": 1522847040,
+          "startTime": 1521630840
+        },
+        "createdBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+        "createdTime": ISODate("2018-06-17T15:56:59.585Z"),
+        "deletedTime": null,
+        "economies": [
+          "US",
+          "DE",
+          "CA"
+        ],
+        "elements": "Not Applicable",
+        "frequencies": [
+          "Year",
+          "Quarter"
+        ],
+        "gridName": "Fake_Grid_Name_1",
+        "isFavorite": false,
+        "jobIds": [
+          "Fake_job_id_1"
+        ],
+        "modifiedBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+        "modifiedTime": ISODate("2018-06-16T15:56:59.585Z"),
+        "modules": [],
+        "name": "Demo",
+        "numObjects": 1,
+        "path": "Fake_s3_path_4",
+        "periods": {
+          "Quarter": 7,
+          "Year": 12
+        },
+        "result": {
+          "__typename": "Simulation",
+          "_id": ObjectId("66d6bb07761175487a6baf92"),
+          "_idString": "66d6bb07761175487a6baf92",
+          "archived": false,
+          "axes": [
+            "User_value",
+            "FTime",
+            "Securities",
+            "Taxlot"
+          ],
+          "billingInformation": {
+            "compilationEndTime": 1521630840,
+            "elements": NumberLong("12710000000"),
+            "simulationWorkerEndTime": 1522847040,
+            "startTime": 1521630840
+          },
+          "createdBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+          "createdTime": ISODate("2018-06-17T15:56:59.585Z"),
+          "deletedTime": null,
+          "economies": [
+            "US",
+            "DE",
+            "CA"
+          ],
+          "elements": "Not Applicable",
+          "frequencies": [
+            "Year",
+            "Quarter"
+          ],
+          "gridName": "Fake_Grid_Name_1",
+          "jobIds": [
+            "Fake_job_id_1"
+          ],
+          "modifiedBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+          "modifiedTime": ISODate("2018-06-16T15:56:59.585Z"),
+          "modules": [],
+          "name": "Demo",
+          "path": "Fake_s3_path_4",
+          "periods": {
+            "Quarter": 7,
+            "Year": 12
+          },
+          "scenarios": 5,
+          "size": "Not Applicable",
+          "status": "Complete",
+          "userTagValues": [ObjectId("66a0b78e943c840c637b414f"), ObjectId("66a0b78e943c840c637b4150")
+          ],
+          "userTagValuesResolved": [
+            {
+              "_id": ObjectId("66a0b78e943c840c637b414f"),
+              "background": "yellow",
+              "color": "black",
+              "tag": ObjectId("5b33b21cbe4b3c0d543ee2a2"),
+              "value": "Value 1 (yellow)"
+            },
+            {
+              "_id": ObjectId("66a0b78e943c840c637b4150"),
+              "background": "blue",
+              "color": "white",
+              "tag": ObjectId("5b33b21cbe4b3c0d543ee2a2"),
+              "value": "Value 2 (blue)"
+            }
+          ],
+          "variables": 2974,
+          "version": "Not Applicable"
+        },
+        "scenarios": 5,
+        "size": "Not Applicable",
+        "status": "Complete",
+        "userTagValues": [ObjectId("66a0b78e943c840c637b414f"), ObjectId("66a0b78e943c840c637b4150")
+        ],
+        "userTagValuesResolved": [
+          {
+            "_id": ObjectId("66a0b78e943c840c637b414f"),
+            "background": "yellow",
+            "color": "black",
+            "tag": ObjectId("5b33b21cbe4b3c0d543ee2a2"),
+            "value": "Value 1 (yellow)"
+          },
+          {
+            "_id": ObjectId("66a0b78e943c840c637b4150"),
+            "background": "blue",
+            "color": "white",
+            "tag": ObjectId("5b33b21cbe4b3c0d543ee2a2"),
+            "value": "Value 2 (blue)"
+          }
+        ],
+        "variables": 2974,
+        "version": "Not Applicable"
+      },
+      {
+        "__typename": "Simulation",
+        "_id": ObjectId("66a87e07e044c24e69b45b27"),
+        "_idString": "66a87e07e044c24e69b45b27",
+        "_sort_modifiedTime": ISODate("2018-06-17T15:56:59.585Z"),
+        "archived": false,
+        "axes": [
+          "User_value",
+          "FTime",
+          "Securities"
+        ],
+        "billingInformation": {
+          "compilationEndTime": 1521630840,
+          "elements": NumberLong("12710000000"),
+          "simulationWorkerEndTime": 1522847040,
+          "startTime": 1521630840
+        },
+        "createdBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+        "createdTime": ISODate("2018-06-17T15:56:59.585Z"),
+        "deletedTime": null,
+        "economies": [
+          "US",
+          "DE",
+          "CA"
+        ],
+        "elements": "Not Applicable",
+        "frequencies": [
+          "Year",
+          "Quarter"
+        ],
+        "gridName": "Fake_Grid_Name_1",
+        "isFavorite": false,
+        "jobIds": [
+          "Fake_job_id_2"
+        ],
+        "modifiedBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+        "modifiedTime": ISODate("2018-06-16T15:56:59.585Z"),
+        "modules": [],
+        "name": "Fake_Simulation_2",
+        "numObjects": 1,
+        "path": "Fake_s3_path_4",
+        "periods": {
+          "Quarter": 7,
+          "Year": 12
+        },
+        "result": {
+          "__typename": "Simulation",
+          "_id": ObjectId("66a87e07e044c24e69b45b27"),
+          "_idString": "66a87e07e044c24e69b45b27",
+          "archived": false,
+          "axes": [
+            "User_value",
+            "FTime",
+            "Securities"
+          ],
+          "billingInformation": {
+            "compilationEndTime": 1521630840,
+            "elements": NumberLong("12710000000"),
+            "simulationWorkerEndTime": 1522847040,
+            "startTime": 1521630840
+          },
+          "createdBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+          "createdTime": ISODate("2018-06-17T15:56:59.585Z"),
+          "deletedTime": null,
+          "economies": [
+            "US",
+            "DE",
+            "CA"
+          ],
+          "elements": "Not Applicable",
+          "frequencies": [
+            "Year",
+            "Quarter"
+          ],
+          "gridName": "Fake_Grid_Name_1",
+          "jobIds": [
+            "Fake_job_id_2"
+          ],
+          "modifiedBy": "de28cad4-1789-407f-85eb-14f7920537f1",
+          "modifiedTime": ISODate("2018-06-16T15:56:59.585Z"),
+          "modules": [],
+          "name": "Fake_Simulation_2",
+          "path": "Fake_s3_path_4",
+          "periods": {
+            "Quarter": 7,
+            "Year": 12
+          },
+          "scenarios": 5,
+          "size": "Not Applicable",
+          "status": "Complete",
+          "userTagValuesResolved": [],
+          "variables": 2974,
+          "version": "Not Applicable"
+        },
+        "scenarios": 5,
+        "size": "Not Applicable",
+        "status": "Complete",
+        "userTagValuesResolved": [],
+        "variables": 2974,
+        "version": "Not Applicable"
+      }
+    ],
+    "totalCount": [
+      {
+        "count": 3
+      }
+    ]
+  }
+}

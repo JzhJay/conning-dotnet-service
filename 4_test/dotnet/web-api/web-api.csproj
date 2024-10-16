@@ -31,6 +31,7 @@
     <PackageReference Include="NetEscapades.AspNetCore.SecurityHeaders" Version="0.16.1" />
     <PackageReference Include="NetEscapades.AspNetCore.SecurityHeaders.TagHelpers" Version="0.16.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Npgsql" Version="6.0" />
     <PackageReference Include="System.IO.Pipelines" Version="4.7.0" />
     <PackageReference Include="Amazon.Lambda.AspNetCoreServer" Version="2.0.4" />
     <PackageReference Include="AWS.Logger.AspNetCore" Version="1.2.7" />

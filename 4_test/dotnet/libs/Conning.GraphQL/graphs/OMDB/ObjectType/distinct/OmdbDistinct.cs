@@ -114,7 +114,7 @@ namespace Conning.GraphQL
                     tags = gqlType.ValidOmdbDistinctFields().ToList();
                 }
 
-                var distinctForObjectType = await parent.Omdb.getDistinctTagValues(new[] {gqlType}, tags, searchText, where, path);
+                var distinctForObjectType = await parent.Omdb.getDistinctTagValuesPostgres(new[] {gqlType}, tags, searchText, where, path);
                 var distinctTags = distinctForObjectType[gqlType.Name];
                 foreach (var tag in distinctTags)
                 {

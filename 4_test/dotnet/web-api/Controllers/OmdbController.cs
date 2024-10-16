@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Conning.Db.Services;
 using Conning.GraphQL;
+using Npgsql;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;

@@ -65,6 +65,8 @@ namespace Conning.GraphQL
 
             if (_isWatchCollections)
             {
+                // TODO: Remove the following line once testing is done
+                var db = _omdb.PostgreService.baseDatabase;
                 // trigger manually for default database; May not need it if can get _watchedObjectTypes in initialization
                 this.HandleOnDatabaseConnect(_omdb.MongoService.baseDatabase);
             }
@@ -77,17 +79,17 @@ namespace Conning.GraphQL
                 return;
             }
             
-            string tenant = db.TenantName;
-            _log.LogInformation($"Start to watch collections, tenant: {tenant}, collections=[{String.Join(",", _watchedObjectTypes)}]");
-            _tasks.AddOrUpdate(tenant, (key) => RunDatabaseWatch(tenant, db.GetMongoDb(), _watchedObjectTypes), (key, oldTask) =>
-            {
-                if (!oldTask.cancelToken.IsCancellationRequested)
-                {
-                    oldTask.cancelToken.Cancel();
-                }
+            // string tenant = db.TenantName;
+            // _log.LogInformation($"Start to watch collections, tenant: {tenant}, collections=[{String.Join(",", _watchedObjectTypes)}]");
+            // _tasks.AddOrUpdate(tenant, (key) => RunDatabaseWatch(tenant, db.GetMongoDb(), _watchedObjectTypes), (key, oldTask) =>
+            // {
+            //     if (!oldTask.cancelToken.IsCancellationRequested)
+            //     {
+            //         oldTask.cancelToken.Cancel();
+            //     }
 
-                return RunDatabaseWatch(tenant, db.GetMongoDb(), _watchedObjectTypes);
-            });
+            //     return RunDatabaseWatch(tenant, db.GetMongoDb(), _watchedObjectTypes);
+            // });
         }
         
         private DbCollectionsWatch RunDatabaseWatch(string tenant, IMongoDatabase db, IEnumerable<string> watchedCollections)
@@ -134,7 +136,7 @@ namespace Conning.GraphQL
                 watchers = watchers
             };
         }
-        
+
         private async Task RunCollectionWatch(string tenant, string collectionName, IAsyncCursor<ChangeStreamDocument<BsonDocument>> cursor, CancellationTokenSource cancelToken) 
         {
             try
@@ -170,7 +172,8 @@ namespace Conning.GraphQL
                             {
                                 _log.LogWarning($"OperationType {e.OperationType} is not able to get FullDocument of document id '{id} from collection '{collectionName}' of tenant '{tenant}', the document may already be removed.");
                             }
-
+                            // We push the notification to the frontend by creating an OmdbUpdateEvent
+                            // We care about all the updates except for omdb_ui
                             var operationType = (ChangeStreamOperationType) e.OperationType;
                             var updateEvent = new OmdbUpdateEvent()
                             {

@@ -11,6 +11,7 @@ using Conning.Db.RecordUpdater;
 using MongoDB.Driver;
 using Newtonsoft.Json;
 using Microsoft.Extensions.Logging;
+using Npgsql;
 using MongoDB.Bson;
 
 namespace Conning.Db.Services
@@ -18,11 +19,14 @@ namespace Conning.Db.Services
     public class BaseDatabase
     {
         private static string _globalConnectionString = "";
+        private static string _globalPostgresConnectionString = "";
         private static Lazy<MongoClient> _singletonMongoClient = new Lazy<MongoClient>(() => new MongoClient(BaseDatabase._globalConnectionString));
-
+        private static Lazy<NpgsqlConnection> _singletonPostgresClient = new Lazy<NpgsqlConnection>(() => new NpgsqlConnection(BaseDatabase._globalPostgresConnectionString));
         public String TenantName { get; private set; }
         private MongoDbService _service;
+        private PostgreService _postgreService;
         private IMongoDatabase _database;
+        private NpgsqlConnection _sqlDatabase;
         private bool _isIdle;
         private bool _isAutoIdle;
         private int _idleTimeoutMS;
@@ -54,6 +58,43 @@ namespace Conning.Db.Services
             }
 
             this.Connect();
+        }
+
+        // TODO: 1. Retool BaseDatabase to make it as a real base class, then derive MongoDatabase and PostgreDatabase from it.
+        // TODO: 2. Create a new base class called BaseDatabaseService, which will be used to manage different database services.
+        public BaseDatabase(PostgreService service, string tenant)
+        {
+            this._postgreService = service;
+            this.TenantName = tenant;
+
+            if (this._postgreService.IsMultiTenant)
+            {
+                this._isAutoIdle = this._postgreService.IsAutoIdleTenant;
+                if (this._isAutoIdle)
+                {
+                    this._idleTimeoutMS = this._postgreService.IdleTimeoutMS;
+                    _checkIdleSubject = new Subject<DateTime>();
+                    // If users didn't execute any db actions within 2 minutes, start to calculate idle time.
+                    _checkIdleSubject.Throttle(TimeSpan.FromMilliseconds(this._idleTimeoutMS))
+                        .Subscribe(this.StartIdleCheck);
+                    _checkIdleSubject.OnNext(DateTime.Now);
+                }
+            }
+
+            this.postgreConnect();
+
+        }
+
+        private string GetPostgresConnectionString()
+        {
+            if (string.IsNullOrEmpty(BaseDatabase._globalPostgresConnectionString))
+            {
+                string connectString = "Host=localhost;Port=5433;Database=ferretdb;Username=rwuser;Password=Conning2026!";
+                BaseDatabase._globalPostgresConnectionString = connectString;
+                Console.WriteLine("IsOnPremK8s, return connectString: '{0}' directly", connectString);
+            }
+
+            return BaseDatabase._globalPostgresConnectionString;
         }
 
         private string GetConnectionString()
@@ -113,6 +154,11 @@ namespace Conning.Db.Services
             return MongoUrl.Create(connectionString).DatabaseName;
         }
 
+        public PostgreService GetPostgreService()
+        {
+            return _postgreService;
+        }
+
         public MongoDbService GetMongoDbService()
         {
             return _service;
@@ -135,6 +181,53 @@ namespace Conning.Db.Services
             }
 
             return this._database;
+        }
+
+        public NpgsqlConnection GetPostgres()
+        {
+            this._postgreService.getLogger().LogDebug("Get Tenant: " + this.TenantName);
+
+            if (this._isAutoIdle)
+            {
+                if (this._service.IsUserOperateDb()) {
+                    this._checkIdleSubject.OnNext(DateTime.Now);
+                }
+
+                if (this._isIdle)
+                {
+                    this.RestoreIdle();
+                }
+            }
+
+            return this._sqlDatabase;
+        }
+
+        protected void postgreConnect()
+        {
+            ILogger<PostgreService> log = this._postgreService.getLogger();
+            string connectionString = this.GetPostgresConnectionString();
+            NpgsqlConnection conn = BaseDatabase._singletonPostgresClient.Value;
+            try
+            {
+                conn.Open();
+            }
+            catch (NpgsqlException ex)
+            {
+                throw new Exception($"Unable to connect to PostgreSQL at {connectionString}");
+            }
+
+            //TODO: parse the database name from the postgresql connection string
+            string databasename = "ferretdb";
+            conn.ChangeDatabase(databasename);
+            this._sqlDatabase = conn;
+            log.LogInformation("Connected to PostgreSQL at {0} - Database '{1}'",
+                connectionString, databasename);
+
+            if (this.IsEventsEnabled)
+            {
+                this._postgreService.OnDbConnection?.Invoke(this);
+            }
+
         }
 
         protected void Connect()
@@ -290,12 +383,30 @@ namespace Conning.Db.Services
             this._isIdle = true;
         }
 
+        private void postgresIdle()
+        {
+            if (this.IsEventsEnabled)
+            {
+                this._postgreService.OnDbIdle?.Invoke(this);
+            }
+            this._isIdle = true;
+        }
+
         private void RestoreIdle()
         {
             this._isIdle = false;
             if (this.IsEventsEnabled)
             {
                 this._service.OnDbRestoreIdle?.Invoke(this);
+            }
+        }
+
+        private void postgresRestoreIdle()
+        {
+            this._isIdle = false;
+            if (this.IsEventsEnabled)
+            {
+                this._postgreService.OnDbRestoreIdle?.Invoke(this);
             }
         }
 
@@ -318,6 +429,12 @@ namespace Conning.Db.Services
         {
             this._service.getLogger().LogInformation($"Users of tenant '{this.TenantName}' didn't execute any actions for a long time. Turn on idle mode. Last use DB time: {lastDbUseTime}");
             this.Idle();
+        }
+
+        private void StartPostgresIdleCheck(DateTime lastDbUseTime)
+        {
+            this._postgreService.getLogger().LogInformation($"Users of tenant '{this.TenantName}' didn't execute any actions for a long time. Turn on idle mode. Last use DB time: {lastDbUseTime}");
+            this.postgresIdle();
         }
     }
 }

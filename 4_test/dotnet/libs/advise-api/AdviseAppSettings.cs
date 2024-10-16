@@ -29,6 +29,7 @@ namespace Conning {
 
 		public AuthSettings auth { get; set; }
 		public MongoSettings mongo { get; set; }
+		public PostgreSettings postgres { get; set; }
 		public AwsSettings aws { get; set; }
 		public JuliaSettings julia { get; set; }
 		public EmailSettings email { get; set; }
@@ -146,6 +147,14 @@ namespace Conning {
 			public string username { get; set; }
 			public string password { get; set; }
 		}
+	}
+
+	public class PostgreSettings
+	{
+		public string connection { get; set; }
+		public string connectionString { get; set; }
+		public bool? autoIdleTenant { get; set; }
+		public int? idleTimeoutMS { get; set; }
 	}
 
     public class GridSettings {
